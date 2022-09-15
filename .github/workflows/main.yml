@@ -1,0 +1,32 @@
+name: Release extention
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Generate release tag
+      id: tag
+      run: |
+          echo "::set-output name=release_tag::IDAC_$(date +"%Y.%m.%d_%H-%M")"
+
+    - name: Archive Release
+      uses: thedoctor0/zip-release@main
+      with:
+        type: 'zip'
+        filename: 'IDAC.zip'
+        directory: src/
+        
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files:  IDAC.zip
+        tag_name: ${{ steps.tag.outputs.release_tag }}
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
