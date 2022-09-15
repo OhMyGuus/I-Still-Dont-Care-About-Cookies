@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Скажи до побачення попередженням про cookies",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "Розширення виключене на домені $HOSTNAME$.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Ви відключили рзширення на цьому веб-сайті. Будь-ласка включіть його і перевірте чи бачите ви попередження про куки перед тим як відправити повідомлення.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Чи бажаєте ви повідомити про куки на $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Включити розширення на $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Відключити розширення на $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "Розширення не працює на цьому сайті",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Сповістити про повідомлення про куки",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Підтримайте проект",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Налаштування",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Список всіх веб-сайтів в білому списку, один сайт в ряд.",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Зберегти налаштування",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Налаштування успішно збережені.",
+    "description": "Message after saving options."
+  }
+}

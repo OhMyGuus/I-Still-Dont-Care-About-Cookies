@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Mondj búcsút a figyelmeztetéseknek!",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "A kiegészítő ki van kapcsolva itt: $HOSTNAME$",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Ezen a webhelyen ki van kapcsolva a kiegészítő. Kérlek, kapcsold be és ellenőrizd le, hogy nem látsz-e figyelmeztetést mielőtt jelentenéd.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Szeretnéd jelenteni a sütiket (cookie-kat) erről a webhelyről: $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "A kiegészítő bekapcsolása itt: $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "A kiegészítő kikapcsolása itt: $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "A kiegészítő ezen a webhelyen nem működik",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Egy süti (cookie) figyelmeztetés jelentése",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "A projekt támogatása",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Beállítások",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "A fehér-listán szereplő webhelyek, egy weboldal soronként:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Beállítások mentése",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "A beállítások sikeresen el lettek mentve!",
+    "description": "Message after saving options."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Bye-Bye zu Cookie-Warnungen.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "Die Erweiterung ist deaktiviert für $HOSTNAME$.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Sie haben die Erweiterung auf dieser Website deaktiviert. Bitte aktivieren Sie es und prüfen Sie, ob Sie die Cookie-Warnung weiterhin sehen, bevor Sie Bericht melden.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Möchten Sie eine Cookie-Warnung auf der $HOSTNAME$ melden?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Aktiviere die Erweiterung für $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Deaktiviere die Erweiterung für $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "Die Erweiterung funktioniert nicht auf dieser Website.",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Melde eine Cookie-Warnung",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Unterstütze dieses Projekt",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Einstellungen",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Liste aller Websites auf der Whitelist, eine Website pro Zeile:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Einstellungen speichern",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Optionen wurden erfolgreich gespeichert.",
+    "description": "Message after saving options."
+  }
+}

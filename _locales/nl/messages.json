@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don’t care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Zeg gedag tegen waarschuwingen.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "Extensie is uitgeschakeld op $HOSTNAME$.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "U hebt de extensie op deze website uitgeschakeld. Schakel hem weer in en controleer of u de waarschuwing ziet voordat u deze rapporteert.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Wilt u een cookiewaarschuwing op $HOSTNAME$ rapporteren?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Extensie inschakelen op $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Extensie uitschakelen op $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "Extensie werkt niet op deze website",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Een cookiewaarschuwing rapporteren",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Dit project steunen",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Instellingen",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Lijst van alle ‘whitelisted’ websites, één website per regel:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Instellingen opslaan",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Opties met succes opgeslagen.",
+    "description": "Message after saving options."
+  }
+}

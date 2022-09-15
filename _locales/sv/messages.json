@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Säg hejdå till varningar.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "Utökningen är avstängd på $HOSTNAME$.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Du har stängt av tillägget på den här webbplatsen. Var vänlig och aktivera den och titta om du ser varningen innan du rapporterar.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Vill du skicka in en webbkak-varning på $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Aktivera tillägget på $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Inaktivera tillägget på $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "Utökningen fungerar inte på den här webbplatsen",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Rapportera en webbkak-varning",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Stötta det här projektet",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Inställningar",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Alla vitlistade webbplatser, en webbplats per rad:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Spara inställningar",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Inställningarna är sparade.",
+    "description": "Message after saving options."
+  }
+}

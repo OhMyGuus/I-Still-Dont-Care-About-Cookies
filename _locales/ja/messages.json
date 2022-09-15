@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "警告にサヨナラ。",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "拡張はこのドメイン $HOSTNAME$ で無効とされています。",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "このウェブサイトでの拡張機能をあなたは無効にしています。有効化し、クッキー警告が出るか、バグ報告の前に確認してください。",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "$HOSTNAME$ でクッキー警告を出したいですか?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "$HOSTNAME$ で拡張を有効にします",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "$HOSTNAME$ で拡張を無効にします",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "拡張はこのサイトで動きません",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "クッキー警告を報告する",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "プロジェクトを支援したい",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "設定",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "無効化したいウェブサイトのリスト、1行ずつ:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "設定を保存する",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "オプションを保存しました。",
+    "description": "Message after saving options."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Adio avertismente cookie.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "Extensia este dezactivată pe $HOSTNAME$.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Ați dezactivat extensia pe acest website. Vă rugăm activați-o și verificați dacă vedeți avertismentul cookie înainte de a-l raporta.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Doriți să raportați un avertisment cookie pe $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Permite extensie pe $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Dezactivează extensie pe $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "Extensia nu funcționează pe acest website",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Raportează un avertisment cookie",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Susține acest proiect",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Setări",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Lista albă (whitelist) a tuturor website-urilor, câte un website pe fiecare rând:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Salvează setările",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Salvare reușită a opțiunii.",
+    "description": "Message after saving options."
+  }
+}

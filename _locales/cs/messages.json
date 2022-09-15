@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Rozlučte se s oznámeními.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "Rozšíření je pro $HOSTNAME$ zakázáno.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Na tomto webu jste rozšíření zakázali. Povolte jej a znovu zkontrolujte správnou funkčnost rozšíření.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Chtele nahlásit oznámení o cookies na $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Povolit rozšíření pro $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Zakázat rozšíření pro $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "Rozšíření na tomto webu nefunguje",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Nahlásit oznámení o cookies",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Podpořit tento projekt",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Nastavení",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Seznam všech povolených webů, jeden web na řádek:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Uložit nastavení",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Nastavení bylo uloženo.",
+    "description": "Message after saving options."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Adieu aux avertissements de cookies.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "L'extension est désactivée sur $HOSTNAME$.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Vous avez desactivé l'extension sur ce site. Merci de l'activer et de vérifier si vous voyez toujours l'avertissement de cookies.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Voulez vous signaler un avertissement de cookies on $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Activer l'extension sur $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Désactiver l'extension sur $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "L'extension ne fonctionne pas sur ce site",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Signaler un avertissement de cookie",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Faire un don pour supporter ce projet",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Paramètres",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Liste de tous les sites sur liste blanche, un site par ligne:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Enregistrer",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Options enregistrées avec succès.",
+    "description": "Message after saving options."
+  }
+}

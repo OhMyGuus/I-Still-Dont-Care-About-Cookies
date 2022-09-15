@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Zbohom varovania.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "Rozšírenie je na $HOSTNAME$ vypnuté.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Na tejto stránke ste rozšírenie zakázali. Prosím, povoľte ho a skontrolujte, či vidíte varovanie pred cookies pred tým, ako vytvoríte hlásenie.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Želáte si vytvoriť hlásenie o varovaní pred cookies na $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Povoliť rozšírenie na $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Zakázať rozšírenie na $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "Rozšírenie na tejto stránke nefunguje",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Nahlásiť varovanie pred cookies",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Podporte tento projekt",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Nastavenia",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Zoznam všetkých povolených stránok, jedna stránka na riadku:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Uložiť nastavenia",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Voľby úspešne uložené.",
+    "description": "Message after saving options."
+  }
+}

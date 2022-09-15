@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Si farvel til advarsler.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "Utvidelsen er avskrudd på $HOSTNAME$.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Du har skrudd av utvidelsen på dette nettstedet. Vennligst skru den på og se om du fortsatt ser infokapseladvarselen, før du melder ifra om den.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Vil du melde ifra om en infokapseladvarsel på $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Skru på utvidelsen på $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Skru av utvidelsen på $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "Utvidelsen virker ikke på dette nettstedet",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Meld ifra om en infokapseladvarsel",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Støtt dette prosjektet",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Innstillinger",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Liste over alle hvitelistede nettsteder, ett nettsted per linje:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Lagre innstillinger",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Innstillingene ble vellykket lagret.",
+    "description": "Message after saving options."
+  }
+}

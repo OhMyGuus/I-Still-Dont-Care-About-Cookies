@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Dì addio agli avvisi per i cookies.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "L'estensione è disabilitata per $HOSTNAME$.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Hai disabilitato l'estensione in questo sito web. Per favore attivala e controlla se riesci a vedere l'avviso per i cookies prima di segnalarlo.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Vuoi segnalare i cookies di $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Attiva l'estensione su $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Disattiva l'estensione su $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "L'estensione non funziona su questo sito",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Segnala un avviso sui cookies",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Supporta il progetto",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Impostazioni",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Lista di tutti i siti web nella whitelist, un sito web per riga:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Salva",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Opzioni salvate con successo.",
+    "description": "Message after saving options."
+  }
+}

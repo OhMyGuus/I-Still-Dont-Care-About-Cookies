@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Pa-pa, upozorenja.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "Ekstenzija ne radi na $HOSTNAME$.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Ugasili ste ekstenziju na ovoj web stranici. Upalite ju i provjerite vidi li se upozorenje o kolačićima prije nego prijavite web stranicu.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Želite li prijaviti upozorenje o kolačićima na $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Upali ekstenziju na $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Ugasi ekstenziju na $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "Ekstenzija ne radi na ovoj domeni",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Prijavite upozorenje o kolačićima",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Podržite ovaj projekt",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Postavke",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Popis svih dopuštenih web stranica, jedna po retku:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Snimi postavke",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Postavke su uspješno snimljene.",
+    "description": "Message after saving options."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Pamirškite įkyrius įspėjimus apie reklaminius slapukus.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "$HOSTNAME$ įskiepis yra išjungtas.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Šiam tinklapiui įskiepo veikimą Jūs esate išjungę. Prašome įjungti ir patikrinti, ar vis dar gaunate slapukų pranešimą, prieš pranešant apie klaidą.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Norite pranešti apie neveikiantį slapukų pranešimų blokavimą $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Įjungti blokavimą $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Išjungti blokavimą $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "Įskiepis šiame tinklapyje neveikia",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Praneškite apie neveikiantį blokavimą",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Paremkite šį projektą",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Nustatymai",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Sąrašas visų neliečiamų tinklapių. Vienas adresas į eilutę:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Išsaugoti nustatymus",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Nustatymai sėkmingai išsaugoti.",
+    "description": "Message after saving options."
+  }
+}

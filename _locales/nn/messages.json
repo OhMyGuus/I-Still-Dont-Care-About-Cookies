@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Seie farvel til åtvaringar.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "Utvidinga er skrudd av på $HOSTNAME$.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Du har skrudd av utvidinga på denne nettstaden. Ver vennleg og skru ho på igjen og sjå om du sjår infokapselåtvaringa, før du meldar ifrå om ho.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Vil du melde ifrå om ei infokapselåtvaring på $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Skru på utvidinga på $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Skru av utvidinga på $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "Utvidinga verkar ikkje på denne nettstaden",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Meld ifrå om ein infokapselåtvaring",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Gje støtte til dette prosjektet",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Innstillingar",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Liste over alle kvitelistade nettstader, ei nettstad kvar linje:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Lagre innstillingane",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Innstillingane blei vellykket lagra.",
+    "description": "Message after saving options."
+  }
+}

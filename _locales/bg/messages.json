@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Сбогом на предупрежденията.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "Добавката е изключена за $HOSTNAME$.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Вие сте изключили добавката за този сайт. Моля, включете я и проверете дали виждате предупреждението за бисквитки преди да го докладвате.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "Желаете ли да докладвате предупреждение за бисквитки в $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Включване на добавката за $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Изключване на добавката за $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "Добавката не работи за този сайт",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Докладвайте предупреждение за бисквитки",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Подкрепете този проект",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Настройки",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Списък на всички сайтове, на които е разрешено да показват предупреждения за бисквитки. По един сайт на ред:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Запазване на настройките",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Настройките са запазени успешно.",
+    "description": "Message after saving options."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "extensionName": {
+    "message": "I don't care about cookies",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Adi\u00f3s a los avisos.",
+    "description": "Description of the extension."
+  },
+  
+  "reportSkippedTitle": {
+    "message": "La extensi\u00f3n se encuentra desactivada en $HOSTNAME$.",
+    "description": "Tells the user it cannot report a whitelisted domain.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "reportSkippedMessage": {
+    "message": "Has desactivado la extensi\u00f3n en este sitio. Por favor, act\u00edvala y confirme que puede ver el aviso de cookies antes de reportarlo.",
+    "description": "Tells the user it cannot report a whitelisted domain."
+  },
+  
+  "reportConfirm": {
+    "message": "\u00bfDesear\u00edas reportar un aviso de cookies en $HOSTNAME$?",
+    "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuEnable": {
+    "message": "Activar extensi\u00f3n en $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuDisable": {
+    "message": "Desactivar extensi\u00f3n en $HOSTNAME$",
+    "description": "Menu option.",
+    "placeholders": {
+      "hostname" : {
+        "content" : "$1",
+        "example" : "domain.com"
+      }
+    }
+  },
+  
+  "menuIdle": {
+    "message": "La extensi\u00f3n no funciona en este sitio",
+    "description": "Menu option visible when enabling/disabling doesn't work."
+  },
+  
+  "menuReport": {
+    "message": "Reportar un aviso de cookies",
+    "description": "Menu option."
+  },
+  
+  "menuSupport": {
+    "message": "Apoyar este proyecto",
+    "description": "Menu option."
+  },
+  
+  "optionsTitle": {
+    "message": "Configuraciones",
+    "description": "Title for the options page."
+  },
+  
+  "optionsWhitelist": {
+    "message": "Lista de todos los sitios permitidos, un sitio por l\u00ednea:",
+    "description": "Options text for whitelist box."
+  },
+  
+  "optionsButton": {
+    "message": "Guardar configuraciones",
+    "description": "Options text for SAVE button."
+  },
+  
+  "optionsSaved": {
+    "message": "Preferencias guardadas correctamente.",
+    "description": "Message after saving options."
+  }
+}
