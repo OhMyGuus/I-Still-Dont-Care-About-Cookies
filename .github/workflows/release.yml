@@ -17,11 +17,8 @@ jobs:
           echo "::set-output name=release_tag::IDAC_$(date +"%Y.%m.%d_%H-%M")"
 
     - name: Archive Release
-      uses: thedoctor0/zip-release@main
-      with:
-        type: 'zip'
-        filename: 'IDAC.zip'
-        path: .\src\*
+      run: |
+        7z a 'IDAC.zip' -r './src/*'
         
     - name: Release
       uses: softprops/action-gh-release@v1
