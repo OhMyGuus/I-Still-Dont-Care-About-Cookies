@@ -21,12 +21,12 @@ jobs:
       with:
         type: 'zip'
         filename: 'IDAC.zip'
-        directory: src/
+        path: src/
         
     - name: Release
       uses: softprops/action-gh-release@v1
       with:
-        files:  IDAC.zip
+        files: 'IDAC.zip'
         tag_name: ${{ steps.tag.outputs.release_tag }}
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
