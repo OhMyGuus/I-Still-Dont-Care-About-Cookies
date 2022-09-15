@@ -10,3 +10,5 @@ This fork is based on v3.4.3 of the extention which has been disctrubated under 
 
 
 
+## Credits
+[Daniel Kladnik (LinkedIn)](https://www.linkedin.com/in/dkladnik)
