@@ -2,10 +2,8 @@ var toggle = document.getElementById('toggle'),
 	refresh = document.getElementById('refresh'),
 	report = document.getElementById('report'),
 	options = document.getElementById('options'),
-	support = document.getElementById('support'),
 	currentTab = false;
 
-support.textContent = chrome.i18n.getMessage("menuSupport");
 report.textContent = chrome.i18n.getMessage("menuReport");
 options.textContent = chrome.i18n.getMessage("optionsTitle");
 
@@ -74,13 +72,6 @@ report.addEventListener('click', function(e) {
 	});
 });
 
-support.addEventListener('click', function(e) {
-	chrome.runtime.sendMessage({
-		command: "open_support_page",
-	}, function(message) {
-		window.close();
-	});
-});
 
 options.addEventListener('click', function(e) {
 	chrome.runtime.sendMessage({

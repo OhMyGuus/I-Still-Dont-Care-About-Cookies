@@ -277,7 +277,7 @@ function reportWebsite(info, tab)
 	}
 	
 	
-	chrome.tabs.create({url:"https://www.i-dont-care-about-cookies.eu/report/"+chrome.runtime.getManifest().version+'/'+encodeURIComponent(encodeURIComponent(tab.url))});
+	chrome.tabs.create({url:"https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/issues/new"});
 }
 
 
@@ -367,36 +367,6 @@ chrome.webRequest.onResponseStarted.addListener(function(tab) {
 }, {urls: ['<all_urls>'], types: ['sub_frame']});
 
 
-// Update notification
-
-chrome.runtime.onInstalled.addListener(function(d){
-	if (d.reason == "update" && chrome.runtime.getManifest().version > d.previousVersion)
-	{
-		chrome.tabs.create({url:"https://www.i-dont-care-about-cookies.eu/whats-new/acquisition/"});
-		
-// 		chrome.notifications.create('update', {
-// 			type: "basic",
-// 			title: "Big summer update - I don't care about cookies",
-// 			message: "Support the project, please. Visit i-dont-care-about-cookies.eu",
-// 			iconUrl: "icons/48.png"/*,
-// 			buttons:[{title: chrome.i18n.getMessage("menuSupport")}]*/
-// 		});
-// 		
-// 		// chrome.notifications.onButtonClicked.addListener(function(){
-// 		//	chrome.tabs.create({url:"https://www.i-dont-care-about-cookies.eu/"});
-// 		// });
-	}
-	
-	if (d.reason == "install") {
-		chrome.storage.local.get('is_installed', function(r) {
-			if (typeof r.is_installed == 'undefined') {
-				chrome.storage.local.set({'is_installed': true}, function() {
-// 					chrome.tabs.create({url:"https://www.i-dont-care-about-cookies.eu"});
-				});
-			}
-		});
-	}
-});
 
 
 // Toolbar menu
@@ -418,15 +388,13 @@ chrome.runtime.onMessage.addListener(function(request, info, sendResponse) {
 			else if (request.command == 'toggle_extension')
 				toggleWhitelist(tab_list[request.tabId]);
 			else if (request.command == 'report_website')
-				chrome.tabs.create({url:"https://www.i-dont-care-about-cookies.eu/report/"+chrome.runtime.getManifest().version+'/'+encodeURIComponent(encodeURIComponent(tab_list[request.tabId].url))});
+				chrome.tabs.create({url:"https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/issues/new"});
 			else if (request.command == 'refresh_page')
 				chrome.tabs.executeScript(request.tabId, {code:'window.location.reload();'});
 		}
 		else
 		{
-			if (request.command == 'open_support_page')
-				chrome.tabs.create({url:"https://www.i-dont-care-about-cookies.eu/"});
-			else if (request.command == 'open_options_page')
+			 if (request.command == 'open_options_page')
 				chrome.tabs.create({url:chrome.runtime.getURL('data/options.html')});
 		}
 	}
