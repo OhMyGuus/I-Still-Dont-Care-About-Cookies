@@ -1,6 +1,5 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
+    "update_url": "https://clients2.google.com/service/update2/crx",
     "manifest_version": 2,
     "name": "__MSG_extensionName__",
     "short_name": "__MSG_extensionDescription__",
@@ -10,6 +9,12 @@
         "16": "icons/16.png",
         "48": "icons/48.png",
         "128": "icons/128.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "idcac-pub@guus.ninja",
+            "strict_min_version": "42.0"
+        }
     },
     "author": "Daniel Kladnik @ kiboke studio",
     "permissions": [
