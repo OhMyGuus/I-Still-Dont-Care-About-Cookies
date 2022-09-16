@@ -31,12 +31,26 @@ jobs:
         source: src
         filename: "IDCAC.xpi"
 
-
     - uses: actions/upload-artifact@v3
       with:
-        name: IDCAC-firefox
+        name: IDCAC-firefox-unsigned
         path: ${{ steps.web-ext-build.outputs.target }}
+
+    - name: "web-ext sign"
+      id: web-ext-sign
+      uses: kewisch/action-web-ext@v1
+      with:
+        cmd: sign
+        source: ${{ steps.web-ext-build.outputs.target }}
+        channel: unlisted
+        apiKey: ${{ secrets.AMO_SIGN_KEY }}
+        apiSecret: ${{ secrets.AMO_SIGN_SECRET }}
+        timeout: 900000
         
+    - uses: actions/upload-artifact@v3
+      with:
+        name: IDCAC-firefox-signed
+        path: ${{ steps.web-ext-sign.outputs.target }}
    # - name: "Create Release"
     #  uses: softprops/action-gh-release@v1
     #  env:
