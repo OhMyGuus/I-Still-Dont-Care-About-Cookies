@@ -5,6 +5,14 @@ var cached_rules = {},
 	tab_list = {};
 
 
+
+/* rules.js */
+try {
+    importScripts("rules.js");
+} catch (e) {
+    console.log(e);
+}
+
 // Common functions
 
 function getHostname(url, cleanup)
@@ -249,7 +257,7 @@ function blockUrlCallback(d)
 	return {cancel:false};
 }
 
-chrome.webRequest.onBeforeRequest.addListener(blockUrlCallback, {urls:["http://*/*", "https://*/*"], types:["script","stylesheet","xmlhttprequest"]}, ["blocking"]);
+//chrome.webRequest.onBeforeRequest.addListener(blockUrlCallback, {urls:["http://*/*", "https://*/*"], types:["script","stylesheet","xmlhttprequest"]}, ["blocking"]);
 
 
 // Reporting
@@ -294,17 +302,18 @@ function activateDomain(hostname, tabId, frameId)
 	let r = cached_rules[hostname],
 		status = false;
 	
-	if (typeof r.s != 'undefined') {
-		chrome.tabs.insertCSS(tabId, {code: r.s, frameId: frameId, matchAboutBlank: true, runAt: 'document_start'});
+	if (typeof cached_rule.s != 'undefined') {
+		chrome.scripting.insertCSS({ target: { tabId }, css: cached_rule.s });
 		status = true;
 	}
-	else if (typeof r.c != 'undefined') {
-		chrome.tabs.insertCSS(tabId, {code: commons[r.c], frameId: frameId, matchAboutBlank: true, runAt: 'document_start'});
+	else if (typeof cached_rule.c != 'undefined') {
+		chrome.scripting.insertCSS({ target: { tabId }, css: commons[cached_rule.c] });
+		//chrome.tabs.insertCSS(tabId, {code: commons[cached_rule.c], frameId: frameId, matchAboutBlank: true, runAt: 'document_start'});
 		status = true;
 	}
 	
-	if (typeof r.j != 'undefined') {
-		chrome.tabs.executeScript(tabId, {file: 'data/js/'+(r.j > 0 ? 'common'+r.j : hostname)+'.js', frameId: frameId, matchAboutBlank: true, runAt: 'document_end'});
+	if (typeof cached_rule.j != 'undefined') {
+		chrome.scripting.executeScript({target: { tabId, frameIds: [frameId || 0]},  files:['data/js/'+(cached_rule.j > 0 ? 'common'+cached_rule.j : hostname)+'.js'] }, function() {});
 		status = true;
 	}
 	
@@ -321,7 +330,7 @@ function doTheMagic(tabId, frameId, anotherTry)
 		return;
 	
 	// Common CSS rules
-	chrome.tabs.insertCSS(tabId, {file: "data/css/common.css", frameId: frameId || 0, matchAboutBlank: true, runAt: 'document_start'}, function() {
+	chrome.scripting.insertCSS({ target: { tabId }, files: ["data/css/common.css"]}, function() {
 	
 		// A failure? Retry.
 		
@@ -336,7 +345,7 @@ function doTheMagic(tabId, frameId, anotherTry)
 		
 		
 		// Common social embeds
-		chrome.tabs.executeScript(tabId, {file:'data/js/embeds.js', frameId: frameId || 0, matchAboutBlank: true, runAt: 'document_end'}, function() {});
+		chrome.scripting.executeScript({target: { tabId, frameIds: [frameId || 0]},  files:['data/js/embeds.js'] }, function() {});
 		
 		if (activateDomain(tab_list[tabId].hostname, tabId, frameId || 0))
 			return;
@@ -346,7 +355,7 @@ function doTheMagic(tabId, frameId, anotherTry)
 				return true;
 		
 		// Common JS rules when custom rules don't exist
-		chrome.tabs.executeScript(tabId, {file:'data/js/common.js', frameId: frameId || 0, matchAboutBlank: true, runAt: 'document_end'}, function() {});
+		chrome.scripting.executeScript({target: { tabId, frameIds: [frameId || 0]},  files:['data/js/common.js'] }, function() {});
 	});
 }
 
@@ -390,7 +399,7 @@ chrome.runtime.onMessage.addListener(function(request, info, sendResponse) {
 			else if (request.command == 'report_website')
 				chrome.tabs.create({url:"https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/issues/new"});
 			else if (request.command == 'refresh_page')
-				chrome.tabs.executeScript(request.tabId, {code:'window.location.reload();'});
+		  		chrome.scripting.executeScript({target: { tabId},func: () => { window.location.reload();}});
 		}
 		else
 		{
