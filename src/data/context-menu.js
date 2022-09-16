@@ -299,9 +299,13 @@ function activateDomain(hostname, tabId, frameId)
 	if (!cached_rules[hostname])
 		return false;
 	
-	let r = cached_rules[hostname],
+	let cached_rule = cached_rules[hostname],
 		status = false;
 	
+	// cached_rule.s = Custom css for webpage
+	// cached_rule.c = Common css for webpage
+	// cached_rule.j = Common js  for webpage
+
 	if (typeof cached_rule.s != 'undefined') {
 		chrome.scripting.insertCSS({ target: { tabId }, css: cached_rule.s });
 		status = true;
