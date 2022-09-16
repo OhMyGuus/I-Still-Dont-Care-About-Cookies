@@ -403,7 +403,7 @@ chrome.runtime.onMessage.addListener(function(request, info, sendResponse) {
 			else if (request.command == 'report_website')
 				chrome.tabs.create({url:"https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/issues/new"});
 			else if (request.command == 'refresh_page')
-		  		chrome.scripting.executeScript({target: { tabId},func: () => { window.location.reload();}});
+		  		chrome.scripting.executeScript({target: { tabId: request.tabId },func: () => { window.location.reload();}});
 		}
 		else
 		{
