@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  unsigned:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -30,22 +30,11 @@ jobs:
         cmd: build
         source: src
 
-    - name: "web-ext sign"
-      id: web-ext-sign
-      uses: kewisch/action-web-ext@v1
-      with:
-        cmd: sign
-        source: ${{ steps.web-ext-build.outputs.target }}
-        channel: unlisted
-        apiKey: ${{ secrets.AMO_SIGN_KEY }}
-        apiSecret: ${{ secrets.AMO_SIGN_SECRET }}
-        timeout: 900000
-
 
     - uses: actions/upload-artifact@v3
       with:
         name: IDCAC-firefox
-        path: ${{ steps.web-ext-sign.outputs.target }}
+        path: ${{ steps.web-ext-build.outputs.target }}
         
    # - name: "Create Release"
     #  uses: softprops/action-gh-release@v1
