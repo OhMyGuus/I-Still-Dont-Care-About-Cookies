@@ -35,7 +35,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: IDCAC-firefox
-        path: "IDCAC.xpi"
+        path: ${{ steps.web-ext-build.outputs.target }}
         
    # - name: "Create Release"
     #  uses: softprops/action-gh-release@v1
