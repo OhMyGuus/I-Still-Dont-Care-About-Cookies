@@ -16,7 +16,7 @@ jobs:
 
     - name: Archive Release
       run: |
-        7z a 'IDCAC.zip' -r './src/*'
+        7z a 'IDCAC-chrome.zip' -r './src/*'
 
     - uses: actions/upload-artifact@v3
       with:
@@ -54,7 +54,7 @@ jobs:
 
     - name: Rename xpi
       run: |
-        mv ${{ steps.web-ext-sign.outputs.target }} 'IDCAC-firefox.xpi'
+        mv ${{ steps.web-ext-sign.outputs.target }} IDCAC-firefox.xpi
 
     - name: "Create Release"
       uses: softprops/action-gh-release@v1
@@ -63,8 +63,8 @@ jobs:
       with:
           draft: true
           files: |
-            'IDCAC-chrome.zip'
-            'IDCAC-firefox.xpi'
+            IDCAC-chrome.zip
+            IDCAC-firefox.xpi
             
             
         
