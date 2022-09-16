@@ -2,11 +2,9 @@ name: Release extention
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
 jobs:
-  build:
+  unsigned:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -18,12 +16,43 @@ jobs:
 
     - name: Archive Release
       run: |
-        7z a 'IDAC.zip' -r './src/*'
-        
-    - name: Release
-      uses: softprops/action-gh-release@v1
+        7z a 'IDCAC.zip' -r './src/*'
+
+    - uses: actions/upload-artifact@v3
       with:
-        files: 'IDAC.zip'
-        tag_name: ${{ steps.tag.outputs.release_tag }}
-      env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        name: IDCAC-chrome
+        path: 'IDCAC.zip'
+        
+    - name: "web-ext build"
+      id: web-ext-build
+      uses: kewisch/action-web-ext@v1
+      with:
+        cmd: build
+        source: src
+
+    - name: "web-ext sign"
+      id: web-ext-sign
+      uses: kewisch/action-web-ext@v1
+      with:
+        cmd: sign
+        source: ${{ steps.web-ext-build.outputs.target }}
+        channel: unlisted
+        apiKey: ${{ secrets.AMO_SIGN_KEY }}
+        apiSecret: ${{ secrets.AMO_SIGN_SECRET }}
+        timeout: 900000
+
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: IDCAC-firefox
+        path: ${{ steps.web-ext-sign.outputs.target }}
+        
+   # - name: "Create Release"
+    #  uses: softprops/action-gh-release@v1
+    #  env:
+    #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #  with:
+    #     files: ${{ steps.web-ext-sign.outputs.target }}
+        
+
+          
