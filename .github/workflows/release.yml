@@ -54,18 +54,19 @@ jobs:
 
     - name: Rename xpi
       run: |
-      mv ${{ steps.web-ext-sign.outputs.target }} 'IDCAC-firefox.xpi'
+        mv ${{ steps.web-ext-sign.outputs.target }} 'IDCAC-firefox.xpi'
 
-   - name: "Create Release"
-     uses: softprops/action-gh-release@v1
-     draft: true
-     env:
-       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-     with:
-        files: |
-          'IDCAC-chrome.zip'
-          'IDCAC-firefox.xpi'
-          
+    - name: "Create Release"
+      uses: softprops/action-gh-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+          draft: true
+          files: |
+            'IDCAC-chrome.zip'
+            'IDCAC-firefox.xpi'
+            
+            
         
 
           
