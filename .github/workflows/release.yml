@@ -21,7 +21,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: IDCAC-chrome
-        path: 'IDCAC.zip'
+        path: 'IDCAC-chrome.zip'
         
     - name: "web-ext build"
       id: web-ext-build
@@ -51,12 +51,21 @@ jobs:
       with:
         name: IDCAC-firefox-signed
         path: ${{ steps.web-ext-sign.outputs.target }}
-   # - name: "Create Release"
-    #  uses: softprops/action-gh-release@v1
-    #  env:
-    #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #  with:
-    #     files: ${{ steps.web-ext-sign.outputs.target }}
+
+    - name: Rename xpi
+      run: |
+      mv ${{ steps.web-ext-sign.outputs.target }} 'IDCAC-firefox.xpi'
+
+   - name: "Create Release"
+     uses: softprops/action-gh-release@v1
+     draft: true
+     env:
+       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+     with:
+        files: |
+          'IDCAC-chrome.zip'
+          'IDCAC-firefox.xpi'
+          
         
 
           
