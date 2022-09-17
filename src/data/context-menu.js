@@ -4,6 +4,7 @@ var cached_rules = {},
 	whitelisted_domains = {},
 	tab_list = {};
 
+let lastDeclarativeNetRuleId = 1;
 
 
 /* rules.js */
@@ -52,7 +53,7 @@ async function UpdateWhitelistRules() {
 			"priority": 1,
 			"action": { "type": "allow" },
 			"condition": {
-				"urlFilter": "*", "resourceTypes": ["main_frame", "script"],
+				"urlFilter": "*", "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
 				"initiatorDomains": [v[0]]
 			}
 		}
@@ -62,7 +63,6 @@ async function UpdateWhitelistRules() {
 {
 			addRules,
 			removeRuleIds: previousRules
-
 	});
 }
 
