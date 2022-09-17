@@ -1,6 +1,5 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
+    "update_url": "https://clients2.google.com/service/update2/crx",
     "manifest_version": 3,
     "name": "__MSG_extensionName__",
     "short_name": "__MSG_extensionDescription__",
@@ -12,7 +11,7 @@
         "128": "icons/128.png"
     },
     "author": "Daniel Kladnik @ kiboke studio",
-    "permissions": [
+       "permissions": [
         "tabs",
         "storage",
         "http://*/*",
@@ -20,15 +19,14 @@
         "notifications",
         "webRequest",
         "declarativeNetRequestWithHostAccess",
-        "webRequestBlocking",
         "webNavigation",
         "scripting"
     ],
     "host_permissions": [
         "*://*/*"
-      ],
+    ],
     "background": {
-        "service_worker" :  "data/context-menu.js"
+        "service_worker": "data/context-menu.js"
     },
     "options_ui": {
         "page": "data/options.html"
@@ -39,5 +37,14 @@
             "16": "icons/16.png",
             "32": "icons/32.png"
         }
+    },
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
     }
 }
