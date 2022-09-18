@@ -22,6 +22,11 @@ jobs:
       with:
         name: IDCAC-chrome
         path: 'IDCAC-chrome.zip'
+
+    - name: Move to manifest v2
+      run: |
+        mv src/manifest.json src/manifest_v3.json 
+        mv src/manifest_v2.json src/manifest.json 
         
     - name: "web-ext build"
       id: web-ext-build
