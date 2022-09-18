@@ -7,11 +7,13 @@ var cached_rules = {},
 
 const isManifestV3 = chrome.runtime.getManifest().manifest_version == 3;
 
-/* rules.js */
-try {
-    importScripts("rules.js");
-} catch (e) {
-    console.log(e);
+if (isManifestV3) {
+	/* rules.js */
+	try {
+		importScripts("rules.js");
+	} catch (e) {
+		console.log(e);
+	}
 }
 
 // Common functions
@@ -35,15 +37,17 @@ function getHostname(url, cleanup)
 
 
 // Whitelisting
-async function updateWhitelist() {
+function updateWhitelist() {
 	lastDeclarativeNetRuleId = 1;
-	let storedWhitelist = await chrome.storage.local.get('whitelisted_domains');
-	if (typeof storedWhitelist.whitelisted_domains != 'undefined')
-		whitelisted_domains = storedWhitelist.whitelisted_domains;
+	chrome.storage.local.get('whitelisted_domains', async (storedWhitelist) => {
 
-	if (isManifestV3) {
-		await UpdateWhitelistRules();
-	}
+		if (typeof storedWhitelist.whitelisted_domains != 'undefined')
+			whitelisted_domains = storedWhitelist.whitelisted_domains;
+
+		if (isManifestV3) {
+			await UpdateWhitelistRules();
+		}
+	});
 }
 
 async function UpdateWhitelistRules() {
@@ -75,7 +79,7 @@ updateWhitelist();
 
 chrome.runtime.onMessage.addListener(async function(request, info){
 	if (request == 'update_whitelist')
-		await updateWhitelist();
+		updateWhitelist();
 });
 
 function isWhitelisted(tab)
@@ -413,7 +417,7 @@ chrome.webRequest.onResponseStarted.addListener(function(tab) {
 
 // Toolbar menu
 
-chrome.runtime.onMessage.addListener(async function(request, info, sendResponse) {
+chrome.runtime.onMessage.addListener(function(request, info, sendResponse) {
 	if (typeof request == 'object')
 	{
 		if (request.tabId && tab_list[request.tabId])
@@ -424,11 +428,11 @@ chrome.runtime.onMessage.addListener(async function(request, info, sendResponse)
 				
 				if (response.tab.whitelisted)
 					response.tab.hostname = getWhitelistedDomain(tab_list[request.tabId]);
-				
+
 				sendResponse(response);
 			}
 			else if (request.command == 'toggle_extension')
-				await toggleWhitelist(tab_list[request.tabId]);
+				 toggleWhitelist(tab_list[request.tabId]);
 			else if (request.command == 'report_website')
 				chrome.tabs.create({url:"https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/issues/new"});
 			else if (request.command == 'refresh_page')
