@@ -2,9 +2,8 @@
 
 var cached_rules = {},
 	whitelisted_domains = {},
-	tab_list = {};
-
-let lastDeclarativeNetRuleId = 1;
+	tab_list = {},
+	lastDeclarativeNetRuleId = 1;
 
 
 /* rules.js */
@@ -60,10 +59,10 @@ async function UpdateWhitelistRules() {
 	});
 
 	chrome.declarativeNetRequest.updateDynamicRules(
-{
+		{
 			addRules,
 			removeRuleIds: previousRules
-	});
+		});
 }
 
 updateWhitelist();
@@ -188,100 +187,6 @@ chrome.runtime.onInstalled.addListener(function(d){
 		recreateTabList();
 });
 
-
-// URL blocking
-
-function blockUrlCallback(d)
-{
-	// Cached request: find the appropriate tab
-	
-	if (d.tabId == -1 && d.initiator) {
-		let hostname = getHostname(d.initiator, true);
-		
-		for (let tabId in tab_list) {
-			if (tab_list[tabId].hostname == getHostname(d.initiator, true)) {
-				d.tabId = parseInt(tabId);
-				break;
-			}
-		}
-	}
-	
-	
-	if (tab_list[d.tabId] && !tab_list[d.tabId].whitelisted && d.url)
-	{
-		var clean_url = d.url.split('?')[0];
-		
-		
-		// To shorten the checklist, many filters are grouped by keywords
-		
-		for (var group in block_urls.common_groups)
-		{
-			if (d.url.indexOf(group) > -1)
-			{
-				var group_filters = block_urls.common_groups[group];
-				
-				for (var i in group_filters)
-				{
-					if ((group_filters[i].q && d.url.indexOf(group_filters[i].r) > -1) || (!group_filters[i].q && clean_url.indexOf(group_filters[i].r) > -1))
-					{
-						// Check for exceptions
-						
-						if (group_filters[i].e && tab_list[d.tabId].host_levels.length > 0)
-							for (var level in tab_list[d.tabId].host_levels)
-								for (var exception in group_filters[i].e)
-									if (group_filters[i].e[exception] == tab_list[d.tabId].host_levels[level])
-										return {cancel:false};
-						
-						return {cancel:true};
-					}
-				}
-			}
-		}
-		
-		
-		// Check ungrouped filters
-		
-		var group_filters = block_urls.common;
-		
-		for (var i in group_filters)
-		{
-			if ((group_filters[i].q && d.url.indexOf(group_filters[i].r) > -1) || (!group_filters[i].q && clean_url.indexOf(group_filters[i].r) > -1))
-			{
-				// Check for exceptions
-				
-				if (group_filters[i].e && tab_list[d.tabId].host_levels.length > 0)
-					for (var level in tab_list[d.tabId].host_levels)
-						for (var exception in group_filters[i].e)
-							if (group_filters[i].e[exception] == tab_list[d.tabId].host_levels[level])
-								return {cancel:false};
-				
-				return {cancel:true};
-			}
-		}
-		
-		
-		// Site specific filters
-		
-		if (d.tabId > -1 && tab_list[d.tabId].host_levels.length > 0)
-		{
-			for (var level in tab_list[d.tabId].host_levels)
-			{
-				if (block_urls.specific[tab_list[d.tabId].host_levels[level]])
-				{
-					var rules = block_urls.specific[tab_list[d.tabId].host_levels[level]];
-					
-					for (var i in rules)
-						if (d.url.indexOf(rules[i]) > -1)
-							return {cancel:true};
-				}
-			}
-		}
-	}
-	
-	return {cancel:false};
-}
-
-//chrome.webRequest.onBeforeRequest.addListener(blockUrlCallback, {urls:["http://*/*", "https://*/*"], types:["script","stylesheet","xmlhttprequest"]}, ["blocking"]);
 
 
 // Reporting
