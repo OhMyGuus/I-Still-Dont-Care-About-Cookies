@@ -1,0 +1,47 @@
+name: Build extension
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Move to manifest v3
+      run: |
+        cp src/manifest_v2.json src/manifest.json 
+
+    - name: Archive Release
+      run: |
+        7z a 'IDCAC-chrome.zip' -r './src/*'
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: IDCAC-chrome
+        path: 'IDCAC-chrome.zip'
+
+    - name: Move to manifest v2
+      run: |
+        rm src/manifest.json
+        cp src/manifest_v2.json src/manifest.json 
+        
+    - name: "web-ext build"
+      id: web-ext-build
+      uses: kewisch/action-web-ext@v1
+      with:
+        cmd: build
+        source: src
+        filename: "IDCAC.xpi"
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: IDCAC-firefox-unsigned
+        path: ${{ steps.web-ext-build.outputs.target }}
+
+            
+            
+        
+
+          

@@ -1,4 +1,4 @@
-name: Release extention
+name: Release extension
 
 on:
   workflow_dispatch:
@@ -14,6 +14,10 @@ jobs:
       run: |
           echo "::set-output name=release_tag::IDAC_$(date +"%Y.%m.%d_%H-%M")"
 
+    - name: Move to manifest v3
+      run: |
+        cp src/manifest_v2.json src/manifest.json 
+
     - name: Archive Release
       run: |
         7z a 'IDCAC-chrome.zip' -r './src/*'
@@ -25,8 +29,8 @@ jobs:
 
     - name: Move to manifest v2
       run: |
-        mv src/manifest.json src/manifest_v3.json 
-        mv src/manifest_v2.json src/manifest.json 
+        rm src/manifest.json
+        cp src/manifest_v2.json src/manifest.json 
         
     - name: "web-ext build"
       id: web-ext-build
