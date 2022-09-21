@@ -16,7 +16,7 @@
             "strict_min_version": "42.0"
         }
     },
-    "author": "Daniel Kladnik @ kiboke studio",
+    "author": "OhMyGuus and Community (ex-Daniel Kladnik)",
     "permissions": [
         "tabs",
         "storage",
