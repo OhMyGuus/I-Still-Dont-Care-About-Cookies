@@ -28,6 +28,7 @@
     ],
     "background": {
         "scripts": [
+            "data/rules.js",
             "data/context-menu.js"
         ]
     },
