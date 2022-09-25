@@ -11,7 +11,7 @@ jobs:
 
     - name: Move to manifest v3
       run: |
-        cp src/manifest_v2.json src/manifest.json 
+        cp src/manifest_v3.json src/manifest.json 
 
     - name: Archive Release
       run: |
