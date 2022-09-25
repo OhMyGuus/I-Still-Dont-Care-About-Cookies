@@ -1,4 +1,4 @@
-name: Release listed
+name: Release unlisted
 
 on:
   workflow_dispatch:
@@ -21,7 +21,7 @@ jobs:
     - name: Archive Release
       run: |
         7z a 'IDCAC-chrome.zip' -r './src/*'
-
+        
     - uses: actions/upload-artifact@v3
       with:
         name: IDCAC-chrome
@@ -56,7 +56,7 @@ jobs:
       with:
         cmd: sign
         source: ${{ steps.web-ext-build.outputs.target }}
-        channel: listed
+        channel: unlisted
         apiKey: ${{ secrets.AMO_SIGN_KEY }}
         apiSecret: ${{ secrets.AMO_SIGN_SECRET }}
         timeout: 900000
