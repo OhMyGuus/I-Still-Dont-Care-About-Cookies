@@ -447,7 +447,7 @@ chrome.runtime.onMessage.addListener(function(request, info, sendResponse) {
 			else if (request.command == 'toggle_extension')
 				 toggleWhitelist(tab_list[request.tabId]);
 			else if (request.command == 'report_website')
-				chrome.tabs.create({url:"https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/issues/new"});
+				chrome.tabs.create({ url: "https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/issues/new?assignees=OhMyGuus&labels=Website+request&template=site-request.md&title=%5BREQ%5D+Website+request%3A+" + encodeURIComponent(tab_list[request.tabId].url) });
 			else if (request.command == 'refresh_page')
 				executeScript({ tabId: request.tabId, func: () => { window.location.reload(); } });
 		}
