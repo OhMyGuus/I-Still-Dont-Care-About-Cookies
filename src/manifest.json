@@ -4,7 +4,7 @@
     "name": "__MSG_extensionName__",
     "short_name": "__MSG_extensionDescription__",
     "default_locale": "en",
-    "version": "3.4.3",
+    "version": "1.0.0",
     "icons": {
         "16": "icons/16.png",
         "48": "icons/48.png",
@@ -16,7 +16,7 @@
             "strict_min_version": "42.0"
         }
     },
-    "author": "Daniel Kladnik @ kiboke studio",
+    "author": "OhMyGuus and Community (originally Daniel Kladnik)",
     "permissions": [
         "tabs",
         "storage",
