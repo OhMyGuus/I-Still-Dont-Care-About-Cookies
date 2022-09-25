@@ -13,14 +13,10 @@ jobs:
       run: |
         cp src/manifest_v3.json src/manifest.json 
 
-    - name: Archive Release
-      run: |
-        7z a 'IDCAC-chrome.zip' -r './src/*'
-
     - uses: actions/upload-artifact@v3
       with:
         name: IDCAC-chrome
-        path: 'IDCAC-chrome.zip'
+        path: ./src/*
 
     - name: Move to manifest v2
       run: |
@@ -34,6 +30,11 @@ jobs:
         cmd: build
         source: src
         filename: "IDCAC.xpi"
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: IDCAC-firefox-source
+        path: ./src/*
 
     - uses: actions/upload-artifact@v3
       with:
