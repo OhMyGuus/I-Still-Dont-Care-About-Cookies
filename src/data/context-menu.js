@@ -3,6 +3,7 @@
 var cached_rules = {},
 	whitelisted_domains = {},
 	tab_list = {},
+	xml_tabs = {};
 	lastDeclarativeNetRuleId = 1;
 
 const isManifestV3 = chrome.runtime.getManifest().manifest_version == 3;
@@ -292,6 +293,20 @@ function blockUrlCallback(d)
 }
 if (!isManifestV3) {
 	chrome.webRequest.onBeforeRequest.addListener(blockUrlCallback, { urls: ["http://*/*", "https://*/*"], types: ["script", "stylesheet", "xmlhttprequest"] }, ["blocking"]);
+
+
+	chrome.webRequest.onHeadersReceived.addListener(function(d) {
+		if (tab_list[d.tabId]) {
+			d.responseHeaders.forEach(function(h) {
+				if (h.name == "Content-Type" || h.name == "content-type") {
+					xml_tabs[d.tabId] = h.value.indexOf("/xml") > -1;
+				}
+			});
+		}
+		
+		return {cancel:false};
+	}, {urls:["http://*/*", "https://*/*"], types:["main_frame"]}, ["blocking", "responseHeaders"]);
+	
 }
 // Reporting
 
@@ -340,20 +355,19 @@ function activateDomain(hostname, tabId, frameId)
 	// cached_rule.j = Common js  for webpage
 
 	if (typeof cached_rule.s != 'undefined') {
-		chrome.scripting.insertCSS({ target: { tabId }, css: cached_rule.s });
+		insertCSS({ tabId, frameId: frameId || 0, css: cached_rule.s });
 		status = true;
 	}
 	else if (typeof cached_rule.c != 'undefined') {
-		chrome.scripting.insertCSS({ target: { tabId }, css: commons[cached_rule.c] });
-		//chrome.tabs.insertCSS(tabId, {code: commons[cached_rule.c], frameId: frameId, matchAboutBlank: true, runAt: 'document_start'});
+		insertCSS({ tabId, frameId: frameId || 0, css: commons[cached_rule.c] });
 		status = true;
 	}
-	
+
 	if (typeof cached_rule.j != 'undefined') {
-		chrome.scripting.executeScript({target: { tabId, frameIds: [frameId || 0]},  files:['data/js/'+(cached_rule.j > 0 ? 'common'+cached_rule.j : hostname)+'.js'] }, function() {});
+		executeScript({ tabId, frameId, file: 'data/js/' + (cached_rule.j > 0 ? 'common' + cached_rule.j : hostname) + '.js' });
 		status = true;
 	}
-	
+
 	return status;
 }
 
@@ -365,34 +379,33 @@ function doTheMagic(tabId, frameId, anotherTry)
 	
 	if (tab_list[tabId].whitelisted)
 		return;
-	
+
 	// Common CSS rules
-	chrome.scripting.insertCSS({ target: { tabId }, files: ["data/css/common.css"]}, function() {
-	
+	insertCSS({ tabId, frameId: frameId || 0, file: "data/css/common.css" }, function () {
 		// A failure? Retry.
-		
 		if (chrome.runtime.lastError) {
+			console.log(chrome.runtime.lastError);
+
 			let currentTry = (anotherTry || 1);
-			
+
 			if (currentTry == 5)
 				return;
-			
+
 			return doTheMagic(tabId, frameId || 0, currentTry + 1);
 		}
-		
-		
+
 		// Common social embeds
-		chrome.scripting.executeScript({target: { tabId, frameIds: [frameId || 0]},  files:['data/js/embeds.js'] }, function() {});
-		
+		executeScript({ tabId, frameId, file: 'data/js/embeds.js' });
+
 		if (activateDomain(tab_list[tabId].hostname, tabId, frameId || 0))
 			return;
-		
+
 		for (var level in tab_list[tabId].host_levels)
 			if (activateDomain(tab_list[tabId].host_levels[level], tabId, frameId || 0))
 				return true;
-		
+
 		// Common JS rules when custom rules don't exist
-		chrome.scripting.executeScript({target: { tabId, frameIds: [frameId || 0]},  files:['data/js/common.js'] }, function() {});
+		executeScript({ tabId, frameId, file: 'data/js/common.js' });
 	});
 }
 
@@ -436,7 +449,7 @@ chrome.runtime.onMessage.addListener(function(request, info, sendResponse) {
 			else if (request.command == 'report_website')
 				chrome.tabs.create({url:"https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/issues/new"});
 			else if (request.command == 'refresh_page')
-		  		chrome.scripting.executeScript({target: { tabId: request.tabId },func: () => { window.location.reload();}});
+				executeScript({ tabId: request.tabId, func: () => { window.location.reload(); } });
 		}
 		else
 		{
@@ -445,3 +458,26 @@ chrome.runtime.onMessage.addListener(function(request, info, sendResponse) {
 		}
 	}
 });
+
+
+
+function insertCSS(injection, callback) {
+	let { tabId, css, file, frameId } = injection
+
+	if (isManifestV3) {
+		chrome.scripting.insertCSS({ target: { tabId: tabId, frameIds: [frameId || 0] }, css: css, files: file ? [file] : undefined }, callback);
+	} else {
+		chrome.tabs.insertCSS(tabId, { file, code: css, frameId: frameId || 0, runAt: xml_tabs[tabId] ? 'document_idle' : 'document_start' }, callback)
+	}
+}
+
+function executeScript(injection, callback) {
+	let { tabId, func, file, frameId } = injection
+	if (isManifestV3) {
+		// manifest v3 
+		chrome.scripting.executeScript({ target: { tabId, frameIds: [frameId || 0] }, files: file ? [file] : undefined, func }, callback);
+	} else {
+		// manifest v2
+		chrome.tabs.executeScript(tabId, { file, frameId: frameId || 0, code: func == undefined ? undefined : "(" + func.toString() + ")();", runAt: xml_tabs[tabId] ? 'document_idle' : 'document_end' }, callback);
+	}
+}
