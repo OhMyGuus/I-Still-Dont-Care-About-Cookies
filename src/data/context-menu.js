@@ -358,7 +358,8 @@ function activateDomain(hostname, tabId, frameId)
 		insertCSS({ tabId, frameId: frameId || 0, css: cached_rule.s });
 		status = true;
 	}
-	else if (typeof cached_rule.c != 'undefined') {
+	
+	if (typeof cached_rule.c != 'undefined') {
 		insertCSS({ tabId, frameId: frameId || 0, css: commons[cached_rule.c] });
 		status = true;
 	}

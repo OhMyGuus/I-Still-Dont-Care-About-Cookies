@@ -266,6 +266,7 @@ function getSelector(host) {
 		case 'capital.fr':
 		case 'sky.com':
 		case 'welt.de':
+		case 'zeit.de':
 			return '.sp_choice_type_11';
 		
 		case 'helpster.de': return '.message-column > p > .sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT';
@@ -3021,7 +3022,6 @@ function getSelector(host) {
 		case 'axa-im.fr': return _sl('.gh-accept-cookie-disclaimer');
 		case 'gruener-punkt.de': return _sl('#cookie-modal[style*="block"] input[data-cookie="all"]');
 		case 'coolmath.com': return _sl('.gdpr-overlay-container[style*="visible"] .accept-all-cookies');
-		case 'zeit.de': return _sl('#main[data-ct-area="decision-main"] .box__accbtn button');
 		case 'm.bancopopular.com': return _sl('#popup-cookieinfo:not(.hide) #btn-dmp-continue');
 		case 'stat.si': return _sl('.surs-cookies-wrapper[style*="block"] .surs-cookie-button-yes');
 		case 'faidatehobby.it': return _sl('#cl_modal .btn_main_yes');
