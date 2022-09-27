@@ -232,6 +232,7 @@ function getE(h)
 		case 'restegourmet.de': return ['consent_accepted=1'];
 		case 'sachsenenergie.de': return ['cookiesAccepted=true'];
 		case 'cire.pl': return ['APP_A_COOKIES_TERMS_AND_CONDITIONS=true', 'APP_A_COOKIES_FUNCTIONAL=false', 'APP_A_COOKIES_PERFORMANCE=false', 'APP_A_COOKIES_MARKETING=false', 'APP_A_COOKIES_POLICY=true'];
+		case 'kaptainmusic.com': return ['mandatoryCookiesAccepted=false'];
 	}
 	
 	
