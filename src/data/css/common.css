@@ -1,10 +1,59 @@
-html.cookie-notification-active, html.consent-bar-push-large, body.consent-bar-push-large, body.cookiepush, body.with-eu-cookie-guideline, body.gh-cookieb-active #gh.gh-cookieb-active, html.npo_cookieBar body, body.cookiewall, body.cookie-guard, body.with-cookie-hint, body.with-cookie-bar, html.has-cookie-bar, body.with-cookie-hint, body.privacypopup-open {margin-top:0 !important}
-#cookiesPanel ~ #header, #CpHTMLCookieBar_siteWrapper, body.show-cookie-policy-info {top:0 !important}
-body.needsCookieAcceptance, body.cookie-not-set, body.cookie_privacy_info, html.cookie body, body.has-cookie-banner, body.with-cookie-alert, body.body--is-alerted, body.ct-ultimate-gdpr-cookie-topPanel-padding {padding-top:0 !important}
-html.with-cookie-hint, body.gh-cookieb-active #gh-gb.gh-cookieb-active {border-top:0 !important}
-html.with-cookie-popup, html.with-cookie-popup body, body.page_cookieconfirmation, body.cookieoverlay-is-open, body.cookiewall-active, body.qc-cmp-ui-showing, body.freezePage, html.sp-message-open, body.cookie_banner_prevent_scroll, body.cli-barmodal-open {overflow:visible !important}
-body.cookie-consent-checking, html.sp-message-open {position:static !important}
-#cookieNoticeModal.vrm-reveal[style*="block"], div[id^="xsp_message_container_"] {visibility:hidden; z-index:-1 !important}
+html.cookie-notification-active,
+html.consent-bar-push-large,
+body.consent-bar-push-large,
+body.cookiepush,
+body.with-eu-cookie-guideline,
+body.gh-cookieb-active #gh.gh-cookieb-active,
+html.npo_cookieBar body,
+body.cookiewall,
+body.cookie-guard,
+body.with-cookie-hint,
+body.with-cookie-bar,
+html.has-cookie-bar,
+body.with-cookie-hint,
+body.privacypopup-open {
+  margin-top: 0 !important;
+}
+#cookiesPanel ~ #header,
+#CpHTMLCookieBar_siteWrapper,
+body.show-cookie-policy-info {
+  top: 0 !important;
+}
+body.needsCookieAcceptance,
+body.cookie-not-set,
+body.cookie_privacy_info,
+html.cookie body,
+body.has-cookie-banner,
+body.with-cookie-alert,
+body.body--is-alerted,
+body.ct-ultimate-gdpr-cookie-topPanel-padding {
+  padding-top: 0 !important;
+}
+html.with-cookie-hint,
+body.gh-cookieb-active #gh-gb.gh-cookieb-active {
+  border-top: 0 !important;
+}
+html.with-cookie-popup,
+html.with-cookie-popup body,
+body.page_cookieconfirmation,
+body.cookieoverlay-is-open,
+body.cookiewall-active,
+body.qc-cmp-ui-showing,
+body.freezePage,
+html.sp-message-open,
+body.cookie_banner_prevent_scroll,
+body.cli-barmodal-open {
+  overflow: visible !important;
+}
+body.cookie-consent-checking,
+html.sp-message-open {
+  position: static !important;
+}
+#cookieNoticeModal.vrm-reveal[style*="block"],
+div[id^="xsp_message_container_"] {
+  visibility: hidden;
+  z-index: -1 !important;
+}
 
 #stickyCookieBar,
 .cookiebar-bar:not(body):not(html),
@@ -505,10 +554,14 @@ div[aria-describedby="dialog-eu-cookie-law"],
 #CookieInformerView,
 #fdih-cb,
 #cPrompt_bar,
-#cPrompt_barSpacer
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+#cPrompt_barSpacer {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #stTagPopupbody .stPopup,
 #stTagPopup.stPopup,
@@ -1005,10 +1058,14 @@ div[data-key="cookies-warning"],
 .cookieAlertBox:not(body):not(html),
 #cookieBannerContainer,
 #warning_cookie,
-.cookie-info-block:not(body):not(html)
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+.cookie-info-block:not(body):not(html) {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 .dni-notifications_cookie-notification,
 #cookie-disclaimer-overlay,
@@ -1509,10 +1566,14 @@ div[data-key="cookies-warning"],
 #cookie_accept_box,
 #divCookiePolicy,
 .cookies-banner-container,
-#cookie-full
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+#cookie-full {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #legal_policy_cookies,
 #cookieConsentPrompt,
@@ -2013,9 +2074,14 @@ body > .ckOuter,
 #disclaimer_cookies,
 #cookiePreferencePanel,
 .footer__cookie:not(body):not(html),
-.disclaimer[disclaimer="cookies"]
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
+.disclaimer[disclaimer="cookies"] {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #informacjaOCiasteczkach,
 #stdCookie,
@@ -2516,10 +2582,14 @@ hma-cookie-notification,
 #wymagania_sklepu_alert,
 .cookies_bloc:not(body):not(html),
 #top-cookie-wrapper,
-.cookieBarOverlay:not(body):not(html)
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+.cookieBarOverlay:not(body):not(html) {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #NJI-EmeaCookie,
 .cookieInformation:not(body):not(html),
@@ -3020,10 +3090,14 @@ cookie-warning,
 .accept-cookie-window,
 .cookiesMsg:not(body):not(html),
 #block-zodiac-site-cookie,
-#prihvacamKolacice
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+#prihvacamKolacice {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #cookie-policy-modal,
 #polCookies,
@@ -3524,10 +3598,14 @@ div[data-cookie-notification],
 #notify-policy-cookie,
 .cookies_message:not(body):not(html),
 .accept-cookie:not(body):not(html):not(a):not([class*="btn"]),
-#barAgreeWithCookies
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+#barAgreeWithCookies {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #stopcookinfo,
 .CookiesOK:not(body):not(html):not(button):not(input):not([class*="button"]),
@@ -4027,10 +4105,14 @@ div[data-cookie="uso-accept-cookies"],
 #cmscookie,
 #cookie_confirm,
 #cookieshit,
-.footer-terms-notification
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+.footer-terms-notification {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 .cookie-policy-info:not(body):not(html),
 #coockiealert,
@@ -4531,10 +4613,14 @@ adcookies,
 #wg-cookie,
 .infos-gestion-cookies,
 #user-cookie-msg-box,
-#CookieLegalContainer
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+#CookieLegalContainer {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #aceptar_cookies:not(button),
 #us_cookies_msg,
@@ -5035,10 +5121,14 @@ cookie-policy-popin,
 #privacy_cookiepolicy,
 #cookie-bar-warning,
 .x-cookie-consent:not(body):not(html),
-#firstLogNanobar
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+#firstLogNanobar {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #eupolicy,
 #m31CookieInfo,
@@ -5539,10 +5629,14 @@ cookie-law-banner,
 .cookieAlertWrapper,
 #messaggio_cookie,
 #itc_cookieinfo,
-.tsl-cookiebanner:not(body):not(html)
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+.tsl-cookiebanner:not(body):not(html) {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #cookiemessagebar,
 #suti_kezeles,
@@ -6044,10 +6138,14 @@ cookies-popup,
 .ObsCnilWarning,
 #eu-cookies-consent,
 .g-cookie.js-g-cookie,
-#cookie-consent-overlay
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+#cookie-consent-overlay {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 .jsbd-Cookie:not(body):not(html),
 .c-cookie-message:not(body):not(html),
@@ -6548,10 +6646,14 @@ body.showCookieBanner .statisticsOptBox,
 #mab-cookie-notice-wrap,
 #cookies.notifyBar,
 .cookies-usage-info:not(body):not(html),
-form[name="FormLeggeCookies"]
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+form[name="FormLeggeCookies"] {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #cookieIdioticPolicyInfo,
 .js-cookie-consent-block,
@@ -7052,10 +7154,14 @@ cookie-law-el,
 .cookienotice-box:not(body):not(html),
 #fr_cookie_alert,
 .js-site-cookie:not(body):not(html),
-.drawer-cookie.active
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+.drawer-cookie.active {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #pao_warning_cookie,
 .cmswidget-wcookiewidget,
@@ -7556,10 +7662,14 @@ consent-notification,
 .ui.cookie.nag,
 .cookie-tip-bg:not(body):not(html),
 .module-cookies-wrapper,
-.gdp_cookie_widget:not(body):not(html)
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+.gdp_cookie_widget:not(body):not(html) {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #abe-gdpr,
 .rts-cookie-warning:not(body):not(html),
@@ -8060,10 +8170,14 @@ div[cnn-cookie-policy],
 #er-cookie-banner,
 .al-cookie-disclaimer,
 #cookies-rodo,
-#ptCookieBarWrap
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+#ptCookieBarWrap {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #wfgcmp-consent,
 #js-gdpr-optin,
@@ -8197,7 +8311,8 @@ oct-cookie-consent,
 policy-consent,
 body > div[class^="sp_veil"],
 div[id^="sp_message"][class^="xsp_message_container"]:not(.idcac),
-div[id^="sp_message"][class^="xsp_message_container"] ~ div[class^="sp_iframe_container"],
+div[id^="sp_message"][class^="xsp_message_container"]
+  ~ div[class^="sp_iframe_container"],
 .cookie-info__panel:not(body):not(html),
 .js-cookie-info__panel,
 .cookie-info__panel--show,
@@ -8564,10 +8679,14 @@ kuma-cookie-bar,
 .topslidein.cookies:not(body):not(html),
 .cc__bg:not(body):not(html),
 .cc__bg + .cc__wrapper,
-section[role="alert"][class*="cookieAlert"]
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+section[role="alert"][class*="cookieAlert"] {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #barre_flottante_cookie,
 .Component[data-component="CookieFooter"],
@@ -9068,10 +9187,14 @@ link[href*="collective.disclaimer"] + #viewlet-disclaimer,
 #eu-container > #eu-okno,
 #popupdiv.cookies-content,
 #sxc_confirmation,
-#gdpr-consent-wrapper
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+#gdpr-consent-wrapper {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #gdprSettings[href],
 .ni-cookieConsent:not(body):not(html),
@@ -9367,7 +9490,10 @@ iframe[src*="herowelcomebar.appspot.com"],
 #cnsi ~ [jsaction*="dismiss_warmup"] #cnso,
 #cnsi ~ div[style="transform: none;"] > g-bottom-sheet[role="dialog"],
 .a11y-mode div[class*="CookieDisclaimer"],
-#butterBar-container + #gb[role="banner"] > div:not([class*=" "]) > div[style*="background-color"],
+#butterBar-container
+  + #gb[role="banner"]
+  > div:not([class*=" "])
+  > div[style*="background-color"],
 #cookies-interface .banner-container,
 #EUCookiePolicyNotice,
 #cookie-dialog ~ .backdrop,
@@ -9458,7 +9584,10 @@ body > #cookie.bottom,
 .cookies-preferences-bar,
 .footerCookieNotice:not(body):not(html),
 .widget-gpdr-banner:not(body):not(html),
-.site-wrapper > div[id^="Footer-react-component"] > div[style*="height"] > .sticky-footer,
+.site-wrapper
+  > div[id^="Footer-react-component"]
+  > div[style*="height"]
+  > .sticky-footer,
 #hinweiscookie,
 .CMP_app_gdpr:not(body):not(html),
 .CookiesHinweisOuter:not(body):not(html),
@@ -9537,7 +9666,9 @@ body > .cookie[style*="height"],
 #cookieDataProtection[style*="block"],
 .alert-compliance.fixed-bottom,
 .cookie-policy-section,
-.ngcc-app-container > .ngcc-app-container > .ngcc-alert-panel.ngcc-fixed.ngcc-bottom,
+.ngcc-app-container
+  > .ngcc-app-container
+  > .ngcc-alert-panel.ngcc-fixed.ngcc-bottom,
 #header .info-block.cookies,
 #amgdpr-cookie-block,
 .row.allow-cookies:not(body):not(html),
@@ -9573,10 +9704,14 @@ body > #cookies[style*="height"],
 .stickyCookieAlert:not(body):not(html),
 #body-container_cookies,
 .cookie-policy-fixed:not(body):not(html),
-.js-cookie-note:not(body):not(html)
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+.js-cookie-note:not(body):not(html) {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 .AWDJQueryCookieAccept,
 .efakcookie-container-bottom,
@@ -9841,7 +9976,8 @@ nges-cookie-notification,
 #cookie-consent-dialog,
 .accept-cookies-toast,
 .cn-window[aria-label="cookieconsent"],
-.Common-Layout-StandardBody.withFooter > div[class*="Common-Layout-StyleJamSiteWideMessage"],
+.Common-Layout-StandardBody.withFooter
+  > div[class*="Common-Layout-StyleJamSiteWideMessage"],
 .bar-Cookies:not(body):not(html),
 .ndm-cookie-consent-popup,
 .cookie--message:not(body):not(html),
@@ -10077,10 +10213,14 @@ body > #cookie.show,
 .block-clc-cookies-policy,
 #popup-gdpr,
 .trackingNoticeOverlay,
-body > #ckpop.outer
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+body > #ckpop.outer {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 .cg-cookie-warning:not(body):not(html),
 #hw_cookie[style*="absolute"],
@@ -10271,7 +10411,7 @@ body > section#acc-bottom[style],
 .cp-popup-overlay,
 .cp-popup-overlay ~ .cp-popup.cp-popup-visible,
 #rgpd-msg.alert,
-.notification[data-handler-notification*="\"case\": \"cookie\""],
+.notification[data-handler-notification*='"case": "cookie"'],
 .app div[data-qa-file="CookieAcceptance"],
 #_evidon-message,
 .footer ~ .cookielaw-form.is-active,
@@ -10376,7 +10516,11 @@ body > #ecHolder.ec-holder,
 .cookie-consent.notification-bar,
 .pb-f-global-cookie-info-popup,
 html[data-react-helmet] #app-root > footer ~ #preroll-container ~ aside,
-html[data-react-helmet] #app-root > footer ~ #preroll-container ~ button[title*="CMP"],
+html[data-react-helmet]
+  #app-root
+  > footer
+  ~ #preroll-container
+  ~ button[title*="CMP"],
 #ac_cookie_bar,
 #gdpr18.gdpr18,
 .cookie-consent.ng-star-inserted,
@@ -10472,8 +10616,14 @@ iframe[src*="cmp.faktor.mgr.consensu.org"] ~ #fingerprint,
 .accept-cookies-bar:not(body):not(html),
 #oum-cookie-info,
 #gl-cookiewarning,
-.page__header > .page__preheader > .jumpmark.jumpmark--skip-nav ~ .notice.notice--change-context,
-.page__header > .page__preheader > .jumpmark.jumpmark--skip-nav ~ .notification--site.notification--primary,
+.page__header
+  > .page__preheader
+  > .jumpmark.jumpmark--skip-nav
+  ~ .notice.notice--change-context,
+.page__header
+  > .page__preheader
+  > .jumpmark.jumpmark--skip-nav
+  ~ .notification--site.notification--primary,
 #bannerCookiesWrap,
 .c-gdpr-banner:not(body):not(html),
 #footer .rgpd-container,
@@ -10581,10 +10731,14 @@ body > .cookies.visible,
 .footer > .footer-terms ~ .cookies,
 .cmp-cookies-banner,
 .cookiesTip > .ckTipContainer,
-.cookie-consent .block-screen
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+.cookie-consent .block-screen {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #divEuCookieDirective,
 #ww_cookie_bar,
@@ -10863,7 +11017,7 @@ app-root app-cookie-acceptance,
 .ag-cookie-policy__wrapper,
 #footer #fbar #epbar[style*="block"],
 .elan42-disclaimer-banner,
-.pum[data-popmake*="\"slug\":\"cookie"],
+.pum[data-popmake*='"slug":"cookie'],
 .sp-dsgvo-popup-overlay,
 .tos-update-banner,
 .privacy-notification-container,
@@ -11085,10 +11239,14 @@ ma-cookies-law-info,
 #info-cookie-law,
 .ds-cookie-popup,
 .ac_gdpr_fix,
-.if6_eprivacy.initial
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+.if6_eprivacy.initial {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 .cookie-consent.cookie-consent--visible,
 #loadCookiePolicy,
@@ -11589,10 +11747,14 @@ app-aviso-cookie,
 #app div[class*="CookiesDisclaimer"],
 #gdpr_bar_frame,
 #tracking-aggrement-header,
-.bei_cg_notification-cookieconsent
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+.bei_cg_notification-cookieconsent {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 .push-banner-consent,
 #app div[class*="CookieLayer"],
@@ -12093,10 +12255,14 @@ uc-cookie-notification,
 .b-cookie-notice-banner,
 .cookie-notifier-content,
 .cntx-cookie-info,
-.cntx-cookie-modal-handler
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+.cntx-cookie-modal-handler {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #site-alert-cookienotice,
 wp-cookie-notification-banner,
@@ -12596,10 +12762,14 @@ app-cookie-policy,
 .cookies-box-info,
 #page-wrap > #privacy-container,
 .consent-bg [id^="idHrSysGips"],
-.page-dialog-dsgvo
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+.page-dialog-dsgvo {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 .gdpr__wrapper.is-open,
 .container-cookie-advise,
@@ -12655,7 +12825,10 @@ app-cookie-banner,
 .cookie-message__wrap,
 #CookieReportsBannerAZ,
 #EUcookieBanner,
-#root ~ script[src*="cdn-client.medium.com"] ~ div > div:not([role]):not([tabindex]),
+#root
+  ~ script[src*="cdn-client.medium.com"]
+  ~ div
+  > div:not([role]):not([tabindex]),
 #gdpr-cookie-message-overlay,
 #unitcookieonpageBar,
 .mm-cookie-banner,
@@ -13101,10 +13274,14 @@ app-cookies-banner,
 .cookies-snackbar,
 #root div[class*="CookieNotice"],
 .mfp-bg[class*="cookies"],
-#es-cookie-block
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+#es-cookie-block {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 #consentWrapper.consent-modal,
 #footer_center ~ #ack_usage,
@@ -13479,7 +13656,15 @@ body > #bg_cookie,
 #iw-cookie-banner,
 .eb-content-container .eb-cookie,
 #lb ~ c-wiz ~ div > c-wiz[data-p] > div[role="navigation"] + div[jsaction],
-#lb ~ c-wiz ~ div > c-wiz[data-p] > div[role="navigation"] + div[jsaction] + div div[data-id^="Carousel"] > div[jsaction],
+#lb
+  ~ c-wiz
+  ~ div
+  > c-wiz[data-p]
+  > div[role="navigation"]
+  + div[jsaction]
+  + div
+  div[data-id^="Carousel"]
+  > div[jsaction],
 #acceptCookieOverlay,
 .cookie-consent-banner-opt-out,
 #site-cookiebar,
@@ -13605,10 +13790,14 @@ app-cookielayer,
 .alert[id*="privacypolicy"],
 .efilli-layout-legacy,
 #cookie-warning-box,
-#bbcdBanner
-
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
-
+#bbcdBanner {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
 
 .container[data-testid*="cookiePopup"],
 #svelte div[data-analytics*="cookie-consent"],
@@ -13723,5 +13912,11 @@ toujou-consent-widget,
 #website-cookie-consent-banner,
 .opc-manager-cookie
 
-/* 14112 */
-{display:none !important; height:0 !important; z-index:-99999 !important; visibility:hidden !important; width:0 !important; overflow:hidden !important}
+/* 14112 */ {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
