@@ -1,0 +1,30 @@
+{
+  "name": "isdcac",
+  "version": "1.0.0",
+  "description": "Get rid of cookie warnings from almost all websites!",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src .",
+    "lintfix": "eslint src --fix",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OhMyGuus/I-Dont-Care-About-Cookies.git"
+  },
+  "author": "OhMyGuus & Community",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/issues"
+  },
+  "homepage": "https://github.com/OhMyGuus/I-Dont-Care-About-Cookies#readme",
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "prettier": "2.7.1"
+  }
+}
