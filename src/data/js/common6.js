@@ -408,6 +408,8 @@ function getE(h) {
       ];
     case "kaptainmusic.com":
       return ["mandatoryCookiesAccepted=false"];
+    case "voebb.onleihe.de":
+      return ["onleiheTracking=false"];
   }
 
   const parts = h.split(".");
