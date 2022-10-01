@@ -206,13 +206,7 @@ chrome.runtime.onStartup.addListener(function (d) {
 
 chrome.runtime.onInstalled.addListener(function (d) {
   cachedRules = {};
-
-  if (
-    d.reason == "update" &&
-    chrome.runtime.getManifest().version > d.previousVersion
-  ) {
-    recreateTabList();
-  }
+  recreateTabList();
 });
 
 // URL blocking
