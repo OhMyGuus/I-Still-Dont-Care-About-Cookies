@@ -13910,7 +13910,9 @@ toujou-consent-widget,
 #cookie-info-more-options-layer,
 #ppms_cm_bar_overlay[class*="cm"],
 #website-cookie-consent-banner,
-.opc-manager-cookie
+.opc-manager-cookie,
+.tkCookieBox,
+.cookie_consent_withings
 
 /* 14112 */ {
   display: none !important;

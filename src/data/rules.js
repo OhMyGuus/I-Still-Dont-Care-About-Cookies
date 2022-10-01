@@ -77,6 +77,7 @@ const commons = {
   95: "#SITE_ROOT ~ .siteAspectsContainer{display:none !important}",
   97: "#gpdr,#GPDR,#gdpr,#GDPR{display:none !important}",
   98: "#info_message{display:none !important}",
+  99: "body{overflow-y: unset !important; overflow: unset !important;}",
 };
 
 const rules = {
@@ -15119,6 +15120,13 @@ const rules = {
     s: '#soapbox > [data-testid="banner"]{display:none !important}',
   },
   "kaptainmusic.com": { j: "6" },
+  "voebb.onleihe.de": { j: "6" },
+  "prosciutteriasandaniele.it": {
+    s: "#page_hider{display:none !important} body{overflow-y: unset !important;}",
+  },
+  "schobuell-wetter.de": { c: "16" },
+  "yellow.systems": { j: "3" },
+  "withings.com": { c: "99" },
 };
 
 const blockUrls = {
