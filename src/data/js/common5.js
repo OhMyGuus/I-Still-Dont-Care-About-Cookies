@@ -2199,7 +2199,7 @@ function getSelector(host) {
       e = _sl(".appconsent_noscroll #appconsent iframe");
       return e ? _sl(".button__skip", e.contentWindow.document) : e;
 
-    case "zlubaczowa.pl":
+    case "zlubaczowa.pl": {
       e = _id("cmp-iframe");
       const button = e
         ? _sl(
@@ -2214,7 +2214,7 @@ function getSelector(host) {
             e.contentWindow.document
           )
         : e;
-
+    }
     case "nordax.no":
     case "nordax.de":
       return _chain(
@@ -2389,7 +2389,7 @@ function getSelector(host) {
         "#ccAcceptButton"
       );
 
-    case "so.energy":
+    case "so.energy": {
       e = _sl("app-footer");
       const button =
         e && e.shadowRoot
@@ -2399,7 +2399,7 @@ function getSelector(host) {
       return e && e.shadowRoot
         ? _sl(".cookie-modal button.is-secondary", e.shadowRoot)
         : false;
-
+    }
     case "euranseurakunta.fi":
     case "rovaniemenseurakunta.fi":
       return "#cookie-modal:not(.closed) #set-cookie-consent";
