@@ -15123,9 +15123,8 @@ const rules = {
   "prosciutteriasandaniele.it": {
     s: "#page_hider{display:none !important} body{overflow-y: unset !important;}",
   },
-  "schobuell-wetter.de": {
-    c: "16",
-  },
+  "schobuell-wetter.de": { c: "16" },
+  "yellow.systems": { j: "3" },
 };
 
 const blockUrls = {

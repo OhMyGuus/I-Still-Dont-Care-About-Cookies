@@ -58,6 +58,8 @@ function getItem(h) {
         { strict: false, key: "vl_disable_tracking", value: "true" },
         { strict: false, key: "vl_disable_usecookie", value: "selected" },
       ];
+    case "yellow.systems":
+      return { strict: false, key: "isCookiesNotificationHidden", value: true };
   }
 
   const parts = h.split(".");
