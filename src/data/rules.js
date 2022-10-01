@@ -15119,7 +15119,10 @@ const rules = {
     s: '#soapbox > [data-testid="banner"]{display:none !important}',
   },
   "kaptainmusic.com": { j: "6" },
-  "voebb.onleihe.de": { j: "6" }
+  "voebb.onleihe.de": { j: "6" },
+  "prosciutteriasandaniele.it": {
+    s: "#page_hider{display:none !important} body{overflow-y: unset !important;}",
+  },
 };
 
 const blockUrls = {
