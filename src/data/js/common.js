@@ -1,178 +1,177 @@
-(function() {
+(function () {
+  const searchPairs = {
+    ".wp-exclude-emoji": [
+      'div[id^="bnnr"] > div[style*="; order: 1"] span',
+      'div[id^="bnnr"]:not([style*="float"]) > div[style*="; order: 0"] + div[style*="; order: 2"] span',
+      'div[id^="bnnr"]:not([style*="float"]) > div[style*="; order: 0"] + div[style*="; order: 3"] span',
+      'div[id^="bnnr"][style*="float"] > div[style*="; order: 0"] + div[style*="; order: 2"][style*="underline"] span',
+      'div[id^="bnnr"][style*="float"] > div[style*="; order: 0"] + div[style*="; order: 2"]:not([style*="underline"])',
+    ],
 
-	let searchPairs = {
-		'.wp-exclude-emoji': [
-			'div[id^="bnnr"] > div[style*="; order: 1"] span',
-			'div[id^="bnnr"]:not([style*="float"]) > div[style*="; order: 0"] + div[style*="; order: 2"] span',
-			'div[id^="bnnr"]:not([style*="float"]) > div[style*="; order: 0"] + div[style*="; order: 3"] span',
-			'div[id^="bnnr"][style*="float"] > div[style*="; order: 0"] + div[style*="; order: 2"][style*="underline"] span',
-			'div[id^="bnnr"][style*="float"] > div[style*="; order: 0"] + div[style*="; order: 2"]:not([style*="underline"])'
-		],
-		
-		'#usercentrics-root': [
-			'div[data-testid="uc-buttons-container"] > button:first-child'
-		],
-		
-		'#onetrust-consent-sdk': [
-			'.onetrust-pc-dark-filter:not([class*="hide"]):not([style*="none"]) ~ #onetrust-pc-sdk .ot-pc-refuse-all-handler',
-			'#onetrust-banner-sdk:not([style*="none"]) .ot-pc-refuse-all-handler',
-			'#onetrust-banner-sdk:not([style*="none"]) #onetrust-reject-all-handler',
-			
-			'.onetrust-pc-dark-filter:not([class*="hide"]):not([style*="none"]) + #onetrust-banner-sdk #onetrust-button-group-parent:not(.has-reject-all-button) #onetrust-pc-btn-handler',
-			'.onetrust-pc-dark-filter:not([class*="hide"]):not([style*="none"]) ~ #onetrust-pc-sdk .onetrust-close-btn-handler:first-child'
-		],
-		
-		'.message-container': [
-			'button.sp_choice_type_12:not(.cmp-no-pur-privacy-btn)',
-			'.sp_choice_type_SAVE_AND_EXIT',
-			'div:not(.header) > .sp_choice_type_11:only-of-type:not(:only-child)'
-		],
-		
-		'.mfp-wrap.mfp-ready': [
-			'.cookieselection-confirm-selection',
-			'#gdpr_understandBtn',
-			'#cookiebanner .button-row > :not(.consentToAll)',
-			'#cookiebanner .confirmSelection',
-			'#cookieConsent .btn[data-cookie="accepted"]',
-			'.avia-cookie-close-bar',
-			'.cookies-save-and-close-btn',
-			'a[onclick*="SaveCookieSettings"]',
-			'.cookie-consent .accept-selection',
-			'#cookie-consent .btn[name*="necessary"]'
-		],
-		
-		'.reveal-overlay[style*="block"]': [
-			'[data-cookieman-save]:not([data-cookieman-accept-all]):not(.hide)',
-			'#CookieModalStrictOnlyLink',
-			'#dsgvoLayer[style*="block"] #dsgvo_deny',
-			'#cookies #c-deny'
-		],
-		
-		'.cc-window:not(.cc-invisible)': [
-			'.cc-checkboxes-container .cc-allow',
-			'.cc-privacy-settings .cc-privacy-settings-compliance:last-child .cc-btn',
-			'.accept-as-is'
-		],
-		
-		'#__tealiumGDPRecModal': [
-			'#privacy_pref_optin',
-			'#consent_prompt_submit',
-			'.container-cookie-modal-footer-refuse'
-		],
-		
-		'.fancybox-lock': [
-			'.fancybox-opened .bcGDPR .bcOpenPrivacySettings',
-			'.fancybox-opened .bcGDPR .bcRadioRefuse',
-			'.fancybox-opened .bcGDPR #bcSubmitConsent',
-			'.fancybox-opened .bcGDPR .bcpConsentCancelButton',
-			
-			'.fancybox-opened.cookie-gdpr-wrap .btn[data-action="deny-all"]',
-			'.fancybox-opened #cookie-consent button[data-accept="minimum"]'
-		],
-		
-		'.fancybox-is-open': [
-			'#cookie-consent .cc-page-2 #cc-set-cookie',
-			'.consent-modal .btn[data-action="save-preferences"]'
-		],
-		
-		'.pum-open': [
-			'.pum-active[data-popmake*="slug\\":\\"cookie"] .pum-close',
-			'.pum-active[data-popmake*="rodo"] .pum-close',
-			'.pum-active[data-popmake*="cookie-policy"] .pum-close',
-			'.pum-active[data-popmake*="cookie-zustimmung"] .pum-close',
-			'.pum-active[data-popmake*="cookie-consent"] .pum-close',
-			'.pum-active[data-popmake*="uso-cookie"] .pum-close',
-			'.pum-active[data-popmake*="cookie-notice"] .pum-close',
-			'.pum-active[data-popmake*="cookie-banner"] .pum-close',
-			'.pum-active[data-popmake*="cookie-pop"] .pum-close',
-			'.pum-active[data-popmake*="cookies-pop"] .pum-close',
-			'.pum-active[data-popmake*="informativa-cookie"] .pum-close',
-			'.pum-active[data-popmake*="assenso-cookie"] .pum-close',
-			'.pum-active[data-popmake*="pryvatnast"] .pum-close'
-		],
-		
-		'.modal-open': [
-			'#PrivacyCategoryAlert[style*="block"] .btn[data-id="ConfirmSettings"]',
-			'#cookie-control-modal[style*="block"] .js-toggle-cookie-control',
-			'.kmt-ckextmodal[style*="block"] .btn[href*="accept"]',
-			'.cookie-alert[style*="block"] .btn-info[data-dismiss]',
-			'#cookiesplus-bas[style*="block"] .btn[name="save-basic"]',
-			'#mndCookieModal[style*="block"] ~ .modal .mnd-btn-save-settings',
-			'#modal-cookie-notice[style*="block"] .accept-settings',
-			'.modal.show button[id*="cookie-consent-accept-selected"]',
-			'#cookie-manager-window[style*="block"] #accept-selected',
-			'.ck-user-cookie-consent-modal #js-save-cookie-settings',
-			'#cookie-consent-modal[style*="block"] ~ .modal #cc-save-preferences'
-		],
-		
-		'.modal[style*="block"]': [
-			'#btn-cookie-config',
-			'#btn-save-config',
-			
-			'#btn-configure-cookies',
-			'#user_cookies_form_save + #refuse-all-cookies',
-			
-			'#ccSettingButton + button[id*="AcceptOnlyFunctional"]',
-			'.cookie_actions .btn[onclick*="saveBasic"]',
-			'#btnCookieSettingsSaveSettings',
-			'#cookie-setselected',
-			'#rodo_form .btn',
-			'#cookieNoticeForm #saveCookies',
-			'.btn[onclick*="saveCookieSettings"]',
-			'.btn.set_essential_cookies',
-			'.btn.js-offcanvas-cookie-submit',
-			'.btn#cookie-save-selected',
-			'.bcee-cookies-manager-deny-all',
-			'.consent-banner-confirmation-button.btn-default',
-			'a[onclick="setConsentSelect()"]',
-			'.container_acceptcookies .btn[name="save"]',
-			'#cookieSelectForm .btn[type="submit"]',
-			'button[data-tracking="ACCEPT_REQUIRED_COOKIES"]',
-			'#aceptarCookiesObligatorias',
-			'.btn[href="#cookieman-settings"]',
-			'.btn[data-target="#cookieman-settings"]',
-			'[data-cookieman-settings-trigger-button]',
-			'[data-cookieman-save]:not([data-cookieman-accept-all]):not([style*="none"])',
-			'.cookie-manager-save',
-			'.adapt-cookies .js-save-preferences',
-			'#btnDeny.js-gdpr-submit',
-			'#manageCookies ~ #confirmCookies',
-			'a[href*="acceptOnlyEssentinal"]',
-			'.modal-cookie #submitSelected',
-			'#btn_cookie_save',
-			'.btn[onclick*="SetEssentialCookies"]',
-			'#cookie-consent-button-submit-selection',
-			'.btn[data-bind*="modal.cookie_consent.save"]',
-			'button[id*="cookie-consent-accept-selected"]',
-			'.cookieselection-confirm-selection',
-			'#cookie-consent-acceptRequired',
-			'.b-cookie-consent .js-cookie-decline',
-			'.cookie-consent-option-icon[ng-click*="required"]',
-			'#saveCookieOnlyMandatory',
-			'.js-accept-necessary-btn',
-			'#cookies-reject-btn',
-			'.cookie-accept-selection',
-			'#cookieconsent_essentiell',
-			'#button-cookie-individual-save',
-			'#cookiesModalRefuse',
-			'#declineCookieButton',
-			'.btn-cookies-save',
-			'.ModalCookies__deny',
-			'.gdcc-save-consent[data-gdcc-select="-"]',
-			'#cookies-modal-save',
-			'.btn[form*="trocookie"][value*="save"]',
-			'.js-declineAllCookies',
-			'#cookie-notification .saveselection',
-			'.button-aceptar-configuracion-cookies',
-			'.save-cookie-settings',
-			'#btnCookieNecessary',
-			'.btn.cookies-decline',
-			'#cookieConsentConfigBtnDecline'
-		]
-	};
-	
-	let searchGroups = [
-		'.qc-cmp2-summary-buttons button[mode="secondary"],\
+    "#usercentrics-root": [
+      'div[data-testid="uc-buttons-container"] > button:first-child',
+    ],
+
+    "#onetrust-consent-sdk": [
+      '.onetrust-pc-dark-filter:not([class*="hide"]):not([style*="none"]) ~ #onetrust-pc-sdk .ot-pc-refuse-all-handler',
+      '#onetrust-banner-sdk:not([style*="none"]) .ot-pc-refuse-all-handler',
+      '#onetrust-banner-sdk:not([style*="none"]) #onetrust-reject-all-handler',
+
+      '.onetrust-pc-dark-filter:not([class*="hide"]):not([style*="none"]) + #onetrust-banner-sdk #onetrust-button-group-parent:not(.has-reject-all-button) #onetrust-pc-btn-handler',
+      '.onetrust-pc-dark-filter:not([class*="hide"]):not([style*="none"]) ~ #onetrust-pc-sdk .onetrust-close-btn-handler:first-child',
+    ],
+
+    ".message-container": [
+      "button.sp_choice_type_12:not(.cmp-no-pur-privacy-btn)",
+      ".sp_choice_type_SAVE_AND_EXIT",
+      "div:not(.header) > .sp_choice_type_11:only-of-type:not(:only-child)",
+    ],
+
+    ".mfp-wrap.mfp-ready": [
+      ".cookieselection-confirm-selection",
+      "#gdpr_understandBtn",
+      "#cookiebanner .button-row > :not(.consentToAll)",
+      "#cookiebanner .confirmSelection",
+      '#cookieConsent .btn[data-cookie="accepted"]',
+      ".avia-cookie-close-bar",
+      ".cookies-save-and-close-btn",
+      'a[onclick*="SaveCookieSettings"]',
+      ".cookie-consent .accept-selection",
+      '#cookie-consent .btn[name*="necessary"]',
+    ],
+
+    '.reveal-overlay[style*="block"]': [
+      "[data-cookieman-save]:not([data-cookieman-accept-all]):not(.hide)",
+      "#CookieModalStrictOnlyLink",
+      '#dsgvoLayer[style*="block"] #dsgvo_deny',
+      "#cookies #c-deny",
+    ],
+
+    ".cc-window:not(.cc-invisible)": [
+      ".cc-checkboxes-container .cc-allow",
+      ".cc-privacy-settings .cc-privacy-settings-compliance:last-child .cc-btn",
+      ".accept-as-is",
+    ],
+
+    "#__tealiumGDPRecModal": [
+      "#privacy_pref_optin",
+      "#consent_prompt_submit",
+      ".container-cookie-modal-footer-refuse",
+    ],
+
+    ".fancybox-lock": [
+      ".fancybox-opened .bcGDPR .bcOpenPrivacySettings",
+      ".fancybox-opened .bcGDPR .bcRadioRefuse",
+      ".fancybox-opened .bcGDPR #bcSubmitConsent",
+      ".fancybox-opened .bcGDPR .bcpConsentCancelButton",
+
+      '.fancybox-opened.cookie-gdpr-wrap .btn[data-action="deny-all"]',
+      '.fancybox-opened #cookie-consent button[data-accept="minimum"]',
+    ],
+
+    ".fancybox-is-open": [
+      "#cookie-consent .cc-page-2 #cc-set-cookie",
+      '.consent-modal .btn[data-action="save-preferences"]',
+    ],
+
+    ".pum-open": [
+      '.pum-active[data-popmake*="slug\\":\\"cookie"] .pum-close',
+      '.pum-active[data-popmake*="rodo"] .pum-close',
+      '.pum-active[data-popmake*="cookie-policy"] .pum-close',
+      '.pum-active[data-popmake*="cookie-zustimmung"] .pum-close',
+      '.pum-active[data-popmake*="cookie-consent"] .pum-close',
+      '.pum-active[data-popmake*="uso-cookie"] .pum-close',
+      '.pum-active[data-popmake*="cookie-notice"] .pum-close',
+      '.pum-active[data-popmake*="cookie-banner"] .pum-close',
+      '.pum-active[data-popmake*="cookie-pop"] .pum-close',
+      '.pum-active[data-popmake*="cookies-pop"] .pum-close',
+      '.pum-active[data-popmake*="informativa-cookie"] .pum-close',
+      '.pum-active[data-popmake*="assenso-cookie"] .pum-close',
+      '.pum-active[data-popmake*="pryvatnast"] .pum-close',
+    ],
+
+    ".modal-open": [
+      '#PrivacyCategoryAlert[style*="block"] .btn[data-id="ConfirmSettings"]',
+      '#cookie-control-modal[style*="block"] .js-toggle-cookie-control',
+      '.kmt-ckextmodal[style*="block"] .btn[href*="accept"]',
+      '.cookie-alert[style*="block"] .btn-info[data-dismiss]',
+      '#cookiesplus-bas[style*="block"] .btn[name="save-basic"]',
+      '#mndCookieModal[style*="block"] ~ .modal .mnd-btn-save-settings',
+      '#modal-cookie-notice[style*="block"] .accept-settings',
+      '.modal.show button[id*="cookie-consent-accept-selected"]',
+      '#cookie-manager-window[style*="block"] #accept-selected',
+      ".ck-user-cookie-consent-modal #js-save-cookie-settings",
+      '#cookie-consent-modal[style*="block"] ~ .modal #cc-save-preferences',
+    ],
+
+    '.modal[style*="block"]': [
+      "#btn-cookie-config",
+      "#btn-save-config",
+
+      "#btn-configure-cookies",
+      "#user_cookies_form_save + #refuse-all-cookies",
+
+      '#ccSettingButton + button[id*="AcceptOnlyFunctional"]',
+      '.cookie_actions .btn[onclick*="saveBasic"]',
+      "#btnCookieSettingsSaveSettings",
+      "#cookie-setselected",
+      "#rodo_form .btn",
+      "#cookieNoticeForm #saveCookies",
+      '.btn[onclick*="saveCookieSettings"]',
+      ".btn.set_essential_cookies",
+      ".btn.js-offcanvas-cookie-submit",
+      ".btn#cookie-save-selected",
+      ".bcee-cookies-manager-deny-all",
+      ".consent-banner-confirmation-button.btn-default",
+      'a[onclick="setConsentSelect()"]',
+      '.container_acceptcookies .btn[name="save"]',
+      '#cookieSelectForm .btn[type="submit"]',
+      'button[data-tracking="ACCEPT_REQUIRED_COOKIES"]',
+      "#aceptarCookiesObligatorias",
+      '.btn[href="#cookieman-settings"]',
+      '.btn[data-target="#cookieman-settings"]',
+      "[data-cookieman-settings-trigger-button]",
+      '[data-cookieman-save]:not([data-cookieman-accept-all]):not([style*="none"])',
+      ".cookie-manager-save",
+      ".adapt-cookies .js-save-preferences",
+      "#btnDeny.js-gdpr-submit",
+      "#manageCookies ~ #confirmCookies",
+      'a[href*="acceptOnlyEssentinal"]',
+      ".modal-cookie #submitSelected",
+      "#btn_cookie_save",
+      '.btn[onclick*="SetEssentialCookies"]',
+      "#cookie-consent-button-submit-selection",
+      '.btn[data-bind*="modal.cookie_consent.save"]',
+      'button[id*="cookie-consent-accept-selected"]',
+      ".cookieselection-confirm-selection",
+      "#cookie-consent-acceptRequired",
+      ".b-cookie-consent .js-cookie-decline",
+      '.cookie-consent-option-icon[ng-click*="required"]',
+      "#saveCookieOnlyMandatory",
+      ".js-accept-necessary-btn",
+      "#cookies-reject-btn",
+      ".cookie-accept-selection",
+      "#cookieconsent_essentiell",
+      "#button-cookie-individual-save",
+      "#cookiesModalRefuse",
+      "#declineCookieButton",
+      ".btn-cookies-save",
+      ".ModalCookies__deny",
+      '.gdcc-save-consent[data-gdcc-select="-"]',
+      "#cookies-modal-save",
+      '.btn[form*="trocookie"][value*="save"]',
+      ".js-declineAllCookies",
+      "#cookie-notification .saveselection",
+      ".button-aceptar-configuracion-cookies",
+      ".save-cookie-settings",
+      "#btnCookieNecessary",
+      ".btn.cookies-decline",
+      "#cookieConsentConfigBtnDecline",
+    ],
+  };
+
+  const searchGroups = [
+    '.qc-cmp2-summary-buttons button[mode="secondary"],\
 		.qc-cmp2-buttons-desktop > button:first-child,\
 		#didomi-popup .didomi-button-highlight:not([class*="paywall"]):not([class*="disagree"]),\
 		#CookieModal.in .btn[data-dismiss],\
@@ -262,8 +261,8 @@
 		#root main ~ div [data-gi-selector="reject-all-cookies"] ~ div a,\
 		.cookies-management .cookies-deny,\
 		#cookieNoticeModal.vrm-reveal[style*="block"] .vrm-reveal__icon--close',
-		
-		'#cookie-modal.in .btn[onclick*="setCookie"],\
+
+    '#cookie-modal.in .btn[onclick*="setCookie"],\
 		div[class^="sp_veil"] + div[id^="sp_message"] > div[class^="sp_message"] > div[id^="sp_message_panel"]:first-child div[class^="sp_choices"] button:not([aria-label]):first-child,\
 		div[class^="sp_veil"] + div[id^="sp_message"] #sp-tabindex-focus + div div[class^="sp_choices"] button[aria-label]:first-child + button,\
 		#privacyPolicyInfo.active #acceptPrivacyPolicy,\
@@ -348,8 +347,8 @@
 		.cookie-wall__button button,\
 		#notification-allowCookies button,\
 		#sanoma-consent-accept-button',
-		
-		'#rodo.in .button[href*="accept"],\
+
+    '#rodo.in .button[href*="accept"],\
 		#gdpr_popin[style*="block"] .gdpr-agree,\
 		form[action*="cookieservice"] #acceptButton,\
 		#cookiescript_injected #cookiescript_accept,\
@@ -443,8 +442,8 @@
 		.main-header [data-module="cookie-notice"] .buttons[class*="primary"],\
 		.c-cookie-consent form[name="cookie-consent"] input[type="submit"],\
 		.c-cookie-consent .c-cookie-consent__button',
-		
-		'.fancybox-overlay[style*="block"] #cookie-consent-simple .cookie__btn--primary,\
+
+    '.fancybox-overlay[style*="block"] #cookie-consent-simple .cookie__btn--primary,\
 		ab-cookie-wall modal-footer .btn,\
 		.cookie-policy-popup[style*="block"] .button[data-cookie-policy-accept],\
 		.cookie-consent-modal.ui-modal_open .cookie-consent-modal__accept-button,\
@@ -463,76 +462,90 @@
 		body[class*="tiki"] #cookie_consent_div:not([style*="display: none"]) input[name="cookie_consent_checkbox"],\
 		.cookiesOverlay2Box #cookiesConsentOK,\
 		#myCookieModal.in .cookie-button,\
-		div[data-cookie-path] a[href*="technologies/cookies"] + div'
-	];
-	
-	
-	// Search loop function
-	
-	let searchGroupsLength = searchGroups.length,
-		searchPairsKeys = Object.keys(searchPairs),
-		searchPairsJoinedKeys = searchPairsKeys.join(','),
-		timeoutDuration = 300;
-	
-	function searchLoop(counter) {
-		setTimeout(function() {
-		
-			document.querySelectorAll(searchPairsJoinedKeys).forEach(function(box) {
-				searchPairsKeys.forEach(function(selector) {
-					if (box.matches(selector)) {
-						(box.shadowRoot || box).querySelectorAll(searchPairs[selector].join(',')).forEach(function(button) {
-							if (button.click && !button.classList.contains('idcac')) {
-								button.classList.add('idcac');
-								
-								if (typeof chrome == 'object' && chrome.runtime)
-									chrome.runtime.sendMessage({command: "cookie_warning_dismissed", url: document.location.href});
-								
-								button.click();
-								
-								// The 2nd click is just to be sure. Avoid when a double click breaks the process.
-								if (selector != '.message-container')
-									setTimeout(function() { if (button) button.click(); }, 500);
-								
-								timeoutDuration += 500;
-							}
-						});
-					}
-				});
-			});
-			
-			document.querySelectorAll(searchGroups[counter%searchGroupsLength]).forEach(function(e) {
-				if (e.click && !e.classList.contains('idcac')) {
-					e.classList.add('idcac');
-					
-					if (typeof chrome == 'object' && chrome.runtime)
-						chrome.runtime.sendMessage({command: "cookie_warning_dismissed", url: document.location.href});
-					
-					e.click();
-					
-					setTimeout(function() {
-						if (e) e.click();
-					}, 500);
-					
-					timeoutDuration += 500;
-				}
-			});
-			
-			if (counter < 100*searchGroupsLength)
-				searchLoop(counter+1);
-		
-		}, timeoutDuration);
-		
-		timeoutDuration += 50;
-	}
-	
-	var start = setInterval(function() {
-		var html = document.querySelector('html');
-		
-		if (!html || /idc0_343/.test(html.className))
-			return;
-		
-		html.className += ' idc0_343';
-		searchLoop(0);
-		clearInterval(start);
-	}, 500);
+		div[data-cookie-path] a[href*="technologies/cookies"] + div',
+  ];
+
+  // Search loop function
+
+  const searchGroupsLength = searchGroups.length;
+  const searchPairsKeys = Object.keys(searchPairs);
+  const searchPairsJoinedKeys = searchPairsKeys.join(",");
+  let timeoutDuration = 300;
+
+  function searchLoop(counter) {
+    setTimeout(function () {
+      document.querySelectorAll(searchPairsJoinedKeys).forEach(function (box) {
+        searchPairsKeys.forEach(function (selector) {
+          if (box.matches(selector)) {
+            (box.shadowRoot || box)
+              .querySelectorAll(searchPairs[selector].join(","))
+              .forEach(function (button) {
+                if (button.click && !button.classList.contains("idcac")) {
+                  button.classList.add("idcac");
+
+                  if (typeof chrome == "object" && chrome.runtime) {
+                    chrome.runtime.sendMessage({
+                      command: "cookie_warning_dismissed",
+                      url: document.location.href,
+                    });
+                  }
+
+                  button.click();
+
+                  // The 2nd click is just to be sure. Avoid when a double click breaks the process.
+                  if (selector != ".message-container") {
+                    setTimeout(function () {
+                      if (button) button.click();
+                    }, 500);
+                  }
+
+                  timeoutDuration += 500;
+                }
+              });
+          }
+        });
+      });
+
+      document
+        .querySelectorAll(searchGroups[counter % searchGroupsLength])
+        .forEach(function (e) {
+          if (e.click && !e.classList.contains("idcac")) {
+            e.classList.add("idcac");
+
+            if (typeof chrome == "object" && chrome.runtime) {
+              chrome.runtime.sendMessage({
+                command: "cookie_warning_dismissed",
+                url: document.location.href,
+              });
+            }
+
+            e.click();
+
+            setTimeout(function () {
+              if (e) e.click();
+            }, 500);
+
+            timeoutDuration += 500;
+          }
+        });
+
+      if (counter < 100 * searchGroupsLength) {
+        searchLoop(counter + 1);
+      }
+    }, timeoutDuration);
+
+    timeoutDuration += 50;
+  }
+
+  const start = setInterval(function () {
+    const html = document.querySelector("html");
+
+    if (!html || /idc0_343/.test(html.className)) {
+      return;
+    }
+
+    html.className += " idc0_343";
+    searchLoop(0);
+    clearInterval(start);
+  }, 500);
 })();

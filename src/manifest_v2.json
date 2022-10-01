@@ -1,46 +1,43 @@
 {
-    "manifest_version": 2,
-    "name": "__MSG_extensionName__",
-    "short_name": "__MSG_extensionDescription__",
-    "default_locale": "en",
-    "version": "1.0.3",
-    "icons": {
-        "16": "icons/16.png",
-        "48": "icons/48.png",
-        "128": "icons/128.png"
-    },
-    "browser_specific_settings": {
-        "gecko": {
-            "id": "idcac-pub@guus.ninja",
-            "strict_min_version": "42.0"
-        }
-    },
-    "author": "OhMyGuus and Community (originally Daniel Kladnik)",
-    "permissions": [
-        "tabs",
-        "storage",
-        "http://*/*",
-        "https://*/*",
-        "notifications",
-        "webRequest",
-        "webRequestBlocking",
-        "webNavigation"
-    ],
-    "background": {
-        "scripts": [
-            "data/rules.js",
-            "data/context-menu.js"
-        ]
-    },
-    "options_ui": {
-        "page": "data/options.html",
-        "chrome_style": true
-    },
-    "browser_action": {
-        "default_popup": "data/menu/index.html",
-        "default_icon": {
-            "16": "icons/16.png",
-            "32": "icons/32.png"
-        }
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "short_name": "__MSG_extensionDescription__",
+  "default_locale": "en",
+  "version": "1.0.3",
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "idcac-pub@guus.ninja",
+      "strict_min_version": "42.0"
     }
+  },
+  "author": "OhMyGuus and Community (originally Daniel Kladnik)",
+  "permissions": [
+    "tabs",
+    "storage",
+    "http://*/*",
+    "https://*/*",
+    "notifications",
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation"
+  ],
+  "background": {
+    "scripts": ["data/rules.js", "data/context-menu.js"]
+  },
+  "options_ui": {
+    "page": "data/options.html",
+    "chrome_style": true
+  },
+  "browser_action": {
+    "default_popup": "data/menu/index.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png"
+    }
+  }
 }
