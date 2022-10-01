@@ -7,7 +7,12 @@ Get rid of cookie warnings from almost all websites!
 This extension has been acquired by _**Avast**_ and simply I don't trust Avast with my data.
 Also having it on Github allows us to improve the code & add support for websites faster.
 
-## Installation
+## Download & Install
+
+- [**Firefox** browser add-ons](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/)
+- [**Chrome** Web Store](https://chrome.google.com/webstore/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm)
+
+## Manual installation
 
 - [Installation guide for **Firefox**](https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/wiki/Firefox-installation-guide)
 - [Installation guide for **Chrome**](https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/wiki/Chrome-installation-guide)
