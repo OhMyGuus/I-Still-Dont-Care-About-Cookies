@@ -17,7 +17,7 @@ const _i = setInterval(function () {
 
   html.className += " idc8_343";
 
-  const c = 0;
+  let c = 0;
   const l = document.location;
   const i = setInterval(function () {
     let e;
