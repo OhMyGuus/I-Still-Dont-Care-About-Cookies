@@ -15127,6 +15127,7 @@ const rules = {
   "schobuell-wetter.de": { c: "16" },
   "yellow.systems": { j: "3" },
   "withings.com": { c: "99" },
+  "fostertechnologies.pl": { c: "3" },
 };
 
 const blockUrls = {
