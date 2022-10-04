@@ -15127,6 +15127,9 @@ const rules = {
   "schobuell-wetter.de": { c: "16" },
   "yellow.systems": { j: "3" },
   "withings.com": { c: "99" },
+  "ludigoodies.com": {
+    s: ".uk-section.uk-section-xsmall.uk-section-primary.uk-position-bottom.uk-position-fixed.uk-position-z-index{display:none !important}",
+  },
 };
 
 const blockUrls = {
