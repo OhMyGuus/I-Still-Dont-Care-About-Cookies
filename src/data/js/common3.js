@@ -60,6 +60,8 @@ function getItem(h) {
       ];
     case "yellow.systems":
       return { strict: false, key: "isCookiesNotificationHidden", value: true };
+    case "schlauer-shop24.de":
+      return { strict: false, key: "Shop4CookieConsentAdv", value: false };
   }
 
   const parts = h.split(".");

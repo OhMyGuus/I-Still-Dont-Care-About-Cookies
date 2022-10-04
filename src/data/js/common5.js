@@ -4719,8 +4719,6 @@ function getSelector(host) {
       );
     case "bv-activebanking.de":
       return '#root-modal [aria-label="Meldung"] button';
-    case "withings.com":
-      return _sl(".cookie_consent_withings:not(.hidden) #cookieBtnSelected");
     case "gamersgate.com":
       return _id("accept_gdpr_button");
     case "studyspace.eu":
