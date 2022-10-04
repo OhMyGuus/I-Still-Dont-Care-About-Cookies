@@ -11226,7 +11226,6 @@ const rules = {
   "studyspace.eu": { j: "5" },
   "gamersgate.com": { j: "5" },
   "esports.com": { j: "5" },
-  "withings.com": { j: "5" },
   "mein-apothekenmanager.de": { s: "#cn-wrapper{display:none !important}" },
   "ikarus.de": { j: "5" },
   "ntb.no": { s: ".footer__notification{display:none !important}" },
@@ -15128,6 +15127,8 @@ const rules = {
   "yellow.systems": { j: "3" },
   "withings.com": { c: "99" },
   "larrychenphoto.com": { j: "6" },
+  "fostertechnologies.pl": { c: "3" },
+  "schlauer-shop24.de": { j: "3" },
 };
 
 const blockUrls = {
