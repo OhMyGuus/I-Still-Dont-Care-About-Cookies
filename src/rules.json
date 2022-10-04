@@ -16655,5 +16655,16 @@
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
       "initiatorDomains": ["abload.de"]
     }
+  },
+  {
+    "id": 1442,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "theme-cookie/app/cookie.min.js",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"]
+    }
   }
 ]

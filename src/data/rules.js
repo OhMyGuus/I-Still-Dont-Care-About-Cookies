@@ -15982,6 +15982,8 @@ const blockUrls = {
         e: false,
       },
       { q: false, r: "/cookies-consents.js", e: false },
+      { q: false, r: "theme-cookie/app/cookie.min.js", e: false },
+      { q: false, r: "js-cookie/js.cookie.min.js", e: false },
     ],
     consent: [
       { q: false, r: "tmgonlinemedia.nl/consent/script/consent.js", e: false },
