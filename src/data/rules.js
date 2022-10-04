@@ -11226,7 +11226,6 @@ const rules = {
   "studyspace.eu": { j: "5" },
   "gamersgate.com": { j: "5" },
   "esports.com": { j: "5" },
-  "withings.com": { j: "5" },
   "mein-apothekenmanager.de": { s: "#cn-wrapper{display:none !important}" },
   "ikarus.de": { j: "5" },
   "ntb.no": { s: ".footer__notification{display:none !important}" },
