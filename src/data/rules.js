@@ -15128,6 +15128,7 @@ const rules = {
   "yellow.systems": { j: "3" },
   "withings.com": { c: "99" },
   "fostertechnologies.pl": { c: "3" },
+  "schlauer-shop24.de": { j: "3" },
 };
 
 const blockUrls = {
