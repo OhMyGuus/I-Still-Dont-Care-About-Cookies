@@ -15127,9 +15127,6 @@ const rules = {
   "schobuell-wetter.de": { c: "16" },
   "yellow.systems": { j: "3" },
   "withings.com": { c: "99" },
-  "ludigoodies.com": {
-    s: ".uk-section.uk-section-xsmall.uk-section-primary.uk-position-bottom.uk-position-fixed.uk-position-z-index{display:none !important}",
-  },
 };
 
 const blockUrls = {
@@ -15983,6 +15980,8 @@ const blockUrls = {
         e: false,
       },
       { q: false, r: "/cookies-consents.js", e: false },
+      { q: false, r: "theme-cookie/app/cookie.min.js", e: false },
+      { q: false, r: "js-cookie/js.cookie.min.js", e: false },
     ],
     consent: [
       { q: false, r: "tmgonlinemedia.nl/consent/script/consent.js", e: false },
