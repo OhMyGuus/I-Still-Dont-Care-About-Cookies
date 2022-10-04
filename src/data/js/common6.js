@@ -411,10 +411,7 @@ function getE(h) {
     case "voebb.onleihe.de":
       return ["onleiheTracking=false"];
     case "larrychenphoto.com":
-      return [
-	      "cbd=1",
-	      "necoo=1",
-      ];
+      return ["cbd=1", "necoo=1"];
   }
 
   const parts = h.split(".");
