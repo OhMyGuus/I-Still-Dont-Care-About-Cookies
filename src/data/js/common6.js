@@ -410,6 +410,8 @@ function getE(h) {
       return ["mandatoryCookiesAccepted=false"];
     case "voebb.onleihe.de":
       return ["onleiheTracking=false"];
+    case "ludigoodies.com":
+      return ["_cookieAllowed=true"];
   }
 
   const parts = h.split(".");
