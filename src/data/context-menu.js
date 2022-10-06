@@ -1,10 +1,10 @@
 // Vars
 
 let cachedRules = {};
-let whitelistedDomains = {};
 let tabList = {};
 const xmlTabs = {};
 let lastDeclarativeNetRuleId = 1;
+let settings = { statusIndicators: true, whitelistedDomains: {} };
 
 const isManifestV3 = chrome.runtime.getManifest().manifest_version == 3;
 
@@ -19,7 +19,7 @@ if (isManifestV3) {
 
 // Badges
 function setBadge(tabId, text) {
-  if (!chrome.browserAction.setBadgeText) return;
+  if (!chrome.browserAction.setBadgeText || !settings.statusIndicators) return;
 
   chrome.browserAction.setBadgeText({ text: text || "", tabId: tabId });
 
@@ -61,18 +61,20 @@ function getHostname(url, cleanup) {
 }
 
 // Whitelisting
-function updateWhitelist() {
+function updateSettings() {
   lastDeclarativeNetRuleId = 1;
-  chrome.storage.local.get("whitelisted_domains", async (storedWhitelist) => {
-    if (typeof storedWhitelist.whitelisted_domains != "undefined") {
-      whitelistedDomains = storedWhitelist.whitelisted_domains;
-    }
+  chrome.storage.local.get(
+    { settings: { whitelistedDomains: {}, statusIndicators: true } },
+    async ({ settings: storedSettings }) => {
+      settings = storedSettings;
 
-    if (isManifestV3) {
-      await UpdateWhitelistRules();
+      if (isManifestV3) {
+        await UpdateWhitelistRules();
+      }
     }
-  });
+  );
 }
+updateSettings();
 
 async function UpdateWhitelistRules() {
   if (!isManifestV3) {
@@ -84,7 +86,7 @@ async function UpdateWhitelistRules() {
   ).map((v) => {
     return v.id;
   });
-  const addRules = Object.entries(whitelistedDomains)
+  const addRules = Object.entries(settings.whitelistedDomains)
     .filter((element) => element[1])
     .map((v) => {
       return {
@@ -105,21 +107,19 @@ async function UpdateWhitelistRules() {
   });
 }
 
-updateWhitelist();
-
 chrome.runtime.onMessage.addListener(async function (request, info) {
-  if (request == "update_whitelist") {
-    updateWhitelist();
+  if (request == "update_settings") {
+    updateSettings();
   }
 });
 
 function isWhitelisted(tab) {
-  if (typeof whitelistedDomains[tab.hostname] != "undefined") {
+  if (typeof settings.whitelistedDomains[tab.hostname] != "undefined") {
     return true;
   }
 
   for (const i in tab.host_levels) {
-    if (typeof whitelistedDomains[tab.host_levels[i]] != "undefined") {
+    if (typeof settings.whitelistedDomains[tab.host_levels[i]] != "undefined") {
       return true;
     }
   }
@@ -128,12 +128,12 @@ function isWhitelisted(tab) {
 }
 
 function getWhitelistedDomain(tab) {
-  if (typeof whitelistedDomains[tab.hostname] != "undefined") {
+  if (typeof settings.whitelistedDomains[tab.hostname] != "undefined") {
     return tab.hostname;
   }
 
   for (const i in tab.host_levels) {
-    if (typeof whitelistedDomains[tab.host_levels[i]] != "undefined") {
+    if (typeof settings.whitelistedDomains[tab.host_levels[i]] != "undefined") {
       return tab.host_levels[i];
     }
   }
@@ -148,21 +148,17 @@ async function toggleWhitelist(tab) {
 
   if (tabList[tab.id].whitelisted) {
     // const hostname = getWhitelistedDomain(tabList[tab.id]);
-    delete whitelistedDomains[tabList[tab.id].hostname];
+    delete settings.whitelistedDomains[tabList[tab.id].hostname];
   } else {
-    whitelistedDomains[tabList[tab.id].hostname] = true;
+    settings.whitelistedDomains[tabList[tab.id].hostname] = true;
   }
-
-  chrome.storage.local.set(
-    { whitelisted_domains: whitelistedDomains },
-    function () {
-      for (const i in tabList) {
-        if (tabList[i].hostname == tabList[tab.id].hostname) {
-          tabList[i].whitelisted = !tabList[tab.id].whitelisted;
-        }
+  chrome.storage.local.set({ settings }, function () {
+    for (const i in tabList) {
+      if (tabList[i].hostname == tabList[tab.id].hostname) {
+        tabList[i].whitelisted = !tabList[tab.id].whitelisted;
       }
     }
-  );
+  });
   if (isManifestV3) {
     await UpdateWhitelistRules();
   }
@@ -256,7 +252,7 @@ function blockUrlCallback(d) {
     }
   }
 
-  if (tabList[d.tabId].whitelisted) {
+  if (tabList[d.tabId]?.whitelisted ?? false) {
     setDisabledBadge(d.tabId);
     return { cancel: false };
   }

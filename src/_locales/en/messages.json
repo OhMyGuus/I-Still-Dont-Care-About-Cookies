@@ -83,6 +83,11 @@
     "description": "Options text for whitelist box."
   },
 
+  "optionStatusIndicators": {
+    "message": "status indicators",
+    "description": "Option text for enabling the status indicator"
+  },
+
   "optionsButton": {
     "message": "Save settings",
     "description": "Options text for SAVE button."
