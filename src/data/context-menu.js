@@ -17,6 +17,31 @@ if (isManifestV3) {
   }
 }
 
+// Badges
+function setBadge(tabId, text) {
+  if (!chrome.browserAction.setBadgeText) return;
+
+  chrome.browserAction.setBadgeText({ text: text || "", tabId: tabId });
+
+  if (chrome.browserAction.setBadgeBackgroundColor)
+    chrome.browserAction.setBadgeBackgroundColor({
+      color: "#646464",
+      tabId: tabId,
+    });
+}
+
+function setSuccessBadge(tabId) {
+  setBadge(tabId, "✅");
+}
+
+function setDisabledBadge(tabId) {
+  setBadge(tabId, "⛔");
+}
+
+function resetBadge(tabId) {
+  setBadge(tabId);
+}
+
 // Common functions
 
 function getHostname(url, cleanup) {
@@ -231,7 +256,12 @@ function blockUrlCallback(d) {
     }
   }
 
-  if (tabList[d.tabId] && !tabList[d.tabId].whitelisted && d.url) {
+  if (tabList[d.tabId].whitelisted) {
+    setDisabledBadge(d.tabId);
+    return { cancel: false };
+  }
+
+  if (tabList[d.tabId] && d.url) {
     const cleanURL = d.url.split("?")[0];
 
     // To shorten the checklist, many filters are grouped by keywords
@@ -259,7 +289,7 @@ function blockUrlCallback(d) {
                 }
               }
             }
-
+            setSuccessBadge(d.tabId);
             return { cancel: true };
           }
         }
@@ -289,7 +319,7 @@ function blockUrlCallback(d) {
             }
           }
         }
-
+        setSuccessBadge(d.tabId);
         return { cancel: true };
       }
     }
@@ -303,6 +333,7 @@ function blockUrlCallback(d) {
 
           for (const i in rules) {
             if (d.url.indexOf(rules[i]) > -1) {
+              setSuccessBadge(d.tabId);
               return { cancel: true };
             }
           }
@@ -406,6 +437,10 @@ function activateDomain(hostname, tabId, frameId) {
     status = true;
   }
 
+  if (status) {
+    setSuccessBadge(tabId);
+  }
+
   return status;
 }
 
@@ -415,6 +450,7 @@ function doTheMagic(tabId, frameId, anotherTry) {
   }
 
   if (tabList[tabId].whitelisted) {
+    setDisabledBadge(tabId);
     return;
   }
 
