@@ -19,12 +19,14 @@ if (isManifestV3) {
 
 // Badges
 function setBadge(tabId, text) {
-  if (!chrome.browserAction.setBadgeText || !settings.statusIndicators) return;
+  var chromeAction = chrome?.browserAction ?? chrome?.action;
 
-  chrome.browserAction.setBadgeText({ text: text || "", tabId: tabId });
+  if (!chromeAction || !settings.statusIndicators) return;
 
-  if (chrome.browserAction.setBadgeBackgroundColor)
-    chrome.browserAction.setBadgeBackgroundColor({
+  chromeAction.setBadgeText({ text: text || "", tabId: tabId });
+
+  if (chromeAction.setBadgeBackgroundColor)
+    chromeAction.setBadgeBackgroundColor({
       color: "#646464",
       tabId: tabId,
     });
