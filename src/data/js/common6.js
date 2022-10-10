@@ -412,6 +412,8 @@ function getE(h) {
       return ["onleiheTracking=false"];
     case "larrychenphoto.com":
       return ["cbd=1", "necoo=1"];
+    case "notify.events":
+      return ["_gdpr=necessary"];
   }
 
   const parts = h.split(".");

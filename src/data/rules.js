@@ -15132,6 +15132,7 @@ const rules = {
   "maisonstandards.com": {
     s: ".popin_consent{display:none !important} overlay_full_screen{display:none !important}",
   },
+  "notify.events": { j: "6" },
 };
 
 const blockUrls = {
