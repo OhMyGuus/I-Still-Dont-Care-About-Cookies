@@ -15129,6 +15129,9 @@ const rules = {
   "larrychenphoto.com": { j: "6" },
   "fostertechnologies.pl": { c: "3" },
   "schlauer-shop24.de": { j: "3" },
+  "maisonstandards.com": {
+    s: ".popin_consent{display:none !important} overlay_full_screen{display:none !important}",
+  },
 };
 
 const blockUrls = {
