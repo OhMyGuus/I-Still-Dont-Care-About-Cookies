@@ -414,6 +414,10 @@ function getE(h) {
       return ["cbd=1", "necoo=1"];
     case "notify.events":
       return ["_gdpr=necessary"];
+    case "notify.events":
+      return ["_gdpr=necessary"];
+    case "pricewise.nl":
+      return ["CookieConsent=only_necessary"];
   }
 
   const parts = h.split(".");
