@@ -15134,6 +15134,9 @@ const rules = {
   },
   "notify.events": { j: "6" },
   "pricewise.nl": { j: "6" },
+  "apotheke-villingen.de": {
+    s: "#elementor-popup-modal-710{display:none!important}",
+  },
 };
 
 const blockUrls = {
