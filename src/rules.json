@@ -8242,7 +8242,7 @@
     "condition": {
       "urlFilter": "cmp.dmgmediaprivacy.co.uk",
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "excludedInitiatorDomains": ["metro.co.uk"]
+      "excludedInitiatorDomains": ["metro.co.uk", "gbnews.uk"]
     }
   },
   {

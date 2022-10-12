@@ -15129,6 +15129,7 @@ const rules = {
   "larrychenphoto.com": { j: "6" },
   "fostertechnologies.pl": { c: "3" },
   "schlauer-shop24.de": { j: "3" },
+  "gbnews.uk": { j: "3" },
 };
 
 const blockUrls = {
@@ -16241,7 +16242,11 @@ const blockUrls = {
     privacy: [
       { q: false, r: "/media/plg_system_eprivacy", e: ["reshade.me"] },
       { q: false, r: "recepttar.hu/js/privacy.js", e: false },
-      { q: false, r: "cmp.dmgmediaprivacy.co.uk", e: ["metro.co.uk"] },
+      {
+        q: false,
+        r: "cmp.dmgmediaprivacy.co.uk",
+        e: ["metro.co.uk", "gbnews.uk"],
+      },
       { q: false, r: "jssdk.privacy.pre.schibsted.com", e: false },
       { q: false, r: "secureprivacy.ai/secureprivacy-plugin/", e: false },
       { q: false, r: "/vendor/weka/privacykit/", e: false },

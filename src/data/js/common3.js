@@ -62,6 +62,13 @@ function getItem(h) {
       return { strict: false, key: "isCookiesNotificationHidden", value: true };
     case "schlauer-shop24.de":
       return { strict: false, key: "Shop4CookieConsentAdv", value: false };
+    case "gbnews.uk":
+      return {
+        strict: false,
+        key: "mol.ads.cmp.tcf.cache",
+        value:
+          '{"getTCData":{"cmpId":27,"cmpVersion":3,"gdprApplies":true,"tcfPolicyVersion":2,"eventStatus":"tcloaded","cmpStatus":"loaded","tcString":"CPgwfhMPgwfljAbADCENBwCgAAAAAAAAAAwIAAAQUgFgA4AM-AwQBuIDcwG-AOxAdsA7kB3gEFAAg0CYAKwAXABDADIAGWANkAfgBAACCgEYAKWAU8Aq8BaAFpANYAbwA6oB8gEOgIqAReAkQBNgCdgFIgLkAYEAwkBh4DGAGTgM5AZ4Az4ByQDlAHWAPwEQHwArACGAGQAMsAbIA_ACAAEYAKWAU8Aq4BrADqgHyAQ6Ai8BIgCbAE7AKRAXIAwIBhIDDwGTgM5AZ8A5IBygDrAH4AAA.f_gAAagAAAAA","isServiceSpecific":true,"useNonStandardStacks":false,"purposeOneTreatment":false,"publisherCC":"GB","addtlConsent":"1~","repromptVersion":1,"outOfBand":{"allowedVendors":{},"disclosedVendors":{}},"purpose":{"consents":{},"legitimateInterests":{}},"vendor":{"consents":{},"legitimateInterests":{}},"specialFeatureOptins":{},"publisher":{"consents":{},"customPurpose":{"consents":{},"legitimateInterests":{}},"restrictions":{"3":{}}}},"getStoredRepromptVersion":1,"getValidTCData":{"cmpId":27,"cmpVersion":3,"gdprApplies":true,"tcfPolicyVersion":2,"eventStatus":"tcloaded","cmpStatus":"loaded","listenerId":2,"tcString":"CPgwfhMPgwfljAbADCENBwCgAAAAAAAAAAwIAAAQUgFgA4AM-AwQBuIDcwG-AOxAdsA7kB3gEFAAg0CYAKwAXABDADIAGWANkAfgBAACCgEYAKWAU8Aq8BaAFpANYAbwA6oB8gEOgIqAReAkQBNgCdgFIgLkAYEAwkBh4DGAGTgM5AZ4Az4ByQDlAHWAPwEQHwArACGAGQAMsAbIA_ACAAEYAKWAU8Aq4BrADqgHyAQ6Ai8BIgCbAE7AKRAXIAwIBhIDDwGTgM5AZ8A5IBygDrAH4AAA.f_gAAagAAAAA","isServiceSpecific":true,"useNonStandardStacks":false,"purposeOneTreatment":false,"publisherCC":"GB","addtlConsent":"1~","repromptVersion":1,"outOfBand":{"allowedVendors":{},"disclosedVendors":{}},"purpose":{"consents":{},"legitimateInterests":{}},"vendor":{"consents":{},"legitimateInterests":{}},"specialFeatureOptins":{},"publisher":{"consents":{},"customPurpose":{"consents":{},"legitimateInterests":{}},"restrictions":{"3":{},"4":{}}}}}',
+      };
   }
 
   const parts = h.split(".");
