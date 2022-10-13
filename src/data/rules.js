@@ -15137,6 +15137,9 @@ const rules = {
   "apotheke-villingen.de": {
     s: "#elementor-popup-modal-710{display:none!important}",
   },
+  "pngwebicons.com": {
+    s: "#myModal{display:none!important}",
+  },
 };
 
 const blockUrls = {
