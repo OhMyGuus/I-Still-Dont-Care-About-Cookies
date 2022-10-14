@@ -15140,6 +15140,9 @@ const rules = {
   "pngwebicons.com": {
     s: "#myModal{display:none!important}",
   },
+  "lokalplus.nrw": {
+    j: "6",
+  },
 };
 
 const blockUrls = {
