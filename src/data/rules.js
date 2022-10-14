@@ -15143,6 +15143,7 @@ const rules = {
   "lokalplus.nrw": {
     j: "6",
   },
+  "passadena.gr": { s: "#cookie-consent{display:none !important}" },
 };
 
 const blockUrls = {
