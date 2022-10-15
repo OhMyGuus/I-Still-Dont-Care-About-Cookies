@@ -15144,6 +15144,7 @@ const rules = {
     j: "6",
   },
   "passadena.gr": { s: "#cookie-consent{display:none !important}" },
+  "cleantalk.org": { s: "#uses_c{display:none !important;}" },
 };
 
 const blockUrls = {
