@@ -13914,7 +13914,9 @@ toujou-consent-widget,
 .opc-manager-cookie,
 .tkCookieBox,
 .cookie_consent_withings,
-.shop4-cookie-banner
+.shop4-cookie-banner,
+.hu-wrapper.hu-position-bottom.hu-visible,
+.cookie-notice__background
 
 /* 14112 */ {
   display: none !important;

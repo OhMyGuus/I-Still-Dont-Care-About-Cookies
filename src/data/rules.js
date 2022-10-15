@@ -15129,6 +15129,22 @@ const rules = {
   "larrychenphoto.com": { j: "6" },
   "fostertechnologies.pl": { c: "3" },
   "schlauer-shop24.de": { j: "3" },
+  "maisonstandards.com": {
+    s: ".popin_consent{display:none !important} overlay_full_screen{display:none !important}",
+  },
+  "notify.events": { j: "6" },
+  "pricewise.nl": { j: "6" },
+  "apotheke-villingen.de": {
+    s: "#elementor-popup-modal-710{display:none!important}",
+  },
+  "pngwebicons.com": {
+    s: "#myModal{display:none!important}",
+  },
+  "lokalplus.nrw": {
+    j: "6",
+  },
+  "passadena.gr": { s: "#cookie-consent{display:none !important}" },
+  "cleantalk.org": { s: "#uses_c{display:none !important;}" },
 };
 
 const blockUrls = {

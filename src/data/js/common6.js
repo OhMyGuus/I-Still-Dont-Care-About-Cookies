@@ -412,6 +412,14 @@ function getE(h) {
       return ["onleiheTracking=false"];
     case "larrychenphoto.com":
       return ["cbd=1", "necoo=1"];
+    case "notify.events":
+      return ["_gdpr=necessary"];
+    case "notify.events":
+      return ["_gdpr=necessary"];
+    case "pricewise.nl":
+      return ["CookieConsent=only_necessary"];
+    case "lokalplus.nrw":
+      return ["banner=0"];
   }
 
   const parts = h.split(".");
