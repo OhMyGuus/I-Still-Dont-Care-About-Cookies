@@ -16666,5 +16666,29 @@
       "urlFilter": "theme-cookie/app/cookie.min.js",
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"]
     }
+  },
+  {
+    "id": 1444,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/cookies_utils.js",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["abload.de"]
+    }
+  },
+  {
+    "id": 1445,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "Stygium_CookieNotice",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["bensanitair.nl"]
+    }
   }
 ]

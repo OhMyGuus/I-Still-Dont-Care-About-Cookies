@@ -420,6 +420,13 @@ function getE(h) {
       return ["CookieConsent=only_necessary"];
     case "lokalplus.nrw":
       return ["banner=0"];
+    case "hintertuxergletscher.at":
+      return ["bh_cookies_only_functional=true", "bh_cookies_accepted=true"];
+    case "wifikaernten.at":
+      return [
+        "wifi-show-cookie-policy=no",
+        "cookieconsent_status=googleanalytics,googleadwords,facebook,linkedin,mediacom",
+      ];
   }
 
   const parts = h.split(".");

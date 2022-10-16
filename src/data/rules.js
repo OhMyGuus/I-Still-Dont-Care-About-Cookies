@@ -4301,7 +4301,7 @@ const rules = {
   "egym.com": { s: ".egym-prompt{display:none !important}" },
   "totaljs.com": { s: ".ui-cookie2{display:none !important}" },
   "riot.im": { s: ".mx_MatrixToolbar{display:none !important}" },
-  "gruene-bundestag.de": { c: "98" },
+  "gruene-bundestag.de": { s: "#cn-wrapper{display:none !important}" },
   "waff.at": { s: ".en-pn-bar.en-notification{display:none !important}" },
   "alldent-zahnzentrum.de": { s: "#dialog{display:none !important}" },
   "dana.at": { s: ".theCookie{display:none !important}" },
@@ -13926,7 +13926,8 @@ const rules = {
     s: ".divibars-container{display:none !important}",
   },
   "namesilo.com": { s: "#app > header ~ section{display:none !important}" },
-  "hansanders.nl": { s: ".module--cookie{display:none !important}" },
+  "hansanders.nl": { s: "#cookie-dialog-wrapper{display:none !important}" },
+  "hansanders.be": { s: "#cookie-module-js{display:none !important}" },
   "airgradient.com": { s: ".cookie-container{display:none !important}" },
   "ilmotorsport.de": { j: "5" },
   "techbone.de": { j: "5" },
@@ -15145,6 +15146,31 @@ const rules = {
   },
   "passadena.gr": { s: "#cookie-consent{display:none !important}" },
   "cleantalk.org": { s: "#uses_c{display:none !important;}" },
+  "stromnetz-hamburg.de": {
+    s: ".cookie-overlay{overflow: unset!important} .cookie-overlay::before{display:none !important}",
+  },
+  "holmasto.fi": { s: "gds-consent-manager{display:none !important}" },
+  "dafy-moto.com": { s: ".js-cookie-headband{display:none !important}" },
+  "daim-schokolade.de": { s: "allow-cookies{display:none !important}" },
+  "picwish.com": { s: "#cookies-win{display:none !important}" },
+  "reolink.com": { s: 'div[class*="cookie-popup"]{display:none !important}' },
+  "publishwhatyoufund.org": { c: "3" },
+  "rcwilley.com": { s: "#rcDrawer{display:none !important}" },
+  "bigfishgames.com": { s: ".ReactModalPortal{display:none !important}" },
+  "elektro-plus.com": { s: ".consent-overlay{display:none !important}" },
+  "pokalkoenig.de": {
+    s: "#cookie-permission-modal{display:none !important} .modal-backdrop{display:none !important}",
+  },
+  "wifikaernten.at": { j: "6" },
+  "tenis.net": { c: "3" },
+  "dimotisnews.gr": { s: ".cc_obx{display:none !important}" },
+  "jegveremklima.hu": {
+    s: ".jegverem-cookie-wrapper{display:none !important}",
+  },
+  "cpia1.roma.it": { c: "3" },
+  "agazeta.com.br": { s: ".notification-footer{display:none !important}" },
+  "pisoscentro.com": { c: "3" },
+  "hintertuxergletscher.at": { j: "6" },
 };
 
 const blockUrls = {
@@ -15999,7 +16025,6 @@ const blockUrls = {
       },
       { q: false, r: "/cookies-consents.js", e: false },
       { q: false, r: "theme-cookie/app/cookie.min.js", e: false },
-      { q: false, r: "js-cookie/js.cookie.min.js", e: false },
     ],
     consent: [
       { q: false, r: "tmgonlinemedia.nl/consent/script/consent.js", e: false },
@@ -17252,5 +17277,7 @@ const blockUrls = {
     "huelvainformacion.es": ["privacy-center.org"],
     "lawgazette.co.uk": ["cdn.civiccomputing.com"],
     "abload.de": ["ccm."],
+    "uca.es": ["/cookies_utils.js"],
+    "bensanitair.nl": ["cookie-overlay.js"],
   },
 };
