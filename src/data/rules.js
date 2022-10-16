@@ -15171,6 +15171,7 @@ const rules = {
   "agazeta.com.br": { s: ".notification-footer{display:none !important}" },
   "pisoscentro.com": { c: "3" },
   "hintertuxergletscher.at": { j: "6" },
+  "xvideos.com": { j: "5" },
 };
 
 const blockUrls = {
