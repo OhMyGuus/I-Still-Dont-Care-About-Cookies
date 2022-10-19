@@ -845,6 +845,7 @@ div[aria-describedby*="cookie-info"],
 .cookie-compliance-container,
 .cookie-disclaimer:not(body):not(html),
 #cookie_popup,
+#cookie_popup,
 .cookie_ribon:not(body):not(html),
 .infoCookies:not(body):not(html),
 #cookieInformacja,
@@ -13914,6 +13915,8 @@ toujou-consent-widget,
 .tkCookieBox,
 .cookie_consent_withings,
 .shop4-cookie-banner,
+.hu-wrapper.hu-position-bottom.hu-visible,
+.cookie-notice__background,
 #cc-main
 
 /* 14112 */ {
@@ -13924,3 +13927,45 @@ toujou-consent-widget,
   width: 0 !important;
   overflow: hidden !important;
 }
+
+
+
+#CookieManClient,
+#apex_cookie_0,
+#box_lgpd_cookie,
+#cookieConsentInitialBackdrop,
+#cookiePOPup,
+#cookieWrapperWithSettings,
+#gdpr-wrapper,
+#gpe-cookies-warn,
+#jsCookieContainer,
+.C_Cookie_Policy,
+.Cookie_Pane,
+.c-onetrust-backupm,
+.cookie-alert-box-wrapperm,
+.cookie-substrate,
+.cookie_frame_background,
+.js-cookie-headband,
+.mipro-cookie-notice,
+.pane-cookie-content-type,
+.partial-cookie,
+.sp-gdpr-cookie-notice-wrapper,
+.space-cookie-notice,
+.spectrum-cookie-policy-banner,
+.ts-cookie-consent,
+[data-testid="consent-banner"],
+div.cookie-notice-wrapper,
+div.cookie-policy-banner,
+div.cookie-wrapper,
+div.v-cookie,
+div.box_lgpd
+
+/* 14113 */ {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
+

@@ -412,6 +412,21 @@ function getE(h) {
       return ["onleiheTracking=false"];
     case "larrychenphoto.com":
       return ["cbd=1", "necoo=1"];
+    case "notify.events":
+      return ["_gdpr=necessary"];
+    case "notify.events":
+      return ["_gdpr=necessary"];
+    case "pricewise.nl":
+      return ["CookieConsent=only_necessary"];
+    case "lokalplus.nrw":
+      return ["banner=0"];
+    case "hintertuxergletscher.at":
+      return ["bh_cookies_only_functional=true", "bh_cookies_accepted=true"];
+    case "wifikaernten.at":
+      return [
+        "wifi-show-cookie-policy=no",
+        "cookieconsent_status=googleanalytics,googleadwords,facebook,linkedin,mediacom",
+      ];
   }
 
   const parts = h.split(".");
