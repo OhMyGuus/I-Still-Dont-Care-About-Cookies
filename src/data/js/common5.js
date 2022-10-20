@@ -2620,6 +2620,7 @@ function getSelector(host) {
         '.ReactModal__Overlay--after-open a[href*="Datenschutzerklaerung"]',
         ".ReactModal__Overlay--after-open footer > div:last-child button:first-child"
       );
+    case "xvideos.com":
     case "anyxvideos.com":
       return ".disclaimer-opened #disclaimer-save-preferences";
     case "gx.games":
