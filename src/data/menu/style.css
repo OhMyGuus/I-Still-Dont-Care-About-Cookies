@@ -30,3 +30,23 @@ a[id]:hover {
   font-weight: bold;
   color: #cc4223;
 }
+
+.menu {
+  text-align: left;
+  padding: 10px 0;
+  word-wrap: break-word;
+}
+
+.menu-hidden {
+  display: none !important;
+}
+
+h3 {
+  margin-top: 0px;
+}
+
+#report-notes {
+  height: 60px;
+  min-width: 100%;
+  max-width: 100%;
+}
