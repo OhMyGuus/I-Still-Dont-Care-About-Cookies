@@ -62,6 +62,8 @@ function getItem(h) {
       return { strict: false, key: "isCookiesNotificationHidden", value: true };
     case "schlauer-shop24.de":
       return { strict: false, key: "Shop4CookieConsentAdv", value: false };
+    case "palmangels.com":
+      return { strict: false, key: "SHOW_COOKIE_BANNER", value: "no" };
   }
 
   const parts = h.split(".");

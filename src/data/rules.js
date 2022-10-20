@@ -77,7 +77,7 @@ const commons = {
   95: "#SITE_ROOT ~ .siteAspectsContainer{display:none !important}",
   97: "#gpdr,#GPDR,#gdpr,#GDPR{display:none !important}",
   98: "#info_message{display:none !important}",
-  99: "body{overflow-y: unset !important; overflow: unset !important;}",
+  99: "html,body{overflow-y: unset !important; overflow: unset !important;}",
 };
 
 const rules = {
@@ -15171,6 +15171,9 @@ const rules = {
   "agazeta.com.br": { s: ".notification-footer{display:none !important}" },
   "pisoscentro.com": { c: "3" },
   "hintertuxergletscher.at": { j: "6" },
+  "xvideos.com": { j: "5" },
+  "worktop-express.de": { c: "99" },
+  "palmangels.com": { j: "3" },
 };
 
 const blockUrls = {
