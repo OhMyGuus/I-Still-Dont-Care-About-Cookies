@@ -555,6 +555,7 @@ function insertCSS(injection, callback) {
         target: { tabId: tabId, frameIds: [frameId || 0] },
         css: css,
         files: file ? [file] : undefined,
+        origin: "USER",
       },
       callback
     );
@@ -566,6 +567,7 @@ function insertCSS(injection, callback) {
         code: css,
         frameId: frameId || 0,
         runAt: xmlTabs[tabId] ? "document_idle" : "document_start",
+        cssOrigin: "user",
       },
       callback
     );
