@@ -15173,6 +15173,7 @@ const rules = {
   "hintertuxergletscher.at": { j: "6" },
   "xvideos.com": { j: "5" },
   "worktop-express.de": { c: "99" },
+  "palmangels.com": { j: "3" },
 };
 
 const blockUrls = {
