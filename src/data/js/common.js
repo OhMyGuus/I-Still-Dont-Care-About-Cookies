@@ -462,7 +462,8 @@
 		body[class*="tiki"] #cookie_consent_div:not([style*="display: none"]) input[name="cookie_consent_checkbox"],\
 		.cookiesOverlay2Box #cookiesConsentOK,\
 		#myCookieModal.in .cookie-button,\
-		div[data-cookie-path] a[href*="technologies/cookies"] + div',
+		div[data-cookie-path] a[href*="technologies/cookies"] + div,\
+		.disable--interaction .cm__btn[data-role=necessary]',
   ];
 
   // Search loop function
