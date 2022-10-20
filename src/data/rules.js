@@ -77,7 +77,7 @@ const commons = {
   95: "#SITE_ROOT ~ .siteAspectsContainer{display:none !important}",
   97: "#gpdr,#GPDR,#gdpr,#GDPR{display:none !important}",
   98: "#info_message{display:none !important}",
-  99: "body{overflow-y: unset !important; overflow: unset !important;}",
+  99: "html,body{overflow-y: unset !important; overflow: unset !important;}",
 };
 
 const rules = {
@@ -15130,6 +15130,7 @@ const rules = {
   "larrychenphoto.com": { j: "6" },
   "fostertechnologies.pl": { c: "3" },
   "schlauer-shop24.de": { j: "3" },
+  "gbnews.uk": { j: "3" },
   "maisonstandards.com": {
     s: ".popin_consent{display:none !important} overlay_full_screen{display:none !important}",
   },
@@ -15171,6 +15172,9 @@ const rules = {
   "agazeta.com.br": { s: ".notification-footer{display:none !important}" },
   "pisoscentro.com": { c: "3" },
   "hintertuxergletscher.at": { j: "6" },
+  "xvideos.com": { j: "5" },
+  "worktop-express.de": { c: "99" },
+  "palmangels.com": { j: "3" },
 };
 
 const blockUrls = {
@@ -16282,7 +16286,11 @@ const blockUrls = {
     privacy: [
       { q: false, r: "/media/plg_system_eprivacy", e: ["reshade.me"] },
       { q: false, r: "recepttar.hu/js/privacy.js", e: false },
-      { q: false, r: "cmp.dmgmediaprivacy.co.uk", e: ["metro.co.uk"] },
+      {
+        q: false,
+        r: "cmp.dmgmediaprivacy.co.uk",
+        e: ["metro.co.uk", "gbnews.uk"],
+      },
       { q: false, r: "jssdk.privacy.pre.schibsted.com", e: false },
       { q: false, r: "secureprivacy.ai/secureprivacy-plugin/", e: false },
       { q: false, r: "/vendor/weka/privacykit/", e: false },

@@ -13958,7 +13958,9 @@ div.cookie-notice-wrapper,
 div.cookie-policy-banner,
 div.cookie-wrapper,
 div.v-cookie,
-div.box_lgpd
+div.box_lgpd,
+.messagecookies-container-popup:not(body):not(html)
+
 
 /* 14113 */ {
   display: none !important;
