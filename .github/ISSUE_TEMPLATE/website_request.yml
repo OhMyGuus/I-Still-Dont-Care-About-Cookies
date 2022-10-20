@@ -1,0 +1,47 @@
+name: Website request
+description: Report a cookie warning on a website
+title: "[REQ]: example.com"
+labels: ["Website request"]
+assignees:
+  - OhMyGuus
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a cookie warning!
+  - type: input
+    id: url
+    attributes:
+      label: Website URL
+      description: The website u want to report
+      placeholder: ex. google.com
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: What browser are u using?
+      value: Firefox
+      placeholder: Firefox
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      value: 1.0.5
+      placeholder: 1.0.5
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Things like videoplayback not working or no scrollbar etc.
+      placeholder:
+    validations:
+      required: false
