@@ -45,6 +45,12 @@ body.cookie_banner_prevent_scroll,
 body.cli-barmodal-open {
   overflow: visible !important;
 }
+
+html.disable--interaction.show--consent,
+html.disable--interaction.show--consent body {
+  overflow: unset !important;
+}
+
 body.cookie-consent-checking,
 html.sp-message-open {
   position: static !important;
@@ -13916,7 +13922,8 @@ toujou-consent-widget,
 .cookie_consent_withings,
 .shop4-cookie-banner,
 .hu-wrapper.hu-position-bottom.hu-visible,
-.cookie-notice__background
+.cookie-notice__background,
+html.show--consent #cc-main
 
 /* 14112 */ {
   display: none !important;
@@ -13926,8 +13933,6 @@ toujou-consent-widget,
   width: 0 !important;
   overflow: hidden !important;
 }
-
-
 
 #CookieManClient,
 #apex_cookie_0,
@@ -13969,4 +13974,3 @@ div.box_lgpd,
   width: 0 !important;
   overflow: hidden !important;
 }
-
