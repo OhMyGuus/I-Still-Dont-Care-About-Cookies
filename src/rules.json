@@ -16690,5 +16690,40 @@
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
       "initiatorDomains": ["bensanitair.nl"]
     }
+  },
+  {
+    "id": 1446,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/boldCookie_custom.js",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["investice.cz"]
+    }
+  },
+  {
+    "id": 1447,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/cmapp/*",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["ccm19.de"]
+    }
+  },
+  {
+    "id": 1448,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/wp-content/plugins/rrze-legal",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"]
+    }
   }
 ]

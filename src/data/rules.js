@@ -10073,7 +10073,7 @@ const rules = {
   "bitamp.com": { s: ".welcome-popup{display:none !important}" },
   "bim.com.tr": { s: ".cookie-window-select{display:none !important}" },
   "loading.com.br": { c: "25" },
-  "easylife.co.uk": { s: ".cookieControl{display:none !important}" },
+  "easylife.co.uk": { s: "#cookie-consent{display:none !important}" },
   "photoshop-kopona.com": { s: ".message-alert{display:none !important}" },
   "track-trace.com": { j: "5" },
   "pakkesporing.no": { j: "5" },
@@ -12365,8 +12365,11 @@ const rules = {
   "nordicnest.nl": { s: "#container > footer ~ div{display:none !important}" },
   "nordicnest.no": { s: "#container > footer ~ div{display:none !important}" },
   "nordicnest.se": { s: "#container > footer ~ div{display:none !important}" },
+  "studeersnel.nl": {
+    s: "#main-wrapper ~ div > .undefined{display:none !important}",
+  },
   "studocu.com": {
-    s: "#main-wrapper ~ div:not([id]):not([class]){display:none !important}",
+    s: "#main-wrapper ~ div > .undefined{display:none !important}",
   },
   "augen-lasern-vergleich.de": { j: "5" },
   "inrs.fr": { j: "5" },
@@ -13316,6 +13319,9 @@ const rules = {
   "daiichisankyo.com": { s: "#cookieLicense{display:none !important}" },
   "buyon.it": { s: ".cc_placeholder{display:none !important}" },
   "medizinfuchs.de": { s: ".ConsentHint{display:none !important}" },
+  "medizinfuchs.at": {
+    s: ".ConsentHint{display:none !important}",
+  },
   "timesnownews.com": {
     s: 'div[class*="GdprCSS-container"]{display:none !important}',
   },
@@ -15175,6 +15181,75 @@ const rules = {
   "xvideos.com": { j: "5" },
   "worktop-express.de": { c: "99" },
   "palmangels.com": { j: "3" },
+  "chaincheck.de": {
+    s: "#float-bar{display:none !important}",
+  },
+  "innerengineering.com": {
+    s: ".MuiSnackbar-anchorOriginBottomCenter{display:none !important}",
+  },
+  "animeschedule.net": {
+    s: ".custom-consent-popup{display:none !important}",
+  },
+  "easylife.co.uk": {
+    s: "#cookie-consent{display:none !important}",
+  },
+  "hayloft.co.uk": {
+    s: ".cookieControl{display:none !important}",
+  },
+  "goetel.de": {
+    s: ".cookieControl{display:none !important}",
+  },
+  "sicherheitsdienst-harz.de": {
+    s: "#cookieBs{display:none !important}",
+  },
+  "sdaa-france.com": {
+    s: "#cc-bar{display:none !important}",
+  },
+  "sbt.siemens.com": {
+    s: "#CookieDiscl{display:none !important}",
+  },
+  "ems.press": {
+    s: 'section[aria-labelledby*="analytics-consent"]{display:none !important}',
+  },
+  "spigen.com": {
+    s: ".pd-cookie-banner-window{display:none !important}",
+  },
+  "fizyka.org": {
+    s: "#pp{display:none !important}",
+  },
+  "tusclasesparticulares.com": {
+    s: "#pp{display:none !important}",
+  },
+  "edywerder.ch": {
+    s: ".kadence-conversion-banner{display:none !important}",
+  },
+  "xxxlutz.at": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "xxxlutz.de": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "xxxlutz.ch": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "xxxlutz.hu": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "xxxlutz.cz": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "moemax.at": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "moemax.hu": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "moemax.de": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "amara.org": {
+    s: ".cookie-consent-cover{display:none !important} body{overflow: unset!important}",
+  },
 };
 
 const blockUrls = {
@@ -16605,6 +16680,7 @@ const blockUrls = {
       { q: false, r: "/wp-content/plugins/fb-pixel-dsgvo/", e: false },
       { q: false, r: "id-ward.com/static/idw_plugin", e: false },
       { q: false, r: "/ishop-plugins/ishop-cp", e: false },
+      { q: false, r: "/wp-content/plugins/rrze-legal", e: false },
     ],
     track: [
       { q: false, r: "/acton/bn/tracker", e: false },
@@ -17287,5 +17363,7 @@ const blockUrls = {
     "abload.de": ["ccm."],
     "uca.es": ["/cookies_utils.js"],
     "bensanitair.nl": ["cookie-overlay.js"],
+    "investice.cz": ["/boldCookie_custom.js"],
+    "ccm19.de": ["/cmapp/"],
   },
 };
