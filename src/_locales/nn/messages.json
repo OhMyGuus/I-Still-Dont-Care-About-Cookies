@@ -4,11 +4,6 @@
     "description": "Name of the extension."
   },
 
-  "extensionDescription": {
-    "message": "Seie farvel til åtvaringar.",
-    "description": "Description of the extension."
-  },
-
   "reportSkippedTitle": {
     "message": "Utvidinga er skrudd av på $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",

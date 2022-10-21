@@ -4,11 +4,6 @@
     "description": "Name of the extension."
   },
 
-  "extensionDescription": {
-    "message": "Rozlučte se s oznámeními.",
-    "description": "Description of the extension."
-  },
-
   "reportSkippedTitle": {
     "message": "Rozšíření je pro $HOSTNAME$ zakázáno.",
     "description": "Tells the user it cannot report a whitelisted domain.",

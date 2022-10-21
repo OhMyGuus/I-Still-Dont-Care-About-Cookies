@@ -4,11 +4,6 @@
     "description": "Name of the extension."
   },
 
-  "extensionDescription": {
-    "message": "Zeg gedag tegen waarschuwingen.",
-    "description": "Description of the extension."
-  },
-
   "reportSkippedTitle": {
     "message": "Extensie is uitgeschakeld op $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",

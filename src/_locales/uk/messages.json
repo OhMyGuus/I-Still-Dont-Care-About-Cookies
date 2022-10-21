@@ -4,11 +4,6 @@
     "description": "Name of the extension."
   },
 
-  "extensionDescription": {
-    "message": "Скажи до побачення попередженням про cookies",
-    "description": "Description of the extension."
-  },
-
   "reportSkippedTitle": {
     "message": "Розширення виключене на домені $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",

@@ -4,11 +4,6 @@
     "description": "Name of the extension."
   },
 
-  "extensionDescription": {
-    "message": "对警告说再见",
-    "description": "Description of the extension."
-  },
-
   "reportSkippedTitle": {
     "message": "插件在$HOSTNAME$上不可用",
     "description": "Tells the user it cannot report a whitelisted domain.",

@@ -4,11 +4,6 @@
     "description": "Name of the extension."
   },
 
-  "extensionDescription": {
-    "message": "警告にサヨナラ。",
-    "description": "Description of the extension."
-  },
-
   "reportSkippedTitle": {
     "message": "拡張はこのドメイン $HOSTNAME$ で無効とされています。",
     "description": "Tells the user it cannot report a whitelisted domain.",

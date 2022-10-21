@@ -4,11 +4,6 @@
     "description": "Name of the extension."
   },
 
-  "extensionDescription": {
-    "message": "Adi\u00f3s a los avisos.",
-    "description": "Description of the extension."
-  },
-
   "reportSkippedTitle": {
     "message": "La extensi\u00f3n se encuentra desactivada en $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",

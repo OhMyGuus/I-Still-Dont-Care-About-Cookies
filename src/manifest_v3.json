@@ -2,9 +2,9 @@
   "update_url": "https://clients2.google.com/service/update2/crx",
   "manifest_version": 3,
   "name": "__MSG_extensionName__",
-  "short_name": "__MSG_extensionDescription__",
+  "description": "__MSG_extensionDescription__",
   "default_locale": "en",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "icons": {
     "16": "icons/16.png",
     "48": "icons/48.png",
