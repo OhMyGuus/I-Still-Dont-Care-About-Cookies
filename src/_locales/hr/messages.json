@@ -4,11 +4,6 @@
     "description": "Name of the extension."
   },
 
-  "extensionDescription": {
-    "message": "Pa-pa, upozorenja.",
-    "description": "Description of the extension."
-  },
-
   "reportSkippedTitle": {
     "message": "Ekstenzija ne radi na $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",

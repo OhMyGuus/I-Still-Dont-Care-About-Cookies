@@ -4,11 +4,6 @@
     "description": "Name of the extension."
   },
 
-  "extensionDescription": {
-    "message": "Pożegnaj uciążliwe komunikaty o ciasteczkach.",
-    "description": "Description of the extension."
-  },
-
   "reportSkippedTitle": {
     "message": "Rozszerzenie jest wyłączone na $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",
