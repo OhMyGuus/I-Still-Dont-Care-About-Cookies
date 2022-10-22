@@ -15253,6 +15253,11 @@ const rules = {
   "imobiliariabaron.com.br": {
     s: ".sc-eyulwr-0{display:none !important}",
   },
+  "ciaoflorence.it": { c: "16" },
+  "berocca.com.au": { c: "99" },
+  "geogra.ro": {
+    s: "#popup-bottom{display:none !important}",
+  },
 };
 
 const blockUrls = {
