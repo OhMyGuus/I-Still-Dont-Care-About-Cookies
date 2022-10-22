@@ -15251,6 +15251,7 @@ const rules = {
     s: ".cookie-consent-cover{display:none !important} body{overflow: unset!important}",
   },
   "ciaoflorence.it": { c: "16" },
+  "berocca.com.au": { c: "99" },
 };
 
 const blockUrls = {
