@@ -362,7 +362,7 @@ function getSelector(host) {
 
   switch (host.full) {
     case "youtube.com":
-      return 'ytd-consent-bump-v2-lightbox .buttons ytd-button-renderer:last-child, ytd-consent-bump-v2-lightbox .eom-buttons > div:first-child ytd-button-renderer:first-child, .consent-bump-v2-lightbox [data-style="STYLE_PRIMARY"] + [data-style="STYLE_PRIMARY"] button';
+      return 'ytd-consent-bump-v2-lightbox .buttons ytd-button-renderer:last-child, ytd-consent-bump-v2-lightbox .eom-buttons > div:first-child ytd-button-renderer:first-child button, ytd-consent-bump-v2-lightbox .eom-buttons > div:first-child ytd-button-renderer:first-child a, .consent-bump-v2-lightbox [data-style="STYLE_PRIMARY"] + [data-style="STYLE_PRIMARY"] button';
     case "twitter.com":
       return '//div[@id="layers"]//div[@role="button"][.//span[contains(text(), "cookie") or contains(text(), "Cookie")]]/following-sibling::div[@role="button"][not(@aria-label)][not(@data-testid)]';
 
