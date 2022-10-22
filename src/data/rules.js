@@ -15250,6 +15250,9 @@ const rules = {
   "amara.org": {
     s: ".cookie-consent-cover{display:none !important} body{overflow: unset!important}",
   },
+  "imobiliariabaron.com.br": {
+    s: ".sc-eyulwr-0{display:none !important}",
+  },
   "ciaoflorence.it": { c: "16" },
   "berocca.com.au": { c: "99" },
   "geogra.ro": {
