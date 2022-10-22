@@ -15250,6 +15250,7 @@ const rules = {
   "amara.org": {
     s: ".cookie-consent-cover{display:none !important} body{overflow: unset!important}",
   },
+  "ciaoflorence.it": { c: "16" },
 };
 
 const blockUrls = {
