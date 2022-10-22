@@ -15250,6 +15250,7 @@ const rules = {
   "amara.org": {
     s: ".cookie-consent-cover{display:none !important} body{overflow: unset!important}",
   },
+  "berocca.com.au": { c: "99" },
 };
 
 const blockUrls = {
