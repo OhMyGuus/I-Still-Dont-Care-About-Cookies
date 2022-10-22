@@ -15252,6 +15252,9 @@ const rules = {
   },
   "ciaoflorence.it": { c: "16" },
   "berocca.com.au": { c: "99" },
+  "geogra.ro": {
+    s: "#popup-bottom{display:none !important}",
+  },
 };
 
 const blockUrls = {
