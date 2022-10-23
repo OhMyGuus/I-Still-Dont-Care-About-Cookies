@@ -368,16 +368,10 @@ function getSelector(host) {
 
     case "mapillary.com":
     case "metacareers.com":
-      return _chain(
-        '.hasCookieBanner [data-cookiebanner*="manage"]',
-        'button[data-cookiebanner*="accept"]'
-      );
+      return 'button[data-cookiebanner*="accept"]';
 
     case "whatsapp.com":
-      return _chain(
-        '.hasCookieBanner [data-cookiebanner*="manage"]',
-        'button[data-cookiebanner*="agree"]'
-      );
+      return 'button[data-cookiebanner*="accept"]';
 
     case "facebook.com":
       if (/^\/user_cookie_prompt\//.test(document.location.pathname)) {

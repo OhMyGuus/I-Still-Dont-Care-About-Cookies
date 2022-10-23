@@ -12277,7 +12277,9 @@ const rules = {
     s: 'div[aria-labelledby="m-acc-title"]{display:none !important}',
   },
   "bv-activebanking.de": { j: "5" },
-  "whatsapp.com": { j: "5" },
+  "whatsapp.com": {
+    s: '.hasCookieBanner>div[data-testid="wa_cookies_banner_modal"]{display:none !important}',
+  },
   "faq.whatsapp.com": {
     s: 'div[id^="mount_"] > div > div > div:last-child:not(:only-of-type){display:none !important}',
   },
