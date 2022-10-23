@@ -427,6 +427,12 @@ function getE(h) {
         "wifi-show-cookie-policy=no",
         "cookieconsent_status=googleanalytics,googleadwords,facebook,linkedin,mediacom",
       ];
+    case "modivo.hr":
+      return [
+        "__MODIVO__cookies_modal=1",
+        "__MODIVO__cookies_policy=false",
+        "__MODIVO__cookies_personal_data=false",
+      ];
   }
 
   const parts = h.split(".");

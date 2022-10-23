@@ -15267,6 +15267,7 @@ const rules = {
     s: "#usage-metrics #notice{display:none !important}",
   },
   "cleverdirekt.de": { s: ".privacyBackground{display:none !important}" },
+  "modivo.hr": { j: "6" },
 };
 
 const blockUrls = {
