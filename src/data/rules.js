@@ -12277,7 +12277,9 @@ const rules = {
     s: 'div[aria-labelledby="m-acc-title"]{display:none !important}',
   },
   "bv-activebanking.de": { j: "5" },
-  "whatsapp.com": { j: "5" },
+  "whatsapp.com": {
+    s: '.hasCookieBanner>div[data-testid="wa_cookies_banner_modal"]{display:none !important}',
+  },
   "faq.whatsapp.com": {
     s: 'div[id^="mount_"] > div > div > div:last-child:not(:only-of-type){display:none !important}',
   },
@@ -15258,6 +15260,14 @@ const rules = {
   "geogra.ro": {
     s: "#popup-bottom{display:none !important}",
   },
+  "bbg.gv.at": {
+    s: ".guglercookies{display:none !important}.focustrap{overflow:unset!important}",
+  },
+  "search.brave.com": {
+    s: "#usage-metrics #notice{display:none !important}",
+  },
+  "cleverdirekt.de": { s: ".privacyBackground{display:none !important}" },
+  "modivo.hr": { j: "6" },
 };
 
 const blockUrls = {
