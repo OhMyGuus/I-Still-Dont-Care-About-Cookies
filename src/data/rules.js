@@ -15266,6 +15266,7 @@ const rules = {
   "search.brave.com": {
     s: "#usage-metrics #notice{display:none !important}",
   },
+  "cleverdirekt.de": { s: ".privacyBackground{display:none !important}" },
 };
 
 const blockUrls = {
