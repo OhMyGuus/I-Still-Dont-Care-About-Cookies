@@ -15260,6 +15260,9 @@ const rules = {
   "geogra.ro": {
     s: "#popup-bottom{display:none !important}",
   },
+  "bbg.gv.at": {
+    s: ".guglercookies{display:none !important}.focustrap{overflow:unset!important}",
+  },
 };
 
 const blockUrls = {
