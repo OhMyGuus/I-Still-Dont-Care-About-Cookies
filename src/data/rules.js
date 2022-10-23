@@ -15263,6 +15263,9 @@ const rules = {
   "bbg.gv.at": {
     s: ".guglercookies{display:none !important}.focustrap{overflow:unset!important}",
   },
+  "search.brave.com": {
+    s: "#usage-metrics #notice{display:none !important}",
+  },
 };
 
 const blockUrls = {
