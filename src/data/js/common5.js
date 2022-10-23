@@ -1151,7 +1151,9 @@ function getSelector(host) {
     case "gmx.ch":
     case "gmx.at":
     case "web.de":
-      return _sl("#cmp #save-all-conditionally");
+      return _sl(
+        '#cookie-strap + div .btn-secondary.close-layer[data-section="cancel"]'
+      );
 
     case "music.yandex.ru":
     case "music.yandex.com":
