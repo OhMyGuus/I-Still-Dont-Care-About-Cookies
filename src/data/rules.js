@@ -15274,6 +15274,7 @@ const rules = {
     s: "#garrampa-cookienotice{display:none !important}",
   },
   "augsburger-allgemeine.de": { j: "5" },
+  "dualuniverse.game": { j: "6" },
 };
 
 const blockUrls = {
