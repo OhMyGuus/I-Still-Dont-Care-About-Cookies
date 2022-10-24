@@ -15273,6 +15273,7 @@ const rules = {
   "deporteam.es": {
     s: "#garrampa-cookienotice{display:none !important}",
   },
+  "augsburger-allgemeine.de": { j: "5" },
 };
 
 const blockUrls = {
