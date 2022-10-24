@@ -15268,6 +15268,9 @@ const rules = {
   },
   "cleverdirekt.de": { s: ".privacyBackground{display:none !important}" },
   "modivo.hr": { j: "6" },
+  "meteoradar.com": {
+    s: "#closeonaction{display:none !important}",
+  },
 };
 
 const blockUrls = {
