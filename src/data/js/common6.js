@@ -435,6 +435,8 @@ function getE(h) {
       ];
     case "dualuniverse.game":
       return ["cookie_preference=%7B%22performance%22%3A%22decline%22%2C%22functional%22%3A%22decline%22%2C%22targeting%22%3A%22decline%22%2C%22social%22%3A%22decline%22%7D"];
+    case "kaidee.com":
+      return ["T-cook=Necessary,Others"];
   }
 
   const parts = h.split(".");
