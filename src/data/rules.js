@@ -15282,6 +15282,9 @@ const rules = {
     j: "6",
     s: ".popin-gdpr-no-scroll{overflow: unset!important} .gdpr-hfp-wall{display:none !important}",
   },
+  "cowiiaccess.deltekenterprise.com":{
+    s: "dm-cookie-consent{display:none !important}"
+  }
 };
 
 const blockUrls = {
