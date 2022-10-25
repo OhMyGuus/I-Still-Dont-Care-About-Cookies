@@ -1306,12 +1306,14 @@ function getSelector(host) {
       return _sl(
         '.consent-box-holder:not([style*="none"]) .consent-box-button'
       );
-
-    case "sourceforge.net":
+      
     case "sudoku-aktuell.de":
     case "webfail.com":
       return '#cmpbox[style*="block"] .cmpboxbtnsave';
 
+    case "sourceforge.net":
+      return '.cmpboxbtnno';
+      
     case "winfuture.de":
       e = _id("cmpwrapper");
       return e && e.shadowRoot ? _sl(".cmpboxbtnyes", e.shadowRoot) : false;
@@ -7024,6 +7026,9 @@ function getSelector(host) {
         ],
         [".c-cookiebanner__visible .c-cookiebanner__settings-actions-submit"]
       );
+  
+    case 'augsburger-allgemeine.de':
+      return 'button.aa-first-layer__button'
 
     // END
   }

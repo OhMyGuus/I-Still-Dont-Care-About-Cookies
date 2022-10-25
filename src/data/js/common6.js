@@ -433,6 +433,14 @@ function getE(h) {
         "__MODIVO__cookies_policy=false",
         "__MODIVO__cookies_personal_data=false",
       ];
+    case "dualuniverse.game":
+      return ["cookie_preference=%7B%22performance%22%3A%22decline%22%2C%22functional%22%3A%22decline%22%2C%22targeting%22%3A%22decline%22%2C%22social%22%3A%22decline%22%7D"];
+    case "evertiq.com":
+      return [
+        'cookie_consent={"status":"rejected","acceptedCategories":[]}',
+      ];
+    case "kaidee.com":
+      return ["T-cook=Necessary,Others"];
   }
 
   const parts = h.split(".");
