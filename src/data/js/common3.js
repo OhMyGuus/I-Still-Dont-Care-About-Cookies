@@ -71,6 +71,13 @@ function getItem(h) {
       };
     case "palmangels.com":
       return { strict: false, key: "SHOW_COOKIE_BANNER", value: "no" };
+    case "coquedetelephone.fr":
+      return {
+        strict: false,
+        key: "mage_consent",
+        value:
+          '{"data":{"functional":true,"marketing":false}}',
+      };
   }
 
   const parts = h.split(".");
