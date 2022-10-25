@@ -15277,6 +15277,10 @@ const rules = {
   "dualuniverse.game": { j: "6" },
   "evertiq.com": { j: "6" },
   "kaidee.com": { j: "6" },
+  "brikett-rekord.com": {
+    s: ".modal-backdrop{display:none !important}",
+    c: "99"
+  },
   "coquedetelephone.fr": { j: "3" },
 };
 
