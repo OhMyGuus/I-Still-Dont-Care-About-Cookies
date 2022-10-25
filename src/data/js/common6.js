@@ -439,6 +439,8 @@ function getE(h) {
       return [
         'cookie_consent={"status":"rejected","acceptedCategories":[]}',
       ];
+    case "kaidee.com":
+      return ["T-cook=Necessary,Others"];
   }
 
   const parts = h.split(".");
