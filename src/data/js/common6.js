@@ -441,6 +441,8 @@ function getE(h) {
       ];
     case "kaidee.com":
       return ["T-cook=Necessary,Others"];
+    case "creopard.de":
+      return ["klaro=%7B%22klaro%22%3Atrue%2C%22cms%22%3Atrue%2C%22adsense%22%3Afalse%2C%22youtube%22%3Afalse%2C%22twitter%22%3Afalse%2C%22matomo%22%3Afalse%7D"];
   }
 
   const parts = h.split(".");
