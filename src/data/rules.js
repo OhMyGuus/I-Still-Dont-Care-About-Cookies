@@ -15269,7 +15269,8 @@ const rules = {
   "cleverdirekt.de": { s: ".privacyBackground{display:none !important}" },
   "modivo.hr": { j: "6" },
   "meteoradar.com": {
-    s: "#closeonaction{display:none !important}" },
+    s: "#closeonaction{display:none !important}",
+  },
   "deporteam.es": {
     s: "#garrampa-cookienotice{display:none !important}",
   },
@@ -15277,6 +15278,7 @@ const rules = {
   "dualuniverse.game": { j: "6" },
   "evertiq.com": { j: "6" },
   "kaidee.com": { j: "6" },
+  "benchmark.pl": { j: "5" },
 };
 
 const blockUrls = {
