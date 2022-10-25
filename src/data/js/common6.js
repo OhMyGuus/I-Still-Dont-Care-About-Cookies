@@ -434,13 +434,17 @@ function getE(h) {
         "__MODIVO__cookies_personal_data=false",
       ];
     case "dualuniverse.game":
-      return ["cookie_preference=%7B%22performance%22%3A%22decline%22%2C%22functional%22%3A%22decline%22%2C%22targeting%22%3A%22decline%22%2C%22social%22%3A%22decline%22%7D"];
-    case "evertiq.com":
       return [
-        'cookie_consent={"status":"rejected","acceptedCategories":[]}',
+        "cookie_preference=%7B%22performance%22%3A%22decline%22%2C%22functional%22%3A%22decline%22%2C%22targeting%22%3A%22decline%22%2C%22social%22%3A%22decline%22%7D",
       ];
+    case "evertiq.com":
+      return ['cookie_consent={"status":"rejected","acceptedCategories":[]}'];
     case "kaidee.com":
       return ["T-cook=Necessary,Others"];
+    case "huffingtonpost.fr":
+      return [
+        "lmd_consent=%7B%22userId%22%3A%22%22%2C%22timestamp%22%3A%22%22%2C%22version%22%3A1%2C%22cmpId%22%3A371%2C%22displayMode%22%3A%22cookiewall%22%2C%22purposes%22%3A%7B%22analytics%22%3Afalse%2C%22ads%22%3Afalse%2C%22personalization%22%3Afalse%2C%22mediaPlatforms%22%3Atrue%2C%22social%22%3Afalse%7D%7D",
+      ];
   }
 
   const parts = h.split(".");

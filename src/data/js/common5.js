@@ -2345,9 +2345,6 @@ function getSelector(host) {
         "#gdpr-ads",
         'button[data-gdpr-action="save"]'
       );
-    case "huffingtonpost.fr":
-      return ".popin-gdpr-no-scroll button[data-gdpr-expression]";
-
     case "stromnetz.berlin":
     case "vattenfall.com":
       return ".show-cookie-disclaimer .js-acceptcookie .js-acceptselection";

@@ -14732,7 +14732,6 @@ const rules = {
   "pelando.com.br": { s: "main ~ div{display:none !important}" },
   "curiositystream.com": { s: "main ~ div{display:none !important}" },
   "steambackgrounds.com": { s: "main ~ div{display:none !important}" },
-  "huffingtonpost.fr": { j: "5" },
   "deutsche-pop.com": { s: "#ccm{display:none !important}" },
   "stagent.com": { s: 'div[x-show="consent"]{display:none !important}' },
   "lelum.pl": { j: "5" },
@@ -15279,6 +15278,10 @@ const rules = {
   "evertiq.com": { j: "6" },
   "kaidee.com": { j: "6" },
   "benchmark.pl": { j: "5" },
+  "huffingtonpost.fr": {
+    j: "6",
+    s: ".popin-gdpr-no-scroll{overflow: unset!important} .gdpr-hfp-wall{display:none !important}",
+  },
 };
 
 const blockUrls = {
