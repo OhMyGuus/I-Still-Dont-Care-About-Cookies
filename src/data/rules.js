@@ -15277,6 +15277,7 @@ const rules = {
   "dualuniverse.game": { j: "6" },
   "evertiq.com": { j: "6" },
   "kaidee.com": { j: "6" },
+  "coquedetelephone.fr": { j: "3" },
 };
 
 const blockUrls = {
