@@ -14007,7 +14007,7 @@ const rules = {
   "thenextcloset.com": {
     s: 'div[data-react-class*="CookieConsentBanner"]{display:none !important}',
   },
-  "hardware.info": { j: "5" },
+  "hardware.info": { j: "3" },
   "tudogostoso.com.br": { c: "4" },
   "healthygamer.gg": { j: "5" },
   "otrium.co.uk": { j: "5" },

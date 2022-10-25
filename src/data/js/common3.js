@@ -71,6 +71,13 @@ function getItem(h) {
       };
     case "palmangels.com":
       return { strict: false, key: "SHOW_COOKIE_BANNER", value: "no" };
+    case "hardware.info":
+      return {
+        strict: false,
+        key: "consentData",
+        value: 
+          '{"relevantAds":{"version":1,"approved":false},"youtube":{"version":1,"approved":false}}',
+      };
   }
 
   const parts = h.split(".");
