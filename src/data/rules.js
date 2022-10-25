@@ -15278,6 +15278,11 @@ const rules = {
   "evertiq.com": { j: "6" },
   "kaidee.com": { j: "6" },
   "belenergy.com.br": { c: "2" },
+  "brikett-rekord.com": {
+    s: ".modal-backdrop{display:none !important}",
+    c: "99"
+  },
+  "coquedetelephone.fr": { j: "3" },
 };
 
 const blockUrls = {
