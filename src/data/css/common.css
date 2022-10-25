@@ -46,13 +46,20 @@ body.cli-barmodal-open {
   overflow: visible !important;
 }
 
+iframe[title^="SP Consent Message"] {
+  display: none !important;
+}
+
+html.sp-message-open,
+html.sp-message-open body,
 html.disable--interaction.show--consent,
 html.disable--interaction.show--consent body {
   overflow: unset !important;
 }
 
 body.cookie-consent-checking,
-html.sp-message-open {
+html.sp-message-open,
+html.sp-message-open body {
   position: static !important;
 }
 #cookieNoticeModal.vrm-reveal[style*="block"],
