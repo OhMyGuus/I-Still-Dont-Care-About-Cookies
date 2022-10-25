@@ -77,6 +77,12 @@ function getItem(h) {
         key: "consentData",
         value: 
           '{"relevantAds":{"version":1,"approved":false},"youtube":{"version":1,"approved":false}}',
+    case "coquedetelephone.fr":
+      return {
+        strict: false,
+        key: "mage_consent",
+        value:
+          '{"data":{"functional":true,"marketing":false}}',
       };
   }
 
