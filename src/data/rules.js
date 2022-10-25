@@ -15281,6 +15281,7 @@ const rules = {
     s: ".modal-backdrop{display:none !important}",
     c: "99"
   },
+  "coquedetelephone.fr": { j: "3" },
 };
 
 const blockUrls = {
