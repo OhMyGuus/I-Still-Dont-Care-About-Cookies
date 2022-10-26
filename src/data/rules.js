@@ -15282,9 +15282,12 @@ const rules = {
     j: "6",
     s: ".popin-gdpr-no-scroll{overflow: unset!important} .gdpr-hfp-wall{display:none !important}",
   },
-  "cowiiaccess.deltekenterprise.com":{
-    s: "dm-cookie-consent{display:none !important}"
-  }
+  "cowiiaccess.deltekenterprise.com": {
+    s: "dm-cookie-consent{display:none !important}",
+  },
+  "sparda-h.de": {
+    s: ".darken-layer.open,.lightbox--cookie-consent{display:none !important}body.no-scroll{position:unset!important}",
+  },
 };
 
 const blockUrls = {
