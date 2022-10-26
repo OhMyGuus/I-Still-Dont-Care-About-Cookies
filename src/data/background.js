@@ -517,7 +517,7 @@ function doTheMagic(tabId, frameId, anotherTry) {
       }
 
       // Common social embeds
-      executeScript({ tabId, frameId, file: "data/js/embeds.js" });
+      executeScript({ tabId, frameId, file: "data/js/embedsHandler.js" });
 
       if (activateDomain(tabList[tabId].hostname, tabId, frameId || 0)) {
         return;
@@ -532,7 +532,11 @@ function doTheMagic(tabId, frameId, anotherTry) {
       }
 
       // Common JS rules when custom rules don't exist
-      executeScript({ tabId, frameId, file: "data/js/common.js" });
+      executeScript({
+        tabId,
+        frameId,
+        file: "data/js/0_defaultClickHandler.js",
+      });
     }
   );
 }

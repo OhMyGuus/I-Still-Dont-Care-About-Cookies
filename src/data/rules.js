@@ -12,12 +12,12 @@
 } */
 
 const commonJSHandlers = {
-  0: "0_defaultClickHandler.js",
-  2: "2_sessionStorageHandler.js",
-  3: "3_localStorageHandler.js",
-  5: "5_clickHandler.js",
-  6: "6_cookieHandler.js",
-  8: "8_googleHandler.js",
+  0: "0_defaultClickHandler",
+  2: "2_sessionStorageHandler",
+  3: "3_localStorageHandler",
+  5: "5_clickHandler",
+  6: "6_cookieHandler",
+  8: "8_googleHandler",
 };
 
 const commons = {
