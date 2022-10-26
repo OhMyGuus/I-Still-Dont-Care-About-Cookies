@@ -16148,6 +16148,7 @@ const blockUrls = {
       },
       { q: false, r: "/cookies-consents.js", e: false },
       { q: false, r: "theme-cookie/app/cookie.min.js", e: false },
+      { q: false, r: "plugins/ShprCookieFavour/", e: false },
     ],
     consent: [
       { q: false, r: "tmgonlinemedia.nl/consent/script/consent.js", e: false },

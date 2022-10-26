@@ -16725,5 +16725,16 @@
       "urlFilter": "/wp-content/plugins/rrze-legal",
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"]
     }
+  },
+  {
+    "id": 1449,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "plugins/ShprCookieFavour/",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"]
+    }
   }
 ]
