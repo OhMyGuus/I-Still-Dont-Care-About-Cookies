@@ -71,6 +71,17 @@ function getItem(h) {
       };
     case "palmangels.com":
       return { strict: false, key: "SHOW_COOKIE_BANNER", value: "no" };
+    case "parfimo.ro":
+      return [
+        { strict: false, key: "consent_is_set", value: "true" },
+        {
+          strict: false,
+          key: "consent_personalization_storage",
+          value: "denied",
+        },
+        { strict: false, key: "consent_analytics_storage", value: "denied" },
+        { strict: false, key: "consent_ad_storage", value: "denied" },
+      ];
   }
 
   const parts = h.split(".");

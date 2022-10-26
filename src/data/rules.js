@@ -15293,6 +15293,7 @@ const rules = {
     s: ".wd-consent{display:none !important}",
   },
   "gamers.si": { s: ".cookie-container{display:none !important}" },
+  "parfimo.ro": { j: "3" },
 };
 
 const blockUrls = {
