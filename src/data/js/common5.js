@@ -548,6 +548,7 @@ function getSelector(host) {
       if (e) e.className += " idcac";
       return e;
 
+    case "benchmark.pl":
     case "wp.pl":
       document.cookie = "WP-cookie-info=1"; // wiadomosci
       return _ev("button[contains(., 'PRZECHODZ')]");
@@ -1151,7 +1152,9 @@ function getSelector(host) {
     case "gmx.ch":
     case "gmx.at":
     case "web.de":
-      return _sl("#cmp #save-all-conditionally");
+      return _sl(
+        '#cookie-strap + div .btn-secondary.close-layer[data-section="cancel"]'
+      );
 
     case "music.yandex.ru":
     case "music.yandex.com":
@@ -1304,14 +1307,14 @@ function getSelector(host) {
       return _sl(
         '.consent-box-holder:not([style*="none"]) .consent-box-button'
       );
-      
+
     case "sudoku-aktuell.de":
     case "webfail.com":
       return '#cmpbox[style*="block"] .cmpboxbtnsave';
 
     case "sourceforge.net":
-      return '.cmpboxbtnno';
-      
+      return ".cmpboxbtnno";
+
     case "winfuture.de":
       e = _id("cmpwrapper");
       return e && e.shadowRoot ? _sl(".cmpboxbtnyes", e.shadowRoot) : false;
@@ -2342,9 +2345,6 @@ function getSelector(host) {
         "#gdpr-ads",
         'button[data-gdpr-action="save"]'
       );
-    case "huffingtonpost.fr":
-      return ".popin-gdpr-no-scroll button[data-gdpr-expression]";
-
     case "stromnetz.berlin":
     case "vattenfall.com":
       return ".show-cookie-disclaimer .js-acceptcookie .js-acceptselection";
@@ -5391,6 +5391,7 @@ function getSelector(host) {
       return _sl('.coo__button[data-button="setAllCookies"]');
     case "swrag.de":
       return _sl('#cookie-layer[style*="block"] .btn-secondary');
+    case "wunderkind-custom.com":
     case "ab-m.de":
       return _sl(".wd-consent .buttonFrontend");
     case "real.de":
@@ -7022,9 +7023,9 @@ function getSelector(host) {
         ],
         [".c-cookiebanner__visible .c-cookiebanner__settings-actions-submit"]
       );
-  
-    case 'augsburger-allgemeine.de':
-      return 'button.aa-first-layer__button'
+
+    case "augsburger-allgemeine.de":
+      return "button.aa-first-layer__button";
 
     // END
   }

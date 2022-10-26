@@ -9121,7 +9121,7 @@ const rules = {
   "gumtree.com": { s: ".notification-box{display:none !important}" },
   "gamefreak.gr": { s: ".notification-wrapper{display:none !important}" },
   "spbtvonline.ru": { s: "#agreeC{display:none !important}" },
-  "ab-m.de": { j: "5" },
+  "ab-m.de": { j: "5", s: ".wd-consent{display:none !important}" },
   "swrag.de": { j: "5" },
   "nzxt.com": { c: "41" },
   "ogrzewanie-domu.pl": { c: "3" },
@@ -14732,7 +14732,6 @@ const rules = {
   "pelando.com.br": { s: "main ~ div{display:none !important}" },
   "curiositystream.com": { s: "main ~ div{display:none !important}" },
   "steambackgrounds.com": { s: "main ~ div{display:none !important}" },
-  "huffingtonpost.fr": { j: "5" },
   "deutsche-pop.com": { s: "#ccm{display:none !important}" },
   "stagent.com": { s: 'div[x-show="consent"]{display:none !important}' },
   "lelum.pl": { j: "5" },
@@ -15269,7 +15268,8 @@ const rules = {
   "cleverdirekt.de": { s: ".privacyBackground{display:none !important}" },
   "modivo.hr": { j: "6" },
   "meteoradar.com": {
-    s: "#closeonaction{display:none !important}" },
+    s: "#closeonaction{display:none !important}",
+  },
   "deporteam.es": {
     s: "#garrampa-cookienotice{display:none !important}",
   },
@@ -15277,6 +15277,23 @@ const rules = {
   "dualuniverse.game": { j: "6" },
   "evertiq.com": { j: "6" },
   "kaidee.com": { j: "6" },
+  "benchmark.pl": { j: "5" },
+  "huffingtonpost.fr": {
+    j: "6",
+    s: ".popin-gdpr-no-scroll{overflow: unset!important} .gdpr-hfp-wall{display:none !important}",
+  },
+  "cowiiaccess.deltekenterprise.com": {
+    s: "dm-cookie-consent{display:none !important}",
+  },
+  "sparda-h.de": {
+    s: ".darken-layer.open,.lightbox--cookie-consent{display:none !important}body.no-scroll{position:unset!important}",
+  },
+  "wunderkind-custom.com": {
+    j: "5",
+    s: ".wd-consent{display:none !important}",
+  },
+  "gamers.si": { s: ".cookie-container{display:none !important}" },
+  "parfimo.ro": { j: "3" },
   "creopard.de": { j: "6" },
   "belenergy.com.br": { c: "2" },
   "brikett-rekord.com": {
@@ -16138,6 +16155,7 @@ const blockUrls = {
       },
       { q: false, r: "/cookies-consents.js", e: false },
       { q: false, r: "theme-cookie/app/cookie.min.js", e: false },
+      { q: false, r: "plugins/ShprCookieFavour/", e: false },
     ],
     consent: [
       { q: false, r: "tmgonlinemedia.nl/consent/script/consent.js", e: false },
