@@ -9121,7 +9121,7 @@ const rules = {
   "gumtree.com": { s: ".notification-box{display:none !important}" },
   "gamefreak.gr": { s: ".notification-wrapper{display:none !important}" },
   "spbtvonline.ru": { s: "#agreeC{display:none !important}" },
-  "ab-m.de": { j: "5" },
+  "ab-m.de": { j: "5", s: ".wd-consent{display:none !important}" },
   "swrag.de": { j: "5" },
   "nzxt.com": { c: "41" },
   "ogrzewanie-domu.pl": { c: "3" },
@@ -15287,6 +15287,10 @@ const rules = {
   },
   "sparda-h.de": {
     s: ".darken-layer.open,.lightbox--cookie-consent{display:none !important}body.no-scroll{position:unset!important}",
+  },
+  "wunderkind-custom.com": {
+    j: "5",
+    s: ".wd-consent{display:none !important}",
   },
 };
 

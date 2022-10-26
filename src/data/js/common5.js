@@ -5391,6 +5391,7 @@ function getSelector(host) {
       return _sl('.coo__button[data-button="setAllCookies"]');
     case "swrag.de":
       return _sl('#cookie-layer[style*="block"] .btn-secondary');
+    case "wunderkind-custom.com":
     case "ab-m.de":
       return _sl(".wd-consent .buttonFrontend");
     case "real.de":
