@@ -82,6 +82,19 @@ function getItem(h) {
         { strict: false, key: "consent_analytics_storage", value: "denied" },
         { strict: false, key: "consent_ad_storage", value: "denied" },
       ];
+    case "hardware.info":
+      return {
+        strict: false,
+        key: "consentData",
+        value: 
+          '{"relevantAds":{"version":1,"approved":false},"youtube":{"version":1,"approved":false}}',
+    case "coquedetelephone.fr":
+      return {
+        strict: false,
+        key: "mage_consent",
+        value:
+          '{"data":{"functional":true,"marketing":false}}',
+      };
   }
 
   const parts = h.split(".");

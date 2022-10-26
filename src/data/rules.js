@@ -14007,7 +14007,7 @@ const rules = {
   "thenextcloset.com": {
     s: 'div[data-react-class*="CookieConsentBanner"]{display:none !important}',
   },
-  "hardware.info": { j: "5" },
+  "hardware.info": { j: "3" },
   "tudogostoso.com.br": { c: "4" },
   "healthygamer.gg": { j: "5" },
   "otrium.co.uk": { j: "5" },
@@ -15294,6 +15294,13 @@ const rules = {
   },
   "gamers.si": { s: ".cookie-container{display:none !important}" },
   "parfimo.ro": { j: "3" },
+  "creopard.de": { j: "6" },
+  "belenergy.com.br": { c: "2" },
+  "brikett-rekord.com": {
+    s: ".modal-backdrop{display:none !important}",
+    c: "99"
+  },
+  "coquedetelephone.fr": { j: "3" },
 };
 
 const blockUrls = {
