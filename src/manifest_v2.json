@@ -26,7 +26,7 @@
     "webNavigation"
   ],
   "background": {
-    "scripts": ["data/rules.js", "data/context-menu.js"]
+    "scripts": ["data/rules.js", "data/background.js"]
   },
   "options_ui": {
     "page": "data/options.html",

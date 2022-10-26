@@ -22,7 +22,7 @@
   ],
   "host_permissions": ["http://*/*", "https://*/*"],
   "background": {
-    "service_worker": "data/context-menu.js"
+    "service_worker": "data/background.js"
   },
   "options_ui": {
     "page": "data/options.html"

@@ -1,3 +1,7 @@
+/*	Default click handler */
+/*	Executed by default if no rule detected */
+/*  Use this handler if the cookie warning is used on a lot of websites */
+
 (function () {
   const searchPairs = {
     ".wp-exclude-emoji": [

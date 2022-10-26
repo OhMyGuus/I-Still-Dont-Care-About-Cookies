@@ -1,3 +1,6 @@
+/*  Session storage handler */
+/*  Use this handler if it's possible to remove the warning using the session storage and can't be handeld using css*/
+
 function getItem(h) {
   switch (h) {
     case "pepephone.com":

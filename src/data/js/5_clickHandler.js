@@ -1,3 +1,17 @@
+/* Click Handler */
+/* Use this handler only if the warning can't be handled using css, cookies, local/session storage (slowest option) */
+/* Recommended is to combine this with a css rule as well to hide warning */
+/* Functions: 
+    _id = getElementById
+    _sl = querySelector or can be used for xPath selector
+    _ev = xPath selector
+    _chain = click multiple elements in a chain 
+    _if = First argument is the condition selector, next arguments are the buttons to click in a chain
+    _if_else =  First argument is the condition selector, 
+                second argument is the chain as array if condition selector is found,
+                third argument is the chain as array if condition selector isn't found
+*/
+
 const classname = Math.random()
   .toString(36)
   .replace(/[^a-z]+/g, "");
@@ -6820,7 +6834,7 @@ function getSelector(host) {
     case "studienstiftung.de":
       return _sl('.modal[style*="block"] #CookieForm .btn-primary');
     case "bol.com":
-      return _sl('#js-reject-all-button');
+      return _sl("#js-reject-all-button");
     case "lektury.gov.pl":
       return _sl('.modal[style*="block"] .cookies-accept-btn');
     case "hawle.de":

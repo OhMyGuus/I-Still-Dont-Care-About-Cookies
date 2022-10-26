@@ -1,5 +1,14 @@
 /* eslint no-unused-vars: 0 */
 
+const commonJSHandlers = {
+  0: "0_defaultClickHandler.js",
+  2: "2_sessionStorageHandler.js",
+  3: "3_localStorageHandler.js",
+  5: "5_clickHandler.js",
+  6: "6_cookieHandler.js",
+  8: "8_googleHandler.js",
+};
+
 const commons = {
   10: "#fancybox-overlay,#fancybox-wrap{display:none !important}",
   11: "#bottom-banner{display:none !important}",
@@ -218,7 +227,6 @@ const rules = {
   "tvlicensing.co.uk": { s: "#blq-global{display:none !important}" },
   "esure.com": { s: "#slideMenu{display:none !important}" },
   "mggp.com.pl": { c: "92" },
-  "tmgonlinemedia.nl": { j: "4" },
   "neckermann.com": {
     s: "#st_popup,#st_overlay,#ewcm_container{display:none !important}",
   },
@@ -617,7 +625,7 @@ const rules = {
   "timing.pt": { c: "35" },
   "swiat-agd.com.pl": { c: "7" },
   "sunday.dk": { j: "5" },
-  "teamers.com": { j: "4" },
+  "teamers.com": { j: "6" },
   "fiatklubpolska.pl": {
     s: "#navbar_notice_1.restore{display:none !important}",
   },
@@ -937,7 +945,6 @@ const rules = {
   "nousmotards.com": { s: ".csa-popup{display:none !important}" },
   "game-ready.com": { s: ".ly-cookie{display:none !important}" },
   "nite-ize.eu": { s: ".blockMsg{display:none !important}" },
-  "robertdicksons.se": { j: "7" },
   "draagle.com": { s: "#nonsense_root{display:none !important}" },
   "notariado.org": { c: "40" },
   "senarrubia.it": { c: "7" },
@@ -1052,7 +1059,6 @@ const rules = {
   "oriocenter.it": { c: "18" },
   "azimutyachts.com": { s: ".floatFooter{display:none !important}" },
   "fr12.nl": { j: "5" },
-  "techzine.nl": { j: "4" },
   "squarespace.com": {
     s: ".squarespace-banner{display:none !important}body{margin-top:0 !important}",
   },
@@ -1280,7 +1286,6 @@ const rules = {
   "leporelo.info": { s: ".bg-info{display:none !important}" },
   "prohibita.pl": { s: ".ciachbtm-wrap-container{display:none !important}" },
   "elumbus-reisen.de": { c: "40" },
-  "ebo.se": { j: "7" },
   "suder.eu": { c: "8" },
   "dela.nl": { s: "#dela-cookie-bar{display:none !important}" },
   "kelformation.com": { c: "46" },
@@ -1324,7 +1329,6 @@ const rules = {
   "llttf.com": { s: ".ico{display:none !important}" },
   "cronacaqui.it": { s: "#footerprivacy{display:none !important}" },
   "camping-les-loges.com": { s: "#MenuCnil{display:none !important}" },
-  "de-vogel.nl": { j: "4" },
   "scavino.it": { s: "#fanback{display:none !important}" },
   "radsportseiten.net": { s: "#zxcw03{display:none !important}" },
   "startupmalta.com": { c: "46" },
@@ -1608,7 +1612,6 @@ const rules = {
   "weather2umbrella.com": { s: "#w2u_cookie_notice{display:none !important}" },
   "euractiv.es": { s: "#avisosusc{display:none !important}" },
   "qlstats.net": { j: "5" },
-  "kvidingebyggen.se": { j: "7" },
   "nacesty.cz": { s: "#term-of-use{display:none !important}" },
   "tallsay.com": { j: "5" },
   "viactt.pt": { s: ".popupContainer{display:none !important}" },
@@ -2021,7 +2024,6 @@ const rules = {
   },
   "wanttoknow.nl": { c: "23" },
   "donnons.org": { s: ".head-line{display:none !important}" },
-  "jaap.nl": { j: "4" },
   "tastedive.com": { s: ".tk-Footer-cc{display:none !important}" },
   "polygon.com": { c: "93" },
   "toffeeweb.com": { s: "#fixedFooter{display:none !important}" },
@@ -2053,7 +2055,6 @@ const rules = {
   "plazilla.com": { j: "5" },
   "pathfinder-w.space": { s: "#pf-cookie-hint{display:none !important}" },
   "flyingtiger.com": { s: ".save-cookies{display:none !important}" },
-  "huizenzoeker.nl": { j: "4" },
   "upolujebooka.pl": { c: "92" },
   "ingdirect.fr": { s: "#cookieManagement{display:none !important}" },
   "racked.com": { c: "93" },
@@ -4718,7 +4719,6 @@ const rules = {
   "321auto.com": { c: "2" },
   "appzio.com": { s: ".modal-mask-class{display:none !important}" },
   "skionline.pl": { s: "#popup_rodo,#popup_tlo{display:none !important}" },
-  "gashendel.nl": { j: "4" },
   "iotransfer.net": { s: ".fl-accept{display:none !important}" },
   "guitartabs.cc": { s: "#main_content ~ div{display:none !important}" },
   "dictionnaire-academie.fr": { s: "#blocCookies{display:none !important}" },
@@ -6111,7 +6111,6 @@ const rules = {
   "sonymobile.com": { s: ".bnw-module.header{margin-top:0 !important}" },
   "ecoreporter.de": { s: "#cookieTop{display:none !important}" },
   "ichip.ru": { s: ".disclamer{display:none !important}" },
-  "cookies.mediahuis.nl": { j: "4" },
   "i-fundusze.pl": { c: "77" },
   "columbia.edu": { s: ".sticky-notice-wrap{display:none !important}" },
   "webhint.io": { c: "4" },
@@ -15298,9 +15297,11 @@ const rules = {
   "belenergy.com.br": { c: "2" },
   "brikett-rekord.com": {
     s: ".modal-backdrop{display:none !important}",
-    c: "99"
+    c: "99",
   },
   "coquedetelephone.fr": { j: "3" },
+  "de-vogel.nl": { j: "6" },
+  "huizenzoeker.nl": { j: "6" },
 };
 
 const blockUrls = {

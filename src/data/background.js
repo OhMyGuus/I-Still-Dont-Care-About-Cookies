@@ -477,10 +477,7 @@ function activateDomain(hostname, tabId, frameId) {
     executeScript({
       tabId,
       frameId,
-      file:
-        "data/js/" +
-        (cachedRule.j > 0 ? "common" + cachedRule.j : hostname) +
-        ".js",
+      file: `data/js/${commonJSHandlers[cachedRule.j]}.js`,
     });
     status = true;
   }
