@@ -1,4 +1,15 @@
 /* eslint no-unused-vars: 0 */
+/* Website rules to remove warnings */
+/* const rules {
+  s = css rule
+  j = commonJSHandler 
+  c = commonCSSRule
+} 
+  const blockUrls = {
+   q = false/true include query string in matcher
+   r = URL that u want to block.
+   e = false/ array of domains that u want to exclude
+} */
 
 const commonJSHandlers = {
   0: "0_defaultClickHandler.js",
