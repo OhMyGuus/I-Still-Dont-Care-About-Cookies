@@ -1,3 +1,6 @@
+/*  Embeds handler */
+/*  Handler is used to remove the cookie warning for certain embeds  */
+
 (function () {
   const classname = Math.random()
     .toString(36)

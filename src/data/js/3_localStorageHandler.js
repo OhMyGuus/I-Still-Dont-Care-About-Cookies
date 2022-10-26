@@ -1,3 +1,6 @@
+/*  Local storage handler */
+/*  Use this handler if it's possible to remove the warning using the local storage and can't be handeld using css */
+
 function getItem(h) {
   switch (h) {
     case "ants.gouv.fr":
@@ -86,14 +89,14 @@ function getItem(h) {
       return {
         strict: false,
         key: "consentData",
-        value: 
+        value:
           '{"relevantAds":{"version":1,"approved":false},"youtube":{"version":1,"approved":false}}',
+      };
     case "coquedetelephone.fr":
       return {
         strict: false,
         key: "mage_consent",
-        value:
-          '{"data":{"functional":true,"marketing":false}}',
+        value: '{"data":{"functional":true,"marketing":false}}',
       };
   }
 

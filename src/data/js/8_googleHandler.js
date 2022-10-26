@@ -1,3 +1,6 @@
+/*  Google handler */
+/*  Handler is only used for Google */
+
 function _sl(s, c) {
   return (c || document).querySelector(s);
 }
