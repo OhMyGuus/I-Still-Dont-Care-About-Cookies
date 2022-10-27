@@ -15313,6 +15313,7 @@ const rules = {
   "coquedetelephone.fr": { j: "3" },
   "de-vogel.nl": { j: "6" },
   "huizenzoeker.nl": { j: "6" },
+  "itau.com.br": { s: ".marco-civil-container{display:none !important}" },
 };
 
 const blockUrls = {
