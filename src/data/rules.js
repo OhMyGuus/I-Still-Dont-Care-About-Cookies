@@ -15318,6 +15318,7 @@ const rules = {
   "jw.org": { s: ".lnc-firstRunPopup{display:none !important}" },
   "dndbeyond.com": { j: "6" },
   "commanderspellbook.com": { s: ".border-b-2{display:none !important}" },
+  "education.lego.com": { j: "6" },
 };
 
 const blockUrls = {

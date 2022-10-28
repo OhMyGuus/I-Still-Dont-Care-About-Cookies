@@ -458,6 +458,10 @@ function getE(h) {
       return ["cookieConsent=cookie_deny"];
     case "dndbeyond.com":
       return ["cookie-consent=denied"];
+    case "education.lego.com":
+      return [
+        'LEGO_COOKIE_SETTINGS={"preferences":[{"label":"analytics","value":false},{"label":"legomarketing","value":false},{"label":"thirdparty","value":false}],"reconsentDate":""}',
+      ];
   }
 
   const parts = h.split(".");
