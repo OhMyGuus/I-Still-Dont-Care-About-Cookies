@@ -466,6 +466,13 @@ function getE(h) {
       return [
         'cookie-consent={"necessary":true,"analytical":false,"marketing":false,"functional":false}',
       ];
+    case "uni-mozarteum.at":
+      return [
+        "cookieconsent[googlecse]=2",
+        "cookieconsent[livestream]=1",
+        "cookieconsent[vimeo]=1",
+        "cookieconsent[youtube]=1",
+      ];
   }
 
   const parts = h.split(".");
