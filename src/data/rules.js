@@ -15331,6 +15331,7 @@ const rules = {
   "bonobology.com": { s: ".dialog-widget-content{display:none !important}" },
   "bodypak.pl": { s: ".pop-cookiebox{display:none !important}" },
   "beurer.se": { j: "6" },
+  "arsys.es": { s: 'div[name="cookies"]{display:none !important}' },
 };
 
 const blockUrls = {
