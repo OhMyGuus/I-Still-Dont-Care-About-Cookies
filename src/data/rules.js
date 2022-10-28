@@ -15330,6 +15330,7 @@ const rules = {
   "education.lego.com": { j: "6" },
   "bonobology.com": { s: ".dialog-widget-content{display:none !important}" },
   "bodypak.pl": { s: ".pop-cookiebox{display:none !important}" },
+  "beurer.se": { j: "6" },
 };
 
 const blockUrls = {

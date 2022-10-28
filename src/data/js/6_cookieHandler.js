@@ -462,6 +462,10 @@ function getE(h) {
       return [
         'LEGO_COOKIE_SETTINGS={"preferences":[{"label":"analytics","value":false},{"label":"legomarketing","value":false},{"label":"thirdparty","value":false}],"reconsentDate":""}',
       ];
+    case "beurer.se":
+      return [
+        'cookie-consent={"necessary":true,"analytical":false,"marketing":false,"functional":false}',
+      ];
   }
 
   const parts = h.split(".");
