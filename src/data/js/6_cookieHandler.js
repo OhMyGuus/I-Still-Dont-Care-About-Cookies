@@ -458,6 +458,21 @@ function getE(h) {
       return ["cookieConsent=cookie_deny"];
     case "dndbeyond.com":
       return ["cookie-consent=denied"];
+    case "education.lego.com":
+      return [
+        'LEGO_COOKIE_SETTINGS={"preferences":[{"label":"analytics","value":false},{"label":"legomarketing","value":false},{"label":"thirdparty","value":false}],"reconsentDate":""}',
+      ];
+    case "beurer.se":
+      return [
+        'cookie-consent={"necessary":true,"analytical":false,"marketing":false,"functional":false}',
+      ];
+    case "uni-mozarteum.at":
+      return [
+        "cookieconsent[googlecse]=2",
+        "cookieconsent[livestream]=1",
+        "cookieconsent[vimeo]=1",
+        "cookieconsent[youtube]=1",
+      ];
   }
 
   const parts = h.split(".");

@@ -1823,9 +1823,6 @@ const rules = {
   },
   "nordpasdecalais.fr": { s: "#bandeauCnil{display:none !important}" },
   "bubblebed.bg": { s: ".gs-cookies-review{display:none !important}" },
-  "moebelix.at": {
-    s: ".xxxlutzkarrierecenter-themeBoxCookieInfo{display:none !important}",
-  },
   "hijob.me": { s: ".flash-cookie{display:none !important}" },
   "iabfrance.com": { s: "#boxAlert{display:none !important}" },
   "thejukeboxman.com": { s: ".promo-banner{display:none !important}" },
@@ -15258,6 +15255,18 @@ const rules = {
   "moemax.de": {
     s: "#root > footer ~ div{display:none !important}",
   },
+  "moebelix.at": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "moebelix.cz": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "moebelix.sk": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "moebelix.de": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
   "amara.org": {
     s: ".cookie-consent-cover{display:none !important} body{overflow: unset!important}",
   },
@@ -15318,6 +15327,13 @@ const rules = {
   "jw.org": { s: ".lnc-firstRunPopup{display:none !important}" },
   "dndbeyond.com": { j: "6" },
   "commanderspellbook.com": { s: ".border-b-2{display:none !important}" },
+  "education.lego.com": { j: "6" },
+  "bonobology.com": { s: ".dialog-widget-content{display:none !important}" },
+  "bodypak.pl": { s: ".pop-cookiebox{display:none !important}" },
+  "beurer.se": { j: "6" },
+  "arsys.es": { s: 'div[name="cookies"]{display:none !important}' },
+  "swb-busundbahn.de": { c: "99" },
+  "uni-mozarteum.at": { j: "6" },
 };
 
 const blockUrls = {
