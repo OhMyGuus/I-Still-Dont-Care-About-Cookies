@@ -15332,6 +15332,7 @@ const rules = {
   "bodypak.pl": { s: ".pop-cookiebox{display:none !important}" },
   "beurer.se": { j: "6" },
   "arsys.es": { s: 'div[name="cookies"]{display:none !important}' },
+  "swb-busundbahn.de": { c: "99" },
 };
 
 const blockUrls = {
