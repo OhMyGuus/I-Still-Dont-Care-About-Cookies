@@ -473,6 +473,8 @@ function getE(h) {
         "cookieconsent[vimeo]=1",
         "cookieconsent[youtube]=1",
       ];
+    case "oishii-dev.simplywebshop.de":
+      return ["sd_gmaps_accepted=1"];
   }
 
   const parts = h.split(".");
