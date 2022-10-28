@@ -456,6 +456,8 @@ function getE(h) {
       return ["accept-cookies=e"];
     case "huizenzoeker.nl":
       return ["cookieConsent=cookie_deny"];
+    case "dndbeyond.com":
+      return ["cookie-consent=denied"];
   }
 
   const parts = h.split(".");

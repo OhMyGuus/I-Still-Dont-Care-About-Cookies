@@ -15314,6 +15314,10 @@ const rules = {
   "de-vogel.nl": { j: "6" },
   "huizenzoeker.nl": { j: "6" },
   "itau.com.br": { s: ".marco-civil-container{display:none !important}" },
+  "nordvpn.com": { s: ".CookieConsentExperiment{display:none !important}" },
+  "jw.org": { s: ".lnc-firstRunPopup{display:none !important}" },
+  "dndbeyond.com": { j: "6" },
+  "commanderspellbook.com": { s: ".border-b-2{display:none !important}" },
 };
 
 const blockUrls = {
