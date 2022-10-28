@@ -1823,9 +1823,6 @@ const rules = {
   },
   "nordpasdecalais.fr": { s: "#bandeauCnil{display:none !important}" },
   "bubblebed.bg": { s: ".gs-cookies-review{display:none !important}" },
-  "moebelix.at": {
-    s: ".xxxlutzkarrierecenter-themeBoxCookieInfo{display:none !important}",
-  },
   "hijob.me": { s: ".flash-cookie{display:none !important}" },
   "iabfrance.com": { s: "#boxAlert{display:none !important}" },
   "thejukeboxman.com": { s: ".promo-banner{display:none !important}" },
@@ -15256,6 +15253,18 @@ const rules = {
     s: "#root > footer ~ div{display:none !important}",
   },
   "moemax.de": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "moebelix.at": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "moebelix.cz": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "moebelix.sk": {
+    s: "#root > footer ~ div{display:none !important}",
+  },
+  "moebelix.de": {
     s: "#root > footer ~ div{display:none !important}",
   },
   "amara.org": {
