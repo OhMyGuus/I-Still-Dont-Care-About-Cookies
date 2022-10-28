@@ -551,7 +551,7 @@ chrome.webNavigation.onCommitted.addListener(function (tab) {
   doTheMagic(tab.tabId);
 });
 
-chrome.webRequest.onResponseStarted.addListener(
+chrome.webRequest.onCompleted.addListener(
   function (tab) {
     if (tab.frameId > 0) {
       doTheMagic(tab.tabId, tab.frameId);
