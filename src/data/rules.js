@@ -15320,6 +15320,7 @@ const rules = {
   "commanderspellbook.com": { s: ".border-b-2{display:none !important}" },
   "education.lego.com": { j: "6" },
   "bonobology.com": { s: ".dialog-widget-content{display:none !important}" },
+  "bodypak.pl": { s: ".pop-cookiebox{display:none !important}" },
 };
 
 const blockUrls = {
