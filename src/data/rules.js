@@ -15314,6 +15314,7 @@ const rules = {
   "de-vogel.nl": { j: "6" },
   "huizenzoeker.nl": { j: "6" },
   "dndbeyond.com": { j: "6" },
+  "commanderspellbook.com": { s: ".border-b-2{display:none !important}" },
 };
 
 const blockUrls = {
