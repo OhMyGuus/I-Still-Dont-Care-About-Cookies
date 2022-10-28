@@ -15313,6 +15313,7 @@ const rules = {
   "coquedetelephone.fr": { j: "3" },
   "de-vogel.nl": { j: "6" },
   "huizenzoeker.nl": { j: "6" },
+  "itau.com.br": { s: ".marco-civil-container{display:none !important}" },
   "nordvpn.com": { s: ".CookieConsentExperiment{display:none !important}" },
   "jw.org": { s: ".lnc-firstRunPopup{display:none !important}" },
   "dndbeyond.com": { j: "6" },
