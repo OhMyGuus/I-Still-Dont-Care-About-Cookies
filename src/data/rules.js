@@ -15335,6 +15335,17 @@ const rules = {
   "uni-mozarteum.at": { j: "6" },
   "simplywebshop.de": { j: "6" },
   "tyma.eu": { j: "6" },
+  "crown.com": { j: "6" },
+  "seznam.cz": { s: ".scmp_noscroll{overflow:unset !important}" },
+  "kumori.com.br": {
+    s: 'div[data-controller="aviso-cookies"]{display:none !important}',
+  },
+  "xoxo-mobile.at": { j: "6" },
+  "guideme.me": { s: "#pameto{display:none !important}" },
+  "panduit.com": { s: ".panduit-cookie-banner{display:none !important}" },
+  "edziennik.bialystok.uw.gov.pl": {
+    s: ".is-show-cookie{display:none !important}",
+  },
 };
 
 const blockUrls = {
@@ -16935,6 +16946,7 @@ const blockUrls = {
         q: false,
         r: "/wrapperMessagingWithoutDetection.js",
         e: [
+          "lecker.de",
           "standard.co.uk",
           "ladbible.com",
           "theguardian.com",

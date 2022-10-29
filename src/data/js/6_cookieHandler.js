@@ -476,10 +476,11 @@ function getE(h) {
     case "simplywebshop.de":
       return ["sd_gmaps_accepted=1"];
     case "tyma.eu":
-      return [
-        "ad_storage=denied",
-        "analytics_storage=denied",
-      ];
+      return ["ad_storage=denied", "analytics_storage=denied"];
+    case "crown.com":
+      return ["modalPolicyCookieNotAccepted=notaccepted"];
+    case "xoxo-mobile.at":
+      return ["CookieSettings=%7B%22categories%22%3A%5B%22necessary%22%5D%7D"];
   }
 
   const parts = h.split(".");
