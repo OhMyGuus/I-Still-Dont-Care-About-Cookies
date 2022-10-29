@@ -2768,8 +2768,6 @@ function getSelector(host) {
       return '#MainModalDiv[style*="block"] button[onclick*="allowCookieBannerSelection"]';
     case "eon.pl":
       return ".clb-active #saveSettings";
-    case "groundies.com":
-      return '.modal[style*="block"] #save-cookie-selection';
     case "kafkas.gr":
       return '#cookies-modal-id[style*="block"] .js-decline';
     case "tommy.hr":

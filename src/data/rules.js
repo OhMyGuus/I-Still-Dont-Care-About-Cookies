@@ -14745,7 +14745,6 @@ const rules = {
   "quae-open.com": { s: "#acceptance_of_cookies{display:none !important}" },
   "kafkas.gr": { j: "5" },
   "bb.com.br": { s: ".bb-cookies{display:none !important}" },
-  "groundies.com": { j: "5" },
   "gsm55.com": { s: 'div[class*="cookie-module"]{display:none !important}' },
   "dpa.gr": { s: ".cookie-container{display:none !important}" },
   "ikea.com": { j: "5" },
