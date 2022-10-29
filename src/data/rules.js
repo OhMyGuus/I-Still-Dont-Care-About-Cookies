@@ -15341,6 +15341,7 @@ const rules = {
     s: 'div[data-controller="aviso-cookies"]{display:none !important}',
   },
   "xoxo-mobile.at": { j: "6" },
+  "guideme.me": { s: "#pameto{display:none !important}" },
 };
 
 const blockUrls = {
