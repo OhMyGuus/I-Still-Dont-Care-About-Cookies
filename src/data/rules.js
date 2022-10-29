@@ -15336,6 +15336,7 @@ const rules = {
   "simplywebshop.de": { j: "6" },
   "tyma.eu": { j: "6" },
   "crown.com": { j: "6" },
+  "seznam.cz": { s: ".scmp_noscroll{overflow:unset !important}" },
 };
 
 const blockUrls = {
