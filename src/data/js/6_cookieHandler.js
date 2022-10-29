@@ -1,8 +1,8 @@
 /*  Cookie handler */
 /*  Use this handler if it's possible to remove the warning using cookies and can't be handeld using css */
 
-function getE(h) {
-  switch (h) {
+function getE(hostname) {
+  switch (hostname) {
     case "letssingit.com":
     case "lyricsbox.com":
       return ["cookieconsent=1111"];
@@ -10,10 +10,6 @@ function getE(h) {
     case "kontaktbazar.at":
     case "hoernews.de":
       return ["cookieconsent_status=dismiss"];
-
-    case "newegg.com":
-    case "newegg.ca":
-      return ["NV%5FGDPR=001"];
 
     case "pee.place":
     case "nearest.place":
@@ -246,9 +242,6 @@ function getE(h) {
       return ["consentUUID=382584da-af8a-469e-aedf-11ac420ec96d"];
     case "dehn.de":
       return ["cookie-agreed=1", "cookie-processed-02=ck_1:true%2Cck_2:true"];
-    case "minecraft.net":
-      const d = Math.round(Date.now() / 1000);
-      return ["MSCC=" + (d - (d % 86400))];
     case "crtm.es":
       return ["crtmcookiesCAnaliticas=1", "crtmcookiesProtDatos=1"];
     case "computertotaal.nl":
@@ -330,10 +323,6 @@ function getE(h) {
       return ["cleanair=%7B%22cookiesEssential%22%3Atrue%7D"];
     case "e-fundresearch.com":
       return ["cookieinfo={%22functional%22:true}"];
-    case "systembolaget.se":
-      return [
-        "cookieConsent=[%22statistical%22%2C%22profiling%22%2C%22useful%22]",
-      ];
     case "elkem.com":
       return ["ConsentClosed=1"];
     case "tonershop.at":
@@ -481,9 +470,13 @@ function getE(h) {
       return ["modalPolicyCookieNotAccepted=notaccepted"];
     case "xoxo-mobile.at":
       return ["CookieSettings=%7B%22categories%22%3A%5B%22necessary%22%5D%7D"];
+    case "pretto.fr":
+      return [
+        "tracking-preferences={%22version%22:1%2C%22destinations%22:{%22Bing%20Ads%22:false%2C%22Facebook%20Pixel%22:false%2C%22Google%20AdWords%20New%22:false%2C%22Google%20Cloud%20PubSub%22:false%2C%22Google%20Tag%20Manager%22:false%2C%22PERSONAS%20-%20Google%20AdWords%22:false}%2C%22custom%22:{%22advertising%22:false%2C%22marketingAndAnalytics%22:false}}",
+      ];
   }
 
-  const parts = h.split(".");
+  const parts = hostname.split(".");
 
   if (parts.length > 2) {
     parts.shift();
@@ -493,8 +486,8 @@ function getE(h) {
   return false;
 }
 
-const h = document.location.hostname.replace(/^w{2,3}\d*\./i, "");
-const cookies = getE(h);
+const hostname = document.location.hostname.replace(/^w{2,3}\d*\./i, "");
+const cookies = getE(hostname);
 
 if (cookies) {
   let counter = 0;
@@ -507,7 +500,7 @@ if (cookies) {
       // First try to delete the cookie
 
       if (parts.length > 1) {
-        const domainParts = h.split(".");
+        const domainParts = hostname.split(".");
 
         while (domainParts.length > 1) {
           document.cookie =

@@ -541,6 +541,62 @@ function doTheMagic(tabId, frameId, anotherTry) {
   );
 }
 
+//temp function
+function generateDeclarativeNetRules() {
+  let result = [];
+  let lastId = 1;
+  const addrule = (block_rule) => {
+    let new_rule = {
+      id: lastId++,
+      priority: 1,
+      action: { type: "block" },
+      condition: {
+        urlFilter: block_rule.r,
+        resourceTypes: ["script", "stylesheet", "xmlhttprequest", "image"],
+      },
+    };
+
+    if (block_rule.e) {
+      new_rule.condition.excludedInitiatorDomains = [];
+
+      for (const exception of block_rule.e) {
+        //	console.log("exception:", exception);
+        new_rule.condition.excludedInitiatorDomains.push(exception);
+      }
+    }
+    result.push(new_rule);
+  };
+
+  for (const block_rule of blockUrls.common) {
+    //console.log(block_rule);
+    addrule(block_rule);
+  }
+
+  for (const blockrules of Object.values(blockUrls.common_groups)) {
+    for (const block_rule of blockrules) {
+      //console.log(block_rule);
+      addrule(block_rule);
+    }
+  }
+
+  for (const [domain, url] of Object.entries(blockUrls.specific)) {
+    let newRule = {
+      id: lastId++,
+      priority: 1,
+      action: { type: "block" },
+      condition: {
+        urlFilter: url[0],
+        resourceTypes: ["script", "stylesheet", "xmlhttprequest", "image"],
+        initiatorDomains: [domain],
+      },
+    };
+    result.push(newRule);
+  }
+
+  console.log(JSON.stringify(result, null, "\t"));
+}
+generateDeclarativeNetRules(); // temp call
+
 chrome.webNavigation.onCommitted.addListener(function (tab) {
   if (tab.frameId > 0) {
     return;
