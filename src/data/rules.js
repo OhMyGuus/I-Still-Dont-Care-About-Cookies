@@ -15337,6 +15337,9 @@ const rules = {
   "tyma.eu": { j: "6" },
   "crown.com": { j: "6" },
   "seznam.cz": { s: ".scmp_noscroll{overflow:unset !important}" },
+  "kumori.com.br": {
+    s: 'div[data-controller="aviso-cookies"]{display:none !important}',
+  },
 };
 
 const blockUrls = {
