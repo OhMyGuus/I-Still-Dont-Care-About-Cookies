@@ -479,6 +479,8 @@ function getE(h) {
       return ["ad_storage=denied", "analytics_storage=denied"];
     case "crown.com":
       return ["modalPolicyCookieNotAccepted=notaccepted"];
+    case "xoxo-mobile.at":
+      return ["CookieSettings=%7B%22categories%22%3A%5B%22necessary%22%5D%7D"];
   }
 
   const parts = h.split(".");

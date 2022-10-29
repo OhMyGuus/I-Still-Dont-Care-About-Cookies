@@ -15340,6 +15340,7 @@ const rules = {
   "kumori.com.br": {
     s: 'div[data-controller="aviso-cookies"]{display:none !important}',
   },
+  "xoxo-mobile.at": { j: "6" },
 };
 
 const blockUrls = {
