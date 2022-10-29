@@ -1,8 +1,8 @@
 /*  Local storage handler */
 /*  Use this handler if it's possible to remove the warning using the local storage and can't be handeld using css */
 
-function getItem(h) {
-  switch (h) {
+function getItem(hostname) {
+  switch (hostname) {
     case "ants.gouv.fr":
       return { strict: true, key: "cookieConsent", value: "true" };
     case "eqmac.app":
@@ -100,7 +100,7 @@ function getItem(h) {
       };
   }
 
-  const parts = h.split(".");
+  const parts = hostname.split(".");
 
   if (parts.length > 2) {
     parts.shift();
@@ -110,9 +110,9 @@ function getItem(h) {
   return false;
 }
 
-const h = document.location.hostname.replace(/^w{2,3}\d*\./i, "");
+const hostname = document.location.hostname.replace(/^w{2,3}\d*\./i, "");
 let counter = 0;
-const items = getItem(h);
+const items = getItem(hostname);
 
 if (items) {
   (items instanceof Array ? items : [items]).forEach(function (item) {
