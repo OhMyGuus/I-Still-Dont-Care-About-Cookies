@@ -473,8 +473,13 @@ function getE(h) {
         "cookieconsent[vimeo]=1",
         "cookieconsent[youtube]=1",
       ];
-    case "oishii-dev.simplywebshop.de":
+    case "simplywebshop.de":
       return ["sd_gmaps_accepted=1"];
+    case "tyma.eu":
+      return [
+        "ad_storage=denied",
+        "analytics_storage=denied",
+      ];
   }
 
   const parts = h.split(".");
