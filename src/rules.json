@@ -11246,6 +11246,7 @@
       "urlFilter": "/wrapperMessagingWithoutDetection.js",
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
       "excludedInitiatorDomains": [
+        "lecker.de",
         "standard.co.uk",
         "ladbible.com",
         "theguardian.com",

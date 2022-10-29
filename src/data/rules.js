@@ -16946,6 +16946,7 @@ const blockUrls = {
         q: false,
         r: "/wrapperMessagingWithoutDetection.js",
         e: [
+          "lecker.de",
           "standard.co.uk",
           "ladbible.com",
           "theguardian.com",
