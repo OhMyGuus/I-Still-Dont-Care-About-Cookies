@@ -15334,6 +15334,7 @@ const rules = {
   "arsys.es": { s: 'div[name="cookies"]{display:none !important}' },
   "swb-busundbahn.de": { c: "99" },
   "uni-mozarteum.at": { j: "6" },
+  "tyma.eu": { j: "6" },
 };
 
 const blockUrls = {
