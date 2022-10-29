@@ -476,10 +476,9 @@ function getE(h) {
     case "simplywebshop.de":
       return ["sd_gmaps_accepted=1"];
     case "tyma.eu":
-      return [
-        "ad_storage=denied",
-        "analytics_storage=denied",
-      ];
+      return ["ad_storage=denied", "analytics_storage=denied"];
+    case "crown.com":
+      return ["modalPolicyCookieNotAccepted=notaccepted"];
   }
 
   const parts = h.split(".");

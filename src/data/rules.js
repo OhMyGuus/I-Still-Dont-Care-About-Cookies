@@ -15335,6 +15335,7 @@ const rules = {
   "uni-mozarteum.at": { j: "6" },
   "simplywebshop.de": { j: "6" },
   "tyma.eu": { j: "6" },
+  "crown.com": { j: "6" },
 };
 
 const blockUrls = {
