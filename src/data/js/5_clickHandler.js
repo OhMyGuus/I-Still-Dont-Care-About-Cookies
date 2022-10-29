@@ -7013,8 +7013,6 @@ function getSelector(host) {
         [".c-cookiebanner__visible .c-cookiebanner__settings-actions-submit"]
       );
 
-    case "augsburger-allgemeine.de":
-      return "button.aa-first-layer__button";
     case "infranken.de":
       return '#cmpbox[style*="block"] .cmpboxbtnyes';
 
