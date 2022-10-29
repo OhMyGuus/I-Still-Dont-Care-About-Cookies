@@ -15342,6 +15342,7 @@ const rules = {
   },
   "xoxo-mobile.at": { j: "6" },
   "guideme.me": { s: "#pameto{display:none !important}" },
+  "panduit.com": { s: ".panduit-cookie-banner{display:none !important}" },
 };
 
 const blockUrls = {
