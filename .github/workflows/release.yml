@@ -1,6 +1,7 @@
 name: Release listed
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - 'v*.*.*'
