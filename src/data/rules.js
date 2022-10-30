@@ -15434,6 +15434,7 @@ const rules = {
     s: "#edp-cookies-banner,.customCookie{display:none !important}",
     j: "5",
   },
+  "123inkt.nl": { s: ".simple-popup-container{display:none !important}" },
 };
 
 const blockUrls = {
