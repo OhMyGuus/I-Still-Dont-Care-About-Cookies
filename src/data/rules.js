@@ -15435,6 +15435,7 @@ const rules = {
     j: "5",
   },
   "123inkt.nl": { s: ".simple-popup-container{display:none !important}" },
+  "beruby.com": { s: "#box-shadow{display:none !important}" },
 };
 
 const blockUrls = {
