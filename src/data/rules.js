@@ -15434,6 +15434,7 @@ const rules = {
     s: "#edp-cookies-banner,.customCookie{display:none !important}",
     j: "5",
   },
+  "tourisme-lodevois-larzac.fr": { j: "5" },
 };
 
 const blockUrls = {
