@@ -15434,6 +15434,7 @@ const rules = {
     s: "#edp-cookies-banner,.customCookie{display:none !important}",
     j: "5",
   },
+  "fakenewsfrance.com": { s: "#js-cc-modal{display:none !important} html{overflow-y: unset !important}" },
 };
 
 const blockUrls = {
