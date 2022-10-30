@@ -15435,6 +15435,12 @@ const rules = {
     j: "5",
   },
   "soundsmag.com": { s: "#lepopup-popup-23,#lepopup-popup-23-overlay{display:none !important}" },
+  "stihl.de": { s: "body,#__next{overflow: unset !important}" },
+  "drouwenerzand.nl": { s: ".js-fever-cookies{display:none !important}" },
+  "tourisme-lodevois-larzac.fr": { j: "5" },
+  "fakenewsfrance.com": { s: "#js-cc-modal{display:none !important} html{overflow-y: unset !important}" },
+  "123inkt.nl": { s: ".simple-popup-container{display:none !important}" },
+  "beruby.com": { s: "#box-shadow{display:none !important}" },
 };
 
 const blockUrls = {

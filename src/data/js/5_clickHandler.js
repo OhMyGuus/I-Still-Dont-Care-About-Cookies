@@ -7185,6 +7185,8 @@ function getSelector(host) {
         '.modal--open div[class*="CookiesConsentPopUp"] span[class*="CookiesInfo"]',
         'span[class*="CookiesSettings__closePopUp"]'
       );
+    case "tourisme-lodevois-larzac.fr":
+      return '.fw_cookies_btns > a[onclick="fw_cookies_policy_deny_all();"]';
   }
 
   if (host.parts.length > 2) {
