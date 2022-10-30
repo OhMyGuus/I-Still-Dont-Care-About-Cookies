@@ -15434,6 +15434,7 @@ const rules = {
     s: "#edp-cookies-banner,.customCookie{display:none !important}",
     j: "5",
   },
+  "beruby.com": { s: "#box-shadow{display:none !important}" },
 };
 
 const blockUrls = {
