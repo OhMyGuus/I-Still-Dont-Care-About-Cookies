@@ -15434,6 +15434,7 @@ const rules = {
     s: "#edp-cookies-banner,.customCookie{display:none !important}",
     j: "5",
   },
+  "drouwenerzand.nl": { s: ".js-fever-cookies{display:none !important}" },
 };
 
 const blockUrls = {
