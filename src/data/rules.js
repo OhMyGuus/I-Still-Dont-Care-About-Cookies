@@ -15435,6 +15435,9 @@ const rules = {
     j: "5",
   },
   "tourisme-lodevois-larzac.fr": { j: "5" },
+  "fakenewsfrance.com": { s: "#js-cc-modal{display:none !important} html{overflow-y: unset !important}" },
+  "123inkt.nl": { s: ".simple-popup-container{display:none !important}" },
+  "beruby.com": { s: "#box-shadow{display:none !important}" },
 };
 
 const blockUrls = {
