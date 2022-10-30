@@ -15434,6 +15434,7 @@ const rules = {
     s: "#edp-cookies-banner,.customCookie{display:none !important}",
     j: "5",
   },
+  "drouwenerzand.nl": { s: ".js-fever-cookies{display:none !important}" },
   "tourisme-lodevois-larzac.fr": { j: "5" },
   "fakenewsfrance.com": { s: "#js-cc-modal{display:none !important} html{overflow-y: unset !important}" },
   "123inkt.nl": { s: ".simple-popup-container{display:none !important}" },
