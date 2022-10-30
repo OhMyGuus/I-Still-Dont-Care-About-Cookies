@@ -15434,6 +15434,7 @@ const rules = {
     s: "#edp-cookies-banner,.customCookie{display:none !important}",
     j: "5",
   },
+  "stihl.de": { s: "body,#__next{overflow: unset !important}" },
 };
 
 const blockUrls = {
