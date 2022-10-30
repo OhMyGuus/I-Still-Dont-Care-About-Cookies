@@ -15434,6 +15434,7 @@ const rules = {
     s: "#edp-cookies-banner,.customCookie{display:none !important}",
     j: "5",
   },
+  "soundsmag.com": { s: "#lepopup-popup-23,#lepopup-popup-23-overlay{display:none !important}" },
 };
 
 const blockUrls = {
