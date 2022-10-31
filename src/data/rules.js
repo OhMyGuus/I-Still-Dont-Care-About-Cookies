@@ -15443,6 +15443,7 @@ const rules = {
   "beruby.com": { s: "#box-shadow{display:none !important}" },
   "arche.net": { s: "#cookieModal,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
   "scaleway.com": { j: "6" },
+  "fresh-pool.de": { c: "77" },
 };
 
 const blockUrls = {
