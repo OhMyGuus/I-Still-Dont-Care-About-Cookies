@@ -15441,6 +15441,8 @@ const rules = {
   "fakenewsfrance.com": { s: "#js-cc-modal{display:none !important} html{overflow-y: unset !important}" },
   "123inkt.nl": { s: ".simple-popup-container{display:none !important}" },
   "beruby.com": { s: "#box-shadow{display:none !important}" },
+  "arche.net": { s: "#cookieModal,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
+  "scaleway.com": { j: "6" },
   "fresh-pool.de": { c: "77" },
 };
 
