@@ -474,6 +474,12 @@ function getE(hostname) {
       return [
         "tracking-preferences={%22version%22:1%2C%22destinations%22:{%22Bing%20Ads%22:false%2C%22Facebook%20Pixel%22:false%2C%22Google%20AdWords%20New%22:false%2C%22Google%20Cloud%20PubSub%22:false%2C%22Google%20Tag%20Manager%22:false%2C%22PERSONAS%20-%20Google%20AdWords%22:false}%2C%22custom%22:{%22advertising%22:false%2C%22marketingAndAnalytics%22:false}}",
       ];
+    case "scaleway.com":
+      return [
+        "consent-advertising=false",
+        "consent-analytics=false",
+        "consent-marketing=false",
+      ];
   }
 
   const parts = hostname.split(".");
