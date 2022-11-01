@@ -15434,16 +15434,31 @@ const rules = {
     s: "#edp-cookies-banner,.customCookie{display:none !important}",
     j: "5",
   },
-  "soundsmag.com": { s: "#lepopup-popup-23,#lepopup-popup-23-overlay{display:none !important}" },
+  "soundsmag.com": {
+    s: "#lepopup-popup-23,#lepopup-popup-23-overlay{display:none !important}",
+  },
   "stihl.de": { s: "body,#__next{overflow: unset !important}" },
   "drouwenerzand.nl": { s: ".js-fever-cookies{display:none !important}" },
   "tourisme-lodevois-larzac.fr": { j: "5" },
-  "fakenewsfrance.com": { s: "#js-cc-modal{display:none !important} html{overflow-y: unset !important}" },
+  "fakenewsfrance.com": {
+    s: "#js-cc-modal{display:none !important} html{overflow-y: unset !important}",
+  },
   "123inkt.nl": { s: ".simple-popup-container{display:none !important}" },
   "beruby.com": { s: "#box-shadow{display:none !important}" },
-  "arche.net": { s: "#cookieModal,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
+  "arche.net": {
+    s: "#cookieModal,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}",
+  },
   "scaleway.com": { j: "6" },
   "fresh-pool.de": { c: "77" },
+  "vakin.se": {
+    s: 'div[data-testid="modal-backdrop"],.sv-cookie-consent-modal{display:none !important} body{overflow: unset !important; position: unset !important}',
+  },
+  "deckardpenfield.com": { j: "6" },
+  "ostfriesische-brandkasse.de": { j: "6" },
+  "shop.zoo-leipzig.de": { j: "6" },
+  "elektronik-lavpris.dk": { j: "6" },
+  "yes2move.com": { c: "34" },
+  "zugportal.de": { j: "3" },
 };
 
 const blockUrls = {

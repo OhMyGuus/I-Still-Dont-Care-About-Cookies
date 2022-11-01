@@ -1172,7 +1172,7 @@ function getSelector(host) {
     case "plus.gmx.net":
     case "plus.web.de":
       return _chain(
-        ".window-on #cmp #privacy-center",
+        ".window-on #cmp #privacy-center, #edit-purpose-settings",
         "#pubc-1",
         "#save-purpose-settings"
       );
