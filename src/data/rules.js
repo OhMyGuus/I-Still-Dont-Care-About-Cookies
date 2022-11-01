@@ -15451,6 +15451,7 @@ const rules = {
   "ostfriesische-brandkasse.de": { j: "6" },
   "shop.zoo-leipzig.de": { j: "6" },
   "elektronik-lavpris.dk": { j: "6" },
+  "yes2move.com": { c: "34" },
 };
 
 const blockUrls = {
