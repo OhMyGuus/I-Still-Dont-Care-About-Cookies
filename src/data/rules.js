@@ -15444,6 +15444,9 @@ const rules = {
   "arche.net": { s: "#cookieModal,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
   "scaleway.com": { j: "6" },
   "fresh-pool.de": { c: "77" },
+  "vakin.se": {
+    s: 'div[data-testid="modal-backdrop"],.sv-cookie-consent-modal{display:none !important} body{overflow: unset !important; position: unset !important}',
+  },
 };
 
 const blockUrls = {
