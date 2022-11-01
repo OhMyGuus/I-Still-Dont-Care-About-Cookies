@@ -15447,6 +15447,7 @@ const rules = {
   "vakin.se": {
     s: 'div[data-testid="modal-backdrop"],.sv-cookie-consent-modal{display:none !important} body{overflow: unset !important; position: unset !important}',
   },
+  "deckardpenfield.com": { j: "6" },
 };
 
 const blockUrls = {

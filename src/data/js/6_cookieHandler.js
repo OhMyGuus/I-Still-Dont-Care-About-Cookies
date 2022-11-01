@@ -480,6 +480,11 @@ function getE(hostname) {
         "consent-analytics=false",
         "consent-marketing=false",
       ];
+    case "deckardpenfield.com":
+      return [
+        'webkitconstent={"technical":true,"ad_storage":false,"analytics_storage":false,"personalization_storage":false}',
+        "uuAppCookiesAgreement=true",
+      ];
   }
 
   const parts = hostname.split(".");
