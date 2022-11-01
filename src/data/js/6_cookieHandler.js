@@ -497,6 +497,8 @@ function getE(hostname) {
             "cookies_media=false",
             "cookies_statistic=false"
           ]
+          case "elektronik-lavpris.dk":
+            return ["cookieconsent=necessary"]
   }
 
   const parts = hostname.split(".");
