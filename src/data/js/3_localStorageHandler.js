@@ -100,10 +100,11 @@ function getItem(hostname) {
       };
     case "zugportal.de":
       return {
-          strict: false,
-          key: "consent-settings",
-          value: '{"version":1,"permissionStatusEssentials":false,"permissionStatusAnalytics":false,"lastUpdated":"2022-11-01T00:00:00.000Z"}',
-        };
+        strict: false,
+        key: "consent-settings",
+        value:
+          '{"version":1,"permissionStatusEssentials":false,"permissionStatusAnalytics":false,"lastUpdated":"2022-11-01T00:00:00.000Z"}',
+      };
   }
 
   const parts = hostname.split(".");

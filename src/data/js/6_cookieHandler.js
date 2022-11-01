@@ -485,20 +485,20 @@ function getE(hostname) {
         'webkitconstent={"technical":true,"ad_storage":false,"analytics_storage":false,"personalization_storage":false}',
         "uuAppCookiesAgreement=true",
       ];
-      case "ostfriesische-brandkasse.de":
-        return [
-          "cookie-analytics-undefined=false",
-          `cookie-consent-undefined=2025-11-01T21%3A41%3A56%2B01%3A00`
-        ]
-        case "shop.zoo-leipzig.de":
-          return [
-            "cookies_mandatory=true",
-            "cookies_tracking=false",
-            "cookies_media=false",
-            "cookies_statistic=false"
-          ]
-          case "elektronik-lavpris.dk":
-            return ["cookieconsent=necessary"]
+    case "ostfriesische-brandkasse.de":
+      return [
+        "cookie-analytics-undefined=false",
+        `cookie-consent-undefined=2025-11-01T21%3A41%3A56%2B01%3A00`,
+      ];
+    case "shop.zoo-leipzig.de":
+      return [
+        "cookies_mandatory=true",
+        "cookies_tracking=false",
+        "cookies_media=false",
+        "cookies_statistic=false",
+      ];
+    case "elektronik-lavpris.dk":
+      return ["cookieconsent=necessary"];
   }
 
   const parts = hostname.split(".");
