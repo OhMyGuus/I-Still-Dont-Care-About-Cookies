@@ -15452,6 +15452,7 @@ const rules = {
   "shop.zoo-leipzig.de": { j: "6" },
   "elektronik-lavpris.dk": { j: "6" },
   "yes2move.com": { c: "34" },
+  "zugportal.de": { j: "3" },
 };
 
 const blockUrls = {
