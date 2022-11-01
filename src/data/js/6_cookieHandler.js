@@ -490,6 +490,13 @@ function getE(hostname) {
           "cookie-analytics-undefined=false",
           `cookie-consent-undefined=2025-11-01T21%3A41%3A56%2B01%3A00`
         ]
+        case "shop.zoo-leipzig.de":
+          return [
+            "cookies_mandatory=true",
+            "cookies_tracking=false",
+            "cookies_media=false",
+            "cookies_statistic=false"
+          ]
   }
 
   const parts = hostname.split(".");
