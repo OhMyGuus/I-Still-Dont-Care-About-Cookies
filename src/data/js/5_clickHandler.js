@@ -7187,6 +7187,8 @@ function getSelector(host) {
       );
     case "tourisme-lodevois-larzac.fr":
       return '.fw_cookies_btns > a[onclick="fw_cookies_policy_deny_all();"]';
+    case "swiss.com":
+      return '#cm-acceptNone';
   }
 
   if (host.parts.length > 2) {
