@@ -2169,6 +2169,7 @@ function getSelector(host) {
 
     case "schweinske.de":
     case "notebooksbilliger.de":
+    case "roland-rechtsschutz.de":
       e = _id("usercentrics-root");
       return e && e.shadowRoot
         ? _sl('button[data-testid="uc-accept-all-button"]', e.shadowRoot)
