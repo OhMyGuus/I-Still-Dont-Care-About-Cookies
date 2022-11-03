@@ -15464,6 +15464,7 @@ const rules = {
   "cleveroad.com": { s: ".bZ_vx{display:none !important}" },
   "etiskarna.si": { s: ".cookie__content{display:none !important}" },
   "solvimus.de": { j: "6" },
+  "archerresourcing.co.uk": { j: "6" },
 };
 
 const blockUrls = {
