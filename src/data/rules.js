@@ -15463,6 +15463,7 @@ const rules = {
   "befirst.info": { s: ".p-cookies{display:none !important}" },
   "cleveroad.com": { s: ".bZ_vx{display:none !important}" },
   "etiskarna.si": { s: ".cookie__content{display:none !important}" },
+  "solvimus.de": { j: "6" },
 };
 
 const blockUrls = {

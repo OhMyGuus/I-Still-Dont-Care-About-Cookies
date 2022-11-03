@@ -499,6 +499,8 @@ function getE(hostname) {
       ];
     case "elektronik-lavpris.dk":
       return ["cookieconsent=necessary"];
+    case "solvimus.de":
+      return ["bl_dsgvo_consent=external"];
   }
 
   const parts = hostname.split(".");
