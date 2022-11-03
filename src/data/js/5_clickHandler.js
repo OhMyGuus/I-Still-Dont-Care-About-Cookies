@@ -7189,6 +7189,12 @@ function getSelector(host) {
       return '.fw_cookies_btns > a[onclick="fw_cookies_policy_deny_all();"]';
     case "swiss.com":
       return '#cm-acceptNone';
+    case "plateuptools.com":
+      return _chain(
+        '#c-s-bn',
+        '#s-rall-bn'
+      );
+  
   }
 
   if (host.parts.length > 2) {
