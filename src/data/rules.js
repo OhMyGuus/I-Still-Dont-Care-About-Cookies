@@ -15460,6 +15460,7 @@ const rules = {
   "yes2move.com": { c: "34" },
   "zugportal.de": { j: "3" },
   "swiss.com": { j: "5" },
+  "befirst.info": { s: ".p-cookies{display:none !important}" },
 };
 
 const blockUrls = {
