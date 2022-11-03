@@ -15459,6 +15459,7 @@ const rules = {
   "elektronik-lavpris.dk": { j: "6" },
   "yes2move.com": { c: "34" },
   "zugportal.de": { j: "3" },
+  "etiskarna.si": { s: ".cookie__content{display:none !important}" },
 };
 
 const blockUrls = {
