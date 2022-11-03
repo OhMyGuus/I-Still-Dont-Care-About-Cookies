@@ -15461,6 +15461,7 @@ const rules = {
   "zugportal.de": { j: "3" },
   "swiss.com": { j: "5" },
   "befirst.info": { s: ".p-cookies{display:none !important}" },
+  "cleveroad.com": { s: ".bZ_vx{display:none !important}" },
 };
 
 const blockUrls = {
