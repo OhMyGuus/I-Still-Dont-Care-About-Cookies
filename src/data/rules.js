@@ -15466,6 +15466,8 @@ const rules = {
   "solvimus.de": { j: "6" },
   "archerresourcing.co.uk": { j: "6" },
   "roland-rechtsschutz.de": { j: "5" },
+  "honda.co.za": { s: ".cookies{display:none !important}" },
+  "dlive.tv": { j: "5" },
 };
 
 const blockUrls = {
