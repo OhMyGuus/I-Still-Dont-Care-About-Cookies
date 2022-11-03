@@ -2169,6 +2169,7 @@ function getSelector(host) {
 
     case "schweinske.de":
     case "notebooksbilliger.de":
+    case "roland-rechtsschutz.de":
       e = _id("usercentrics-root");
       return e && e.shadowRoot
         ? _sl('button[data-testid="uc-accept-all-button"]', e.shadowRoot)
@@ -7194,6 +7195,8 @@ function getSelector(host) {
         '#c-s-bn',
         '#s-rall-bn'
       );
+    case "dlive.tv":
+      return '#asfg > div';
   }
 
   if (host.parts.length > 2) {
