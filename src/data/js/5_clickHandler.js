@@ -7194,7 +7194,6 @@ function getSelector(host) {
         '#c-s-bn',
         '#s-rall-bn'
       );
-  
   }
 
   if (host.parts.length > 2) {
