@@ -15459,6 +15459,9 @@ const rules = {
   "elektronik-lavpris.dk": { j: "6" },
   "yes2move.com": { c: "34" },
   "zugportal.de": { j: "3" },
+  "swiss.com": { j: "5" },
+  "befirst.info": { s: ".p-cookies{display:none !important}" },
+  "cleveroad.com": { s: ".bZ_vx{display:none !important}" },
   "etiskarna.si": { s: ".cookie__content{display:none !important}" },
 };
 
