@@ -11631,7 +11631,7 @@ const rules = {
   "glashuette-original.com": {
     s: "#js_dataNnoticeBtns{display:none !important}",
   },
-  "svt.se": { s: ".svt-cookie-message{display:none !important}" },
+  "svt.se": { j: "6", s: ".svt-cookie-message{display:none !important}" },
   "elblandkliniken.de": { s: "#Datenschutz{display:none !important}" },
   "unitedutilities.com": { j: "5" },
   "bagaggio.com.br": { s: ".lgpd{display:none !important}" },
