@@ -13389,9 +13389,6 @@ const rules = {
   "blockchain.com": { j: "5" },
   "redhotpawn.com": { s: "#cookieConsentElId{display:none !important}" },
   "tools.se": { j: "5" },
-  "gettr.com": {
-    s: ".app-content > div + div:last-child{display:none !important}",
-  },
   "escavador.com": { s: ".c-popup-consentimento{display:none !important}" },
   "vizjer.pl": { c: "2" },
   "kaartje2go.nl": { j: "5" },
@@ -15471,7 +15468,7 @@ const rules = {
   "dlive.tv": { j: "5" },
 };
 
-const blockUrls = {
+var blockUrls = {
   common: [
     {
       q: false,
@@ -16724,6 +16721,7 @@ const blockUrls = {
       { q: false, r: "/dock-privacy-settings.esm.js", e: false },
     ],
     cmp: [
+      { q: false, r: "cmp.quantcast.com", e: false },
       { q: false, r: "cmp.nextday.media/cmp", e: ["vi.nl", "omroepwest.nl"] },
       { q: false, r: "cmp.dreamlab.pl", e: false },
       { q: false, r: "/media/cmp/int_cmp_banner", e: false },
