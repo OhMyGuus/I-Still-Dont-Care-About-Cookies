@@ -15466,6 +15466,9 @@ const rules = {
   "roland-rechtsschutz.de": { j: "5" },
   "honda.co.za": { s: ".cookies{display:none !important}" },
   "dlive.tv": { j: "5" },
+  "scienceinsport.com": {
+    s: 'aside[data-role="gdpr-cookie-container"]{display:none !important}',
+  },
 };
 
 var blockUrls = {
