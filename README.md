@@ -11,6 +11,8 @@ Also having it on Github allows us to improve the code & add support for website
 
 - [**Firefox** browser add-ons](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/)
 - [**Chrome** Web Store](https://chrome.google.com/webstore/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm)
+- [**Edge** Add-ons](https://microsoftedge.microsoft.com/addons/detail/i-still-dont-care-about-/kkacdgacpkediooahopgcbdahlpipheh)
+
 
 ## Manual installation
 

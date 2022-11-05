@@ -1,12 +1,7 @@
 {
   "extensionName": {
-    "message": "I don’t care about cookies",
+    "message": "I still don't care about cookies",
     "description": "Name of the extension."
-  },
-
-  "extensionDescription": {
-    "message": "Zeg gedag tegen waarschuwingen.",
-    "description": "Description of the extension."
   },
 
   "reportSkippedTitle": {

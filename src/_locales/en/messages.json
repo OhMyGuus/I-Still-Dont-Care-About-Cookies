@@ -5,7 +5,7 @@
   },
 
   "extensionDescription": {
-    "message": "Bye-bye to warnings.",
+    "message": "Community version of the extension `I don't care about cookies` (no Avast)",
     "description": "Description of the extension."
   },
 
@@ -83,13 +83,58 @@
     "description": "Options text for whitelist box."
   },
 
+  "optionStatusIndicators": {
+    "message": "status indicators",
+    "description": "Option text for enabling the status indicator"
+  },
+
   "optionsButton": {
     "message": "Save settings",
     "description": "Options text for SAVE button."
   },
 
-  "optionsSaved": {
-    "message": "Options successfully saved.",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Report using Github",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Report anonymously",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Report",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Notes: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Things like:\nVideoplayback not working\nBroken scrollbar\ngray overlay",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Send report",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Cancel",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "Something went wrong",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Try again later..",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Back",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Loading...",
+    "description": "Loading messsage"
   }
 }

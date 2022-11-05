@@ -1,5 +1,8 @@
-function getE(h) {
-  switch (h) {
+/*  Cookie handler */
+/*  Use this handler if it's possible to remove the warning using cookies and can't be handeld using css */
+
+function getE(hostname) {
+  switch (hostname) {
     case "letssingit.com":
     case "lyricsbox.com":
       return ["cookieconsent=1111"];
@@ -7,10 +10,6 @@ function getE(h) {
     case "kontaktbazar.at":
     case "hoernews.de":
       return ["cookieconsent_status=dismiss"];
-
-    case "newegg.com":
-    case "newegg.ca":
-      return ["NV%5FGDPR=001"];
 
     case "pee.place":
     case "nearest.place":
@@ -243,9 +242,6 @@ function getE(h) {
       return ["consentUUID=382584da-af8a-469e-aedf-11ac420ec96d"];
     case "dehn.de":
       return ["cookie-agreed=1", "cookie-processed-02=ck_1:true%2Cck_2:true"];
-    case "minecraft.net":
-      const d = Math.round(Date.now() / 1000);
-      return ["MSCC=" + (d - (d % 86400))];
     case "crtm.es":
       return ["crtmcookiesCAnaliticas=1", "crtmcookiesProtDatos=1"];
     case "computertotaal.nl":
@@ -327,10 +323,6 @@ function getE(h) {
       return ["cleanair=%7B%22cookiesEssential%22%3Atrue%7D"];
     case "e-fundresearch.com":
       return ["cookieinfo={%22functional%22:true}"];
-    case "systembolaget.se":
-      return [
-        "cookieConsent=[%22statistical%22%2C%22profiling%22%2C%22useful%22]",
-      ];
     case "elkem.com":
       return ["ConsentClosed=1"];
     case "tonershop.at":
@@ -408,9 +400,114 @@ function getE(h) {
       ];
     case "kaptainmusic.com":
       return ["mandatoryCookiesAccepted=false"];
+    case "voebb.onleihe.de":
+      return ["onleiheTracking=false"];
+    case "larrychenphoto.com":
+      return ["cbd=1", "necoo=1"];
+    case "notify.events":
+      return ["_gdpr=necessary"];
+    case "notify.events":
+      return ["_gdpr=necessary"];
+    case "pricewise.nl":
+      return ["CookieConsent=only_necessary"];
+    case "lokalplus.nrw":
+      return ["banner=0"];
+    case "hintertuxergletscher.at":
+      return ["bh_cookies_only_functional=true", "bh_cookies_accepted=true"];
+    case "wifikaernten.at":
+      return [
+        "wifi-show-cookie-policy=no",
+        "cookieconsent_status=googleanalytics,googleadwords,facebook,linkedin,mediacom",
+      ];
+    case "modivo.hr":
+      return [
+        "__MODIVO__cookies_modal=1",
+        "__MODIVO__cookies_policy=false",
+        "__MODIVO__cookies_personal_data=false",
+      ];
+    case "dualuniverse.game":
+      return [
+        "cookie_preference=%7B%22performance%22%3A%22decline%22%2C%22functional%22%3A%22decline%22%2C%22targeting%22%3A%22decline%22%2C%22social%22%3A%22decline%22%7D",
+      ];
+    case "evertiq.com":
+      return ['cookie_consent={"status":"rejected","acceptedCategories":[]}'];
+    case "kaidee.com":
+      return ["T-cook=Necessary,Others"];
+    case "huffingtonpost.fr":
+      return [
+        "lmd_consent=%7B%22userId%22%3A%22%22%2C%22timestamp%22%3A%22%22%2C%22version%22%3A1%2C%22cmpId%22%3A371%2C%22displayMode%22%3A%22cookiewall%22%2C%22purposes%22%3A%7B%22analytics%22%3Afalse%2C%22ads%22%3Afalse%2C%22personalization%22%3Afalse%2C%22mediaPlatforms%22%3Atrue%2C%22social%22%3Afalse%7D%7D",
+      ];
+    case "creopard.de":
+      return [
+        "klaro=%7B%22klaro%22%3Atrue%2C%22cms%22%3Atrue%2C%22adsense%22%3Afalse%2C%22youtube%22%3Afalse%2C%22twitter%22%3Afalse%2C%22matomo%22%3Afalse%7D",
+      ];
+    case "de-vogel.nl":
+      return ["accept-cookies=e"];
+    case "huizenzoeker.nl":
+      return ["cookieConsent=cookie_deny"];
+    case "dndbeyond.com":
+      return ["cookie-consent=denied"];
+    case "education.lego.com":
+      return [
+        'LEGO_COOKIE_SETTINGS={"preferences":[{"label":"analytics","value":false},{"label":"legomarketing","value":false},{"label":"thirdparty","value":false}],"reconsentDate":""}',
+      ];
+    case "beurer.se":
+      return [
+        'cookie-consent={"necessary":true,"analytical":false,"marketing":false,"functional":false}',
+      ];
+    case "uni-mozarteum.at":
+      return [
+        "cookieconsent[googlecse]=2",
+        "cookieconsent[livestream]=1",
+        "cookieconsent[vimeo]=1",
+        "cookieconsent[youtube]=1",
+      ];
+    case "simplywebshop.de":
+      return ["sd_gmaps_accepted=1"];
+    case "tyma.eu":
+      return ["ad_storage=denied", "analytics_storage=denied"];
+    case "crown.com":
+      return ["modalPolicyCookieNotAccepted=notaccepted"];
+    case "xoxo-mobile.at":
+      return ["CookieSettings=%7B%22categories%22%3A%5B%22necessary%22%5D%7D"];
+    case "pretto.fr":
+      return [
+        "tracking-preferences={%22version%22:1%2C%22destinations%22:{%22Bing%20Ads%22:false%2C%22Facebook%20Pixel%22:false%2C%22Google%20AdWords%20New%22:false%2C%22Google%20Cloud%20PubSub%22:false%2C%22Google%20Tag%20Manager%22:false%2C%22PERSONAS%20-%20Google%20AdWords%22:false}%2C%22custom%22:{%22advertising%22:false%2C%22marketingAndAnalytics%22:false}}",
+      ];
+    case "scaleway.com":
+      return [
+        "consent-advertising=false",
+        "consent-analytics=false",
+        "consent-marketing=false",
+      ];
+    case "deckardpenfield.com":
+      return [
+        'webkitconstent={"technical":true,"ad_storage":false,"analytics_storage":false,"personalization_storage":false}',
+        "uuAppCookiesAgreement=true",
+      ];
+    case "ostfriesische-brandkasse.de":
+      return [
+        "cookie-analytics-undefined=false",
+        `cookie-consent-undefined=2025-11-01T21%3A41%3A56%2B01%3A00`,
+      ];
+    case "shop.zoo-leipzig.de":
+      return [
+        "cookies_mandatory=true",
+        "cookies_tracking=false",
+        "cookies_media=false",
+        "cookies_statistic=false",
+      ];
+    case "elektronik-lavpris.dk":
+      return ["cookieconsent=necessary"];
+    case "solvimus.de":
+      return ["bl_dsgvo_consent=external"];
+    case "archerresourcing.co.uk":
+      return [
+        "fs-cc=%257B%2522consents%2522%253A%257B%2522analytics%2522%253Afalse%252C%2522essential%2522%253Atrue%252C%2522marketing%2522%253Afalse%252C%2522personalization%2522%253Afalse%252C%2522uncategorized%2522%253Afalse%257D%257D",
+      ];  
   }
 
-  const parts = h.split(".");
+  const parts = hostname.split(".");
 
   if (parts.length > 2) {
     parts.shift();
@@ -420,8 +517,8 @@ function getE(h) {
   return false;
 }
 
-const h = document.location.hostname.replace(/^w{2,3}\d*\./i, "");
-const cookies = getE(h);
+const hostname = document.location.hostname.replace(/^w{2,3}\d*\./i, "");
+const cookies = getE(hostname);
 
 if (cookies) {
   let counter = 0;
@@ -434,7 +531,7 @@ if (cookies) {
       // First try to delete the cookie
 
       if (parts.length > 1) {
-        const domainParts = h.split(".");
+        const domainParts = hostname.split(".");
 
         while (domainParts.length > 1) {
           document.cookie =

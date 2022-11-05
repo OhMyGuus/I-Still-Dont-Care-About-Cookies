@@ -45,8 +45,21 @@ body.cookie_banner_prevent_scroll,
 body.cli-barmodal-open {
   overflow: visible !important;
 }
+
+iframe[title^="SP Consent Message"] {
+  display: none !important;
+}
+
+html.sp-message-open,
+html.sp-message-open body,
+html.disable--interaction.show--consent,
+html.disable--interaction.show--consent body {
+  overflow: unset !important;
+}
+
 body.cookie-consent-checking,
-html.sp-message-open {
+html.sp-message-open,
+html.sp-message-open body {
   position: static !important;
 }
 #cookieNoticeModal.vrm-reveal[style*="block"],
@@ -845,6 +858,7 @@ div[aria-describedby*="cookie-info"],
 .cookie-compliance-container,
 .cookie-disclaimer:not(body):not(html),
 #cookie_popup,
+#cookie_popup,
 .cookie_ribon:not(body):not(html),
 .infoCookies:not(body):not(html),
 #cookieInformacja,
@@ -1094,7 +1108,6 @@ div[data-key="cookies-warning"],
 #jmCookieMessage,
 #divCookieInform,
 #contenedorCookies,
-#cookie-btn,
 #CookieWarning,
 #display_cookie_message,
 .message-cookies:not(body):not(html),
@@ -2155,7 +2168,6 @@ body > .ckOuter,
 #cookie_policy_bar,
 #cookieLaw_cAlert,
 #tarteaucitronRoot,
-.cookie_text:not(body):not(html),
 #cookie_bloc,
 #CookiesBanner,
 #bandeau_cookie_cnil,
@@ -9483,7 +9495,6 @@ body.show-gdpr #GDPRCookie,
 .js-cookies-alert:not(body):not(html),
 iframe[src*="herowelcomebar.appspot.com"],
 .tracking-box-wrap[style*="block"],
-#__tealiumGDPRcpPrefs,
 .cookiepopin:not(body):not(html),
 #fbar > .fbar > div[jsl] #cnsh,
 #fbar > .fbar > #cnsi ~ div > #cnsh,
@@ -10978,7 +10989,7 @@ cookie-banner,
 #banner-cookie-banner,
 .cookieBar__container,
 .common-header-js .common-header-gdpr,
-#__nuxt .legal-consent-wrap,
+#above-header .legal-consent,
 .l-container.c-cookie__container,
 .cookie-consent__wrapper,
 .module-cookies.cookie-bar--is-visible,
@@ -11670,7 +11681,6 @@ body[data-version] > script[src*="Labello"] ~ .popup,
 .accept-box--rodo,
 .sg_cookieaccept,
 .gdpr_disclaimer,
-#sdgdpr_modal_wrapper,
 notification-block[data-notice*="cookie-disclosure"],
 #cookiebanner-overlay,
 .cookiesUseAgree,
@@ -12445,7 +12455,6 @@ app-cookie-rules,
 .cookie-policy-opt-out,
 .bn-cookie-panel,
 #mod-eprivacyoptin,
-#jentis_consent,
 #cookiesck_overlay,
 .cookie_notification_container,
 #cookiesOverlay,
@@ -13904,15 +13913,76 @@ toujou-consent-widget,
 #sc-cookie-banner,
 #keksGenehmigungsModal,
 #keksGenehmigungsModal ~ .modal-backdrop,
-.szn-cmp-dialog-container,
 #wpca-popup-modal,
 .cookie-info-more-options-background,
-#cookie-info-more-options-layer,
-#ppms_cm_bar_overlay[class*="cm"],
-#website-cookie-consent-banner,
-.opc-manager-cookie
+website-cookie-consent-banner,
+.opc-manager-cookie,
+.tkCookieBox,
+.cookie_consent_withings,
+.shop4-cookie-banner,
+.hu-wrapper.hu-position-bottom.hu-visible,
+.cookie-notice__background,
+html.show--consent #cc-main
 
 /* 14112 */ {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
+
+#CookieManClient,
+#apex_cookie_0,
+#box_lgpd_cookie,
+#cookieConsentInitialBackdrop,
+#cookiePOPup,
+#cookieWrapperWithSettings,
+#gdpr-wrapper,
+#gpe-cookies-warn,
+#jsCookieContainer,
+.C_Cookie_Policy,
+.Cookie_Pane,
+.c-onetrust-backupm,
+.cookie-alert-box-wrapperm,
+.cookie-substrate,
+.cookie_frame_background,
+.js-cookie-headband,
+.mipro-cookie-notice,
+.pane-cookie-content-type,
+.partial-cookie,
+.sp-gdpr-cookie-notice-wrapper,
+.space-cookie-notice,
+.spectrum-cookie-policy-banner,
+.ts-cookie-consent,
+[data-testid="consent-banner"],
+div.cookie-notice-wrapper,
+div.cookie-policy-banner,
+div.cookie-wrapper,
+div.v-cookie,
+div.box_lgpd,
+.messagecookies-container-popup:not(body):not(html),
+#ct-ultimate-gdpr-cookie-modal,
+#ct-ultimate-gdpr-cookie-open,
+#gdprConsentBanner,
+.xxxlutzkarrierecenter-boxCookieActive,
+#cookie-notice-panel,
+.gdprcookie-stickybar,
+#gdpr-consent-alert,
+#__next div[class*="cookiesNotification"],
+.cajacookies,
+#pnlCookieConsent,
+body > allow-cookies,
+#cookieInfoMessageBox,
+#tealium_ensModalBG,
+#__next div[data-testid*="banner-cookie"],
+._gdpr-banner,
+#acceptCookiesBar,
+#klaro div[class*="cooker-modal"],
+#cookiesAlertWidget
+
+/* 14113 */ {
   display: none !important;
   height: 0 !important;
   z-index: -99999 !important;

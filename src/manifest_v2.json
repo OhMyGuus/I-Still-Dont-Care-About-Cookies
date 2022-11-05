@@ -1,9 +1,8 @@
 {
   "manifest_version": 2,
   "name": "__MSG_extensionName__",
-  "short_name": "__MSG_extensionDescription__",
   "default_locale": "en",
-  "version": "1.0.3",
+  "version": "1.0.8",
   "icons": {
     "16": "icons/16.png",
     "48": "icons/48.png",
@@ -27,7 +26,7 @@
     "webNavigation"
   ],
   "background": {
-    "scripts": ["data/rules.js", "data/context-menu.js"]
+    "scripts": ["data/rules.js", "data/background.js"]
   },
   "options_ui": {
     "page": "data/options.html",

@@ -4,11 +4,6 @@
     "description": "Name of the extension."
   },
 
-  "extensionDescription": {
-    "message": "Adio avertismente cookie.",
-    "description": "Description of the extension."
-  },
-
   "reportSkippedTitle": {
     "message": "Extensia este dezactivată pe $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",

@@ -1,3 +1,7 @@
+/*	Default click handler */
+/*	Executed by default if no rule detected */
+/*  Use this handler if the cookie warning is used on a lot of websites */
+
 (function () {
   const searchPairs = {
     ".wp-exclude-emoji": [
@@ -174,7 +178,6 @@
     '.qc-cmp2-summary-buttons button[mode="secondary"],\
 		.qc-cmp2-buttons-desktop > button:first-child,\
 		#didomi-popup .didomi-button-highlight:not([class*="paywall"]):not([class*="disagree"]),\
-		#CookieModal.in .btn[data-dismiss],\
 		#rgpd_video .rgpd-mask a[data-rgpd-consent],\
 		.js--modal[style*="block"] .cookie-permission--accept-button,\
 		.gdpr-modal-rider .btn-cookieaccept,\
@@ -353,7 +356,6 @@
 		form[action*="cookieservice"] #acceptButton,\
 		#cookiescript_injected #cookiescript_accept,\
 		#js-cookie-wall[style*="block"] #js-cookie-wall-accept,\
-		#termsandconds.in #acceptterms,\
 		.ui-dialog.open #CookiePopup form .btn,\
 		#modalCookie.show .cookie-accept,\
 		#cookieform input.modal__submit,\
@@ -462,7 +464,8 @@
 		body[class*="tiki"] #cookie_consent_div:not([style*="display: none"]) input[name="cookie_consent_checkbox"],\
 		.cookiesOverlay2Box #cookiesConsentOK,\
 		#myCookieModal.in .cookie-button,\
-		div[data-cookie-path] a[href*="technologies/cookies"] + div',
+		div[data-cookie-path] a[href*="technologies/cookies"] + div,\
+		.disable--interaction .cm__btn[data-role=necessary]',
   ];
 
   // Search loop function
@@ -479,9 +482,9 @@
           if (box.matches(selector)) {
             (box.shadowRoot || box)
               .querySelectorAll(searchPairs[selector].join(","))
-              .forEach(function (button) {
-                if (button.click && !button.classList.contains("idcac")) {
-                  button.classList.add("idcac");
+              .forEach(function (element) {
+                if (element.click && !element.classList.contains("idcac")) {
+                  element.classList.add("idcac");
 
                   if (typeof chrome == "object" && chrome.runtime) {
                     chrome.runtime.sendMessage({
@@ -490,12 +493,12 @@
                     });
                   }
 
-                  button.click();
+                  element.click();
 
                   // The 2nd click is just to be sure. Avoid when a double click breaks the process.
                   if (selector != ".message-container") {
                     setTimeout(function () {
-                      if (button) button.click();
+                      if (element) element.click();
                     }, 500);
                   }
 
@@ -508,9 +511,9 @@
 
       document
         .querySelectorAll(searchGroups[counter % searchGroupsLength])
-        .forEach(function (e) {
-          if (e.click && !e.classList.contains("idcac")) {
-            e.classList.add("idcac");
+        .forEach(function (element) {
+          if (element.click && !element.classList.contains("idcac")) {
+            element.classList.add("idcac");
 
             if (typeof chrome == "object" && chrome.runtime) {
               chrome.runtime.sendMessage({
@@ -519,10 +522,10 @@
               });
             }
 
-            e.click();
+            element.click();
 
             setTimeout(function () {
-              if (e) e.click();
+              if (element) element.click();
             }, 500);
 
             timeoutDuration += 500;
