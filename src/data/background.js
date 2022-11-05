@@ -1,3 +1,4 @@
+import { blockUrls, commons, commonJSHandlers, rules } from "./rules.js";
 // Vars
 
 let cachedRules = {};
@@ -5,17 +6,7 @@ let tabList = {};
 const xmlTabs = {};
 let lastDeclarativeNetRuleId = 1;
 let settings = { statusIndicators: true, whitelistedDomains: {} };
-
 const isManifestV3 = chrome.runtime.getManifest().manifest_version == 3;
-
-if (isManifestV3) {
-  /* rules.js */
-  try {
-    importScripts("rules.js");
-  } catch (e) {
-    console.log(e);
-  }
-}
 
 // Badges
 function setBadge(tabId, text) {

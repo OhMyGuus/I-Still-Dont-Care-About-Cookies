@@ -22,7 +22,8 @@
   ],
   "host_permissions": ["http://*/*", "https://*/*"],
   "background": {
-    "service_worker": "data/background.js"
+    "service_worker": "data/background.js",
+    "type": "module"
   },
   "options_ui": {
     "page": "data/options.html"
