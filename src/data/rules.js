@@ -15469,9 +15469,12 @@ const rules = {
   "scienceinsport.com": {
     s: 'aside[data-role="gdpr-cookie-container"]{display:none !important}',
   },
+  "knowunity.fr": {
+    s: 'div[data-cy="cookie-banner"]{display:none !important}',
+  },
 };
 
-var blockUrls = {
+const blockUrls = {
   common: [
     {
       q: false,
