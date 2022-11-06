@@ -15479,6 +15479,7 @@ const rules = {
   "candis.io": { j: "6" },
   "kauppakeskuswilla.fi": { s: ".cdk-global-overlay-wrapper{display:none !important}" },
   "hd.digital": { s: ".modal-backdrop{display:none !important} body{overflow: unset !important}" },
+  "parkside-interactive.com": { s: "#SirPauls-cookie{display:none !important}" },
 };
 
 const blockUrls = {
