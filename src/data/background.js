@@ -1,9 +1,10 @@
 import { blockUrls, commons, commonJSHandlers, rules } from "./rules.js";
 // Vars
-
+console.log("BACKGROUND Start");
+let initialized = false;
 let cachedRules = {};
 let tabList = {};
-const xmlTabs = {};
+let xmlTabs = {};
 let lastDeclarativeNetRuleId = 1;
 let settings = { statusIndicators: true, whitelistedDomains: {} };
 const isManifestV3 = chrome.runtime.getManifest().manifest_version == 3;
@@ -36,7 +37,6 @@ function resetBadge(tabId) {
 }
 
 // Common functions
-
 function getHostname(url, cleanup) {
   try {
     if (url.indexOf("http") != 0) {
@@ -67,7 +67,6 @@ function updateSettings() {
     }
   );
 }
-updateSettings();
 
 async function UpdateWhitelistRules() {
   if (!isManifestV3) {
@@ -197,31 +196,25 @@ function onRemovedListener(tabId) {
   }
 }
 
-function recreateTabList() {
+async function recreateTabList(magic) {
   tabList = {};
 
-  chrome.tabs.query({}, function (results) {
-    results.forEach(onCreatedListener);
+  let results = await chrome.tabs.query({});
+  results.forEach(onCreatedListener);
 
+  if (magic) {
     for (const i in tabList) {
       doTheMagic(tabList[i].id);
     }
-  });
+  }
 }
 
 chrome.tabs.onCreated.addListener(onCreatedListener);
 chrome.tabs.onUpdated.addListener(onUpdatedListener);
 chrome.tabs.onRemoved.addListener(onRemovedListener);
 
-chrome.runtime.onStartup.addListener(function (d) {
-  cachedRules = {};
-  recreateTabList();
-});
-
-chrome.runtime.onInstalled.addListener(function (d) {
-  cachedRules = {};
-  recreateTabList();
-});
+chrome.runtime.onStartup.addListener(async () => await initialize(true));
+chrome.runtime.onInstalled.addListener(async () => await initialize(true));
 
 // URL blocking
 
@@ -490,7 +483,7 @@ function doTheMagic(tabId, frameId, anotherTry) {
     function () {
       // A failure? Retry.
       if (chrome.runtime.lastError) {
-        console.log(chrome.runtime.lastError);
+        console.log(tabList[tabId].url, chrome.runtime.lastError);
 
         const currentTry = anotherTry || 1;
 
@@ -526,9 +519,12 @@ function doTheMagic(tabId, frameId, anotherTry) {
   );
 }
 
-chrome.webNavigation.onCommitted.addListener(function (tab) {
+chrome.webNavigation.onCommitted.addListener(async (tab) => {
   if (tab.frameId > 0) {
     return;
+  }
+  if (!initialized) {
+    await initialize();
   }
 
   tabList[tab.tabId] = getPreparedTab(tab);
@@ -537,7 +533,10 @@ chrome.webNavigation.onCommitted.addListener(function (tab) {
 });
 
 chrome.webRequest.onCompleted.addListener(
-  function (tab) {
+  async (tab) => {
+    if (!initialized) {
+      await initialize();
+    }
     if (tab.frameId > 0) {
       doTheMagic(tab.tabId, tab.frameId);
     }
@@ -547,7 +546,10 @@ chrome.webRequest.onCompleted.addListener(
 
 // Toolbar menu
 
-chrome.runtime.onMessage.addListener(function (request, info, sendResponse) {
+chrome.runtime.onMessage.addListener(async (request, info, sendResponse) => {
+  if (!initialized) {
+    await initialize();
+  }
   if (typeof request == "object") {
     if (request.tabId && tabList[request.tabId]) {
       if (request.command == "get_active_tab") {
@@ -638,4 +640,11 @@ function executeScript(injection, callback) {
       callback
     );
   }
+}
+
+async function initialize(magic) {
+  initialized = true;
+  cachedRules = {};
+  updateSettings();
+  await recreateTabList(magic);
 }
