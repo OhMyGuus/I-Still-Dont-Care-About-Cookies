@@ -15469,6 +15469,7 @@ const rules = {
   "roland-rechtsschutz.de": { j: "5" },
   "honda.co.za": { s: ".cookies{display:none !important}" },
   "dlive.tv": { j: "5" },
+  "lvvwd.com": { s: "#PolicyNotice{display:none !important}" },
 };
 
 const blockUrls = {
