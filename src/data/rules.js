@@ -15469,6 +15469,7 @@ const rules = {
   "roland-rechtsschutz.de": { j: "5" },
   "honda.co.za": { s: ".cookies{display:none !important}" },
   "dlive.tv": { j: "5" },
+  "beste-badstudios.de": { s: ".do-cookie-notice{display:none !important}" },
 };
 
 const blockUrls = {
