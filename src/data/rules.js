@@ -15470,6 +15470,7 @@ const rules = {
   "roland-rechtsschutz.de": { j: "5" },
   "honda.co.za": { s: ".cookies{display:none !important}" },
   "dlive.tv": { j: "5" },
+  "beste-badstudios.de": { s: ".do-cookie-notice{display:none !important}" },
   "lvvwd.com": { c: "45" },
   "avax.network": { s: ".analytics_item{display:none !important}" },
   "cteasy.com": { s: ".modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
