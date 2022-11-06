@@ -59,6 +59,7 @@ const commons = {
   42: ".st_notification_wrap{display:none !important}",
   43: "#lbmodal-overlay,#lbmodal{display:none !important}",
   44: "body > div[id][class]{display:none !important}",
+  45: "#PolicyNotice{display:none !important}",
   46: ".alert,#alert{display:none !important}",
   47: "#privacy,.privacy{display:none !important}",
   5: "#notification{display:none !important}",
@@ -15469,7 +15470,7 @@ const rules = {
   "roland-rechtsschutz.de": { j: "5" },
   "honda.co.za": { s: ".cookies{display:none !important}" },
   "dlive.tv": { j: "5" },
-  "lvvwd.com": { s: "#PolicyNotice{display:none !important}" },
+  "lvvwd.com": { c: "45" },
 };
 
 const blockUrls = {
