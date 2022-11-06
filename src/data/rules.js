@@ -15469,6 +15469,7 @@ const rules = {
   "roland-rechtsschutz.de": { j: "5" },
   "honda.co.za": { s: ".cookies{display:none !important}" },
   "dlive.tv": { j: "5" },
+  "kauppakeskuswilla.fi": { s: ".cdk-global-overlay-wrapper{display:none !important}" },
   "hd.digital": { s: ".modal-backdrop{display:none !important} body{overflow: unset !important}" },
 };
 
