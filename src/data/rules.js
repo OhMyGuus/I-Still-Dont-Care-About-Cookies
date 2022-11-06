@@ -15470,6 +15470,8 @@ const rules = {
   "honda.co.za": { s: ".cookies{display:none !important}" },
   "dlive.tv": { j: "5" },
   "candis.io": { j: "6" },
+  "kauppakeskuswilla.fi": { s: ".cdk-global-overlay-wrapper{display:none !important}" },
+  "hd.digital": { s: ".modal-backdrop{display:none !important} body{overflow: unset !important}" },
 };
 
 const blockUrls = {
