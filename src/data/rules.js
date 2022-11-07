@@ -15506,6 +15506,7 @@ const rules = {
   "nationalgeographicla.com": {
     s: ".cookie-footer__placeholder, .cookie-footer{display:none !important}",
   },
+  "seekube.com": { s: "._1AsHk{display:none !important}" },
 };
 
 const blockUrls = {
