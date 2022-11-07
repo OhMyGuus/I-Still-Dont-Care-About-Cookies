@@ -15472,6 +15472,7 @@ const rules = {
   "knowunity.fr": {
     s: 'div[data-cy="cookie-banner"]{display:none !important}',
   },
+  "batna24.com": { s: "#CookieSnackbar{display:none !important}" },
 };
 
 const blockUrls = {
