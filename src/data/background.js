@@ -483,16 +483,21 @@ function doTheMagic(tabId, frameId, anotherTry) {
     function () {
       // A failure? Retry.
       if (chrome.runtime.lastError) {
-        console.log(tabList[tabId].url, chrome.runtime.lastError);
+        console.log(chrome.runtime.lastError);
 
         const currentTry = anotherTry || 1;
 
-        if (currentTry == 5) {
+        if (currentTry == 10) {
           return;
         }
-
-        return doTheMagic(tabId, frameId || 0, currentTry + 1);
+        if (currentTry > 5) {
+          setTimeout(() => doTheMagic(tabId, frameId || 0, currentTry + 1));
+        } else {
+          doTheMagic(tabId, frameId || 0, currentTry + 1);
+        }
+        return;
       }
+
 
       // Common social embeds
       executeScript({ tabId, frameId, file: "data/js/embedsHandler.js" });
@@ -532,17 +537,16 @@ chrome.webNavigation.onCommitted.addListener(async (tab) => {
   doTheMagic(tab.tabId);
 });
 
-chrome.webRequest.onCompleted.addListener(
-  async (tab) => {
-    if (!initialized) {
-      await initialize();
-    }
-    if (tab.frameId > 0) {
-      doTheMagic(tab.tabId, tab.frameId);
-    }
-  },
-  { urls: ["<all_urls>"], types: ["sub_frame"] }
-);
+
+chrome.webNavigation.onCompleted.addListener(function (tab) {
+  if (!initialized) {
+    await initialize();
+  }
+  if (tab.frameId > 0 && tab.url != "about:blank") {
+    doTheMagic(tab.tabId, tab.frameId);
+  }
+});
+
 
 // Toolbar menu
 
