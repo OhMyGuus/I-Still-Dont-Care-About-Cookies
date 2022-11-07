@@ -1,6 +1,5 @@
 import { blockUrls, commons, commonJSHandlers, rules } from "./rules.js";
 // Vars
-console.log("BACKGROUND Start");
 let initialized = false;
 let cachedRules = {};
 let tabList = {};
@@ -55,17 +54,20 @@ function getHostname(url, cleanup) {
 
 // Whitelisting
 function updateSettings() {
-  lastDeclarativeNetRuleId = 1;
-  chrome.storage.local.get(
-    { settings: { whitelistedDomains: {}, statusIndicators: true } },
-    async ({ settings: storedSettings }) => {
-      settings = storedSettings;
+  return new Promise((resolve) => {
+    lastDeclarativeNetRuleId = 1;
+    chrome.storage.local.get(
+      { settings: { whitelistedDomains: {}, statusIndicators: true } },
+      async ({ settings: storedSettings }) => {
+        settings = storedSettings;
 
-      if (isManifestV3) {
-        await UpdateWhitelistRules();
+        if (isManifestV3) {
+          await UpdateWhitelistRules();
+        }
+        resolve();
       }
-    }
-  );
+    );
+  });
 }
 
 async function UpdateWhitelistRules() {
@@ -98,12 +100,6 @@ async function UpdateWhitelistRules() {
     removeRuleIds: previousRules,
   });
 }
-
-chrome.runtime.onMessage.addListener(async function (request, info) {
-  if (request == "update_settings") {
-    updateSettings();
-  }
-});
 
 function isWhitelisted(tab) {
   if (typeof settings.whitelistedDomains[tab.hostname] != "undefined") {
@@ -198,8 +194,17 @@ function onRemovedListener(tabId) {
 
 async function recreateTabList(magic) {
   tabList = {};
-
-  let results = await chrome.tabs.query({});
+  let results;
+  if (isManifestV3) {
+    results = await chrome.tabs.query({});
+  } else {
+    results = await new Promise((resolve, reject) => {
+      chrome.tabs.query({}, (result) => {
+        if (chrome.runtime.lastError) reject(chrome.runtime.lastError);
+        resolve(result);
+      });
+    });
+  }
   results.forEach(onCreatedListener);
 
   if (magic) {
@@ -498,7 +503,6 @@ function doTheMagic(tabId, frameId, anotherTry) {
         return;
       }
 
-
       // Common social embeds
       executeScript({ tabId, frameId, file: "data/js/embedsHandler.js" });
 
@@ -537,8 +541,7 @@ chrome.webNavigation.onCommitted.addListener(async (tab) => {
   doTheMagic(tab.tabId);
 });
 
-
-chrome.webNavigation.onCompleted.addListener(function (tab) {
+chrome.webNavigation.onCompleted.addListener(async function (tab) {
   if (!initialized) {
     await initialize();
   }
@@ -547,10 +550,10 @@ chrome.webNavigation.onCompleted.addListener(function (tab) {
   }
 });
 
-
 // Toolbar menu
 
 chrome.runtime.onMessage.addListener(async (request, info, sendResponse) => {
+  let responseSend;
   if (!initialized) {
     await initialize();
   }
@@ -562,8 +565,8 @@ chrome.runtime.onMessage.addListener(async (request, info, sendResponse) => {
         if (response.tab.whitelisted) {
           response.tab.hostname = getWhitelistedDomain(tabList[request.tabId]);
         }
-
         sendResponse(response);
+        responseSend = true;
       } else if (request.command == "toggle_extension") {
         toggleWhitelist(tabList[request.tabId]);
       } else if (request.command == "report_website") {
@@ -574,7 +577,7 @@ chrome.runtime.onMessage.addListener(async (request, info, sendResponse) => {
           request.notes,
           sendResponse
         );
-        return true; // keeps callback open
+        responseSend = true;
       } else if (request.command == "refresh_page") {
         executeScript({
           tabId: request.tabId,
@@ -588,7 +591,10 @@ chrome.runtime.onMessage.addListener(async (request, info, sendResponse) => {
         chrome.tabs.create({ url: chrome.runtime.getURL("data/options.html") });
       }
     }
+  } else if (request == "update_settings") {
+    await updateSettings();
   }
+  return responseSend;
 });
 
 function insertCSS(injection, callback) {
@@ -646,9 +652,14 @@ function executeScript(injection, callback) {
   }
 }
 
-async function initialize(magic) {
-  initialized = true;
+async function loadCachedRules() {
+  //TODO: Load cached rules for V3 to improve speed (Requires testing to see if this actually is faster for v3)
   cachedRules = {};
-  updateSettings();
+}
+
+async function initialize(magic) {
+  loadCachedRules();
+  await updateSettings();
   await recreateTabList(magic);
+  initialized = true;
 }
