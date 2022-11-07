@@ -11632,7 +11632,7 @@ const rules = {
   "glashuette-original.com": {
     s: "#js_dataNnoticeBtns{display:none !important}",
   },
-  "svt.se": { s: ".svt-cookie-message{display:none !important}" },
+  "svt.se": { j: "6", s: ".svt-cookie-message{display:none !important}" },
   "elblandkliniken.de": { s: "#Datenschutz{display:none !important}" },
   "unitedutilities.com": { j: "5" },
   "bagaggio.com.br": { s: ".lgpd{display:none !important}" },
@@ -12260,7 +12260,7 @@ const rules = {
     s: '#__aer_root__ > div > [class*="styles_footer"] ~ div,p[class*="PrivacyPolicyBanner"],#ae-ru-privacy-banner{display:none !important}',
   },
   "aliexpress.com": {
-    s: '.ui-mask,.gdpr-dialog-class,#j-aliexpress-notice,#container-for-smart-banner ~ div:not([id]):not([class*=" "]):not([style]):nth-last-child(2),#voyager-gdpr,.site-notice-header{display:none !important}',
+    s: '#gdp-new-container,.ui-mask,.gdpr-dialog-class,#j-aliexpress-notice,#container-for-smart-banner ~ div:not([id]):not([class*=" "]):not([style]):nth-last-child(2),#voyager-gdpr,.site-notice-header{display:none !important}',
   },
   "aromes-et-liquides.fr": { s: "#rgpdcookie{display:none !important}" },
   "boomin.com": {
@@ -13390,9 +13390,6 @@ const rules = {
   "blockchain.com": { j: "5" },
   "redhotpawn.com": { s: "#cookieConsentElId{display:none !important}" },
   "tools.se": { j: "5" },
-  "gettr.com": {
-    s: ".app-content > div + div:last-child{display:none !important}",
-  },
   "escavador.com": { s: ".c-popup-consentimento{display:none !important}" },
   "vizjer.pl": { c: "2" },
   "kaartje2go.nl": { j: "5" },
@@ -15484,6 +15481,17 @@ const rules = {
   "kauppakeskuswilla.fi": { s: ".cdk-global-overlay-wrapper{display:none !important}" },
   "hd.digital": { s: ".modal-backdrop{display:none !important} body{overflow: unset !important}" },
   "parkside-interactive.com": { s: "#SirPauls-cookie{display:none !important}" },
+  "scienceinsport.com": {
+    s: 'aside[data-role="gdpr-cookie-container"]{display:none !important}',
+  },
+  "knowunity.fr": {
+    s: 'div[data-cy="cookie-banner"]{display:none !important}',
+  },
+  "batna24.com": { s: "#CookieSnackbar{display:none !important}" },
+  "kalahariresorts.com": { s: ".c-dialog-cookie{display:none !important}" },
+  "nationalgeographicla.com": {
+    s: ".cookie-footer__placeholder, .cookie-footer{display:none !important}",
+  },
 };
 
 const blockUrls = {
@@ -16588,6 +16596,7 @@ const blockUrls = {
           "si.com",
           "capital.fr",
           "t3n.de",
+          "is.fi",
         ],
       },
       { q: false, r: "yastatic.net/s3/gdpr", e: false },
@@ -16716,6 +16725,7 @@ const blockUrls = {
           "maennersache.de",
           "heise.de",
           "t3n.de",
+          "is.fi",
         ],
       },
       { q: false, r: "privacy-policy.u-lab.nl", e: false },
@@ -16739,6 +16749,7 @@ const blockUrls = {
       { q: false, r: "/dock-privacy-settings.esm.js", e: false },
     ],
     cmp: [
+      { q: false, r: "cmp.quantcast.com", e: false },
       { q: false, r: "cmp.nextday.media/cmp", e: ["vi.nl", "omroepwest.nl"] },
       { q: false, r: "cmp.dreamlab.pl", e: false },
       { q: false, r: "/media/cmp/int_cmp_banner", e: false },
@@ -17171,6 +17182,8 @@ const blockUrls = {
           "gelderlander.nl",
           "gld.nl",
           "aftonbladet.se",
+          "sp-prod.net",
+          "is.fi",
         ],
       },
       { q: false, r: "/app.dsgvo.min.js", e: false },

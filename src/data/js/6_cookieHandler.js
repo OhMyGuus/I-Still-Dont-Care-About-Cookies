@@ -509,6 +509,10 @@ function getE(hostname) {
       return [
         "cookies_settings={%22analytics%22:false%2C%22marketing%22:false%2C%22necessary%22:true%2C%22statistical%22:false}",
       ];
+    case "svt.se":
+      return [
+        'cookie-consent-1={"optedIn":true,"functionality":false,"statistics":false}',
+      ];
   }
 
   const parts = hostname.split(".");

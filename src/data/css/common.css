@@ -13980,7 +13980,9 @@ body > allow-cookies,
 ._gdpr-banner,
 #acceptCookiesBar,
 #klaro div[class*="cooker-modal"],
-#cookiesAlertWidget
+#cookiesAlertWidget,
+.consent-manager-overlay,
+.consent-manager-overlay ~ .consent-manager
 
 /* 14113 */ {
   display: none !important;
