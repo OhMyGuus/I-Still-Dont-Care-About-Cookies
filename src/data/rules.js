@@ -15473,6 +15473,7 @@ const rules = {
     s: 'div[data-cy="cookie-banner"]{display:none !important}',
   },
   "batna24.com": { s: "#CookieSnackbar{display:none !important}" },
+  "kalahariresorts.com": { s: ".c-dialog-cookie{display:none !important}" },
 };
 
 const blockUrls = {
