@@ -15441,7 +15441,9 @@ const rules = {
   "fakenewsfrance.com": {
     s: "#js-cc-modal{display:none !important} html{overflow-y: unset !important}",
   },
-  "123inkt.nl": { s: ".simple-popup-container{display:none !important}" },
+  "123inkt.nl": {
+    s: '.simple-popup-container[data-action="CookiePopup"]{display:none !important}',
+  },
   "beruby.com": { s: "#box-shadow{display:none !important}" },
   "arche.net": {
     s: "#cookieModal,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}",
@@ -15473,14 +15475,26 @@ const rules = {
   "beste-badstudios.de": { s: ".do-cookie-notice{display:none !important}" },
   "lvvwd.com": { c: "45" },
   "avax.network": { s: ".analytics_item{display:none !important}" },
-  "cteasy.com": { s: ".modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
+  "cteasy.com": {
+    s: ".modal-backdrop{display:none !important} .modal-open{overflow: unset !important}",
+  },
   "marcos.com": { s: ".policy-alert{display:none !important}" },
-  "pravniprostor.cz": { s: ".CookiesNoticestyle__Wrapper-sc-1vzpzm5-0{display:none !important}" },
-  "bev.gv.at": { s: 'div[class="MuiBox-root css-1z0mgm7"]{display:none !important}' },
+  "pravniprostor.cz": {
+    s: ".CookiesNoticestyle__Wrapper-sc-1vzpzm5-0{display:none !important}",
+  },
+  "bev.gv.at": {
+    s: 'div[class="MuiBox-root css-1z0mgm7"]{display:none !important}',
+  },
   "candis.io": { j: "6" },
-  "kauppakeskuswilla.fi": { s: ".cdk-global-overlay-wrapper{display:none !important}" },
-  "hd.digital": { s: ".modal-backdrop{display:none !important} body{overflow: unset !important}" },
-  "parkside-interactive.com": { s: "#SirPauls-cookie{display:none !important}" },
+  "kauppakeskuswilla.fi": {
+    s: ".cdk-global-overlay-wrapper{display:none !important}",
+  },
+  "hd.digital": {
+    s: ".modal-backdrop{display:none !important} body{overflow: unset !important}",
+  },
+  "parkside-interactive.com": {
+    s: "#SirPauls-cookie{display:none !important}",
+  },
   "scienceinsport.com": {
     s: 'aside[data-role="gdpr-cookie-container"]{display:none !important}',
   },
