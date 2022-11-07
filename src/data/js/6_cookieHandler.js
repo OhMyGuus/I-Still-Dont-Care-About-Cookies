@@ -505,6 +505,10 @@ function getE(hostname) {
       return [
         "fs-cc=%257B%2522consents%2522%253A%257B%2522analytics%2522%253Afalse%252C%2522essential%2522%253Atrue%252C%2522marketing%2522%253Afalse%252C%2522personalization%2522%253Afalse%252C%2522uncategorized%2522%253Afalse%257D%257D",
       ];
+    case "candis.io":
+      return [
+        "cookies_settings={%22analytics%22:false%2C%22marketing%22:false%2C%22necessary%22:true%2C%22statistical%22:false}",
+      ];
     case "svt.se":
       return [
         'cookie-consent-1={"optedIn":true,"functionality":false,"statistics":false}',
