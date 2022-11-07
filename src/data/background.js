@@ -218,7 +218,7 @@ chrome.tabs.onCreated.addListener(onCreatedListener);
 chrome.tabs.onUpdated.addListener(onUpdatedListener);
 chrome.tabs.onRemoved.addListener(onRemovedListener);
 
-chrome.runtime.onStartup.addListener(async () => await initialize(true));
+//chrome.runtime.onStartup.addListener(async () => await initialize(true));
 chrome.runtime.onInstalled.addListener(async () => await initialize(true));
 
 // URL blocking
@@ -663,3 +663,5 @@ async function initialize(magic) {
   await recreateTabList(magic);
   initialized = true;
 }
+
+initialize();
