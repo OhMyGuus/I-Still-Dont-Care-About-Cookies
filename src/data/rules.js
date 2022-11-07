@@ -15474,6 +15474,9 @@ const rules = {
   },
   "batna24.com": { s: "#CookieSnackbar{display:none !important}" },
   "kalahariresorts.com": { s: ".c-dialog-cookie{display:none !important}" },
+  "nationalgeographicla.com": {
+    s: ".cookie-footer__placeholder, .cookie-footer{display:none !important}",
+  },
 };
 
 const blockUrls = {
