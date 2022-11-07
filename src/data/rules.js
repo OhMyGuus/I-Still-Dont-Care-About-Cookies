@@ -17661,3 +17661,5 @@ const blockUrls = {
     "mein.web.de": ["/ppp/js/permission-client"],
   },
 };
+
+export { blockUrls, rules, commons, commonJSHandlers };

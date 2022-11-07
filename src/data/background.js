@@ -1,21 +1,12 @@
+import { blockUrls, commons, commonJSHandlers, rules } from "./rules.js";
 // Vars
-
+let initialized = false;
 let cachedRules = {};
 let tabList = {};
-const xmlTabs = {};
+let xmlTabs = {};
 let lastDeclarativeNetRuleId = 1;
 let settings = { statusIndicators: true, whitelistedDomains: {} };
-
 const isManifestV3 = chrome.runtime.getManifest().manifest_version == 3;
-
-if (isManifestV3) {
-  /* rules.js */
-  try {
-    importScripts("rules.js");
-  } catch (e) {
-    console.log(e);
-  }
-}
 
 // Badges
 function setBadge(tabId, text) {
@@ -45,7 +36,6 @@ function resetBadge(tabId) {
 }
 
 // Common functions
-
 function getHostname(url, cleanup) {
   try {
     if (url.indexOf("http") != 0) {
@@ -64,19 +54,21 @@ function getHostname(url, cleanup) {
 
 // Whitelisting
 function updateSettings() {
-  lastDeclarativeNetRuleId = 1;
-  chrome.storage.local.get(
-    { settings: { whitelistedDomains: {}, statusIndicators: true } },
-    async ({ settings: storedSettings }) => {
-      settings = storedSettings;
+  return new Promise((resolve) => {
+    lastDeclarativeNetRuleId = 1;
+    chrome.storage.local.get(
+      { settings: { whitelistedDomains: {}, statusIndicators: true } },
+      async ({ settings: storedSettings }) => {
+        settings = storedSettings;
 
-      if (isManifestV3) {
-        await UpdateWhitelistRules();
+        if (isManifestV3) {
+          await UpdateWhitelistRules();
+        }
+        resolve();
       }
-    }
-  );
+    );
+  });
 }
-updateSettings();
 
 async function UpdateWhitelistRules() {
   if (!isManifestV3) {
@@ -108,12 +100,6 @@ async function UpdateWhitelistRules() {
     removeRuleIds: previousRules,
   });
 }
-
-chrome.runtime.onMessage.addListener(async function (request, info) {
-  if (request == "update_settings") {
-    updateSettings();
-  }
-});
 
 function isWhitelisted(tab) {
   if (typeof settings.whitelistedDomains[tab.hostname] != "undefined") {
@@ -206,31 +192,34 @@ function onRemovedListener(tabId) {
   }
 }
 
-function recreateTabList() {
+async function recreateTabList(magic) {
   tabList = {};
+  let results;
+  if (isManifestV3) {
+    results = await chrome.tabs.query({});
+  } else {
+    results = await new Promise((resolve, reject) => {
+      chrome.tabs.query({}, (result) => {
+        if (chrome.runtime.lastError) reject(chrome.runtime.lastError);
+        resolve(result);
+      });
+    });
+  }
+  results.forEach(onCreatedListener);
 
-  chrome.tabs.query({}, function (results) {
-    results.forEach(onCreatedListener);
-
+  if (magic) {
     for (const i in tabList) {
       doTheMagic(tabList[i].id);
     }
-  });
+  }
 }
 
 chrome.tabs.onCreated.addListener(onCreatedListener);
 chrome.tabs.onUpdated.addListener(onUpdatedListener);
 chrome.tabs.onRemoved.addListener(onRemovedListener);
 
-chrome.runtime.onStartup.addListener(function (d) {
-  cachedRules = {};
-  recreateTabList();
-});
-
-chrome.runtime.onInstalled.addListener(function (d) {
-  cachedRules = {};
-  recreateTabList();
-});
+//chrome.runtime.onStartup.addListener(async () => await initialize(true));
+chrome.runtime.onInstalled.addListener(async () => await initialize(true));
 
 // URL blocking
 
@@ -503,11 +492,15 @@ function doTheMagic(tabId, frameId, anotherTry) {
 
         const currentTry = anotherTry || 1;
 
-        if (currentTry == 5) {
+        if (currentTry == 10) {
           return;
         }
-
-        return doTheMagic(tabId, frameId || 0, currentTry + 1);
+        if (currentTry > 5) {
+          setTimeout(() => doTheMagic(tabId, frameId || 0, currentTry + 1));
+        } else {
+          doTheMagic(tabId, frameId || 0, currentTry + 1);
+        }
+        return;
       }
 
       // Common social embeds
@@ -535,9 +528,12 @@ function doTheMagic(tabId, frameId, anotherTry) {
   );
 }
 
-chrome.webNavigation.onCommitted.addListener(function (tab) {
+chrome.webNavigation.onCommitted.addListener(async (tab) => {
   if (tab.frameId > 0) {
     return;
+  }
+  if (!initialized) {
+    await initialize();
   }
 
   tabList[tab.tabId] = getPreparedTab(tab);
@@ -545,18 +541,22 @@ chrome.webNavigation.onCommitted.addListener(function (tab) {
   doTheMagic(tab.tabId);
 });
 
-chrome.webRequest.onCompleted.addListener(
-  function (tab) {
-    if (tab.frameId > 0) {
-      doTheMagic(tab.tabId, tab.frameId);
-    }
-  },
-  { urls: ["<all_urls>"], types: ["sub_frame"] }
-);
+chrome.webNavigation.onCompleted.addListener(async function (tab) {
+  if (!initialized) {
+    await initialize();
+  }
+  if (tab.frameId > 0 && tab.url != "about:blank") {
+    doTheMagic(tab.tabId, tab.frameId);
+  }
+});
 
 // Toolbar menu
 
-chrome.runtime.onMessage.addListener(function (request, info, sendResponse) {
+chrome.runtime.onMessage.addListener(async (request, info, sendResponse) => {
+  let responseSend;
+  if (!initialized) {
+    await initialize();
+  }
   if (typeof request == "object") {
     if (request.tabId && tabList[request.tabId]) {
       if (request.command == "get_active_tab") {
@@ -565,8 +565,8 @@ chrome.runtime.onMessage.addListener(function (request, info, sendResponse) {
         if (response.tab.whitelisted) {
           response.tab.hostname = getWhitelistedDomain(tabList[request.tabId]);
         }
-
         sendResponse(response);
+        responseSend = true;
       } else if (request.command == "toggle_extension") {
         toggleWhitelist(tabList[request.tabId]);
       } else if (request.command == "report_website") {
@@ -577,7 +577,7 @@ chrome.runtime.onMessage.addListener(function (request, info, sendResponse) {
           request.notes,
           sendResponse
         );
-        return true; // keeps callback open
+        responseSend = true;
       } else if (request.command == "refresh_page") {
         executeScript({
           tabId: request.tabId,
@@ -591,7 +591,10 @@ chrome.runtime.onMessage.addListener(function (request, info, sendResponse) {
         chrome.tabs.create({ url: chrome.runtime.getURL("data/options.html") });
       }
     }
+  } else if (request == "update_settings") {
+    await updateSettings();
   }
+  return responseSend;
 });
 
 function insertCSS(injection, callback) {
@@ -648,3 +651,17 @@ function executeScript(injection, callback) {
     );
   }
 }
+
+async function loadCachedRules() {
+  //TODO: Load cached rules for V3 to improve speed (Requires testing to see if this actually is faster for v3)
+  cachedRules = {};
+}
+
+async function initialize(magic) {
+  loadCachedRules();
+  await updateSettings();
+  await recreateTabList(magic);
+  initialized = true;
+}
+
+initialize();
