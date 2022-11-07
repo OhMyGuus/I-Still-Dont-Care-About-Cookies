@@ -4287,8 +4287,6 @@ function getSelector(host) {
         '.ReactModal__Content--after-open div[data-modal="cookie-consent"] .modal-footer a',
         '.ReactModal__Content--after-open div[data-modal="cookie-configure"] .modal-footer .btn-outlined'
       );
-    case "ertflix.gr":
-      return 'form[data-test="cookie-form"] button[data-test="button-cookies-form-accept"]';
     case "salto.fr":
       return "body > div[tabindex] button + a + button";
     case "aviva.fr":

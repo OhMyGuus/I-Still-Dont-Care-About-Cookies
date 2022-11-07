@@ -513,6 +513,13 @@ function getE(hostname) {
       return [
         'cookie-consent-1={"optedIn":true,"functionality":false,"statistics":false}',
       ];
+    case "ertflix.gr":
+      return [
+        "HAS_COOKIES_FORM_SHOWED=true",
+        "ARE_REQUIRED_COOKIES_ACCEPTED=true",
+        "ARE_FUNCTIONAL_COOKIES_ACCEPTED=false",
+        "ARE_MARKETING_COOKIES_ACCEPTED=false",
+      ];
   }
 
   const parts = hostname.split(".");

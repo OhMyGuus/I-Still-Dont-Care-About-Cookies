@@ -14267,7 +14267,7 @@ const rules = {
   "2gis.ru": { s: "#confirm ~ footer{display:none !important}" },
   "sites.google.com": { j: "5" },
   "canva.com": { j: "5" },
-  "ertflix.gr": { j: "5" },
+  "ertflix.gr": { j: "6" },
   "sky.com": { j: "5" },
   "xt500parts.com": {
     s: ".amgdprcookie-modal-container{display:none !important}",
