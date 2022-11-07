@@ -8573,7 +8573,6 @@ const rules = {
   "yandex.ru": {
     s: '.gdpr,div[data-react-widget-id="Gdpr"],.lc-gdpr{display:none !important}',
   },
-  "testo.com": { c: "23" },
   "latendresseencuisine.com": { s: ".mdc-snackbar{display:none !important}" },
   "realm667.com": { j: "5" },
   "mediathekviewweb.de": { j: "5" },
