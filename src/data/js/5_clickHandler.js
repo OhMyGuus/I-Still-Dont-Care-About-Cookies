@@ -3944,11 +3944,7 @@ function getSelector(host) {
         'div[data-testid="cookie-consent-modal"] button[data-testid*="settings"]',
         'button[data-testid="cookie-consent-preferences-save"]'
       );
-    case "vr.fi":
-      return _chain(
-        'div[data-testid="cookie-consent-modal"] button[data-testid="settings"]',
-        'button[data-testid="CookieConsentSettings__updateButton"]'
-      );
+
     case "bonami.hu":
       return _if(
         'body > div > div > div > p > a[href*="cookie-szabalyzat"]',
@@ -7197,6 +7193,8 @@ function getSelector(host) {
       );
     case "dlive.tv":
       return '#asfg > div';
+    case "vr.fi":
+      return 'button[data-testid="necessary"]';
   }
 
   if (host.parts.length > 2) {
