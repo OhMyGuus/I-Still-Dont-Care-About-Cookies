@@ -15510,6 +15510,7 @@ const rules = {
   "mesdroitssociaux.gouv.fr": {
     s: ".cdk-overlay-container{display:none !important}",
   },
+  "remarkable.com": { s: 'div[data-cy="cookiebar"]{display:none !important}' },
 };
 
 const blockUrls = {
