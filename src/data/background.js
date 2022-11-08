@@ -217,7 +217,9 @@ chrome.tabs.onUpdated.addListener(onUpdatedListener);
 chrome.tabs.onRemoved.addListener(onRemovedListener);
 
 // chrome.runtime.onStartup.addListener(async () => await initialize(true));
-chrome.runtime.onInstalled.addListener(async () => await initialize(true));
+chrome.runtime.onInstalled.addListener(
+  async () => await initialize(false, true)
+);
 
 // URL blocking
 
@@ -550,51 +552,56 @@ chrome.webNavigation.onCompleted.addListener(async function (tab) {
 
 // Toolbar menu
 
-chrome.runtime.onMessage.addListener(async (request, info, sendResponse) => {
-  let responseSend;
-  if (!initialized) {
-    await initialize();
-  }
-  if (typeof request == "object") {
-    if (request.tabId && tabList[request.tabId]) {
-      if (request.command == "get_active_tab") {
-        const response = { tab: tabList[request.tabId] };
+chrome.runtime.onMessage.addListener((request, info, sendResponse) => {
+  initialize().then(() => {
+    let responseSend = false;
+    if (typeof request == "object") {
+      if (request.tabId && tabList[request.tabId]) {
+        if (request.command == "get_active_tab") {
+          const response = { tab: tabList[request.tabId] };
 
-        if (response.tab.whitelisted) {
-          response.tab.hostname = getWhitelistedDomain(tabList[request.tabId]);
+          if (response.tab.whitelisted) {
+            response.tab.hostname = getWhitelistedDomain(
+              tabList[request.tabId]
+            );
+          }
+          sendResponse(response);
+          responseSend = true;
+        } else if (request.command == "toggle_extension") {
+          toggleWhitelist(tabList[request.tabId]);
+        } else if (request.command == "report_website") {
+          reportWebsite(
+            info,
+            tabList[request.tabId],
+            request.anon,
+            request.notes,
+            sendResponse
+          );
+          responseSend = true;
+        } else if (request.command == "refresh_page") {
+          executeScript({
+            tabId: request.tabId,
+            func: () => {
+              window.location.reload();
+            },
+          });
         }
-        sendResponse(response);
-        responseSend = true;
-      } else if (request.command == "toggle_extension") {
-        toggleWhitelist(tabList[request.tabId]);
-      } else if (request.command == "report_website") {
-        reportWebsite(
-          info,
-          tabList[request.tabId],
-          request.anon,
-          request.notes,
-          sendResponse
-        );
-        responseSend = true;
-      } else if (request.command == "refresh_page") {
-        executeScript({
-          tabId: request.tabId,
-          func: () => {
-            window.location.reload();
-          },
-        });
+      } else {
+        if (request.command == "open_options_page") {
+          chrome.tabs.create({
+            url: chrome.runtime.getURL("/data/options.html"),
+          });
+        }
       }
-    } else {
-      if (request.command == "open_options_page") {
-        chrome.tabs.create({
-          url: chrome.runtime.getURL("/data/options.html"),
-        });
-      }
+    } else if (request == "update_settings") {
+      updateSettings();
     }
-  } else if (request == "update_settings") {
-    await updateSettings();
-  }
-  return responseSend;
+    if (!responseSend) {
+      sendResponse();
+    }
+  });
+
+  return true;
 });
 
 function insertCSS(injection, callback) {
@@ -657,7 +664,10 @@ async function loadCachedRules() {
   cachedRules = {};
 }
 
-async function initialize(magic) {
+async function initialize(checkInitialized, magic) {
+  if (checkInitialized && initialized) {
+    return;
+  }
   loadCachedRules();
   await updateSettings();
   await recreateTabList(magic);
