@@ -15523,6 +15523,7 @@ const rules = {
   "eneba.com": {
     s: "#app > footer ~ div, main > div + div + div:last-child{display:none !important}",
   },
+  "wassererleben.ch": { s: ".static{overflow-y: unset !important}" },
 };
 
 const blockUrls = {
