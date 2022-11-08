@@ -50,17 +50,17 @@ function _ev(selector, container, full) {
 
 let currentChainElement = 0;
 
-function _chain() {
-  const argumentsLength = arguments.length;
-  let flagUnique = false,
-    flagOptional = false,
-    element;
+function _chain(...selectors) {
+  const argumentsLength = selectors.length;
+  let flagUnique = false;
+  let flagOptional = false;
+  let element;
 
   for (let i = currentChainElement; i < argumentsLength; i++) {
     // An argument can be a list of flags valid for all the following arguments
 
-    if (/^FLAG\:/.test(arguments[i])) {
-      arguments[i]
+    if (/^FLAG\:/.test(selectors[i])) {
+      selectors[i]
         .split(":")[1]
         .split(",")
         .forEach(function (flag) {
@@ -77,16 +77,16 @@ function _chain() {
     }
 
     if (flagUnique) {
-      arguments[i] += arguments[i].startsWith("//")
+      selectors[i] += selectors[i].startsWith("//")
         ? '[not(contains(@class, "' + classname + '"))]'
         : ":not(" + classname + ")";
     }
 
     if (i == argumentsLength - 1) {
-      return arguments[i];
+      return selectors[i];
     }
 
-    element = _sl(arguments[i]);
+    element = _sl(selectors[i]);
 
     if (!element) {
       if (flagOptional) {
@@ -7183,14 +7183,11 @@ function getSelector(host) {
     case "tourisme-lodevois-larzac.fr":
       return '.fw_cookies_btns > a[onclick="fw_cookies_policy_deny_all();"]';
     case "swiss.com":
-      return '#cm-acceptNone';
+      return "#cm-acceptNone";
     case "plateuptools.com":
-      return _chain(
-        '#c-s-bn',
-        '#s-rall-bn'
-      );
+      return _chain("#c-s-bn", "#s-rall-bn");
     case "dlive.tv":
-      return '#asfg > div';
+      return "#asfg > div";
     case "vr.fi":
       return 'button[data-testid="necessary"]';
   }
@@ -7213,32 +7210,31 @@ function searchLoop(counter, host) {
     const response = getSelector(host);
 
     if (response) {
-      let clickCounter = 0,
-        clickLoop = setInterval(function () {
-          const element =
-            typeof response == "string" ? _sl(response) : response;
+      let clickCounter = 0;
+      const clickLoop = setInterval(function () {
+        const element = typeof response == "string" ? _sl(response) : response;
 
-          if (
-            element &&
-            element.click &&
-            !element.classList.contains(classname)
-          ) {
-            element.classList.add(classname);
+        if (
+          element &&
+          element.click &&
+          !element.classList.contains(classname)
+        ) {
+          element.classList.add(classname);
 
-            // Give some more time for the DOM to setup properly
-            setTimeout(function () {
-              element.click();
-            }, 500);
+          // Give some more time for the DOM to setup properly
+          setTimeout(function () {
+            element.click();
+          }, 500);
 
+          clearInterval(clickLoop);
+        } else {
+          clickCounter++;
+
+          if (clickCounter > 50) {
             clearInterval(clickLoop);
-          } else {
-            clickCounter++;
-
-            if (clickCounter > 50) {
-              clearInterval(clickLoop);
-            }
           }
-        }, 200);
+        }
+      }, 200);
     } else if (counter < 200) {
       searchLoop(counter + 1, host);
     }
