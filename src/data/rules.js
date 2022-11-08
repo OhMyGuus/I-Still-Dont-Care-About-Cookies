@@ -15523,6 +15523,7 @@ const rules = {
   "eneba.com": {
     s: "#app > footer ~ div, main > div + div + div:last-child{display:none !important}",
   },
+  "cryptomaan.eu": { s: ".bottom-0{display:none !important}" },
 };
 
 const blockUrls = {
