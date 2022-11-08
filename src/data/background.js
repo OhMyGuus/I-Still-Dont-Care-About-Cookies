@@ -460,7 +460,7 @@ function activateDomain(hostname, tabId, frameId) {
     executeScript({
       tabId,
       frameId,
-      file: `data/js/${commonJSHandlers[cachedRule.j]}.js`,
+      file: `/data/js/${commonJSHandlers[cachedRule.j]}.js`,
     });
     status = true;
   }
@@ -484,7 +484,7 @@ function doTheMagic(tabId, frameId, anotherTry) {
 
   // Common CSS rules
   insertCSS(
-    { tabId, frameId: frameId || 0, file: "data/css/common.css" },
+    { tabId, frameId: frameId || 0, file: "/data/css/common.css" },
     function () {
       // A failure? Retry.
       if (chrome.runtime.lastError) {
@@ -504,7 +504,7 @@ function doTheMagic(tabId, frameId, anotherTry) {
       }
 
       // Common social embeds
-      executeScript({ tabId, frameId, file: "data/js/embedsHandler.js" });
+      executeScript({ tabId, frameId, file: "/data/js/embedsHandler.js" });
 
       if (activateDomain(tabList[tabId].hostname, tabId, frameId || 0)) {
         return;
@@ -522,7 +522,7 @@ function doTheMagic(tabId, frameId, anotherTry) {
       executeScript({
         tabId,
         frameId,
-        file: "data/js/0_defaultClickHandler.js",
+        file: "/data/js/0_defaultClickHandler.js",
       });
     }
   );
@@ -588,7 +588,9 @@ chrome.runtime.onMessage.addListener(async (request, info, sendResponse) => {
       }
     } else {
       if (request.command == "open_options_page") {
-        chrome.tabs.create({ url: chrome.runtime.getURL("data/options.html") });
+        chrome.tabs.create({
+          url: chrome.runtime.getURL("/data/options.html"),
+        });
       }
     }
   } else if (request == "update_settings") {
