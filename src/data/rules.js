@@ -15524,6 +15524,7 @@ const rules = {
     s: "#app > footer ~ div, main > div + div + div:last-child{display:none !important}",
   },
   "dotnetconf.net": { s: "#cookie-consent{display:none !important}" },
+  "wenance.com": { s: ".js-consent{display:none !important}" },
 };
 
 const blockUrls = {
