@@ -12256,7 +12256,7 @@ const rules = {
   "gunfinder.de": { j: "5" },
   "westend61.de": { s: "#cookie_Modal{display:none !important}" },
   "aliexpress.ru": {
-    s: '#__aer_root__ > div > [class*="styles_footer"] ~ div,p[class*="PrivacyPolicyBanner"],#ae-ru-privacy-banner{display:none !important}',
+    s: 'div[class*="PrivacyPolicyBanner"]{display:none !important}',
   },
   "aliexpress.com": {
     s: '#gdp-new-container,.ui-mask,.gdpr-dialog-class,#j-aliexpress-notice,#container-for-smart-banner ~ div:not([id]):not([class*=" "]):not([style]):nth-last-child(2),#voyager-gdpr,.site-notice-header{display:none !important}',
@@ -13900,9 +13900,6 @@ const rules = {
   "wirkaufendeinauto.at": { j: "5" },
   "noicompriamoauto.it": { j: "5" },
   "vendezvotrevoiture.fr": { j: "5" },
-  "eneba.com": {
-    s: "#app > div:first-child:not(:only-child),main > div + div + div:last-child{display:none !important}",
-  },
   "norwegian.com": { j: "5" },
   "freeontour.com": { j: "5" },
   "medal.tv": { j: "5" },
@@ -15516,6 +15513,15 @@ const rules = {
   },
   "penlab.ink": {
     s: 'div[uid="aec8beb2-be85-4d15-86db-11a1a7cdc6c2"]{display:none !important}',
+  },
+  "lufthansa.com": {
+    s: "#__tealiumGDPRcpPrefs{display:none !important}",
+  },
+  "lufthansa.com": {
+    s: "#__tealiumGDPRcpPrefs{display:none !important}",
+  },
+  "eneba.com": {
+    s: "#app > footer ~ div, main > div + div + div:last-child{display:none !important}",
   },
 };
 
