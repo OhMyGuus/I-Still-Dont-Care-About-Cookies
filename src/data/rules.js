@@ -15511,7 +15511,12 @@ const rules = {
     s: ".cdk-overlay-container{display:none !important}",
   },
   "remarkable.com": { s: 'div[data-cy="cookiebar"]{display:none !important}' },
-  "accu-components.com": {s: 'div[x-data="cookies"]{display:none !important}'}
+  "accu-components.com": {
+    s: 'div[x-data="cookies"]{display:none !important}',
+  },
+  "penlab.ink": {
+    s: 'div[uid="aec8beb2-be85-4d15-86db-11a1a7cdc6c2"]{display:none !important}',
+  },
 };
 
 const blockUrls = {
