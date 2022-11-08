@@ -2224,7 +2224,7 @@ const rules = {
   "safc.com": { s: ".global-notice-wrap{display:none !important}" },
   "akh.hu": { s: "#macookie{display:none !important}" },
   "flottagumiszerviz.hu": { s: "#macookie{display:none !important}" },
-  "peters.de": { s: ".footersessionarea{display:none !important}" },
+  "peters.de": { s: ".loading_cookie_mainkuangjia{display:none !important}" },
   "colchones.es": { s: "#avisosusc{display:none !important}" },
   "upvx.es": { s: "#lean_overlay,#change_cookies{display:none !important}" },
   "chambre-vienne.notaires.fr": { s: "#cnil-notice{display:none !important}" },
