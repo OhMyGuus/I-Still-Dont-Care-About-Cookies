@@ -15511,6 +15511,7 @@ const rules = {
     s: ".cdk-overlay-container{display:none !important}",
   },
   "remarkable.com": { s: 'div[data-cy="cookiebar"]{display:none !important}' },
+  "accu-components.com": {s: 'div[x-data="cookies"]{display:none !important}'}
 };
 
 const blockUrls = {
