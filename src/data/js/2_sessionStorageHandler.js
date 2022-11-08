@@ -17,7 +17,7 @@ function getItem(hostname) {
   return false;
 }
 
-const h = document.location.hostname.replace(/^w{2,3}\d*\./i, "");
+const hostname = document.location.hostname.replace(/^w{2,3}\d*\./i, "");
 const item = getItem(hostname);
 
 if (item) {

@@ -5,18 +5,14 @@ function _sl(selector, container) {
   return (container || document).querySelector(selector);
 }
 
-function _id(id) {
-  return document.getElementById(id);
-}
-
-const main_interval = setInterval(function () {
+const mainInterval = setInterval(function () {
   const html = _sl("html");
 
   if (!html || /idc8_343/.test(html.className)) {
     return;
   }
 
-  clearInterval(main_interval);
+  clearInterval(mainInterval);
 
   html.className += " idc8_343";
 

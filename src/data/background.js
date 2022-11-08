@@ -3,14 +3,14 @@ import { blockUrls, commons, commonJSHandlers, rules } from "./rules.js";
 let initialized = false;
 let cachedRules = {};
 let tabList = {};
-let xmlTabs = {};
+const xmlTabs = {};
 let lastDeclarativeNetRuleId = 1;
 let settings = { statusIndicators: true, whitelistedDomains: {} };
 const isManifestV3 = chrome.runtime.getManifest().manifest_version == 3;
 
 // Badges
 function setBadge(tabId, text) {
-  var chromeAction = chrome?.browserAction ?? chrome?.action;
+  const chromeAction = chrome?.browserAction ?? chrome?.action;
 
   if (!chromeAction || !settings.statusIndicators) return;
 
@@ -29,10 +29,6 @@ function setSuccessBadge(tabId) {
 
 function setDisabledBadge(tabId) {
   setBadge(tabId, "⛔");
-}
-
-function resetBadge(tabId) {
-  setBadge(tabId);
 }
 
 // Common functions
@@ -62,7 +58,7 @@ function updateSettings() {
         settings = storedSettings;
 
         if (isManifestV3) {
-          await UpdateWhitelistRules();
+          await updateWhitelistRules();
         }
         resolve();
       }
@@ -70,7 +66,7 @@ function updateSettings() {
   });
 }
 
-async function UpdateWhitelistRules() {
+async function updateWhitelistRules() {
   if (!isManifestV3) {
     console.warn("Called unsupported function");
     return;
@@ -148,7 +144,7 @@ async function toggleWhitelist(tab) {
     }
   });
   if (isManifestV3) {
-    await UpdateWhitelistRules();
+    await updateWhitelistRules();
   }
 }
 
@@ -209,7 +205,9 @@ async function recreateTabList(magic) {
 
   if (magic) {
     for (const i in tabList) {
-      doTheMagic(tabList[i].id);
+      if (tabList.hasOwnProperty(i)) {
+        doTheMagic(tabList[i].id);
+      }
     }
   }
 }
@@ -218,7 +216,7 @@ chrome.tabs.onCreated.addListener(onCreatedListener);
 chrome.tabs.onUpdated.addListener(onUpdatedListener);
 chrome.tabs.onRemoved.addListener(onRemovedListener);
 
-//chrome.runtime.onStartup.addListener(async () => await initialize(true));
+// chrome.runtime.onStartup.addListener(async () => await initialize(true));
 chrome.runtime.onInstalled.addListener(async () => await initialize(true));
 
 // URL blocking
@@ -655,7 +653,7 @@ function executeScript(injection, callback) {
 }
 
 async function loadCachedRules() {
-  //TODO: Load cached rules for V3 to improve speed (Requires testing to see if this actually is faster for v3)
+  // TODO: Load cached rules for V3 to improve speed (Requires testing to see if this actually is faster for v3)
   cachedRules = {};
 }
 

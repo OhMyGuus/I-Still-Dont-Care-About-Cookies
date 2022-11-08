@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - 'v*.*.*'
+      - "v*.*.*"
 
 jobs:
   build:
@@ -63,25 +63,24 @@ jobs:
           apiKey: ${{ secrets.AMO_SIGN_KEY }}
           apiSecret: ${{ secrets.AMO_SIGN_SECRET }}
           timeout: 900000
-          
-          
+
       - name: Sleep for 15 minutes
         run: sleep 15m
         shell: bash
-        
+
       - name: Download xpi
         run: |
-         wget https://addons.mozilla.org/firefox/downloads/latest/istilldontcareaboutcookies/istilldontcareaboutcookies-latest.xpi --trust-server-names
-      
+          wget https://addons.mozilla.org/firefox/downloads/latest/istilldontcareaboutcookies/istilldontcareaboutcookies-latest.xpi --trust-server-names
+
       - uses: actions/upload-artifact@v3
         with:
           name: ISDCAC-firefox-signed
           path: istilldontcareaboutcookies-*.xpi
-          
+
       - name: Rename source xpi
         run: |
           mv ISDCAC.xpi ISDCAC-firefox-source.zip
-          
+
       - name: "Create Release"
         uses: softprops/action-gh-release@v1
         env:
