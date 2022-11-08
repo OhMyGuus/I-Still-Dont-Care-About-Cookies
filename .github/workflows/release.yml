@@ -5,17 +5,13 @@ on:
   push:
     tags:
       - "v*.*.*"
+      - "V*.*.*"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Generate release tag
-        id: tag
-        run: |
-          echo "::set-output name=release_tag::IDAC_$(date +"%Y.%m.%d_%H-%M")"
 
       - name: Move to manifest v3
         run: |
@@ -27,7 +23,7 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
-          name: IDCAC-chrome
+          name: ISDCAC-chrome
           path: ./src/*
 
       - name: Move to manifest v2
@@ -45,12 +41,12 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
-          name: IDCAC-firefox-unsigned
+          name: ISDCAC-firefox-unsigned
           path: ${{ steps.web-ext-build.outputs.target }}
 
       - uses: actions/upload-artifact@v3
         with:
-          name: IDCAC-firefox-source
+          name: ISDCAC-firefox-source
           path: ./src/*
 
       - name: "web-ext sign"
@@ -79,7 +75,7 @@ jobs:
 
       - name: Rename source xpi
         run: |
-          mv ISDCAC.xpi ISDCAC-firefox-source.zip
+          mv ${{ steps.web-ext-build.outputs.target }} ISDCAC-firefox-source.zip
 
       - name: "Create Release"
         uses: softprops/action-gh-release@v1
