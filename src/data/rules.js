@@ -15507,6 +15507,9 @@ const rules = {
   },
   "seekube.com": { s: "._1AsHk{display:none !important}" },
   "smart.com": { j: "6" },
+  "mesdroitssociaux.gouv.fr": {
+    s: ".cdk-overlay-container{display:none !important}",
+  },
 };
 
 const blockUrls = {
