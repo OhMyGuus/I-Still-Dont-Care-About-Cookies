@@ -520,6 +520,8 @@ function getE(hostname) {
         "ARE_FUNCTIONAL_COOKIES_ACCEPTED=false",
         "ARE_MARKETING_COOKIES_ACCEPTED=false",
       ];
+    case "smart.com":
+      return ["OptanonAlertBoxClosed=true"];
   }
 
   const parts = hostname.split(".");
