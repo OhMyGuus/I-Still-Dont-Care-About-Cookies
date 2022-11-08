@@ -15506,6 +15506,7 @@ const rules = {
     s: ".cookie-footer__placeholder, .cookie-footer{display:none !important}",
   },
   "seekube.com": { s: "._1AsHk{display:none !important}" },
+  "smart.com": { j: "6" },
 };
 
 const blockUrls = {
