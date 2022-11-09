@@ -15527,6 +15527,7 @@ const rules = {
   "cryptomaan.eu": { s: ".bottom-0{display:none !important}" },
   "dotnetconf.net": { s: "#cookie-consent{display:none !important}" },
   "wenance.com": { s: ".js-consent{display:none !important}" },
+  "kei.pl": { j: "6" },
 };
 
 const blockUrls = {
