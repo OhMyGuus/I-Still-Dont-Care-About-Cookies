@@ -15527,6 +15527,7 @@ const rules = {
   "cryptomaan.eu": { s: ".bottom-0{display:none !important}" },
   "dotnetconf.net": { s: "#cookie-consent{display:none !important}" },
   "wenance.com": { s: ".js-consent{display:none !important}" },
+  "blim.com": { s: "#blim-header > blim-header-message:first-child{display:none !important}" },
 };
 
 const blockUrls = {
