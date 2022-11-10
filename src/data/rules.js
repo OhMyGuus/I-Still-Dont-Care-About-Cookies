@@ -2224,7 +2224,7 @@ const rules = {
   "safc.com": { s: ".global-notice-wrap{display:none !important}" },
   "akh.hu": { s: "#macookie{display:none !important}" },
   "flottagumiszerviz.hu": { s: "#macookie{display:none !important}" },
-  "peters.de": { s: ".footersessionarea{display:none !important}" },
+  "peters.de": { s: ".loading_cookie_mainkuangjia{display:none !important}" },
   "colchones.es": { s: "#avisosusc{display:none !important}" },
   "upvx.es": { s: "#lean_overlay,#change_cookies{display:none !important}" },
   "chambre-vienne.notaires.fr": { s: "#cnil-notice{display:none !important}" },
@@ -15524,6 +15524,12 @@ const rules = {
     s: "#app > footer ~ div, main > div + div + div:last-child{display:none !important}",
   },
   "kampanje.com": { s: ".adn-window{display:none !important}" },
+  "wassererleben.ch": { s: ".static{overflow-y: unset !important}" },
+  "cryptomaan.eu": { s: ".bottom-0{display:none !important}" },
+  "dotnetconf.net": { s: "#cookie-consent{display:none !important}" },
+  "wenance.com": { s: ".js-consent{display:none !important}" },
+  "kei.pl": { j: "6" },
+  "blim.com": { s: "#blim-header > blim-header-message:first-child{display:none !important}" },
 };
 
 const blockUrls = {
