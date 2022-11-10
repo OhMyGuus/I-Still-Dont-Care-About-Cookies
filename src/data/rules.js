@@ -15528,6 +15528,7 @@ const rules = {
   "cryptomaan.eu": { s: ".bottom-0{display:none !important}" },
   "dotnetconf.net": { s: "#cookie-consent{display:none !important}" },
   "wenance.com": { s: ".js-consent{display:none !important}" },
+  "leer.com": { s: ".nine-gdpr{display:none !important}" },
   "aroma.cz": { s: "#lista-cookies{display:none !important}" },
   "pzkosz.pl": { s: ".zgoda_na_przetwarzanie{display:none !important}" },
   "kei.pl": { j: "6" },
