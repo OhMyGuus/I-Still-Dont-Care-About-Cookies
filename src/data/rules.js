@@ -14981,11 +14981,11 @@ const rules = {
   "merkur.si": { j: "5" },
   "merkur.dk": { j: "5" },
   "theguardian.com": {
-    s: 'div[data-island="cookie-banner"],#cmpContainer,body > #cmp,#bottom-banner,div[x-data*="showCookieBanner"]{display:none !important}',
+    s: 'div[id^="sp_message_container_"]{display:none !important}',
     j: "5",
   },
   "theguardian.com.": {
-    s: 'div[data-island="cookie-banner"],#cmpContainer,body > #cmp,#bottom-banner,div[x-data*="showCookieBanner"]{display:none !important}',
+    s: 'div[id^="sp_message_container_"]{display:none !important}',
     j: "5",
   },
   "kungahuset.se": { j: "5" },
