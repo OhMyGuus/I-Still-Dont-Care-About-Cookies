@@ -15528,6 +15528,7 @@ const rules = {
   "dotnetconf.net": { s: "#cookie-consent{display:none !important}" },
   "wenance.com": { s: ".js-consent{display:none !important}" },
   "kei.pl": { j: "6" },
+  "blim.com": { s: "#blim-header > blim-header-message:first-child{display:none !important}" },
 };
 
 const blockUrls = {
