@@ -15523,6 +15523,7 @@ const rules = {
   "eneba.com": {
     s: "#app > footer ~ div, main > div + div + div:last-child{display:none !important}",
   },
+  "kampanje.com": { s: ".adn-window{display:none !important}" },
   "wassererleben.ch": { s: ".static{overflow-y: unset !important}" },
   "cryptomaan.eu": { s: ".bottom-0{display:none !important}" },
   "dotnetconf.net": { s: "#cookie-consent{display:none !important}" },
