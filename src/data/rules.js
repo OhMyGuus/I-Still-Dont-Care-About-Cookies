@@ -15533,6 +15533,7 @@ const rules = {
   "pzkosz.pl": { s: ".zgoda_na_przetwarzanie{display:none !important}" },
   "kei.pl": { j: "6" },
   "blim.com": { s: "#blim-header > blim-header-message:first-child{display:none !important}" },
+  "la-vie-naturelle.com": { s: ".ea-cookies-popin{display:none !important} body{overflow: unset !important}" },
 };
 
 const blockUrls = {
