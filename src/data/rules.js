@@ -15533,6 +15533,7 @@ const rules = {
   "pzkosz.pl": { s: ".zgoda_na_przetwarzanie{display:none !important}" },
   "kei.pl": { j: "6" },
   "blim.com": { s: "#blim-header > blim-header-message:first-child{display:none !important}" },
+  "mairie-blagnac.fr": { s: "#rgpdOverlay{display:none !important}" },
 };
 
 const blockUrls = {
