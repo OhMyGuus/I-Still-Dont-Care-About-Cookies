@@ -15534,6 +15534,7 @@ const rules = {
   "kei.pl": { j: "6" },
   "blim.com": { s: "#blim-header > blim-header-message:first-child{display:none !important}" },
   "click-learn.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
+  "puravita.ch": { s: ".modals-wrapper{display:none !important} ._has-modal{overflow: unset !important}" },
 };
 
 const blockUrls = {
