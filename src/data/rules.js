@@ -15533,6 +15533,7 @@ const rules = {
   "pzkosz.pl": { s: ".zgoda_na_przetwarzanie{display:none !important}" },
   "kei.pl": { j: "6" },
   "blim.com": { s: "#blim-header > blim-header-message:first-child{display:none !important}" },
+  "obuvki.bg": { s: "#marketing-approvals{display:none !important} ._no-scroll-modal{position: unset !important}" },
 };
 
 const blockUrls = {
