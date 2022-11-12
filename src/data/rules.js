@@ -15534,6 +15534,7 @@ const rules = {
   "kei.pl": { j: "6" },
   "blim.com": { s: "#blim-header > blim-header-message:first-child{display:none !important}" },
   "click-learn.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
+  "cmteb.ro": { s: "#InfoPD{display:none !important} .modal-open{overflow: unset !important} .modal-backdrop{position: unset !important}" },
 };
 
 const blockUrls = {
