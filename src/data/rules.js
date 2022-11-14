@@ -15523,10 +15523,19 @@ const rules = {
   "eneba.com": {
     s: "#app > footer ~ div, main > div + div + div:last-child{display:none !important}",
   },
+  "kampanje.com": { s: ".adn-window{display:none !important}" },
   "wassererleben.ch": { s: ".static{overflow-y: unset !important}" },
   "cryptomaan.eu": { s: ".bottom-0{display:none !important}" },
   "dotnetconf.net": { s: "#cookie-consent{display:none !important}" },
   "wenance.com": { s: ".js-consent{display:none !important}" },
+  "leer.com": { s: ".nine-gdpr{display:none !important}" },
+  "aroma.cz": { s: "#lista-cookies{display:none !important}" },
+  "pzkosz.pl": { s: ".zgoda_na_przetwarzanie{display:none !important}" },
+  "kei.pl": { j: "6" },
+  "blim.com": { s: "#blim-header > blim-header-message:first-child{display:none !important}" },
+  "click-learn.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
+  "flaixfm.cat": { s: ".popup_bg{display:none !important}" },
+  "lasseron-associes.com": { s: "#rgpd-background{display:none !important}" },
   "auctioneve.com": { s: "#rgpd-background{display:none !important}" },
 };
 
