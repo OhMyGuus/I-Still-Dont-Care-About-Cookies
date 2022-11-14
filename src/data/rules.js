@@ -15545,6 +15545,7 @@ const rules = {
   "just-mining.com": { s: ".cookieAcceptationModule{display:none !important}" },
   "esto.eu": { s: ".modal-coockies{display:none !important}" },
   "regiojet.com": { s: ".fixed{display:none !important}" },
+  "obuvki.bg": { s: "#marketing-approvals{display:none !important} ._no-scroll-modal{position: unset !important}" },
 };
 
 const blockUrls = {
