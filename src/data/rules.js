@@ -15536,6 +15536,7 @@ const rules = {
   "click-learn.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
   "flaixfm.cat": { s: ".popup_bg{display:none !important}" },
   "lasseron-associes.com": { s: "#rgpd-background{display:none !important}" },
+  "auctioneve.com": { s: "#rgpd-background{display:none !important}" },
 };
 
 const blockUrls = {
