@@ -15538,6 +15538,7 @@ const rules = {
   "lasseron-associes.com": { s: "#rgpd-background{display:none !important}" },
   "auctioneve.com": { s: "#rgpd-background{display:none !important}" },
   "just-mining.com": { s: ".cookieAcceptationModule{display:none !important}" },
+  "esto.eu": { s: ".modal-coockies{display:none !important}" },
 };
 
 const blockUrls = {
