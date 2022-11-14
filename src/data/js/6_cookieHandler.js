@@ -293,7 +293,7 @@ function getE(hostname) {
     case "devias.io":
       return ["devias_consent=c1:1|c2:1", "consent=true"];
     case "neuefische.de":
-      return ["cookiesAccepted=true"];
+      return ["USE_COOKIE_CONSENT_STATE={%22necessary%22:true%2C%22marketing%22:false}"];
     case "waldlandwelt.de":
       return ["c=j"];
     case "pluto.tv":
