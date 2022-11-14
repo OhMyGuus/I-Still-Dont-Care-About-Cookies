@@ -522,6 +522,13 @@ function getE(hostname) {
       ];
     case "smart.com":
       return ["OptanonAlertBoxClosed=true"];
+    case "kei.pl":
+      return [
+        "CF_GDPR_COOKIE_CONSENT_MARKETING=0",
+        "CF_GDPR_COOKIE_CONSENT_PERFORMANCE=0",
+        "CF_GDPR_COOKIE_CONSENT_SOCIAL=0",
+        "CF_GDPR_COOKIE_CONSENT_VIEWED=1",
+      ];
   }
 
   const parts = hostname.split(".");
