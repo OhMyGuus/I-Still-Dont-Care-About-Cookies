@@ -15550,6 +15550,7 @@ const rules = {
   "freemap.sk": { s: ".alert-warning{display:none !important}" },
   "nuessing.de": { s: ".modal-open{overflow: unset !important" },
   "dovolena.cz": { s: ".Cookies_wrapper__ovIeZ{display:none !important}" },
+  "herbata.info": { s: "#elementor-popup-modal-3197{display:none !important}" },
 };
 
 const blockUrls = {
