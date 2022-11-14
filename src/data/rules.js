@@ -10002,7 +10002,7 @@ const rules = {
   "jeugdbrandweer.nl": { j: "5" },
   "solvo.nl": { j: "5" },
   "vivat.de": { s: ".cs-cookie__wrapper{display:none !important}" },
-  "zoo-leipzig.de": { s: ".cs-cookie__wrapper{display:none !important}" },
+  "zoo-leipzig.de": { s: ".cs-cookie__wrapper{display:none !important} [inert]{pointer-events: unset !important}" },
   "gamesfull.org": { c: "34" },
   "adtpostales.com": { s: ".loadingCookies{display:none !important}" },
   "veygo.com": { j: "5" },
@@ -15552,7 +15552,6 @@ const rules = {
   "dovolena.cz": { s: ".Cookies_wrapper__ovIeZ{display:none !important}" },
   "eberry.cz": { s: ".c-cookie-consent-bar{display:none !important}" },
   "els.spb.ru": { s: "#client-cookies-notice{display:none !important}" },
-  "puravita.ch": { s: ".modals-wrapper{display:none !important} ._has-modal{overflow: unset !important}" },
 };
 
 const blockUrls = {
