@@ -15552,6 +15552,7 @@ const rules = {
   "dovolena.cz": { s: ".Cookies_wrapper__ovIeZ{display:none !important}" },
   "eberry.cz": { s: ".c-cookie-consent-bar{display:none !important}" },
   "els.spb.ru": { s: "#client-cookies-notice{display:none !important}" },
+  "puravita.ch": { s: ".modals-wrapper{display:none !important} ._has-modal{overflow: unset !important}" },
 };
 
 const blockUrls = {
