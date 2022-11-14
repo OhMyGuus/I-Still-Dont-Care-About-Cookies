@@ -15547,6 +15547,7 @@ const rules = {
   "regiojet.com": { s: ".fixed{display:none !important}" },
   "obuvki.bg": { s: "#marketing-approvals{display:none !important} ._no-scroll-modal{position: unset !important}" },
   "freemap.sk": { s: ".alert-warning{display:none !important}" },
+  "nuessing.de": { s: ".modal-open{overflow: unset !important" },
 };
 
 const blockUrls = {
