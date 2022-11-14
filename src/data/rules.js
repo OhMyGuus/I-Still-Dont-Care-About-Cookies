@@ -15550,6 +15550,7 @@ const rules = {
   "freemap.sk": { s: ".alert-warning{display:none !important}" },
   "nuessing.de": { s: ".modal-open{overflow: unset !important" },
   "dovolena.cz": { s: ".Cookies_wrapper__ovIeZ{display:none !important}" },
+  "eberry.cz": { s: ".c-cookie-consent-bar{display:none !important}" },
 };
 
 const blockUrls = {
