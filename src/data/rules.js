@@ -15540,6 +15540,7 @@ const rules = {
   "elialocardi.com": { s: ".sm-cookie-consent{display:none !important}" },
   "sergas.gal": { s: "#cookies-notices-container,.cookies-policy{display:none !important}" },
   "click-learn.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
+  "classicalarchives.com": { s: ".Cdiv{display:none !important}" },
   "bitso.com": { s: "#__next > div + div{display:none !important}" },
   "flaixfm.cat": { s: ".popup_bg{display:none !important}" },
   "lasseron-associes.com": { s: "#rgpd-background{display:none !important}" },
