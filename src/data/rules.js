@@ -15534,6 +15534,15 @@ const rules = {
   "kei.pl": { j: "6" },
   "blim.com": { s: "#blim-header > blim-header-message:first-child{display:none !important}" },
   "la-vie-naturelle.com": { s: ".ea-cookies-popin{display:none !important} body{overflow: unset !important}" },
+  "mairie-blagnac.fr": { s: "#rgpdOverlay{display:none !important}" },
+  "elialocardi.com": { s: ".sm-cookie-consent{display:none !important}" },
+  "sergas.gal": { s: "#cookies-notices-container,.cookies-policy{display:none !important}" },
+  "click-learn.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
+  "flaixfm.cat": { s: ".popup_bg{display:none !important}" },
+  "lasseron-associes.com": { s: "#rgpd-background{display:none !important}" },
+  "auctioneve.com": { s: "#rgpd-background{display:none !important}" },
+  "just-mining.com": { s: ".cookieAcceptationModule{display:none !important}" },
+  "esto.eu": { s: ".modal-coockies{display:none !important}" },
 };
 
 const blockUrls = {
