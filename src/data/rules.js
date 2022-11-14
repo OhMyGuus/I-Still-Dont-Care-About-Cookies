@@ -15551,6 +15551,7 @@ const rules = {
   "nuessing.de": { s: ".modal-open{overflow: unset !important" },
   "dovolena.cz": { s: ".Cookies_wrapper__ovIeZ{display:none !important}" },
   "eberry.cz": { s: ".c-cookie-consent-bar{display:none !important}" },
+  "els.spb.ru": { s: "#client-cookies-notice{display:none !important}" },
 };
 
 const blockUrls = {
