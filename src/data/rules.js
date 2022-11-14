@@ -15537,6 +15537,7 @@ const rules = {
   "flaixfm.cat": { s: ".popup_bg{display:none !important}" },
   "lasseron-associes.com": { s: "#rgpd-background{display:none !important}" },
   "auctioneve.com": { s: "#rgpd-background{display:none !important}" },
+  "just-mining.com": { s: ".cookieAcceptationModule{display:none !important}" },
 };
 
 const blockUrls = {
