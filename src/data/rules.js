@@ -15546,6 +15546,7 @@ const rules = {
   "esto.eu": { s: ".modal-coockies{display:none !important}" },
   "regiojet.com": { s: ".fixed{display:none !important}" },
   "obuvki.bg": { s: "#marketing-approvals{display:none !important} ._no-scroll-modal{position: unset !important}" },
+  "freemap.sk": { s: ".alert-warning{display:none !important}" },
 };
 
 const blockUrls = {
