@@ -15554,6 +15554,7 @@ const rules = {
   "els.spb.ru": { s: "#client-cookies-notice{display:none !important}" },
   "puravita.ch": { s: ".modals-wrapper{display:none !important} ._has-modal{overflow: unset !important}" },
   "cmteb.ro": { s: "#InfoPD{display:none !important} .modal-open{overflow: unset !important} .modal-backdrop{position: unset !important}" },
+  "ludonauta.es": { c: "77" },
 };
 
 const blockUrls = {
