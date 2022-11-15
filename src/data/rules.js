@@ -9553,7 +9553,7 @@ const rules = {
   "devmedia.com.br": { s: ".termos-politica{display:none !important}" },
   "verce.me": { j: "6" },
   "cheapenergy24.de": { j: "5" },
-  "ujam.com": { s: ".ujam-cookie-consent{display:none !important}" },
+  "ujam.com": { s: "#ujam-tracking-cookiebanner,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
   "yoko.de": { j: "5" },
   "ricochet.com": { s: "#ricochet-cookie-bar{display:none !important}" },
   "wwz.ch": { j: "5" },
