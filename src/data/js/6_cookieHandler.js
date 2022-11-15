@@ -529,6 +529,10 @@ function getE(hostname) {
         "CF_GDPR_COOKIE_CONSENT_SOCIAL=0",
         "CF_GDPR_COOKIE_CONSENT_VIEWED=1",
       ];
+    case "check24.de":
+      return [
+          "c24consent=f"
+      ]
   }
 
   const parts = hostname.split(".");

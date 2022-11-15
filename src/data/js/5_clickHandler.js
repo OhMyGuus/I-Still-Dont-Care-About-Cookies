@@ -1951,10 +1951,6 @@ function getSelector(host) {
     case "barzahlen.de":
       return ".cookie-notice-visible #cn-refuse-cookie";
 
-    case "check24.de":
-    case "efeedback.de":
-      return '.c24-cc-visible a[onclick*="giveMarketingConsent"], .c24m-cc-visible a[onclick*="getConfiguredConsent"], .c24m-cc-visible a[onclick*="giveMarketingConsent"]';
-
     case "reifen.check24.de":
       return _chain(".c24-cookie-config", ".c24-cookie-config");
 
