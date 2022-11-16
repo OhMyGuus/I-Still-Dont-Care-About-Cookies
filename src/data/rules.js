@@ -15560,6 +15560,7 @@ const rules = {
   "ludonauta.es": { c: "77" },
   "oponeo.co.uk": { s: "body > form + div{display:none !important} .noScroll{overflow: unset !important}" },
   "herbata.info": { s: "#elementor-popup-modal-3197{display:none !important}" },
+  "xxxlesnina.si": { s: "footer + div{display:none !important}" },
 };
 
 const blockUrls = {
