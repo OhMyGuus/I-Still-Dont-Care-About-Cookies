@@ -13983,7 +13983,8 @@ body > allow-cookies,
 #cookiesAlertWidget,
 .consent-manager-overlay,
 .consent-manager-overlay ~ .consent-manager,
-#ct-ultimate-gdpr-cookie-open-shaddow
+#ct-ultimate-gdpr-cookie-open-shaddow,
+.fs-cc-component
 
 /* 14113 */ {
   display: none !important;

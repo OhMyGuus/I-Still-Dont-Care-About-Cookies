@@ -13029,7 +13029,6 @@ const rules = {
   "jeftinastruja.hr": { c: "20" },
   "wallhere.com": { s: ".policy-info{display:none !important}" },
   "inselfaehre.de": { j: "5" },
-  "bunq.com": { s: ".fs-cc-components{display:none !important}" },
   "gemini.pl": { j: "5" },
   "ecosys.net": { j: "5" },
   "trade.bisonapp.com": {
