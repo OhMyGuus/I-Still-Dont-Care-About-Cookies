@@ -541,7 +541,9 @@ function getE(hostname) {
       return ["accept=true"]
     case "g2a.com":
     case "g2a.co":
-    return ["gdpr_cookie=%5B%5D"]
+     return ["gdpr_cookie=%5B%5D"]
+    case "elearningindustry.com":
+     return["cookie_preferences=0-0-0-0"]
   }
 
   const parts = hostname.split(".");

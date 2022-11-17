@@ -15576,7 +15576,8 @@ const rules = {
   "brightfm.com": { s: ".zn-cookies{display:none !important}"},
   "gibson.com": { s: "#cookieModal{display:none !important}"},
   "mypikpak.com": { s: ".cookie-tip{display:none !important}"},
-  "confcommercio.it": { s: ".cookieInterceptorWrapper{display:none !important}"}
+  "confcommercio.it": { s: ".cookieInterceptorWrapper{display:none !important}"},
+  "elearningindustry.com": { j: "6" },
 };
 
 const blockUrls = {
