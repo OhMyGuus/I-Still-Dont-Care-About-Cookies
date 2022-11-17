@@ -15562,6 +15562,7 @@ const rules = {
   "herbata.info": { s: "#elementor-popup-modal-3197{display:none !important}" },
   "gouv.qc.ca": { s: ".notifier--consent{display:none !important}" },
   "grandprixradio.nl": { s: ".cookies-popup-dialog,.cookies-popup-background{display:none !important}" },
+  "selexium.com": { s: "#coolkiesModale,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
 };
 
 const blockUrls = {
