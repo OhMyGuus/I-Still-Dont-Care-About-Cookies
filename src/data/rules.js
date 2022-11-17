@@ -15572,7 +15572,8 @@ const rules = {
   "shop.canariassmart.com": {s: ".ec-notices{display:none !important}"},
   "cupper-teas.de": { s: "body._has-modal{overflow:unset !important;}" },
   "business.whatsapp.com": { s: 'div[data-testid="wa_cookies_banner_modal"]{display:none !important} body.hasCookieBanner,._ab-4{overflow-y:unset !important;}' },
-  "envivas.de": { j: "6" }
+  "envivas.de": { j: "6" },
+  "imax.cn": { s: ".ly_cookie{display:none !important}"},
 };
 
 const blockUrls = {
