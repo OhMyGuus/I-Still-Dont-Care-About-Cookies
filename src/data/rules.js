@@ -15563,6 +15563,7 @@ const rules = {
   "gouv.qc.ca": { s: ".notifier--consent{display:none !important}" },
   "grandprixradio.nl": { s: ".cookies-popup-dialog,.cookies-popup-background{display:none !important}" },
   "selexium.com": { s: "#coolkiesModale,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
+  "xxxlesnina.si": { s: "footer + div{display:none !important}" },
 };
 
 const blockUrls = {
