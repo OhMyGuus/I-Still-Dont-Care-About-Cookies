@@ -98,7 +98,7 @@ const commons = {
   95: "#SITE_ROOT ~ .siteAspectsContainer{display:none !important}",
   97: "#gpdr,#GPDR,#gdpr,#GDPR{display:none !important}",
   98: "#info_message{display:none !important}",
-  99: "html,body{overflow-y: unset !important; overflow: unset !important;}",
+  99: "html,body{overflow-y: unset !important; overflow: unset !important; position:unset!important}",
 };
 
 const rules = {
@@ -15576,6 +15576,7 @@ const rules = {
   "imax.cn": { s: ".ly_cookie{display:none !important}"},
   "le106.com": {s: '.lwt-popup{display:none !important} body[data-lwt-popup] #wrapper{filter: unset!important}'},
   "climshop.com": { c: "3" },
+  "diners.hr": { c: "99" }
 };
 
 const blockUrls = {
