@@ -15561,6 +15561,7 @@ const rules = {
   "oponeo.co.uk": { s: "body > form + div{display:none !important} .noScroll{overflow: unset !important}" },
   "herbata.info": { s: "#elementor-popup-modal-3197{display:none !important}" },
   "gouv.qc.ca": { s: ".notifier--consent{display:none !important}" },
+  "grandprixradio.nl": { s: ".cookies-popup-dialog,.cookies-popup-background{display:none !important}" },
 };
 
 const blockUrls = {
