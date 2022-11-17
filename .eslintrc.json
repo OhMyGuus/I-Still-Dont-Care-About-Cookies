@@ -15,6 +15,6 @@
     "no-tabs": 0,
     "require-jsdoc": 0,
     "no-multi-str": 0,
-    "guard-for-in":0
+    "guard-for-in": 0
   }
 }

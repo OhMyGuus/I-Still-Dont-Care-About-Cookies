@@ -293,7 +293,9 @@ function getE(hostname) {
     case "devias.io":
       return ["devias_consent=c1:1|c2:1", "consent=true"];
     case "neuefische.de":
-      return ["USE_COOKIE_CONSENT_STATE={%22necessary%22:true%2C%22marketing%22:false}"];
+      return [
+        "USE_COOKIE_CONSENT_STATE={%22necessary%22:true%2C%22marketing%22:false}",
+      ];
     case "waldlandwelt.de":
       return ["c=j"];
     case "pluto.tv":
@@ -530,20 +532,16 @@ function getE(hostname) {
         "CF_GDPR_COOKIE_CONSENT_VIEWED=1",
       ];
     case "check24.de":
-      return [
-          "c24consent=f"
-      ]
-      case "envivas.de":
-        return [
-          "OptanonAlertBoxClosed=1"
-        ]
+      return ["c24consent=f"];
+    case "envivas.de":
+      return ["OptanonAlertBoxClosed=1"];
     case "kriminalita.policie.cz":
-      return ["accept=true"]
+      return ["accept=true"];
     case "g2a.com":
     case "g2a.co":
-     return ["gdpr_cookie=%5B%5D"]
+      return ["gdpr_cookie=%5B%5D"];
     case "elearningindustry.com":
-     return["cookie_preferences=0-0-0-0"]
+      return ["cookie_preferences=0-0-0-0"];
   }
 
   const parts = hostname.split(".");
