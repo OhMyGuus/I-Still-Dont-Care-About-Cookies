@@ -529,6 +529,21 @@ function getE(hostname) {
         "CF_GDPR_COOKIE_CONSENT_SOCIAL=0",
         "CF_GDPR_COOKIE_CONSENT_VIEWED=1",
       ];
+    case "check24.de":
+      return [
+          "c24consent=f"
+      ]
+      case "envivas.de":
+        return [
+          "OptanonAlertBoxClosed=1"
+        ]
+    case "kriminalita.policie.cz":
+      return ["accept=true"]
+    case "g2a.com":
+    case "g2a.co":
+     return ["gdpr_cookie=%5B%5D"]
+    case "elearningindustry.com":
+     return["cookie_preferences=0-0-0-0"]
   }
 
   const parts = hostname.split(".");

@@ -98,7 +98,7 @@ const commons = {
   95: "#SITE_ROOT ~ .siteAspectsContainer{display:none !important}",
   97: "#gpdr,#GPDR,#gdpr,#GDPR{display:none !important}",
   98: "#info_message{display:none !important}",
-  99: "html,body{overflow-y: unset !important; overflow: unset !important;}",
+  99: "html,body{overflow-y: unset !important; overflow: unset !important; position:unset!important}",
 };
 
 const rules = {
@@ -10002,7 +10002,7 @@ const rules = {
   "jeugdbrandweer.nl": { j: "5" },
   "solvo.nl": { j: "5" },
   "vivat.de": { s: ".cs-cookie__wrapper{display:none !important}" },
-  "zoo-leipzig.de": { s: ".cs-cookie__wrapper{display:none !important}" },
+  "zoo-leipzig.de": { s: ".cs-cookie__wrapper{display:none !important} [inert]{pointer-events: unset !important}" },
   "gamesfull.org": { c: "34" },
   "adtpostales.com": { s: ".loadingCookies{display:none !important}" },
   "veygo.com": { j: "5" },
@@ -11527,7 +11527,7 @@ const rules = {
   "flipsnack.com": { c: "77" },
   "tiempo.com": { j: "5" },
   "pflanze2000.de": { j: "5" },
-  "check24.de": { j: "5" },
+  "check24.de": { j: "6" },
   "chargify.com": { c: "53" },
   "airwallex.com": { s: "main > footer ~ div{display:none !important}" },
   "vivobarefoot.de": { s: "#cookieNote{display:none !important}" },
@@ -13029,7 +13029,6 @@ const rules = {
   "jeftinastruja.hr": { c: "20" },
   "wallhere.com": { s: ".policy-info{display:none !important}" },
   "inselfaehre.de": { j: "5" },
-  "bunq.com": { s: ".fs-cc-components{display:none !important}" },
   "gemini.pl": { j: "5" },
   "ecosys.net": { j: "5" },
   "trade.bisonapp.com": {
@@ -14188,12 +14187,8 @@ const rules = {
   "volkssolidaritaet.de": { j: "5" },
   "allani.pl": { s: ".off-canvas-wrap ~ div{display:none !important}" },
   "vanharen.nl": { j: "5" },
-  "g2a.com": {
-    s: ".modal--agreements__curtain,.agreements-container{display:none !important}",
-  },
-  "g2a.co": {
-    s: ".modal--agreements__curtain,.agreements-container{display:none !important}",
-  },
+  "g2a.com": { j: "6" },
+  "g2a.co": { j: "6" },
   "abc-mallorca.com": { s: ".abc-cookies-wrapper{display:none !important}" },
   "porsche.pl": { s: "#cookies-modal{display:none !important}" },
   "porsche.com": { s: ".pocs-legal-disclaimer{display:none !important}" },
@@ -14203,7 +14198,6 @@ const rules = {
   "tooltester.com": { s: "#tt-cookie-notice{display:none !important}" },
   "cruisemapper.com": { s: ".sitePrivacyPolicy{display:none !important}" },
   "studentenwerkfrankfurt.de": { j: "5" },
-  "efeedback.de": { j: "5" },
   "d-luft.de": { s: ".banner-consent-all{display:none !important}" },
   "tvsmotor.com": { s: ".cookie_bot{display:none !important}" },
   "love.ru": { s: "#gdpr_popup{display:none !important}" },
@@ -15569,6 +15563,22 @@ const rules = {
   "bs-energy.de": { s: ".modal,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
   "astroportal.com": { s: "#plusgate{display:none !important} body{overflow: unset !important}" },
   "glinche-automobiles.com": { s: "#user-consent{display:none !important}" },
+  "turkishbank.co.uk": {s: ".ulp-overlay,.ulp-window{display:none !important}"},
+  "shop.canariassmart.com": {s: ".ec-notices{display:none !important}"},
+  "cupper-teas.de": { s: "body._has-modal{overflow:unset !important;}" },
+  "business.whatsapp.com": { s: 'div[data-testid="wa_cookies_banner_modal"]{display:none !important} body.hasCookieBanner,._ab-4{overflow-y:unset !important;}' },
+  "envivas.de": { j: "6" },
+  "imax.cn": { s: ".ly_cookie{display:none !important}"},
+  "le106.com": {s: '.lwt-popup{display:none !important} body[data-lwt-popup] #wrapper{filter: unset!important}'},
+  "climshop.com": { c: "3" },
+  "diners.hr": { c: "99" },
+  "kriminalita.policie.cz": { j: "6" },
+  "brightfm.com": { s: ".zn-cookies{display:none !important}"},
+  "gibson.com": { s: "#cookieModal{display:none !important}"},
+  "mypikpak.com": { s: ".cookie-tip{display:none !important}"},
+  "confcommercio.it": { s: ".cookieInterceptorWrapper{display:none !important}"},
+  "elearningindustry.com": { j: "6" },
+  "supraphonline.cz": { s: 'div[style*="position: fixed; bottom: 0;"]{display:none !important}'},
 };
 
 const blockUrls = {
@@ -16912,6 +16922,7 @@ const blockUrls = {
           "eckeroline.fi",
           "eilles.de",
           "xt500parts.com",
+          "cupper-teas.de"
         ],
       },
       { q: false, r: "/ts/components/CookieConsent.", e: false },
@@ -17722,6 +17733,7 @@ const blockUrls = {
     "meinaccount.gmx.net": ["/ppp/js/permission-client"],
     "hilfe.gmx.net": ["/ppp/js/permission-client"],
     "mein.web.de": ["/ppp/js/permission-client"],
+    "lineadirecta.com": ["tags.tiqcdn.com/utag"],
   },
 };
 
