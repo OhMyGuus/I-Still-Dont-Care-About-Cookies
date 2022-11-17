@@ -15570,6 +15570,7 @@ const rules = {
   "glinche-automobiles.com": { s: "#user-consent{display:none !important}" },
   "turkishbank.co.uk": {s: ".ulp-overlay,.ulp-window{display:none !important}"},
   "shop.canariassmart.com": {s: ".ec-notices{display:none !important}"},
+  "cupper-teas.de": { s: "body._has-modal{overflow:unset !important;}" }
 };
 
 const blockUrls = {
@@ -16913,6 +16914,7 @@ const blockUrls = {
           "eckeroline.fi",
           "eilles.de",
           "xt500parts.com",
+          "cupper-teas.de"
         ],
       },
       { q: false, r: "/ts/components/CookieConsent.", e: false },
