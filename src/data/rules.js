@@ -15568,6 +15568,7 @@ const rules = {
   "bs-energy.de": { s: ".modal,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
   "astroportal.com": { s: "#plusgate{display:none !important} body{overflow: unset !important}" },
   "glinche-automobiles.com": { s: "#user-consent{display:none !important}" },
+  "turkishbank.co.uk": {s: ".ulp-overlay,.ulp-window{display:none !important}"},
 };
 
 const blockUrls = {
