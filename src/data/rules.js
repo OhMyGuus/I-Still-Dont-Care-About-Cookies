@@ -2060,7 +2060,7 @@ const rules = {
   "flyingtiger.com": { s: ".save-cookies{display:none !important}" },
   "upolujebooka.pl": { c: "92" },
   "ingdirect.fr": { s: "#cookieManagement{display:none !important}" },
-  "racked.com": { c: "93" },
+  "racked.com": { s: "#privacy-options{display:none !important}" },
   "drmartens.com": { s: ".dm-cookie-container{display:none !important}" },
   "meubella.nl": { s: ".cnotice{display:none !important}" },
   "plan.de": { s: ".psg-cookie{display:none !important}" },
