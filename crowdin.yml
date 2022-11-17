@@ -4,16 +4,15 @@
 
 "preserve_hierarchy": true
 
-"files": [
-  {
-    "source": "src/_locales/en/messages.json",
-    "translation": "src/_locales/%two_letters_code%/messages.json",
-    "languages_mapping": {
-      "two_letters_code": {
-        "zh-CN": "zh_CN",
-        "nn-NO": "nn",
-        "sv-SE": "sv"
-      }
-    }
-  }
-]
+"files":
+  [
+    {
+      "source": "src/_locales/en/messages.json",
+      "translation": "src/_locales/%two_letters_code%/messages.json",
+      "languages_mapping":
+        {
+          "two_letters_code":
+            { "zh-CN": "zh_CN", "nn-NO": "nn", "sv-SE": "sv" },
+        },
+    },
+  ]

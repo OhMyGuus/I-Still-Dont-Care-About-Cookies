@@ -6,9 +6,9 @@ name: Crowdin Action
 # Controls when the action will run.
 on:
   schedule:
-  - cron: '0 */6 * * *' # Every 6 hours - https://crontab.guru/#0_*/6_*_*_*
+    - cron: "0 */6 * * *" # Every 6 hours - https://crontab.guru/#0_*/6_*_*_*
   push:
-    branches: [ master, feat/setup-crowdin ]
+    branches: [master, feat/setup-crowdin]
 
 jobs:
   synchronize-with-crowdin:
@@ -35,9 +35,9 @@ jobs:
 
           # Create pull request after pushing to branch
           create_pull_request: true
-          pull_request_title: 'New Crowdin translations'
-          pull_request_body: 'New Crowdin pull request with translations'
-          pull_request_base_branch_name: 'master'
+          pull_request_title: "New Crowdin translations"
+          pull_request_body: "New Crowdin pull request with translations"
+          pull_request_base_branch_name: "master"
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
