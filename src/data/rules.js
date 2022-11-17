@@ -15560,6 +15560,13 @@ const rules = {
   "ludonauta.es": { c: "77" },
   "oponeo.co.uk": { s: "body > form + div{display:none !important} .noScroll{overflow: unset !important}" },
   "herbata.info": { s: "#elementor-popup-modal-3197{display:none !important}" },
+  "gouv.qc.ca": { s: ".notifier--consent{display:none !important}" },
+  "grandprixradio.nl": { s: ".cookies-popup-dialog,.cookies-popup-background{display:none !important}" },
+  "selexium.com": { s: "#coolkiesModale,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
+  "xxxlesnina.si": { s: "footer + div{display:none !important}" },
+  "xsolla.com": { s: "#gdpr-consent-form{display:none !important}" },
+  "mattel163.com": { s: ".use-cookie{display:none !important}" },
+  "bs-energy.de": { s: ".modal,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
   "astroportal.com": { s: "#plusgate{display:none !important} body{overflow: unset !important}" },
 };
 
