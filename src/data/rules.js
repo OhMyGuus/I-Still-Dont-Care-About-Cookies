@@ -15570,7 +15570,8 @@ const rules = {
   "glinche-automobiles.com": { s: "#user-consent{display:none !important}" },
   "turkishbank.co.uk": {s: ".ulp-overlay,.ulp-window{display:none !important}"},
   "shop.canariassmart.com": {s: ".ec-notices{display:none !important}"},
-  "cupper-teas.de": { s: "body._has-modal{overflow:unset !important;}" }
+  "cupper-teas.de": { s: "body._has-modal{overflow:unset !important;}" },
+  "business.whatsapp.com": { s: 'div[data-testid="wa_cookies_banner_modal"]{display:none !important} body.hasCookieBanner,._ab-4{overflow-y:unset !important;}' }
 };
 
 const blockUrls = {
