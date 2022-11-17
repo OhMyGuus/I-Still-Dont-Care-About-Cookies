@@ -15565,6 +15565,7 @@ const rules = {
   "selexium.com": { s: "#coolkiesModale,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
   "xxxlesnina.si": { s: "footer + div{display:none !important}" },
   "xsolla.com": { s: "#gdpr-consent-form{display:none !important}" },
+  "mattel163.com": { s: ".use-cookie{display:none !important}" },
 };
 
 const blockUrls = {
