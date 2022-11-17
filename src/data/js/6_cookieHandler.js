@@ -537,6 +537,8 @@ function getE(hostname) {
         return [
           "OptanonAlertBoxClosed=1"
         ]
+    case "kriminalita.policie.cz":
+      return ["accept=true"]
   }
 
   const parts = hostname.split(".");
