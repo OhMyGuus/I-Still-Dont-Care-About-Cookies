@@ -15578,6 +15578,7 @@ const rules = {
   "mypikpak.com": { s: ".cookie-tip{display:none !important}"},
   "confcommercio.it": { s: ".cookieInterceptorWrapper{display:none !important}"},
   "elearningindustry.com": { j: "6" },
+  "supraphonline.cz": { s: 'div[style*="position: fixed; bottom: 0;"]{display:none !important}'},
 };
 
 const blockUrls = {
