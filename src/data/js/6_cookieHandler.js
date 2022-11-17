@@ -533,6 +533,10 @@ function getE(hostname) {
       return [
           "c24consent=f"
       ]
+      case "envivas.de":
+        return [
+          "OptanonAlertBoxClosed=1"
+        ]
   }
 
   const parts = hostname.split(".");
