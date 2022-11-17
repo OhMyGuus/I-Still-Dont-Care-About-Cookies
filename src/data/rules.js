@@ -15569,6 +15569,7 @@ const rules = {
   "astroportal.com": { s: "#plusgate{display:none !important} body{overflow: unset !important}" },
   "glinche-automobiles.com": { s: "#user-consent{display:none !important}" },
   "turkishbank.co.uk": {s: ".ulp-overlay,.ulp-window{display:none !important}"},
+  "shop.canariassmart.com": {s: ".ec-notices{display:none !important}"},
 };
 
 const blockUrls = {
