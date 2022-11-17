@@ -15566,6 +15566,7 @@ const rules = {
   "xxxlesnina.si": { s: "footer + div{display:none !important}" },
   "xsolla.com": { s: "#gdpr-consent-form{display:none !important}" },
   "mattel163.com": { s: ".use-cookie{display:none !important}" },
+  "bs-energy.de": { s: ".modal,.modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
 };
 
 const blockUrls = {
