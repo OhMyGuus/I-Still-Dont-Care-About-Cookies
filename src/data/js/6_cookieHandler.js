@@ -539,6 +539,9 @@ function getE(hostname) {
         ]
     case "kriminalita.policie.cz":
       return ["accept=true"]
+    case "g2a.com":
+    case "g2a.co":
+    return ["gdpr_cookie=%5B%5D"]
   }
 
   const parts = hostname.split(".");

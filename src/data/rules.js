@@ -14187,12 +14187,8 @@ const rules = {
   "volkssolidaritaet.de": { j: "5" },
   "allani.pl": { s: ".off-canvas-wrap ~ div{display:none !important}" },
   "vanharen.nl": { j: "5" },
-  "g2a.com": {
-    s: ".modal--agreements__curtain,.agreements-container{display:none !important}",
-  },
-  "g2a.co": {
-    s: ".modal--agreements__curtain,.agreements-container{display:none !important}",
-  },
+  "g2a.com": { j: "6" },
+  "g2a.co": { j: "6" },
   "abc-mallorca.com": { s: ".abc-cookies-wrapper{display:none !important}" },
   "porsche.pl": { s: "#cookies-modal{display:none !important}" },
   "porsche.com": { s: ".pocs-legal-disclaimer{display:none !important}" },
