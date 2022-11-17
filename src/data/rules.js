@@ -15574,6 +15574,7 @@ const rules = {
   "business.whatsapp.com": { s: 'div[data-testid="wa_cookies_banner_modal"]{display:none !important} body.hasCookieBanner,._ab-4{overflow-y:unset !important;}' },
   "envivas.de": { j: "6" },
   "imax.cn": { s: ".ly_cookie{display:none !important}"},
+  "le106.com": {s: '.lwt-popup{display:none !important} body[data-lwt-popup] #wrapper{filter: unset!important}'},
 };
 
 const blockUrls = {
