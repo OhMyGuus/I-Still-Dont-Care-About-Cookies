@@ -10002,7 +10002,7 @@ const rules = {
   "jeugdbrandweer.nl": { j: "5" },
   "solvo.nl": { j: "5" },
   "vivat.de": { s: ".cs-cookie__wrapper{display:none !important}" },
-  "zoo-leipzig.de": { s: ".cs-cookie__wrapper{display:none !important}" },
+  "zoo-leipzig.de": { s: ".cs-cookie__wrapper{display:none !important} [inert]{pointer-events: unset !important}" },
   "gamesfull.org": { c: "34" },
   "adtpostales.com": { s: ".loadingCookies{display:none !important}" },
   "veygo.com": { j: "5" },
