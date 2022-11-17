@@ -17721,6 +17721,7 @@ const blockUrls = {
     "meinaccount.gmx.net": ["/ppp/js/permission-client"],
     "hilfe.gmx.net": ["/ppp/js/permission-client"],
     "mein.web.de": ["/ppp/js/permission-client"],
+    "lineadirecta.com": ["tags.tiqcdn.com/utag"],
   },
 };
 
