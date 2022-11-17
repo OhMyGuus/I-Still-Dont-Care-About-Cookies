@@ -15579,7 +15579,8 @@ const rules = {
   "diners.hr": { c: "99" },
   "kriminalita.policie.cz": { j: "6" },
   "brightfm.com": { s: ".zn-cookies{display:none !important}"},
-  "gibson.com": { s: "#cookieModal{display:none !important}"}
+  "gibson.com": { s: "#cookieModal{display:none !important}"},
+  "mypikpak.com": { s: ".cookie-tip{display:none !important}"}
 };
 
 const blockUrls = {
