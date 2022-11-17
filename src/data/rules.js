@@ -15577,7 +15577,8 @@ const rules = {
   "le106.com": {s: '.lwt-popup{display:none !important} body[data-lwt-popup] #wrapper{filter: unset!important}'},
   "climshop.com": { c: "3" },
   "diners.hr": { c: "99" },
-  "kriminalita.policie.cz": { j: "6" }
+  "kriminalita.policie.cz": { j: "6" },
+  "brightfm.com": { s: ".zn-cookies{display:none !important}"}
 };
 
 const blockUrls = {
