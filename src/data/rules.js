@@ -15618,6 +15618,8 @@ const rules = {
     s: 'div[style*="position: fixed; bottom: 0;"]{display:none !important}',
   },
   "encazip.com": { s: ".eHzdtJ{display:none !important}" },
+  "thomas-elliott.co.uk": { c: "34" },
+  "landrover.co.jp": { s: ".notificationBarsWrapper{display:none !important}" },
 };
 
 const blockUrls = {
