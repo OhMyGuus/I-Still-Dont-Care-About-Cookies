@@ -15617,6 +15617,7 @@ const rules = {
   "supraphonline.cz": {
     s: 'div[style*="position: fixed; bottom: 0;"]{display:none !important}',
   },
+  "thomas-elliott.co.uk": { c: "34" },
 };
 
 const blockUrls = {
