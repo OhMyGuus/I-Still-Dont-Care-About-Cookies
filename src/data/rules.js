@@ -15617,6 +15617,7 @@ const rules = {
   "supraphonline.cz": {
     s: 'div[style*="position: fixed; bottom: 0;"]{display:none !important}',
   },
+  "pacificpower.net": { s: "wcss-cookie-banner{display:none !important}" },
   "encazip.com": { s: ".eHzdtJ{display:none !important}" },
   "thomas-elliott.co.uk": { c: "34" },
   "landrover.co.jp": { s: ".notificationBarsWrapper{display:none !important}" },
