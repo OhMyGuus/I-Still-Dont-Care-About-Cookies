@@ -15622,6 +15622,7 @@ const rules = {
   "encazip.com": { s: ".eHzdtJ{display:none !important}" },
   "thomas-elliott.co.uk": { c: "34" },
   "landrover.co.jp": { s: ".notificationBarsWrapper{display:none !important}" },
+  "lupine.de": { c: "41" },
 };
 
 const blockUrls = {
