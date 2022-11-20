@@ -15623,6 +15623,7 @@ const rules = {
   "thomas-elliott.co.uk": { c: "34" },
   "landrover.co.jp": { s: ".notificationBarsWrapper{display:none !important}" },
   "nikkeimm.co.jp": { s: ".c-cookiePolicy{display:none !important}" },
+  "nikkei-r.co.jp": { s: ".c-cookiePolicy{display:none !important}" },
 };
 
 const blockUrls = {
