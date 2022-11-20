@@ -15622,6 +15622,7 @@ const rules = {
   "encazip.com": { s: ".eHzdtJ{display:none !important}" },
   "thomas-elliott.co.uk": { c: "34" },
   "landrover.co.jp": { s: ".notificationBarsWrapper{display:none !important}" },
+  "smtb.jp": { s: ".unq-cookie{display:none !important}" },
 };
 
 const blockUrls = {
