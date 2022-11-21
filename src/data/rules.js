@@ -17814,6 +17814,7 @@ const blockUrls = {
     "mein.web.de": ["/ppp/js/permission-client"],
     "lineadirecta.com": ["tags.tiqcdn.com/utag"],
     "ujam.com": ["/ujam-tracking.js"],
+    "formel1.de": ["chunk-cmp-onetrust"],
   },
 };
 
