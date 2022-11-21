@@ -15655,6 +15655,9 @@ const rules = {
     s: 'div[style^="width: 100vw; position: fixed; bottom: 0px"]{display:none !important}',
   },
   "latoquedor.com": { j: "6" },
+  "performancefoodservice.com": {
+    s: ".tracking-consent-banner{display:none !important}",
+  },
 };
 
 const blockUrls = {
