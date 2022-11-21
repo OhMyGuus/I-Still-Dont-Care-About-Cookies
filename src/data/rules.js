@@ -15654,6 +15654,7 @@ const rules = {
   "astrid.tech": {
     s: 'div[style^="width: 100vw; position: fixed; bottom: 0px"]{display:none !important}',
   },
+  "latoquedor.com": { j: "6" },
 };
 
 const blockUrls = {
