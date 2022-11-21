@@ -15660,6 +15660,7 @@ const rules = {
   },
   "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
   "icanw.org": { s: "#disclaimer{display:none !important}" },
+  "airteam.eu": { s: ".modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
 };
 
 const blockUrls = {
