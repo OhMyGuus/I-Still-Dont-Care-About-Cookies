@@ -15623,6 +15623,9 @@ const rules = {
   "thomas-elliott.co.uk": { c: "34" },
   "landrover.co.jp": { s: ".notificationBarsWrapper{display:none !important}" },
   "yamagatabank.co.jp": { c: "97" },
+  "riksbyggen.se": { s: ".cookie-consent-modal{display:none !important}" },
+  "museum-brandhorst.de": { s: ".modal{display:none !important}" },
+  "doratoon.com": { s: ".cookie-box{display:none !important}" },
 };
 
 const blockUrls = {
