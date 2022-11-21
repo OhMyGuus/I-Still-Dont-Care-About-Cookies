@@ -15658,6 +15658,7 @@ const rules = {
   "performancefoodservice.com": {
     s: ".tracking-consent-banner{display:none !important}",
   },
+  "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
 };
 
 const blockUrls = {
