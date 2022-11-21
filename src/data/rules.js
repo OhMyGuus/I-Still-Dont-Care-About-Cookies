@@ -96,7 +96,7 @@ const commons = {
   92: ".navbar-fixed-bottom{display:none !important}",
   93: "#chorus_notifiations{display:none !important}",
   95: "#SITE_ROOT ~ .siteAspectsContainer{display:none !important}",
-  97: "#gpdr,#GPDR,#gdpr,#GDPR{display:none !important}",
+  97: "#gpdr,#GPDR{display:none !important}",
   98: "#info_message{display:none !important}",
   99: "html,body{overflow-y: unset !important; overflow: unset !important; position:unset!important}",
 };
@@ -15624,6 +15624,12 @@ const rules = {
   "landrover.co.jp": { s: ".notificationBarsWrapper{display:none !important}" },
   "nikkeimm.co.jp": { s: ".c-cookiePolicy{display:none !important}" },
   "nikkei-r.co.jp": { s: ".c-cookiePolicy{display:none !important}" },
+  "smtb.jp": { s: ".unq-cookie{display:none !important}" },
+  "tokyostarbank.co.jp": { s: "#floatArea{display:none !important}" },
+  "yamagatabank.co.jp": { c: "97" },
+  "riksbyggen.se": { s: ".cookie-consent-modal{display:none !important}" },
+  "museum-brandhorst.de": { s: ".modal{display:none !important}" },
+  "doratoon.com": { s: ".cookie-box{display:none !important}" },
 };
 
 const blockUrls = {
