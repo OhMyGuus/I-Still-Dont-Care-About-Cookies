@@ -15622,6 +15622,7 @@ const rules = {
   "encazip.com": { s: ".eHzdtJ{display:none !important}" },
   "thomas-elliott.co.uk": { c: "34" },
   "landrover.co.jp": { s: ".notificationBarsWrapper{display:none !important}" },
+  "tokyostarbank.co.jp": { s: "#floatArea{display:none !important}" },
   "yamagatabank.co.jp": { c: "97" },
   "riksbyggen.se": { s: ".cookie-consent-modal{display:none !important}" },
   "museum-brandhorst.de": { s: ".modal{display:none !important}" },
