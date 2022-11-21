@@ -15644,7 +15644,6 @@ const rules = {
   "ujam.com": {
     s: "#ujam-tracking-cookiebanner,modal-backdrop{display:none !important}.modal-open{overflow:",
   },
-  "lupine.de": { c: "41" },
   "enseignement.catholique.be": {
     s: ".cookies-law-info{display:none !important}",
   },
