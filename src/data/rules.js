@@ -15644,6 +15644,7 @@ const rules = {
   "ujam.com": {
     s: "#ujam-tracking-cookiebanner,modal-backdrop{display:none !important}.modal-open{overflow:",
   },
+  "lupine.de": { c: "41" },
 };
 
 const blockUrls = {
