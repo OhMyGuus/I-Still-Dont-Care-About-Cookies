@@ -9364,7 +9364,9 @@ const rules = {
   "ankerbrot.at": { j: "5" },
   "bigmeatlove.de": { s: "#consent{display:none !important}" },
   "idera.com": { s: ".idCookiePolicyBanner{display:none !important}" },
-  "nikkei.com": { s: "k2-privacy-notification,.bpPrivacy{display:none !important}" },
+  "nikkei.com": {
+    s: "k2-privacy-notification,.bpPrivacy{display:none !important}",
+  },
   "nikkeibp.co.jp": { s: ".bpPrivacy{display:none !important}" },
   "dreame-technology.com": { s: ".jsFixedMessage{display:none !important}" },
   "shadowofwar.com": { j: "5" },
@@ -15618,12 +15620,16 @@ const rules = {
   "supraphonline.cz": {
     s: 'div[style*="position: fixed; bottom: 0;"]{display:none !important}',
   },
-  "theweather.net": { s: "#gpdr{display:none !important} body{position: unset !important}" },
+  "theweather.net": {
+    s: "#gpdr{display:none !important} body{position: unset !important}",
+  },
   "pacificpower.net": { s: "wcss-cookie-banner{display:none !important}" },
   "encazip.com": { s: ".eHzdtJ{display:none !important}" },
   "thomas-elliott.co.uk": { c: "34" },
   "landrover.co.jp": { s: ".notificationBarsWrapper{display:none !important}" },
-  "nylander.no": { s: ".v-dialog__content,.v-overlay{display:none !important}" },
+  "nylander.no": {
+    s: ".v-dialog__content,.v-overlay{display:none !important}",
+  },
   "alecu.org": { s: '[data-name="gdpr"]{display:none !important}' },
   "bodenaturkost.de": { s: "body > div{display:none !important}" },
   "radionikkei.jp": { s: ".cookie-consent-wrap{display:none !important}" },
