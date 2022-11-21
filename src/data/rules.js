@@ -15622,6 +15622,8 @@ const rules = {
   "encazip.com": { s: ".eHzdtJ{display:none !important}" },
   "thomas-elliott.co.uk": { c: "34" },
   "landrover.co.jp": { s: ".notificationBarsWrapper{display:none !important}" },
+  "nikkeimm.co.jp": { s: ".c-cookiePolicy{display:none !important}" },
+  "nikkei-r.co.jp": { s: ".c-cookiePolicy{display:none !important}" },
   "smtb.jp": { s: ".unq-cookie{display:none !important}" },
   "tokyostarbank.co.jp": { s: "#floatArea{display:none !important}" },
   "yamagatabank.co.jp": { c: "97" },
