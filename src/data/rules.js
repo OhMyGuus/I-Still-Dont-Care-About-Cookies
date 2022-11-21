@@ -15660,6 +15660,7 @@ const rules = {
   },
   "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
   "icanw.org": { s: "#disclaimer{display:none !important}" },
+  "inlingua-muenchen.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
 };
 
 const blockUrls = {
