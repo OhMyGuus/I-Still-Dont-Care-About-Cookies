@@ -13984,7 +13984,8 @@ body > allow-cookies,
 .consent-manager-overlay,
 .consent-manager-overlay ~ .consent-manager,
 #ct-ultimate-gdpr-cookie-open-shaddow,
-.fs-cc-component
+.fs-cc-component,
+.p-gdpr#cookie_ck
 
 /* 14113 */ {
   display: none !important;

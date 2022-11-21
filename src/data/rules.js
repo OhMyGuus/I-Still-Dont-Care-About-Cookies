@@ -15381,7 +15381,7 @@ const rules = {
   "play.hbomax.com": { j: "5" },
   "jackjones.com": { j: "5" },
   "razer.com": {
-    s: "#tos-razer,.component-sticky-dialog{display:none !important}",
+    s: ".tos-razer-js,#tos-razer,.component-sticky-dialog{display:none !important}",
   },
   "luxuryalleydessous.com": { j: "5" },
   "la-brodeuse.com": { j: "5" },
@@ -15641,6 +15641,24 @@ const rules = {
   "riksbyggen.se": { s: ".cookie-consent-modal{display:none !important}" },
   "museum-brandhorst.de": { s: ".modal{display:none !important}" },
   "doratoon.com": { s: ".cookie-box{display:none !important}" },
+  "ujam.com": {
+    s: "#ujam-tracking-cookiebanner,modal-backdrop{display:none !important}.modal-open{overflow:",
+  },
+  "enseignement.catholique.be": {
+    s: ".cookies-law-info{display:none !important}",
+  },
+  "koempf24.de": {
+    s: 'div[x-data^="cookieConsent"]{display:none !important}',
+  },
+  "astrid.tech": {
+    s: 'div[style^="width: 100vw; position: fixed; bottom: 0px"]{display:none !important}',
+  },
+  "latoquedor.com": { j: "6" },
+  "performancefoodservice.com": {
+    s: ".tracking-consent-banner{display:none !important}",
+  },
+  "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
+  "icanw.org": { s: "#disclaimer{display:none !important}" },
 };
 
 const blockUrls = {
@@ -17796,6 +17814,9 @@ const blockUrls = {
     "hilfe.gmx.net": ["/ppp/js/permission-client"],
     "mein.web.de": ["/ppp/js/permission-client"],
     "lineadirecta.com": ["tags.tiqcdn.com/utag"],
+    "ujam.com": ["/ujam-tracking.js"],
+    "formel1.de": ["chunk-cmp-onetrust"],
+    "ae.com": ["/ugp-api/webcontent/v1/"],
   },
 };
 
