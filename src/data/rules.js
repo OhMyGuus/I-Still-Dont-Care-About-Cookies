@@ -15381,7 +15381,7 @@ const rules = {
   "play.hbomax.com": { j: "5" },
   "jackjones.com": { j: "5" },
   "razer.com": {
-    s: "#tos-razer,.component-sticky-dialog{display:none !important}",
+    s: ".tos-razer-js,#tos-razer,.component-sticky-dialog{display:none !important}",
   },
   "luxuryalleydessous.com": { j: "5" },
   "la-brodeuse.com": { j: "5" },
