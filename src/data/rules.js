@@ -15648,6 +15648,9 @@ const rules = {
   "enseignement.catholique.be": {
     s: ".cookies-law-info{display:none !important}",
   },
+  "koempf24.de": {
+    s: 'div[x-data^="cookieConsent"]{display:none !important}',
+  },
 };
 
 const blockUrls = {
