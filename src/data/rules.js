@@ -15651,6 +15651,9 @@ const rules = {
   "koempf24.de": {
     s: 'div[x-data^="cookieConsent"]{display:none !important}',
   },
+  "astrid.tech": {
+    s: 'div[style^="width: 100vw; position: fixed; bottom: 0px"]{display:none !important}',
+  },
 };
 
 const blockUrls = {
