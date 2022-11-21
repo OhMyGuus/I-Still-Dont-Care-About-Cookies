@@ -15641,6 +15641,9 @@ const rules = {
   "riksbyggen.se": { s: ".cookie-consent-modal{display:none !important}" },
   "museum-brandhorst.de": { s: ".modal{display:none !important}" },
   "doratoon.com": { s: ".cookie-box{display:none !important}" },
+  "ujam.com": {
+    s: "#ujam-tracking-cookiebanner,modal-backdrop{display:none !important}.modal-open{overflow:",
+  },
 };
 
 const blockUrls = {
@@ -17796,6 +17799,7 @@ const blockUrls = {
     "hilfe.gmx.net": ["/ppp/js/permission-client"],
     "mein.web.de": ["/ppp/js/permission-client"],
     "lineadirecta.com": ["tags.tiqcdn.com/utag"],
+    "ujam.com": ["/ujam-tracking.js"],
   },
 };
 
