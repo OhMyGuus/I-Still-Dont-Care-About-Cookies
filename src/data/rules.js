@@ -15658,6 +15658,7 @@ const rules = {
     s: ".tracking-consent-banner{display:none !important}",
   },
   "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
+  "icanw.org": { s: "#disclaimer{display:none !important}" },
 };
 
 const blockUrls = {
