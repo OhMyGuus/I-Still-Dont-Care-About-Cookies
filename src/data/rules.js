@@ -15660,6 +15660,7 @@ const rules = {
   },
   "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
   "icanw.org": { s: "#disclaimer{display:none !important}" },
+  "ridex.eu": { s: ".block-cookies{display:none !important}" },
 };
 
 const blockUrls = {
