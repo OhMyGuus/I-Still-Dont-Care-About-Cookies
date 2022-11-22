@@ -15660,6 +15660,7 @@ const rules = {
   },
   "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
   "icanw.org": { s: "#disclaimer{display:none !important}" },
+  "gotenehus.se": { s: "#duva_cc-banner,#duva_cc-banner-backdrop{display:none !important}" },
 };
 
 const blockUrls = {
