@@ -15660,6 +15660,7 @@ const rules = {
   },
   "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
   "icanw.org": { s: "#disclaimer{display:none !important}" },
+  "esimplus.me": { s: "#App > :first-child{display:none !important}" },
 };
 
 const blockUrls = {
