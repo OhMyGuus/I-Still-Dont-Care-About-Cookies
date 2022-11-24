@@ -15663,6 +15663,7 @@ const rules = {
   },
   "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
   "icanw.org": { s: "#disclaimer{display:none !important}" },
+  "terre-des-seniors.fr": { s: "#valid-cookies{display:none !important}" },
   "oponeo.it": { s: "body > div{display:none !important} .noScroll{overflow: unset !important}" },
   "meteoprog.com": { s: ".overlay{display:none !important}" },
   "ridex.eu": { s: ".block-cookies{display:none !important}" },
