@@ -13678,7 +13678,10 @@ const rules = {
   "laverdad.es": { j: "5" },
   "t3n.de": { j: "5" },
   "holmesplace.at": { s: ".cookie-window{display:none !important}" },
-  "podimo.com": { j: "5" },
+  "podimo.com": {
+    j: "5",
+    s: ".SmallCookieModalUI_container__MTAny{display:none !important}",
+  },
   "sportmaster.ru": { s: ".sm-cookie-agreement{display:none !important}" },
   "sportmaster.dk": { c: "20" },
   "bestjobs.eu": { j: "5" },
