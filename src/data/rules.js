@@ -15683,6 +15683,10 @@ const rules = {
   "middlesexccc.com": {
     s: 'div[aria-describedby="modalContent"],.ui-widget-overlay{display:none !important}',
   },
+  "anundos.com": {
+    s: "#cc--main{display:none !important}",
+    c: "99",
+  },
 };
 
 const blockUrls = {
