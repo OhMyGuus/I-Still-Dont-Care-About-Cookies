@@ -417,7 +417,7 @@ const rules = {
   "danmarklaeser.dk": { c: "43" },
   "aso.fr": { c: "13" },
   "blogs-r.com": { c: "8" },
-  "cio-online.com": { s: "#dialog.bulle_bas{display:none !important}" },
+  "cio-online.com": { s: "#didomi-popup{display:none !important} .didomi-popup-open{overflow: unset !important}" },
   "grandeavenue.fr": { s: ".fixedBanner{display:none !important}" },
   "motomoto.pl": { s: "#itlbox{display:none !important}" },
   "bluearan.co.uk": { s: "#slider{display:none !important}" },
@@ -13298,7 +13298,7 @@ const rules = {
   "bauhaus.no": { j: "5" },
   "bauhaus.cz": { j: "5" },
   "writerduet.com": {
-    s: '#root > div > div[style*="fixed"]{display:none !important}',
+    s: '#root > div > div[style*="fixed"],#cookie-law{display:none !important}',
   },
   "toppy.nl": { j: "5" },
   "armedangels.com": { j: "5" },
@@ -15661,6 +15661,19 @@ const rules = {
   "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
   "icanw.org": { s: "#disclaimer{display:none !important}" },
   "dsw.nl": { s: "mijn-cookie-consent{display:none !important}" },
+  "taste-market.de": { s: ".is-modal,.modal-backdrop{display:none !important} .no-scroll{overflow: unset !important}"},
+  "dayspedia.com": { s: ".modal--cookies{display:none !important}" },
+  "junodownload.com": { s: "#juno-cookie-consent{display:none !important}" },
+  "comparethemarket.com": { s: "#__tealiumGDPRcpPrefs{display:none !important}" },
+  "lamnia.com": { s: ".cookie-background{display:none !important}" },
+  "payhawk.com": { s: ".wookiee-wrapper{display:none !important}" },
+  "apfelpage.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
+  "inlingua-muenchen.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
+  "airteam.eu": { s: ".modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
+  "jeancoutu.com": { s: "#cookie-consent{display:none !important}" },
+  "paulus.com.br": { s: "#loader-overlay,.vtex-modal-layout-0-x-modal{display: none !important} .vtex-modal-layout-0-x-hiddenContainer{overflow: unset !important}" },
+  "gotenehus.se": { s: "#duva_cc-banner,#duva_cc-banner-backdrop{display:none !important}" },
+  "daskannwas.ch": { s: ".cookie-box{display:none !important}" },
 };
 
 const blockUrls = {
