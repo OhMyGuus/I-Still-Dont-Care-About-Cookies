@@ -15663,6 +15663,7 @@ const rules = {
   "paulus.com.br": { s: "#loader-overlay,.vtex-modal-layout-0-x-modal{display: none !important} .vtex-modal-layout-0-x-hiddenContainer{overflow: unset !important}" },
   "gotenehus.se": { s: "#duva_cc-banner,#duva_cc-banner-backdrop{display:none !important}" },
   "daskannwas.ch": { s: ".cookie-box{display:none !important}" },
+  "cibeg.com": { s: ".cookie{display:none !important}" },
 };
 
 const blockUrls = {
