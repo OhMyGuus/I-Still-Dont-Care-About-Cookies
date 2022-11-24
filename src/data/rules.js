@@ -15660,6 +15660,7 @@ const rules = {
   },
   "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
   "icanw.org": { s: "#disclaimer{display:none !important}" },
+  "apfelpage.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
 };
 
 const blockUrls = {
