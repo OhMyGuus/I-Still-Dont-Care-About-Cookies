@@ -15660,6 +15660,7 @@ const rules = {
   },
   "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
   "icanw.org": { s: "#disclaimer{display:none !important}" },
+  "ridex.eu": { s: ".block-cookies{display:none !important}" },
   "dsw.nl": { s: "mijn-cookie-consent{display:none !important}" },
   "taste-market.de": { s: ".is-modal,.modal-backdrop{display:none !important} .no-scroll{overflow: unset !important}"},
   "dayspedia.com": { s: ".modal--cookies{display:none !important}" },
