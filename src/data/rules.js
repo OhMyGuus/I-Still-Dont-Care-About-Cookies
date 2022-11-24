@@ -15660,6 +15660,7 @@ const rules = {
   },
   "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
   "icanw.org": { s: "#disclaimer{display:none !important}" },
+  "dayspedia.com": { s: ".modal--cookies{display:none !important}" },
   "junodownload.com": { s: "#juno-cookie-consent{display:none !important}" },
   "comparethemarket.com": { s: "#__tealiumGDPRcpPrefs{display:none !important}" },
   "lamnia.com": { s: ".cookie-background{display:none !important}" },
