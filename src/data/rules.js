@@ -15680,6 +15680,7 @@ const rules = {
     s: "#duva_cc-banner,#duva_cc-banner-backdrop{display:none !important}",
   },
   "daskannwas.ch": { s: ".cookie-box{display:none !important}" },
+  "cosmosdirekt.de": { c: "99" },
 };
 
 const blockUrls = {
