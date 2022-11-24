@@ -13986,7 +13986,8 @@ body > allow-cookies,
 #ct-ultimate-gdpr-cookie-open-shaddow,
 .fs-cc-component,
 .p-gdpr#cookie_ck,
-doc-layout-cookie-policy-banner
+doc-layout-cookie-policy-banner,
+#valid-cookies
 
 /* 14113 */ {
   display: none !important;

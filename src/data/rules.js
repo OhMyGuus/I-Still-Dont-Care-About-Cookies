@@ -15646,7 +15646,6 @@ const rules = {
   "icanw.org": { s: "#disclaimer{display:none !important}" },
   "esimplus.me": { s: "#App > :first-child{display:none !important}" },
   "repubblica.it": { s: "#iubenda-cs-banner{display:none !important}" },
-  "terre-des-seniors.fr": { s: "#valid-cookies{display:none !important}" },
   "oponeo.it": {
     s: "body > div{display:none !important} .noScroll{overflow: unset !important}",
   },
