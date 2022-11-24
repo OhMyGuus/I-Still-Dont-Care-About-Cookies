@@ -13298,7 +13298,7 @@ const rules = {
   "bauhaus.no": { j: "5" },
   "bauhaus.cz": { j: "5" },
   "writerduet.com": {
-    s: '#root > div > div[style*="fixed"]{display:none !important}',
+    s: '#root > div > div[style*="fixed"],#cookie-law{display:none !important}',
   },
   "toppy.nl": { j: "5" },
   "armedangels.com": { j: "5" },
