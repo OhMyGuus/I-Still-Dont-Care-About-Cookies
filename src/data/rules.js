@@ -15681,6 +15681,9 @@ const rules = {
   },
   "daskannwas.ch": { s: ".cookie-box{display:none !important}" },
   "cosmosdirekt.de": { c: "99" },
+  "middlesexccc.com": {
+    s: 'div[aria-describedby="modalContent"],.ui-widget-overlay{display:none !important}',
+  },
 };
 
 const blockUrls = {
