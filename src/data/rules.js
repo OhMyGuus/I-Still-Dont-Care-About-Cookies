@@ -12828,7 +12828,7 @@ const rules = {
   "delicasaitalia-uk.com": { s: ".ec-notices{display:none !important}" },
   "uk.barclays": { s: ".barclays-consent{display:none !important}" },
   "truecaller.com": {
-    s: '#app > .fixed[class*="bottom"]{display:none !important}',
+    s: '#__nuxt > div >.fixed[class*="bottom"]{display:none !important}',
   },
   "rsu.de": { j: "5" },
   "rp-online.de": { j: "5" },
