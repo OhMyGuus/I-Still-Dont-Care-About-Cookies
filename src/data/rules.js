@@ -15660,6 +15660,9 @@ const rules = {
   },
   "imaxchina.com": { s: ".ly_cookie{display:none !important}" },
   "icanw.org": { s: "#disclaimer{display:none !important}" },
+  "apfelpage.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
+  "inlingua-muenchen.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
+  "airteam.eu": { s: ".modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
   "jeancoutu.com": { s: "#cookie-consent{display:none !important}" },
 };
 
