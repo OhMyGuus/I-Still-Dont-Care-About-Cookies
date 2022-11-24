@@ -417,7 +417,7 @@ const rules = {
   "danmarklaeser.dk": { c: "43" },
   "aso.fr": { c: "13" },
   "blogs-r.com": { c: "8" },
-  "cio-online.com": { s: "#dialog.bulle_bas{display:none !important}" },
+  "cio-online.com": { s: "#didomi-popup{display:none !important} .didomi-popup-open{overflow: unset !important}" },
   "grandeavenue.fr": { s: ".fixedBanner{display:none !important}" },
   "motomoto.pl": { s: "#itlbox{display:none !important}" },
   "bluearan.co.uk": { s: "#slider{display:none !important}" },
