@@ -101,6 +101,7 @@ const commons = {
   99: "html,body{overflow-y: unset !important; overflow: unset !important; position:unset!important}",
 };
 
+
 const rules = {
   "google.com": { j: "8" },
   "youtube.com": {
@@ -3799,7 +3800,6 @@ const rules = {
   "varian.com": { s: "#varian-gdpr-consent{display:none !important}" },
   "kempenhaeghe.nl": { s: ".overlay2{display:none !important}" },
   "texmania.sk": { s: "#note-holder{display:none !important}" },
-  "bodypak.pl": { c: "2" },
   "gooienom.nl": { s: "#notification_area{display:none !important}" },
   "onedayonly.nl": {
     s: "#ods_modal_action,#ods_modal_fade{display:none !important}",
@@ -6827,7 +6827,6 @@ const rules = {
   "ciustekno.me": { j: "6" },
   "cocinaabuenashoras.com": { c: "2" },
   "devdocs.io": { j: "5" },
-  "roland-rechtsschutz.de": { s: ".mod-alert{display:none !important}" },
   "abschied-nehmen.info": {
     s: ".tscUiNotificationWrapper{display:none !important}",
   },
@@ -6987,7 +6986,6 @@ const rules = {
   "wuestenrot.at": { j: "5" },
   "bonuszbrigad.hu": { s: "#newASZFLayer{display:none !important}" },
   "voli-diretti.it": { j: "5" },
-  "itau.com.br": { s: "#marcoCivil{display:none !important}" },
   "caser.es": { s: "#gdpr-modal > div{display:none !important}" },
   "alltombostad.se": { s: "#pop_contact{display:none !important}" },
   "pinkvilla.com": { s: 'body > div[class^="ccc"]{display:none !important}' },
@@ -9383,9 +9381,6 @@ const rules = {
   "dresdner-fachanwaelte.de": { j: "5" },
   "phoenix.de": { j: "3" },
   "targeo.pl": { j: "5" },
-  "seekube.com": {
-    s: "#app > div:nth-child(2):not(:last-child){display:none !important}",
-  },
   "celeraone.com": { j: "5" },
   "breitbandmessung.de": { j: "5" },
   "jokers.de": { j: "5" },
@@ -14249,10 +14244,6 @@ const rules = {
   "lynkco.com": { j: "5" },
   "lynkco.com.cn": { s: ".privacyPolicy{display:none !important}" },
   "visiontimes.com": { s: ".cookieNotice--isVisible{display:none !important}" },
-  "scaleway.com": {
-    s: "#gatsby-focus-wrapper > header[aria-label] + div{display:none !important}",
-    j: "5",
-  },
   "boords.com": {
     s: '#__next > .fixed[class*="bottom"]{display:none !important}',
   },
@@ -15061,7 +15052,6 @@ const rules = {
   "dafy-moto.com": { s: ".js-cookie-headband{display:none !important}" },
   "daim-schokolade.de": { s: "allow-cookies{display:none !important}" },
   "picwish.com": { s: "#cookies-win{display:none !important}" },
-  "reolink.com": { s: 'div[class*="cookie-popup"]{display:none !important}' },
   "publishwhatyoufund.org": { c: "3" },
   "rcwilley.com": { s: "#rcDrawer{display:none !important}" },
   "bigfishgames.com": { s: ".ReactModalPortal{display:none !important}" },
@@ -15082,9 +15072,6 @@ const rules = {
   "xvideos.com": { j: "5" },
   "worktop-express.de": { c: "99" },
   "palmangels.com": { j: "3" },
-  "chaincheck.de": {
-    s: "#float-bar{display:none !important}",
-  },
   "innerengineering.com": {
     s: ".MuiSnackbar-anchorOriginBottomCenter{display:none !important}",
   },
@@ -15521,9 +15508,6 @@ const rules = {
   "lufthansa.com": {
     s: "#__tealiumGDPRcpPrefs{display:none !important}",
   },
-  "lufthansa.com": {
-    s: "#__tealiumGDPRcpPrefs{display:none !important}",
-  },
   "eneba.com": {
     s: "#app > footer ~ div, main > div + div + div:last-child{display:none !important}",
   },
@@ -15605,7 +15589,6 @@ const rules = {
   "business.whatsapp.com": {
     s: 'div[data-testid="wa_cookies_banner_modal"]{display:none !important} body.hasCookieBanner,._ab-4{overflow-y:unset !important;}',
   },
-  "envivas.de": { j: "6" },
   "imax.cn": { s: ".ly_cookie{display:none !important}" },
   "le106.com": {
     s: ".lwt-popup{display:none !important} body[data-lwt-popup] #wrapper{filter: unset!important}",
@@ -15645,9 +15628,6 @@ const rules = {
   "riksbyggen.se": { s: ".cookie-consent-modal{display:none !important}" },
   "museum-brandhorst.de": { s: ".modal{display:none !important}" },
   "doratoon.com": { s: ".cookie-box{display:none !important}" },
-  "ujam.com": {
-    s: "#ujam-tracking-cookiebanner,modal-backdrop{display:none !important}.modal-open{overflow:",
-  },
   "enseignement.catholique.be": {
     s: ".cookies-law-info{display:none !important}",
   },
