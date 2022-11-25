@@ -15688,6 +15688,7 @@ const rules = {
     c: "99",
   },
   "tab.digital": { j: "6" },
+  "cibeg.com": { s: ".cookie{display:none !important}" },
 };
 
 const blockUrls = {
