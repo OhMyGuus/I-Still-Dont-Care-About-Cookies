@@ -14156,7 +14156,7 @@ const rules = {
     s: '#duva_cc-banner,#duva_cc-banner-backdrop{display:none !important}'
   },
   'daskannwas.ch': { c: 167 },
-  'cibeg.com': { j: 0 }
+  'cibeg.com': { c: 0 }
 };
 
 const blockUrls = {
