@@ -546,6 +546,8 @@ function getE(hostname) {
       return [
         "lto_consent=%7B%22lto_consent%22%3Atrue%2C%22lto_google%22%3Afalse%2C%22lto_facebook%22%3Afalse%2C%22lto_smartsupp%22%3Afalse%7D",
       ];
+    case "tab.digital":
+      return ["t_cookiesConsentGiven=true", "t_cookiesCategories=[]"];
   }
 
   const parts = hostname.split(".");
