@@ -8030,7 +8030,8 @@
         "travelbook.de",
         "si.com",
         "capital.fr",
-        "t3n.de"
+        "t3n.de",
+        "is.fi"
       ]
     }
   },
@@ -8617,7 +8618,8 @@
         "freenet-funk.de",
         "maennersache.de",
         "heise.de",
-        "t3n.de"
+        "t3n.de",
+        "is.fi"
       ]
     }
   },
@@ -9437,7 +9439,8 @@
         "twinpack.nl",
         "eckeroline.fi",
         "eilles.de",
-        "xt500parts.com"
+        "xt500parts.com",
+        "cupper-teas.de"
       ]
     }
   },
@@ -11440,7 +11443,9 @@
         "t3n.de",
         "gelderlander.nl",
         "gld.nl",
-        "aftonbladet.se"
+        "aftonbladet.se",
+        "sp-prod.net",
+        "is.fi"
       ]
     }
   },
@@ -16896,6 +16901,66 @@
       "urlFilter": "/ppp/js/permission-client",
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
       "initiatorDomains": ["mein.web.de"]
+    }
+  },
+  {
+    "id": 1463,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "tags.tiqcdn.com/utag",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["lineadirecta.com"]
+    }
+  },
+  {
+    "id": 1464,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/ujam-tracking.js",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["ujam.com"]
+    }
+  },
+  {
+    "id": 1465,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "chunk-cmp-onetrust",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["formel1.de"]
+    }
+  },
+  {
+    "id": 1466,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/ugp-api/webcontent/v1/",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["ae.com"]
+    }
+  },
+  {
+    "id": 1467,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/Cookieconsent/",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["jobsireland.ie"]
     }
   }
 ]
