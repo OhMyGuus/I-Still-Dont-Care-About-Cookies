@@ -15687,6 +15687,7 @@ const rules = {
     s: "#cc--main{display:none !important}",
     c: "99",
   },
+  "tab.digital": { j: "6" },
 };
 
 const blockUrls = {
