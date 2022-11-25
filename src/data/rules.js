@@ -17845,6 +17845,7 @@ const blockUrls = {
     "ujam.com": ["/ujam-tracking.js"],
     "formel1.de": ["chunk-cmp-onetrust"],
     "ae.com": ["/ugp-api/webcontent/v1/"],
+    "jobsireland.ie": ["/Cookieconsent/"],
   },
 };
 
