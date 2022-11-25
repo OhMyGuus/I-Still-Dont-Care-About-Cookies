@@ -101,7 +101,6 @@ const commons = {
   99: "html,body{overflow-y: unset !important; overflow: unset !important; position:unset!important}",
 };
 
-
 const rules = {
   "google.com": { j: "8" },
   "youtube.com": {
@@ -418,7 +417,9 @@ const rules = {
   "danmarklaeser.dk": { c: "43" },
   "aso.fr": { c: "13" },
   "blogs-r.com": { c: "8" },
-  "cio-online.com": { s: "#didomi-popup{display:none !important} .didomi-popup-open{overflow: unset !important}" },
+  "cio-online.com": {
+    s: "#didomi-popup{display:none !important} .didomi-popup-open{overflow: unset !important}",
+  },
   "grandeavenue.fr": { s: ".fixedBanner{display:none !important}" },
   "motomoto.pl": { s: "#itlbox{display:none !important}" },
   "bluearan.co.uk": { s: "#slider{display:none !important}" },
@@ -12827,7 +12828,7 @@ const rules = {
   "delicasaitalia-uk.com": { s: ".ec-notices{display:none !important}" },
   "uk.barclays": { s: ".barclays-consent{display:none !important}" },
   "truecaller.com": {
-    s: '#app > .fixed[class*="bottom"]{display:none !important}',
+    s: '#__nuxt > div >.fixed[class*="bottom"]{display:none !important}',
   },
   "rsu.de": { j: "5" },
   "rp-online.de": { j: "5" },
@@ -15645,24 +15646,48 @@ const rules = {
   "icanw.org": { s: "#disclaimer{display:none !important}" },
   "esimplus.me": { s: "#App > :first-child{display:none !important}" },
   "repubblica.it": { s: "#iubenda-cs-banner{display:none !important}" },
-  "terre-des-seniors.fr": { s: "#valid-cookies{display:none !important}" },
-  "oponeo.it": { s: "body > div{display:none !important} .noScroll{overflow: unset !important}" },
+  "oponeo.it": {
+    s: "body > div{display:none !important} .noScroll{overflow: unset !important}",
+  },
   "meteoprog.com": { s: ".overlay{display:none !important}" },
   "ridex.eu": { s: ".block-cookies{display:none !important}" },
   "dsw.nl": { s: "mijn-cookie-consent{display:none !important}" },
-  "taste-market.de": { s: ".is-modal,.modal-backdrop{display:none !important} .no-scroll{overflow: unset !important}"},
+  "taste-market.de": {
+    s: ".is-modal,.modal-backdrop{display:none !important} .no-scroll{overflow: unset !important}",
+  },
   "dayspedia.com": { s: ".modal--cookies{display:none !important}" },
   "junodownload.com": { s: "#juno-cookie-consent{display:none !important}" },
-  "comparethemarket.com": { s: "#__tealiumGDPRcpPrefs{display:none !important}" },
+  "comparethemarket.com": {
+    s: "#__tealiumGDPRcpPrefs{display:none !important}",
+  },
   "lamnia.com": { s: ".cookie-background{display:none !important}" },
   "payhawk.com": { s: ".wookiee-wrapper{display:none !important}" },
-  "apfelpage.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
-  "inlingua-muenchen.de": { s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}" },
-  "airteam.eu": { s: ".modal-backdrop{display:none !important} .modal-open{overflow: unset !important}" },
+  "apfelpage.de": {
+    s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}",
+  },
+  "inlingua-muenchen.de": {
+    s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}",
+  },
+  "airteam.eu": {
+    s: ".modal-backdrop{display:none !important} .modal-open{overflow: unset !important}",
+  },
   "jeancoutu.com": { s: "#cookie-consent{display:none !important}" },
-  "paulus.com.br": { s: "#loader-overlay,.vtex-modal-layout-0-x-modal{display: none !important} .vtex-modal-layout-0-x-hiddenContainer{overflow: unset !important}" },
-  "gotenehus.se": { s: "#duva_cc-banner,#duva_cc-banner-backdrop{display:none !important}" },
+  "paulus.com.br": {
+    s: "#loader-overlay,.vtex-modal-layout-0-x-modal{display: none !important} .vtex-modal-layout-0-x-hiddenContainer{overflow: unset !important}",
+  },
+  "gotenehus.se": {
+    s: "#duva_cc-banner,#duva_cc-banner-backdrop{display:none !important}",
+  },
   "daskannwas.ch": { s: ".cookie-box{display:none !important}" },
+  "cosmosdirekt.de": { c: "99" },
+  "middlesexccc.com": {
+    s: 'div[aria-describedby="modalContent"],.ui-widget-overlay{display:none !important}',
+  },
+  "anundos.com": {
+    s: "#cc--main{display:none !important}",
+    c: "99",
+  },
+  "tab.digital": { j: "6" },
   "cibeg.com": { s: ".cookie{display:none !important}" },
 };
 
@@ -17822,6 +17847,7 @@ const blockUrls = {
     "ujam.com": ["/ujam-tracking.js"],
     "formel1.de": ["chunk-cmp-onetrust"],
     "ae.com": ["/ugp-api/webcontent/v1/"],
+    "jobsireland.ie": ["/Cookieconsent/"],
   },
 };
 
