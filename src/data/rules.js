@@ -24,7 +24,7 @@ const commons = {
   0: "#cookie,.cookie,#cookies,.cookies{display:none !important}",
   1: "body > div:not([id]):not([class]){display:none !important}",
   2: "html.noscroll{overflow:unset !important; padding-right:unset !important;} .cookie{display:none !important}",
-  3: "#gpdr,.gdpr,#gdpr-modal,.gdpr-modal,#GPDR,.GPDR{display:none !important}",
+  3: "#gpdr,.gdpr,#gdpr-modal,.gdpr-modal,#GDPR,.GDPR{display:none !important}",
   4: "#consent,.consent{display:none !important}",
   5: ".elementor-popup-modal{display:none !important}",
   6: "#cookie-consent,.cookie-consent{display:none !important}",
