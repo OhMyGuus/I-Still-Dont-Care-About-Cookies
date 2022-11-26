@@ -15618,6 +15618,15 @@ const rules = {
     s: "#duva_cc-banner,#duva_cc-banner-backdrop{display:none !important}",
   },
   "daskannwas.ch": { c: 167 },
+  "cosmosdirekt.de": { c: 85 },
+  "middlesexccc.com": {
+    s: 'div[aria-describedby="modalContent"],.ui-widget-overlay{display:none !important}',
+  },
+  "anundos.com": {
+    s: "#cc--main{display:none !important}",
+    c: 85,
+  },
+  "tab.digital": { j: "6" },
   "cibeg.com": { c: 0 },
 };
 
@@ -17777,6 +17786,7 @@ const blockUrls = {
     "ujam.com": ["/ujam-tracking.js"],
     "formel1.de": ["chunk-cmp-onetrust"],
     "ae.com": ["/ugp-api/webcontent/v1/"],
+    "jobsireland.ie": ["/Cookieconsent/"],
   },
 };
 
