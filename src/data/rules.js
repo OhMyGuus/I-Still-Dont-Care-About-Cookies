@@ -23,8 +23,8 @@ const commonJSHandlers = {
 const commons = {
   0: "#cookie,.cookie,#cookies,.cookies{display:none !important}",
   1: "body > div:not([id]):not([class]){display:none !important}",
-  2: "html.noscroll{overflow:unset !important; padding-right:unset !important;} .cookie{display:none !important}",
-  3: "#gpdr,.gdpr,#gdpr-modal,.gdpr-modal,#GDPR,.GDPR{display:none !important}",
+  2: "html.noscroll{overflow:unset !important; padding-right:unset !important} .cookie{display:none !important}",
+  3: "#gdpr,.gdpr,#gdpr-modal,.gdpr-modal,#GDPR,.GDPR{display:none !important}",
   4: "#consent,.consent{display:none !important}",
   5: ".elementor-popup-modal{display:none !important}",
   6: "#cookie-consent,.cookie-consent{display:none !important}",
@@ -15022,7 +15022,7 @@ const rules = {
   "kaptainmusic.com": { j: "6" },
   "voebb.onleihe.de": { j: "6" },
   "prosciutteriasandaniele.it": {
-    s: "#page_hider{display:none !important} body{overflow-y: unset !important;}",
+    s: "#page_hider{display:none !important} body{overflow-y: unset !important}",
   },
   "schobuell-wetter.de": { c: 4 },
   "yellow.systems": { j: "3" },
@@ -15042,7 +15042,7 @@ const rules = {
   "pngwebicons.com": { s: "#myModal{display:none!important}" },
   "lokalplus.nrw": { j: "6" },
   "passadena.gr": { c: 6 },
-  "cleantalk.org": { s: "#uses_c{display:none !important;}" },
+  "cleantalk.org": { s: "#uses_c{display:none !important}" },
   "holmasto.fi": { s: "gds-consent-manager{display:none !important}" },
   "dafy-moto.com": { s: ".js-cookie-headband{display:none !important}" },
   "daim-schokolade.de": { s: "allow-cookies{display:none !important}" },
@@ -15526,9 +15526,9 @@ const rules = {
     s: ".ulp-overlay,.ulp-window{display:none !important}",
   },
   "shop.canariassmart.com": { c: 60 },
-  "cupper-teas.de": { s: "body._has-modal{overflow:unset !important;}" },
+  "cupper-teas.de": { s: "body._has-modal{overflow:unset !important}" },
   "business.whatsapp.com": {
-    s: 'div[data-testid="wa_cookies_banner_modal"]{display:none !important} body.hasCookieBanner,._ab-4{overflow-y:unset !important;}',
+    s: 'div[data-testid="wa_cookies_banner_modal"]{display:none !important} body.hasCookieBanner,._ab-4{overflow-y:unset !important}',
   },
   "imax.cn": { s: ".ly_cookie{display:none !important}" },
   "le106.com": {
