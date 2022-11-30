@@ -15631,6 +15631,7 @@ const rules = {
   "jazzkeller69.de": {
     s: "#jkjazzBackground, #jkjazzWidget{display:none !important}",
   },
+  "autoefl.pl": { s: ".modal-legal{display:none !important}" },
 };
 
 const blockUrls = {
