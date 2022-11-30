@@ -16500,6 +16500,7 @@ const blockUrls = {
       { q: false, r: "/cookie-consent-banner/", e: false },
       { q: false, r: "/dxcookieconsent/", e: false },
       { q: false, r: "/wp-content/plugins/real-cookie-banner", e: false },
+      { q: false, r: "/js-cookie@2/src/", e: false },
     ],
     consent: [
       { q: false, r: "tmgonlinemedia.nl/consent/script/consent.js", e: false },
