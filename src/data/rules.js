@@ -12979,7 +12979,7 @@ const rules = {
     s: "#ccModal,.modal-backdrop{display:none !important}",
   },
   "energiauutiset.fi": { s: ".ltcn{display:none !important}" },
-  "uphold.com": { j: "5" },
+  "uphold.com": { j: "3" },
   "internxt.com": {
     s: 'div[class*="cookiesBgFallback"]{display:none !important}',
   },
