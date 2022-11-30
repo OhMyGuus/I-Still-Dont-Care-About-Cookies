@@ -15628,6 +15628,9 @@ const rules = {
   },
   "tab.digital": { j: "6" },
   "cibeg.com": { c: 0 },
+  "jazzkeller69.de": {
+    s: "#jkjazzBackground, #jkjazzWidget{display:none !important}",
+  },
 };
 
 const blockUrls = {
