@@ -4398,7 +4398,7 @@ const rules = {
   "skargards.com": { s: "#cc_dialog{display:none !important}" },
   "casopis-rozmaryna.cz": { s: "#fucktheEU{display:none !important}" },
   "comhem.se": { c: 138 },
-  "pacsun.com": { s: "#pptou-sticky{display:none !important}" },
+  "pacsun.com": { s: "#consent-tracking{display:none !important}" },
   "milliman.com": { j: "5" },
   "vk.se": { s: ".ReactModal__Overlay--after-open{display:none !important}" },
   "liander.nl": { s: "#webLianderCookieBanner{display:none !important}" },
@@ -8507,7 +8507,7 @@ const rules = {
   "diffnow.com": { s: '#root > div[style*="fixed"]{display:none !important}' },
   "learningnetworkstore.cisco.com": { c: 20 },
   "kaspersky.com": {
-    s: ".notification-bar,#banner-region,.disclaimer.wrapper,#app header ~ section[data-t]{display:none !important}",
+    s: '.notification-bar,#banner-region,.disclaimer.wrapper,#app header ~ section[data-t],[class*="CookiesAccept_container"]{display:none !important}',
   },
   "niedziela.pl": { c: 0 },
   "waven-game.com": { s: ".privacy-notification{display:none !important}" },
