@@ -15696,6 +15696,22 @@ const rules = {
   "tomtop.com": { s: '.m_privacy_statement,[name="confirm2"]{display:none !important}' },
   "manga-yomeru.com": { s: "#tc_cookie_opt{display:none !important}" },
   "manychat.com": { s: '[class^="CookieBumper_wrap"]{display:none !important}' },
+  "marubun.co.jp": { s: ".l-cookie-consent-popup{display:none !important}" },
+  "maruchiba.jp": { s: "#tmp_wrap_main{display:none !important}" },
+  "microjet.com.tw": { s: "#ck_footer{display:none !important}" },
+  "mitsubishicarbide.net": { c: 17 },
+  "nlc-japan.com": { s: ".l-cookie{display:none !important}" },
+  "valorholdings.co.jp": { s: ".l-cookie{display:none !important}" },
+  "moresco.co.jp": { s: "#js_allow{display:none !important}" },
+  "mt-pharma.co.jp": { s: ".acceptUseCookie{display:none !important}" },
+  "yamahamusic.jp": { s: ".bf_gdpr_box{display:none !important}" },
+  "resmed.com": { s: ".c-notifications-wrapper{display:none !important}" },
+  "navita.co.jp": { s: ".c-cookiePolicy{display:none !important}" },
+  "ncsoft.jp": { s: "#ncCookieAlert{display:none !important}" },
+  "neimanmarcus.com": { s: ".privacy_banner{display:none !important}" },
+  "nyit.edu": { s: ".tracking{display:none !important}" },
+  "pdftoexcel.com": { s: ".policy-box{display:none !important}" },
+  "reuters.com": { s: ".iziToast{display:none !important}" },
 };
 
 const blockUrls = {
