@@ -5369,7 +5369,7 @@ const rules = {
   "homelyfe.com": {
     s: "#root > div > div > .center-horizontal:not(.undefined){display:none !important}",
   },
-  "passbase.com": { c: 3 },
+  "passbase.com": { c: 20 },
   "milliescookies.com": { s: "privacy-settings{display:none !important}" },
   "gtarcade.com": { s: "#agreement-box{display:none !important}" },
   "tapperuse.nl": { j: "5" },
@@ -15712,6 +15712,22 @@ const rules = {
   "nyit.edu": { s: ".tracking{display:none !important}" },
   "pdftoexcel.com": { s: ".policy-box{display:none !important}" },
   "reuters.com": { s: ".iziToast{display:none !important}" },
+  "pie.co.jp": { s: ".confirmationWording{display:none !important}" },
+  "pixilart.com": { s: ".ckie{display:none !important}" },
+  "plusjam.jp": { s: "#gdpr_cookie{display:none !important}" },
+  "pronews.com": { s: ".cookieGate{display:none !important}" },
+  "royalpanda.com": { s: "#__next > div + div{display:none !important}" },
+  "sankeibldg.co.jp": { s: ".un_cookieConfirm{display:none !important}" },
+  "scania.com": { s: ".m-cookie{display:none !important}" },
+  "toyosenpaku.com": { s: ".cookie-container{display:none !important}" },
+  "seminolestate.edu": { s: "#sscCookieStatement{display:none !important}" },
+  "seagaia.co.jp": { s: "#js-gdpr-box{display:none !important}" },
+  "shichida.com": { s: ".l-cookiePopup{display:none !important}" },
+  "kuki.cz": { s: ".modal-open{overflow:unset !important}" },
+  "simcast.com": { s: ".gdpr-block{display:none !important}" },
+  "labro.com.pl": { s: "#colorbox,#cboxOverlay{display:none !important}" },
+  "smcworld.com": { s: "#s-modal{display:none !important}" },
+  "dreamworks.com": { s: ".notice-modal{display:none !important}" },
 };
 
 const blockUrls = {
