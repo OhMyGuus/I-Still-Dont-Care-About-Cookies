@@ -12571,7 +12571,7 @@ const rules = {
   "delfi.ee": { s: 'div[class^="C-modal"]{display:none !important}' },
   "szerencsejatek.hu": { c: 110 },
   "magazineluiza.com.br": {
-    s: 'section[style="grid-area:footer"] ~ [width="100%"]{display:none !important}',
+    s: 'main > div:nth-of-type(1){display:none !important}',
   },
   "fussballgucken.info": { j: "5" },
   "markets.com": { j: "5" },
@@ -15728,6 +15728,32 @@ const rules = {
   "labro.com.pl": { s: "#colorbox,#cboxOverlay{display:none !important}" },
   "smcworld.com": { s: "#s-modal{display:none !important}" },
   "dreamworks.com": { s: ".notice-modal{display:none !important}" },
+  "geotastic.net": { j: "3" },
+  "beefeater.co.uk": {
+    s: "pi-cookie-policy-modal{display:none !important}",
+    c: 85,
+  },
+  "chem-space.com": {
+    s: "#gdpr-notify{display:none !important} .modalpage{overflow:unset !important}",
+    c: 65,
+  },
+  "oponeo.nl": { s: "#consentsPolicyDialog{display:none !important}" },
+  "warnerbros.com": { s: "#WB-floating-notice{display:none !important}" },
+  "bootstrap.academy": { j: "6" },
+  "zoxs.de": {
+    s: ".modal-open{overflow:unset !important}",
+    c: 14,
+  },
+  "buyzoxs.de": {
+    s: ".modal-open{overflow:unset !important}",
+    c: 14,
+  },
+  "foxracing.ro": { s: "#overlay_gdpr_autentic_content,#overlay_gdpr_autentic{display:none !important}" },
+  "intellias.com": { s: ".showed-cookie-notice{display:none !important}" },
+  "promobit.com.br": { s: "#__next > :nth-child(5){display:none !important}" },
+  "fvd.nl": { s: ".fixed{display:none !important}" },
+  "roshtein.com": { s: '[class*="Navigation_locked"]{filter:unset !important; pointer-events:unset !important}' },
+  "kteohellas.gr": { s: "#cookiesettings-dialog{display:none !important}" },
 };
 
 const blockUrls = {
