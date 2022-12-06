@@ -15754,6 +15754,18 @@ const rules = {
   "fvd.nl": { s: ".fixed{display:none !important}" },
   "roshtein.com": { s: '[class*="Navigation_locked"]{filter:unset !important; pointer-events:unset !important}' },
   "kteohellas.gr": { s: "#cookiesettings-dialog{display:none !important}" },
+  "shiftdelete.net": { s: ".banner{display:none !important}" },
+  "afaudio.co.uk": {
+    s: "#cookiew{display:none !important} .modal-open{overflow:unset !important}",
+    c: 14,
+  },
+  "kokoomus.fi": { s: "gds-consent-manager{display:none !important}" },
+  "allegro.cz": { s: "#opbox-gdpr-consents-modal{display:none !important} .meqh_en{overflow:unset !important}" },
+  "pah.org.pl": { s: ".cookies-notice__container{display:none !important}" },
+  "cupt.gov.pl": {
+    s: "#wiCookieBar1,#wiCookieBar2{display:none !important}",
+    c: 85,
+  },
 };
 
 const blockUrls = {
