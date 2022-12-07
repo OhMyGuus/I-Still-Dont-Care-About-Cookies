@@ -11411,7 +11411,7 @@ const rules = {
   "batterie-boutique.fr": { j: "5" },
   "mfa.bg": { c: 0 },
   "platforma-karaulov.ru": { s: ".using-cookie{display:none !important}" },
-  "plus.pl": { s: ".modal-overlay,.topup-cookie{display:none !important}" },
+  "plus.pl": { s: "#CAPPDialog,.modal-overlay{display:none !important}" },
   "a2mobile.pl": { s: ".topup-cookie{display:none !important}" },
   "green.hr": { c: 5 },
   "ebike-connect.com": { j: "5" },
@@ -15766,6 +15766,18 @@ const rules = {
     s: "#wiCookieBar1,#wiCookieBar2{display:none !important}",
     c: 85,
   },
+  "workbreakdownstructure.com": { s: "#consentpopup{display:none !important}" },
+  "fanipogody.pl": {
+    s: "#cmp-iframe{display:none !important}",
+    c: 85,
+  },
+  "worksmile.com": { s: ".cookies-component{display:none !important}" },
+  "dryg.pl": { s: '[class^="CookiesNotification"]{display:none !important}' },
+  "theprotocol.it": {
+    s: '[class^="Container_"]{display:none !important}',
+    c: 85,
+  },
+  "centrumrowerowe.pl": { s: "#consentsPolicyDialog{display:none !important}" }
 };
 
 const blockUrls = {
