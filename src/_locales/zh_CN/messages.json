@@ -43,7 +43,7 @@
   },
 
   "menuDisable": {
-    "message": "在$HOSTNAME$禁用扩展",
+    "message": "在$HOSTNAME$上禁用扩展",
     "description": "Menu option.",
     "placeholders": {
       "hostname": {
