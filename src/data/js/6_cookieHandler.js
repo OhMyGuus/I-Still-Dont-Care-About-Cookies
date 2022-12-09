@@ -548,6 +548,8 @@ function getE(hostname) {
       ];
     case "tab.digital":
       return ["t_cookiesConsentGiven=true", "t_cookiesCategories=[]"];
+    case "bootstrap.academy":
+      return ["agreedToCookiePolicy=true"];  
   }
 
   const parts = hostname.split(".");

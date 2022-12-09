@@ -105,6 +105,12 @@ function getItem(hostname) {
         value:
           '{"version":1,"permissionStatusEssentials":false,"permissionStatusAnalytics":false,"lastUpdated":"2022-11-01T00:00:00.000Z"}',
       };
+    case "geotastic.net":
+      return {
+        strict: false,
+        key: "privacy-policy-accepted",
+        value: "true",
+      };
   }
 
   const parts = hostname.split(".");
