@@ -3666,11 +3666,6 @@ function getSelector(host) {
       return '.modal.is-visible .cookies button[title="ok"]';
     case "meo.de":
       return "#meocookie_button_enter_selected";
-    case "uphold.com":
-      return _if(
-        '#__next > div > div:first-child > p a[href*="cookie-policy"]',
-        '//div[@id="__next"]/div[./div[1]//a[contains(@href, "cookie-policy")]]//button/following-sibling::button'
-      );
     case "bnn.de":
       return '.has-cookie-consent #cookie-consent button[data-js="confirm"]';
     case "iupp.com.br":
