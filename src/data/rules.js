@@ -9425,7 +9425,7 @@ const rules = {
   "bigmeatlove.de": { c: 4 },
   "idera.com": { s: ".idCookiePolicyBanner{display:none !important}" },
   "nikkei.com": {
-    s: "#dsopener,k2-privacy-notification,.bpPrivacy{display:none !important}",
+    s: "k2-privacy-notification,.bpPrivacy,.f-privacy__modal{display:none !important}",
   },
   "nikkeibp.co.jp": { s: ".bpPrivacy{display:none !important}" },
   "dreame-technology.com": { s: ".jsFixedMessage{display:none !important}" },
@@ -12426,6 +12426,7 @@ const rules = {
   "huawei.com": {
     s: ".huawei-convergent-cookie,#cookieTipOut,.hwid-bannerBox-portal,.privacy-dialog.is-show,.browsehappy.ReadPolicy,.huawei-app-cookie,.huawei-bootom-cookie{display:none !important}",
   },
+  "huawei.eu": { s: "#cookieTipOut{display:none !important}" },
   "onebrandssweepstakes.com": { c: 3 },
   "elring.com": { j: "5" },
   "elring.ae": { j: "5" },
@@ -15570,7 +15571,7 @@ const rules = {
     s: ".modals-wrapper{display:none !important} ._has-modal{overflow: unset !important}",
   },
   "cmteb.ro": {
-    s: "#InfoPD{display:none !important}",
+    s: "#InfoPD{display:none !important} .modal-backdrop{position: unset !important}",
     c: 14,
   },
   "ludonauta.es": { c: 14 },
