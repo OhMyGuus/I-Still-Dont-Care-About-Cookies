@@ -15846,6 +15846,33 @@ const rules = {
     c: 85,
   },
   "centrumrowerowe.pl": { s: "#consentsPolicyDialog{display:none !important}" }
+  "img.ly": { s: ".cke-overlay{display:none !important}" },
+  "bm-grenoble.fr": { s: '#app > div > :last-child{display:none !important}' },
+  "tarifcheck-partnerprogramm.de": { j: "6" },
+  "ulm-dsl.de": { j: "6" },
+  "conrad.com": { s: ".vue-portal-target{display:none !important}" },
+  "precision-people.uk": { s: ".ns-box{display:none !important}" },
+  "hstock.org": { c: 16 },
+  "merecerise.com": {
+    s: ".wz-rgpd{display:none !important}",
+    c: 85,
+  },
+  "saleae.com": { s: "#portals-root > div > div{display:none !important}" },
+  "samsungknox.com": { c: 6 },
+  "catania.it": { s: ".chefcookie--blur body::after{backdrop-filter: unset !important; position: unset !important} .chefcookie--fade body::after{background-color: unset !important}" },
+  "daemmen-lohnt-sich.de": { s: "#QdevConsentContainer{display:none !important}" },
+  "skinmc.net": { s: ".eu-popup{display:none !important}" },
+  "residentportal.com": { s: "#root > main > div + div{display:none !important}" },
+  "verwaltungs-jobs.ch": {
+    s: "#modal-privacy-settings{display:none !important}",
+    c: 14,
+  },
+  "mejorologiajazztel.com": { s: ".ons-cookie{display:none !important}" },
+  "misterworker.com": { s: "#tmbcookie-cs-banner{display:none !important}" },
+  "amt-kellinghusen.de": { s: "#privacy-container{display:none !important}" },
+  "casetify.com": { s: ".cookie-option{display:none !important}" },
+  "just-normlicht.com": { c: 4 },
+  "flying-pizza.de": { j: "6" },
 };
 
 const blockUrls = {

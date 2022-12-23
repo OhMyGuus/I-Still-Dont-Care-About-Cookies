@@ -550,6 +550,16 @@ function getE(hostname) {
       return ["t_cookiesConsentGiven=true", "t_cookiesCategories=[]"];
     case "bootstrap.academy":
       return ["agreedToCookiePolicy=true"];  
+    case "tarifcheck-partnerprogramm.de":
+      return [
+        "mrk=no",
+        "stats=no",
+        "tech=yes",
+      ];
+    case "ulm-dsl.de":
+      return ["eu-cookie=1"];
+    case "flying-pizza.de":
+      return ['allow_cookies={"essential":"1","functional":{"all":"0"},"marketing":{"all":"0"}}'];
   }
 
   const parts = hostname.split(".");
