@@ -9,7 +9,7 @@ Also having it on Github allows us to improve the code & add support for website
 
 ## Download & Install
 
-- [**Firefox** browser add-ons](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/)
+- [**Firefox** Browser Add-ons](https://addons.mozilla.org/firefox/addon/istilldontcareaboutcookies/)
 - [**Chrome** Web Store](https://chrome.google.com/webstore/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm)
 - [**Edge** Add-ons](https://microsoftedge.microsoft.com/addons/detail/i-still-dont-care-about-/kkacdgacpkediooahopgcbdahlpipheh)
 
@@ -20,7 +20,7 @@ Also having it on Github allows us to improve the code & add support for website
 
 ## License
 
-This fork is based on [**v3.4.3**](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/versions/) of the extension which has been distributed under the GPLv3(GNU) license.
+This fork is based on [**v3.4.3**](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/versions/) of the extension which has been distributed under the GPLv3(GNU) license.
 
 ## Credits
 
