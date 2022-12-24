@@ -212,11 +212,12 @@ function getSelector(host) {
         case "kastner-oehler":
         case "gigasport":
           return "#quickview_cookie_settings.en_is_active a.tao_button_cookie_settings";
-        case "backmarket":
-          return _if(
-            'div[aria-modal="true"] img[src*="gdpr"]',
-            'div[aria-modal="true"] button.underline, div[aria-modal="true"] button:first-child:not(.underline) + button[data-qa="accept-cta"]'
-          );
+          case "backmarket":
+            return _if(
+              'div[aria-modal="true"] img[src*="cookie"]',
+              'div[aria-modal="true"] button.underline',
+              'div[aria-modal="true"] button[data-qa="accept-cta"]'
+            );
         case "stickerapp":
           return '.modal[style*="block"] .cc-v2-save-btn';
         case "motointegrator":

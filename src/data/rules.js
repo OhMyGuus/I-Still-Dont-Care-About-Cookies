@@ -1851,9 +1851,7 @@ const rules = {
   "krups.com.pl": { c: 1 },
   "vlmedicina.lt": { s: ".div_cookie_bg{display:none !important}" },
   "longines.it": { j: "5" },
-  "pierreetvacances.com": {
-    s: ".cookie-block-visible header,.cookie-block-visible #main-nav.fixed-position,.cookie-block-visible .fp-integrated-booking .header-scroll,.cookie-block-visible .fp-integrated-booking #js_resume_position.scroll-limit-resume{margin-top:0 !important}",
-  },
+  "pierreetvacances.com": { s: "#didomi-host{display:none !important} .didomi-popup-open{overflow:unset !important}" },
   "teoma.com": { s: "#cp-banner{display:none !important}" },
   "coinucid.it": { c: 19 },
   "alternativa.fr": { j: "5" },
@@ -15873,6 +15871,16 @@ const rules = {
   "casetify.com": { s: ".cookie-option{display:none !important}" },
   "just-normlicht.com": { c: 4 },
   "flying-pizza.de": { j: "6" },
+  "barax.de": { s: "#es-cookie-solution{display:none !important}" },
+  "miravia.es": { s: ".cookies-authorize{display:none !important}" },
+  "seriesmania.com": { j: "6" },
+  "epo.org": { s: "#matomoBanner{display:none !important}" },
+  "orangebank.fr": { s: "#didomi-popup{display:none !important} .didomi-popup-open{overflow: unset !important}" },
+  "schulkreis.de": { s: "#divModalScreen{display:none !important}" },
+  "flyingblue.se": {
+     s: "body{overflow:unset !important}",
+     c: 49,
+  }
 };
 
 const blockUrls = {

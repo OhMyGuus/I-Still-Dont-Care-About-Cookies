@@ -560,6 +560,8 @@ function getE(hostname) {
       return ["eu-cookie=1"];
     case "flying-pizza.de":
       return ['allow_cookies={"essential":"1","functional":{"all":"0"},"marketing":{"all":"0"}}'];
+    case "seriesmania.com":
+      return ["accept-cookie=no"];
   }
 
   const parts = hostname.split(".");
