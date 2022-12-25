@@ -15290,7 +15290,7 @@ const rules = {
   "designmynight.com": { j: "5" },
   "gmx.net": { j: "5" },
   "web.de": { j: "5" },
-  "onleihe.de": { c: 2 },
+  "onleihe.de": { c: 14 },
   "onleihe.com": { j: "5" },
   "fufunovel.com": { s: "#gnews-pro-cookie-ify{display:none !important}" },
   "akari46.blogspot.com": { s: "#xix0op-cookies{display:none !important}" },
@@ -15880,7 +15880,24 @@ const rules = {
   "flyingblue.se": {
      s: "body{overflow:unset !important}",
      c: 49,
-  }
+  },
+  "eframe.co.uk": { c: 0 },
+  "lichtblick.de": { s: ".overflowHidden{overflow:unset !important}" },
+  "combat.pl": { s: ".modals-overlay{display:none !important} ._has-modal{overflow: unset !important}" },
+  "lit.dev": { s: "litdev-cookie-banner{display:none !important}" },
+  "ipernity.com": { s: "#cookie_consent_outer{display:none !important}" },
+  "ihk-weiterbildung.de": { s: ".cmnstr{display:none !important}" },
+  "thekey.academy": { s: ".p-dialog-mask{display:none !important}" },
+  "gruporesolve.com.br": { s: "#over-cookies{display:none !important}" },
+  "podarujwigilie.pl": { s: "footer ~ div{display:none !important}" },
+  "band.us": { s: ".bcm_bandCookieModuleWrap{display:none !important}" },
+  "filen.io": { s: "#__next > div + div,#root > div + div{display:none !important}" },
+  "awwwards.com": { j: "6" },
+  "olvg.nl": {
+    s: "#gdpr-selection-screen{display:none !important}",
+    c: 85,
+  },
+  "moises.ai": { s: ".floating-banner{display:none !important}" },
 };
 
 const blockUrls = {
@@ -17467,7 +17484,7 @@ const blockUrls = {
     "gremimedia.pl": ["/rodo-agreement-"],
     "zw.com.pl": ["/rodo-agreement-"],
     "fullrate.dk": ["/gtm.js?id=GTM-TCT2RJ"],
-    "paruvendu.fr": ["/js/cmp"],
+    "paruvendu.fr": ["/cmp.min.js"],
     "wumpus-gollum-forum.de": ["datenschutz.js"],
     "ruecken-zentrum.de": ["bho_infobar.js"],
     "ksta.de": ["/consent/message.js"],
