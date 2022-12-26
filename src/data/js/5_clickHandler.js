@@ -214,7 +214,6 @@ function getSelector(host) {
           return "#quickview_cookie_settings.en_is_active a.tao_button_cookie_settings";
           case "backmarket":
             return _if(
-              'div[aria-modal="true"] img[src*="cookie"]',
               'div[aria-modal="true"] button.underline',
               'div[aria-modal="true"] button[data-qa="accept-cta"]'
             );

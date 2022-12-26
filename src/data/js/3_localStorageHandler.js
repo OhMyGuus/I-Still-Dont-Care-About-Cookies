@@ -111,6 +111,18 @@ function getItem(hostname) {
         key: "privacy-policy-accepted",
         value: "true",
       };
+    case "bionic-reading.com":
+      return {
+        strict: false,
+        key: "accept_all_cookies",
+        value: "false",
+      };
+    case "nightcafe.studio":
+      return {
+        strict: false,
+        key: "acceptsNonCriticalCookies",
+        value: "accepted",
+      };  
   }
 
   const parts = hostname.split(".");
