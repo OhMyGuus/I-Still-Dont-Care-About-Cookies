@@ -3,7 +3,10 @@
     "message": "I still don't care about cookies",
     "description": "Name of the extension."
   },
-
+  "extensionDescription": {
+    "message": "Community version of the extension `I don't care about cookies` (no Avast)",
+    "description": "Description of the extension."
+  },
   "reportSkippedTitle": {
     "message": "A extensão está desativada em $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",
@@ -14,12 +17,10 @@
       }
     }
   },
-
   "reportSkippedMessage": {
     "message": "Desativou a extensão neste website. Por favor reative-a e verifique se recebe o aviso de cookies antes de o reportar.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
-
   "reportConfirm": {
     "message": "Gostaria de reportar um aviso de cookies no website $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
@@ -30,7 +31,6 @@
       }
     }
   },
-
   "menuEnable": {
     "message": "Ativar extensão em $HOSTNAME$",
     "description": "Menu option.",
@@ -41,7 +41,6 @@
       }
     }
   },
-
   "menuDisable": {
     "message": "Desativar extensão em $HOSTNAME$",
     "description": "Menu option.",
@@ -52,39 +51,76 @@
       }
     }
   },
-
   "menuIdle": {
     "message": "A extensão não funciona neste website",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
-
   "menuReport": {
     "message": "Reportar um aviso de cookies",
     "description": "Menu option."
   },
-
   "menuSupport": {
     "message": "Apoiar este projeto",
     "description": "Menu option."
   },
-
   "optionsTitle": {
     "message": "Configurações",
     "description": "Title for the options page."
   },
-
   "optionsWhitelist": {
     "message": "Lista de todos os websites excluídos, um website por linha:",
     "description": "Options text for whitelist box."
   },
-
+  "optionStatusIndicators": {
+    "message": "status indicators",
+    "description": "Option text for enabling the status indicator"
+  },
   "optionsButton": {
     "message": "Gravar configurações",
     "description": "Options text for SAVE button."
   },
-
-  "optionsSaved": {
-    "message": "Configurações gravadas com sucesso.",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Report using Github",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Report anonymously",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Report",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Notes: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Things like:\nVideoplayback not working\nBroken scrollbar\ngray overlay",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Send report",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Cancel",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "Something went wrong",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Try again later..",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Back",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Loading...",
+    "description": "Loading messsage"
   }
 }

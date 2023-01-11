@@ -1,9 +1,12 @@
 {
   "extensionName": {
-    "message": "I still don't care about cookies",
+    "message": "Încă nu îmi pasă de cookie-uri",
     "description": "Name of the extension."
   },
-
+  "extensionDescription": {
+    "message": "Versiunea comunitară a extensiei \"Nu îmi pasă de cookie-uri\" (fără Avast)",
+    "description": "Description of the extension."
+  },
   "reportSkippedTitle": {
     "message": "Extensia este dezactivată pe $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",
@@ -14,12 +17,10 @@
       }
     }
   },
-
   "reportSkippedMessage": {
     "message": "Ați dezactivat extensia pe acest website. Vă rugăm activați-o și verificați dacă vedeți avertismentul cookie înainte de a-l raporta.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
-
   "reportConfirm": {
     "message": "Doriți să raportați un avertisment cookie pe $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
@@ -30,7 +31,6 @@
       }
     }
   },
-
   "menuEnable": {
     "message": "Permite extensie pe $HOSTNAME$",
     "description": "Menu option.",
@@ -41,7 +41,6 @@
       }
     }
   },
-
   "menuDisable": {
     "message": "Dezactivează extensie pe $HOSTNAME$",
     "description": "Menu option.",
@@ -52,39 +51,76 @@
       }
     }
   },
-
   "menuIdle": {
     "message": "Extensia nu funcționează pe acest website",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
-
   "menuReport": {
     "message": "Raportează un avertisment cookie",
     "description": "Menu option."
   },
-
   "menuSupport": {
     "message": "Susține acest proiect",
     "description": "Menu option."
   },
-
   "optionsTitle": {
     "message": "Setări",
     "description": "Title for the options page."
   },
-
   "optionsWhitelist": {
     "message": "Lista albă (whitelist) a tuturor website-urilor, câte un website pe fiecare rând:",
     "description": "Options text for whitelist box."
   },
-
+  "optionStatusIndicators": {
+    "message": "indicatori de stare",
+    "description": "Option text for enabling the status indicator"
+  },
   "optionsButton": {
     "message": "Salvează setările",
     "description": "Options text for SAVE button."
   },
-
-  "optionsSaved": {
-    "message": "Salvare reușită a opțiunii.",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Reportează problema pe Github",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Raportează anonim",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Raportează",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Observații: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Lucruri precum:\nVideoplayback nu funcţionează\nscrollbar stricat\nsuprapunere gri",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Trimite raportul",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Anulare",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "A avut loc o eroare",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Încercați mai târziu..",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Înapoi",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Încărcare...",
+    "description": "Loading messsage"
   }
 }
