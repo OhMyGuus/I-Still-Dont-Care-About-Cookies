@@ -3,7 +3,10 @@
     "message": "I still don't care about cookies",
     "description": "Name of the extension."
   },
-
+  "extensionDescription": {
+    "message": "Community version of the extension `I don't care about cookies` (no Avast)",
+    "description": "Description of the extension."
+  },
   "reportSkippedTitle": {
     "message": "Rozšírenie je na $HOSTNAME$ vypnuté.",
     "description": "Tells the user it cannot report a whitelisted domain.",
@@ -14,12 +17,10 @@
       }
     }
   },
-
   "reportSkippedMessage": {
     "message": "Na tejto stránke ste rozšírenie zakázali. Prosím, povoľte ho a skontrolujte, či vidíte varovanie pred cookies pred tým, ako vytvoríte hlásenie.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
-
   "reportConfirm": {
     "message": "Želáte si vytvoriť hlásenie o varovaní pred cookies na $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
@@ -30,7 +31,6 @@
       }
     }
   },
-
   "menuEnable": {
     "message": "Povoliť rozšírenie na $HOSTNAME$",
     "description": "Menu option.",
@@ -41,7 +41,6 @@
       }
     }
   },
-
   "menuDisable": {
     "message": "Zakázať rozšírenie na $HOSTNAME$",
     "description": "Menu option.",
@@ -52,39 +51,76 @@
       }
     }
   },
-
   "menuIdle": {
     "message": "Rozšírenie na tejto stránke nefunguje",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
-
   "menuReport": {
     "message": "Nahlásiť varovanie pred cookies",
     "description": "Menu option."
   },
-
   "menuSupport": {
     "message": "Podporte tento projekt",
     "description": "Menu option."
   },
-
   "optionsTitle": {
     "message": "Nastavenia",
     "description": "Title for the options page."
   },
-
   "optionsWhitelist": {
     "message": "Zoznam všetkých povolených stránok, jedna stránka na riadku:",
     "description": "Options text for whitelist box."
   },
-
+  "optionStatusIndicators": {
+    "message": "status indicators",
+    "description": "Option text for enabling the status indicator"
+  },
   "optionsButton": {
     "message": "Uložiť nastavenia",
     "description": "Options text for SAVE button."
   },
-
-  "optionsSaved": {
-    "message": "Voľby úspešne uložené.",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Report using Github",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Report anonymously",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Report",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Notes: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Things like:\nVideoplayback not working\nBroken scrollbar\ngray overlay",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Send report",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Cancel",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "Something went wrong",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Try again later..",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Back",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Loading...",
+    "description": "Loading messsage"
   }
 }

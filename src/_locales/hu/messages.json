@@ -3,7 +3,10 @@
     "message": "I still don't care about cookies",
     "description": "Name of the extension."
   },
-
+  "extensionDescription": {
+    "message": "Community version of the extension `I don't care about cookies` (no Avast)",
+    "description": "Description of the extension."
+  },
   "reportSkippedTitle": {
     "message": "A kiegészítő ki van kapcsolva itt: $HOSTNAME$",
     "description": "Tells the user it cannot report a whitelisted domain.",
@@ -14,12 +17,10 @@
       }
     }
   },
-
   "reportSkippedMessage": {
     "message": "Ezen a webhelyen ki van kapcsolva a kiegészítő. Kérlek, kapcsold be és ellenőrizd le, hogy nem látsz-e figyelmeztetést mielőtt jelentenéd.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
-
   "reportConfirm": {
     "message": "Szeretnéd jelenteni a sütiket (cookie-kat) erről a webhelyről: $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
@@ -30,7 +31,6 @@
       }
     }
   },
-
   "menuEnable": {
     "message": "A kiegészítő bekapcsolása itt: $HOSTNAME$",
     "description": "Menu option.",
@@ -41,7 +41,6 @@
       }
     }
   },
-
   "menuDisable": {
     "message": "A kiegészítő kikapcsolása itt: $HOSTNAME$",
     "description": "Menu option.",
@@ -52,39 +51,76 @@
       }
     }
   },
-
   "menuIdle": {
     "message": "A kiegészítő ezen a webhelyen nem működik",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
-
   "menuReport": {
     "message": "Egy süti (cookie) figyelmeztetés jelentése",
     "description": "Menu option."
   },
-
   "menuSupport": {
     "message": "A projekt támogatása",
     "description": "Menu option."
   },
-
   "optionsTitle": {
     "message": "Beállítások",
     "description": "Title for the options page."
   },
-
   "optionsWhitelist": {
     "message": "A fehér-listán szereplő webhelyek, egy weboldal soronként:",
     "description": "Options text for whitelist box."
   },
-
+  "optionStatusIndicators": {
+    "message": "status indicators",
+    "description": "Option text for enabling the status indicator"
+  },
   "optionsButton": {
     "message": "Beállítások mentése",
     "description": "Options text for SAVE button."
   },
-
-  "optionsSaved": {
-    "message": "A beállítások sikeresen el lettek mentve!",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Report using Github",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Report anonymously",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Report",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Notes: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Things like:\nVideoplayback not working\nBroken scrollbar\ngray overlay",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Send report",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Cancel",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "Something went wrong",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Try again later..",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Back",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Loading...",
+    "description": "Loading messsage"
   }
 }
