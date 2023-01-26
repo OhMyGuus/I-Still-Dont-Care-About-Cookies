@@ -3,7 +3,10 @@
     "message": "I still don't care about cookies",
     "description": "Name of the extension."
   },
-
+  "extensionDescription": {
+    "message": "Community version of the extension `I don't care about cookies` (no Avast)",
+    "description": "Description of the extension."
+  },
   "reportSkippedTitle": {
     "message": "插件在$HOSTNAME$上不可用",
     "description": "Tells the user it cannot report a whitelisted domain.",
@@ -14,12 +17,10 @@
       }
     }
   },
-
   "reportSkippedMessage": {
     "message": "您已禁用此网站上的扩展程序。请启用它并检查您是否在报告前看到cookie警告。",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
-
   "reportConfirm": {
     "message": "您想报告$HOSTNAME$上的cookie警告吗？",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
@@ -30,7 +31,6 @@
       }
     }
   },
-
   "menuEnable": {
     "message": "在$HOSTNAME$上启用扩展",
     "description": "Menu option.",
@@ -41,7 +41,6 @@
       }
     }
   },
-
   "menuDisable": {
     "message": "在$HOSTNAME$上禁用扩展",
     "description": "Menu option.",
@@ -52,39 +51,76 @@
       }
     }
   },
-
   "menuIdle": {
     "message": "扩展程序不适用于此网站",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
-
   "menuReport": {
     "message": "报告cookie警告",
     "description": "Menu option."
   },
-
   "menuSupport": {
     "message": "支持该项目",
     "description": "Menu option."
   },
-
   "optionsTitle": {
     "message": "设置",
     "description": "Title for the options page."
   },
-
   "optionsWhitelist": {
     "message": "白名单网站列表，每行一个网站：",
     "description": "Options text for whitelist box."
   },
-
+  "optionStatusIndicators": {
+    "message": "status indicators",
+    "description": "Option text for enabling the status indicator"
+  },
   "optionsButton": {
     "message": "保存设置",
     "description": "Options text for SAVE button."
   },
-
-  "optionsSaved": {
-    "message": "设置已成功保存",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Report using Github",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Report anonymously",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Report",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Notes: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Things like:\nVideoplayback not working\nBroken scrollbar\ngray overlay",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Send report",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Cancel",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "Something went wrong",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Try again later..",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Back",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Loading...",
+    "description": "Loading messsage"
   }
 }
