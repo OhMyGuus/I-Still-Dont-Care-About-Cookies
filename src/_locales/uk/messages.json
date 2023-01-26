@@ -3,9 +3,12 @@
     "message": "I still don't care about cookies",
     "description": "Name of the extension."
   },
-
+  "extensionDescription": {
+    "message": "Версія від спільноти «I don't care about cookies» (без Avast)",
+    "description": "Description of the extension."
+  },
   "reportSkippedTitle": {
-    "message": "Розширення виключене на домені $HOSTNAME$.",
+    "message": "Розширення вимкнене на $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",
     "placeholders": {
       "hostname": {
@@ -14,14 +17,12 @@
       }
     }
   },
-
   "reportSkippedMessage": {
-    "message": "Ви відключили рзширення на цьому веб-сайті. Будь-ласка включіть його і перевірте чи бачите ви попередження про куки перед тим як відправити повідомлення.",
+    "message": "Ви вимкнули розширення на цьому вебсайті. Перш ніж надсилати звіт, увімкніть його та перевірте, чи з’являється попередження про куки.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
-
   "reportConfirm": {
-    "message": "Чи бажаєте ви повідомити про куки на $HOSTNAME$?",
+    "message": "Чи бажаєте повідомити про попередження кук на $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
     "placeholders": {
       "hostname": {
@@ -30,9 +31,8 @@
       }
     }
   },
-
   "menuEnable": {
-    "message": "Включити розширення на $HOSTNAME$",
+    "message": "Увімкнути розширення на $HOSTNAME$",
     "description": "Menu option.",
     "placeholders": {
       "hostname": {
@@ -41,9 +41,8 @@
       }
     }
   },
-
   "menuDisable": {
-    "message": "Відключити розширення на $HOSTNAME$",
+    "message": "Вимкнути розширення на $HOSTNAME$",
     "description": "Menu option.",
     "placeholders": {
       "hostname": {
@@ -52,39 +51,76 @@
       }
     }
   },
-
   "menuIdle": {
-    "message": "Розширення не працює на цьому сайті",
+    "message": "Розширення не працює на цьому вебсайті",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
-
   "menuReport": {
-    "message": "Сповістити про повідомлення про куки",
+    "message": "Повідомити про попередження кук",
     "description": "Menu option."
   },
-
   "menuSupport": {
-    "message": "Підтримайте проект",
+    "message": "Підтримати проєкт",
     "description": "Menu option."
   },
-
   "optionsTitle": {
     "message": "Налаштування",
     "description": "Title for the options page."
   },
-
   "optionsWhitelist": {
-    "message": "Список всіх веб-сайтів в білому списку, один сайт в ряд.",
+    "message": "Перелік усіх вебсайтів у білому списку, один вебсайт на рядок:",
     "description": "Options text for whitelist box."
   },
-
+  "optionStatusIndicators": {
+    "message": "індикатори стану",
+    "description": "Option text for enabling the status indicator"
+  },
   "optionsButton": {
     "message": "Зберегти налаштування",
     "description": "Options text for SAVE button."
   },
-
-  "optionsSaved": {
-    "message": "Налаштування успішно збережені.",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Повідомити на Github",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Повідомити анонімно",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Повідомити",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Примітки: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Проблеми, як-от:\nНе відтворюється відео\nНе працює панель прокручування\nСірі області накладання",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Надіслати звіт",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Скасувати",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "Щось пішло не так",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Спробуйте знову пізніше...",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Назад",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Завантаження...",
+    "description": "Loading messsage"
   }
 }
