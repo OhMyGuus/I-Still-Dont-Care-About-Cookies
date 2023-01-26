@@ -12615,7 +12615,7 @@ const rules = {
   "delfi.ee": { s: 'div[class^="C-modal"]{display:none !important}' },
   "szerencsejatek.hu": { c: 110 },
   "magazineluiza.com.br": {
-    s: 'main > div:nth-of-type(1){display:none !important}',
+    s: "main > div:nth-of-type(1){display:none !important}",
   },
   "fussballgucken.info": { j: "5" },
   "markets.com": { j: "5" },
@@ -13029,7 +13029,7 @@ const rules = {
     c: 14,
   },
   "energiauutiset.fi": { s: ".ltcn{display:none !important}" },
-  "uphold.com": { j: "5" },
+  "uphold.com": { j: "3" },
   "internxt.com": {
     s: 'div[class*="cookiesBgFallback"]{display:none !important}',
   },
@@ -15701,7 +15701,13 @@ const rules = {
   },
   "tab.digital": { j: "6" },
   "cibeg.com": { c: 0 },
-  "pharminfo.fr": { s: ".NavigationTracker__container{display:none !important}" },
+  "jazzkeller69.de": {
+    s: "#jkjazzBackground, #jkjazzWidget{display:none !important}",
+  },
+  "autoefl.pl": { s: ".modal-legal{display:none !important}" },
+  "pharminfo.fr": {
+    s: ".NavigationTracker__container{display:none !important}",
+  },
   "komkompro.com": {
     s: ".gb-global-scrollblock{overflow:unset !important}",
     c: 49,
@@ -15713,18 +15719,30 @@ const rules = {
   "livelarq.com": { s: "#__next > :last-child{display:none !important}" },
   "sabi-online.at": { c: 106 },
   "wentworthpuzzles.com": { s: "privacy-settings{display:none !important}" },
-  "fitzandhuxley.com": { s: "#gdpr-blocking-page-overlay{display:none !important}" },
-  "azslides.com": { s: ".altumcode-cookie-notification-wrapper{display:none !important}" },
-  "filen.io": { s: ".chakra-toast__inner > :first-child{display:none !important}" },
+  "fitzandhuxley.com": {
+    s: "#gdpr-blocking-page-overlay{display:none !important}",
+  },
+  "azslides.com": {
+    s: ".altumcode-cookie-notification-wrapper{display:none !important}",
+  },
+  "filen.io": {
+    s: ".chakra-toast__inner > :first-child{display:none !important}",
+  },
   "dkkk.co.jp": { s: ".p-cookieBox{display:none !important}" },
   "manda.co.jp": { c: 3 },
   "ymir.co.jp": { s: ".cookie_area{display:none !important}" },
   "copyright.com": { s: ".site-wide-notice--gdpr{display:none !important}" },
   "creaform3d.com": { s: ".gpdr-agreement{display:none !important}" },
-  "criminalip.io": { s: '[class^="CookiePolicyAgreementsPopup"]{display:none !important}' },
-  "cryoutcreations.eu": { s: "#cryout-cookies-notification{display:none !important}" },
+  "criminalip.io": {
+    s: '[class^="CookiePolicyAgreementsPopup"]{display:none !important}',
+  },
+  "cryoutcreations.eu": {
+    s: "#cryout-cookies-notification{display:none !important}",
+  },
   "daidan.co.jp": { s: ".p-gdpr{display:none !important}" },
-  "dbschenker-seino.jp": { s: ".dialog--open{display:none !important} .no-scroll--dialog-open{overflow:unset !important}" },
+  "dbschenker-seino.jp": {
+    s: ".dialog--open{display:none !important} .no-scroll--dialog-open{overflow:unset !important}",
+  },
   "delta.exchange": { s: ".de-footer__cookie{display:none !important}" },
   "designs.ai": { c: 47 },
   "dfi.com": { s: "#gdrp-wrapper{display:none !important}" },
@@ -15732,13 +15750,17 @@ const rules = {
   "dynacw.co.jp": { s: "#GDPR_warning{display:none !important}" },
   "elleair.jp": { s: ".tf-cookiePolicyModal{display:none !important}" },
   "epidemicsound.com": { s: "#es-consent{display:none !important}" },
-  "festo.com.cn": { s: '[class^="overlay"]{display:none !important} [class*="hide-overflow"]{overflow:unset !important}' },
+  "festo.com.cn": {
+    s: '[class^="overlay"]{display:none !important} [class*="hide-overflow"]{overflow:unset !important}',
+  },
   "figshare.com": { s: "header > :first-child{display:none !important}" },
   "nmsu.edu": { s: ".bottom-0{display:none !important}" },
   "fincity.tokyo": { c: 47 },
   "ferrotec.co.jp": { s: ".policyFix{display:none !important}" },
   "framer.com": { s: ".cy-cookieBanner{display:none !important}" },
-  "freeromsdownload.com": { s: "#kuk{display:none !important} .modal-open{overflow:unset !important}" },
+  "freeromsdownload.com": {
+    s: "#kuk{display:none !important} .modal-open{overflow:unset !important}",
+  },
   "gctengine.co.jp": { s: ".wrap_cookie{display:none !important}" },
   "guerbet.com": { s: '[class*="cookie-banner"]{display:none !important}' },
   "lilac.co.jp": { s: "#ft_privacy{display:none !important}" },
@@ -15747,7 +15769,9 @@ const rules = {
   "hyojito.co.jp": { s: "#agreement-area{display:none !important}" },
   "hyundai.mu": { s: ".cookiePolicyAgreement{display:none !important}" },
   "incyte.jp": { s: "#topHeader > :first-child{display:none !important}" },
-  "internationalmedicalcorps.org": { s: ".cookie__callout{display:none !important}" },
+  "internationalmedicalcorps.org": {
+    s: ".cookie__callout{display:none !important}",
+  },
   "mamastar.jp": { s: "#personalInfo{display:none !important}" },
   "jaa.or.jp": { s: "#js-gdpr{display:none !important}" },
   "jasis.jp": { s: "#agreePanel{display:none !important}" },
@@ -15756,8 +15780,12 @@ const rules = {
   "jpsearch.go.jp": { s: ".jps-privacy-confirmation{display:none !important}" },
   "jti.co.jp": { s: ".p-top_cookie-agreement{display:none !important}" },
   "juken-mikata.net": { s: "#cookieAlt{display:none !important}" },
-  "kaigolink.com": { s: '[class^="CookiePanel__Panel"]{display:none !important}' },
-  "kankocho.jp": { s: ".v-snack__wrapper.theme--light{display:none !important}" },
+  "kaigolink.com": {
+    s: '[class^="CookiePanel__Panel"]{display:none !important}',
+  },
+  "kankocho.jp": {
+    s: ".v-snack__wrapper.theme--light{display:none !important}",
+  },
   "kureha.co.jp": { s: ".cookie_block{display:none !important}" },
   "porrima.org": { s: ".cookie_block{display:none !important}" },
   "kyounoryouri.jp": { s: ".swal2-popup{display:none !important}" },
@@ -15765,9 +15793,13 @@ const rules = {
   "legoschool.jp": { s: "#cookie-config{display:none !important}" },
   "linkfly.to": { s: ".linkfly-ctx-notification{display:none !important}" },
   "lintec.co.jp": { s: "#FooterPolicy{display:none !important}" },
-  "tomtop.com": { s: '.m_privacy_statement,[name="confirm2"]{display:none !important}' },
+  "tomtop.com": {
+    s: '.m_privacy_statement,[name="confirm2"]{display:none !important}',
+  },
   "manga-yomeru.com": { s: "#tc_cookie_opt{display:none !important}" },
-  "manychat.com": { s: '[class^="CookieBumper_wrap"]{display:none !important}' },
+  "manychat.com": {
+    s: '[class^="CookieBumper_wrap"]{display:none !important}',
+  },
   "marubun.co.jp": { s: ".l-cookie-consent-popup{display:none !important}" },
   "maruchiba.jp": { s: "#tmp_wrap_main{display:none !important}" },
   "microjet.com.tw": { s: "#ck_footer{display:none !important}" },
@@ -15812,13 +15844,26 @@ const rules = {
   "oponeo.nl": { s: "#consentsPolicyDialog{display:none !important}" },
   "warnerbros.com": { s: "#WB-floating-notice{display:none !important}" },
   "bootstrap.academy": { j: "6" },
+  "zoxs.de": {
+    s: ".modal-open{overflow:unset !important}",
+    c: 14,
+  },
+  "buyzoxs.de": {
+    s: ".modal-open{overflow:unset !important}",
+    c: 14,
+  },
+  "foxracing.ro": {
+    s: "#overlay_gdpr_autentic_content,#overlay_gdpr_autentic{display:none !important}",
+  },
   "zoxs.de": { c: 14 },
   "buyzoxs.de": { c: 14 },
   "foxracing.ro": { s: "#overlay_gdpr_autentic_content,#overlay_gdpr_autentic{display:none !important}" },
   "intellias.com": { s: ".showed-cookie-notice{display:none !important}" },
   "promobit.com.br": { s: "#__next > :nth-child(5){display:none !important}" },
   "fvd.nl": { s: ".fixed{display:none !important}" },
-  "roshtein.com": { s: '[class*="Navigation_locked"]{filter:unset !important; pointer-events:unset !important}' },
+  "roshtein.com": {
+    s: '[class*="Navigation_locked"]{filter:unset !important; pointer-events:unset !important}',
+  },
   "kteohellas.gr": { s: "#cookiesettings-dialog{display:none !important}" },
   "shiftdelete.net": { s: ".banner{display:none !important}" },
   "afaudio.co.uk": {
@@ -15826,7 +15871,9 @@ const rules = {
     c: 14,
   },
   "kokoomus.fi": { s: "gds-consent-manager{display:none !important}" },
-  "allegro.cz": { s: "#opbox-gdpr-consents-modal{display:none !important} .meqh_en{overflow:unset !important}" },
+  "allegro.cz": {
+    s: "#opbox-gdpr-consents-modal{display:none !important} .meqh_en{overflow:unset !important}",
+  },
   "pah.org.pl": { s: ".cookies-notice__container{display:none !important}" },
   "cupt.gov.pl": {
     s: "#wiCookieBar1,#wiCookieBar2{display:none !important}",
@@ -15843,6 +15890,7 @@ const rules = {
     s: '[class^="Container_"]{display:none !important}',
     c: 85,
   },
+  "centrumrowerowe.pl": { s: "#consentsPolicyDialog{display:none !important}" },
   "centrumrowerowe.pl": { s: "#consentsPolicyDialog{display:none !important}" }
   "img.ly": { s: ".cke-overlay{display:none !important}" },
   "bm-grenoble.fr": { s: '#app > div > :last-child{display:none !important}' },

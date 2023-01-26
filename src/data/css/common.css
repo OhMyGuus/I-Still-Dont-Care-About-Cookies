@@ -13987,7 +13987,8 @@ body > allow-cookies,
 .fs-cc-component,
 .p-gdpr#cookie_ck,
 doc-layout-cookie-policy-banner,
-#valid-cookies
+#valid-cookies,
+body #consentsPolicyDialog
 
 /* 14113 */ {
   display: none !important;
