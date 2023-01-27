@@ -15891,7 +15891,7 @@ const rules = {
     c: 85,
   },
   "centrumrowerowe.pl": { s: "#consentsPolicyDialog{display:none !important}" },
-  "centrumrowerowe.pl": { s: "#consentsPolicyDialog{display:none !important}" }
+  "centrumrowerowe.pl": { s: "#consentsPolicyDialog{display:none !important}" },
   "img.ly": { s: ".cke-overlay{display:none !important}" },
   "bm-grenoble.fr": { s: '#app > div > :last-child{display:none !important}' },
   "tarifcheck-partnerprogramm.de": { j: "6" },
@@ -15981,6 +15981,9 @@ const rules = {
   "ancientegyptmagazine.com": { s: ".pcb{display:none !important}" },
   "andreashop.sk": { s: "#eu-cookies-popup{display:none !important}" },
   "thesourcemodels.com": { s: "#cookie-bottom{display:none !important}" },
+  "heise.de": {
+    s: 'div[id^="sp_message_container_"]{display:none !important}'
+  },
 };
 
 const blockUrls = {
