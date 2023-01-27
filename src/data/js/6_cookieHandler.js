@@ -562,6 +562,8 @@ function getE(hostname) {
       return ['allow_cookies={"essential":"1","functional":{"all":"0"},"marketing":{"all":"0"}}'];
     case "seriesmania.com":
       return ["accept-cookie=no"];
+    case "vite-un-depanneur.fr":
+      return ["privacyCookieAccepted=0"]
   }
 
   const parts = hostname.split(".");
