@@ -15990,7 +15990,6 @@ const rules = {
   "penta.cz": {c: 85 },
   "przemyslprzyszlosci.gov.pl": { s: "._consent{display:none !important}"},
   "jobretraite.fr": {s: ".pixim-cookie{display:none !important}"},
-  "vite-un-depanneur.fr": { j: "6" },
 
 };
 
@@ -16065,6 +16064,7 @@ const blockUrls = {
     { r: "cdn.realpeoplemedia.co.uk" },
     { r: "/assets-usercentrics/uc-version" },
     { r: "/Sticky2,ConsentManager" },
+    { r: "cnilCookie.js" },
   ],
   common_groups: {
     cookie: [
