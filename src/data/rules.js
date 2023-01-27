@@ -15160,6 +15160,7 @@ const rules = {
   "moemax.at": { c: 28 },
   "moemax.hu": { c: 28 },
   "moemax.de": { c: 28 },
+  "moemax.ch": { c: 28 },
   "moebelix.at": { c: 28 },
   "moebelix.cz": { c: 28 },
   "moebelix.sk": { c: 28 },
