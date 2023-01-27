@@ -15986,7 +15986,8 @@ const rules = {
   },
   "video.gazzetta.it": { j: "5" },
   "sreality.cz": { s: '.szn-cmp-dialog-container{display:none !important}', c: 85 },
-  "penta.cz": {c: 85}
+  "penta.cz": {c: 85 },
+  "przemyslprzyszlosci.gov.pl": { s: "._consent{display:none !important}"}
 };
 
 const blockUrls = {
