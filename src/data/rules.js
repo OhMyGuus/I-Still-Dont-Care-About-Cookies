@@ -15985,6 +15985,7 @@ const rules = {
     s: 'div[id^="sp_message_container_"]{display:none !important}'
   },
   "video.gazzetta.it": { j: "5" },
+  "sreality.cz": { s: '.szn-cmp-dialog-container{display:none !important}', c: 14 },
 };
 
 const blockUrls = {
