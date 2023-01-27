@@ -15987,7 +15987,7 @@ const rules = {
   "video.gazzetta.it": { j: "5" },
   "sreality.cz": { s: '.szn-cmp-dialog-container{display:none !important}', c: 85 },
   "penta.cz": {c: 85 },
-  "przemyslprzyszlosci.gov.pl": { s: "._consent{display:none !important}"}
+  "przemyslprzyszlosci.gov.pl": { s: "._consent{display:none !important}"},
 };
 
 const blockUrls = {
@@ -17187,6 +17187,8 @@ const blockUrls = {
       { r: "cmps.o2.cz/delivery" },
       { r: "/tcf-cmp.min.js" },
       { r: "fastcmp.com/fast-cmp.js" },
+      { r: "apps.ludostation.com/cmp/v2/cmp.js" },
+
     ],
     Cookie: [
       { r: "gofundme.com/js/3.0/visitorCookie.js" },
