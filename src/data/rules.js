@@ -15989,6 +15989,7 @@ const rules = {
   "sreality.cz": { s: '.szn-cmp-dialog-container{display:none !important}', c: 85 },
   "penta.cz": {c: 85 },
   "przemyslprzyszlosci.gov.pl": { s: "._consent{display:none !important}"},
+  "jobretraite.fr": {s: ".pixim-cookie{display:none !important}"}
 };
 
 const blockUrls = {
