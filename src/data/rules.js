@@ -15984,6 +15984,7 @@ const rules = {
   "heise.de": {
     s: 'div[id^="sp_message_container_"]{display:none !important}'
   },
+  "video.gazzetta.it": { j: "5" },
 };
 
 const blockUrls = {
@@ -16040,7 +16041,7 @@ const blockUrls = {
     { r: "/ConsentManager,Sticky" },
     { r: "/js/rgpd/" },
     { r: "/module-rgpd/" },
-    { r: "/rcs_cpmt/", e: ["video.corriere.it"] },
+    { r: "/rcs_cpmt/", e: ["video.corriere.it", "video.gazzetta.it"] },
     { r: "/bloc/django/ckcsfrg" },
     { r: "ccm19.vucx.de" },
     { r: "/avia-bootstrap/js/klaro/" },

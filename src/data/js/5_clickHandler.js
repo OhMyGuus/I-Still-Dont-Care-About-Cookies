@@ -7124,8 +7124,9 @@ function getSelector(host) {
         'input[name="jour_marketing"]',
         ".js-saveCookieSettings"
       );
+    case "video.gazzetta.it":
     case "video.corriere.it":
-      return "#privacy-cor-wall-accept";
+      return "#privacy-cp-wall-accept";
 
     case "whatismymovie.com":
       return '.modal[style*="block"] .btn';
