@@ -16043,7 +16043,7 @@ const rules = {
   "riceundspice.de": { s: "body.disabled > *:not(.cookie-wrapper){pointer-events: unset !important; opacity: unset !important;}" },
   "assure.ameli.fr": { s: "#idPopupWARecueilConsentement{display:none !important}" },
   "webhero.be": { s: "div[data-cookie-popup]{display:none !important}" },
-
+  "compendium.com.ua": { c: "6" },
 };
 
 const blockUrls = {
