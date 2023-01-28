@@ -16012,6 +16012,7 @@ const rules = {
   "psiakostka.eu": {s: ".configMessages__footer{display:none !important}"},
   "browar-tenczynek.pl":{s: "#privacy-policy-info{display:none !important}"},
   "lek24.pl":{s: "#notice_bar{display:none !important}"},
+  "chrissiecosmetics.com.pl": { s: ".m-cookie-alert-1{display:none !important}"},
 
 
 
