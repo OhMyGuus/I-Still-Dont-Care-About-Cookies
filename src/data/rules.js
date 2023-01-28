@@ -15991,7 +15991,8 @@ const rules = {
   "przemyslprzyszlosci.gov.pl": { s: "._consent{display:none !important}"},
   "jobretraite.fr": { s: ".pixim-cookie{display:none !important}"},
   "3ds.com": { s: ".gdpr-modal{display:none !important}" },
-  "tickets.dieeisbaeren.de": { s: 'div[style*="position: fixed; left: 0px;"]{display:none !important}' }
+  "tickets.dieeisbaeren.de": { s: 'div[style*="position: fixed; left: 0px;"]{display:none !important}' },
+  "gerardmer.net": {s: "#bandeau_rgpd_cookies{display:none !important}"}
 
 };
 
