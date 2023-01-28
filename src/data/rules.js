@@ -16021,7 +16021,7 @@ const rules = {
   "wolczanka.pl": { s: "#bottom-cookies{display:none !important}"},
   "pogodadlaslaska.pl": { s: "#elementor-popup-modal-1823{display:none !important}"},
   "cem.polskieradio.pl": { s: 'div[class^="ModalTerms"]{display:none !important}'},
-
+  "northpole.com": { s: "#cookies-pop{display:none !important}" },
 
 
 
