@@ -16003,7 +16003,8 @@ const rules = {
   "defence24.com": { j: "3" },
   "infosecurity24.pl": { j: "3" },
   "dsmart.com.tr": { s: ".kvkk{display:none !important}"},
-  
+  "kuchniasklep.pl": { s: "ks-cookie-popup{display:none !important}" },
+
 
 
 
