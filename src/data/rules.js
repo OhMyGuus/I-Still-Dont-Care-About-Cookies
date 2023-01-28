@@ -16031,7 +16031,7 @@ const rules = {
   "coe.int": { s:  ".coe-cookies-consent-popup{display:none !important}" },
   "hyrican.de": { s: "#dywc,#dywc_bglayer{display:none !important}" },
   "prva.si": { s: ".gcc-cookies{display:none !important}" },
-
+  "lampshoponline.com": { s: "#illow-banner-widget{display:none !important}" },
 
 
 
