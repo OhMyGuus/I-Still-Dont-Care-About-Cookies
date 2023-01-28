@@ -16055,7 +16055,6 @@ const rules = {
   "sunweb.nl": { s: ".c-backdrop, #w-cookie-consent{display:none !important}" },
   "sunweb.be": { s: ".c-backdrop, #w-cookie-consent{display:none !important}" },
 
-
 };
 
 const blockUrls = {
@@ -16979,6 +16978,7 @@ const blockUrls = {
       { r: "consent.scm-verlagsgruppe.de" },
       { r: "/wp-content/plugins/consent-magic-pro" },
       { r: "7gra.us/consentbar" },
+      { r: "/dgp-cookie-consent"}
     ],
     gdpr: [
       { r: "/js/gdpr_footer.js" },
