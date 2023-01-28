@@ -16023,7 +16023,8 @@ const rules = {
   "cem.polskieradio.pl": { s: 'div[class^="ModalTerms"]{display:none !important}'},
   "northpole.com": { s: "#cookies-pop{display:none !important}" },
   "knightsofhonor.com": { c: 0 },
-
+  "dubina-chachar.cz": { s: ".fworks_consent_bar {display:none !important}" },
+  
 
 
 
