@@ -16005,6 +16005,7 @@ const rules = {
   "dsmart.com.tr": { s: ".kvkk{display:none !important}"},
   "kuchniasklep.pl": { s: "ks-cookie-popup{display:none !important}" },
   "aptekawsieci.pl": { c: "68" },
+  "sportrebel.pl": { j: "6" },
 
 
 
