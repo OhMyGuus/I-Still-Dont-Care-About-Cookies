@@ -16009,6 +16009,8 @@ const rules = {
   "callusan.sklep.pl": { s: ".m-cookie-alert-1{display:none !important}"},
   "lovrin.pl": {s: "#privacy-message{display:none !important}"},
   "materacezgor.pl": {s: "#privacy-message{display:none !important}"},
+  "psiakostka.eu": {s: ".configMessages__footer{display:none !important}"},
+  
 
 
 
