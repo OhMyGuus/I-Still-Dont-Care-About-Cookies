@@ -16030,7 +16030,7 @@ const rules = {
   "jb-lighting.de": { s:  ".cookiefensterdeckflaeche, .cookiefenster{display:none !important}" },
   "coe.int": { s:  ".coe-cookies-consent-popup{display:none !important}" },
   "hyrican.de": { s: "#dywc,#dywc_bglayer{display:none !important}" },
-
+  "prva.si": { s: ".gcc-cookies{display:none !important}" },
 
 
 
