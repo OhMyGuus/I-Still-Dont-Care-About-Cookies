@@ -18038,7 +18038,8 @@ const blockUrls = {
     "formel1.de": ["chunk-cmp-onetrust"],
     "ae.com": ["/ugp-api/webcontent/v1/"],
     "jobsireland.ie": ["/Cookieconsent/"],
-    "mainpost.de": ["app.usercentrics.eu"]
+    "mainpost.de": ["app.usercentrics.eu"],
+    "czasnaherbate.net": ["pdcookiepro//views/js/"]
   },
 };
 
