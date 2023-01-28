@@ -16041,7 +16041,7 @@ const rules = {
   "stempelwerk.de": { s: "#cookie-modern-info,#cookie-modern-overlay{display:none !important}" },
   "thefancytext.com": { c: "112" },
   "riceundspice.de": { s: "body.disabled > *:not(.cookie-wrapper){pointer-events: unset !important; opacity: unset !important;}" },
-
+  "assure.ameli.fr": { s: "#idPopupWARecueilConsentement{display:none !important}" },
 
 
 };
