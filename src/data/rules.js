@@ -16008,6 +16008,7 @@ const rules = {
   "sportrebel.pl": { j: "6" },
   "callusan.sklep.pl": { s: ".m-cookie-alert-1{display:none !important}"},
   "lovrin.pl": {s: "#privacy-message{display:none !important}"},
+  "materacezgor.pl": {s: "#privacy-message{display:none !important}"},
 
 
 
