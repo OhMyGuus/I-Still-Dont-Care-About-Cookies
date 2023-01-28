@@ -16046,6 +16046,13 @@ const rules = {
   "compendium.com.ua": { c: "6" },
   "bibloo.cz": { s: "consent-dialog{display:none !important}" },
   "spartorama.gr": { s: "#myModal{display:none !important}" },
+  "predecessorgame.com": { c: "0" },
+
+
+
+
+
+
 };
 
 const blockUrls = {
