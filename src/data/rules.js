@@ -16033,7 +16033,7 @@ const rules = {
   "prva.si": { s: ".gcc-cookies{display:none !important}" },
   "lampshoponline.com": { s: "#illow-banner-widget{display:none !important}" },
   "vistula.pl": { s: "#bottom-cookies{display:none !important}" },
-
+  "espa.com": { s: ".cookienator{display:none !important}" },
 
 };
 
