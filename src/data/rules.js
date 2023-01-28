@@ -16036,6 +16036,14 @@ const rules = {
   "espa.com": { s: ".cookienator{display:none !important}" },
   "goodboy.ninja": { s: "{display:none !important}" },
   "sivasdescalzo.com": { s: 'aside[data-role="gdpr-cookie-container"]{display:none !important}' },
+  "gothic-gifts.com": { s: "#CCM_popup{display:none !important}" },
+  "stempelplatte.de": { s: "#cookie-modern-info,#cookie-modern-overlay{display:none !important}" },
+  "stempelwerk.de": { s: "#cookie-modern-info,#cookie-modern-overlay{display:none !important}" },
+
+
+
+
+
 };
 
 const blockUrls = {
