@@ -15996,7 +15996,8 @@ const rules = {
   "blog.thedigitalgroup.com": {s: "#modalCookies{display:none !important}"},
   "zlocinozrouti.cz": { j: "6" },
   "stefanvd.net": { s: "#cookie-law{display:none !important}"},
-  
+  "defence24.pl": { j: "3" },
+
 
 
 };

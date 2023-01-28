@@ -122,7 +122,14 @@ function getItem(hostname) {
         strict: false,
         key: "acceptsNonCriticalCookies",
         value: "accepted",
-      };  
+      }; 
+      case "defence24.pl":
+        return {
+          strict: false,
+          key: "privacy2022",
+          value: '{"required":true,"performance":false,"functional":false,"marketing":false,"analytics":false}',
+        }; 
+   
   }
 
   const parts = hostname.split(".");
