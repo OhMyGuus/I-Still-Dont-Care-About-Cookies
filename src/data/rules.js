@@ -16010,7 +16010,8 @@ const rules = {
   "lovrin.pl": {s: "#privacy-message{display:none !important}"},
   "materacezgor.pl": {s: "#privacy-message{display:none !important}"},
   "psiakostka.eu": {s: ".configMessages__footer{display:none !important}"},
-  "browar-tenczynek.pl":{s: "#privacy-policy-info{display:none !important}"}
+  "browar-tenczynek.pl":{s: "#privacy-policy-info{display:none !important}"},
+  "lek24.pl":{s: "#notice_bar{display:none !important}"},
 
 
 
