@@ -16016,6 +16016,7 @@ const rules = {
   "pizz.uno": { s: "#cookie-consent{display:none !important}"},
   "powerboard.basemark.com": { c: "3" },
   "carry.pl": { j: "6" },
+  "supermercadosmas.com": { j: "6" },
 
 
 

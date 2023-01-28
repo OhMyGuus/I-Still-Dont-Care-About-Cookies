@@ -568,6 +568,8 @@ function getE(hostname) {
       return ["sportrebel_retry_cookie_request=0"];
     case "carry.pl":
       return ["__carry_cookie_module=2"];
+    case "supermercadosmas.com":
+      return ["amcookie_allowed=0", "amcookie_disallowed=recently_viewed_product%2Crecently_viewed_product_previous%2Crecently_compared_product%2Crecently_compared_product_previous%2C_ga%2C_gid%2C_gat"];
 
   }
 
