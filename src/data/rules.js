@@ -16044,6 +16044,7 @@ const rules = {
   "assure.ameli.fr": { s: "#idPopupWARecueilConsentement{display:none !important}" },
   "webhero.be": { s: "div[data-cookie-popup]{display:none !important}" },
   "compendium.com.ua": { c: "6" },
+  "bibloo.cz": { s: "consent-dialog{display:none !important}" },
 };
 
 const blockUrls = {
