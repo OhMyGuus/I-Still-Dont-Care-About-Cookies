@@ -16024,7 +16024,8 @@ const rules = {
   "northpole.com": { s: "#cookies-pop{display:none !important}" },
   "knightsofhonor.com": { c: 0 },
   "dubina-chachar.cz": { s: ".fworks_consent_bar {display:none !important}" },
-  "mentta.com": { c: "85" }
+  "mentta.com": { c: "85" },
+  "ebookrenta.com": { s: "#js-ccpa_dialog{display:none !important}" },
 
 
 
