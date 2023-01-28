@@ -16002,6 +16002,8 @@ const rules = {
   "space24.pl": { j: "3" },
   "defence24.com": { j: "3" },
   "infosecurity24.pl": { j: "3" },
+  "dsmart.com.tr": { s: ".kvkk{display:none !important}"},
+  
 
 
 
