@@ -16049,7 +16049,7 @@ const rules = {
   "predecessorgame.com": { c: "0" },
   "korg.co.uk": { s: "#gdpr-blocking-page-overlay{display:none !important}", c:"85" },
   "mydigitalschool.com": { s: ".eu-cookie-compliance-status-null{display:none !important}", c:"85" },
-
+  "kostickylega.cz": { s: "#snippet-cookieBar-{display:none !important}" },
 
 
 
