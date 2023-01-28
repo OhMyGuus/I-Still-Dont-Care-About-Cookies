@@ -16029,6 +16029,7 @@ const rules = {
   "kaartje2go.nl": { s:  ".consentmodal{display:none !important}" },
   "jb-lighting.de": { s:  ".cookiefensterdeckflaeche, .cookiefenster{display:none !important}" },
   "coe.int": { s:  ".coe-cookies-consent-popup{display:none !important}" },
+  "hyrican.de": { s: "#dywc,#dywc_bglayer{display:none !important}" },
 
 
 
