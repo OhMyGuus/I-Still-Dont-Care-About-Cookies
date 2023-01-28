@@ -16015,6 +16015,7 @@ const rules = {
   "chrissiecosmetics.com.pl": { s: ".m-cookie-alert-1{display:none !important}"},
   "pizz.uno": { s: "#cookie-consent{display:none !important}"},
   "powerboard.basemark.com": { c: "3" },
+  "carry.pl": { j: "6" },
 
 
 

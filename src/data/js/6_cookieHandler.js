@@ -565,7 +565,9 @@ function getE(hostname) {
     case "zlocinozrouti.cz":
       return ['cookiesRules={"analytics":false,"personalized":false,"ads":false}'];
     case "sportrebel.pl":
-      return ["sportrebel_retry_cookie_request=0"]
+      return ["sportrebel_retry_cookie_request=0"];
+    case "carry.pl":
+      return ["__carry_cookie_module=2"];
 
   }
 
