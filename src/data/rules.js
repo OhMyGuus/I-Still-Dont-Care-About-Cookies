@@ -15995,6 +15995,8 @@ const rules = {
   "gerardmer.net": {s: "#bandeau_rgpd_cookies{display:none !important}"},
   "blog.thedigitalgroup.com": {s: "#modalCookies{display:none !important}"},
   "zlocinozrouti.cz": { j: "6" },
+  "stefanvd.net": { s: "#cookie-law{display:none !important}"},
+  
 
 
 };
