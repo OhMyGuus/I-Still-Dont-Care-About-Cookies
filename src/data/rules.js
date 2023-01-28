@@ -16014,6 +16014,7 @@ const rules = {
   "lek24.pl":{s: "#notice_bar{display:none !important}"},
   "chrissiecosmetics.com.pl": { s: ".m-cookie-alert-1{display:none !important}"},
   "pizz.uno": { s: "#cookie-consent{display:none !important}"},
+  "powerboard.basemark.com": { c: "4" },
 
 
 
