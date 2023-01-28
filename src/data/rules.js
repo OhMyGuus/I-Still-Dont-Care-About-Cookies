@@ -15994,7 +15994,8 @@ const rules = {
   "tickets.dieeisbaeren.de": { s: 'div[style*="position: fixed; left: 0px;"]{display:none !important}' },
   "gerardmer.net": {s: "#bandeau_rgpd_cookies{display:none !important}"},
   "blog.thedigitalgroup.com": {s: "#modalCookies{display:none !important}"},
-  
+  "zlocinozrouti.cz": { j: "6" },
+
 
 };
 

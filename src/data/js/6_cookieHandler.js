@@ -562,6 +562,8 @@ function getE(hostname) {
       return ['allow_cookies={"essential":"1","functional":{"all":"0"},"marketing":{"all":"0"}}'];
     case "seriesmania.com":
       return ["accept-cookie=no"];
+    case "zlocinozrouti.cz":
+      return ['cookiesRules={"analytics":false,"personalized":false,"ads":false}'];
 
   }
 
@@ -577,7 +579,6 @@ function getE(hostname) {
 
 const hostname = document.location.hostname.replace(/^w{2,3}\d*\./i, "");
 const cookies = getE(hostname);
-
 if (cookies) {
   let counter = 0;
 
