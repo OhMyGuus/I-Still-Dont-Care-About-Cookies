@@ -16039,7 +16039,7 @@ const rules = {
   "gothic-gifts.com": { s: "#CCM_popup{display:none !important}" },
   "stempelplatte.de": { s: "#cookie-modern-info,#cookie-modern-overlay{display:none !important}" },
   "stempelwerk.de": { s: "#cookie-modern-info,#cookie-modern-overlay{display:none !important}" },
-
+  "thefancytext.com": { c: "112" },
 
 
 
