@@ -16056,7 +16056,7 @@ const rules = {
   "na-kd.com": { s: "body{overflow-y:scroll !important}"},
   "pflanzenkatalog.ley-baumschule.de": { s: ".cookiemessagebackground{display:none !important}", c: "85" },
   "blog.flota.es": { s: "div[c_data=\"c_cookie_main\"]{display:none !important}", c: "85" },
-
+  "smallerearth.com": { c: "0" },
 
 
 };
