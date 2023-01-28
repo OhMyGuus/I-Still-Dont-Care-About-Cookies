@@ -16017,6 +16017,7 @@ const rules = {
   "powerboard.basemark.com": { c: "3" },
   "carry.pl": { j: "6" },
   "supermercadosmas.com": { j: "6" },
+  "sonicsvpn.com": { s: 'div[class*="index_cookie"]{display:none !important}'}
 
 
 
