@@ -16047,7 +16047,7 @@ const rules = {
   "bibloo.cz": { s: "consent-dialog{display:none !important}" },
   "spartorama.gr": { s: "#myModal{display:none !important}" },
   "predecessorgame.com": { c: "0" },
-
+  "korg.co.uk": { s: "#gdpr-blocking-page-overlay{display:none !important}", c:"85" },
 
 
 
