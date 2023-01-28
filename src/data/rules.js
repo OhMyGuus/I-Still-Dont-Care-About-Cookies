@@ -15997,6 +15997,13 @@ const rules = {
   "zlocinozrouti.cz": { j: "6" },
   "stefanvd.net": { s: "#cookie-law{display:none !important}"},
   "defence24.pl": { j: "3" },
+  "cyberdefence24.pl": { j: "3" },
+  "energetyka24.com": { j: "3" },
+  "space24.pl": { j: "3" },
+  "defence24.com": { j: "3" },
+  "infosecurity24.pl": { j: "3" },
+
+
 
 
 

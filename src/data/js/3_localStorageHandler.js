@@ -124,12 +124,16 @@ function getItem(hostname) {
         value: "accepted",
       }; 
       case "defence24.pl":
+      case "cyberdefence24.pl":
+      case "energetyka24.com":
+      case "space24.pl":
+      case "defence24.com":
+      case "infosecurity24.pl":
         return {
           strict: false,
           key: "privacy2022",
           value: '{"required":true,"performance":false,"functional":false,"marketing":false,"analytics":false}',
         }; 
-   
   }
 
   const parts = hostname.split(".");
