@@ -16053,6 +16053,12 @@ const rules = {
   "sunweb.fr": { s: ".c-backdrop, #w-cookie-consent{display:none !important}" },
   "sunweb.nl": { s: ".c-backdrop, #w-cookie-consent{display:none !important}" },
   "sunweb.be": { s: ".c-backdrop, #w-cookie-consent{display:none !important}" },
+  "na-kd.com": { s: "body{overflow-y:scroll !important}"},
+
+
+
+
+
 };
 
 const blockUrls = {
