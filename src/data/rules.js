@@ -16019,6 +16019,7 @@ const rules = {
   "supermercadosmas.com": { j: "6" },
   "sonicsvpn.com": { s: 'div[class*="index_cookie"]{display:none !important}'},
   "wolczanka.pl": { s: "#bottom-cookies{display:none !important}"},
+  "pogodadlaslaska.pl": { s: "#elementor-popup-modal-1823{display:none !important}"},
 
 
 
