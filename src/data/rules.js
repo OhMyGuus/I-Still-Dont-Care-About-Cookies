@@ -16040,7 +16040,7 @@ const rules = {
   "stempelplatte.de": { s: "#cookie-modern-info,#cookie-modern-overlay{display:none !important}" },
   "stempelwerk.de": { s: "#cookie-modern-info,#cookie-modern-overlay{display:none !important}" },
   "thefancytext.com": { c: "112" },
-
+  "riceundspice.de": { s: "body.disabled > *:not(.cookie-wrapper){pointer-events: unset !important; opacity: unset !important;}" },
 
 
 
