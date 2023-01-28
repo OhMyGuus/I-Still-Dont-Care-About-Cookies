@@ -16054,7 +16054,7 @@ const rules = {
   "sunweb.nl": { s: ".c-backdrop, #w-cookie-consent{display:none !important}" },
   "sunweb.be": { s: ".c-backdrop, #w-cookie-consent{display:none !important}" },
   "na-kd.com": { s: "body{overflow-y:scroll !important}"},
-
+  "pflanzenkatalog.ley-baumschule.de": { s: ".cookiemessagebackground{display:none !important}", c: "85" },
 
 
 
