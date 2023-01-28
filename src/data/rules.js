@@ -16034,7 +16034,8 @@ const rules = {
   "lampshoponline.com": { s: "#illow-banner-widget{display:none !important}" },
   "vistula.pl": { s: "#bottom-cookies{display:none !important}" },
   "espa.com": { s: ".cookienator{display:none !important}" },
-
+  "goodboy.ninja": { s: "{display:none !important}" },
+  "sivasdescalzo.com": { s: 'aside[data-role="gdpr-cookie-container"]{display:none !important}' },
 };
 
 const blockUrls = {
