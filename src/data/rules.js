@@ -16102,6 +16102,7 @@ const blockUrls = {
     { r: "/assets-usercentrics/uc-version" },
     { r: "/Sticky2,ConsentManager" },
     { r: "cnilCookie.js" },
+    { r: "basketballbelieve.com" }
   ],
   common_groups: {
     cookie: [
