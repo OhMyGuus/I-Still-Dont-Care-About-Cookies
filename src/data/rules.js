@@ -16027,6 +16027,7 @@ const rules = {
   "mentta.com": { c: "85" },
   "ebookrenta.com": { s: "#js-ccpa_dialog{display:none !important}" },
   "kaartje2go.nl": { s:  ".consentmodal{display:none !important}" },
+  "jb-lighting.de": { s:  ".cookiefensterdeckflaeche, .cookiefenster{display:none !important}" },
 
 
 
