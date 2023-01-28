@@ -16058,7 +16058,7 @@ const rules = {
   "blog.flota.es": { s: "div[c_data=\"c_cookie_main\"]{display:none !important}", c: "85" },
   "smallerearth.com": { c: "0" },
   "mr-electric.co.uk": { s: ".cookie-acception{display:none !important}" },
-  
+  "oscarproperties.com": { s: "div[class^=\"CookiesBanner\"]{display:none !important}" },
   
 
 };
