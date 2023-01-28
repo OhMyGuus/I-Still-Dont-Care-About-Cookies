@@ -16006,6 +16006,7 @@ const rules = {
   "kuchniasklep.pl": { s: "ks-cookie-popup{display:none !important}" },
   "aptekawsieci.pl": { c: "68" },
   "sportrebel.pl": { j: "6" },
+  "callusan.sklep.pl": { s: ".m-cookie-alert-1{display:none !important}"}
 
 
 
