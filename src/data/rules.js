@@ -16045,6 +16045,7 @@ const rules = {
   "webhero.be": { s: "div[data-cookie-popup]{display:none !important}" },
   "compendium.com.ua": { c: "6" },
   "bibloo.cz": { s: "consent-dialog{display:none !important}" },
+  "spartorama.gr": { s: "#myModal{display:none !important}" },
 };
 
 const blockUrls = {
