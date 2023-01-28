@@ -16059,8 +16059,8 @@ const rules = {
   "smallerearth.com": { c: "0" },
   "mr-electric.co.uk": { s: ".cookie-acception{display:none !important}" },
   "oscarproperties.com": { s: "div[class^=\"CookiesBanner\"]{display:none !important}" },
-  
-
+  "vestavis.eu": { s: ".bottom-freezed-bar{display:none !important}" },
+  "arendalsound.com": { s: "#cookie_dialog_wrap{display:none !important}" },
 };
 
 const blockUrls = {
