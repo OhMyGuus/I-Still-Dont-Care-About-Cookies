@@ -16051,7 +16051,9 @@ const rules = {
   "mydigitalschool.com": { s: ".eu-cookie-compliance-status-null{display:none !important}", c:"85" },
   "kostickylega.cz": { s: "#snippet-cookieBar-{display:none !important}" },
   "orangebank.es": { s: ".modal-cookies{display:none !important}" },
-
+  "sunweb.fr": { s: ".c-backdrop, #w-cookie-consent{display:none !important}" },
+  "sunweb.nl": { s: ".c-backdrop, #w-cookie-consent{display:none !important}" },
+  "sunweb.be": { s: ".c-backdrop, #w-cookie-consent{display:none !important}" },
 
 
 };
