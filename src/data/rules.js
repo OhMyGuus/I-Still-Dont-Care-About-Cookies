@@ -16064,7 +16064,7 @@ const rules = {
   "quorn.co.uk": { s: ".qcmp-modal{display:none !important}", c: "85" },
   "mymorrisons.com": { s: "body > #reactive-modal-root{display:none !important}" },
   "graviti.com": { s: ".gas-cookie-bar{display:none !important}" },
-
+  "my.kuka.com": { s: "c-osf-cookie-consent-banner{display:none !important}" },
 
 
 
