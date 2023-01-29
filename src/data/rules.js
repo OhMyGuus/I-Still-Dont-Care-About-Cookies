@@ -16129,7 +16129,7 @@ const rules = {
   "aachen.de": { s: "#cookiehuhu{display:none !important}" },
   "setasdesevilla.com": { c: "85" },
   "apk-store.org": { s: ".cop_dmca{display:none !important}" },
-
+  "monte-mare.de": { c: "4" },
 
 };
 
