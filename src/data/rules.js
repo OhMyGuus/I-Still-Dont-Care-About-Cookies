@@ -16127,7 +16127,7 @@ const rules = {
   "julieandrieu.com": { s: "#cookie-modal{display:none !important}", c: "85" },
   "ratatype.fr": { s: ".alert-bottom{display:none !important}" },
   "aachen.de": { s: "#cookiehuhu{display:none !important}" },
-  
+  "setasdesevilla.com": { c: "85" },
 
 
 };

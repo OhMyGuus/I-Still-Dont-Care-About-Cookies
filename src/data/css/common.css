@@ -13997,7 +13997,8 @@ body #consentsPolicyDialog,
 .cookieclaimer,
 div[data-control-type="CookieInfo"],
 .cookies-consent-overlay,
-div[data-role="cookies-modal-content"]
+div[data-role="cookies-modal-content"],
+.cookies-filter
 
 /* 14113 */ {
   display: none !important;
