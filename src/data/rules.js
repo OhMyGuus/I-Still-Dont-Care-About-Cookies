@@ -16085,7 +16085,7 @@ const rules = {
   "milopiwo.pl": { s: ".configMessages.configMessages__footer{display:none !important}" },
   "toyota.com.br": { s: "div[class*=\"cookies-banner-container\"]{display:none !important}" },
   "flex.orange.pl": { s:  "div[id*=\"CookiesPopup_cookies\"]{display:none !important}" },
-  
+  "alifragis.com.gr": { c: "85", s: "#cookies2020,#cookies2020overlay{display:none !important}" },
 
 
 
