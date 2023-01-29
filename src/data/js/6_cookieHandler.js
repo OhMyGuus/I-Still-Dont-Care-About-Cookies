@@ -572,6 +572,9 @@ function getE(hostname) {
       return ["amcookie_allowed=0", "amcookie_disallowed=recently_viewed_product%2Crecently_viewed_product_previous%2Crecently_compared_product%2Crecently_compared_product_previous%2C_ga%2C_gid%2C_gat"];
     case "kanalsportowy.pl":
       return ["eupubconsent-v2=CPmWSYAPmWSYAF_AAAENC1CgAAAAAAAAAB5YAAAAAAAA.YAAAAAAABQAAAAAA"];
+    case "huutokaupat.com":
+      return ["consent-data-v2=mandatory"]    
+  
   }
 
   const parts = hostname.split(".");
