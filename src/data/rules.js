@@ -16128,6 +16128,7 @@ const rules = {
   "ratatype.fr": { s: ".alert-bottom{display:none !important}" },
   "aachen.de": { s: "#cookiehuhu{display:none !important}" },
   "setasdesevilla.com": { c: "85" },
+  "apk-store.org": { s: ".cop_dmca{display:none !important}" },
 
 
 };
