@@ -574,6 +574,8 @@ function getE(hostname) {
       return ["eupubconsent-v2=CPmWSYAPmWSYAF_AAAENC1CgAAAAAAAAAB5YAAAAAAAA.YAAAAAAABQAAAAAA"];
     case "huutokaupat.com":
       return ["consent-data-v2=mandatory"]    
+    case "seb.se":
+      return ["AcceptedCookieCategories=0%"]   
   
   }
 
