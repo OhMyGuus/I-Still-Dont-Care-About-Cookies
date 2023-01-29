@@ -16086,7 +16086,7 @@ const rules = {
   "toyota.com.br": { s: "div[class*=\"cookies-banner-container\"]{display:none !important}" },
   "flex.orange.pl": { s:  "div[id*=\"CookiesPopup_cookies\"]{display:none !important}" },
   "alifragis.com.gr": { c: "85", s: "#cookies2020,#cookies2020overlay{display:none !important}" },
-
+  "cricut.com": { s: "#consent-tracking{display:none !important}" },
 
 
 };
