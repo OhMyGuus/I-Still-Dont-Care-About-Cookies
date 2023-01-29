@@ -16091,7 +16091,7 @@ const rules = {
   "lilysilk.com": { s: ".privacywrap{display:none !important}" },
   "community.tp-link.com": { s: "#tp-cookie-script{display:none !important}" },
   "interbank.pe": { s: ".o-cookies-banner{display:none !important}" },
-
+  "stackguides.com": { s: "#spopupCont{display:none !important}" },
 
 
   
