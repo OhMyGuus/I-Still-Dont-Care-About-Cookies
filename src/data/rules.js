@@ -3290,7 +3290,6 @@ const rules = {
   "dijaspora.online": { s: ".cookie-uslovi{display:none !important}" },
   "motodesguacehnosgonzalez.com": { j: "5" },
   "i-say.com": { j: "5" },
-  "jetbrains.com": { s: ".jba-agreement-panel{display:none !important}" },
   "purevpn.com": { j: "5" },
   "kaspersky.pt": { s: ".notification-bar.bottom{display:none !important}" },
   "verkkokauppa.com": { s: ".vk-cookie-notification{display:none !important}" },
@@ -16116,6 +16115,9 @@ const rules = {
   "meduniwien.ac.at": { s: "#fccCookieModal{display:none !important}" },
   "klachtenkompas.nl": { s: "div[data-test=\"consent-banner\"]{display:none !important}" },
   "huutokaupat.com": { j: "6" },
+  "mein-eigenheim.de": { s: ".overlay_cookiebanner{display:none !important}" },
+  "jetbrains.com": { s: ".jetbrains-cookies-banner-3{display:none !important}" },
+
 
 
 };
