@@ -13999,7 +13999,8 @@ div[data-control-type="CookieInfo"],
 .cookies-consent-overlay,
 div[data-role="cookies-modal-content"],
 .cookies-filter,
-#consent-div
+#consent-div,
+#privacy_controls_banner
 
 /* 14113 */ {
   display: none !important;
