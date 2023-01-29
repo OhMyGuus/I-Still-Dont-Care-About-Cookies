@@ -13992,7 +13992,8 @@ body #consentsPolicyDialog,
 .mainPrivacyModal,
 .cookie-setting,
 .content-widget.legal-widget,
-.cookie-status-message
+.cookie-status-message,
+.PopupGDPR
 
 /* 14113 */ {
   display: none !important;
