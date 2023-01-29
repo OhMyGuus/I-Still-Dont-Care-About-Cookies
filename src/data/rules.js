@@ -16122,7 +16122,7 @@ const rules = {
   "shop.dicompass.cloud": { s: "#cc_div{display:none !important}" },
   "mycashbacks.com": { c: "2" },
   "futura-sciences.com": { s: "#overlay{display:none !important}", c: "85" },
-
+  "sslmarket.com": { s: ".modal-cookies{display:none !important}" },
 };
 
 const blockUrls = {
