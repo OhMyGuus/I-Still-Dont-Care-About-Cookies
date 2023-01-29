@@ -16117,7 +16117,7 @@ const rules = {
   "huutokaupat.com": { j: "6" },
   "mein-eigenheim.de": { s: ".overlay_cookiebanner{display:none !important}" },
   "jetbrains.com": { s: ".jetbrains-cookies-banner-3{display:none !important}" },
-
+  "dreamingreece.com": { s: ".cookie-consent-inner{display:none !important}" },
 
 
 };
