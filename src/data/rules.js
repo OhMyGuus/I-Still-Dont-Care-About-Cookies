@@ -16123,6 +16123,7 @@ const rules = {
   "mycashbacks.com": { c: "2" },
   "futura-sciences.com": { s: "#overlay{display:none !important}", c: "85" },
   "sslmarket.com": { s: ".modal-cookies{display:none !important}" },
+  "trucksbook.eu": { s: "#cookieModal{display:none !important}", c: "85" },
 };
 
 const blockUrls = {
