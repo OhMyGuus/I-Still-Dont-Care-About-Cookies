@@ -16065,7 +16065,7 @@ const rules = {
   "mymorrisons.com": { s: "body > #reactive-modal-root{display:none !important}" },
   "graviti.com": { s: ".gas-cookie-bar{display:none !important}" },
   "my.kuka.com": { s: "c-osf-cookie-consent-banner{display:none !important}" },
-
+  "narzedzia.pl": { s: ".cookie-background{display:none !important}" },
 
 
 
