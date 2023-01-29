@@ -16077,7 +16077,7 @@ const rules = {
   "csgo.mtsl.dk": { s: "#cookie-accepter{display:none !important}" },
   "nappy.co": { s: ".btn-block.text-center.class-montserrat.showBanner.padding-top-10.padding-bottom-10{display:none !important}" },
   "elmachips.com.br": { c: "0" },
-
+  "goflink.com": { c: "6" },
 
 };
 
