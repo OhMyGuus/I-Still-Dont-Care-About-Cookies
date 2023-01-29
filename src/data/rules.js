@@ -16121,6 +16121,7 @@ const rules = {
   "seb.se": { j: "6" },
   "shop.dicompass.cloud": { s: "#cc_div{display:none !important}" },
   "mycashbacks.com": { c: "2" },
+  "futura-sciences.com": { s: "#overlay{display:none !important}", c: "85" },
 
 };
 
