@@ -16071,7 +16071,8 @@ const rules = {
   "energenie.com": { s: "#Footer_Cookie{display:none !important}" },
   "traseo.pl": { c: "34" },
   "trendwatcher.cz": { s: "#dynamic-cookies-bar,#dynamic-cookies-bar-overlay{display:none !important}" },
-
+  "telecopro.com": { s: "#elementor-popup-modal-548{display:none !important}" },
+  
 
 };
 
