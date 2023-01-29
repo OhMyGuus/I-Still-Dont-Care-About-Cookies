@@ -16067,7 +16067,7 @@ const rules = {
   "my.kuka.com": { s: "c-osf-cookie-consent-banner{display:none !important}" },
   "narzedzia.pl": { s: ".cookie-background{display:none !important}" },
   "rotopino.pl": { s: ".cookie-background{display:none !important}" },
-
+  "buehlerzuerich.ch": { s: "#elementor-popup-modal-8679{display:none !important}" },
 
 
 
