@@ -16083,10 +16083,9 @@ const rules = {
   "playdarktide.com": { c: "6" },
   "moodle.com": { s: ".cli-popupbar-overlay{display:none !important}" },
   "milopiwo.pl": { s: ".configMessages.configMessages__footer{display:none !important}" },
-  "toyota.com.br": { s: "div[class*[\"cookies-banner-container\"]{display:none !important}" },
-
+  "toyota.com.br": { s: "div[class*=\"cookies-banner-container\"]{display:none !important}" },
+  "flex.orange.pl": { s:  "div[id*=\"CookiesPopup_cookies\"]{display:none !important}" },
   
-
 
 
 
