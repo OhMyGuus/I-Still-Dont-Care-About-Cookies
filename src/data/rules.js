@@ -16093,7 +16093,7 @@ const rules = {
   "interbank.pe": { s: ".o-cookies-banner{display:none !important}" },
   "stackguides.com": { s: "#spopupCont{display:none !important}" },
   "drc.bz": { s: ".modal-cacsp-position{display:none !important}" },
-
+  "miljayega.com": { s: ".cookie_bot{display:none !important}" },
   
 };
 
