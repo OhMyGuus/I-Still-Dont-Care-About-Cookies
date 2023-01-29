@@ -16119,6 +16119,8 @@ const rules = {
   "jetbrains.com": { s: ".jetbrains-cookies-banner-3{display:none !important}" },
   "dreamingreece.com": { s: ".cookie-consent-inner{display:none !important}" },
   "seb.se": { j: "6" },
+  "shop.dicompass.cloud": { s: "#cc_div{display:none !important}" },
+
 };
 
 const blockUrls = {
