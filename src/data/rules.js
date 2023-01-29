@@ -16080,7 +16080,7 @@ const rules = {
   "goflink.com": { c: "6" },
   "advantest.com": { c: "3" },
   "autoscout24.de": { s: "div[class^=\"_consent-popup\"]{display:none !important}" },
-
+  "playdarktide.com": { c: "6" },
 
 
 };
