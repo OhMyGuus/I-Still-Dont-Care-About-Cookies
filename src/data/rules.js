@@ -16073,7 +16073,7 @@ const rules = {
   "trendwatcher.cz": { s: "#dynamic-cookies-bar,#dynamic-cookies-bar-overlay{display:none !important}" },
   "telecopro.com": { s: "#elementor-popup-modal-548{display:none !important}" },
   "pagefly.io": { c: "0" },
-
+  "mapy.spravazeleznic.cz": { c: "0" },
 };
 
 const blockUrls = {
