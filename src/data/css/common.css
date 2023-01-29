@@ -13993,7 +13993,8 @@ body #consentsPolicyDialog,
 .cookie-setting,
 .content-widget.legal-widget,
 .cookie-status-message,
-.PopupGDPR
+.PopupGDPR,
+div[data-control-type="CookieInfo"]
 
 /* 14113 */ {
   display: none !important;
