@@ -16132,7 +16132,7 @@ const rules = {
   "monte-mare.de": { c: "4" },
   "chatreplay.stream": { s: ".svelte-dx0l3i{display:none !important}" },
   "ford.si": { c: "20" },
-
+  "dartshop-bonn.de": { s: ".lightbox-backdrop-cc-dialog,.cc-dialog{display:none !important}" },
 };
 
 const blockUrls = {
