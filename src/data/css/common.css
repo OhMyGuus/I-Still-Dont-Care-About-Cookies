@@ -13988,7 +13988,8 @@ body > allow-cookies,
 .p-gdpr#cookie_ck,
 doc-layout-cookie-policy-banner,
 #valid-cookies,
-body #consentsPolicyDialog
+body #consentsPolicyDialog,
+.mainPrivacyModal
 
 /* 14113 */ {
   display: none !important;
