@@ -16068,7 +16068,7 @@ const rules = {
   "narzedzia.pl": { s: ".cookie-background{display:none !important}" },
   "rotopino.pl": { s: ".cookie-background{display:none !important}" },
   "buehlerzuerich.ch": { s: "#elementor-popup-modal-8679{display:none !important}" },
-
+  "energenie.com": { s: "#Footer_Cookie{display:none !important}" },
 
 
 
