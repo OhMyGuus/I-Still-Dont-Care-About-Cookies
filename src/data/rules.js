@@ -16095,6 +16095,20 @@ const rules = {
   "drc.bz": { s: ".modal-cacsp-position{display:none !important}" },
   "miljayega.com": { s: ".cookie_bot{display:none !important}" },
   "fxhome.com": { s: ".cookie-container{display:none !important}" },
+  "modivo.pl": { j: "3" },
+  "modivo.ro": { j: "3" },
+  "modivo.sk": { j: "3" },
+  "modivo.hu": { j: "3" },
+  "modivo.bg": { j: "3" },
+  "modivo.gr": { j: "3" },
+  "modivo.de": { j: "3" },
+  "modivo.fr": { j: "3" },
+  "modivo.it": { j: "3" },
+  "modivo.ua": { j: "3" },
+  "modivo.lv": { j: "3" },
+  "modivo.si": { j: "3" },
+  "modivo.at": { j: "3" },
+
 };
 
 const blockUrls = {
