@@ -16094,7 +16094,7 @@ const rules = {
   "stackguides.com": { s: "#spopupCont{display:none !important}" },
   "drc.bz": { s: ".modal-cacsp-position{display:none !important}" },
   "miljayega.com": { s: ".cookie_bot{display:none !important}" },
-  
+  "fxhome.com": { s: ".cookie-container{display:none !important}" },
 };
 
 const blockUrls = {
