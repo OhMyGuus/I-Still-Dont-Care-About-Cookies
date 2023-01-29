@@ -16109,6 +16109,7 @@ const rules = {
   "modivo.si": { j: "3" },
   "modivo.at": { j: "3" },
   "harrisscarfe.com.au": { s: ".modal-backdrop{display:none !important}"},
+  "vitens.nl": { c: "20" },
 };
 
 const blockUrls = {
