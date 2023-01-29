@@ -16062,6 +16062,7 @@ const rules = {
   "vestavis.eu": { s: ".bottom-freezed-bar{display:none !important}" },
   "arendalsound.com": { s: "#cookie_dialog_wrap{display:none !important}" },
   "quorn.co.uk": { s: ".qcmp-modal{display:none !important}", c: "85" },
+  "mymorrisons.com": { s: "body > #reactive-modal-root{display:none !important}" },
 };
 
 const blockUrls = {
