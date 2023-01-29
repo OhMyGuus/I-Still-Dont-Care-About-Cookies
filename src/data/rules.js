@@ -16082,6 +16082,11 @@ const rules = {
   "autoscout24.de": { s: "div[class^=\"_consent-popup\"]{display:none !important}" },
   "playdarktide.com": { c: "6" },
   "moodle.com": { s: ".cli-popupbar-overlay{display:none !important}" },
+  "milopiwo.pl": { s: ".configMessages.configMessages__footer{display:none !important}" },
+
+
+
+
 
 };
 
