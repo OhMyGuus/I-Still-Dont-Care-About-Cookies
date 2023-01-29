@@ -16090,7 +16090,7 @@ const rules = {
   "ebilet.pl": { s: "eb-cookies-policy-dialog{display:none !important}" },
   "lilysilk.com": { s: ".privacywrap{display:none !important}" },
   "community.tp-link.com": { s: "#tp-cookie-script{display:none !important}" },
-
+  "interbank.pe": { s: ".o-cookies-banner{display:none !important}" },
 
 
 
