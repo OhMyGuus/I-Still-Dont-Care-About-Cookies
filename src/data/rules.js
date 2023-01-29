@@ -16110,7 +16110,12 @@ const rules = {
   "modivo.at": { j: "3" },
   "harrisscarfe.com.au": { s: ".modal-backdrop{display:none !important}"},
   "vitens.nl": { c: "20" },
-  "rapiddc.pl": { s: "#cookies-consent-container{display:none !important}"  }, 
+  "rapiddc.pl": { s: "#cookies-consent-container{display:none !important}" }, 
+  "kupkolo.cz": { s: ".focus-cookiebara{display:none !important}", c: "85" },
+
+
+
+
 };
 
 const blockUrls = {
