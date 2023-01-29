@@ -16088,7 +16088,7 @@ const rules = {
   "alifragis.com.gr": { c: "85", s: "#cookies2020,#cookies2020overlay{display:none !important}" },
   "cricut.com": { s: "#consent-tracking{display:none !important}" },
   "ebilet.pl": { s: "eb-cookies-policy-dialog{display:none !important}" },
-
+  "lilysilk.com": { s: ".privacywrap{display:none !important}" },
 };
 
 const blockUrls = {
