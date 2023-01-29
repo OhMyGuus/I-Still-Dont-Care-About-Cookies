@@ -16125,6 +16125,10 @@ const rules = {
   "sslmarket.com": { s: ".modal-cookies{display:none !important}" },
   "trucksbook.eu": { s: "#cookieModal{display:none !important}", c: "85" },
   "julieandrieu.com": { s: "#cookie-modal{display:none !important}", c: "85" },
+  "ratatype.fr": { s: ".alert-bottom{display:none !important}" },
+
+
+
 };
 
 const blockUrls = {
