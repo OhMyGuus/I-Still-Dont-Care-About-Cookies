@@ -13989,7 +13989,8 @@ body > allow-cookies,
 doc-layout-cookie-policy-banner,
 #valid-cookies,
 body #consentsPolicyDialog,
-.mainPrivacyModal
+.mainPrivacyModal,
+.cookie-setting
 
 /* 14113 */ {
   display: none !important;
