@@ -16074,6 +16074,10 @@ const rules = {
   "telecopro.com": { s: "#elementor-popup-modal-548{display:none !important}" },
   "pagefly.io": { c: "0" },
   "mapy.spravazeleznic.cz": { c: "0" },
+  "csgo.mtsl.dk": { s: "#cookie-accepter{display:none !important}" },
+
+
+
 };
 
 const blockUrls = {
