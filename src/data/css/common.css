@@ -13996,7 +13996,8 @@ body #consentsPolicyDialog,
 .PopupGDPR,
 .cookieclaimer,
 div[data-control-type="CookieInfo"],
-.cookies-consent-overlay
+.cookies-consent-overlay,
+div[data-role="cookies-modal-content"]
 
 /* 14113 */ {
   display: none !important;
