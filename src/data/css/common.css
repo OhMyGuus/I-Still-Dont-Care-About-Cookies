@@ -13991,7 +13991,8 @@ doc-layout-cookie-policy-banner,
 body #consentsPolicyDialog,
 .mainPrivacyModal,
 .cookie-setting,
-.content-widget.legal-widget
+.content-widget.legal-widget,
+.cookie-status-message
 
 /* 14113 */ {
   display: none !important;
