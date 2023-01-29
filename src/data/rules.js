@@ -16075,7 +16075,7 @@ const rules = {
   "pagefly.io": { c: "0" },
   "mapy.spravazeleznic.cz": { c: "0" },
   "csgo.mtsl.dk": { s: "#cookie-accepter{display:none !important}" },
-
+  "nappy.co": { s: ".btn-block.text-center.class-montserrat.showBanner.padding-top-10.padding-bottom-10{display:none !important}" },
 
 
 };
