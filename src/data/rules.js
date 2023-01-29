@@ -16114,6 +16114,9 @@ const rules = {
   "kupkolo.cz": { s: ".focus-cookiebara{display:none !important}", c: "85" },
   "kanalsportowy.pl": { j: "6" },
   "meduniwien.ac.at": { s: "#fccCookieModal{display:none !important}" },
+  "klachtenkompas.nl": { s: "div[data-test=\"consent-banner\"]{display:none !important}" },
+
+
 
 };
 
