@@ -16130,6 +16130,8 @@ const rules = {
   "setasdesevilla.com": { c: "85" },
   "apk-store.org": { s: ".cop_dmca{display:none !important}" },
   "monte-mare.de": { c: "4" },
+  "chatreplay.stream": { s: ".svelte-dx0l3i{display:none !important}" },
+
 
 };
 
