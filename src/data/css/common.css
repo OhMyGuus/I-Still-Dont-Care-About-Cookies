@@ -13990,7 +13990,8 @@ doc-layout-cookie-policy-banner,
 #valid-cookies,
 body #consentsPolicyDialog,
 .mainPrivacyModal,
-.cookie-setting
+.cookie-setting,
+.content-widget.legal-widget
 
 /* 14113 */ {
   display: none !important;
