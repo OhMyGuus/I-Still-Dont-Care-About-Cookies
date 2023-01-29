@@ -14000,7 +14000,9 @@ div[data-control-type="CookieInfo"],
 div[data-role="cookies-modal-content"],
 .cookies-filter,
 #consent-div,
-#privacy_controls_banner
+#privacy_controls_banner,
+.gdpr-cookies-button-float,
+.gdpr-cookies-welcome-box
 
 /* 14113 */ {
   display: none !important;
