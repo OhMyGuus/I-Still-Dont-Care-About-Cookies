@@ -16070,7 +16070,7 @@ const rules = {
   "buehlerzuerich.ch": { s: "#elementor-popup-modal-8679{display:none !important}" },
   "energenie.com": { s: "#Footer_Cookie{display:none !important}" },
   "traseo.pl": { c: "34" },
-
+  "trendwatcher.cz": { s: "#dynamic-cookies-bar,#dynamic-cookies-bar-overlay{display:none !important}" },
 
 
 };
