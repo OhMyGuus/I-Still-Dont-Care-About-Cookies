@@ -16153,7 +16153,7 @@ const rules = {
   "super-hobby.fr": { s: ".message-footer-panel{display:none !important}" },
   "fa-mag.com": { s: "#privacy-policy-sticky{display:none !important}" },
   "dfg.de": { s: ".bab-modul-cookie-consent{display:none !important}" },
-
+  "moebel-rieger.de": { s: ".cookie-permission-background{display:none !important}" },
 
 
 
