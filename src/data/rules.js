@@ -16154,7 +16154,7 @@ const rules = {
   "fa-mag.com": { s: "#privacy-policy-sticky{display:none !important}" },
   "dfg.de": { s: ".bab-modul-cookie-consent{display:none !important}" },
   "moebel-rieger.de": { s: ".cookie-permission-background{display:none !important}" },
-
+  "i4wifi.eu": { s: "#CPrivacy-Panel{display:none !important}" },
 
 
 };
