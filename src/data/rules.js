@@ -16135,6 +16135,8 @@ const rules = {
   "dartshop-bonn.de": { s: ".lightbox-backdrop-cc-dialog,.cc-dialog{display:none !important}" },
   "zitis.bund.de": { s: ".mfp-ready{display:none !important}" },
   "ar-demo.tradesoft.pro": { s: ".cookies-window{display:none !important}" },
+  "goodnotes.com": { s: ".fscc{display:none !important}" },
+
 
 };
 
