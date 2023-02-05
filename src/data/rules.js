@@ -16163,6 +16163,7 @@ const rules = {
   "massgeneralbrigham.org": { s: ".footer__notice modal{display:none !important}" },
   "pccomponentes.pt": { c: "39" },
   "plancha-grillen.com": { s: ".lightbox-backdrop.lightbox-backdrop-cc-dialog{display:none !important}" },
+  "6paknutrition.com": { s: ".pop-cookiebox{display:none !important}" },
 };
 
 const blockUrls = {
