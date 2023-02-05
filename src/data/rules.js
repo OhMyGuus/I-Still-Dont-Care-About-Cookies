@@ -16151,7 +16151,8 @@ const rules = {
   "super-hobby.it": { s: ".message-footer-panel{display:none !important}" },
   "super-hobby.es": { s: ".message-footer-panel{display:none !important}" },
   "super-hobby.fr": { s: ".message-footer-panel{display:none !important}" },
-
+  "fa-mag.com": { s: "#privacy-policy-sticky{display:none !important}" },
+  
 
 
 
