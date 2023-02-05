@@ -16137,9 +16137,9 @@ const rules = {
   "ar-demo.tradesoft.pro": { s: ".cookies-window{display:none !important}" },
   "goodnotes.com": { s: ".fscc{display:none !important}" },
   "leslipfrancais.fr": { s: "#nq_cnilbanner_container{display:none !important}", c: "85" },
-
-
-
+  "nextenergy.nl": { s: ".fs-cc-banner2_component{display:none !important}" },
+ 
+  
 
 
 
