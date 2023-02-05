@@ -16161,7 +16161,7 @@ const rules = {
   "gross-zimmern.de": { c: "85" },
   "lacid.org": { s: ".topLayer{display:none !important}" },
   "massgeneralbrigham.org": { s: ".footer__notice modal{display:none !important}" },
-
+  "pccomponentes.pt": { c: "39" },
 
 };
 
