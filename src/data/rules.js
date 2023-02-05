@@ -16156,6 +16156,10 @@ const rules = {
   "moebel-rieger.de": { s: ".cookie-permission-background{display:none !important}" },
   "i4wifi.eu": { s: "#CPrivacy-Panel{display:none !important}" },
   "herole.de": { s: "#incredible-cookie-furnace-generator{display:none !important}" },
+  "mygym.com": { s: "#cookies-pop-up{display:none !important}" },
+
+
+  
 };
 
 const blockUrls = {
