@@ -16142,7 +16142,7 @@ const rules = {
   "nicepage.com": { s: "#np-cookie-consent{display:none !important}" },
   "actievandedag.nl": { s: ".fixed.z-20.bottom-0.left-0.right-0.py-4.bg-black.bg-opacity-80{display:none !important}" },
   "trampaboards.com": { s: "#eu_cookie_instructions{display:none !important}" },
-
+  "mvz-krankenhaus-weilburg.de": { s: "#pg_cTBanner{display:none !important}" },
 
 };
 
