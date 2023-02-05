@@ -16143,6 +16143,18 @@ const rules = {
   "actievandedag.nl": { s: ".fixed.z-20.bottom-0.left-0.right-0.py-4.bg-black.bg-opacity-80{display:none !important}" },
   "trampaboards.com": { s: "#eu_cookie_instructions{display:none !important}" },
   "mvz-krankenhaus-weilburg.de": { s: "#pg_cTBanner{display:none !important}" },
+  "super-hobby.com": { s: ".message-footer-panel{display:none !important}" },
+  "super-hobby.co.uk": { s: ".message-footer-panel{display:none !important}" },
+  "super-hobby.de": { s: ".message-footer-panel{display:none !important}" },
+  "super-hobby.be": { s: ".message-footer-panel{display:none !important}" },
+  "super-hobby.at": { s: ".message-footer-panel{display:none !important}" },
+  "super-hobby.it": { s: ".message-footer-panel{display:none !important}" },
+  "super-hobby.es": { s: ".message-footer-panel{display:none !important}" },
+  "super-hobby.fr": { s: ".message-footer-panel{display:none !important}" },
+
+
+
+
 
 };
 
