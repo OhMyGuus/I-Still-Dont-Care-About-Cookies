@@ -16136,6 +16136,11 @@ const rules = {
   "zitis.bund.de": { s: ".mfp-ready{display:none !important}" },
   "ar-demo.tradesoft.pro": { s: ".cookies-window{display:none !important}" },
   "goodnotes.com": { s: ".fscc{display:none !important}" },
+  "leslipfrancais.fr": { s: "#nq_cnilbanner_container{display:none !important}", c: "85" },
+
+
+
+
 
 
 };
