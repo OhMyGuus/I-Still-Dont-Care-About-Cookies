@@ -16158,6 +16158,7 @@ const rules = {
   "herole.de": { s: "#incredible-cookie-furnace-generator{display:none !important}" },
   "mygym.com": { s: "#cookies-pop-up{display:none !important}" },
   "ssceindhoven.tue.nl": { s: "#cookie-consent{display:none !important}" },
+  "gross-zimmern.de": { c: "85" }
 
   
 };
