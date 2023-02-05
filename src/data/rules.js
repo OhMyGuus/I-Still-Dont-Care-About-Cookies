@@ -16951,6 +16951,7 @@ const blockUrls = {
       { r: "/cookie-consent-banner/" },
       { r: "/dxcookieconsent/" },
       { r: "/wp-content/plugins/real-cookie-banner" },
+      { r: "sohoshopcookies.js"}
     ],
     consent: [
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
@@ -17079,7 +17080,7 @@ const blockUrls = {
       { r: "consent.scm-verlagsgruppe.de" },
       { r: "/wp-content/plugins/consent-magic-pro" },
       { r: "7gra.us/consentbar" },
-      { r: "/dgp-cookie-consent"}
+      { r: "/dgp-cookie-consent"},
     ],
     gdpr: [
       { r: "/js/gdpr_footer.js" },
