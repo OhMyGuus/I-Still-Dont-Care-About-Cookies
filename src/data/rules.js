@@ -16157,7 +16157,7 @@ const rules = {
   "i4wifi.eu": { s: "#CPrivacy-Panel{display:none !important}" },
   "herole.de": { s: "#incredible-cookie-furnace-generator{display:none !important}" },
   "mygym.com": { s: "#cookies-pop-up{display:none !important}" },
-
+  "ssceindhoven.tue.nl": { s: "#cookie-consent{display:none !important}" },
 
   
 };
