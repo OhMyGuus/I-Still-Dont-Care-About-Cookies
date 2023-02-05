@@ -16160,7 +16160,9 @@ const rules = {
   "ssceindhoven.tue.nl": { s: "#cookie-consent{display:none !important}" },
   "gross-zimmern.de": { c: "85" },
   "lacid.org": { s: ".topLayer{display:none !important}" },
-  
+  "massgeneralbrigham.org": { s: ".footer__notice modal{display:none !important}" },
+
+
 };
 
 const blockUrls = {
