@@ -16139,6 +16139,7 @@ const rules = {
   "leslipfrancais.fr": { s: "#nq_cnilbanner_container{display:none !important}", c: "85" },
   "nextenergy.nl": { s: ".fs-cc-banner2_component{display:none !important}" },
   "cosmosmagazine.com": { s: ".adn-window{display:none !important}" },
+  "nicepage.com": { s: "#np-cookie-consent{display:none !important}" },
   
 
 
