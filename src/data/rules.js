@@ -16133,6 +16133,9 @@ const rules = {
   "chatreplay.stream": { s: ".svelte-dx0l3i{display:none !important}" },
   "ford.si": { c: "20" },
   "dartshop-bonn.de": { s: ".lightbox-backdrop-cc-dialog,.cc-dialog{display:none !important}" },
+  "zitis.bund.de": { s: ".mfp-ready{display:none !important}" },
+
+
 };
 
 const blockUrls = {
