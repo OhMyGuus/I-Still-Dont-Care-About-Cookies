@@ -16162,7 +16162,7 @@ const rules = {
   "lacid.org": { s: ".topLayer{display:none !important}" },
   "massgeneralbrigham.org": { s: ".footer__notice modal{display:none !important}" },
   "pccomponentes.pt": { c: "39" },
-
+  "plancha-grillen.com": { s: ".lightbox-backdrop.lightbox-backdrop-cc-dialog{display:none !important}" },
 };
 
 const blockUrls = {
