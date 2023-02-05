@@ -16140,7 +16140,7 @@ const rules = {
   "nextenergy.nl": { s: ".fs-cc-banner2_component{display:none !important}" },
   "cosmosmagazine.com": { s: ".adn-window{display:none !important}" },
   "nicepage.com": { s: "#np-cookie-consent{display:none !important}" },
-  
+  "actievandedag.nl": { s: ".fixed.z-20.bottom-0.left-0.right-0.py-4.bg-black.bg-opacity-80{display:none !important}" },
 
 
 
