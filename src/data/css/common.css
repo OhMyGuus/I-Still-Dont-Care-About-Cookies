@@ -13988,7 +13988,21 @@ body > allow-cookies,
 .p-gdpr#cookie_ck,
 doc-layout-cookie-policy-banner,
 #valid-cookies,
-body #consentsPolicyDialog
+body #consentsPolicyDialog,
+.mainPrivacyModal,
+.cookie-setting,
+.content-widget.legal-widget,
+.cookie-status-message,
+.PopupGDPR,
+.cookieclaimer,
+div[data-control-type="CookieInfo"],
+.cookies-consent-overlay,
+div[data-role="cookies-modal-content"],
+.cookies-filter,
+#consent-div,
+#privacy_controls_banner,
+.gdpr-cookies-button-float,
+.gdpr-cookies-welcome-box
 
 /* 14113 */ {
   display: none !important;

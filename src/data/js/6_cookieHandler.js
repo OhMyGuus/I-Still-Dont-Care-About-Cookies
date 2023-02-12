@@ -562,6 +562,21 @@ function getE(hostname) {
       return ['allow_cookies={"essential":"1","functional":{"all":"0"},"marketing":{"all":"0"}}'];
     case "seriesmania.com":
       return ["accept-cookie=no"];
+    case "zlocinozrouti.cz":
+      return ['cookiesRules={"analytics":false,"personalized":false,"ads":false}'];
+    case "sportrebel.pl":
+      return ["sportrebel_retry_cookie_request=0"];
+    case "carry.pl":
+      return ["__carry_cookie_module=2"];
+    case "supermercadosmas.com":
+      return ["amcookie_allowed=0", "amcookie_disallowed=recently_viewed_product%2Crecently_viewed_product_previous%2Crecently_compared_product%2Crecently_compared_product_previous%2C_ga%2C_gid%2C_gat"];
+    case "kanalsportowy.pl":
+      return ["eupubconsent-v2=CPmWSYAPmWSYAF_AAAENC1CgAAAAAAAAAB5YAAAAAAAA.YAAAAAAABQAAAAAA"];
+    case "huutokaupat.com":
+      return ["consent-data-v2=mandatory"]    
+    case "seb.se":
+      return ["AcceptedCookieCategories=0%"]   
+  
   }
 
   const parts = hostname.split(".");
@@ -576,7 +591,6 @@ function getE(hostname) {
 
 const hostname = document.location.hostname.replace(/^w{2,3}\d*\./i, "");
 const cookies = getE(hostname);
-
 if (cookies) {
   let counter = 0;
 

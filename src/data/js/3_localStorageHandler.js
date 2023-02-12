@@ -122,7 +122,47 @@ function getItem(hostname) {
         strict: false,
         key: "acceptsNonCriticalCookies",
         value: "accepted",
-      };  
+      }; 
+      case "defence24.pl":
+      case "cyberdefence24.pl":
+      case "energetyka24.com":
+      case "space24.pl":
+      case "defence24.com":
+      case "infosecurity24.pl":
+        return {
+          strict: false,
+          key: "privacy2022",
+          value: '{"required":true,"performance":false,"functional":false,"marketing":false,"analytics":false}',
+        };
+        
+      case "modivo.pl": 
+      case "modivo.it":
+      case "modivo.ro": 
+      case "modivo.sk": 
+      case "modivo.hu": 
+      case "modivo.bg": 
+      case "modivo.gr": 
+      case "modivo.de": 
+      case "modivo.fr": 
+      case "modivo.it": 
+      case "modivo.ua": 
+      case "modivo.lv": 
+      case "modivo.si": 
+      case "modivo.at": 
+        return [{
+          strict: false,
+          key: "__MODIVO__hide_modal_consents",
+          value: '{"expires":1875041510390,"data":true}',
+        }, {
+          strict: false,
+          key: "__MODIVO__consents_accepted",
+          value: 'true',
+        },
+        {
+          strict: false,
+          key: "__MODIVO__items_consents_codes",
+          value: '["category_advertisement","category_analysis_and_research","category_location","category_processes","category_service_configuration","Zowie","Synerise","Double Take","Wirtualna Polska Media","Onet","Playlink","INIS sp z o.o.","Tradedoubler","Google Ads","Snowdog","Ringier Axel Springer Polska","Facebook","Verizon Media","Microsoft Corporation","Criteo GmbH","RTB House","TikTok","Hotjar"]',
+        }]
   }
 
   const parts = hostname.split(".");
