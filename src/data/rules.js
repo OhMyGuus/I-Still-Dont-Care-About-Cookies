@@ -16322,6 +16322,7 @@ const rules = {
   "skyscanner.com.my": { j: 6 },
   "skyscanner.com.mx": { j: 6 },
   "milenio.com": { s: "#camus-cookie-disclaimer{display:none !important}" },
+  "energylivenews.com": { s: "#cookie-notification-mask{display:none !important}" },
 
 };
 
