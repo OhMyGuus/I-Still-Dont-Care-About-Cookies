@@ -1,4 +1,4 @@
-## Fork of the popular ["I don't care about cookies"](https://www.i-dont-care-about-cookies.eu/) extension
+## Fork of the popular "I don't care about cookies" extension
 
 Get rid of cookie warnings from almost all websites!
 
@@ -21,8 +21,6 @@ This extension has been acquired by _**Avast**_ and I simply don't trust Avast w
 
 We welcome contributions to the translation of the extension. If you're interested in helping us translate the extension to your language, you can join us on [Crowdin](https://crowdin.com/project/i-still-dont-care-about-cookie/).
 
-We would like to extend our gratitude to all the translators who have helped us make the extension accessible to a wider audience. Your efforts in translating the extension are highly appreciated, and we could not have done it without you. Thank you!
-
 ## Credits / spotlights
 
 - [OhMyGuus](https://github.com/OhMyGuus/) - Current maintainer of this
@@ -31,6 +29,10 @@ We would like to extend our gratitude to all the translators who have helped us 
 - [All other contributors](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/graphs/contributors) (Thanks!)
 - [Daniel Kladnik](https://www.linkedin.com/in/dkladnik) - Developer of original extension
 - Everyone who reported a website.
+
+## Thanks to all contributors
+
+We would like to extend our gratitude to all the contributors, translators, and everyone who has helped make this extension possible. Your efforts and support are highly appreciated, and we could not have done it without you. Thank you!
 
 ## License
 
