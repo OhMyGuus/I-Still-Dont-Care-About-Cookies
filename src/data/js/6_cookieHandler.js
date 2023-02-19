@@ -576,8 +576,70 @@ function getE(hostname) {
       return ["consent-data-v2=mandatory"]    
     case "seb.se":
       return ["AcceptedCookieCategories=0%"]   
-  
+    case "skyscanner.net":
+    case "skyscanner.ru":
+    case "skyscanner.fi":
+    case "skyscanner.no":
+    case "skyscanner.nl":
+    case "skyscanner.ro":
+    case "skyscanner.com.ni":
+    case "skyscanner.at":
+    case "skyscanner.com.sg":
+    case "skyscanner.es":
+    case "skyscanner.co.nz":
+    case "skyscanner.com.sa":
+    case "skyscanner.com.bo":
+    case "skyscanner.com.br":
+    case "skyscanner.mx":
+    case "skyscanner.it":
+    case "skyscanner.ae":
+    case "skyscanner.in":
+    case "skyscanner.com.sv":
+    case "skyscanner.ie":
+    case "skyscanner.co.kr":
+    case "skyscanner.com.pe":
+    case "skyscanner.com.ph":
+    case "skyscanner.com.pa":
+    case "skyscanner.hu":
+    case "skyscanner.com.gt":
+    case "skyscanner.com.co":
+    case "skyscanner.dk":
+    case "skyscanner.co.th":
+    case "skyscanner.com.hn":
+    case "skyscanner.pt":
+    case "skyscanner.tw":
+    case "skyscanner.de":
+    case "skyscanner.com.hk":
+    case "skyscanner.com.tw":
+    case "skyscanner.pl":
+    case "skyscanner.com.tr":
+    case "skyscanner.cz":
+    case "skyscanner.com":
+    case "skyscanner.cr":
+    case "skyscanner.com.py":
+    case "skyscanner.cl":
+    case "skyscanner.com.ua":
+    case "skyscanner.com.do":
+    case "skyscanner.kr":
+    case "skyscanner.co.id":
+    case "skyscanner.ch":
+    case "skyscanner.gg":
+    case "skyscanner.ca":
+    case "skyscanner.com.uy":
+    case "skyscanner.com.ec":
+    case "skyscanner.co.il":
+    case "skyscanner.co.in":
+    case "skyscanner.com.vn":
+    case "skyscanner.se":
+    case "skyscanner.com.ar":
+    case "skyscanner.com.au":
+    case "skyscanner.fr":
+    case "skyscanner.jp":
+    case "skyscanner.com.my":
+    case "skyscanner.com.mx":
+      return ["gdpr=information&adverts&version:::2"]
   }
+
 
   const parts = hostname.split(".");
 
