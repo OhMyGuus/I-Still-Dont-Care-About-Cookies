@@ -16321,7 +16321,7 @@ const rules = {
   "skyscanner.jp": { j: 6 },
   "skyscanner.com.my": { j: 6 },
   "skyscanner.com.mx": { j: 6 },
-  
+  "milenio.com": { s: "#camus-cookie-disclaimer{display:none !important}" },
 
 };
 
