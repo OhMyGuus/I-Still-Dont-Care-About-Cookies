@@ -638,6 +638,8 @@ function getE(hostname) {
     case "skyscanner.com.my":
     case "skyscanner.com.mx":
       return ["gdpr=information&adverts&version:::2"]
+    case "dslbank.de":
+      return ["Cookieinfoauswahl=false"]
   }
 
 
