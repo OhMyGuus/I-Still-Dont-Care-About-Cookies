@@ -16360,7 +16360,7 @@ const rules = {
   "zps.si": { s: "#preload_over{display:none !important}" },
   "engelvoelkers.com": { s: "#didomi-popup{display:none !important}" },
   "ajanvaraus.veripalvelu.fi": { s: "#cookie-consent-content{display:none !important}", c: 85 },
-
+  "cazenovecapital.com": { s: "#disclaimerModal{display:none !important}", c: 14 },
 
 
 };
