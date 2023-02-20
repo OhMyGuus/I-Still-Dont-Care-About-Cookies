@@ -16366,6 +16366,13 @@ const rules = {
   "idream.pl": { s: "#garua_cookie_consent_popup{display:none !important}" },
   "blog.andwork.com": { s: ".overlay{display:none !important}" },
   "support.lexmark.com": { s: ".tui-gdpr{display:none !important}" },
+  "deskmat.io": { s: "div[class*=\"CookieThingy\"]{display:none !important}" },
+
+
+
+
+
+
 };
 
 const blockUrls = {
