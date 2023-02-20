@@ -16354,7 +16354,7 @@ const rules = {
   "studentbostader.se": { s: ".cc-container{display:none !important}" },
   "finnair.com": { s: "fin-cookie-policy{display:none !important}", c: 14 },
   "postleitzahl.org": { s: "#cmp{display:none !important}" },
-  
+  "mondomebeli.com": { c: 0 },
 };
 
 const blockUrls = {
