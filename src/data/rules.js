@@ -15450,6 +15450,9 @@ const rules = {
   "123inkt.nl": {
     s: '.simple-popup-container[data-action="CookiePopup"]{display:none !important}',
   },
+  "123tinta.es": {
+    s: '.simple-popup-container[data-action="CookiePopup"]{display:none !important}',
+  },
   "beruby.com": { s: "#box-shadow{display:none !important}" },
   "arche.net": {
     s: "#cookieModal{display:none !important}",
@@ -16336,7 +16339,7 @@ const rules = {
   "unions-pompiers.fr": { s: "#bandeau_consent{display:none !important}" },
   "fermedelinciaux.be": { s: "#elementor-popup-modal-3101{display:none !important}" },
   "webapps.geohive.ie": { s: "#widgets_Splash_Widget_14{display:none !important}" },
-
+  
 
 };
 
