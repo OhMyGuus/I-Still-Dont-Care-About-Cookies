@@ -16377,6 +16377,16 @@ const rules = {
   "snowleader.co.uk": { s: ".c-bandeau-rgpd{display:none !important}" }, 
   "rupertspira.com": { s: ".cookie-warning__overlay{display:none !important}" },
   "archiveofourown.org": { s: "#tos_prompt{display:none !important}" },
+  "palit.com": { s: "#pp_overlay,#pp_info{display:none !important}" },
+
+
+
+
+
+
+
+
+
 };
 
 const blockUrls = {
