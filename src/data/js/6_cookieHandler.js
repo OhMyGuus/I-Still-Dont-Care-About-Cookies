@@ -640,6 +640,8 @@ function getE(hostname) {
       return ["gdpr=information&adverts&version:::2"]
     case "dslbank.de":
       return ["Cookieinfoauswahl=false"]
+    case "nadia.gov.gr":
+      return ["consent-status=000"]
   }
 
 
