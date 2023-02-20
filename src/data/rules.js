@@ -17948,6 +17948,8 @@ const blockUrls = {
       { r: "/ccnst/ccbundle.min.js" },
       { r: "cc.mpa-web.de/public/app.js" },
       { r: "/klaro/klaro-pe.js" },
+      { r: "klaro-no-css.js" },
+
     ],
   },
   specific: {
