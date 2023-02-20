@@ -16340,7 +16340,7 @@ const rules = {
   "fermedelinciaux.be": { s: "#elementor-popup-modal-3101{display:none !important}" },
   "webapps.geohive.ie": { s: "#widgets_Splash_Widget_14{display:none !important}" },
   "vicampo.de": { j: 3 },
-  
+  "yap-app.it": { s: ".yap-cookie-bar{display:none !important}" },
 
 };
 
