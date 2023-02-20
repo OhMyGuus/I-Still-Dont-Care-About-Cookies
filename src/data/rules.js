@@ -16324,6 +16324,12 @@ const rules = {
   "milenio.com": { s: "#camus-cookie-disclaimer{display:none !important}" },
   "energylivenews.com": { s: "#cookie-notification-mask{display:none !important}" },
   "dslbank.de": { j: 6 },
+  "metzgerei.org": { s: "#consent-modal-fw,#consent-banner-fw{display:none !important}" },
+
+
+
+
+
 };
 
 const blockUrls = {
