@@ -16358,7 +16358,7 @@ const rules = {
   "sa.wahl.com": { s: "#form-popups{display:none !important}" },
   "domicile-emploi.net": { c: 30 },
   "zps.si": { s: "#preload_over{display:none !important}" },
-
+  "engelvoelkers.com": { s: "#didomi-popup{display:none !important}" },
 
 
 
