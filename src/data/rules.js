@@ -13801,6 +13801,7 @@ const rules = {
   "b-parts.com": { j: "5" },
   "a1.si": { j: "5" },
   "ticketswap.com": { c: 51 },
+  "ticketswap.uk": { c: 51 },
   "ticketswap.nl": { c: 51 },
   "ticketswap.fr": { c: 51 },
   "ticketswap.be": { c: 51 },
