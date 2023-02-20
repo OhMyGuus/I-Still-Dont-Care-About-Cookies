@@ -16333,6 +16333,10 @@ const rules = {
   "obarbershop.com": { s: ".cookies_section{display:none !important}" },
   "radioforen.de": { s: ".notice--cookieAdvanced{display:none !important}" },
   "sena.com": { c: "112" },
+  "unions-pompiers.fr": { s: "#bandeau_consent{display:none !important}" },
+
+
+
 
 };
 
