@@ -16375,7 +16375,7 @@ const rules = {
   "ecclesiae.com.br": { s: ".box-aceite-privacidade{display:none !important}" },
   "designalive.pl": { s: ".advancedCookiesPopup{display:none !important}" },
   "snowleader.co.uk": { s: ".c-bandeau-rgpd{display:none !important}" },
-
+  "rupertspira.com": { s: ".cookie-warning__overlay{display:none !important}" },
 
 };
 
