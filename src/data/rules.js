@@ -16328,6 +16328,11 @@ const rules = {
   "lizy.be": { s: "div[class^=\"PopupCookies-module_wrapper\"]{display:none !important}" },
   "cuxlandparks.de": { s: "sw-cookiemessage{display:none !important}" },
   "europa-plc.com": { s: "#cookieplate{display:none !important}" },
+  "checkfrank.dk": { c: "14" },
+
+
+
+
 
 
 };
