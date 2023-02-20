@@ -16373,6 +16373,9 @@ const rules = {
 
 
 
+
+
+
 };
 
 const blockUrls = {
@@ -17957,6 +17960,7 @@ const blockUrls = {
       { r: "cc.mpa-web.de/public/app.js" },
       { r: "/klaro/klaro-pe.js" },
       { r: "klaro-no-css.js" },
+      { r: "ionic-consent.js" }
 
     ],
   },
