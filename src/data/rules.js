@@ -16378,7 +16378,7 @@ const rules = {
   "rupertspira.com": { s: ".cookie-warning__overlay{display:none !important}" },
   "archiveofourown.org": { s: "#tos_prompt{display:none !important}" },
   "palit.com": { s: "#pp_overlay,#pp_info{display:none !important}" },
-
+  "trixxo-arena.be": { s: "section[vue-app=\"storage-settings\"]{display:none !important}" },
 
 
 
