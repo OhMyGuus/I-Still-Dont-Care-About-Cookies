@@ -16356,7 +16356,7 @@ const rules = {
   "postleitzahl.org": { s: "#cmp{display:none !important}" },
   "mondomebeli.com": { c: 0 },
   "sa.wahl.com": { s: "#form-popups{display:none !important}" },
-
+  "domicile-emploi.net": { c: 30 },
 
 
 
