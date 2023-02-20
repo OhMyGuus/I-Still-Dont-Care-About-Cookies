@@ -16334,7 +16334,7 @@ const rules = {
   "radioforen.de": { s: ".notice--cookieAdvanced{display:none !important}" },
   "sena.com": { c: "112" },
   "unions-pompiers.fr": { s: "#bandeau_consent{display:none !important}" },
-
+  "fermedelinciaux.be": { s: "#elementor-popup-modal-3101{display:none !important}" },
 
 
 
