@@ -16365,6 +16365,7 @@ const rules = {
   "culturehustle.com": { s: ".cookie-model{display:none !important}" },
   "idream.pl": { s: "#garua_cookie_consent_popup{display:none !important}" },
   "blog.andwork.com": { s: ".overlay{display:none !important}" },
+  "support.lexmark.com": { s: ".tui-gdpr{display:none !important}" },
 };
 
 const blockUrls = {
