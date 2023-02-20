@@ -16351,7 +16351,7 @@ const rules = {
   "bikesale.de": { c: 14 },
   "klook.com": { s: ".klk-notification{display:none !important}" },
   "accordbank.com.ua": { s: "#setcookie-agreement{display:none !important}" },
-
+  "studentbostader.se": { s: ".cc-container{display:none !important}" },
 
 
   
