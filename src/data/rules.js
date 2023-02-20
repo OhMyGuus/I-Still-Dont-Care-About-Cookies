@@ -16327,7 +16327,7 @@ const rules = {
   "metzgerei.org": { s: "#consent-modal-fw,#consent-banner-fw{display:none !important}" },
   "lizy.be": { s: "div[class^=\"PopupCookies-module_wrapper\"]{display:none !important}" },
   "cuxlandparks.de": { s: "sw-cookiemessage{display:none !important}" },
-
+  "europa-plc.com": { s: "#cookieplate{display:none !important}" },
 
 
 };
