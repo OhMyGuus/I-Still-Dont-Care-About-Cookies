@@ -2802,7 +2802,7 @@ const rules = {
   "riftherald.com": { c: 56 },
   "team-rauscher.at": { j: "5" },
   "gmanetwork.com": { s: ".ckn-container{display:none !important}" },
-  "portalento.es": { s: ".cpMainPanel{display:none !important}" },
+  "portalento.es": { s: ".cpMainPanel{display:none !important}" }, 
   "elektrobit.com": { s: "#ckBar{display:none !important}" },
   "sefaireaider.com": { s: "#cookies-charter{display:none !important}" },
   "thueringenforst.de": { s: ".opt-out{display:none !important}" },
