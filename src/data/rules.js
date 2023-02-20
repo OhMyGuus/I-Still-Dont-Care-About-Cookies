@@ -16372,7 +16372,7 @@ const rules = {
   "sescsp.org.br": { s: ".container-policy,.overlay{display:none !important}" },
   "timeweb.cloud": { s: ".cc{display:none !important}" },
   "schaffer-polska.pl": { s: "#pnscookie{display:none !important}" },
-
+  "ecclesiae.com.br": { s: ".box-aceite-privacidade{display:none !important}" },
 
 
 
