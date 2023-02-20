@@ -16345,7 +16345,7 @@ const rules = {
   "hallakonsument.se": { s: "section[aria-label=\"Kakinformation\"]{display:none !important}" },
   "mitteldithmarschen.de": { s: "#privacy-container{display:none !important}" },
   "sauvequiveut.fr": { s: "#zCookieConsent{display:none !important}" },
-
+  "armadamusic.com": { s: ".cookie-bar-notifications{display:none !important}" },
 
 
 
