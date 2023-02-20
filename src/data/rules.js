@@ -16362,7 +16362,7 @@ const rules = {
   "ajanvaraus.veripalvelu.fi": { s: "#cookie-consent-content{display:none !important}", c: 85 },
   "cazenovecapital.com": { s: "#disclaimerModal{display:none !important}", c: 14 },
   "culturehustle.com": { s: ".cookie-model{display:none !important}" },
-
+  "idream.pl": { s: "#garua_cookie_consent_popup{display:none !important}" },
 };
 
 const blockUrls = {
