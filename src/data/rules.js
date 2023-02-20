@@ -16381,7 +16381,7 @@ const rules = {
   "trixxo-arena.be": { s: "section[vue-app=\"storage-settings\"]{display:none !important}" },
   "camp-fire.jp": { s: ".cookie-policy-agreement-notification{display:none !important}" }, 
   "sandberg.es": { s: "#privalert-container{display:none !important}" },
-
+  "baskbank.com": { s: "#cpt_cookie_consent_prompt_container{display:none !important}" },
 
 
 
