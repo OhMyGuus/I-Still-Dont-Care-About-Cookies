@@ -16359,7 +16359,7 @@ const rules = {
   "domicile-emploi.net": { c: 30 },
   "zps.si": { s: "#preload_over{display:none !important}" },
   "engelvoelkers.com": { s: "#didomi-popup{display:none !important}" },
-
+  "ajanvaraus.veripalvelu.fi": { s: "#cookie-consent-content{display:none !important}", c: 85 },
 
 
 
