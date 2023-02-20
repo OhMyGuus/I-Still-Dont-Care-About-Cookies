@@ -11873,6 +11873,7 @@ const rules = {
   "adidas.fi": { j: "5" },
   "adidas.ca": { j: "5" },
   "adidas.cz": { j: "5" },
+  "adidas.cl": { j: "5" },
   "reebok.com": { j: "5" },
   "reebok.co.uk": { j: "5" },
   "reebok.it": { j: "5" },
