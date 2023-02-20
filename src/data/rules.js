@@ -16339,6 +16339,7 @@ const rules = {
   "unions-pompiers.fr": { s: "#bandeau_consent{display:none !important}" },
   "fermedelinciaux.be": { s: "#elementor-popup-modal-3101{display:none !important}" },
   "webapps.geohive.ie": { s: "#widgets_Splash_Widget_14{display:none !important}" },
+  "vicampo.de": { j: 3 },
   
 
 };
