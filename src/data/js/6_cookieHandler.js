@@ -642,6 +642,12 @@ function getE(hostname) {
       return ["Cookieinfoauswahl=false"]
     case "nadia.gov.gr":
       return ["consent-status=000"]
+    case "stevensbikes.de":
+      return [
+        "stv_cconsent_statistics=0",
+        "stv_cconsent_external=0",
+        "stv_cconsent_required=1"
+      ]
   }
 
 

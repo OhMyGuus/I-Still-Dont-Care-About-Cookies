@@ -16347,6 +16347,8 @@ const rules = {
   "sauvequiveut.fr": { s: "#zCookieConsent{display:none !important}" },
   "armadamusic.com": { s: ".cookie-bar-notifications{display:none !important}" },
   "nadia.gov.gr": { j: 6 },
+  "stevensbikes.de": { j: 6 },
+
 
 
 
