@@ -16353,7 +16353,7 @@ const rules = {
   "accordbank.com.ua": { s: "#setcookie-agreement{display:none !important}" },
   "studentbostader.se": { s: ".cc-container{display:none !important}" },
   "finnair.com": { s: "fin-cookie-policy{display:none !important}", c: 14 },
-
+  "postleitzahl.org": { s: "#cmp{display:none !important}" },
   
 };
 
