@@ -16331,7 +16331,7 @@ const rules = {
   "checkfrank.dk": { c: "14" },
   "como-se-escribe.com": { s: "#rgpd_pp{display:none !important}" },
   "obarbershop.com": { s: ".cookies_section{display:none !important}" },
-
+  "radioforen.de": { s: ".notice--cookieAdvanced{display:none !important}" },
 
 
 };
