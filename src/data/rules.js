@@ -16373,8 +16373,8 @@ const rules = {
   "timeweb.cloud": { s: ".cc{display:none !important}" },
   "schaffer-polska.pl": { s: "#pnscookie{display:none !important}" },
   "ecclesiae.com.br": { s: ".box-aceite-privacidade{display:none !important}" },
-
-
+  "designalive.pl": { s: ".advancedCookiesPopup{display:none !important}" },
+  "snowleader.co.uk": { s: ".c-bandeau-rgpd{display:none !important}" },
 
 
 };
