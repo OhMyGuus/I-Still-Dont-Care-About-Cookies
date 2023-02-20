@@ -16357,7 +16357,7 @@ const rules = {
   "mondomebeli.com": { c: 0 },
   "sa.wahl.com": { s: "#form-popups{display:none !important}" },
   "domicile-emploi.net": { c: 30 },
-
+  "zps.si": { s: "#preload_over{display:none !important}" },
 
 
 
