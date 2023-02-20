@@ -16325,7 +16325,7 @@ const rules = {
   "energylivenews.com": { s: "#cookie-notification-mask{display:none !important}" },
   "dslbank.de": { j: 6 },
   "metzgerei.org": { s: "#consent-modal-fw,#consent-banner-fw{display:none !important}" },
-
+  "lizy.be": { s: "div[class^=\"PopupCookies-module_wrapper\"]{display:none !important}" },
 
 
 
