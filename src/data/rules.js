@@ -16349,7 +16349,7 @@ const rules = {
   "nadia.gov.gr": { j: 6 },
   "stevensbikes.de": { j: 6 },
   "bikesale.de": { c: 14 },
-
+  "klook.com": { s: ".klk-notification{display:none !important}" },
 
 
 
