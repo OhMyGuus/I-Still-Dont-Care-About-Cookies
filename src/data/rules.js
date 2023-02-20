@@ -16342,7 +16342,7 @@ const rules = {
   "vicampo.de": { j: 3 },
   "yap-app.it": { s: ".yap-cookie-bar{display:none !important}" },
   "filoalfa3d.com": { s: ".gdprModal{display:none !important}" },
-
+  "hallakonsument.se": { s: "section[aria-label=\"Kakinformation\"]{display:none !important}" },
 
 
 
