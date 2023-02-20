@@ -16344,7 +16344,7 @@ const rules = {
   "filoalfa3d.com": { s: ".gdprModal{display:none !important}" },
   "hallakonsument.se": { s: "section[aria-label=\"Kakinformation\"]{display:none !important}" },
   "mitteldithmarschen.de": { s: "#privacy-container{display:none !important}" },
-
+  "sauvequiveut.fr": { s: "#zCookieConsent{display:none !important}" },
 
 
 
