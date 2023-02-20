@@ -16329,7 +16329,7 @@ const rules = {
   "cuxlandparks.de": { s: "sw-cookiemessage{display:none !important}" },
   "europa-plc.com": { s: "#cookieplate{display:none !important}" },
   "checkfrank.dk": { c: "14" },
-
+  "como-se-escribe.com": { s: "#rgpd_pp{display:none !important}" },
 
 
 
