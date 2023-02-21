@@ -178,7 +178,7 @@ const commons = {
   154: ".CA{display:none !important}",
   155: ".cookie__wrap{display:none !important}",
   156: "#wpfront-notification-bar-spacer{display:none !important}",
-  157: ".consent-container{display:none !important}",
+  157: ".consent-container,#consent-container{display:none !important}",
   158: ".in2-modal__blackbox{display:none !important}",
   159: "#__next > footer ~ div{display:none !important}",
   160: "#root > div > main ~ div{display:none !important}",
@@ -16387,7 +16387,7 @@ const rules = {
   "stadtwerke-witten.de": { s: "#vinegar-bottle{display:none !important}" },
   "guarconsa.com": { s: "#avisocookies1{display:none !important}", c: 14 },
   "rktbns.de": { c: 0 },
-
+  "hyrabostad.se": { c: 157 },
 
 
 
