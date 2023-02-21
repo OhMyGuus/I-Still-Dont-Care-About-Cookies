@@ -18649,6 +18649,7 @@ const blockUrls = {
     "czasnaherbate.net": ["pdcookiepro//views/js/"],
     "zs-watch.com": ["/dtc-fe/policy-control"],
     "loveholidays.ie": ["cookies.js"],
+    "georg.at": ["/inc/cookie_modal_ajax.php"]
   },
 };
 
