@@ -16597,7 +16597,7 @@ const rules = {
   "reifen24.de": { s: ".cookie-cover{display:none !important}" },
   "kappa-shop.de": { s: ".amgdprjs-bar-template{display:none !important}" },
   "aftership.com": { s: "{display:none !important}" },
-
+  "dallasinnovates.com": { s: "#acceptance{display:none !important}" },
 
 
 
