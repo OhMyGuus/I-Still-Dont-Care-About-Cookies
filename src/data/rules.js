@@ -16423,6 +16423,13 @@ const rules = {
   "lama-media.com": { c: 0 },
   "elektor.de": { c: 85 },
   "sharely.ch": { c: 0 },
+  "lightyear.one": { s: "div[class=\"fixed left-8 md:left-auto right-8 bottom-8 bg-white p-8 max-w-2xl drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]\"]{display:none !important}" },
+
+
+
+
+
+
 
 
 };
