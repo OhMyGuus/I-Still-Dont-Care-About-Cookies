@@ -16520,7 +16520,13 @@ const rules = {
   "flybair.ch": { s: "#gdprcookie{display:none !important}" },
   "planningportal.co.uk": { s: ".tqc-portal{display:none !important}", c: 85 }, 
   "jemako.com": { s: "#acb-wrapper{display:none !important}" },
-  
+  "digiseller.market": { c: 3 },
+
+
+
+
+
+
 
 };
 
