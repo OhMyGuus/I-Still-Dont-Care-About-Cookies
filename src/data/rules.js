@@ -16554,11 +16554,8 @@ const rules = {
   "innovationsstiftung-bildung.at": { c: 14 },
   "gebuhrenfrei.com": { c: 85 },
   "stephanealligne.com": { s: "div[id^=\"bandeauCookie\"]{display:none !important}" },
-  "e-herbapol.com.pl": {
-    s: "#cc--main{display:none !important}",
-    c: 85,
-  },
-
+  "e-herbapol.com.pl": { s: "#cc--main{display:none !important}", c: 85 },
+  "wyprzedzmeningokoki.pl": { s: "#__tealiumGDPRcpPrefs{display:none !important}" },
 
 
 
