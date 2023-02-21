@@ -16546,7 +16546,7 @@ const rules = {
   "heidisql.com": { c: 6 },
   "ironmaxx.de": { s: ".amgdprcookie-bar-container{display:none !important}" },
   "herbiesheadshop.com": { s: ".cookies-politic__section,.disclaimer-popup__overlay{display:none !important}" },
-
+  "defencediscountservice.co.uk": { s: ".jquery-modal{display:none !important}", c: 85 },
 
 
 
