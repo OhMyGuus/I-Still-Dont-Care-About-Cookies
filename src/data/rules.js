@@ -16587,7 +16587,7 @@ const rules = {
   "sunfun.pl": { s: 'div[class^="CookieBar"]{display:none !important}' },
   "regent.pl": { s: "#wezcookie{display:none !important}" },
   "tourist.pl": {  s: "#wezcookie{display:none !important}" },
-
+  "bpmarco.pl": { s: "#cookies-floating-strip,#privacy-floating-strip{display:none !important}" },
 
 
 
