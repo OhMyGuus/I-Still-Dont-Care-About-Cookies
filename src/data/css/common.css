@@ -14010,7 +14010,8 @@ div[data-role="cookies-modal-content"],
 #cookiePermissionDialog,
 .bm-privacy,
 #website_cookies_bar,
-.cookie-bar-new
+.cookie-bar-new,
+.toast-cookies
 
 /* 14113 */ {
   display: none !important;
