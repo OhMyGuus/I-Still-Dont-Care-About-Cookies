@@ -16528,7 +16528,7 @@ const rules = {
   "verbandsgemeindeweissenthurm.de": {c: 85 },
   "accolade.eu": { s: "#cookies-component{display:none !important}" },
   "erzgebirgsstuebchen.de": { s: "#cookie-bar2{display:none !important}" },
-
+  "aktualnosci.komputronik.com": { s: ".pr-cookie-policy{display:none !important}" },
 
 
 
