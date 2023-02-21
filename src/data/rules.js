@@ -16549,7 +16549,7 @@ const rules = {
   "defencediscountservice.co.uk": { s: ".jquery-modal{display:none !important}", c: 85 },
   "vyos.io": { s: "div[class^=\"Cookies_cookies\"]{display:none !important}" },
   "odlewkiperfum.pl": { s: ".jconfirm{display:none !important}" },
-
+  "tierschutzverein-diez.de": { s: "#consent-content{display:none !important}", c: 14 },
 
 
 
