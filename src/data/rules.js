@@ -16413,8 +16413,7 @@ const rules = {
   "aitopics.org": { s: "#fixed-footer{display:none !important}" },
   "socofe.pzu.pl": { s: ".cdk-overlay-container{display:none !important}" },
   "schrack-seconet.com": { s: ".pageOverlay{display:none !important}" },
-
-
+  "vectornator.io": { s: ".cookies-wrap{display:none !important}" },
 
 
 
