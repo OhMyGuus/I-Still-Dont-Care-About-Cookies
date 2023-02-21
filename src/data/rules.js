@@ -16515,7 +16515,7 @@ const rules = {
   "loveandpeas.de": { s: ".lightbox-backdrop-cc-dialog{display:none !important}" },
   "beleaf.eu": { s: ".js-o-page__gdpr-overlay{display:none !important}", c: 85 },
   "cicenergigune.com": { s: "#over-cookies-msg{display:none !important}" },
-
+  "allsaints.com": { s: ".b-notification_dialogs{display:none !important}" },
 
 
 
