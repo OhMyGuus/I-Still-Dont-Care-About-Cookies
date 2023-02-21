@@ -16588,7 +16588,7 @@ const rules = {
   "regent.pl": { s: "#wezcookie{display:none !important}" },
   "tourist.pl": {  s: "#wezcookie{display:none !important}" },
   "bpmarco.pl": { s: "#cookies-floating-strip,#privacy-floating-strip{display:none !important}" },
-
+  "bfc.pl": { c: 0 },
 
 
 
