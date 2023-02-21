@@ -14002,7 +14002,17 @@ div[data-role="cookies-modal-content"],
 #consent-div,
 #privacy_controls_banner,
 .gdpr-cookies-button-float,
-.gdpr-cookies-welcome-box
+.gdpr-cookies-welcome-box,
+.djm-cookie-notice,
+.ins-v-cookie-alert,
+.fc-consent-root,
+#js_dataNnoticeBackdrop,
+#cookiePermissionDialog,
+.bm-privacy,
+#website_cookies_bar,
+.cookie-bar-new,
+.toast-cookies,
+#cookidiot
 
 /* 14113 */ {
   display: none !important;
