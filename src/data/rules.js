@@ -16560,7 +16560,7 @@ const rules = {
   "cik-solutions.com": { s: ".cookie-box{display:none !important}" },
   "autograph.io": { s: ".modal-bg{display:none !important}" },
   "weserwohnwelt.de": { s: "#datenschutzBalgeNew{display:none !important}" },
-
+  "heni-werkzeuge.de": { s: "#dsvgoOverlay{display:none !important}" },
 
 };
 
