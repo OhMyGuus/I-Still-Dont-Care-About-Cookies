@@ -16422,7 +16422,7 @@ const rules = {
   "cancerfonden.se": { s: "div[class^=\"CookieDisclaimer__Wrapper\"]{display:none !important}" },
   "onexgroup.pl": { s: "div[class^=\"PrivacyPolicyBanner\"]{display:none !important}" },
   "lama-media.com": { c: 0 },
-
+  "elektor.de": { c: 85 },
 
 };
 
