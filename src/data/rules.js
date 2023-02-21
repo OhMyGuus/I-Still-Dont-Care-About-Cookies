@@ -16544,7 +16544,7 @@ const rules = {
   "empik.com": { c: 85 },
   "health-platform.online": { s: ".MuiSnackbar-root,.MuiBackdrop-root{display:none !important}" },
   "heidisql.com": { c: 6 },
-
+  "ironmaxx.de": { s: ".amgdprcookie-bar-container{display:none !important}" },
 
 
 
