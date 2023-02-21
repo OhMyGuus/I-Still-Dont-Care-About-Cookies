@@ -16512,6 +16512,8 @@ const rules = {
   },
   "diddit.be": { s: "dd-cookies-banner{display:none !important}" },
   "szeged365.hu": { s: ".popup-screen{display:none !important}" },
+  "loveandpeas.de": { s: ".lightbox-backdrop-cc-dialog{display:none !important}" },
+  
 };
 
 const blockUrls = {
