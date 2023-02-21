@@ -16556,7 +16556,7 @@ const rules = {
   "stephanealligne.com": { s: "div[id^=\"bandeauCookie\"]{display:none !important}" },
   "e-herbapol.com.pl": { s: "#cc--main{display:none !important}", c: 85 },
   "wyprzedzmeningokoki.pl": { s: "#__tealiumGDPRcpPrefs{display:none !important}" },
-
+  "optomausa.com": { s: "#msgbg{display:none !important}" },
 
 
 
