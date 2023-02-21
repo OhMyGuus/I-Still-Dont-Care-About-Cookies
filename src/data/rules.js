@@ -16408,7 +16408,7 @@ const rules = {
   "dstgb.de": { c: 85 },
   "59northwheels.se": { j: 6 },
   "bszam.de": { s: ".ccm-root{display:none !important}" },
-
+  "karriere.hofer.at": { s: ".ppms_cm_popup_overlay{display:none !important}" },
 
 
 
