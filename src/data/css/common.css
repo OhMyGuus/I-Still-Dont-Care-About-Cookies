@@ -14006,7 +14006,8 @@ div[data-role="cookies-modal-content"],
 .djm-cookie-notice,
 .ins-v-cookie-alert,
 .fc-consent-root,
-#js_dataNnoticeBackdrop
+#js_dataNnoticeBackdrop,
+#cookiePermissionDialog
 
 /* 14113 */ {
   display: none !important;
