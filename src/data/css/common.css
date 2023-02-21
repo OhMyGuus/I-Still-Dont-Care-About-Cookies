@@ -14009,7 +14009,8 @@ div[data-role="cookies-modal-content"],
 #js_dataNnoticeBackdrop,
 #cookiePermissionDialog,
 .bm-privacy,
-#website_cookies_bar
+#website_cookies_bar,
+.cookie-bar-new
 
 /* 14113 */ {
   display: none !important;
