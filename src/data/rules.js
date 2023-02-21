@@ -18451,6 +18451,8 @@ const blockUrls = {
     "mainpost.de": ["app.usercentrics.eu"],
     "czasnaherbate.net": ["pdcookiepro//views/js/"],
     "zs-watch.com": ["/dtc-fe/policy-control"],
+    "loveholidays.ie": ["cookies.js"],
+
   },
 };
 
