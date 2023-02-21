@@ -16552,7 +16552,7 @@ const rules = {
   "tierschutzverein-diez.de": { s: "#consent-content{display:none !important}", c: 14 },
   "sainttropeztourisme.com": { s: ".RGPD_message{display:none !important}" },
   "innovationsstiftung-bildung.at": { c: 14 },
-
+  "gebuhrenfrei.com": { c: 85 },
 
 };
 
