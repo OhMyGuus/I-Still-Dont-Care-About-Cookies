@@ -16595,7 +16595,7 @@ const rules = {
   "pricellent.pl": { s: ".MuiSnackbar-root{display:none !important}" },
   "jobb.dafgards.se": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
   "reifen24.de": { s: ".cookie-cover{display:none !important}" },
-
+  "kappa-shop.de": { s: ".amgdprjs-bar-template{display:none !important}" },
 
 
 
