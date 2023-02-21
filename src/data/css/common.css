@@ -14007,7 +14007,8 @@ div[data-role="cookies-modal-content"],
 .ins-v-cookie-alert,
 .fc-consent-root,
 #js_dataNnoticeBackdrop,
-#cookiePermissionDialog
+#cookiePermissionDialog,
+.bm-privacy
 
 /* 14113 */ {
   display: none !important;
