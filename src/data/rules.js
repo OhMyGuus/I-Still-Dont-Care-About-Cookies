@@ -16433,8 +16433,8 @@ const rules = {
   "imem.app": { s: ".cookies-window{display:none !important}" },
   "minhabcimoveis.com.br": { s: ".lgpd-aceite-container{display:none !important}" },
   "bynco.com": { s: "#cookieWallContainer{display:none !important}", c:85 },
-
-
+  "tickets.siampark.net": { s: ".panel_cookies{display:none !important}" },
+  
 
 
 
