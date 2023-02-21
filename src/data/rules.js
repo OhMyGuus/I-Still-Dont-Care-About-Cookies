@@ -16407,6 +16407,10 @@ const rules = {
   "prowin.net": { c: 0 },
   "dstgb.de": { c: 85 },
   "59northwheels.se": { j: 6 },
+  "bszam.de": { s: ".ccm-root{display:none !important}" },
+
+
+
 
 
 
