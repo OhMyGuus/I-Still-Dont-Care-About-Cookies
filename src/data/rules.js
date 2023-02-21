@@ -16432,12 +16432,12 @@ const rules = {
   "e100.eu": { c: 14 },
   "imem.app": { s: ".cookies-window{display:none !important}" },
   "minhabcimoveis.com.br": { s: ".lgpd-aceite-container{display:none !important}" },
-  "bynco.com": { s: "#cookieWallContainer{display:none !important}", c:85 },
+  "bynco.com": { s: "#cookieWallContainer{display:none !important}", c: 85 },
   "tickets.siampark.net": { s: ".panel_cookies{display:none !important}" },
   "kidstaff.com.ua": { s: "#gdpr_panel{display:none !important}" },
   "natureguide.gr": { c: 0 },
   "espressimo.bg": { s: ".notification-wrapper{display:none !important}" },
-
+  "giromatch.com": { s: "#cookienoteGm{display:none !important}", c: 14 },
 
 };
 
