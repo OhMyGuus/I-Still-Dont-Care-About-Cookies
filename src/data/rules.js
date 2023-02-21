@@ -16519,6 +16519,7 @@ const blockUrls = {
           "gamersgate.com",
           "spielemax.de",
           "tonershop.at",
+          "plus-gp-joule.de"
         ],
       },
       { r: "/cookieconsentpopup.js" },
