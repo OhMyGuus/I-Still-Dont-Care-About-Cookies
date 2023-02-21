@@ -16400,7 +16400,7 @@ const rules = {
   "vente-unique.nl": { s: "#vu_consent{display:none !important}" },
   "wakkap.com": { c: 0 },
   "liveagent.com": { s: ".Medovnicky{display:none !important}" },
-
+  "samueladams.com": { s: ".notification-banner{display:none !important}" },
 
 };
 
