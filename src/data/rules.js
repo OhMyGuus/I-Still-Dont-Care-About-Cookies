@@ -16439,7 +16439,7 @@ const rules = {
   "espressimo.bg": { s: ".notification-wrapper{display:none !important}" },
   "giromatch.com": { s: "#cookienoteGm{display:none !important}", c: 14 },
   "minarsidur.hms.is": { s: "#snackbar{display:none !important}" },
-
+  "renovatie-gids.be": { s: "#bbx_modal_cookie{display:none !important}" },
 
 
 
