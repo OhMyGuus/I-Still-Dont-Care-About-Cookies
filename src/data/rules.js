@@ -16529,6 +16529,10 @@ const rules = {
   "accolade.eu": { s: "#cookies-component{display:none !important}" },
   "erzgebirgsstuebchen.de": { s: "#cookie-bar2{display:none !important}" },
   "aktualnosci.komputronik.com": { s: ".pr-cookie-policy{display:none !important}" },
+  "clubmed.co.uk": { s: "section[class=\"bg-white fixed bottom-0 shadow w-full z-6\"]{display:none !important}" },
+
+
+
 
 
 
