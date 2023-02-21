@@ -16393,7 +16393,7 @@ const rules = {
   "pon20142020.indire.it": { s: "#bannerContent{display:none !important}" },
   "reka.ch": { c: 4 },
   "uninter.com": { s: ".lgpd-box{display:none !important}" },
-
+  "fleetlogistics.com": { s: "#gdpr-cookie-message-container{display:none !important}" },
 
 };
 
