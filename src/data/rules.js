@@ -16431,6 +16431,11 @@ const rules = {
   "lecrabeinfo.net": { c: 10 },
   "e100.eu": { c: 14 },
   "imem.app": { s: ".cookies-window{display:none !important}" },
+  "minhabcimoveis.com.br": { s: ".lgpd-aceite-container{display:none !important}" },
+  "bynco.com": { s: "#cookieWallContainer{display:none !important}", c:85 },
+
+
+
 
 
 };
