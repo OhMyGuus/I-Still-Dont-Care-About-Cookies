@@ -16430,7 +16430,7 @@ const rules = {
   "hostinger.fr": { s: ".h-cookie-consent{display:none !important}" },
   "lecrabeinfo.net": { c: 10 },
   "e100.eu": { c: 14 },
-
+  "imem.app": { s: ".cookies-window{display:none !important}" },
 
 
 };
