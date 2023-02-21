@@ -16514,7 +16514,7 @@ const rules = {
   "szeged365.hu": { s: ".popup-screen{display:none !important}" },
   "loveandpeas.de": { s: ".lightbox-backdrop-cc-dialog{display:none !important}" },
   "beleaf.eu": { s: ".js-o-page__gdpr-overlay{display:none !important}", c: 85 },
-
+  "cicenergigune.com": { s: "#over-cookies-msg{display:none !important}" },
 
 
 
