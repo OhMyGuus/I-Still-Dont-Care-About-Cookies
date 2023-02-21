@@ -17712,6 +17712,7 @@ const blockUrls = {
       { r: "heg-cp.com/upm/privacy-manager" },
       { q: true, r: "tag=ui/privacy/CookiesConsent" },
       { r: "/dock-privacy-settings.esm.js" },
+      { r: "sdk.privacy-center.org" }
     ],
     cmp: [
       { r: "cmp.quantcast.com" },
