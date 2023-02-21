@@ -14268,7 +14268,7 @@ const rules = {
   "g2a.co": { j: "6" },
   "abc-mallorca.com": { s: ".abc-cookies-wrapper{display:none !important}" },
   "porsche.pl": { c: 39 },
-  "porsche.com": { s: ".pocs-legal-disclaimer{display:none !important}" },
+  "porsche.com": { s: ".pocs-legal-disclaimer,myservices-cookie-banner{display:none !important}" },
   "ruzomberok.sk": { s: "#cookie-global-envelope{display:none !important}" },
   "studyinjapan.go.jp": { s: "#js_cookie_modal{display:none !important}" },
   "lexar.com": { s: "#lexar-accept-cookie{display:none !important}" },
@@ -16415,7 +16415,6 @@ const rules = {
   "schrack-seconet.com": { s: ".pageOverlay{display:none !important}" },
   "vectornator.io": { s: ".cookies-wrap{display:none !important}" },
   "wetaca.com": { s: "div[class^=\"cookiesBanner-module_cookiesBanner\"]{display:none !important}" },
-
 
 
 
