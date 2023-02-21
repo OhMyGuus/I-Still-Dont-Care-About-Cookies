@@ -16427,7 +16427,7 @@ const rules = {
   "loewenapothekebetzdorf.de": { s: ".consent-management{display:none !important}", c: 85 },
   "educa2.madrid.org": { s: "#emCookieWrapper{display:none !important}" },
   "heroesofdataprivacy.com": { s: "#jentis-consent-main{display:none !important}" },
-
+  "hostinger.fr": { s: ".h-cookie-consent{display:none !important}" },
 
 
 
