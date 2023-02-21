@@ -16596,7 +16596,7 @@ const rules = {
   "jobb.dafgards.se": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
   "reifen24.de": { s: ".cookie-cover{display:none !important}" },
   "kappa-shop.de": { s: ".amgdprjs-bar-template{display:none !important}" },
-
+  "aftership.com": { s: "{display:none !important}" },
 
 
 
@@ -17405,6 +17405,7 @@ const blockUrls = {
       { r: "/dxcookieconsent/" },
       { r: "/wp-content/plugins/real-cookie-banner" },
       { r: "sohoshopcookies.js" },
+      { r: "am-static.com/cookie-banner/sdk.js" }
     ],
     consent: [
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
