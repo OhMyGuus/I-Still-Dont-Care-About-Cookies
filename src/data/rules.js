@@ -16518,7 +16518,7 @@ const rules = {
   "allsaints.com": { s: ".b-notification_dialogs{display:none !important}" },
   "play.geforcenow.com": { c: 49 } ,
   "flybair.ch": { s: "#gdprcookie{display:none !important}" },
-  "planningportal.co.uk": { s: ".tqc-portal{display:none !important}", c: 85 },
+  "planningportal.co.uk": { s: ".tqc-portal{display:none !important}", c: 85 }, 
 
 
 
