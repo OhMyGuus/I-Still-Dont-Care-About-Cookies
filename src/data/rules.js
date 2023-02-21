@@ -16428,7 +16428,7 @@ const rules = {
   "educa2.madrid.org": { s: "#emCookieWrapper{display:none !important}" },
   "heroesofdataprivacy.com": { s: "#jentis-consent-main{display:none !important}" },
   "hostinger.fr": { s: ".h-cookie-consent{display:none !important}" },
-
+  "lecrabeinfo.net": { c: 10 },
 
 
 
