@@ -16383,7 +16383,7 @@ const rules = {
   "sandberg.es": { s: "#privalert-container{display:none !important}" },
   "baskbank.com": { s: "#cpt_cookie_consent_prompt_container{display:none !important}" },
   "francebenevolat.org": { s: ".mgdpr-popup{display:none !important}" },
-
+  "vitotechnology.com": { s: ".hXtGXC{display:none !important}" },
 
 
 
