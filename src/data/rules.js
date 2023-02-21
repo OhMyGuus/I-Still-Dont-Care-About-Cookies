@@ -16429,6 +16429,7 @@ const rules = {
   "heroesofdataprivacy.com": { s: "#jentis-consent-main{display:none !important}" },
   "hostinger.fr": { s: ".h-cookie-consent{display:none !important}" },
   "lecrabeinfo.net": { c: 10 },
+  "e100.eu": { c: 14 },
 
 
 
