@@ -16434,7 +16434,8 @@ const rules = {
   "minhabcimoveis.com.br": { s: ".lgpd-aceite-container{display:none !important}" },
   "bynco.com": { s: "#cookieWallContainer{display:none !important}", c:85 },
   "tickets.siampark.net": { s: ".panel_cookies{display:none !important}" },
-  
+  "kidstaff.com.ua": { s: "#gdpr_panel{display:none !important}" },
+  "natureguide.gr": { c: 0 },
 
 
 
