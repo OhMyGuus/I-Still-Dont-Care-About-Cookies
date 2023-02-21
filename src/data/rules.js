@@ -16545,7 +16545,7 @@ const rules = {
   "health-platform.online": { s: ".MuiSnackbar-root,.MuiBackdrop-root{display:none !important}" },
   "heidisql.com": { c: 6 },
   "ironmaxx.de": { s: ".amgdprcookie-bar-container{display:none !important}" },
-
+  "herbiesheadshop.com": { s: ".cookies-politic__section,.disclaimer-popup__overlay{display:none !important}" },
 
 
 
