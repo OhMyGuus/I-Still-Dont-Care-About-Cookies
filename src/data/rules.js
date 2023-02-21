@@ -16557,7 +16557,7 @@ const rules = {
   "e-herbapol.com.pl": { s: "#cc--main{display:none !important}", c: 85 },
   "wyprzedzmeningokoki.pl": { s: "#__tealiumGDPRcpPrefs{display:none !important}" },
   "optomausa.com": { s: "#msgbg{display:none !important}" },
-
+  "cik-solutions.com": { s: ".cookie-box{display:none !important}" },
 
 
 
