@@ -16516,7 +16516,7 @@ const rules = {
   "beleaf.eu": { s: ".js-o-page__gdpr-overlay{display:none !important}", c: 85 },
   "cicenergigune.com": { s: "#over-cookies-msg{display:none !important}" },
   "allsaints.com": { s: ".b-notification_dialogs{display:none !important}" },
-
+  "play.geforcenow.com": { c: 49 } ,
 
 
 
