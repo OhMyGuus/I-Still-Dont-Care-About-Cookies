@@ -16512,30 +16512,35 @@ const rules = {
   },
   "diddit.be": { s: "dd-cookies-banner{display:none !important}" },
   "szeged365.hu": { s: ".popup-screen{display:none !important}" },
-  "loveandpeas.de": { s: ".lightbox-backdrop-cc-dialog{display:none !important}" },
-  "beleaf.eu": { s: ".js-o-page__gdpr-overlay{display:none !important}", c: 85 },
+  "loveandpeas.de": {
+    s: ".lightbox-backdrop-cc-dialog{display:none !important}",
+  },
+  "beleaf.eu": {
+    s: ".js-o-page__gdpr-overlay{display:none !important}",
+    c: 85,
+  },
   "cicenergigune.com": { s: "#over-cookies-msg{display:none !important}" },
   "allsaints.com": { s: ".b-notification_dialogs{display:none !important}" },
-  "play.geforcenow.com": { c: 49 } ,
+  "play.geforcenow.com": { c: 49 },
   "flybair.ch": { s: "#gdprcookie{display:none !important}" },
-  "planningportal.co.uk": { s: ".tqc-portal{display:none !important}", c: 85 }, 
+  "planningportal.co.uk": { s: ".tqc-portal{display:none !important}", c: 85 },
   "jemako.com": { s: "#acb-wrapper{display:none !important}" },
   "digiseller.market": { c: 3 },
-  "freeyourmusic.com": { c: 6},
+  "freeyourmusic.com": { c: 6 },
   "startfrei.at": { s: "#cookie-consent-modal{display:none !important}" },
   "startfrei.at": { j: 6 },
   "tcgplayer.com": { s: ".compliance-banner{display:none !important}" },
-  "verbandsgemeindeweissenthurm.de": {c: 85 },
+  "verbandsgemeindeweissenthurm.de": { c: 85 },
   "accolade.eu": { s: "#cookies-component{display:none !important}" },
   "erzgebirgsstuebchen.de": { s: "#cookie-bar2{display:none !important}" },
-  "aktualnosci.komputronik.com": { s: ".pr-cookie-policy{display:none !important}" },
-  "clubmed.co.uk": { s: "section[class=\"bg-white fixed bottom-0 shadow w-full z-6\"]{display:none !important}" },
-
-
-
-
-
-
+  "aktualnosci.komputronik.com": {
+    s: ".pr-cookie-policy{display:none !important}",
+  },
+  "clubmed.co.uk": {
+    s: 'section[class="bg-white fixed bottom-0 shadow w-full z-6"]{display:none !important}',
+  },
+  "sfd.pl": { s: "#cc--main{display:none !important}", c: 85 },
+  
 };
 
 const blockUrls = {
