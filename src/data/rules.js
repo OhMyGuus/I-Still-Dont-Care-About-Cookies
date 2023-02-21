@@ -16543,7 +16543,7 @@ const rules = {
   "papiernikbyempik.com": { c: 0 },
   "empik.com": { c: 85 },
   "health-platform.online": { s: ".MuiSnackbar-root,.MuiBackdrop-root{display:none !important}" },
-
+  "heidisql.com": { c: 6 },
 
 
 
