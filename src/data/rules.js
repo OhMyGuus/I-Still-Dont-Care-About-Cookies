@@ -16553,6 +16553,14 @@ const rules = {
   "sainttropeztourisme.com": { s: ".RGPD_message{display:none !important}" },
   "innovationsstiftung-bildung.at": { c: 14 },
   "gebuhrenfrei.com": { c: 85 },
+  "stephanealligne.com": { s: "div[id^=\"bandeauCookie\"]{display:none !important}" },
+
+
+
+
+
+
+
 
 };
 
