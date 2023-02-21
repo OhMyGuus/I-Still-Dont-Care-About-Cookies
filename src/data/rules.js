@@ -16561,6 +16561,38 @@ const rules = {
   "autograph.io": { s: ".modal-bg{display:none !important}" },
   "weserwohnwelt.de": { s: "#datenschutzBalgeNew{display:none !important}" },
   "heni-werkzeuge.de": { s: "#dsvgoOverlay{display:none !important}" },
+  "snowtrex.at": { c: 6 },
+  "snowtrex.be": { c: 6 },
+  "snowtrex.ch": { c: 6 },
+  "snowtrex.co.uk": { c: 6 },
+  "snowtrex.com": { c: 6 },
+  "snowtrex.cz": { c: 6 },
+  "snowtrex.de": { c: 6 },
+  "snowtrex.dk": { c: 6 },
+  "snowtrex.es": { c: 6 },
+  "snowtrex.fr": { c: 6 },
+  "snowtrex.ie": { c: 6 },
+  "snowtrex.it": { c: 6 },
+  "snowtrex.lt": { c: 6 },
+  "snowtrex.nl": { c: 6 },
+  "snowtrex.pl": { c: 6 },
+  "snowtrex.pt": { c: 6 },
+  "snowtrex.ro": { c: 6 },
+  "snowtrex.se": { c: 6 },
+  "snowtrex.si": { c: 6 },
+  "snowtrex.sk": { c: 6 },
+  "snowtrex.us": { c: 6 },
+  "wintertrex.be": { c: 6 },
+  "wintertrex.nl": { c: 6 },
+  
+
+
+
+
+
+
+
+
 
 };
 
