@@ -17615,6 +17615,7 @@ const blockUrls = {
       { r: "/tcf-cmp.min.js" },
       { r: "fastcmp.com/fast-cmp.js" },
       { r: "apps.ludostation.com/cmp/v2/cmp.js" },
+      { r: "mrdev-cmp/assets/js/script.js" }
     ],
     Cookie: [
       { r: "gofundme.com/js/3.0/visitorCookie.js" },
