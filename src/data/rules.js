@@ -16396,7 +16396,7 @@ const rules = {
   "fleetlogistics.com": { s: "#gdpr-cookie-message-container{display:none !important}" },
   "church-footwear.com": { c: 85 },
   "ppk.pzu.pl": { s: ".cdk-overlay-container{display:none !important}", c: 85 },
-
+  "easyparts.fr": { s: "#div_popup_cookies,#cover{display:none !important}", c: 85 },
 
 
 
