@@ -16541,7 +16541,7 @@ const rules = {
   },
   "sfd.pl": { s: "#cc--main{display:none !important}", c: 85 },
   "papiernikbyempik.com": { c: 0 },
-
+  "empik.com": { c: 85 },
 
 
 
