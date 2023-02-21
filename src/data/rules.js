@@ -16404,8 +16404,8 @@ const rules = {
   "rockboard.de": { s: ".cookie-outer-container-wrap{display:none !important}" },
   "gleerupsportal.se": { s: "div[role=\"complementary\"]{display:none !important}" },
   "3f-filippi.com": { c: 85 },
-
-
+  "prowin.net": { c: 0 },
+  "dstgb.de": { c: 85 },
 
 
 
