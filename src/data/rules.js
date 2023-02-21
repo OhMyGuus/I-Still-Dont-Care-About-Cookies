@@ -9597,7 +9597,6 @@ const rules = {
   },
   "elkem.com": { j: "6" },
   "poessl4you.de": { c: 0 },
-  "praxis.nl": { s: ".mxd-new-cookie-bar{display:none !important}" },
   "tonershop.at": { j: "6" },
   "coinmarket.network": { s: "#policymodal{display:none !important}" },
   "virtual-railroads.de": { s: ".gdpr_hook{display:none !important}" },
@@ -16423,6 +16422,8 @@ const rules = {
   "onexgroup.pl": { s: "div[class^=\"PrivacyPolicyBanner\"]{display:none !important}" },
   "lama-media.com": { c: 0 },
   "elektor.de": { c: 85 },
+  "sharely.ch": { c: 0 },
+
 
 };
 
