@@ -16525,8 +16525,8 @@ const rules = {
   "startfrei.at": { s: "#cookie-consent-modal{display:none !important}" },
   "startfrei.at": { j: 6 },
   "tcgplayer.com": { s: ".compliance-banner{display:none !important}" },
-
-
+  "verbandsgemeindeweissenthurm.de": {c: 85 },
+  "accolade.eu": { s: "#cookies-component{display:none !important}" },
 
 };
 
