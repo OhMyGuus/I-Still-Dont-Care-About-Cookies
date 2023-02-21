@@ -16406,7 +16406,7 @@ const rules = {
   "3f-filippi.com": { c: 85 },
   "prowin.net": { c: 0 },
   "dstgb.de": { c: 85 },
-
+  "59northwheels.se": { j: 6 },
 
 
 

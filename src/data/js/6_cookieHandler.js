@@ -648,6 +648,8 @@ function getE(hostname) {
         "stv_cconsent_external=0",
         "stv_cconsent_required=1"
       ]
+    case "59northwheels.se":
+      return ["cookie_accepted=1"]
   }
 
 
