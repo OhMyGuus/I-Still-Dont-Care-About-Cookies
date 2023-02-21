@@ -16397,7 +16397,7 @@ const rules = {
   "church-footwear.com": { c: 85 },
   "ppk.pzu.pl": { s: ".cdk-overlay-container{display:none !important}", c: 85 },
   "easyparts.fr": { s: "#div_popup_cookies,#cover{display:none !important}", c: 85 },
-
+  "vente-unique.nl": { s: "#vu_consent{display:none !important}" },
 
 
 
