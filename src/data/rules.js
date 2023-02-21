@@ -16382,7 +16382,7 @@ const rules = {
   "camp-fire.jp": { s: ".cookie-policy-agreement-notification{display:none !important}" }, 
   "sandberg.es": { s: "#privalert-container{display:none !important}" },
   "baskbank.com": { s: "#cpt_cookie_consent_prompt_container{display:none !important}" },
-
+  "francebenevolat.org": { s: ".mgdpr-popup{display:none !important}" },
 
 
 
