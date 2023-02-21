@@ -16590,7 +16590,7 @@ const rules = {
   "bpmarco.pl": { s: "#cookies-floating-strip,#privacy-floating-strip{display:none !important}" },
   "bfc.pl": { c: 0 },
   "ogloszenia.jmlnet.pl": { c: 14 },
-
+  "fiberatlantic.com": { c: 0 },
 
 
 
