@@ -16596,9 +16596,8 @@ const rules = {
   "jobb.dafgards.se": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
   "reifen24.de": { s: ".cookie-cover{display:none !important}" },
   "kappa-shop.de": { s: ".amgdprjs-bar-template{display:none !important}" },
-  "aftership.com": { s: "{display:none !important}" },
   "dallasinnovates.com": { s: "#acceptance{display:none !important}" },
-
+  "voipstudio.de": { c: 6 },
 
 
 
