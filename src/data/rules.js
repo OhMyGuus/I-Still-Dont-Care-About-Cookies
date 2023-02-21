@@ -16540,7 +16540,20 @@ const rules = {
     s: 'section[class="bg-white fixed bottom-0 shadow w-full z-6"]{display:none !important}',
   },
   "sfd.pl": { s: "#cc--main{display:none !important}", c: 85 },
-  
+  "papiernikbyempik.com": { c: 0 },
+
+
+
+
+
+
+
+
+
+
+
+
+
 };
 
 const blockUrls = {
