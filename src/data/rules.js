@@ -16418,7 +16418,7 @@ const rules = {
 
 
 
-  
+
 
 };
 
@@ -17691,7 +17691,7 @@ const blockUrls = {
       { r: "/IntegerNet_CookieConsent/" },
       { r: "/new_Cookiebanner.js" },
       { r: "/feoCookies.min.js" },
-      { r: "/Plumrocket_CookieConsent/" },
+      { r: "/Plumrocket_CookieConsent/", e: ["8020.net"] },
       { r: "/static/CookieManager/js/app" },
       { r: "/optInCookies.min.js" },
     ],
