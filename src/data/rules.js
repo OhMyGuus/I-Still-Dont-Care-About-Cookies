@@ -16524,7 +16524,7 @@ const rules = {
   "freeyourmusic.com": { c: 6},
   "startfrei.at": { s: "#cookie-consent-modal{display:none !important}" },
   "startfrei.at": { j: 6 },
-
+  "tcgplayer.com": { s: ".compliance-banner{display:none !important}" },
 
 
 
