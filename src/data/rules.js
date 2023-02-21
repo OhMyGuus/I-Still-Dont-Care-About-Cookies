@@ -16385,7 +16385,7 @@ const rules = {
   "francebenevolat.org": { s: ".mgdpr-popup{display:none !important}" },
   "vitotechnology.com": { s: ".hXtGXC{display:none !important}" },
   "stadtwerke-witten.de": { s: "#vinegar-bottle{display:none !important}" },
-
+  "guarconsa.com": { s: "#avisocookies1{display:none !important}", c: 14 },
 };
 
 const blockUrls = {
