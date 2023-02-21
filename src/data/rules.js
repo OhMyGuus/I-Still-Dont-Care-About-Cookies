@@ -16585,8 +16585,8 @@ const rules = {
   "wintertrex.be": { c: 6 },
   "wintertrex.nl": { c: 6 },
   "sunfun.pl": { s: 'div[class^="CookieBar"]{display:none !important}' },
-  
-
+  "regent.pl": { s: "#wezcookie{display:none !important}" },
+  "tourist.pl": {  s: "#wezcookie{display:none !important}" },
 
 
 
