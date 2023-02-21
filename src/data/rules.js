@@ -16522,8 +16522,8 @@ const rules = {
   "jemako.com": { s: "#acb-wrapper{display:none !important}" },
   "digiseller.market": { c: 3 },
   "freeyourmusic.com": { c: 6},
-
-
+  "startfrei.at": { s: "#cookie-consent-modal{display:none !important}" },
+  "startfrei.at": { j: 6 },
 
 
 
