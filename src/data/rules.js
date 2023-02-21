@@ -16584,6 +16584,7 @@ const rules = {
   "snowtrex.us": { c: 6 },
   "wintertrex.be": { c: 6 },
   "wintertrex.nl": { c: 6 },
+  "sunfun.pl": { s: 'div[class^="CookieBar"]{display:none !important}' },
   
 
 
