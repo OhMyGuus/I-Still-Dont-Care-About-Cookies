@@ -14003,7 +14003,8 @@ div[data-role="cookies-modal-content"],
 #privacy_controls_banner,
 .gdpr-cookies-button-float,
 .gdpr-cookies-welcome-box,
-.djm-cookie-notice
+.djm-cookie-notice,
+.ins-v-cookie-alert
 
 /* 14113 */ {
   display: none !important;
