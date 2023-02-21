@@ -16441,9 +16441,9 @@ const rules = {
   "minarsidur.hms.is": { s: "#snackbar{display:none !important}" },
   "renovatie-gids.be": { s: "#bbx_modal_cookie{display:none !important}" },
   "remember.de": { s: "#twt-cookie-consent-modal{display:none !important}", c: 85 },
+  "3rdrockclothing.com": { s: ".pd-cookie-banner-window{display:none !important}" },
 
-
-
+  
 
 
 };
