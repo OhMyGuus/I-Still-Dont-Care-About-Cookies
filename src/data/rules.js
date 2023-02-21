@@ -16438,6 +16438,13 @@ const rules = {
   "natureguide.gr": { c: 0 },
   "espressimo.bg": { s: ".notification-wrapper{display:none !important}" },
   "giromatch.com": { s: "#cookienoteGm{display:none !important}", c: 14 },
+  "minarsidur.hms.is": { s: "#snackbar{display:none !important}" },
+
+
+
+
+
+
 
 };
 
