@@ -16402,6 +16402,14 @@ const rules = {
   "liveagent.com": { s: ".Medovnicky{display:none !important}" },
   "samueladams.com": { s: ".notification-banner{display:none !important}" },
   "rockboard.de": { s: ".cookie-outer-container-wrap{display:none !important}" },
+  "gleerupsportal.se": { s: "div[role=\"complementary\"]{display:none !important}" },
+
+
+
+
+
+
+
 };
 
 const blockUrls = {
