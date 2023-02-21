@@ -16412,7 +16412,13 @@ const rules = {
   "nyman.media": { s: ".alert-dismissible{display:none !important}" },
   "aitopics.org": { s: "#fixed-footer{display:none !important}" },
   "socofe.pzu.pl": { s: ".cdk-overlay-container{display:none !important}" },
+  "schrack-seconet.com": { s: ".pageOverlay{display:none !important}" },
 
+
+
+
+
+  
 
 };
 
