@@ -16394,7 +16394,7 @@ const rules = {
   "reka.ch": { c: 4 },
   "uninter.com": { s: ".lgpd-box{display:none !important}" },
   "fleetlogistics.com": { s: "#gdpr-cookie-message-container{display:none !important}" },
-
+  "church-footwear.com": { c: 85 },
 };
 
 const blockUrls = {
