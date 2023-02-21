@@ -14005,7 +14005,8 @@ div[data-role="cookies-modal-content"],
 .gdpr-cookies-welcome-box,
 .djm-cookie-notice,
 .ins-v-cookie-alert,
-.fc-consent-root
+.fc-consent-root,
+#js_dataNnoticeBackdrop
 
 /* 14113 */ {
   display: none !important;
