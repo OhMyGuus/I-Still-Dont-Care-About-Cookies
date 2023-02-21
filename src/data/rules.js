@@ -16594,7 +16594,20 @@ const rules = {
   "link.co": { s: ".LinkNotificationCenter{display:none !important}" },
   "pricellent.pl": { s: ".MuiSnackbar-root{display:none !important}" },
   "jobb.dafgards.se": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 };
 
 const blockUrls = {
@@ -18563,6 +18576,7 @@ const blockUrls = {
     "fightful.com": ["/dkmb_gdpr.js"],
     "arktis.de": ["/pandectes-core.js"],
     "apfelband.de": ["/pandectes-core.js"],
+    "schvarz.com": ["/pandectes-core.js"],
     "muyinteresante.es": ["privacy-center.org"],
     "santander.de": ["/uc-cmp/"],
     "electromenager-compare.com": ["/cookpop.min.js"],
