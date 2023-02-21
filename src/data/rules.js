@@ -16436,7 +16436,7 @@ const rules = {
   "tickets.siampark.net": { s: ".panel_cookies{display:none !important}" },
   "kidstaff.com.ua": { s: "#gdpr_panel{display:none !important}" },
   "natureguide.gr": { c: 0 },
-
+  "espressimo.bg": { s: ".notification-wrapper{display:none !important}" },
 
 
 };
