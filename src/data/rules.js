@@ -16519,9 +16519,8 @@ const rules = {
   "play.geforcenow.com": { c: 49 } ,
   "flybair.ch": { s: "#gdprcookie{display:none !important}" },
   "planningportal.co.uk": { s: ".tqc-portal{display:none !important}", c: 85 }, 
-
-
-
+  "jemako.com": { s: "#acb-wrapper{display:none !important}" },
+  
 
 };
 
