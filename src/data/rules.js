@@ -16391,8 +16391,8 @@ const rules = {
   "refunder.se": { s: "div[data-modal=\"cookie-consent-modal\"]{display:none !important}", c: 85 },
   "nouvelair.com": { s: "div[style*=\"width: 100%; height: 100%; z-index: 999; background-color: rgba(0, 0, 0, 0.3);\"]{display:none !important}" },
   "pon20142020.indire.it": { s: "#bannerContent{display:none !important}" },
-
-
+  "reka.ch": { c: 4 },
+  "uninter.com": { s: ".lgpd-box{display:none !important}" },
 
 
 };
