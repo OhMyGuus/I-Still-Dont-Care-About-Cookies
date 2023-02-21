@@ -16420,8 +16420,7 @@ const rules = {
   "lendwise.com": { c: 14 },
   "nbg.gov.ge": { s: "div[class=\"md:w-61-1 right-0 w-full md:block absolute bottom-0 bg-primary-main md:py-2-1 pt-2-1 pb-4-0 px-3-0 no-print\"]{display:none !important}" },
   "cancerfonden.se": { s: "div[class^=\"CookieDisclaimer__Wrapper\"]{display:none !important}" },
-
-
+  "onexgroup.pl": { s: "div[class^=\"PrivacyPolicyBanner\"]{display:none !important}" },
 
 
 
