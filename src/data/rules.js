@@ -16410,7 +16410,7 @@ const rules = {
   "bszam.de": { s: ".ccm-root{display:none !important}" },
   "karriere.hofer.at": { s: ".ppms_cm_popup_overlay{display:none !important}" },
   "nyman.media": { s: ".alert-dismissible{display:none !important}" },
-
+  "aitopics.org": { s: "#fixed-footer{display:none !important}" },
 
 
 
