@@ -17535,6 +17535,7 @@ const blockUrls = {
       { r: "/wp-content/plugins/consent-magic-pro" },
       { r: "7gra.us/consentbar" },
       { r: "/dgp-cookie-consent" },
+      { r: "/assets/as24-cmp/consent-banner/" }
     ],
     gdpr: [
       { r: "/js/gdpr_footer.js" },
