@@ -16401,7 +16401,7 @@ const rules = {
   "wakkap.com": { c: 0 },
   "liveagent.com": { s: ".Medovnicky{display:none !important}" },
   "samueladams.com": { s: ".notification-banner{display:none !important}" },
-
+  "rockboard.de": { s: ".cookie-outer-container-wrap{display:none !important}" },
 };
 
 const blockUrls = {
