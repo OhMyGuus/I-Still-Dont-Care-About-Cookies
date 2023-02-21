@@ -16418,6 +16418,13 @@ const rules = {
   "micro-nh.de": { s: ".amgdprcookie-modal-container,.ammodals-overlay{display:none !important}" }, 
   "skyfi.com": { s: "section[class=\"fixed bottom-0 px-20 pb-25 left-0 right-0 lg:right-[unset] lg:p-30 z-[5000]\"]{display:none !important}" },
   "lendwise.com": { c: 14 },
+
+
+
+
+
+
+  
 };
 
 const blockUrls = {
