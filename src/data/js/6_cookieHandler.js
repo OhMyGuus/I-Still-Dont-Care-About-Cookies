@@ -549,33 +549,38 @@ function getE(hostname) {
     case "tab.digital":
       return ["t_cookiesConsentGiven=true", "t_cookiesCategories=[]"];
     case "bootstrap.academy":
-      return ["agreedToCookiePolicy=true"];  
+      return ["agreedToCookiePolicy=true"];
     case "tarifcheck-partnerprogramm.de":
-      return [
-        "mrk=no",
-        "stats=no",
-        "tech=yes",
-      ];
+      return ["mrk=no", "stats=no", "tech=yes"];
     case "ulm-dsl.de":
       return ["eu-cookie=1"];
     case "flying-pizza.de":
-      return ['allow_cookies={"essential":"1","functional":{"all":"0"},"marketing":{"all":"0"}}'];
+      return [
+        'allow_cookies={"essential":"1","functional":{"all":"0"},"marketing":{"all":"0"}}',
+      ];
     case "seriesmania.com":
       return ["accept-cookie=no"];
     case "zlocinozrouti.cz":
-      return ['cookiesRules={"analytics":false,"personalized":false,"ads":false}'];
+      return [
+        'cookiesRules={"analytics":false,"personalized":false,"ads":false}',
+      ];
     case "sportrebel.pl":
       return ["sportrebel_retry_cookie_request=0"];
     case "carry.pl":
       return ["__carry_cookie_module=2"];
     case "supermercadosmas.com":
-      return ["amcookie_allowed=0", "amcookie_disallowed=recently_viewed_product%2Crecently_viewed_product_previous%2Crecently_compared_product%2Crecently_compared_product_previous%2C_ga%2C_gid%2C_gat"];
+      return [
+        "amcookie_allowed=0",
+        "amcookie_disallowed=recently_viewed_product%2Crecently_viewed_product_previous%2Crecently_compared_product%2Crecently_compared_product_previous%2C_ga%2C_gid%2C_gat",
+      ];
     case "kanalsportowy.pl":
-      return ["eupubconsent-v2=CPmWSYAPmWSYAF_AAAENC1CgAAAAAAAAAB5YAAAAAAAA.YAAAAAAABQAAAAAA"];
+      return [
+        "eupubconsent-v2=CPmWSYAPmWSYAF_AAAENC1CgAAAAAAAAAB5YAAAAAAAA.YAAAAAAABQAAAAAA",
+      ];
     case "huutokaupat.com":
-      return ["consent-data-v2=mandatory"]    
+      return ["consent-data-v2=mandatory"];
     case "seb.se":
-      return ["AcceptedCookieCategories=0%"]   
+      return ["AcceptedCookieCategories=0%"];
     case "skyscanner.net":
     case "skyscanner.ru":
     case "skyscanner.fi":
@@ -637,21 +642,20 @@ function getE(hostname) {
     case "skyscanner.jp":
     case "skyscanner.com.my":
     case "skyscanner.com.mx":
-      return ["gdpr=information&adverts&version:::2"]
+      return ["gdpr=information&adverts&version:::2"];
     case "dslbank.de":
-      return ["Cookieinfoauswahl=false"]
+      return ["Cookieinfoauswahl=false"];
     case "nadia.gov.gr":
-      return ["consent-status=000"]
+      return ["consent-status=000"];
     case "stevensbikes.de":
       return [
         "stv_cconsent_statistics=0",
         "stv_cconsent_external=0",
-        "stv_cconsent_required=1"
-      ]
+        "stv_cconsent_required=1",
+      ];
     case "59northwheels.se":
-      return ["cookie_accepted=1"]
+      return ["cookie_accepted=1"];
   }
-
 
   const parts = hostname.split(".");
 
