@@ -16388,7 +16388,7 @@ const rules = {
   "guarconsa.com": { s: "#avisocookies1{display:none !important}", c: 14 },
   "rktbns.de": { c: 0 },
   "hyrabostad.se": { c: 157 },
-
+  "refunder.se": { s: "div[data-modal=\"cookie-consent-modal\"]{display:none !important}", c: 85 },
 
 
 
