@@ -14011,7 +14011,8 @@ div[data-role="cookies-modal-content"],
 .bm-privacy,
 #website_cookies_bar,
 .cookie-bar-new,
-.toast-cookies
+.toast-cookies,
+#cookidiot
 
 /* 14113 */ {
   display: none !important;
