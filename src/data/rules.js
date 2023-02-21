@@ -16591,7 +16591,7 @@ const rules = {
   "bfc.pl": { c: 0 },
   "ogloszenia.jmlnet.pl": { c: 14 },
   "fiberatlantic.com": { c: 0 },
-
+  "link.co": { s: ".LinkNotificationCenter{display:none !important}" },
 
 
 
