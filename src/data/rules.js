@@ -16415,7 +16415,7 @@ const rules = {
   "schrack-seconet.com": { s: ".pageOverlay{display:none !important}" },
   "vectornator.io": { s: ".cookies-wrap{display:none !important}" },
   "wetaca.com": { s: "div[class^=\"cookiesBanner-module_cookiesBanner\"]{display:none !important}" },
-  "micro-nh.de": { s: ".amgdprcookie-modal-container,.ammodals-overlay{display:none !important}" },
+  "micro-nh.de": { s: ".amgdprcookie-modal-container,.ammodals-overlay{display:none !important}" }, 
   
 
 };
