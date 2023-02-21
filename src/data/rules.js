@@ -16440,7 +16440,7 @@ const rules = {
   "giromatch.com": { s: "#cookienoteGm{display:none !important}", c: 14 },
   "minarsidur.hms.is": { s: "#snackbar{display:none !important}" },
   "renovatie-gids.be": { s: "#bbx_modal_cookie{display:none !important}" },
-
+  "remember.de": { s: "#twt-cookie-consent-modal{display:none !important}", c: 85 },
 
 
 
