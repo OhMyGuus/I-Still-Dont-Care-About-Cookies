@@ -16601,7 +16601,7 @@ const rules = {
   "vegmart.sk": { s: "#bb-cookies-dialog-state-default{display:none !important}" },
   "777score.com": { s: ".cookie-modal{display:none !important}" },
   "malijunaki.si": { s: "#cookies{display:none !important}", c: 85 },
-
+  "energydashboard.co.uk": { s: "div[class^=\"z-50 fixed\"]{display:none !important}" },
 
 
 
