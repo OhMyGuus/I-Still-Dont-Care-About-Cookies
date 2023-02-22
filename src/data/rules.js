@@ -16618,7 +16618,7 @@ const rules = {
   "tidesmarine.com": { c: 3 },
   "alma.be": { c: 85 },
   "helmut-fischer.com": { s: "#🍪{display:none !important}" },
-
+  "oldirishpub.fi": { c: 14 },
 
 
 
