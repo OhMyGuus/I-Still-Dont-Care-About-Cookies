@@ -16598,7 +16598,7 @@ const rules = {
   "kappa-shop.de": { s: ".amgdprjs-bar-template{display:none !important}" },
   "dallasinnovates.com": { s: "#acceptance{display:none !important}" },
   "voipstudio.de": { c: 6 },
-
+  "vegmart.sk": { s: "#bb-cookies-dialog-state-default{display:none !important}" },
 
 
 
