@@ -16599,7 +16599,7 @@ const rules = {
   "dallasinnovates.com": { s: "#acceptance{display:none !important}" },
   "voipstudio.de": { c: 6 },
   "vegmart.sk": { s: "#bb-cookies-dialog-state-default{display:none !important}" },
-
+  "777score.com": { s: ".cookie-modal{display:none !important}" },
 
 
 
