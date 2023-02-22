@@ -16613,7 +16613,7 @@ const rules = {
   "refurbed.de": { c: 85 },
   "theadelphileeds.co.uk": { c: 85 },
   "data-driven-forms.org": { j: 3 },
-
+  "electropapa.com": { s: "#ccAcivateModal{display:none !important}", c: 14 },
 
 
 
