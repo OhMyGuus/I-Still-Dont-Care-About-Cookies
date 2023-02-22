@@ -16616,7 +16616,7 @@ const rules = {
   "electropapa.com": { s: "#ccAcivateModal{display:none !important}", c: 14 },
   "toyota.co.th": { s: ".popup__pdpa{display:none !important}" },
   "tidesmarine.com": { c: 3 },
-
+  "alma.be": { c: 85 },
 };
 
 const blockUrls = {
