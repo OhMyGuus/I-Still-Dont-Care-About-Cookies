@@ -16619,7 +16619,7 @@ const rules = {
   "alma.be": { c: 85 },
   "helmut-fischer.com": { s: "#🍪{display:none !important}" },
   "oldirishpub.fi": { c: 14 },
-
+  "qm-pilot.ch": { s: "#dsgvo--popup{display:none !important}" },
 
 
 
