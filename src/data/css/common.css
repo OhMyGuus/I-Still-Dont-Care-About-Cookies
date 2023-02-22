@@ -14012,7 +14012,8 @@ div[data-role="cookies-modal-content"],
 #website_cookies_bar,
 .cookie-bar-new,
 .toast-cookies,
-#cookidiot
+#cookidiot,
+.lightbox-backdrop.lightbox-backdrop-cc-dialog
 
 /* 14113 */ {
   display: none !important;
