@@ -657,6 +657,8 @@ function getE(hostname) {
       return ["cookie_accepted=1"];
     case "startfrei.at":
       return ["jart_cookie_consent=%5B%7B%22name%22%3A%22essential%22%2C%22value%22%3A%22true%22%7D%5D"];
+    case "voordeeluitjes.nl":
+      return ["vu.cookieconsent=true"];
   }
 
   const parts = hostname.split(".");
