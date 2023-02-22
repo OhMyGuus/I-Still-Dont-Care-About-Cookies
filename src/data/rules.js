@@ -15986,7 +15986,6 @@ const rules = {
     s: "#chimpify-popup-2,#chimpify-overlay{display:none !important}",
     c: 85,
   },
-  "epantofi.ro": { s: ".modal-consents{display:none !important}" },
   "qwertee.com": { s: "#root > .fixed{display:none !important}" },
   "factcool.com": {
     s: "#__next > div > div + div > div > :nth-child(3),.fScrmm{display:none !important}",
