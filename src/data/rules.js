@@ -16621,7 +16621,7 @@ const rules = {
   "oldirishpub.fi": { c: 14 },
   "qm-pilot.ch": { s: "#dsgvo--popup{display:none !important}" },
   "vegmart.cz": { s: "#bb-cookies-dialog-state-default{display:none !important}" },
-
+  "fullbay.com": { s: ".cookie-consent-modal{display:none !important}" },
 
 
 
