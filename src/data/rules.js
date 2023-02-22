@@ -16623,7 +16623,7 @@ const rules = {
   "vegmart.cz": { s: "#bb-cookies-dialog-state-default{display:none !important}" },
   "fullbay.com": { s: ".cookie-consent-modal{display:none !important}" },
   "bridgeland.com": { s: ".disclaimer{display:none !important}" },
-
+  "rds.live": { c: 167 },
 
 
 
