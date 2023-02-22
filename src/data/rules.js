@@ -16634,7 +16634,7 @@ const rules = {
   "net-pocket.com": { s: "div[class*=\"CookiesBanner\"]{display:none !important}" },
   "sportano.pl": { j: 6 },
   "nutsinbulk.co.uk": { s: "#CookieModal{display:none !important}", c: 14 },
-
+  "theupgradeguide.com": { s: ".stpd_cmp{display:none !important}" },
 
 
 };
