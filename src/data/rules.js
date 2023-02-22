@@ -16605,6 +16605,7 @@ const rules = {
   "singaporeair.com": { s: ".dwc--SiaCookie__PopupEUTint{display:none !important}" },
   "silverstonetek.com": { c: 0 },
   "techlord.pl": { s: "#InfoCookieTlo{display:none !important}" },
+  "careers.debricked.com": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
 
 
 };
