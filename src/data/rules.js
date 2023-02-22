@@ -16631,8 +16631,8 @@ const rules = {
   "turkishairlines.com": { s: "#cookieWarningMessageNew{display:none !important}" },
   "olerum.de": { s: ".cookiemessagebackground{display:none !important}", c: 85 },
   "devicespecifications.com": { s: "#window_cookie_consent_1_overlay{display:none !important}", c:85 },
-
-
+  "net-pocket.com": { s: "div[class*=\"CookiesBanner\"]{display:none !important}" },
+  
 
 
 
