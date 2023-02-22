@@ -16608,6 +16608,13 @@ const rules = {
   "careers.debricked.com": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
   "codeclimate.com": { s: "div[x-data*=\"cookie-policy\"]{display:none !important}" },
 
+
+
+
+
+
+
+
 };
 
 const blockUrls = {
@@ -18649,7 +18656,8 @@ const blockUrls = {
     "czasnaherbate.net": ["pdcookiepro//views/js/"],
     "zs-watch.com": ["/dtc-fe/policy-control"],
     "loveholidays.ie": ["cookies.js"],
-    "georg.at": ["/inc/cookie_modal_ajax.php"]
+    "georg.at": ["/inc/cookie_modal_ajax.php"],
+    "galaxus.fr": ["/_next/static/chunks/cookieOverlay"]
   },
 };
 
