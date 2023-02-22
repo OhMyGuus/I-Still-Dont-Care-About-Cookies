@@ -16614,7 +16614,7 @@ const rules = {
   "theadelphileeds.co.uk": { c: 85 },
   "data-driven-forms.org": { j: 3 },
   "electropapa.com": { s: "#ccAcivateModal{display:none !important}", c: 14 },
-
+  "toyota.co.th": { s: ".popup__pdpa{display:none !important}" },
 
 
 };
