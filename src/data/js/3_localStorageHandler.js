@@ -163,11 +163,17 @@ function getItem(hostname) {
           key: "__MODIVO__items_consents_codes",
           value: '["category_advertisement","category_analysis_and_research","category_location","category_processes","category_service_configuration","Zowie","Synerise","Double Take","Wirtualna Polska Media","Onet","Playlink","INIS sp z o.o.","Tradedoubler","Google Ads","Snowdog","Ringier Axel Springer Polska","Facebook","Verizon Media","Microsoft Corporation","Criteo GmbH","RTB House","TikTok","Hotjar"]',
         }]
-        case "vicampo.de":
-          return {
-            strict: false,
-            key: "temp-cookiefirst-consent",
-            value: '{"necessary":false,"performance":false,"functional":false,"advertising":false,"timestamp":0}',
+      case "vicampo.de":
+        return {
+          strict: false,
+          key: "temp-cookiefirst-consent",
+          value: '{"necessary":false,"performance":false,"functional":false,"advertising":false,"timestamp":0}',
+        };
+      case "data-driven-forms.org":
+        return {
+          strict: false,
+          key: "data-driven-forms-cookie-consent",
+          value: "neccessary",
           };
   }
 
