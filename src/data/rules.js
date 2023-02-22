@@ -16610,7 +16610,7 @@ const rules = {
   "bimibrokkoli.de": { c: 0 },
   "zero-to-nix.com": { s: "div[class=\"fixed left-6 bottom-6 z-50 print:hidden\"]{display:none !important}" },
   "educado.pl": { c: 20 },
-  
+  "refurbed.de": { c: 85 },
 
 
 
