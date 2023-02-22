@@ -16629,8 +16629,7 @@ const rules = {
   "voordeeluitjes.nl": { j: 6 },
   "afilio.de": { s: ".component-c-overlay{display:none !important}" },
   "turkishairlines.com": { s: "#cookieWarningMessageNew{display:none !important}" },
-
-
+  "olerum.de": { s: ".cookiemessagebackground{display:none !important}", c: 85 },
 
 
 
