@@ -16630,7 +16630,7 @@ const rules = {
   "afilio.de": { s: ".component-c-overlay{display:none !important}" },
   "turkishairlines.com": { s: "#cookieWarningMessageNew{display:none !important}" },
   "olerum.de": { s: ".cookiemessagebackground{display:none !important}", c: 85 },
-
+  "devicespecifications.com": { s: "#window_cookie_consent_1_overlay{display:none !important}", c:85 },
 
 
 
