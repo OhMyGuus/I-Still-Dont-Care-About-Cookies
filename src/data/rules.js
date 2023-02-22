@@ -16622,7 +16622,7 @@ const rules = {
   "qm-pilot.ch": { s: "#dsgvo--popup{display:none !important}" },
   "vegmart.cz": { s: "#bb-cookies-dialog-state-default{display:none !important}" },
   "fullbay.com": { s: ".cookie-consent-modal{display:none !important}" },
-
+  "bridgeland.com": { s: ".disclaimer{display:none !important}" },
 
 
 
