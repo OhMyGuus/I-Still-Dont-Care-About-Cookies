@@ -16624,7 +16624,7 @@ const rules = {
   "fullbay.com": { s: ".cookie-consent-modal{display:none !important}" },
   "bridgeland.com": { s: ".disclaimer{display:none !important}" },
   "rds.live": { c: 167 },
-
+  "britishcornershop.co.uk": { s: "#overlay{display:none !important}" },
 
 
 
