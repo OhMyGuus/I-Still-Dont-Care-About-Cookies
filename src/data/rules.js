@@ -16606,7 +16606,7 @@ const rules = {
   "silverstonetek.com": { c: 0 },
   "techlord.pl": { s: "#InfoCookieTlo{display:none !important}" },
   "careers.debricked.com": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
-
+  "codeclimate.com": { s: "div[x-data*=\"cookie-policy\"]{display:none !important}" },
 
 };
 
