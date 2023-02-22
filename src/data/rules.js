@@ -16608,7 +16608,9 @@ const rules = {
   "careers.debricked.com": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
   "codeclimate.com": { s: "div[x-data*=\"cookie-policy\"]{display:none !important}" },
   "bimibrokkoli.de": { c: 0 },
+  "zero-to-nix.com": { s: "div[class=\"fixed left-6 bottom-6 z-50 print:hidden\"]{display:none !important}" },
 
+  
 
 
 
