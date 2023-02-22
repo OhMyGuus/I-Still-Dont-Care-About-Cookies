@@ -16617,6 +16617,18 @@ const rules = {
   "toyota.co.th": { s: ".popup__pdpa{display:none !important}" },
   "tidesmarine.com": { c: 3 },
   "alma.be": { c: 85 },
+  "helmut-fischer.com": { s: "#🍪{display:none !important}" },
+
+
+
+
+
+
+
+
+
+
+
 };
 
 const blockUrls = {
