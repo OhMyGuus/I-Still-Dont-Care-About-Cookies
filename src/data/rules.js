@@ -16632,9 +16632,13 @@ const rules = {
   "olerum.de": { s: ".cookiemessagebackground{display:none !important}", c: 85 },
   "devicespecifications.com": { s: "#window_cookie_consent_1_overlay{display:none !important}", c:85 },
   "net-pocket.com": { s: "div[class*=\"CookiesBanner\"]{display:none !important}" },
-  "sportano.pl": { j: 6 },
   "nutsinbulk.co.uk": { s: "#CookieModal{display:none !important}", c: 14 },
   "theupgradeguide.com": { s: ".stpd_cmp{display:none !important}" },
+  "sportano.cz": { j: 6 },
+  "sportano.ro": { j: 6 },
+  "sportano.hu": { j: 6 },
+  "sportano.de": { j: 6 },
+  "sportano.sk": { j: 6 },
 
 
 };
