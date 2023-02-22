@@ -16625,7 +16625,7 @@ const rules = {
   "bridgeland.com": { s: ".disclaimer{display:none !important}" },
   "rds.live": { c: 167 },
   "britishcornershop.co.uk": { s: "#overlay{display:none !important}" },
-
+  "centreforaviation.com": { s: "div[class^=\"cookieConsent_consent\"]{display:none !important}" },
 
 
 
