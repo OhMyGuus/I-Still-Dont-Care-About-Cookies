@@ -16628,6 +16628,15 @@ const rules = {
   "centreforaviation.com": { s: "div[class^=\"cookieConsent_consent\"]{display:none !important}" },
   "voordeeluitjes.nl": { j: 6 },
   "afilio.de": { s: ".component-c-overlay{display:none !important}" },
+  "turkishairlines.com": { s: "#cookieWarningMessageNew{display:none !important}" },
+
+
+
+
+
+
+
+
 
 
 };
