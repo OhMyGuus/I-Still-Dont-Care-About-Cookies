@@ -16602,7 +16602,7 @@ const rules = {
   "777score.com": { s: ".cookie-modal{display:none !important}" },
   "malijunaki.si": { s: "#cookies{display:none !important}", c: 85 },
   "energydashboard.co.uk": { s: "div[class^=\"z-50 fixed\"]{display:none !important}" },
-
+  "singaporeair.com": { s: ".dwc--SiaCookie__PopupEUTint{display:none !important}" },
 
 
 
