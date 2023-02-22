@@ -18672,7 +18672,8 @@ const blockUrls = {
     "zs-watch.com": ["/dtc-fe/policy-control"],
     "loveholidays.ie": ["cookies.js"],
     "georg.at": ["/inc/cookie_modal_ajax.php"],
-    "galaxus.fr": ["/_next/static/chunks/cookieOverlay"]
+    "galaxus.fr": ["/_next/static/chunks/cookieOverlay"],
+    "werner-mertz.de": ["consent.werner-mertz.de"]
   },
 };
 
