@@ -18221,6 +18221,7 @@ const blockUrls = {
       { r: "/klaro/klaro-pe.js" },
       { r: "klaro-no-css.js" },
       { r: "ionic-consent.js" },
+      { r: "ckpl-webc.min.js" }
     ],
   },
   specific: {
