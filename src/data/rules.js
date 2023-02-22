@@ -16604,7 +16604,7 @@ const rules = {
   "energydashboard.co.uk": { s: "div[class^=\"z-50 fixed\"]{display:none !important}" },
   "singaporeair.com": { s: ".dwc--SiaCookie__PopupEUTint{display:none !important}" },
   "silverstonetek.com": { c: 0 },
-
+  "techlord.pl": { s: "#InfoCookieTlo{display:none !important}" },
 
 
 };
