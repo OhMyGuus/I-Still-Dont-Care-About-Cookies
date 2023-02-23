@@ -14026,7 +14026,8 @@ div.modal-consents1 .side-modal-mask,
 #js-portlet-_valiantcookies_,
 .cookiebox-container,
 .x13eucookies__backdrop,
-#spicookiebanner
+#spicookiebanner,
+.cookie-pop-in
 
 /* 14113 */ {
   display: none !important;
