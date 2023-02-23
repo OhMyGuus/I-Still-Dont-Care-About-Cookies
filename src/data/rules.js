@@ -16684,6 +16684,11 @@ const rules = {
   "khrono.no": { s: ".adn-window.adn-message{display:none !important}" },
   "llull.cat": { s: "#backBlackCookies{display:none !important}" },
   "savoo.co.uk": { s: "#cookie-consent{display:none !important}" },
+  "sutars.com": { s: "#CookiesSettings{display:none !important}" },
+
+
+
+
 
 };
 
