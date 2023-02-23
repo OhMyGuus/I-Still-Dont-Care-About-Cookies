@@ -16680,8 +16680,8 @@ const rules = {
   "seb.lv": { c: 14 },
   "group.emmi.com": { s: ".js-o-page__gdpr-overlay{display:none !important}", c: 85 },
   "metar-taf.com": { c: 0 },
-
-
+  "spiele-offensive.de": { s: "#consentContainer{display:none !important}" },
+  "khrono.no": { s: ".adn-window.adn-message{display:none !important}" },
 
 
 
