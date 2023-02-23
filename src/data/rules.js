@@ -16672,7 +16672,7 @@ const rules = {
   "entuk.org": { s: "#cookieModal{display:none !important}", c: 14 },
   "teufelaudio.pl": { s: "p-layer{display:none !important}", c: 85 },
   "oficinasmontiel.com": { s: "#darklayer{display:none !important}" },
-
+  "aia.com.sg": { s: ".cmp-notification-action-panel{display:none !important}" },
 
   
 
