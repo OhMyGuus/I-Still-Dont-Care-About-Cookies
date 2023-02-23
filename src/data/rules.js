@@ -16682,7 +16682,7 @@ const rules = {
   "metar-taf.com": { c: 0 },
   "spiele-offensive.de": { s: "#consentContainer{display:none !important}" },
   "khrono.no": { s: ".adn-window.adn-message{display:none !important}" },
-
+  "llull.cat": { s: "#backBlackCookies{display:none !important}" },
 
 
 };
