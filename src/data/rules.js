@@ -16666,7 +16666,7 @@ const rules = {
   "careers.equinix.com": { s: ".consent-modal{display:none !important}", c: 14 },
   "piearsta.lv": { s: ".acceptCookiesBlock,.mask{display:none !important}" },
   "bikebox-shop.de": { s: "#ccAcivateModal{display:none !important}", c: 14 },
-
+  "mline.com":  { s: "#ccAcivateModal{display:none !important}", c: 14 },
 
 
 };
