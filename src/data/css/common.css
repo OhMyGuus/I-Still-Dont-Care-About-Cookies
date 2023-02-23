@@ -14017,7 +14017,8 @@ div[data-role="cookies-modal-content"],
 .consentBoxes,
 .cookies-es-container,
 div.modal-consents1 .side-modal-mask,
-#block-london-cookies
+#block-london-cookies,
+#cookie_consent_popup_background
 
 /* 14113 */ {
   display: none !important;
