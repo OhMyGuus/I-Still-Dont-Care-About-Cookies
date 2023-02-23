@@ -16675,6 +16675,10 @@ const rules = {
   "aia.com.sg": { s: ".cmp-notification-action-panel{display:none !important}" },
   "bloemenvanblok.nl": { s: "#cookieSettings{display:none !important}" },
   "lafermeducbd.fr": { s: ".gdprModal{display:none !important}" },
+  "hendy.co.uk": { s: "div[x-init^=\"hide_cookie_banner\"]{display:none !important}" },
+
+
+
 
 };
 
