@@ -17468,7 +17468,8 @@ const blockUrls = {
       { r: "/dxcookieconsent/" },
       { r: "/wp-content/plugins/real-cookie-banner" },
       { r: "sohoshopcookies.js" },
-      { r: "am-static.com/cookie-banner/sdk.js" }
+      { r: "am-static.com/cookie-banner/sdk.js" },
+      { r: "/marked-cookie-consent-web/app.js" }
     ],
     consent: [
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
