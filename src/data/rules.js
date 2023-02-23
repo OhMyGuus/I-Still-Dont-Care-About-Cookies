@@ -16670,7 +16670,7 @@ const rules = {
   "portal.librus.pl": { s: ".consent-categories-modal-wrapper{display:none !important}", c: 85 },
   "logopaedie-balzer.de": { s: ".ch-popup-cookies,.chimpify-overlay{display:none !important}", c: 85},
   "entuk.org": { s: "#cookieModal{display:none !important}", c: 14 },
-
+  "teufelaudio.pl": { s: "p-layer{display:none !important}", c: 85 },
 
 
 
