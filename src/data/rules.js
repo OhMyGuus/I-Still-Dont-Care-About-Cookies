@@ -16656,7 +16656,7 @@ const rules = {
   "profim.pl": { s: "div[class^=\"Cookies__content\"]{display:none !important}" },
   "adressmonster.de": { c: 0 },
   "astra-mag.com": { c: 0 },
-
+  "jobup.ch": { s: "{display:none !important}" },
 
 
 };
@@ -18707,7 +18707,8 @@ const blockUrls = {
     "galaxus.fr": ["/_next/static/chunks/cookieOverlay"],
     "werner-mertz.de": ["consent.werner-mertz.de"],
     "corporate.modivo.com": ["/dist/js/cmp.js"],
-    "jimms.fi": ["jimmsconsent.min.js?"]
+    "jimms.fi": ["jimmsconsent.min.js?"],
+    "jobup.ch": ["chunk-cookie-consent-modal"]
   },
 };
 
