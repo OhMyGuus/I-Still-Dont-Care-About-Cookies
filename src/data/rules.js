@@ -16652,6 +16652,9 @@ const rules = {
   "cbsnews.com": { s: "#cps-shaman-notifier{display:none !important}" },
   "puregoldprotein.com": { s: ".cookieConsentDialog{display:none !important}", c: 85 },
   "hero-wars.com": { s: ".overlay__cookie{display:none !important}" }, 
+  "shanebarker.com": { s: ".kadence-conversion{display:none !important}" },
+
+
 
 };
 
