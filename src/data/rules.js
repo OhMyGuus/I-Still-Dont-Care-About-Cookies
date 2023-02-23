@@ -16660,7 +16660,7 @@ const rules = {
   "centrumdobrejterapii.pl": { s: ".bottom-cookie-info{display:none !important}" },
   "autohaus24.de": { j: 6 },
   "ras.bz.it": { s: "body.dp--cookie-consent .body-inner::before{opacity: 0 !important}" },
-
+  "jugendkulturkarte.berlin": { s: ".cookie-layer{display:none !important}" },
 
 };
 
