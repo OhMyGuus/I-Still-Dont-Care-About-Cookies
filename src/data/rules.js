@@ -16656,6 +16656,9 @@ const rules = {
   "profim.pl": { s: "div[class^=\"Cookies__content\"]{display:none !important}" },
 
 
+
+
+
 };
 
 const blockUrls = {
@@ -18703,7 +18706,8 @@ const blockUrls = {
     "georg.at": ["/inc/cookie_modal_ajax.php"],
     "galaxus.fr": ["/_next/static/chunks/cookieOverlay"],
     "werner-mertz.de": ["consent.werner-mertz.de"],
-    "corporate.modivo.com": ["/dist/js/cmp.js"]
+    "corporate.modivo.com": ["/dist/js/cmp.js"],
+    "jimms.fi": ["jimmsconsent.min.js?"]
   },
 };
 
