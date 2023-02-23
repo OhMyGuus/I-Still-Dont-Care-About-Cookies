@@ -16685,7 +16685,7 @@ const rules = {
   "llull.cat": { s: "#backBlackCookies{display:none !important}" },
   "savoo.co.uk": { s: "#cookie-consent{display:none !important}" },
   "sutars.com": { s: "#CookiesSettings{display:none !important}" },
-
+  "thedutchonlineacademy.com": { s: "#cookie-consent{display:none !important}" },
 
 
 
