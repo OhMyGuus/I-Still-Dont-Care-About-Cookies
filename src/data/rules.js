@@ -16683,7 +16683,7 @@ const rules = {
   "spiele-offensive.de": { s: "#consentContainer{display:none !important}" },
   "khrono.no": { s: ".adn-window.adn-message{display:none !important}" },
   "llull.cat": { s: "#backBlackCookies{display:none !important}" },
-
+  "savoo.co.uk": { s: "#cookie-consent{display:none !important}" },
 
 };
 
