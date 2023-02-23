@@ -16541,20 +16541,34 @@ const rules = {
   "sfd.pl": { s: "#cc--main{display:none !important}", c: 85 },
   "papiernikbyempik.com": { c: 0 },
   "empik.com": { c: 85 },
-  "health-platform.online": { s: ".MuiSnackbar-root,.MuiBackdrop-root{display:none !important}" },
+  "health-platform.online": {
+    s: ".MuiSnackbar-root,.MuiBackdrop-root{display:none !important}",
+  },
   "heidisql.com": { c: 6 },
   "ironmaxx.de": { s: ".amgdprcookie-bar-container{display:none !important}" },
-  "herbiesheadshop.com": { s: ".cookies-politic__section,.disclaimer-popup__overlay{display:none !important}" },
-  "defencediscountservice.co.uk": { s: ".jquery-modal{display:none !important}", c: 85 },
-  "vyos.io": { s: "div[class^=\"Cookies_cookies\"]{display:none !important}" },
+  "herbiesheadshop.com": {
+    s: ".cookies-politic__section,.disclaimer-popup__overlay{display:none !important}",
+  },
+  "defencediscountservice.co.uk": {
+    s: ".jquery-modal{display:none !important}",
+    c: 85,
+  },
+  "vyos.io": { s: 'div[class^="Cookies_cookies"]{display:none !important}' },
   "odlewkiperfum.pl": { s: ".jconfirm{display:none !important}" },
-  "tierschutzverein-diez.de": { s: "#consent-content{display:none !important}", c: 14 },
+  "tierschutzverein-diez.de": {
+    s: "#consent-content{display:none !important}",
+    c: 14,
+  },
   "sainttropeztourisme.com": { s: ".RGPD_message{display:none !important}" },
   "innovationsstiftung-bildung.at": { c: 14 },
   "gebuhrenfrei.com": { c: 85 },
-  "stephanealligne.com": { s: "div[id^=\"bandeauCookie\"]{display:none !important}" },
+  "stephanealligne.com": {
+    s: 'div[id^="bandeauCookie"]{display:none !important}',
+  },
   "e-herbapol.com.pl": { s: "#cc--main{display:none !important}", c: 85 },
-  "wyprzedzmeningokoki.pl": { s: "#__tealiumGDPRcpPrefs{display:none !important}" },
+  "wyprzedzmeningokoki.pl": {
+    s: "#__tealiumGDPRcpPrefs{display:none !important}",
+  },
   "optomausa.com": { s: "#msgbg{display:none !important}" },
   "cik-solutions.com": { s: ".cookie-box{display:none !important}" },
   "autograph.io": { s: ".modal-bg{display:none !important}" },
@@ -16585,29 +16599,45 @@ const rules = {
   "wintertrex.nl": { c: 6 },
   "sunfun.pl": { s: 'div[class^="CookieBar"]{display:none !important}' },
   "regent.pl": { s: "#wezcookie{display:none !important}" },
-  "tourist.pl": {  s: "#wezcookie{display:none !important}" },
-  "bpmarco.pl": { s: "#cookies-floating-strip,#privacy-floating-strip{display:none !important}" },
+  "tourist.pl": { s: "#wezcookie{display:none !important}" },
+  "bpmarco.pl": {
+    s: "#cookies-floating-strip,#privacy-floating-strip{display:none !important}",
+  },
   "bfc.pl": { c: 0 },
   "ogloszenia.jmlnet.pl": { c: 14 },
   "fiberatlantic.com": { c: 0 },
   "link.co": { s: ".LinkNotificationCenter{display:none !important}" },
   "pricellent.pl": { s: ".MuiSnackbar-root{display:none !important}" },
-  "jobb.dafgards.se": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
+  "jobb.dafgards.se": {
+    s: 'dialog[data-controller="common--cookies--alert"]{display:none !important}',
+  },
   "reifen24.de": { s: ".cookie-cover{display:none !important}" },
   "kappa-shop.de": { s: ".amgdprjs-bar-template{display:none !important}" },
   "dallasinnovates.com": { s: "#acceptance{display:none !important}" },
   "voipstudio.de": { c: 6 },
-  "vegmart.sk": { s: "#bb-cookies-dialog-state-default{display:none !important}" },
+  "vegmart.sk": {
+    s: "#bb-cookies-dialog-state-default{display:none !important}",
+  },
   "777score.com": { s: ".cookie-modal{display:none !important}" },
   "malijunaki.si": { s: "#cookies{display:none !important}", c: 85 },
-  "energydashboard.co.uk": { s: "div[class^=\"z-50 fixed\"]{display:none !important}" },
-  "singaporeair.com": { s: ".dwc--SiaCookie__PopupEUTint{display:none !important}" },
+  "energydashboard.co.uk": {
+    s: 'div[class^="z-50 fixed"]{display:none !important}',
+  },
+  "singaporeair.com": {
+    s: ".dwc--SiaCookie__PopupEUTint{display:none !important}",
+  },
   "silverstonetek.com": { c: 0 },
   "techlord.pl": { s: "#InfoCookieTlo{display:none !important}" },
-  "careers.debricked.com": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
-  "codeclimate.com": { s: "div[x-data*=\"cookie-policy\"]{display:none !important}" },
+  "careers.debricked.com": {
+    s: 'dialog[data-controller="common--cookies--alert"]{display:none !important}',
+  },
+  "codeclimate.com": {
+    s: 'div[x-data*="cookie-policy"]{display:none !important}',
+  },
   "bimibrokkoli.de": { c: 0 },
-  "zero-to-nix.com": { s: "div[class=\"fixed left-6 bottom-6 z-50 print:hidden\"]{display:none !important}" },
+  "zero-to-nix.com": {
+    s: 'div[class="fixed left-6 bottom-6 z-50 print:hidden"]{display:none !important}',
+  },
   "educado.pl": { c: 20 },
   "refurbed.de": { c: 85 },
   "theadelphileeds.co.uk": { c: 85 },
@@ -16619,18 +16649,32 @@ const rules = {
   "helmut-fischer.com": { s: "#🍪{display:none !important}" },
   "oldirishpub.fi": { c: 14 },
   "qm-pilot.ch": { s: "#dsgvo--popup{display:none !important}" },
-  "vegmart.cz": { s: "#bb-cookies-dialog-state-default{display:none !important}" },
+  "vegmart.cz": {
+    s: "#bb-cookies-dialog-state-default{display:none !important}",
+  },
   "fullbay.com": { s: ".cookie-consent-modal{display:none !important}" },
   "bridgeland.com": { s: ".disclaimer{display:none !important}" },
   "rds.live": { c: 167 },
   "britishcornershop.co.uk": { s: "#overlay{display:none !important}" },
-  "centreforaviation.com": { s: "div[class^=\"cookieConsent_consent\"]{display:none !important}" },
+  "centreforaviation.com": {
+    s: 'div[class^="cookieConsent_consent"]{display:none !important}',
+  },
   "voordeeluitjes.nl": { j: 6 },
   "afilio.de": { s: ".component-c-overlay{display:none !important}" },
-  "turkishairlines.com": { s: "#cookieWarningMessageNew{display:none !important}" },
-  "olerum.de": { s: ".cookiemessagebackground{display:none !important}", c: 85 },
-  "devicespecifications.com": { s: "#window_cookie_consent_1_overlay{display:none !important}", c:85 },
-  "net-pocket.com": { s: "div[class*=\"CookiesBanner\"]{display:none !important}" },
+  "turkishairlines.com": {
+    s: "#cookieWarningMessageNew{display:none !important}",
+  },
+  "olerum.de": {
+    s: ".cookiemessagebackground{display:none !important}",
+    c: 85,
+  },
+  "devicespecifications.com": {
+    s: "#window_cookie_consent_1_overlay{display:none !important}",
+    c: 85,
+  },
+  "net-pocket.com": {
+    s: 'div[class*="CookiesBanner"]{display:none !important}',
+  },
   "theupgradeguide.com": { s: ".stpd_cmp{display:none !important}" },
   "sportano.cz": { j: 6 },
   "sportano.ro": { j: 6 },
@@ -16640,56 +16684,89 @@ const rules = {
   "nutsinbulk.ie": { s: "#CookieModal{display:none !important}", c: 14 },
   "nutsinbulk.eu": { s: "#CookieModal{display:none !important}", c: 14 },
   "nutsinbulk.co.uk": { s: "#CookieModal{display:none !important}", c: 14 },
-  "gregorypacks.com": { s: ".overlay-wrapper__background{display:none !important} body{width: unset !important}", c: 85 },
+  "gregorypacks.com": {
+    s: ".overlay-wrapper__background{display:none !important} body{width: unset !important}",
+    c: 85,
+  },
   "alkoholizm-leczenie.eu": { s: ".cookieMonit{display:none !important}" },
   "freeway-camper.com": { s: ".c-cookiePolicy{display:none !important}" },
   "deadisland.com": { s: ".is-modal-visible{overflow:unset !important}" },
   "idw.de": { s: ".cookie-manager__overlay{display:none !important}" },
   "datarejestracji.senda.pl": { j: 6 },
   "praca.modivo.pl": { s: ".plate-cookies{display:none !important}" },
-  "beta.character.ai": { s: "div[style=\"position: relative; z-index: 1050; display: block;\"]{display:none !important}" },
-  "easyticket.de": { s: "html,body{overflow: unset !important; margin-right: unset !important;}" },
+  "beta.character.ai": {
+    s: 'div[style="position: relative; z-index: 1050; display: block;"]{display:none !important}',
+  },
+  "easyticket.de": {
+    s: "html,body{overflow: unset !important; margin-right: unset !important;}",
+  },
   "cbsnews.com": { s: "#cps-shaman-notifier{display:none !important}" },
-  "puregoldprotein.com": { s: ".cookieConsentDialog{display:none !important}", c: 85 },
-  "hero-wars.com": { s: ".overlay__cookie{display:none !important}" }, 
+  "puregoldprotein.com": {
+    s: ".cookieConsentDialog{display:none !important}",
+    c: 85,
+  },
+  "hero-wars.com": { s: ".overlay__cookie{display:none !important}" },
   "shanebarker.com": { s: ".kadence-conversion{display:none !important}" },
-  "profim.pl": { s: "div[class^=\"Cookies__content\"]{display:none !important}" },
+  "profim.pl": { s: 'div[class^="Cookies__content"]{display:none !important}' },
   "adressmonster.de": { c: 0 },
   "astra-mag.com": { c: 0 },
   "ebatpro.fr": { j: 6 },
-  "centrumdobrejterapii.pl": { s: ".bottom-cookie-info{display:none !important}" },
+  "centrumdobrejterapii.pl": {
+    s: ".bottom-cookie-info{display:none !important}",
+  },
   "autohaus24.de": { j: 6 },
-  "ras.bz.it": { s: "body.dp--cookie-consent .body-inner::before{opacity: 0 !important}" },
+  "ras.bz.it": {
+    s: "body.dp--cookie-consent .body-inner::before{opacity: 0 !important}",
+  },
   "jugendkulturkarte.berlin": { s: ".cookie-layer{display:none !important}" },
-  "mullvad.careers": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
-  "zdajmyrazem.pl": { s: "#gdprModal{display:none !important;}body{padding-right: 0px !important}", c: 14 },
-  "careers.equinix.com": { s: ".consent-modal{display:none !important}", c: 14 },
+  "mullvad.careers": {
+    s: 'dialog[data-controller="common--cookies--alert"]{display:none !important}',
+  },
+  "zdajmyrazem.pl": {
+    s: "#gdprModal{display:none !important;}body{padding-right: 0px !important}",
+    c: 14,
+  },
+  "careers.equinix.com": {
+    s: ".consent-modal{display:none !important}",
+    c: 14,
+  },
   "piearsta.lv": { s: ".acceptCookiesBlock,.mask{display:none !important}" },
   "bikebox-shop.de": { s: "#ccAcivateModal{display:none !important}", c: 14 },
-  "mline.com":  { s: "#ccAcivateModal{display:none !important}", c: 14 },
-  "portal.librus.pl": { s: ".consent-categories-modal-wrapper{display:none !important}", c: 85 },
-  "logopaedie-balzer.de": { s: ".ch-popup-cookies,.chimpify-overlay{display:none !important}", c: 85},
+  "mline.com": { s: "#ccAcivateModal{display:none !important}", c: 14 },
+  "portal.librus.pl": {
+    s: ".consent-categories-modal-wrapper{display:none !important}",
+    c: 85,
+  },
+  "logopaedie-balzer.de": {
+    s: ".ch-popup-cookies,.chimpify-overlay{display:none !important}",
+    c: 85,
+  },
   "entuk.org": { s: "#cookieModal{display:none !important}", c: 14 },
   "teufelaudio.pl": { s: "p-layer{display:none !important}", c: 85 },
   "oficinasmontiel.com": { s: "#darklayer{display:none !important}" },
-  "aia.com.sg": { s: ".cmp-notification-action-panel{display:none !important}" },
+  "aia.com.sg": {
+    s: ".cmp-notification-action-panel{display:none !important}",
+  },
   "bloemenvanblok.nl": { s: "#cookieSettings{display:none !important}" },
   "lafermeducbd.fr": { s: ".gdprModal{display:none !important}" },
-  "hendy.co.uk": { s: "div[x-init^=\"hide_cookie_banner\"]{display:none !important}" },
+  "hendy.co.uk": {
+    s: 'div[x-init^="hide_cookie_banner"]{display:none !important}',
+  },
   "physikinstrumente.de": { c: 85 },
   "seb.lv": { c: 14 },
-  "group.emmi.com": { s: ".js-o-page__gdpr-overlay{display:none !important}", c: 85 },
+  "group.emmi.com": {
+    s: ".js-o-page__gdpr-overlay{display:none !important}",
+    c: 85,
+  },
   "metar-taf.com": { c: 0 },
   "spiele-offensive.de": { s: "#consentContainer{display:none !important}" },
   "khrono.no": { s: ".adn-window.adn-message{display:none !important}" },
   "llull.cat": { s: "#backBlackCookies{display:none !important}" },
   "savoo.co.uk": { s: "#cookie-consent{display:none !important}" },
   "sutars.com": { s: "#CookiesSettings{display:none !important}" },
-  "thedutchonlineacademy.com": { s: "#cookie-consent{display:none !important}" },
-
-
-
-
+  "thedutchonlineacademy.com": {
+    s: "#cookie-consent{display:none !important}",
+  },
 };
 
 const blockUrls = {
@@ -16767,7 +16844,7 @@ const blockUrls = {
     { r: "basketballbelieve.com" },
     { r: "app.usercentrics.eu/browser-ui/" },
     { r: "cc.anytrack.de/app.js" },
-    { r: "/utag/ctm/business-insurance/prod/utag.js" }
+    { r: "/utag/ctm/business-insurance/prod/utag.js" },
   ],
   common_groups: {
     cookie: [
@@ -17492,7 +17569,7 @@ const blockUrls = {
       { r: "sohoshopcookies.js" },
       { r: "am-static.com/cookie-banner/sdk.js" },
       { r: "/marked-cookie-consent-web/app.js" },
-      { r: "cdn.cookielaw.org" }
+      { r: "cdn.cookielaw.org" },
     ],
     consent: [
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
@@ -17622,7 +17699,7 @@ const blockUrls = {
       { r: "/wp-content/plugins/consent-magic-pro" },
       { r: "7gra.us/consentbar" },
       { r: "/dgp-cookie-consent" },
-      { r: "/assets/as24-cmp/consent-banner/" }
+      { r: "/assets/as24-cmp/consent-banner/" },
     ],
     gdpr: [
       { r: "/js/gdpr_footer.js" },
@@ -17855,7 +17932,7 @@ const blockUrls = {
       { r: "heg-cp.com/upm/privacy-manager" },
       { q: true, r: "tag=ui/privacy/CookiesConsent" },
       { r: "/dock-privacy-settings.esm.js" },
-      { r: "sdk.privacy-center.org" } 
+      { r: "sdk.privacy-center.org" },
     ],
     cmp: [
       { r: "cmp.quantcast.com" },
@@ -18285,7 +18362,7 @@ const blockUrls = {
       { r: "/klaro/klaro-pe.js" },
       { r: "klaro-no-css.js" },
       { r: "ionic-consent.js" },
-      { r: "ckpl-webc.min.js" }
+      { r: "ckpl-webc.min.js" },
     ],
   },
   specific: {
@@ -18742,7 +18819,7 @@ const blockUrls = {
     "werner-mertz.de": ["consent.werner-mertz.de"],
     "corporate.modivo.com": ["/dist/js/cmp.js"],
     "jimms.fi": ["jimmsconsent.min.js?"],
-    "jobup.ch": ["chunk-cookie-consent-modal"]
+    "jobup.ch": ["chunk-cookie-consent-modal"],
   },
 };
 

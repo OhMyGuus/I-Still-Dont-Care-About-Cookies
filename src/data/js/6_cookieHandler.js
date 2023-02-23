@@ -656,7 +656,9 @@ function getE(hostname) {
     case "59northwheels.se":
       return ["cookie_accepted=1"];
     case "startfrei.at":
-      return ["jart_cookie_consent=%5B%7B%22name%22%3A%22essential%22%2C%22value%22%3A%22true%22%7D%5D"];
+      return [
+        "jart_cookie_consent=%5B%7B%22name%22%3A%22essential%22%2C%22value%22%3A%22true%22%7D%5D",
+      ];
     case "voordeeluitjes.nl":
       return ["vu.cookieconsent=true"];
     case "sportano.pl":
@@ -665,14 +667,16 @@ function getE(hostname) {
     case "sportano.hu":
     case "sportano.de":
     case "sportano.sk":
-      return ['cookieDataLayer={"niezbedne":{"isEssential":1,"code":"niezbedne","name":"Niezb%u0119dne","isChecked":true,"children":[]},"analiza":{"isEssential":0,"code":"analiza","name":"Analiza%20i%20funkcjonalno%u015B%u0107","isChecked":false,"children":[{"isEssential":0,"code":"google analytics","name":"Google%20Analytics%20%28GA%29","isChecked":false},{"isEssential":0,"code":"hotjar","name":"Hotjar","isChecked":false}]},"marketing":{"isEssential":0,"code":"marketing","name":"Marketing","isChecked":false,"children":[{"isEssential":0,"code":"facebook","name":"Facebook","isChecked":false},{"isEssential":0,"code":"synerise","name":"Synerise","isChecked":false},{"isEssential":0,"code":"thulium","name":"Thulium","isChecked":false},{"isEssential":0,"code":"circlewise","name":"Circlewise","isChecked":false},{"isEssential":0,"code":"wppl","name":"WPPL","isChecked":false},{"isEssential":0,"code":"rtb_house","name":"RTB%20House","isChecked":false},{"isEssential":0,"code":"criteo","name":"Criteo","isChecked":false},{"isEssential":0,"code":"tradedoubler","name":"Tradedoubler","isChecked":false},{"isEssential":0,"code":"googleads","name":"Google%20Ads","isChecked":false}]}}']
+      return [
+        'cookieDataLayer={"niezbedne":{"isEssential":1,"code":"niezbedne","name":"Niezb%u0119dne","isChecked":true,"children":[]},"analiza":{"isEssential":0,"code":"analiza","name":"Analiza%20i%20funkcjonalno%u015B%u0107","isChecked":false,"children":[{"isEssential":0,"code":"google analytics","name":"Google%20Analytics%20%28GA%29","isChecked":false},{"isEssential":0,"code":"hotjar","name":"Hotjar","isChecked":false}]},"marketing":{"isEssential":0,"code":"marketing","name":"Marketing","isChecked":false,"children":[{"isEssential":0,"code":"facebook","name":"Facebook","isChecked":false},{"isEssential":0,"code":"synerise","name":"Synerise","isChecked":false},{"isEssential":0,"code":"thulium","name":"Thulium","isChecked":false},{"isEssential":0,"code":"circlewise","name":"Circlewise","isChecked":false},{"isEssential":0,"code":"wppl","name":"WPPL","isChecked":false},{"isEssential":0,"code":"rtb_house","name":"RTB%20House","isChecked":false},{"isEssential":0,"code":"criteo","name":"Criteo","isChecked":false},{"isEssential":0,"code":"tradedoubler","name":"Tradedoubler","isChecked":false},{"isEssential":0,"code":"googleads","name":"Google%20Ads","isChecked":false}]}}',
+      ];
     case "datarejestracji.senda.pl":
       return ["cookieConsent3=true"];
     case "ebatpro.fr":
-      return ["cookie_necessity=1","cookie_performance=0"];
+      return ["cookie_necessity=1", "cookie_performance=0"];
     case "autohaus24.de":
       return ["user_cookie_consent=essential"];
-    }
+  }
 
   const parts = hostname.split(".");
 
