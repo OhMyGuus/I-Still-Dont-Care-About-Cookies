@@ -16649,7 +16649,7 @@ const rules = {
   "praca.modivo.pl": { s: ".plate-cookies{display:none !important}" },
   "beta.character.ai": { s: "div[style=\"position: relative; z-index: 1050; display: block;\"]{display:none !important}" },
   "easyticket.de": { s: "html,body{overflow: unset !important; margin-right: unset !important;}" },
-
+  "cbsnews.com": { s: "#cps-shaman-notifier{display:none !important}" },
 
 
 
