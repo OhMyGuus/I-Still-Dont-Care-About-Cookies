@@ -16667,6 +16667,8 @@ const rules = {
   "piearsta.lv": { s: ".acceptCookiesBlock,.mask{display:none !important}" },
   "bikebox-shop.de": { s: "#ccAcivateModal{display:none !important}", c: 14 },
   "mline.com":  { s: "#ccAcivateModal{display:none !important}", c: 14 },
+  "portal.librus.pl": { s: ".consent-categories-modal-wrapper{display:none !important}", c: 85 },
+
 
 
 };
