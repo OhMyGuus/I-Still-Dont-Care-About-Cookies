@@ -16642,6 +16642,18 @@ const rules = {
   "nutsinbulk.co.uk": { s: "#CookieModal{display:none !important}", c: 14 },
   "gregorypacks.com": { s: ".overlay-wrapper__background{display:none !important} body{width: unset !important}", c: 85 },
   "alkoholizm-leczenie.eu": { s: ".cookieMonit{display:none !important}" },
+  "freeway-camper.com": { s: ".c-cookiePolicy{display:none !important}" },
+
+
+
+
+
+
+
+
+
+
+
 
 };
 
