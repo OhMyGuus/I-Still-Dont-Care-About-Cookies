@@ -16664,6 +16664,10 @@ const rules = {
   "mullvad.careers": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
   "zdajmyrazem.pl": { s: "#gdprModal{display:none !important;}body{padding-right: 0px !important}", c: 14 },
   "careers.equinix.com": { s: ".consent-modal{display:none !important}", c: 14 },
+  "piearsta.lv": { s: ".acceptCookiesBlock,.mask{display:none !important}" },
+
+
+
 
 };
 
