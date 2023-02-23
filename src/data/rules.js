@@ -16646,7 +16646,7 @@ const rules = {
   "deadisland.com": { s: ".is-modal-visible{overflow:unset !important}" },
   "idw.de": { s: ".cookie-manager__overlay{display:none !important}" },
   "datarejestracji.senda.pl": { j: 6 },
-
+  "praca.modivo.pl": { s: ".plate-cookies{display:none !important}" },
 
 
 
