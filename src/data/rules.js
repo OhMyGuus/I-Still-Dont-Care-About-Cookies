@@ -16657,7 +16657,11 @@ const rules = {
   "adressmonster.de": { c: 0 },
   "astra-mag.com": { c: 0 },
   "jobup.ch": { s: "{display:none !important}" },
-  "ebatpro.fr": { j: 6 }
+  "ebatpro.fr": { j: 6 },
+  "centrumdobrejterapii.pl": { s: ".bottom-cookie-info{display:none !important}" },
+
+
+
 
 };
 
