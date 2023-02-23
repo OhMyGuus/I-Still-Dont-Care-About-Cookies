@@ -16661,6 +16661,9 @@ const rules = {
   "autohaus24.de": { j: 6 },
   "ras.bz.it": { s: "body.dp--cookie-consent .body-inner::before{opacity: 0 !important}" },
   "jugendkulturkarte.berlin": { s: ".cookie-layer{display:none !important}" },
+  "mullvad.careers": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
+
+
 
 };
 
