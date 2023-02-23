@@ -16679,7 +16679,7 @@ const rules = {
   "physikinstrumente.de": { c: 85 },
   "seb.lv": { c: 14 },
   "group.emmi.com": { s: ".js-o-page__gdpr-overlay{display:none !important}", c: 85 },
-
+  "metar-taf.com": { c: 0 },
 
 
 
@@ -16761,7 +16761,8 @@ const blockUrls = {
     { r: "cnilCookie.js" },
     { r: "basketballbelieve.com" },
     { r: "app.usercentrics.eu/browser-ui/" },
-    { r: "cc.anytrack.de/app.js" }
+    { r: "cc.anytrack.de/app.js" },
+    { r: "/utag/ctm/business-insurance/prod/utag.js" }
   ],
   common_groups: {
     cookie: [
@@ -17485,7 +17486,8 @@ const blockUrls = {
       { r: "/wp-content/plugins/real-cookie-banner" },
       { r: "sohoshopcookies.js" },
       { r: "am-static.com/cookie-banner/sdk.js" },
-      { r: "/marked-cookie-consent-web/app.js" }
+      { r: "/marked-cookie-consent-web/app.js" },
+      { r: "cdn.cookielaw.org" }
     ],
     consent: [
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
