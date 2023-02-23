@@ -35,7 +35,7 @@ const commons = {
   11: "#notice,.notice,#notices,.notices{display:none !important}",
   12: 'body > div:not([id]):not([class])[style*="fixed"],body > div:not([id]):not([class])[style*="absolute"]{display:none !important}',
   13: "#popup,.popup{display:none !important}",
-  14: ".modal-backdrop,.veil{display:none !important} .modal-open{overflow:unset !important}",
+  14: ".modal-backdrop,.veil{display:none !important} .modal-open{overflow:unset !important; padding-right: 0px !important}",
   15: "#toast,.toast{display:none !important}",
   16: "#privacy,.privacy{display:none !important}",
   17: "#overlay,.overlay{display:none !important}",
@@ -16663,7 +16663,7 @@ const rules = {
   "jugendkulturkarte.berlin": { s: ".cookie-layer{display:none !important}" },
   "mullvad.careers": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
   "zdajmyrazem.pl": { s: "#gdprModal{display:none !important;}body{padding-right: 0px !important}", c: 14 },
-
+  "careers.equinix.com": { s: ".consent-modal{display:none !important}", c: 14 },
 
 };
 
