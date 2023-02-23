@@ -16668,7 +16668,7 @@ const rules = {
   "bikebox-shop.de": { s: "#ccAcivateModal{display:none !important}", c: 14 },
   "mline.com":  { s: "#ccAcivateModal{display:none !important}", c: 14 },
   "portal.librus.pl": { s: ".consent-categories-modal-wrapper{display:none !important}", c: 85 },
-
+  "logopaedie-balzer.de": { s: ".ch-popup-cookies,.chimpify-overlay{display:none !important}", c: 85},
 
 
 };
