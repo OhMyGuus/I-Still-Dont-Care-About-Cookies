@@ -16647,7 +16647,7 @@ const rules = {
   "idw.de": { s: ".cookie-manager__overlay{display:none !important}" },
   "datarejestracji.senda.pl": { j: 6 },
   "praca.modivo.pl": { s: ".plate-cookies{display:none !important}" },
-
+  "beta.character.ai": { s: "div[style=\"position: relative; z-index: 1050; display: block;\"]{display:none !important}" },
 
 
 
