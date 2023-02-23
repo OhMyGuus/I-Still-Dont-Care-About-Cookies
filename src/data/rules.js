@@ -16657,7 +16657,7 @@ const rules = {
   "adressmonster.de": { c: 0 },
   "astra-mag.com": { c: 0 },
   "jobup.ch": { s: "{display:none !important}" },
-
+  "ebatpro.fr": { j: 6 }
 
 };
 
