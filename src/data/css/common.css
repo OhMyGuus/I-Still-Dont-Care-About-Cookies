@@ -14018,7 +14018,8 @@ div[data-role="cookies-modal-content"],
 .cookies-es-container,
 div.modal-consents1 .side-modal-mask,
 #block-london-cookies,
-#cookie_consent_popup_background
+#cookie_consent_popup_background,
+.bg-trans-full-cookie
 
 /* 14113 */ {
   display: none !important;

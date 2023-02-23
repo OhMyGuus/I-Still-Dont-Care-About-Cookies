@@ -16651,7 +16651,7 @@ const rules = {
   "easyticket.de": { s: "html,body{overflow: unset !important; margin-right: unset !important;}" },
   "cbsnews.com": { s: "#cps-shaman-notifier{display:none !important}" },
   "puregoldprotein.com": { s: ".cookieConsentDialog{display:none !important}", c: 85 },
-  "hero-wars.com": { s: ".overlay__cookie{display:none !important}" },
+  "hero-wars.com": { s: ".overlay__cookie{display:none !important}" }, 
 
 };
 
