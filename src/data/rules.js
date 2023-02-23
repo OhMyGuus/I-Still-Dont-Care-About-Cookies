@@ -16676,6 +16676,11 @@ const rules = {
   "bloemenvanblok.nl": { s: "#cookieSettings{display:none !important}" },
   "lafermeducbd.fr": { s: ".gdprModal{display:none !important}" },
   "hendy.co.uk": { s: "div[x-init^=\"hide_cookie_banner\"]{display:none !important}" },
+  "physikinstrumente.de": { c: 85 },
+  "seb.lv": { c: 14 },
+  "group.emmi.com": { s: ".js-o-page__gdpr-overlay{display:none !important}", c: 85 },
+
+
 
 
 
