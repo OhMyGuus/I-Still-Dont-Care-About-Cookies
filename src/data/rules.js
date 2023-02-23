@@ -16662,7 +16662,7 @@ const rules = {
   "ras.bz.it": { s: "body.dp--cookie-consent .body-inner::before{opacity: 0 !important}" },
   "jugendkulturkarte.berlin": { s: ".cookie-layer{display:none !important}" },
   "mullvad.careers": { s: "dialog[data-controller=\"common--cookies--alert\"]{display:none !important}" },
-
+  "zdajmyrazem.pl": { s: "#gdprModal{display:none !important;}body{padding-right: 0px !important}", c: 14 },
 
 
 };
