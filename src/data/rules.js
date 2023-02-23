@@ -16674,7 +16674,7 @@ const rules = {
   "oficinasmontiel.com": { s: "#darklayer{display:none !important}" },
   "aia.com.sg": { s: ".cmp-notification-action-panel{display:none !important}" },
   "bloemenvanblok.nl": { s: "#cookieSettings{display:none !important}" },
-  
+  "lafermeducbd.fr": { s: ".gdprModal{display:none !important}" },
 
 };
 
