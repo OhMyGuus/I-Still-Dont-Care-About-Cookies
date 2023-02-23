@@ -16655,7 +16655,7 @@ const rules = {
   "shanebarker.com": { s: ".kadence-conversion{display:none !important}" },
   "profim.pl": { s: "div[class^=\"Cookies__content\"]{display:none !important}" },
   "adressmonster.de": { c: 0 },
-
+  "astra-mag.com": { c: 0 },
 
 
 
