@@ -16644,7 +16644,7 @@ const rules = {
   "alkoholizm-leczenie.eu": { s: ".cookieMonit{display:none !important}" },
   "freeway-camper.com": { s: ".c-cookiePolicy{display:none !important}" },
   "deadisland.com": { s: ".is-modal-visible{overflow:unset !important}" },
-
+  "idw.de": { s: ".cookie-manager__overlay{display:none !important}" },
 
 
 
