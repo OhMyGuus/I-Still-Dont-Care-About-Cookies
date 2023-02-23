@@ -670,6 +670,8 @@ function getE(hostname) {
       return ["cookieConsent3=true"];
     case "ebatpro.fr":
       return ["cookie_necessity=1","cookie_performance=0"];
+    case "autohaus24.de":
+      return ["user_cookie_consent=essential"];
     }
 
   const parts = hostname.split(".");
