@@ -18699,7 +18699,8 @@ const blockUrls = {
     "loveholidays.ie": ["cookies.js"],
     "georg.at": ["/inc/cookie_modal_ajax.php"],
     "galaxus.fr": ["/_next/static/chunks/cookieOverlay"],
-    "werner-mertz.de": ["consent.werner-mertz.de"]
+    "werner-mertz.de": ["consent.werner-mertz.de"],
+    "corporate.modivo.com": ["/dist/js/cmp.js"]
   },
 };
 
