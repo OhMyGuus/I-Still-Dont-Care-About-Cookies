@@ -16654,7 +16654,7 @@ const rules = {
   "hero-wars.com": { s: ".overlay__cookie{display:none !important}" }, 
   "shanebarker.com": { s: ".kadence-conversion{display:none !important}" },
   "profim.pl": { s: "div[class^=\"Cookies__content\"]{display:none !important}" },
-
+  "adressmonster.de": { c: 0 },
 
 
 
