@@ -16767,6 +16767,9 @@ const rules = {
   "thedutchonlineacademy.com": {
     s: "#cookie-consent{display:none !important}",
   },
+  "tourismecote-nord.com": { s: ".bar.is-active{display:none !important}" },
+
+
 };
 
 const blockUrls = {
