@@ -16780,6 +16780,8 @@ const rules = {
   "reservations.hotel-spider.com": { j: 3 },
   "pfleiderer.com": { s: ".cc--banner, div[data-locks=\"cookieconsent\"]{display:none !important}", c:85 },
   "redokun.com": { s: ".cookie-banner-component{display:none !important}" },
+  "endora.cz": { c: 6 },
+
 
 };
 
