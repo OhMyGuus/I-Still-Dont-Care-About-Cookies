@@ -16773,8 +16773,7 @@ const rules = {
   "esprit.presse.fr": { s: "#CookieConsentPopup{display:none !important}" },
   "xxxl.gr": { s: ".notification-wrapper.notification-wrapper-bottom{display:none !important}" },
   "skateshop.gr": { s: ".notification-wrapper.notification-wrapper-bottom{display:none !important}" },
-
-
+  "vicuspelle.ch": { s: ".cookie-model{display:none !important}" },
 
 };
 
