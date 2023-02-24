@@ -16770,7 +16770,7 @@ const rules = {
   "tourismecote-nord.com": { s: ".bar.is-active{display:none !important}" },
   "tameteo.nl": { s: ".cmp-main,#gpdr{display:none !important}", c: 85 },
   "bammusic.com": { s: ".cookie-modal{display:none !important}" },
-
+  "esprit.presse.fr": { s: "#CookieConsentPopup{display:none !important}" },
 
 
 };
