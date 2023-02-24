@@ -16772,6 +16772,9 @@ const rules = {
   "bammusic.com": { s: ".cookie-modal{display:none !important}" },
   "esprit.presse.fr": { s: "#CookieConsentPopup{display:none !important}" },
   "xxxl.gr": { s: ".notification-wrapper.notification-wrapper-bottom{display:none !important}" },
+  "skateshop.gr": { s: ".notification-wrapper.notification-wrapper-bottom{display:none !important}" },
+
+
 
 };
 
