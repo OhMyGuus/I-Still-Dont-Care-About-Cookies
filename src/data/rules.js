@@ -16777,6 +16777,8 @@ const rules = {
   "sunsky-online.com": { s: "#cookiesHint_1{display:none !important}" },
   "reishunger.com": { c: 6 },
   "muenchen.rotary.de": { s: "#overlay{display:none !important}", c: 6 },
+  "reservations.hotel-spider.com": { j: 3 },
+
 
 };
 
