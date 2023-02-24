@@ -16778,7 +16778,7 @@ const rules = {
   "reishunger.com": { c: 6 },
   "muenchen.rotary.de": { s: "#overlay{display:none !important}", c: 6 },
   "reservations.hotel-spider.com": { j: 3 },
-
+  "pfleiderer.com": { s: ".cc--banner, div[data-locks=\"cookieconsent\"]{display:none !important}", c:85 },
 
 };
 
