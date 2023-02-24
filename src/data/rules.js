@@ -16771,7 +16771,7 @@ const rules = {
   "tameteo.nl": { s: ".cmp-main,#gpdr{display:none !important}", c: 85 },
   "bammusic.com": { s: ".cookie-modal{display:none !important}" },
   "esprit.presse.fr": { s: "#CookieConsentPopup{display:none !important}" },
-
+  "xxxl.gr": { s: ".notification-wrapper.notification-wrapper-bottom{display:none !important}" },
 
 };
 
