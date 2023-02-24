@@ -16776,7 +16776,7 @@ const rules = {
   "vicuspelle.ch": { s: ".cookie-model{display:none !important}" },
   "sunsky-online.com": { s: "#cookiesHint_1{display:none !important}" },
   "reishunger.com": { c: 6 },
-
+  "muenchen.rotary.de": { s: "#overlay{display:none !important}", c: 6 },
 
 };
 
