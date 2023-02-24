@@ -16768,7 +16768,7 @@ const rules = {
     s: "#cookie-consent{display:none !important}",
   },
   "tourismecote-nord.com": { s: ".bar.is-active{display:none !important}" },
-
+  "tameteo.nl": { s: ".cmp-main,#gpdr{display:none !important}", c: 85 },
 
 };
 
