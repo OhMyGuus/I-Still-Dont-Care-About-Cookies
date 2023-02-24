@@ -16774,6 +16774,9 @@ const rules = {
   "xxxl.gr": { s: ".notification-wrapper.notification-wrapper-bottom{display:none !important}" },
   "skateshop.gr": { s: ".notification-wrapper.notification-wrapper-bottom{display:none !important}" },
   "vicuspelle.ch": { s: ".cookie-model{display:none !important}" },
+  "sunsky-online.com": { s: "#cookiesHint_1{display:none !important}" },
+  "reishunger.com": { c: 6 },
+
 
 };
 
