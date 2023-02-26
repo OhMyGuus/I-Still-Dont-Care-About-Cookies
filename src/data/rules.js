@@ -16790,7 +16790,8 @@ const rules = {
   "carlson.fi": { j: 6 },
   "gametime.chipsnsips.com": { s: ".third-party-optin{display:none !important}" },
   "idg.se": { j: 5 },
-
+  "judge.me": { s: ".jm-cookie-bar{display:none !important}" },
+  
 };
 
 const blockUrls = {
