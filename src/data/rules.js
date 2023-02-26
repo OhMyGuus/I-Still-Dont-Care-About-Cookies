@@ -16782,8 +16782,8 @@ const rules = {
   "redokun.com": { s: ".cookie-banner-component{display:none !important}" },
   "endora.cz": { c: 6 },
   "halonen.fi": { j: 6 },
-  "bokadirekt.se": { j: 6 }
-
+  "bokadirekt.se": { j: 6 },
+  "educacionadistancia.juntadeandalucia.es": { s: ".app-cookies{display:none !important}", c:85 },
 
 };
 
