@@ -16784,6 +16784,7 @@ const rules = {
   "halonen.fi": { j: 6 },
   "bokadirekt.se": { j: 6 },
   "educacionadistancia.juntadeandalucia.es": { s: ".app-cookies{display:none !important}", c:85 },
+  "uniqueshop.gr": { j: 6 },
 
 };
 

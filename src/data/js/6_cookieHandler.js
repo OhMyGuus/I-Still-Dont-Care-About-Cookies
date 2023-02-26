@@ -682,10 +682,18 @@ function getE(hostname) {
         "privacyExpiration=true",
         "consentPersonalization=false",
         "consentAdvertising=false",
-        "consentAnalytics=false"
+        "consentAnalytics=false",
       ];
     case "bokadirekt.se":
       return ["CookiePreferencesMP=Mandatory"];
+    case "uniqueshop.gr":
+      return [
+        "iccb_init=1",
+        "iccb_personalization=0",
+        "CookiePreferencesMP=Mandatory",
+        "iccb_analytics=0",
+        "iccb_ads=0",
+      ];
   }
 
   const parts = hostname.split(".");
