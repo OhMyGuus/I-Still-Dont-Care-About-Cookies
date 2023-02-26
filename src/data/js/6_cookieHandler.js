@@ -694,6 +694,8 @@ function getE(hostname) {
         "iccb_analytics=0",
         "iccb_ads=0",
       ];
+    case "hartorama.gr":
+      return ['ConsentChecked={"userHasSetCookies":true,"functionalityCookies":false,"statisticCookies":false,"marketingCookies":false}'];
   }
 
   const parts = hostname.split(".");

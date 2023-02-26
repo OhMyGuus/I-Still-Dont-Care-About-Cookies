@@ -16785,7 +16785,7 @@ const rules = {
   "bokadirekt.se": { j: 6 },
   "educacionadistancia.juntadeandalucia.es": { s: ".app-cookies{display:none !important}", c:85 },
   "uniqueshop.gr": { j: 6 },
-
+  "hartorama.gr": { j: 6 },
 };
 
 const blockUrls = {
