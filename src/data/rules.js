@@ -16791,7 +16791,7 @@ const rules = {
   "gametime.chipsnsips.com": { s: ".third-party-optin{display:none !important}" },
   "idg.se": { j: 5 },
   "judge.me": { s: ".jm-cookie-bar{display:none !important}" },
-  
+  "misterhorse.com": { s: "#cookies-start-modal{display:none !important}" },
 };
 
 const blockUrls = {
@@ -18387,6 +18387,7 @@ const blockUrls = {
       { r: "klaro-no-css.js" },
       { r: "ionic-consent.js" },
       { r: "ckpl-webc.min.js" },
+      { r: "wagtail_tag_manager/wtm.bundle.js" }
     ],
   },
   specific: {
