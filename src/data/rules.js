@@ -16781,7 +16781,8 @@ const rules = {
   "pfleiderer.com": { s: ".cc--banner, div[data-locks=\"cookieconsent\"]{display:none !important}", c:85 },
   "redokun.com": { s: ".cookie-banner-component{display:none !important}" },
   "endora.cz": { c: 6 },
-  "halonen.fi": { j: 6 }
+  "halonen.fi": { j: 6 },
+  "bokadirekt.se": { j: 6 }
 
 
 };

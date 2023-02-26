@@ -684,6 +684,8 @@ function getE(hostname) {
         "consentAdvertising=false",
         "consentAnalytics=false"
       ];
+    case "bokadirekt.se":
+      return ["CookiePreferencesMP=Mandatory"];
   }
 
   const parts = hostname.split(".");
