@@ -16786,6 +16786,7 @@ const rules = {
   "educacionadistancia.juntadeandalucia.es": { s: ".app-cookies{display:none !important}", c:85 },
   "uniqueshop.gr": { j: 6 },
   "hartorama.gr": { j: 6 },
+  "cinobo.com": { j: 6 },
 };
 
 const blockUrls = {

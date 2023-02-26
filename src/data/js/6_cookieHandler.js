@@ -696,6 +696,12 @@ function getE(hostname) {
       ];
     case "hartorama.gr":
       return ['ConsentChecked={"userHasSetCookies":true,"functionalityCookies":false,"statisticCookies":false,"marketingCookies":false}'];
+    case "cinobo.com":
+      return [
+        "cb_functionality=denied",
+        "cb_performance=denied",
+        "cb_necessary=granted",
+      ];
   }
 
   const parts = hostname.split(".");
