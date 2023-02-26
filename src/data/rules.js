@@ -16789,6 +16789,7 @@ const rules = {
   "cinobo.com": { j: 6 },
   "carlson.fi": { j: 6 },
   "gametime.chipsnsips.com": { s: ".third-party-optin{display:none !important}" },
+  "idg.se": { j: 5 },
 
 };
 
@@ -17601,7 +17602,6 @@ const blockUrls = {
       { r: "wpjslib-chunk-consent-form.js" },
       { r: "/js/consentbar.js" },
       { r: "/gdprpro/views/js/gdpr-consent.js" },
-      { r: "idg.se/idg-consent.min.js" },
       { r: "/js/consent-banner.js" },
       { r: "s.clickiocdn.com/t/consent_" },
       { r: "/jppol-consent/js/bootstrap.js" },
