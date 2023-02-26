@@ -676,6 +676,7 @@ function getE(hostname) {
       return ["cookie_necessity=1", "cookie_performance=0"];
     case "autohaus24.de":
       return ["user_cookie_consent=essential"];
+    case "carlson.fi":
     case "halonen.fi":
       return [
         "privacySettings=true",
