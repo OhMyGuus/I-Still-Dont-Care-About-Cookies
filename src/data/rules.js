@@ -16788,6 +16788,7 @@ const rules = {
   "hartorama.gr": { j: 6 },
   "cinobo.com": { j: 6 },
   "carlson.fi": { j: 6 },
+  "gametime.chipsnsips.com": { s: ".third-party-optin{display:none !important}" },
 
 };
 
