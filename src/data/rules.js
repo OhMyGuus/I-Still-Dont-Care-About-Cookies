@@ -16767,6 +16767,7 @@ const rules = {
   "thedutchonlineacademy.com": {
     s: "#cookie-consent{display:none !important}",
   },
+  "akakce.com": { s: ".banner{display:none !important}" },
 };
 
 const blockUrls = {
