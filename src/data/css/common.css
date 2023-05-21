@@ -53,7 +53,8 @@ iframe[title^="SP Consent Message"] {
 html.sp-message-open,
 html.sp-message-open body,
 html.disable--interaction.show--consent,
-html.disable--interaction.show--consent body {
+html.disable--interaction.show--consent body,
+body.idxrcookies-block-user-nav {
   overflow: unset !important;
 }
 
@@ -11494,6 +11495,7 @@ body > .cb_bar.cb_active,
 #nextoutils_gestionCookies,
 #nextoutils_gestionCookies ~ .popin-cache,
 #idxrcookies,
+body.idxrcookies-block-user-nav::before,
 .privacy-statement-notification,
 #gdpr-fixed-bottom,
 #root div[class*="cookiePolicyComponent"],
