@@ -2,3 +2,5 @@
 /src/_metadata/generated_indexed_rulesets
 node_modules
 .idea
+*.xcuserstate
+**/xcuserdata/**

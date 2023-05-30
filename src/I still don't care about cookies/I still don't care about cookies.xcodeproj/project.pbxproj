@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A62EFD982A265F3300908332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EFD972A265F3300908332 /* AppDelegate.swift */; };
+		A62EFD9A2A265F3300908332 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EFD992A265F3300908332 /* SceneDelegate.swift */; };
+		A62EFD9D2A265F3300908332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62EFD9B2A265F3300908332 /* LaunchScreen.storyboard */; };
+		A62EFDA02A265F3300908332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62EFD9E2A265F3300908332 /* Main.storyboard */; };
+		A62EFDA92A265F3300908332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EFDA82A265F3300908332 /* AppDelegate.swift */; };
+		A62EFDAC2A265F3300908332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDAA2A265F3300908332 /* Main.storyboard */; };
+		A62EFDB42A265F3300908332 /* I still don't care about cookies Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A62EFDB32A265F3300908332 /* I still don't care about cookies Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A62EFDBE2A265F3300908332 /* I still don't care about cookies Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A62EFDBD2A265F3300908332 /* I still don't care about cookies Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A62EFDC42A265F3300908332 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A62EFD872A265F3200908332 /* Main.html */; };
+		A62EFDC52A265F3300908332 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A62EFD872A265F3200908332 /* Main.html */; };
+		A62EFDC62A265F3300908332 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A62EFD892A265F3200908332 /* Icon.png */; };
+		A62EFDC72A265F3300908332 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A62EFD892A265F3200908332 /* Icon.png */; };
+		A62EFDC82A265F3300908332 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A62EFD8A2A265F3200908332 /* Style.css */; };
+		A62EFDC92A265F3300908332 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A62EFD8A2A265F3200908332 /* Style.css */; };
+		A62EFDCA2A265F3300908332 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A62EFD8B2A265F3200908332 /* Script.js */; };
+		A62EFDCB2A265F3300908332 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A62EFD8B2A265F3200908332 /* Script.js */; };
+		A62EFDCC2A265F3300908332 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EFD8C2A265F3200908332 /* ViewController.swift */; };
+		A62EFDCD2A265F3300908332 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EFD8C2A265F3200908332 /* ViewController.swift */; };
+		A62EFDCE2A265F3300908332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A62EFD8D2A265F3300908332 /* Assets.xcassets */; };
+		A62EFDCF2A265F3300908332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A62EFD8D2A265F3300908332 /* Assets.xcassets */; };
+		A62EFDD02A265F3300908332 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EFD8F2A265F3300908332 /* SafariWebExtensionHandler.swift */; };
+		A62EFDD12A265F3300908332 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EFD8F2A265F3300908332 /* SafariWebExtensionHandler.swift */; };
+		A62EFDEC2A265F3300908332 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDE32A265F3300908332 /* LICENSE */; };
+		A62EFDEE2A265F3300908332 /* manifest_v2.json in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDE52A265F3300908332 /* manifest_v2.json */; };
+		A62EFDEF2A265F3300908332 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDE62A265F3300908332 /* icons */; };
+		A62EFDF02A265F3300908332 /* manifest_v3.json in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDE72A265F3300908332 /* manifest_v3.json */; };
+		A62EFDF12A265F3300908332 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDE82A265F3300908332 /* rules.json */; };
+		A62EFDF22A265F3300908332 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDE92A265F3300908332 /* manifest.json */; };
+		A62EFDF32A265F3300908332 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDEA2A265F3300908332 /* _locales */; };
+		A62EFDF42A265F3300908332 /* data in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDEB2A265F3300908332 /* data */; };
+		A62EFDF52A265F3300908332 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDE32A265F3300908332 /* LICENSE */; };
+		A62EFDF72A265F3300908332 /* manifest_v2.json in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDE52A265F3300908332 /* manifest_v2.json */; };
+		A62EFDF82A265F3300908332 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDE62A265F3300908332 /* icons */; };
+		A62EFDF92A265F3300908332 /* manifest_v3.json in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDE72A265F3300908332 /* manifest_v3.json */; };
+		A62EFDFA2A265F3300908332 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDE82A265F3300908332 /* rules.json */; };
+		A62EFDFB2A265F3300908332 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDE92A265F3300908332 /* manifest.json */; };
+		A62EFDFC2A265F3300908332 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDEA2A265F3300908332 /* _locales */; };
+		A62EFDFD2A265F3300908332 /* data in Resources */ = {isa = PBXBuildFile; fileRef = A62EFDEB2A265F3300908332 /* data */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A62EFDB52A265F3300908332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A62EFD812A265F3100908332 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A62EFDB22A265F3300908332;
+			remoteInfo = "I still don't care about cookies Extension (iOS)";
+		};
+		A62EFDBF2A265F3300908332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A62EFD812A265F3100908332 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A62EFDBC2A265F3300908332;
+			remoteInfo = "I still don't care about cookies Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A62EFDD72A265F3300908332 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A62EFDB42A265F3300908332 /* I still don't care about cookies Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62EFDDE2A265F3300908332 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A62EFDBE2A265F3300908332 /* I still don't care about cookies Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A62EFD882A265F3200908332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		A62EFD892A265F3200908332 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A62EFD8A2A265F3200908332 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		A62EFD8B2A265F3200908332 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		A62EFD8C2A265F3200908332 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A62EFD8D2A265F3300908332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A62EFD8F2A265F3300908332 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		A62EFD942A265F3300908332 /* I still don't care about cookies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I still don't care about cookies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62EFD972A265F3300908332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A62EFD992A265F3300908332 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A62EFD9C2A265F3300908332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A62EFD9F2A265F3300908332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A62EFDA12A265F3300908332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62EFDA62A265F3300908332 /* I still don't care about cookies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I still don't care about cookies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62EFDA82A265F3300908332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A62EFDAB2A265F3300908332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A62EFDAD2A265F3300908332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62EFDAE2A265F3300908332 /* I still don't care about cookies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "I still don't care about cookies.entitlements"; sourceTree = "<group>"; };
+		A62EFDB32A265F3300908332 /* I still don't care about cookies Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "I still don't care about cookies Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62EFDB82A265F3300908332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62EFDBD2A265F3300908332 /* I still don't care about cookies Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "I still don't care about cookies Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62EFDC22A265F3300908332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62EFDC32A265F3300908332 /* I still don't care about cookies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "I still don't care about cookies.entitlements"; sourceTree = "<group>"; };
+		A62EFDE32A265F3300908332 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		A62EFDE52A265F3300908332 /* manifest_v2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest_v2.json; path = ../../manifest_v2.json; sourceTree = "<group>"; };
+		A62EFDE62A265F3300908332 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../icons; sourceTree = "<group>"; };
+		A62EFDE72A265F3300908332 /* manifest_v3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest_v3.json; path = ../../manifest_v3.json; sourceTree = "<group>"; };
+		A62EFDE82A265F3300908332 /* rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = rules.json; path = ../../rules.json; sourceTree = "<group>"; };
+		A62EFDE92A265F3300908332 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+		A62EFDEA2A265F3300908332 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../_locales; sourceTree = "<group>"; };
+		A62EFDEB2A265F3300908332 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../../data; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A62EFD912A265F3300908332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62EFDA32A265F3300908332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62EFDB02A265F3300908332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62EFDBA2A265F3300908332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A62EFD802A265F3100908332 = {
+			isa = PBXGroup;
+			children = (
+				A62EFD852A265F3200908332 /* Shared (App) */,
+				A62EFD8E2A265F3300908332 /* Shared (Extension) */,
+				A62EFD962A265F3300908332 /* iOS (App) */,
+				A62EFDA72A265F3300908332 /* macOS (App) */,
+				A62EFDB72A265F3300908332 /* iOS (Extension) */,
+				A62EFDC12A265F3300908332 /* macOS (Extension) */,
+				A62EFD952A265F3300908332 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A62EFD852A265F3200908332 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				A62EFD8C2A265F3200908332 /* ViewController.swift */,
+				A62EFD8D2A265F3300908332 /* Assets.xcassets */,
+				A62EFD862A265F3200908332 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		A62EFD862A265F3200908332 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A62EFD872A265F3200908332 /* Main.html */,
+				A62EFD892A265F3200908332 /* Icon.png */,
+				A62EFD8A2A265F3200908332 /* Style.css */,
+				A62EFD8B2A265F3200908332 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A62EFD8E2A265F3300908332 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				A62EFDE22A265F3300908332 /* Resources */,
+				A62EFD8F2A265F3300908332 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		A62EFD952A265F3300908332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A62EFD942A265F3300908332 /* I still don't care about cookies.app */,
+				A62EFDA62A265F3300908332 /* I still don't care about cookies.app */,
+				A62EFDB32A265F3300908332 /* I still don't care about cookies Extension.appex */,
+				A62EFDBD2A265F3300908332 /* I still don't care about cookies Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A62EFD962A265F3300908332 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				A62EFD972A265F3300908332 /* AppDelegate.swift */,
+				A62EFD992A265F3300908332 /* SceneDelegate.swift */,
+				A62EFD9B2A265F3300908332 /* LaunchScreen.storyboard */,
+				A62EFD9E2A265F3300908332 /* Main.storyboard */,
+				A62EFDA12A265F3300908332 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		A62EFDA72A265F3300908332 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				A62EFDA82A265F3300908332 /* AppDelegate.swift */,
+				A62EFDAA2A265F3300908332 /* Main.storyboard */,
+				A62EFDAD2A265F3300908332 /* Info.plist */,
+				A62EFDAE2A265F3300908332 /* I still don't care about cookies.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		A62EFDB72A265F3300908332 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				A62EFDB82A265F3300908332 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		A62EFDC12A265F3300908332 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				A62EFDC22A265F3300908332 /* Info.plist */,
+				A62EFDC32A265F3300908332 /* I still don't care about cookies.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		A62EFDE22A265F3300908332 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A62EFDE32A265F3300908332 /* LICENSE */,
+				A62EFDE52A265F3300908332 /* manifest_v2.json */,
+				A62EFDE62A265F3300908332 /* icons */,
+				A62EFDE72A265F3300908332 /* manifest_v3.json */,
+				A62EFDE82A265F3300908332 /* rules.json */,
+				A62EFDE92A265F3300908332 /* manifest.json */,
+				A62EFDEA2A265F3300908332 /* _locales */,
+				A62EFDEB2A265F3300908332 /* data */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A62EFD932A265F3300908332 /* I still don't care about cookies (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62EFDD82A265F3300908332 /* Build configuration list for PBXNativeTarget "I still don't care about cookies (iOS)" */;
+			buildPhases = (
+				A62EFD902A265F3300908332 /* Sources */,
+				A62EFD912A265F3300908332 /* Frameworks */,
+				A62EFD922A265F3300908332 /* Resources */,
+				A62EFDD72A265F3300908332 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A62EFDB62A265F3300908332 /* PBXTargetDependency */,
+			);
+			name = "I still don't care about cookies (iOS)";
+			productName = "I still don't care about cookies (iOS)";
+			productReference = A62EFD942A265F3300908332 /* I still don't care about cookies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A62EFDA52A265F3300908332 /* I still don't care about cookies (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62EFDDF2A265F3300908332 /* Build configuration list for PBXNativeTarget "I still don't care about cookies (macOS)" */;
+			buildPhases = (
+				A62EFDA22A265F3300908332 /* Sources */,
+				A62EFDA32A265F3300908332 /* Frameworks */,
+				A62EFDA42A265F3300908332 /* Resources */,
+				A62EFDDE2A265F3300908332 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A62EFDC02A265F3300908332 /* PBXTargetDependency */,
+			);
+			name = "I still don't care about cookies (macOS)";
+			productName = "I still don't care about cookies (macOS)";
+			productReference = A62EFDA62A265F3300908332 /* I still don't care about cookies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A62EFDB22A265F3300908332 /* I still don't care about cookies Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62EFDD42A265F3300908332 /* Build configuration list for PBXNativeTarget "I still don't care about cookies Extension (iOS)" */;
+			buildPhases = (
+				A62EFDAF2A265F3300908332 /* Sources */,
+				A62EFDB02A265F3300908332 /* Frameworks */,
+				A62EFDB12A265F3300908332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I still don't care about cookies Extension (iOS)";
+			productName = "I still don't care about cookies Extension (iOS)";
+			productReference = A62EFDB32A265F3300908332 /* I still don't care about cookies Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A62EFDBC2A265F3300908332 /* I still don't care about cookies Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62EFDDB2A265F3300908332 /* Build configuration list for PBXNativeTarget "I still don't care about cookies Extension (macOS)" */;
+			buildPhases = (
+				A62EFDB92A265F3300908332 /* Sources */,
+				A62EFDBA2A265F3300908332 /* Frameworks */,
+				A62EFDBB2A265F3300908332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I still don't care about cookies Extension (macOS)";
+			productName = "I still don't care about cookies Extension (macOS)";
+			productReference = A62EFDBD2A265F3300908332 /* I still don't care about cookies Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A62EFD812A265F3100908332 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "OhMyGuus and Community";
+				TargetAttributes = {
+					A62EFD932A265F3300908332 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A62EFDA52A265F3300908332 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A62EFDB22A265F3300908332 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A62EFDBC2A265F3300908332 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A62EFD842A265F3100908332 /* Build configuration list for PBXProject "I still don't care about cookies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A62EFD802A265F3100908332;
+			productRefGroup = A62EFD952A265F3300908332 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A62EFD932A265F3300908332 /* I still don't care about cookies (iOS) */,
+				A62EFDA52A265F3300908332 /* I still don't care about cookies (macOS) */,
+				A62EFDB22A265F3300908332 /* I still don't care about cookies Extension (iOS) */,
+				A62EFDBC2A265F3300908332 /* I still don't care about cookies Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A62EFD922A265F3300908332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62EFDC62A265F3300908332 /* Icon.png in Resources */,
+				A62EFD9D2A265F3300908332 /* LaunchScreen.storyboard in Resources */,
+				A62EFDC42A265F3300908332 /* Main.html in Resources */,
+				A62EFDCA2A265F3300908332 /* Script.js in Resources */,
+				A62EFDCE2A265F3300908332 /* Assets.xcassets in Resources */,
+				A62EFDA02A265F3300908332 /* Main.storyboard in Resources */,
+				A62EFDC82A265F3300908332 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62EFDA42A265F3300908332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62EFDC72A265F3300908332 /* Icon.png in Resources */,
+				A62EFDC92A265F3300908332 /* Style.css in Resources */,
+				A62EFDAC2A265F3300908332 /* Main.storyboard in Resources */,
+				A62EFDCB2A265F3300908332 /* Script.js in Resources */,
+				A62EFDCF2A265F3300908332 /* Assets.xcassets in Resources */,
+				A62EFDC52A265F3300908332 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62EFDB12A265F3300908332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62EFDFB2A265F3300908332 /* manifest.json in Resources */,
+				A62EFDFC2A265F3300908332 /* _locales in Resources */,
+				A62EFDF82A265F3300908332 /* icons in Resources */,
+				A62EFDFD2A265F3300908332 /* data in Resources */,
+				A62EFDF92A265F3300908332 /* manifest_v3.json in Resources */,
+				A62EFDFA2A265F3300908332 /* rules.json in Resources */,
+				A62EFDF72A265F3300908332 /* manifest_v2.json in Resources */,
+				A62EFDF52A265F3300908332 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62EFDBB2A265F3300908332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62EFDF22A265F3300908332 /* manifest.json in Resources */,
+				A62EFDF32A265F3300908332 /* _locales in Resources */,
+				A62EFDEF2A265F3300908332 /* icons in Resources */,
+				A62EFDF42A265F3300908332 /* data in Resources */,
+				A62EFDF02A265F3300908332 /* manifest_v3.json in Resources */,
+				A62EFDF12A265F3300908332 /* rules.json in Resources */,
+				A62EFDEE2A265F3300908332 /* manifest_v2.json in Resources */,
+				A62EFDEC2A265F3300908332 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A62EFD902A265F3300908332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62EFDCC2A265F3300908332 /* ViewController.swift in Sources */,
+				A62EFD982A265F3300908332 /* AppDelegate.swift in Sources */,
+				A62EFD9A2A265F3300908332 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62EFDA22A265F3300908332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62EFDCD2A265F3300908332 /* ViewController.swift in Sources */,
+				A62EFDA92A265F3300908332 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62EFDAF2A265F3300908332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62EFDD02A265F3300908332 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62EFDB92A265F3300908332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62EFDD12A265F3300908332 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A62EFDB62A265F3300908332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A62EFDB22A265F3300908332 /* I still don't care about cookies Extension (iOS) */;
+			targetProxy = A62EFDB52A265F3300908332 /* PBXContainerItemProxy */;
+		};
+		A62EFDC02A265F3300908332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A62EFDBC2A265F3300908332 /* I still don't care about cookies Extension (macOS) */;
+			targetProxy = A62EFDBF2A265F3300908332 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A62EFD872A265F3200908332 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62EFD882A265F3200908332 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		A62EFD9B2A265F3300908332 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62EFD9C2A265F3300908332 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A62EFD9E2A265F3300908332 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62EFD9F2A265F3300908332 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A62EFDAA2A265F3300908332 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62EFDAB2A265F3300908332 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A62EFDD22A265F3300908332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A62EFDD32A265F3300908332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A62EFDD52A265F3300908332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I still don't care about cookies Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookies.Extension";
+				PRODUCT_NAME = "I still don't care about cookies Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A62EFDD62A265F3300908332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I still don't care about cookies Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookies.Extension";
+				PRODUCT_NAME = "I still don't care about cookies Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A62EFDD92A265F3300908332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I still don't care about cookies";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookies";
+				PRODUCT_NAME = "I still don't care about cookies";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A62EFDDA2A265F3300908332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I still don't care about cookies";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookies";
+				PRODUCT_NAME = "I still don't care about cookies";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A62EFDDC2A265F3300908332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/I still don't care about cookies.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I still don't care about cookies Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookies.Extension";
+				PRODUCT_NAME = "I still don't care about cookies Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A62EFDDD2A265F3300908332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/I still don't care about cookies.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I still don't care about cookies Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookies.Extension";
+				PRODUCT_NAME = "I still don't care about cookies Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A62EFDE02A265F3300908332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/I still don't care about cookies.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I still don't care about cookies";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookies";
+				PRODUCT_NAME = "I still don't care about cookies";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A62EFDE12A265F3300908332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/I still don't care about cookies.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I still don't care about cookies";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookies";
+				PRODUCT_NAME = "I still don't care about cookies";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A62EFD842A265F3100908332 /* Build configuration list for PBXProject "I still don't care about cookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62EFDD22A265F3300908332 /* Debug */,
+				A62EFDD32A265F3300908332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62EFDD42A265F3300908332 /* Build configuration list for PBXNativeTarget "I still don't care about cookies Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62EFDD52A265F3300908332 /* Debug */,
+				A62EFDD62A265F3300908332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62EFDD82A265F3300908332 /* Build configuration list for PBXNativeTarget "I still don't care about cookies (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62EFDD92A265F3300908332 /* Debug */,
+				A62EFDDA2A265F3300908332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62EFDDB2A265F3300908332 /* Build configuration list for PBXNativeTarget "I still don't care about cookies Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62EFDDC2A265F3300908332 /* Debug */,
+				A62EFDDD2A265F3300908332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62EFDDF2A265F3300908332 /* Build configuration list for PBXNativeTarget "I still don't care about cookies (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62EFDE02A265F3300908332 /* Debug */,
+				A62EFDE12A265F3300908332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A62EFD812A265F3100908332 /* Project object */;
+}
