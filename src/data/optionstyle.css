@@ -1,0 +1,75 @@
+:root {
+    --backgroundColor: #ffffff;
+    --inputBackgroundColor: #f1f1f1;
+    --textColor: #0b0b0b;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --backgroundColor: #282828;
+        --inputBackgroundColor: #3e3e3e;
+        --textColor: #ffffff;
+    }
+}
+
+body {
+    font-family: system-ui, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background: var(--backgroundColor);
+    padding: 20px;
+}
+
+.topright {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+}
+
+h1, h2, h3 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    color: var(--textColor);
+}
+
+hr {
+    color: var(--inputBackgroundColor);
+    overflow: visible;
+}
+
+label,
+textarea {
+    font-size: 0.8rem;
+}
+
+label {
+    display: block;
+    width: 80%;
+    padding-top: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: var(--textColor);
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding-left: 4px;
+    margin-top: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 6px;
+    border: 2px solid rgba(196, 196, 196, 0);
+    background-color: var(--inputBackgroundColor);
+    color: var(--textColor);
+}
+
+input {
+    margin-top: 10px;
+}

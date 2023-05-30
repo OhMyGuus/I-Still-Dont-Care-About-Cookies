@@ -44,14 +44,10 @@ function restoreOptions() {
   );
 }
 
-document.title = document.getElementById("title").textContent =
-  chrome.i18n.getMessage("optionsTitle") +
-  " - " +
-  chrome.i18n.getMessage("extensionName");
-document.getElementById("whitelist_label").textContent =
-  chrome.i18n.getMessage("optionsWhitelist");
-document.getElementById("status_indicators_label").textContent =
-  chrome.i18n.getMessage("optionStatusIndicators");
+document.title = document.getElementById("title").textContent = chrome.i18n.getMessage("optionsTitle");
+document.getElementById("extensionName").textContent = chrome.i18n.getMessage("extensionName");
+document.getElementById("whitelist_label").textContent = chrome.i18n.getMessage("optionsWhitelist");
+document.getElementById("status_indicators_label").textContent = chrome.i18n.getMessage("optionStatusIndicators");
 
 document
   .getElementById("save")
