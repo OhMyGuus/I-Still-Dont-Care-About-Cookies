@@ -5,7 +5,7 @@
   },
 
   "extensionDescription": {
-    "message": "Community version of the extension `I don't care about cookies` (no Avast)",
+    "message": "A community-supported, open-source version of the extension \"I don't care about cookies\".",
     "description": "Description of the extension."
   },
 
@@ -84,7 +84,7 @@
   },
 
   "optionStatusIndicators": {
-    "message": "status indicators",
+    "message": "Show status indicators",
     "description": "Option text for enabling the status indicator"
   },
 
@@ -110,7 +110,7 @@
     "description": "Notes for the report"
   },
   "reportNotesPlaceholder": {
-    "message": "Things like:\nVideoplayback not working\nBroken scrollbar\ngray overlay",
+    "message": "Things like:\nVideo playback not working\nBroken scrollbar\ngray overlay",
     "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
   },
   "reportAnonSend": {
@@ -119,11 +119,11 @@
   },
   "reportAnonCancel": {
     "message": "Cancel",
-    "description": "Button to cCancel the report"
+    "description": "Button to Cancel the report"
   },
   "genericErrorTitle": {
     "message": "Something went wrong",
-    "description": "Genereric error title"
+    "description": "Generic error title"
   },
   "genericErrorTryAgain": {
     "message": "Try again later..",
@@ -135,6 +135,6 @@
   },
   "menuLoadingText": {
     "message": "Loading...",
-    "description": "Loading messsage"
+    "description": "Loading message"
   }
 }
