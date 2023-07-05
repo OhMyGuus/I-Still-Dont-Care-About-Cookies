@@ -84,11 +84,11 @@
     "description": "Menu item to report using Github"
   },
   "reportAnon": {
-    "message": "Denunciar anonimamente",
+    "message": "Reportar anonimamente",
     "description": "Menu item to report anonymously"
   },
   "reportAnonTitle": {
-    "message": "Denunciar",
+    "message": "Reportar",
     "description": "Translation of 'report' it will be shown like 'Report example.com'"
   },
   "reportAnonNotes": {
@@ -96,11 +96,11 @@
     "description": "Notes for the report"
   },
   "reportNotesPlaceholder": {
-    "message": "Coisas como:\nPlayback de vídeo não funciona\nBarra de rolagem quebrada\noverlay cinza",
+    "message": "Coisas como:\nPlayback de vídeo não funciona\nBarra de scroll avariada\noverlay cinzento",
     "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
   },
   "reportAnonSend": {
-    "message": "Enviar denúncia",
+    "message": "Enviar relatório",
     "description": "Button to send the report"
   },
   "reportAnonCancel": {
@@ -116,7 +116,7 @@
     "description": "Try again later message"
   },
   "genericErrorBack": {
-    "message": "Recuar",
+    "message": "Para trás",
     "description": "Back button after error"
   },
   "menuLoadingText": {

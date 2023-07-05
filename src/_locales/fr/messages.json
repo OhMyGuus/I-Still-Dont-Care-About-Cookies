@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Je m'en fiche toujours des cookies",
+    "message": "I still don't care about cookies",
     "description": "Name of the extension."
   },
   "extensionDescription": {
@@ -18,7 +18,7 @@
     }
   },
   "reportSkippedMessage": {
-    "message": "Vous avez desactivé l'extension sur ce site. Merci de l'activer et de vérifier si vous voyez toujours l'avertissement de cookies.",
+    "message": "Vous avez désactivé l'extension sur ce site. Merci de l'activer et de vérifier si vous voyez toujours l'avertissement de cookies.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
   "reportConfirm": {
