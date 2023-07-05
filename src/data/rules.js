@@ -16792,6 +16792,15 @@ const rules = {
   "idg.se": { j: 5 },
   "judge.me": { s: ".jm-cookie-bar{display:none !important}" },
   "misterhorse.com": { s: "#cookies-start-modal{display:none !important}" },
+  "mohrsiebeck.com": { s: "#cookieman-modal{display:none !important}" },
+  "starofservice.com": { j: "5" },
+  "tu.no": { s: "#__next > .fixed{display:none !important}" },
+  "digi.no": { s: "#__next > .fixed{display:none !important}" },
+  "buki.org.pl": { j: "3" },
+  "vicuspelle.ch": { s: ".cookie-model{display:none !important}" },
+  "airitsystems.de": { j: "6" },
+  "tatararazors.com": { j: "6" },
+  "sunsky-online.com": { s: "#cookiesHint_1{display:none !important}" },
   "akakce.com": { s: ".banner{display:none !important}" },
 };
 
