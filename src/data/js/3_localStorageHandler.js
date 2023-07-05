@@ -174,7 +174,13 @@ function getItem(hostname) {
           strict: false,
           key: "data-driven-forms-cookie-consent",
           value: "neccessary",
-          };
+        };
+      case "buki.org.pl":
+        return {
+          strict: false,
+          key: "cookiesInfo",
+          value: "1",
+        };
   }
 
   const parts = hostname.split(".");

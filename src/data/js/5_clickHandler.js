@@ -7182,6 +7182,8 @@ function getSelector(host) {
       return "#asfg > div";
     case "vr.fi":
       return 'button[data-testid="necessary"]';
+    case "starofservice.com":
+      return '[data-test="cookie_banner.accept"]';
   }
 
   if (host.parts.length > 2) {

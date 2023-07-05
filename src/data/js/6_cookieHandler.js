@@ -676,6 +676,10 @@ function getE(hostname) {
       return ["cookie_necessity=1", "cookie_performance=0"];
     case "autohaus24.de":
       return ["user_cookie_consent=essential"];
+    case "airitsystems.de":
+      return ["limz_consent_cookie=%7B%22accepted%22%3Atrue%2C%22preferences%22%3Afalse%2C%22statistics%22%3Afalse%2C%22marketing%22%3Afalse%2C%22version%22%3A1%7D"];
+    case "tatararazors.com":
+      return ["cookie-concent=%7B%22marketing%22%3Afalse%2C%22statistics%22%3Afalse%7D"];  
   }
 
   const parts = hostname.split(".");
