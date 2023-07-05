@@ -16792,6 +16792,7 @@ const rules = {
   "idg.se": { j: 5 },
   "judge.me": { s: ".jm-cookie-bar{display:none !important}" },
   "misterhorse.com": { s: "#cookies-start-modal{display:none !important}" },
+  "akakce.com": { s: ".banner{display:none !important}" },
 };
 
 const blockUrls = {
