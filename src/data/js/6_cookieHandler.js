@@ -676,6 +676,33 @@ function getE(hostname) {
       return ["cookie_necessity=1", "cookie_performance=0"];
     case "autohaus24.de":
       return ["user_cookie_consent=essential"];
+    case "carlson.fi":
+    case "halonen.fi":
+      return [
+        "privacySettings=true",
+        "privacyExpiration=true",
+        "consentPersonalization=false",
+        "consentAdvertising=false",
+        "consentAnalytics=false",
+      ];
+    case "bokadirekt.se":
+      return ["CookiePreferencesMP=Mandatory"];
+    case "uniqueshop.gr":
+      return [
+        "iccb_init=1",
+        "iccb_personalization=0",
+        "CookiePreferencesMP=Mandatory",
+        "iccb_analytics=0",
+        "iccb_ads=0",
+      ];
+    case "hartorama.gr":
+      return ['ConsentChecked={"userHasSetCookies":true,"functionalityCookies":false,"statisticCookies":false,"marketingCookies":false}'];
+    case "cinobo.com":
+      return [
+        "cb_functionality=denied",
+        "cb_performance=denied",
+        "cb_necessary=granted",
+      ];
     case "airitsystems.de":
       return ["limz_consent_cookie=%7B%22accepted%22%3Atrue%2C%22preferences%22%3Afalse%2C%22statistics%22%3Afalse%2C%22marketing%22%3Afalse%2C%22version%22%3A1%7D"];
     case "tatararazors.com":

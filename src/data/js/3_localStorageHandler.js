@@ -174,6 +174,12 @@ function getItem(hostname) {
           strict: false,
           key: "data-driven-forms-cookie-consent",
           value: "neccessary",
+          };
+      case "reservations.hotel-spider.com":
+        return {
+          strict: false,
+          key: "SB4.Cookies",
+          value: "true",
         };
       case "buki.org.pl":
         return {
