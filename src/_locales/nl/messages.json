@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "I still don't care about cookies",
+    "message": "Cookies kunnen mij nog steeds niets schelen",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Community version of the extension `I don't care about cookies` (no Avast)",
+    "message": "Community versie van de extensie `Cookies kunnen mij nog steeds niets schelen` (geen Avast)",
     "description": "Description of the extension."
   },
   "reportSkippedTitle": {
@@ -72,7 +72,7 @@
     "description": "Options text for whitelist box."
   },
   "optionStatusIndicators": {
-    "message": "status indicators",
+    "message": "status indicatoren",
     "description": "Option text for enabling the status indicator"
   },
   "optionsButton": {
@@ -80,47 +80,47 @@
     "description": "Options text for SAVE button."
   },
   "reportGithub": {
-    "message": "Report using Github",
+    "message": "Meld met GitHub",
     "description": "Menu item to report using Github"
   },
   "reportAnon": {
-    "message": "Report anonymously",
+    "message": "Meld anoniem",
     "description": "Menu item to report anonymously"
   },
   "reportAnonTitle": {
-    "message": "Report",
+    "message": "Melden",
     "description": "Translation of 'report' it will be shown like 'Report example.com'"
   },
   "reportAnonNotes": {
-    "message": "Notes: ",
+    "message": "Notities: ",
     "description": "Notes for the report"
   },
   "reportNotesPlaceholder": {
-    "message": "Things like:\nVideoplayback not working\nBroken scrollbar\ngray overlay",
+    "message": "Dingen zoals:\nVideo afspelen werkt niet\nKapotte scrollbalk\ngrijze overlay",
     "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
   },
   "reportAnonSend": {
-    "message": "Send report",
+    "message": "Melding versturen",
     "description": "Button to send the report"
   },
   "reportAnonCancel": {
-    "message": "Cancel",
+    "message": "Annuleren",
     "description": "Button to cCancel the report"
   },
   "genericErrorTitle": {
-    "message": "Something went wrong",
+    "message": "Er is iets mis gegaan",
     "description": "Genereric error title"
   },
   "genericErrorTryAgain": {
-    "message": "Try again later..",
+    "message": "Probeer het later opnieuw..",
     "description": "Try again later message"
   },
   "genericErrorBack": {
-    "message": "Back",
+    "message": "Terug",
     "description": "Back button after error"
   },
   "menuLoadingText": {
-    "message": "Loading...",
+    "message": "Laden...",
     "description": "Loading messsage"
   }
 }
