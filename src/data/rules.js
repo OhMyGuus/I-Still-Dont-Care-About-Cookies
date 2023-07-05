@@ -16776,6 +16776,7 @@ const rules = {
   "airitsystems.de": { j: "6" },
   "tatararazors.com": { j: "6" },
   "sunsky-online.com": { s: "#cookiesHint_1{display:none !important}" },
+  "akakce.com": { s: ".banner{display:none !important}" },
 };
 
 const blockUrls = {
