@@ -4222,7 +4222,6 @@ const rules = {
   "iqoption.com": {
     s: 'div[data-test-id="notification-position-container-block"]{display:none !important}',
   },
-  "coop.co.uk": { s: "footer ~ div{display:none !important}" },
   "flows.be": { s: "#flows-cookie-compliance-popup{display:none !important}" },
   "netflixinbelgie.be": { c: 144 },
   "fansbreak.com": { c: 0 },
