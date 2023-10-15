@@ -12422,6 +12422,8 @@ const rules = {
   },
   "workplace.com": { j: "5" },
   "topfarmacia.it": { s: ".gdprModal{display:none !important}" },
+  "data-media.gr": { s: "#mySidenav{display:none !important}" },
+  "v2.data-media.gr": { s: "#cookiesModal{display:none !important}" },
   "ntng.gr": { s: ".prvmodal{display:none !important}" },
   "intezer.com": { s: ".site-notification-message{display:none !important}" },
   "mujionline.eu": { s: "#cokbar{display:none !important}" },
