@@ -16886,6 +16886,7 @@ const blockUrls = {
     { r: "cnilCookie.js" },
     { r: "basketballbelieve.com" },
     { r: "app.usercentrics.eu/browser-ui/" },
+    { r: "usercentrics.eu" },
     { r: "cc.anytrack.de/app.js" },
     { r: "/utag/ctm/business-insurance/prod/utag.js" },
   ],
