@@ -2758,6 +2758,7 @@ const rules = {
   "cosmo.ru": { s: ".disclame_block{display:none !important}" },
   "educalingo.com": { c: 0 },
   "geekbrains.ru": { s: ".gb-bottom-banners{display:none !important}" },
+  "gastronom.ru": { s: ".accept-cookies-popup{display:none !important} "},
   "trespasse.com": { c: 0 },
   "uhu.de": { s: ".message.fixed{display:none !important}" },
   "idc.com": { s: ".idc-privacy-notice{display:none !important}" },
