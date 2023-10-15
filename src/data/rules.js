@@ -4222,7 +4222,6 @@ const rules = {
   "iqoption.com": {
     s: 'div[data-test-id="notification-position-container-block"]{display:none !important}',
   },
-  "coop.co.uk": { s: "footer ~ div{display:none !important}" },
   "flows.be": { s: "#flows-cookie-compliance-popup{display:none !important}" },
   "netflixinbelgie.be": { c: 144 },
   "fansbreak.com": { c: 0 },
@@ -15667,6 +15666,7 @@ const rules = {
   "icanw.org": { c: 8 },
   "esimplus.me": { s: "#App > :first-child{display:none !important}" },
   "repubblica.it": { s: "#iubenda-cs-banner{display:none !important}" },
+  "arduino.cc": { s: "#iubenda-cs-banner{display:none !important}" },
   "terre-des-seniors.fr": { s: "#valid-cookies{display:none !important}" },
   "oponeo.it": {
     s: "body > div{display:none !important} .noScroll{overflow: unset !important}",
