@@ -2827,6 +2827,7 @@ const rules = {
   "uni-greifswald.de": { s: "#piwik-flyin{display:none !important}" },
   "livescore.net": { s: '.row[data-id="infobar"]{display:none !important}' },
   "domwroc24.pl": { s: ".black_overlay{display:none !important}" },
+  "forsal.pl": { s: "#cmp{display:none !important}" },
   "kaiserkraft.ie": { s: ".policy_notification{display:none !important}" },
   "aiponet.it": { s: "#cl_wrapp{display:none !important}" },
   "donadeimonti.it": { c: 132 },
