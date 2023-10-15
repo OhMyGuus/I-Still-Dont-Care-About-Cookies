@@ -16815,6 +16815,12 @@ const rules = {
 const blockUrls = {
   common: [
     {
+      r: "consent.cookiebot.eu/uc.js"
+    },
+    {
+      r: "consentcdn.cookiebot.eu"
+    },
+    {
       r: "/iubenda_cs",
       e: [
         "radiomontecarlo.net",
@@ -17278,10 +17284,6 @@ const blockUrls = {
           "epochtimes.de"
         ],
       },
-      { r: "consent.cookiebot.eu",
-        e: [
-          "expert.de"
-        ] },
       {
         r: "/ccp-sites/components/structure/cookie-notification/",
       },
