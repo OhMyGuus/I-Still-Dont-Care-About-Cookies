@@ -17266,9 +17266,13 @@ const blockUrls = {
           "bergbauernmilch.de",
           "spiele-kostenlos-online.de",
           "ekstrabladet.dk",
-          "epochtimes.de",
+          "epochtimes.de"
         ],
       },
+      { r: "consent.cookiebot.eu",
+        e: [
+          "expert.de"
+        ] },
       {
         r: "/ccp-sites/components/structure/cookie-notification/",
       },
@@ -17663,6 +17667,7 @@ const blockUrls = {
       { r: "sixfifty.com/consent.js" },
       { r: "/gdpr/consent.js" },
       { r: "choices.consentframework.com" },
+      { r: "cache.consentframework.com" },
       { r: "consentserve.mgr.consensu.org" },
       { r: "analytics-consent-manager.azureedge.net" },
       { r: "/mgm_consent.js" },

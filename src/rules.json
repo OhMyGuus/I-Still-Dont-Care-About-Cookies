@@ -25427,6 +25427,9 @@
 				"stylesheet",
 				"xmlhttprequest",
 				"image"
+			],
+			"initiatorDomains": [
+				"expert.de"
 			]
 		}
 	}
