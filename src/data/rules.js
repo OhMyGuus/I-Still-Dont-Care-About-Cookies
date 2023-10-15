@@ -2879,6 +2879,7 @@ const rules = {
   "optochtenkalender.nl": { s: ".PanelPopUp{display:none !important}" },
   "thinkshoes.com": { s: "#data-privacy-bar{display:none !important}" },
   "tevaitalia.it": { s: ".riquadroAvvisoPrivacy{display:none !important}" },
+  "greekcity.fr": { s: "#jlplg-lovecoding-cookie-info-container{display:none !important}" }, 
   "sep-ensemble.fr": { s: ".disclaimer-bar{display:none !important}" },
   "kaerntentherme.com": { c: 134 },
   "tuttostoria.net": { s: "#avviso{display:none !important}" },
