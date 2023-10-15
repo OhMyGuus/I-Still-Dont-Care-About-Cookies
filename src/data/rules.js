@@ -4800,6 +4800,7 @@ const rules = {
   "skionline.pl": { s: "#popup_rodo,#popup_tlo{display:none !important}" },
   "iotransfer.net": { s: ".fl-accept{display:none !important}" },
   "guitartabs.cc": { s: "#main_content ~ div{display:none !important}" },
+  "arduino.cc": { s: "#iubenda-cs-banner{display:none !important} "},
   "dictionnaire-academie.fr": { s: "#blocCookies{display:none !important}" },
   "china-certification.com": {
     s: ".blueline-content-popup{display:none !important}",
