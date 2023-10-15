@@ -25413,5 +25413,21 @@
 				"image"
 			]
 		}
+	},
+	{
+		"id": 1476,
+		"priority": 1,
+		"action": {
+			"type": "block"
+		},
+		"condition": {
+			"urlFilter": "consent.cookiebot.eu",
+			"resourceTypes": [
+				"script",
+				"stylesheet",
+				"xmlhttprequest",
+				"image"
+			]
+		}
 	}
 ]
