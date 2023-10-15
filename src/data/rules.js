@@ -16358,6 +16358,7 @@ const rules = {
     s: 'section[aria-label="Kakinformation"]{display:none !important}',
   },
   "mitteldithmarschen.de": { s: "#privacy-container{display:none !important}" },
+  "guide-outillage.fr": { s: ".ez-cookie-banner{display:none !important}" },
   "sauvequiveut.fr": { s: "#zCookieConsent{display:none !important}" },
   "armadamusic.com": {
     s: ".cookie-bar-notifications{display:none !important}",
