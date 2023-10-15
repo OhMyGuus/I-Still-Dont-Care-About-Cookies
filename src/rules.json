@@ -25432,5 +25432,21 @@
 				"expert.de"
 			]
 		}
-	}
+	},
+	{
+		"id": 1477,
+		"priority": 1,
+		"action": {
+			"type": "block"
+		},
+		"condition": {
+			"urlFilter": "cmp.setupcmp.com",
+			"resourceTypes": [
+				"script",
+				"stylesheet",
+				"xmlhttprequest",
+				"image"
+			]
+		}
+	},
 ]

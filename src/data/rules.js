@@ -12801,6 +12801,7 @@ const rules = {
   "klaus-grillt.de": { s: "body > [data-bg]{display:none !important}" },
   "promobricks.de": { s: "body > [data-bg]{display:none !important}" },
   "aktieninvestor.net": { s: "body > [data-bg]{display:none !important}" },
+  "censor.net": { s: "body > div.stpd_cmp{display:none !important}"},
   "nilohealth.com": {
     s: '.page-container > [style*="fixed"]{display:none !important}',
   },
@@ -17981,6 +17982,7 @@ const blockUrls = {
       { r: "sdk.privacy-center.org" },
     ],
     cmp: [
+      { r: "cmp.setupcmp.com" },
       { r: "cmp.quantcast.com" },
       { r: "cmp.nextday.media/cmp", e: ["vi.nl", "omroepwest.nl"] },
       { r: "cmp.dreamlab.pl" },
