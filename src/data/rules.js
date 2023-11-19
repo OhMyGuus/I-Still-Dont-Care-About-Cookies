@@ -16802,6 +16802,7 @@ const rules = {
   "tatararazors.com": { j: "6" },
   "sunsky-online.com": { s: "#cookiesHint_1{display:none !important}" },
   "akakce.com": { s: ".banner{display:none !important}" },
+  "iconnectfx.com": { s: ".cdk-overlay-container{display:none !important}" },
 };
 
 const blockUrls = {
