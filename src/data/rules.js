@@ -15873,7 +15873,7 @@ const rules = {
   "promobit.com.br": { s: "#__next > :nth-child(5){display:none !important}" },
   "fvd.nl": { s: ".fixed{display:none !important}" },
   "roshtein.com": {
-    s: '[class*="Navigation_locked"]{filter:unset !important; pointer-events:unset !important}',
+    s: '#__next [class*="CookieConsent"]{display: none !important;}',
   },
   "kteohellas.gr": { s: "#cookiesettings-dialog{display:none !important}" },
   "shiftdelete.net": { s: ".banner{display:none !important}" },
