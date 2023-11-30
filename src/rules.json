@@ -25397,5 +25397,56 @@
 				"czasnaherbate.net"
 			]
 		}
+	},
+	{
+		"id": 1475,
+		"priority": 1,
+		"action": {
+			"type": "block"
+		},
+		"condition": {
+			"urlFilter": "cache.consentframework.com",
+			"resourceTypes": [
+				"script",
+				"stylesheet",
+				"xmlhttprequest",
+				"image"
+			]
+		}
+	},
+	{
+		"id": 1476,
+		"priority": 1,
+		"action": {
+			"type": "block"
+		},
+		"condition": {
+			"urlFilter": "consent.cookiebot.eu",
+			"resourceTypes": [
+				"script",
+				"stylesheet",
+				"xmlhttprequest",
+				"image"
+			],
+			"initiatorDomains": [
+				"expert.de"
+			]
+		}
+	},
+	{
+		"id": 1477,
+		"priority": 1,
+		"action": {
+			"type": "block"
+		},
+		"condition": {
+			"urlFilter": "cmp.setupcmp.com",
+			"resourceTypes": [
+				"script",
+				"stylesheet",
+				"xmlhttprequest",
+				"image"
+			]
+		}
 	}
 ]
