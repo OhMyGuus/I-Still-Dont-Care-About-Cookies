@@ -16802,6 +16802,13 @@ const rules = {
   "tatararazors.com": { j: "6" },
   "sunsky-online.com": { s: "#cookiesHint_1{display:none !important}" },
   "akakce.com": { s: ".banner{display:none !important}" },
+  "komoot.de": { s: "div.ReactModalPortal:nth-of-type(6){display:none !important}" },
+  "bauer-baumschulen.ch": { s: ".cookiemessage{display:none !important}body{overflow:visible !important}"},
+  "allyouplay.com": { s: ".cookie-card_container.text-white.q-px-md.q-py-md{display:none !important}"},
+  "www.woojer.com": { s: ".cc-bottom-center-wrapper.cc-window-wrapper{display:none !important}"},
+  "www.sede.coruna.gal": {s: ".ui-resizable.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog{display:none !important}.ui-front.ui-widget-overlay{display:none !important}"},
+  "www.holzkern.com": { s:".-popup.amgdprjs-bar-template{display:none !important}"},
+  "www.hitech-gamer.com": { s: "#cookieModal{display:none !important}.show.fade.modal-backdrop{display:none !important}"}
 };
 
 const blockUrls = {
@@ -16824,6 +16831,9 @@ const blockUrls = {
     {
       r: "/ccm19_",
       e: ["ccm19.de"],
+    },
+    {
+      r: "cmp.sibbo.net",
     },
     {
       r: "static.clickskeks.at",
@@ -17545,6 +17555,7 @@ const blockUrls = {
       { r: "/wp-content/plugins/nd-cookie/" },
       { r: "/cookieconsent-all.min.js" },
       { r: "/cookieBanner.js" },
+      { r: "/Scripts/CookieBanner.js", e: "bauer-baumschulen.ch" },
       { r: "/cookie-wall.js" },
       { r: "cookies.giant.cz/assets/consent" },
       { r: "cookies.praguebest.cz/dist" },
