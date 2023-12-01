@@ -16802,6 +16802,16 @@ const rules = {
   "tatararazors.com": { j: "6" },
   "sunsky-online.com": { s: "#cookiesHint_1{display:none !important}" },
   "akakce.com": { s: ".banner{display:none !important}" },
+  "uni-passau.de": {s: ".upa_cookie{display:none !important}"},
+  "sunroom.it": {s: "#my-agile-privacy-notification-content{display:none !important}"},
+  "tulipsmarket.com": {s: ".CybotCookiebotDialogActive{display:none !important}"},
+  "object-carpet.com": {s: ".hidden.cookieNoticeWrapper{display:none !important}"},  
+  "tricount.com": { s: ".c--anim{display:none !important}" },
+  "jobware.de": { s: ".cdk-overlay-container{display:none !important}" },
+  "mjcb.io": { s: ".active.gdpr-container{display:none !important}" },
+  "baden-tv.com": { s: ".--active.cmms_cookie_consent_manager{display:none !important} body{overflow: unset !important;}" },
+  "termshub.io": { s: "#TermsHubCookieConsent{display:none !important}" },
+  "app.outwrite.com": { s: ".e1nzdohi4.css-1kyupjy-cookie-popup-Wrapper{display:none !important}" }, //will be changed later
 };
 
 const blockUrls = {
