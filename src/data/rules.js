@@ -16812,6 +16812,15 @@ const rules = {
   "baden-tv.com": { s: ".--active.cmms_cookie_consent_manager{display:none !important} body{overflow: unset !important;}" },
   "termshub.io": { s: "#TermsHubCookieConsent{display:none !important}" },
   "app.outwrite.com": { s: ".e1nzdohi4.css-1kyupjy-cookie-popup-Wrapper{display:none !important}" }, //will be changed later
+  "logowanie.nn.pl": { s: ".Portal_module_portalDefault__af0b797a{display:none !important}" },
+  "freizeitbad-greifswald.de": { s: ".fzbCookie{display:none !important}" },
+  "linuxtechmore.com": { s: "#supermag-cookie-ify{display:none !important}" },
+  "it.cmlink.com": { s: ".CookiesWrap{display:none !important}" },
+  "dartshopper.de": { s: "#cookie{display:none !important}" },
+  "ubook.at": { s: "#supi{display:none !important}" },
+  "sw-lindau.de": { s: "#gdpr-cookie-message-container{display:none !important}" },
+  "auf1.info": { s: ".overflow-scroll{display:none !important}" },
+  "auf1.tv": { s: ".overflow-scroll{display:none !important}" },
 };
 
 const blockUrls = {
@@ -16857,6 +16866,7 @@ const blockUrls = {
     { r: "/tarteaucitron.css" },
     { r: "notice.sp-prod.net" },
     { r: "htmedia.in/analytics-js" },
+    { r: "campact.containers.piwik.pro" },
     { r: "wpcc.io/lib" },
     { r: "tag.goadopt.io" },
     { r: "/typo3conf/ext/supi/" },
@@ -16901,6 +16911,7 @@ const blockUrls = {
       { r: "/wp-content/mu-plugins/cookie_notifier" },
       { r: "freegamehosting.eu/js/cookies.js" },
       { r: "jp2w.pl/a/cookie.js" },
+      { r: "https://cdn.serviceform.com/serviceform-tools/privacy/sf-privacy-partner.js?v=nethit", e: ["https://www.lumise.se/"]},
       {
         r: "cookieConsent.js",
         e: ["talktalk.co.uk", "blackboard.com", "kayak.pl", "gamersgate.com"],
