@@ -4,11 +4,11 @@
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Community version of the extension `I don't care about cookies` (no Avast)",
+    "message": "Fællesskabsversion af udvidelsen `I still don't care about cookies` (ingen Avast)",
     "description": "Description of the extension."
   },
   "reportSkippedTitle": {
-    "message": "Udvidelsen er slukket på $HOSTNAME$.",
+    "message": "Udvidelse er deaktiveret på $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",
     "placeholders": {
       "hostname": {
@@ -18,7 +18,7 @@
     }
   },
   "reportSkippedMessage": {
-    "message": "Du har slukket udvidelsen på dette webstedet. Vær venlig at tænde den på og se, om du ser cookie-advarslen før du rapporterer det.",
+    "message": "Du har deaktiveret udvidelsen på dette webstedet. Vær venlig at aktiver den på og se, om du ser cookie-advarslen, før du rapporterer det.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
   "reportConfirm": {
@@ -32,7 +32,7 @@
     }
   },
   "menuEnable": {
-    "message": "Tænd udvidelsen på $HOSTNAME$",
+    "message": "Aktiver udvidelse på $HOSTNAME$",
     "description": "Menu option.",
     "placeholders": {
       "hostname": {
@@ -42,7 +42,7 @@
     }
   },
   "menuDisable": {
-    "message": "Sluk utvidelsen på $HOSTNAME$",
+    "message": "Deaktiver udvidelse på $HOSTNAME$",
     "description": "Menu option.",
     "placeholders": {
       "hostname": {
@@ -56,11 +56,11 @@
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
   "menuReport": {
-    "message": "Rapporter om en cookie-advarsel",
+    "message": "Rapporter en cookie-advarsel",
     "description": "Menu option."
   },
   "menuSupport": {
-    "message": "Støt dette prosjekt",
+    "message": "Støt dette projekt",
     "description": "Menu option."
   },
   "optionsTitle": {
@@ -68,59 +68,59 @@
     "description": "Title for the options page."
   },
   "optionsWhitelist": {
-    "message": "Liste over alle hvidelistede websteder, et websted per linje:",
+    "message": "Liste over alle hvidlistede hjemmesider, en hjemmeside pr. linje:",
     "description": "Options text for whitelist box."
   },
   "optionStatusIndicators": {
-    "message": "status indicators",
+    "message": "statusindikatorer",
     "description": "Option text for enabling the status indicator"
   },
   "optionsButton": {
-    "message": "Gem indstillingerne",
+    "message": "Gem indstillinger",
     "description": "Options text for SAVE button."
   },
   "reportGithub": {
-    "message": "Report using Github",
+    "message": "Rapporter vha. Github",
     "description": "Menu item to report using Github"
   },
   "reportAnon": {
-    "message": "Report anonymously",
+    "message": "Rapportér anonymt",
     "description": "Menu item to report anonymously"
   },
   "reportAnonTitle": {
-    "message": "Report",
+    "message": "Rapportér",
     "description": "Translation of 'report' it will be shown like 'Report example.com'"
   },
   "reportAnonNotes": {
-    "message": "Notes: ",
+    "message": "Bemærkninger: ",
     "description": "Notes for the report"
   },
   "reportNotesPlaceholder": {
-    "message": "Things like:\nVideoplayback not working\nBroken scrollbar\ngray overlay",
+    "message": "Ting som:\nVideoplayback virker ikke\nScrollbar virker ikke\ngråt overtræk",
     "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
   },
   "reportAnonSend": {
-    "message": "Send report",
+    "message": "Send rapport",
     "description": "Button to send the report"
   },
   "reportAnonCancel": {
-    "message": "Cancel",
+    "message": "Annuller",
     "description": "Button to cCancel the report"
   },
   "genericErrorTitle": {
-    "message": "Something went wrong",
+    "message": "Noget gik galt",
     "description": "Genereric error title"
   },
   "genericErrorTryAgain": {
-    "message": "Try again later..",
+    "message": "Prøv igen senere..",
     "description": "Try again later message"
   },
   "genericErrorBack": {
-    "message": "Back",
+    "message": "Tilbage",
     "description": "Back button after error"
   },
   "menuLoadingText": {
-    "message": "Loading...",
+    "message": "Indlæser...",
     "description": "Loading messsage"
   }
 }

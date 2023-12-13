@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "I still don't care about cookies",
+    "message": "Eg bryr meg framleis ikkje om informasjonskapslar",
     "description": "Name of the extension."
   },
   "extensionDescription": {
@@ -104,7 +104,7 @@
     "description": "Button to send the report"
   },
   "reportAnonCancel": {
-    "message": "Cancel",
+    "message": "Avbryt",
     "description": "Button to cCancel the report"
   },
   "genericErrorTitle": {
@@ -112,11 +112,11 @@
     "description": "Genereric error title"
   },
   "genericErrorTryAgain": {
-    "message": "Try again later..",
+    "message": "Prøv igjen seinare..",
     "description": "Try again later message"
   },
   "genericErrorBack": {
-    "message": "Back",
+    "message": "Tilbake",
     "description": "Back button after error"
   },
   "menuLoadingText": {
