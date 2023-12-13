@@ -1,3 +1,6 @@
+
+## [Read this issue about the current inactivity](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/issues/10278)
+
 ## Fork of the popular "I don't care about cookies" extension
 
 Get rid of cookie warnings from almost all websites!
