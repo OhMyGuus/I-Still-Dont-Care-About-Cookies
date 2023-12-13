@@ -4,7 +4,7 @@
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Versione comunitaria dell'estensione `I still don't care about cookies` (no Avast)",
+    "message": "Versione della community dell'estensione `I don't care about cookies` (no Avast)",
     "description": "Description of the extension."
   },
   "reportSkippedTitle": {
@@ -104,7 +104,7 @@
     "description": "Button to send the report"
   },
   "reportAnonCancel": {
-    "message": "annulla",
+    "message": "Annulla",
     "description": "Button to cCancel the report"
   },
   "genericErrorTitle": {
