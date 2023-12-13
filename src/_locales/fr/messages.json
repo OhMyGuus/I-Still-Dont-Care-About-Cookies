@@ -18,7 +18,7 @@
     }
   },
   "reportSkippedMessage": {
-    "message": "Vous avez désactivé l'extension sur ce site. Merci de l'activer et de vérifier si vous voyez toujours l'avertissement de cookies.",
+    "message": "Vous avez désactivé l'extension sur ce site. Merci de l'activer et de vérifier si vous voyez toujours l'avertissement de cookies avant de signaler.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
   "reportConfirm": {

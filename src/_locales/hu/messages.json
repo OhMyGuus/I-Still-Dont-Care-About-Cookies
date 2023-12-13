@@ -4,7 +4,7 @@
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Az `I don't care about cookies` kiterjesztés közösségi verziója (Avast nélkül)",
+    "message": "Az `I don't care about cookies` kiegészítő közösségi verziója (Avast nélkül)",
     "description": "Description of the extension."
   },
   "reportSkippedTitle": {
@@ -52,11 +52,11 @@
     }
   },
   "menuIdle": {
-    "message": "A kiegészítő ezen a webhelyen nem működik",
+    "message": "A kiegészítő nem működik ezen a webhelyen",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
   "menuReport": {
-    "message": "Egy süti (cookie) figyelmeztetés jelentése",
+    "message": "Egy sütifigyelmeztetés jelentése",
     "description": "Menu option."
   },
   "menuSupport": {
@@ -68,7 +68,7 @@
     "description": "Title for the options page."
   },
   "optionsWhitelist": {
-    "message": "A fehér-listán szereplő webhelyek, egy weboldal soronként:",
+    "message": "A fehérlistán szereplő webhelyek, soronként egy weboldal:",
     "description": "Options text for whitelist box."
   },
   "optionStatusIndicators": {
@@ -80,11 +80,11 @@
     "description": "Options text for SAVE button."
   },
   "reportGithub": {
-    "message": "Jelentés a Github-on",
+    "message": "Jelentés a GitHubon",
     "description": "Menu item to report using Github"
   },
   "reportAnon": {
-    "message": "Jelentsd névtelenül",
+    "message": "Jelentés névtelenül",
     "description": "Menu item to report anonymously"
   },
   "reportAnonTitle": {
@@ -104,7 +104,7 @@
     "description": "Button to send the report"
   },
   "reportAnonCancel": {
-    "message": "Mégsem",
+    "message": "Mégse",
     "description": "Button to cCancel the report"
   },
   "genericErrorTitle": {
