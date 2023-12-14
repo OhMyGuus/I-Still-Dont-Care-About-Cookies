@@ -16823,6 +16823,11 @@ const rules = {
   "auf1.tv": { s: ".overflow-scroll{display:none !important}" },
   "iconnectfx.com": { s: ".cdk-overlay-container{display:none !important}" },
   "store.duolingo.com": { s: ".pd-cookie-banner-window{display:none !important}" },
+  "revista.seg-social.es": { s: "#p_p_id_com_ss_cookies_layout_set_portlet_CookiesLayoutSetPortlet_{display:none !important}" },
+  "thealliance.ai": { s: ".CookieAcceptance_cookieAcceptance__OPnox{display:none !important}" },
+  "mytonafntastic.com": { s: "#portal-root{display:none !important}"},
+  "mytonafntastic.com": { s: ".Cookie_cookie-btn__EiMrW{display:none !important}"},
+  "financestrategists.com": { s: "#gdrp{display:none !important}"},
 };
 
 const blockUrls = {
@@ -17757,6 +17762,9 @@ const blockUrls = {
       { r: "7gra.us/consentbar" },
       { r: "/dgp-cookie-consent" },
       { r: "/assets/as24-cmp/consent-banner/" },
+      { r: "cdn.cookie-script.com" },
+      { r: "cmp.setupcmp.com" },
+      { r: "myprivacy-static.dpgmedia.net/consent.js" }
     ],
     gdpr: [
       { r: "/js/gdpr_footer.js" },
@@ -18878,7 +18886,8 @@ const blockUrls = {
     "corporate.modivo.com": ["/dist/js/cmp.js"],
     "jimms.fi": ["jimmsconsent.min.js?"],
     "jobup.ch": ["chunk-cookie-consent-modal"],
-    "condair.de": ["/Cookie/ccm19/public/index.php/app.js?"]
+    "condair.de": ["/Cookie/ccm19/public/index.php/app.js?"],
+    "oem.no": ["/ui/common/scripts/cookies/cookieModalComponent-797ec8a07a.js"]
   },
 };
 
