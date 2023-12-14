@@ -16822,7 +16822,7 @@ const rules = {
   "auf1.info": { s: ".overflow-scroll{display:none !important}" },
   "auf1.tv": { s: ".overflow-scroll{display:none !important}" },
   "iconnectfx.com": {
-    s: ".cdk-overlay-container{display:none !important} html{overflow: unset !important} div[id*='AllowCookiePopup']{display: none !important}"
+    s: ".cdk-overlay-container{display:none !important} html{overflow:unset !important} div[id*='AllowCookiePopup']{display:none !important}"
   },
 };
 
