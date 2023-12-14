@@ -16824,6 +16824,7 @@ const rules = {
   "iconnectfx.com": {
     s: ".cdk-overlay-container{display:none !important} html{overflow:unset !important} div[id*='AllowCookiePopup']{display:none !important}"
   },
+  "store.duolingo.com": { s: ".pd-cookie-banner-window{display:none !important}" },
 };
 
 const blockUrls = {
