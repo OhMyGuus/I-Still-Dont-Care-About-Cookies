@@ -6080,7 +6080,6 @@ const rules = {
   "imovirtual.com": { c: 28 },
   "riccos-camera.de": { s: "#cookieholder{display:none !important}" },
   "restaurant-liris.lu": { c: 153 },
-  "motor1.com": { c: 102 },
   "labor-staber.de": { s: "#lwcook{display:none !important}" },
   "cloudvps.com": { j: "5" },
   "brainly.com.br": {
@@ -13069,7 +13068,6 @@ const rules = {
   "eduface.ru": { j: "5" },
   "riverisland.com": { j: "5" },
   "edumsko.ru": { j: "5" },
-  "netzwelt.de": { j: "5" },
   "armegoszto.hu": { s: ".v-snack--bottom{display:none !important}" },
   "rekonise.com": { s: ".consent-snackbar{display:none !important}" },
   "romeo.com": { j: "5" },
@@ -14779,7 +14777,6 @@ const rules = {
   "directpeople.nl": { j: "5" },
   "epochtimes.fr": { j: "5" },
   "epochtimes.de": { j: "5" },
-  "saechsische.de": { j: "5" },
   "hoyoverse.com": {
     s: ".mihoyo-cookie-tips,.cookie-tip{display:none !important}",
   },
@@ -15020,7 +15017,6 @@ const rules = {
   "winparts.fr": { j: "5" },
   "winparts.se": { j: "5" },
   "rammstein.de": { j: "5" },
-  "motorsport-total.com": { j: "5" },
   "spiele-kostenlos-online.de": { j: "5" },
   "global-wines.cz": { c: 20 },
   "newdaycards.com": {
@@ -15326,7 +15322,6 @@ const rules = {
   "unigine.com": { s: ".bottom-notice{display:none !important}" },
   "healthline.com": { j: "5" },
   "gruene-bundestag.de": { s: ".cn-wrapper{display:none !important}" },
-  "gabler.de": { j: "5" },
   "erp-up.de": { j: "5" },
   "sbb-deutschland.de": { j: "5" },
   "netz-noe.at": { j: "5" },
@@ -15434,7 +15429,6 @@ const rules = {
   "saurclient.fr": {
     s: "#cookies,.sds-m-cookiebanner{display:none !important}",
   },
-  "autohaus.de": { j: "5" },
   "posylka.de": { j: "5" },
   "europa.eu": {
     s: "#edp-cookies-banner,.customCookie{display:none !important}",
@@ -16825,6 +16819,17 @@ const rules = {
     s: ".cdk-overlay-container{display:none !important} html{overflow:unset !important} div[id*='AllowCookiePopup']{display:none !important}"
   },
   "store.duolingo.com": { s: ".pd-cookie-banner-window{display:none !important}" },
+  "saechsische.de": { j: 5 },
+  "motorsport-total.com": { j: 5 },
+  "gabler.de": { j: 5 },
+  "autohaus.de": { j: 5 },
+  "formel1.de": { j: 5 },
+  "it-daily.net": { j: 5 },
+  "radiobielefeld.de": { j: 5 },
+  "verkehrsrundschau.de": { j: 5 },
+  "insideevs.de": { j: 5 },
+  "motor1.com": { j: 5 },
+  "netzwelt.de": { j: 5 },
 };
 
 const blockUrls = {
@@ -18867,7 +18872,6 @@ const blockUrls = {
     "mein.web.de": ["/ppp/js/permission-client"],
     "lineadirecta.com": ["tags.tiqcdn.com/utag"],
     "ujam.com": ["/ujam-tracking.js"],
-    "formel1.de": ["chunk-cmp-onetrust"],
     "ae.com": ["/ugp-api/webcontent/v1/"],
     "jobsireland.ie": ["/Cookieconsent/"],
     "mainpost.de": ["app.usercentrics.eu"],

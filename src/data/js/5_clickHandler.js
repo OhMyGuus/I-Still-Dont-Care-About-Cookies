@@ -2573,14 +2573,20 @@ function getSelector(host) {
         ".sv-cookie-consent-modal footer > button"
       );
 
-    case "saechsische.de":
-    case "motorsport-total.com":
-    case "gabler.de":
-    case "autohaus.de":
-      return _if(
-        'div[data-nosnippet] a[href*="datenschutz"]',
-        '//div[@data-nosnippet][.//a[contains(@href, "datenschutz")]]//button'
-      );
+		case 'saechsische.de':
+		case 'motorsport-total.com':
+		case 'gabler.de':
+		case 'autohaus.de':
+		case 'formel1.de':
+		case 'it-daily.net':
+		case 'esports.com':
+		case 'radiobielefeld.de':
+		case 'verkehrsrundschau.de':
+		case 'insideevs.de':
+		case 'motor1.com':
+		case 'netzwelt.de':
+			return _if('div[data-nosnippet] a[href*="privacy-policy"], div[data-nosnippet] a[href*="datenschutz"]', '//div[@data-nosnippet][.//a[contains(@href, "datenschutz") or contains(@href, "privacy-policy")]]//button[not(./img)]');
+
 
     case "pro-doma.cz":
       return '.mfp-wrap.mfp-ready a[href*="consentChosen()"]';
@@ -3650,8 +3656,6 @@ function getSelector(host) {
         'button[class*="dsgvo"][class*="config"]',
         'button[class*="dsgvo"][class*="save"]'
       );
-    case "netzwelt.de":
-      return "#_cp_cmp_cta_button";
     case "riverisland.com":
       return _chain(
         '.cookie-consent label[for="Analytics"]',
@@ -7002,11 +7006,6 @@ function getSelector(host) {
     case "infranken.de":
       return '#cmpbox[style*="block"] .cmpboxbtnyes';
 
-    case "esports.com":
-      return _if(
-        'div[data-nosnippet] a[href*="privacy-policy"]',
-        '//div[@data-nosnippet][.//a[contains(@href, "privacy-policy")]]//button'
-      );
 
     case "waidhofen.at":
     case "mein-lehrbetrieb.at":

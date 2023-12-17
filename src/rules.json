@@ -25302,26 +25302,7 @@
 				"ujam.com"
 			]
 		}
-	},
-	{
-		"id": 1470,
-		"priority": 1,
-		"action": {
-			"type": "block"
-		},
-		"condition": {
-			"urlFilter": "chunk-cmp-onetrust",
-			"resourceTypes": [
-				"script",
-				"stylesheet",
-				"xmlhttprequest",
-				"image"
-			],
-			"initiatorDomains": [
-				"formel1.de"
-			]
-		}
-	},
+	}
 	{
 		"id": 1471,
 		"priority": 1,
