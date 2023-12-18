@@ -1175,14 +1175,12 @@ function getSelector(host) {
         '#tandcs[style*="block"] #accepting.enabled, .transfer__window.terms-conditions .transfer__button, .infobar--terms .button, .welcome__cookie-notice .welcome__button--accept'
       );
 
-    case "plus.gmx.net":
-    case "plus.web.de":
-      return _chain(
-        ".window-on #cmp #privacy-center, #edit-purpose-settings",
-        "#pubc-1",
-        "#save-purpose-settings"
-      );
-
+		case 'gmx.net':
+		case 'gmx.ch':
+		case 'gmx.at':
+		case 'web.de':
+				return _if_else('.window-on #save-all-pur', ['.window-on #save-all-pur'], ['.window-on #edit-purpose-settings', '#save-purpose-settings', '#confirm-reject']);
+		
     case "music.yandex.ru":
     case "music.yandex.com":
       return _sl(".gdpr-popup__button");

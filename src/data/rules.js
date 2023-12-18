@@ -15293,6 +15293,8 @@ const rules = {
   "kb-home.nl": { j: "5" },
   "membean.com": { c: 0 },
   "designmynight.com": { j: "5" },
+  "gmx.ch": { j: "5" },
+  "gmx.at": { j: "5" },
   "gmx.net": { j: "5" },
   "web.de": { j: "5" },
   "onleihe.de": { c: 14 },
