@@ -16007,9 +16007,6 @@ const rules = {
   "ancientegyptmagazine.com": { s: ".pcb{display:none !important}" },
   "andreashop.sk": { s: "#eu-cookies-popup{display:none !important}" },
   "thesourcemodels.com": { s: "#cookie-bottom{display:none !important}" },
-  "heise.de": {
-    s: 'div[id^="sp_message_container_"]{display:none !important}',
-  },
   "video.gazzetta.it": { j: "5" },
   "sreality.cz": {
     s: ".szn-cmp-dialog-container{display:none !important}",
@@ -16833,7 +16830,7 @@ const rules = {
   "termshub.io": { s: "#TermsHubCookieConsent{display:none !important}" },
   "app.outwrite.com": {
     s: ".e1nzdohi4.css-1kyupjy-cookie-popup-Wrapper{display:none !important}",
-  }, //will be changed later
+  }, 
   "logowanie.nn.pl": {
     s: ".Portal_module_portalDefault__af0b797a{display:none !important}",
   },
@@ -16866,6 +16863,9 @@ const rules = {
   "netzwelt.de": { j: 5 },
   "kicker.de": { j: 5 },
   "kicker.ch": { j: 5 },
+  "zdf.de": { j: 5 },
+  "3sat.de": { j: 5 },
+  "heise.de": { j: 5 },
 };
 
 const blockUrls = {
@@ -18012,7 +18012,6 @@ const blockUrls = {
           "stern.de",
           "freenet-funk.de",
           "maennersache.de",
-          "heise.de",
           "t3n.de",
           "is.fi",
         ],
@@ -18436,7 +18435,6 @@ const blockUrls = {
           "zeit.de",
           "ad.nl",
           "dpgmedia.be",
-          "heise.de",
           "t3n.de",
           "gelderlander.nl",
           "gld.nl",

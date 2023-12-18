@@ -507,6 +507,7 @@ function getSelector(host) {
     case "sky.com":
     case "welt.de":
     case "zeit.de":
+    case 'heise.de':
       return ".sp_choice_type_11";
 
     case "helpster.de":
@@ -7184,7 +7185,12 @@ function getSelector(host) {
     case "kicker.ch":
     case "kicker.de":
       return '.fancybox-container[style*="block"] a[onclick*="acceptAllConsents"]';
-  }
+    case 'zdf.de':
+    case '3sat.de':
+      return '#zdf-cmp-consent-sdk[style*="block"] #zdf-cmp-deny-btn';
+
+
+    }
 
   if (host.parts.length > 2) {
     host.parts.shift();
