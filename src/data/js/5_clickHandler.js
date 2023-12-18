@@ -7185,6 +7185,9 @@ function getSelector(host) {
       return '.idgcp__layer--active .idgcp__btn--primary';
     case "starofservice.com":
       return '[data-test="cookie_banner.accept"]';
+    case "kicker.ch":
+    case "kicker.de":
+      return '.fancybox-container[style*="block"] a[onclick*="acceptAllConsents"]';
   }
 
   if (host.parts.length > 2) {

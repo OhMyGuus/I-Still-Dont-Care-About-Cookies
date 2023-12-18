@@ -16830,6 +16830,8 @@ const rules = {
   "insideevs.de": { j: 5 },
   "motor1.com": { j: 5 },
   "netzwelt.de": { j: 5 },
+  "kicker.de": { j: 5 },
+  "kicker.ch": { j: 5 },
 };
 
 const blockUrls = {
