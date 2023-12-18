@@ -16828,7 +16828,8 @@ const rules = {
   "mytonafntastic.com": { s: "#portal-root{display:none !important}"},
   "mytonafntastic.com": { s: ".Cookie_cookie-btn__EiMrW{display:none !important}"},
   "financestrategists.com": { s: "#gdrp{display:none !important}"},
-  "traveloptimizer.de": { c: 85 }
+  "traveloptimizer.de": { c: 85 },
+  "schwiizer-schueuemli.de": { s: ".cookieBanner_bannerWrapper__J3Ikd{display:none !important}"}
 };
 
 const blockUrls = {
