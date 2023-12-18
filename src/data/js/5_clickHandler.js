@@ -370,6 +370,12 @@ function getSelector(host) {
           return ".cookie-consent-active .selectie-toestaan";
         case "onleihe":
           return '.modal[style*="block"] .privacyAcceptChoice';
+      case 'mediamarkt':
+            if (host.full == 'outlet.mediamarkt.nl')
+              return '.force--consent.show--consent #s-sv-bn';
+            
+            return '#mms-consent-portal-container button[data-test*="save-settings"]';
+          
       }
     }
 
