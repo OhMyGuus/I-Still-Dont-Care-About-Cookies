@@ -2122,7 +2122,9 @@ const rules = {
   "watchfinder.co.uk": { s: "#cookie_{display:none !important}" },
   "mediamarkt.nl": { j: "5" },
   "mediamarkt.de": { j: "5" },
-
+  "mediamarkt.it": { j: "5" },
+  "mediamarkt.at": { j: "5" },
+  "mediamarkt.be": { j: "5" },
   "gonnesa.ca.it": { s: "#fake-div{display:none !important}" },
   "motorsport.com": {
     s: ".ms-footer-fixbox,.ms-header-messages,#privacy_accept{display:none !important}",
