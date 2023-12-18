@@ -16828,6 +16828,7 @@ const rules = {
   "mytonafntastic.com": { s: "#portal-root{display:none !important}"},
   "mytonafntastic.com": { s: ".Cookie_cookie-btn__EiMrW{display:none !important}"},
   "financestrategists.com": { s: "#gdrp{display:none !important}"},
+  "traveloptimizer.de": { c: 85 }
 };
 
 const blockUrls = {
