@@ -18014,6 +18014,7 @@ const blockUrls = {
           "maennersache.de",
           "t3n.de",
           "is.fi",
+          "heise.de"
         ],
       },
       { r: "privacy-policy.u-lab.nl" },
