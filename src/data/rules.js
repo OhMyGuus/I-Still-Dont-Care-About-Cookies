@@ -18441,6 +18441,7 @@ const blockUrls = {
           "aftonbladet.se",
           "sp-prod.net",
           "is.fi",
+          "heise.de"
         ],
       },
       { r: "/app.dsgvo.min.js" },
