@@ -408,7 +408,7 @@ const rules = {
     s: "#exposeMask,#TMobile_nl_WebPortals_UI_PageComponents_CookieSettingsOverlay_CookieSettingsOverlayController_OverlayRootDiv{display:none !important}",
   },
   "dropbox.com": {
-    s: "#top-notification-bar-container{display:none !important}body.top-notification-bar,.embedded-app.IndexRebrandPage.top-notification-bar{margin-top:0 !important}",
+    "s": "#consent-iframe{display:none !important}"
   },
   "legolas.pl": { s: "#kuki{display:none !important}" },
   "slke.dk": { c: 46 },
@@ -16869,6 +16869,7 @@ const rules = {
   "zdf.de": { j: 5 },
   "3sat.de": { j: 5 },
   "heise.de": { j: 5 },
+  "temu.com": { j: 5 },
 };
 
 const blockUrls = {
