@@ -18922,6 +18922,7 @@ const blockUrls = {
     "jimms.fi": ["jimmsconsent.min.js?"],
     "jobup.ch": ["chunk-cookie-consent-modal"],
     "condair.de": ["/Cookie/ccm19/public/index.php/app.js?"],
+    "eurostar.com": ["/utag.js"],
   },
 };
 
