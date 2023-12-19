@@ -16830,7 +16830,8 @@ const rules = {
   "financestrategists.com": { s: "#gdrp{display:none !important}"},
   "traveloptimizer.de": { c: 85 },
   "schwiizer-schueuemli.de": { s: ".cookieBanner_bannerWrapper__J3Ikd{display:none !important}"},
-  "1a-sehen.de": { s: "#cc-container{display:none !important}"}
+  "1a-sehen.de": { s: "#cc-container{display:none !important}"},
+  "cherryservers.com": { s: "div[x-data^=cookiesConsent]{display:none !important}"}
 };
 
 const blockUrls = {
