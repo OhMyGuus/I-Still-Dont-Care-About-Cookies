@@ -2244,15 +2244,7 @@ function getSelector(host) {
           )
         : false;
 
-    case "nike.com":
-      return _if_else(
-        ".pre-modal-view",
-        [".is-active #hf_cookie_label_done"],
-        [
-          '.modal.show .cookie-settings [data-qa="more-info"]',
-          '.modal.show .cookie-settings [data-qa="done"]',
-        ]
-      );
+    case 'nike.com': return _if('.cookie-dialog-base', 'FLAG:ALL-MATCHES', '[data-testid="cookie-modal-content"] [value="false"]', 'FLAG:SINGLE-MATCH', 'button[data-testid="confirm-choice-button"]');
     case "jobs.nike.com":
       return _chain(
         "#focus-lock-modal .cookies-popup #moreInformationButton",
