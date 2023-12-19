@@ -70,7 +70,7 @@ function _chain(...selectors) {
             flagOptional = true;
           } else if (flag == "REQUIRED") {
             flagOptional = false;
-          } else if (flag == "SINGLE-MATCH") {
+          } else if (flag == "ALL-MATCHES") {
             flagAllMatches = true;
           } else if (flag == "SINGLE-MATCH") {
             flagAllMatches = false;
