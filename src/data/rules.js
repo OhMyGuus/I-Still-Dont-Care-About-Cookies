@@ -12317,7 +12317,7 @@ const rules = {
     s: 'div[class*="PrivacyPolicyBanner"]{display:none !important}',
   },
   "aliexpress.com": {
-    s: '#gdrp-new-container,.ui-mask,.gdpr-dialog-class,#j-aliexpress-notice,#container-for-smart-banner ~ div:not([id]):not([class*=" "]):not([style]):nth-last-child(2),#voyager-gdpr,.site-notice-header{display:none !important}',
+    s: '#gdpr-new-container,.ui-mask,.gdpr-dialog-class,#j-aliexpress-notice,#container-for-smart-banner ~ div:not([id]):not([class*=" "]):not([style]):nth-last-child(2),#voyager-gdpr,.site-notice-header{display:none !important}',
   },
   "aliexpress.us": {
     s: '#gdpr-new-container,.ui-mask,.gdpr-dialog-class,#j-aliexpress-notice,#container-for-smart-banner ~ div:not([id]):not([class*=" "]):not([style]):nth-last-child(2),#voyager-gdpr,.site-notice-header{display:none !important}',
