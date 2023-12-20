@@ -16540,7 +16540,7 @@ const rules = {
   },
   "sfd.pl": { s: "#cc--main{display:none !important}", c: 85 },
   "papiernikbyempik.com": { c: 0 },
-  "empik.com": { c: 85 },
+  "empik.com": { c: 85, s: ".css-zemqkq-wrapper{display:none !important}" },
   "health-platform.online": {
     s: ".MuiSnackbar-root,.MuiBackdrop-root{display:none !important}",
   },
