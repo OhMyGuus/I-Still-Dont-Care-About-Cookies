@@ -16873,6 +16873,7 @@ const rules = {
   "all3dp.com": { j: 5 },
   "komoot.de": { j: 5 },
   "komoot.com": { j: 5 },
+  "amiunique.org": {  s: ".v-snack{display:none !important}" },
 };
 
 const blockUrls = {
