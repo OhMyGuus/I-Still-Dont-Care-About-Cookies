@@ -13522,7 +13522,7 @@ const rules = {
   "punpro.com": { s: 'div[class*="CookieSession"]{display:none !important}' },
   "siamsport.co.th": { s: "#popup-ss{display:none !important}" },
   "reddit.com": {
-    s: '#SHORTCUT_FOCUSABLE_DIV > div> div > section > [style*="Toaster"],shreddit-cookie-banner{display:none !important}',
+    s: '#SHORTCUT_FOCUSABLE_DIV > div> div > section > [style*="Toaster"],shreddit-async-loader[bundlename*="cookie_banner"]{display:none !important}'
   },
   "reddit.watch": {
     s: ".v-content__wrap > .container > .align-end{display:none !important}",
@@ -18090,6 +18090,7 @@ const blockUrls = {
       { r: "fastcmp.com/fast-cmp.js" },
       { r: "apps.ludostation.com/cmp/v2/cmp.js" },
       { r: "mrdev-cmp/assets/js/script.js" },
+      { r: "cmp.setupcmp.com" },
     ],
     Cookie: [
       { r: "gofundme.com/js/3.0/visitorCookie.js" },
