@@ -7210,6 +7210,8 @@ function getSelector(host) {
     case "zdf.de":
     case "3sat.de":
       return '#zdf-cmp-consent-sdk[style*="block"] #zdf-cmp-deny-btn';
+    case 'all3dp.com': return _if('.pur-root a[href*="cookie-policy"]', '.pur-root button:only-child');
+
   }
 
   if (host.parts.length > 2) {

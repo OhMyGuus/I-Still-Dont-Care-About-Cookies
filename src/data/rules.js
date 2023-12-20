@@ -16870,6 +16870,7 @@ const rules = {
   "3sat.de": { j: 5 },
   "heise.de": { j: 5 },
   "temu.com": { j: 6 },
+  "all3dp.com": { j: 5 },
 };
 
 const blockUrls = {
