@@ -17736,6 +17736,7 @@ const blockUrls = {
       { r: "sixfifty.com/consent.js" },
       { r: "/gdpr/consent.js" },
       { r: "choices.consentframework.com" },
+      { r: "cache.consentframework.com" },
       { r: "consentserve.mgr.consensu.org" },
       { r: "analytics-consent-manager.azureedge.net" },
       { r: "/mgm_consent.js" },
