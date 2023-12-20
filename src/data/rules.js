@@ -16871,6 +16871,8 @@ const rules = {
   "heise.de": { j: 5 },
   "temu.com": { j: 6 },
   "all3dp.com": { j: 5 },
+  "komoot.de": { j: 5 },
+  "komoot.com": { j: 5 },
 };
 
 const blockUrls = {

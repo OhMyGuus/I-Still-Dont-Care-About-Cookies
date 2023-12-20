@@ -380,8 +380,9 @@ function getSelector(host) {
         case "mediamarkt":
           if (host.full == "outlet.mediamarkt.nl")
             return ".force--consent.show--consent #s-sv-bn";
-
           return '#mms-consent-portal-container button[data-test*="save-settings"]';
+        case "komoot": return '.ReactModal__Content--after-open button[data-testid="gdpr-banner-decline"]';
+
       }
     }
 
