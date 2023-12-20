@@ -207,7 +207,7 @@ function getSelector(host) {
 
         case "teufelaudio":
         case "teufel":
-          return ".data-privacy-layer-visible .privacy-layer__button--selection";
+					return '.p-layer--open .p-layer__button--selection';
 
         case "fiveguys":
           e = _sl(".v-dialog--active");
