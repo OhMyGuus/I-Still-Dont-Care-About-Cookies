@@ -74,10 +74,12 @@
       '.fancybox-opened #cookie-consent button[data-accept="minimum"]',
     ],
 
-    ".fancybox-is-open": [
-      "#cookie-consent .cc-page-2 #cc-set-cookie",
-      '.consent-modal .btn[data-action="save-preferences"]',
-    ],
+	'.fancybox-is-open': [
+		'#cookie-consent .cc-page-2 #cc-set-cookie',
+		'.consent-modal .btn[data-action="save-preferences"]',
+		'#acceptCookiesId[style*="block"] .cookieDecline',
+		'#cookies-modal-id[style*="block"] .js-decline'
+	],
 
     ".pum-open": [
       '.pum-active[data-popmake*="slug\\":\\"cookie"] .pum-close',
