@@ -482,12 +482,6 @@ function doTheMagic(tabId, frameId, anotherTry) {
     return;
   }
 
-  executeScript({
-    tabId,
-    frameId,
-    file: "/data/js/bodyscrollfix.js",
-  });
-
   // Common CSS rules
   insertCSS(
     { tabId, frameId: frameId || 0, file: "/data/css/common.css" },

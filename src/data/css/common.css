@@ -19,6 +19,10 @@ body.privacypopup-open {
 body.show-cookie-policy-info {
   top: 0 !important;
 }
+body {
+  /*fixes e.g. scrolling on https://firmen.wko.at/codingyourlife-eu/nieder%C3%B6sterreich/?firmaid=f1504ba8-a92d-48ac-9ba1-fdcba892209d*/
+  overflow: unset !important;
+}
 body.needsCookieAcceptance,
 body.cookie-not-set,
 body.cookie_privacy_info,
