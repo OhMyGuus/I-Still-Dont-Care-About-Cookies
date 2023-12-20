@@ -12597,7 +12597,7 @@ const rules = {
     s: "#caseys-cookie-modal{display:none !important}",
     c: 14,
   },
-  "smallpdf.com": { j: "5" },
+  "smallpdf.com": { s: ".rplgd-0{display:none !important}" },
   "talouselama.fi": { j: "5" },
   "nettiauto.com": { j: "5" },
   "hartz.info": { s: "#my_privacy_policy{display:none !important}" },

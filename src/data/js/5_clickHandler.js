@@ -4200,11 +4200,6 @@ function getSelector(host) {
       return _ev(
         'div[./span[text()="Nós respeitamos sua privacidade"]]/following-sibling::button'
       );
-    case "smallpdf.com":
-      return _if(
-        'img[src*="1f36a"]',
-        '//div[./div/span/span/img[contains(@src, "1f36a")]]/following-sibling::div/button'
-      );
     case "metapop.com":
       return '.modal-cookie-consent ui-button[ng-click*="accept"]';
     case "telia.lt":
