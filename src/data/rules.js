@@ -4858,7 +4858,6 @@ const rules = {
   "spectrumled.pl": { c: 16 },
   "portal.dsv.com": { c: 16 },
   "boxtal.com": { c: 16 },
-  "bka.de": { c: 16 },
   "karmy.com.pl": { c: 16 },
   "prevac.eu": { c: 16 },
   "bmjv.de": { c: 16 },
