@@ -16873,6 +16873,7 @@ const rules = {
   "komoot.de": { j: 5 },
   "komoot.com": { j: 5 },
   "amiunique.org": {  s: ".v-snack{display:none !important}" },
+  "kbs-frb.be": { s: ".block-extendedcookiebanner{display:none !important}" }
 };
 
 const blockUrls = {
