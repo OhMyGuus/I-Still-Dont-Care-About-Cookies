@@ -16832,6 +16832,7 @@ const rules = {
   "schwiizer-schueuemli.de": { s: ".cookieBanner_bannerWrapper__J3Ikd{display:none !important}"},
   "1a-sehen.de": { s: "#cc-container{display:none !important}"},
   "cherryservers.com": { s: "div[x-data^=cookiesConsent]{display:none !important}"}
+  "reddit.com": { s: "#shreddit-async-loader[bundlename^=reddit_cookie_banner]{display:none !important}"}
 };
 
 const blockUrls = {
