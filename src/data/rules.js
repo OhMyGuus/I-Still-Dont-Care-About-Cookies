@@ -13527,6 +13527,9 @@ const rules = {
   "reddit.watch": {
     s: ".v-content__wrap > .container > .align-end{display:none !important}",
   },
+  "redd.it": {
+    s: '#SHORTCUT_FOCUSABLE_DIV > div> div > section > [style*="Toaster"],shreddit-async-loader[bundlename*="cookie_banner"]{display:none !important}'
+  },
   "pttavm.com": { c: 167 },
   "transa.ch": { c: 167 },
   "ftx.com": { j: "5" },
