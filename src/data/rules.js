@@ -17689,7 +17689,8 @@ const blockUrls = {
       { r: "am-static.com/cookie-banner/sdk.js" },
       { r: "/marked-cookie-consent-web/app.js" },
       { r: "cdn.cookielaw.org" },
-      { r: "/wp-content/plugins/borlabs-cookie/" }
+      { r: "/wp-content/plugins/borlabs-cookie/" },
+      { r: "/wp-content/plugins/gdpr-cookie-compliance/" },
     ],
     consent: [
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
@@ -17820,6 +17821,7 @@ const blockUrls = {
       { r: "7gra.us/consentbar" },
       { r: "/dgp-cookie-consent" },
       { r: "/assets/as24-cmp/consent-banner/" },
+      { r: "/wp-content/plugins/log-user-consents/" }
     ],
     gdpr: [
       { r: "/js/gdpr_footer.js" },
