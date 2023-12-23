@@ -2432,19 +2432,6 @@ function getSelector(host) {
     case "glaeserne-molkerei.de":
       return ".state-o-overlay--open .js-m-gpr-settings__custom-button";
 
-    case "xhamster.com":
-    case "xhamster2.com":
-    case "xhamster3.com":
-    case "xhamster.desi":
-    case "xhamster18.desi":
-    case "xhamster.xuxporner.com":
-      return _chain(
-        ".cookies-modal .customize",
-        ".cookies-modal #nonEssential",
-        ".cookies-modal #thirdParty",
-        ".cmd-button-accept-all"
-      );
-
     case "ideal.lv":
       return _if(
         ".overlayopen",

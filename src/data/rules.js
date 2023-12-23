@@ -13821,12 +13821,24 @@ const rules = {
   "tf1info.fr": { j: "5" },
   "flyr.com": { j: "5" },
   "rewardlink.io": { c: 69 },
-  "xhamster.com": { j: "5" },
-  "xhamster2.com": { j: "5" },
-  "xhamster3.com": { j: "5" },
-  "xhamster.desi": { j: "5" },
-  "xhamster18.desi": { j: "5" },
-  "xhamster.xuxporner.com": { j: "5" },
+  "xhamster.com": {
+    "s": 'div[class^="cookiesAnnounce-"],.wrapper-4488f,.container-724f7{display:none !important}'
+  },
+  "xhamster2.com": {
+    "s": 'div[class^="cookiesAnnounce-"],.wrapper-4488f,.container-724f7{display:none !important}'
+  },
+  "xhamster3.com": {
+    "s": 'div[class^="cookiesAnnounce-"],.wrapper-4488f,.container-724f7{display:none !important}'
+  },
+  "xhamster.desi": {
+    "s": 'div[class^="cookiesAnnounce-"],.wrapper-4488f,.container-724f7{display:none !important}'
+  },
+  "xhamster18.desi": {
+    "s": 'div[class^="cookiesAnnounce-"],.wrapper-4488f,.container-724f7{display:none !important}'
+  },
+  "xhamster.xuxporner.com": {
+    "s": 'div[class^="cookiesAnnounce-"],.wrapper-4488f,.container-724f7{display:none !important}'
+  },
   "bild.de": { j: "5" },
   "wetter.com": { j: "5" },
   "coolblue.nl": { j: "5" },
