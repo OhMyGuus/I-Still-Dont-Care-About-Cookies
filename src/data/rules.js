@@ -13822,22 +13822,22 @@ const rules = {
   "flyr.com": { j: "5" },
   "rewardlink.io": { c: 69 },
   "xhamster.com": {
-    "s": 'div[class^="cookiesAnnounce-"],.wrapper-4488f,.container-724f7{display:none !important}'
+    "s": 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}'
   },
   "xhamster2.com": {
-    "s": 'div[class^="cookiesAnnounce-"],.wrapper-4488f,.container-724f7{display:none !important}'
+    "s": 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}'
   },
   "xhamster3.com": {
-    "s": 'div[class^="cookiesAnnounce-"],.wrapper-4488f,.container-724f7{display:none !important}'
+    "s": 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}'
   },
   "xhamster.desi": {
-    "s": 'div[class^="cookiesAnnounce-"],.wrapper-4488f,.container-724f7{display:none !important}'
+    "s": 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}'
   },
   "xhamster18.desi": {
-    "s": 'div[class^="cookiesAnnounce-"],.wrapper-4488f,.container-724f7{display:none !important}'
+    "s": 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}'
   },
   "xhamster.xuxporner.com": {
-    "s": 'div[class^="cookiesAnnounce-"],.wrapper-4488f,.container-724f7{display:none !important}'
+    "s": 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}'
   },
   "bild.de": { j: "5" },
   "wetter.com": { j: "5" },
