@@ -12,11 +12,11 @@
       'div[id^="bnnr"][style*="float"] > div[style*="; order: 0"] + div[style*="; order: 2"]:not([style*="underline"])',
     ],
 
-	'#usercentrics-root': [
-		'div[data-testid="uc-buttons-container"] > button:first-child',
-		'div[data-testid="first-line-buttons"] > button:first-child'
-	],
-	
+    "#usercentrics-root": [
+      'div[data-testid="uc-buttons-container"] > button:first-child',
+      'div[data-testid="first-line-buttons"] > button:first-child',
+    ],
+
     "#onetrust-consent-sdk": [
       '.onetrust-pc-dark-filter:not([class*="hide"]):not([style*="none"]) ~ #onetrust-pc-sdk .ot-pc-refuse-all-handler',
       '#onetrust-banner-sdk:not([style*="none"]) .ot-pc-refuse-all-handler',
@@ -74,12 +74,12 @@
       '.fancybox-opened #cookie-consent button[data-accept="minimum"]',
     ],
 
-	'.fancybox-is-open': [
-		'#cookie-consent .cc-page-2 #cc-set-cookie',
-		'.consent-modal .btn[data-action="save-preferences"]',
-		'#acceptCookiesId[style*="block"] .cookieDecline',
-		'#cookies-modal-id[style*="block"] .js-decline'
-	],
+    ".fancybox-is-open": [
+      "#cookie-consent .cc-page-2 #cc-set-cookie",
+      '.consent-modal .btn[data-action="save-preferences"]',
+      '#acceptCookiesId[style*="block"] .cookieDecline',
+      '#cookies-modal-id[style*="block"] .js-decline',
+    ],
 
     ".pum-open": [
       '.pum-active[data-popmake*="slug\\":\\"cookie"] .pum-close',

@@ -207,7 +207,7 @@ function getSelector(host) {
 
         case "teufelaudio":
         case "teufel":
-					return '.p-layer--open .p-layer__button--selection';
+          return ".p-layer--open .p-layer__button--selection";
 
         case "fiveguys":
           e = _sl(".v-dialog--active");
@@ -381,8 +381,8 @@ function getSelector(host) {
           if (host.full == "outlet.mediamarkt.nl")
             return ".force--consent.show--consent #s-sv-bn";
           return '#mms-consent-portal-container button[data-test*="save-settings"]';
-        case "komoot": return '.ReactModal__Content--after-open button[data-testid="gdpr-banner-decline"]';
-
+        case "komoot":
+          return '.ReactModal__Content--after-open button[data-testid="gdpr-banner-decline"]';
       }
     }
 
@@ -7192,12 +7192,15 @@ function getSelector(host) {
     case "zdf.de":
     case "3sat.de":
       return '#zdf-cmp-consent-sdk[style*="block"] #zdf-cmp-deny-btn';
-    case 'all3dp.com': return _if('.pur-root a[href*="cookie-policy"]', '.pur-root button:only-child');
+    case "all3dp.com":
+      return _if(
+        '.pur-root a[href*="cookie-policy"]',
+        ".pur-root button:only-child"
+      );
 
-    case 'saturn.de':
-    case 'mediaworld.it': // same as mediamarkt 
-        return '#mms-consent-portal-container button[data-test*="save-settings"]';
-
+    case "saturn.de":
+    case "mediaworld.it": // same as mediamarkt
+      return '#mms-consent-portal-container button[data-test*="save-settings"]';
   }
 
   if (host.parts.length > 2) {
