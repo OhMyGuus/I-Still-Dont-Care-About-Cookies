@@ -408,7 +408,7 @@ const rules = {
     s: "#exposeMask,#TMobile_nl_WebPortals_UI_PageComponents_CookieSettingsOverlay_CookieSettingsOverlayController_OverlayRootDiv{display:none !important}",
   },
   "dropbox.com": {
-    "s": "#consent-iframe{display:none !important}"
+    s: "#consent-iframe{display:none !important}",
   },
   "legolas.pl": { s: "#kuki{display:none !important}" },
   "slke.dk": { c: 46 },
@@ -2126,7 +2126,7 @@ const rules = {
   "mediamarkt.at": { j: 5 },
   "mediamarkt.be": { j: 5 },
   "mediaworld.it": { j: 5 },
-  "saturn.de": { j: 5},
+  "saturn.de": { j: 5 },
   "gonnesa.ca.it": { s: "#fake-div{display:none !important}" },
   "motorsport.com": {
     s: ".ms-footer-fixbox,.ms-header-messages,#privacy_accept{display:none !important}",
@@ -13278,7 +13278,10 @@ const rules = {
   "getaround.com": { j: "5" },
   "wp.pl": { j: "5" },
   "classicube.net": { j: "5" },
-  "basic-tutorials.de": { c: 1, s: "#cookiescript_injected_wrapper{display:none !important}" },
+  "basic-tutorials.de": {
+    c: 1,
+    s: "#cookiescript_injected_wrapper{display:none !important}",
+  },
   "goodie.pl": {
     s: "#main-container > div > footer ~ div[class]{display:none !important}",
   },
@@ -13522,13 +13525,13 @@ const rules = {
   "punpro.com": { s: 'div[class*="CookieSession"]{display:none !important}' },
   "siamsport.co.th": { s: "#popup-ss{display:none !important}" },
   "reddit.com": {
-    s: '#SHORTCUT_FOCUSABLE_DIV > div> div > section > [style*="Toaster"],shreddit-async-loader[bundlename*="cookie_banner"]{display:none !important}'
+    s: '#SHORTCUT_FOCUSABLE_DIV > div> div > section > [style*="Toaster"],shreddit-async-loader[bundlename*="cookie_banner"]{display:none !important}',
   },
   "reddit.watch": {
     s: ".v-content__wrap > .container > .align-end{display:none !important}",
   },
   "redd.it": {
-    s: '#SHORTCUT_FOCUSABLE_DIV > div> div > section > [style*="Toaster"],shreddit-async-loader[bundlename*="cookie_banner"]{display:none !important}'
+    s: '#SHORTCUT_FOCUSABLE_DIV > div> div > section > [style*="Toaster"],shreddit-async-loader[bundlename*="cookie_banner"]{display:none !important}',
   },
   "pttavm.com": { c: 167 },
   "transa.ch": { c: 167 },
@@ -13822,22 +13825,22 @@ const rules = {
   "flyr.com": { j: "5" },
   "rewardlink.io": { c: 69 },
   "xhamster.com": {
-    "s": 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}'
+    s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
   },
   "xhamster2.com": {
-    "s": 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}'
+    s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
   },
   "xhamster3.com": {
-    "s": 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}'
+    s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
   },
   "xhamster.desi": {
-    "s": 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}'
+    s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
   },
   "xhamster18.desi": {
-    "s": 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}'
+    s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
   },
   "xhamster.xuxporner.com": {
-    "s": 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}'
+    s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
   },
   "bild.de": { j: "5" },
   "wetter.com": { j: "5" },
@@ -16854,7 +16857,7 @@ const rules = {
   "termshub.io": { s: "#TermsHubCookieConsent{display:none !important}" },
   "app.outwrite.com": {
     s: ".e1nzdohi4.css-1kyupjy-cookie-popup-Wrapper{display:none !important}",
-  }, 
+  },
   "logowanie.nn.pl": {
     s: ".Portal_module_portalDefault__af0b797a{display:none !important}",
   },
@@ -16894,9 +16897,9 @@ const rules = {
   "all3dp.com": { j: 5 },
   "komoot.de": { j: 5 },
   "komoot.com": { j: 5 },
-  "amiunique.org": {  s: ".v-snack{display:none !important}" },
+  "amiunique.org": { s: ".v-snack{display:none !important}" },
   "kbs-frb.be": { s: ".block-extendedcookiebanner{display:none !important}" },
-  "tickets.ua": { s: ".app-cookies{display:none !important}" }
+  "tickets.ua": { s: ".app-cookies{display:none !important}" },
 };
 
 const blockUrls = {
@@ -17836,7 +17839,7 @@ const blockUrls = {
       { r: "7gra.us/consentbar" },
       { r: "/dgp-cookie-consent" },
       { r: "/assets/as24-cmp/consent-banner/" },
-      { r: "/wp-content/plugins/log-user-consents/" }
+      { r: "/wp-content/plugins/log-user-consents/" },
     ],
     gdpr: [
       { r: "/js/gdpr_footer.js" },
@@ -18048,7 +18051,7 @@ const blockUrls = {
           "maennersache.de",
           "t3n.de",
           "is.fi",
-          "heise.de"
+          "heise.de",
         ],
       },
       { r: "privacy-policy.u-lab.nl" },
@@ -18477,7 +18480,7 @@ const blockUrls = {
           "aftonbladet.se",
           "sp-prod.net",
           "is.fi",
-          "heise.de"
+          "heise.de",
         ],
       },
       { r: "/app.dsgvo.min.js" },
