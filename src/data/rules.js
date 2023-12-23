@@ -13278,7 +13278,7 @@ const rules = {
   "getaround.com": { j: "5" },
   "wp.pl": { j: "5" },
   "classicube.net": { j: "5" },
-  "basic-tutorials.de": { c: 1 },
+  "basic-tutorials.de": { c: 1, s: "#cookiescript_injected_wrapper{display:none !important}" },
   "goodie.pl": {
     s: "#main-container > div > footer ~ div[class]{display:none !important}",
   },
@@ -16897,7 +16897,6 @@ const rules = {
   "amiunique.org": {  s: ".v-snack{display:none !important}" },
   "kbs-frb.be": { s: ".block-extendedcookiebanner{display:none !important}" },
   "tickets.ua": { s: ".app-cookies{display:none !important}" }
-
 };
 
 const blockUrls = {
