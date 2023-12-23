@@ -17689,6 +17689,7 @@ const blockUrls = {
       { r: "am-static.com/cookie-banner/sdk.js" },
       { r: "/marked-cookie-consent-web/app.js" },
       { r: "cdn.cookielaw.org" },
+      { r: "/wp-content/plugins/borlabs-cookie/" }
     ],
     consent: [
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
