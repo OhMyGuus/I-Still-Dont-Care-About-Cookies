@@ -4604,7 +4604,6 @@ const rules = {
   "morningstar.fr": {
     s: ".audienceTypeConfirmPopupContentCss,#dialog-mask{display:none !important}",
   },
-  "wko.at": { j: "5" },
   "siemens.co.uk": { s: "#c-info,.cm-banner{display:none !important}" },
   "medischcontact.nl": { s: ".cc-popup{display:none !important}" },
   "fimfiction.net": { j: "5" },
@@ -16878,6 +16877,12 @@ const rules = {
   "amiunique.org": {  s: ".v-snack{display:none !important}" },
   "kbs-frb.be": { s: ".block-extendedcookiebanner{display:none !important}" },
   "tickets.ua": { s: ".app-cookies{display:none !important}" },
+  "royalqueenseeds.cat": { s: ".cookie-popup__wrapper{display:none !important}" },
+  "royalqueenseeds.cat": { s: ".cookie-popup__wrapper{display:none !important}" },
+  "royalqueenseeds.cat": { s: ".cookie-popup__wrapper{display:none !important}" },
+  "royalqueenseeds.cat": { s: ".cookie-popup__wrapper{display:none !important}" },
+  "royalqueenseeds.cat": { s: ".cookie-popup__wrapper{display:none !important}" },
+
 };
 
 const blockUrls = {
@@ -17164,7 +17169,6 @@ const blockUrls = {
       { r: "gratiz.nl/cookie-script.js" },
       { r: "/cookie-service/js/client.js" },
       { r: "/js/euc_cookie.js" },
-      { r: "wko.at/css-js/scripts/cookie.js" },
       { r: "/web/components/cookie-consent/" },
       {
         r: "/jquery.cookiesdirective.js",
@@ -17355,7 +17359,6 @@ const blockUrls = {
       },
       { r: "/cookies-info.js" },
       { r: "cookies.algo.at" },
-      { r: "wko.at/gcm/cookie.js" },
       { r: "cookiehub.net/c" },
       { r: "/widgets/eu-cookie-law/" },
       { r: "app.cookieyes.com/client_data" },
@@ -18939,6 +18942,7 @@ const blockUrls = {
     "jobup.ch": ["chunk-cookie-consent-modal"],
     "condair.de": ["/Cookie/ccm19/public/index.php/app.js?"],
     "eurostar.com": ["/utag.js"],
+    "wko.at": ["/static/ct/consent.js"],
   },
 };
 

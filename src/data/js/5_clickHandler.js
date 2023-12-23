@@ -693,10 +693,6 @@ function getSelector(host) {
     case "gunsandammo.com":
       return _sl(".lity-opened #consent .lity-close");
 
-    case "wko.at":
-    case "gruenderservice.at":
-      return _sl("#cookiehint .cookieagree");
-
     case "cideon.de":
     case "eplan.blog":
       return _sl(
