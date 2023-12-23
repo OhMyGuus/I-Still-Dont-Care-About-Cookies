@@ -7348,7 +7348,6 @@ const rules = {
     s: ".consent-popup--bg,.consent-popup{display:none !important}",
   },
   "amw.com.pl": { c: 0 },
-  "cherryservers.com": { s: ".cherry-cookies{display:none !important}" },
   "ggmgastro.com": { s: "ggm-cookie-hint{display:none !important}" },
   "rigb.org": { c: 2 },
   "horesta.dk": { c: 0 },
@@ -16812,13 +16811,13 @@ const rules = {
   "mjcb.io": { s: ".active.gdpr-container{display:none !important}" },
   "baden-tv.com": { s: ".--active.cmms_cookie_consent_manager{display:none !important} body{overflow: unset !important;}" },
   "termshub.io": { s: "#TermsHubCookieConsent{display:none !important}" },
-  "app.outwrite.com": { s: ".e1nzdohi4.css-1kyupjy-cookie-popup-Wrapper{display:none !important}" }, //will be changed later
+  "app.outwrite.com": { s: ".e1nzdohi4.css-1kyupjy-cookie-popup-Wrapper{display:none !important}" },
   "logowanie.nn.pl": { s: ".Portal_module_portalDefault__af0b797a{display:none !important}" },
   "freizeitbad-greifswald.de": { s: ".fzbCookie{display:none !important}" },
   "linuxtechmore.com": { s: "#supermag-cookie-ify{display:none !important}" },
   "it.cmlink.com": { s: ".CookiesWrap{display:none !important}" },
   "dartshopper.de": { s: "#cookie{display:none !important}" },
-  "ubook.at": { s: "#supi{display:none !important}" },
+  "ubook.at": { s: "#supi{display:none !important}", c: 85 },
   "sw-lindau.de": { s: "#gdpr-cookie-message-container{display:none !important}" },
   "auf1.info": { s: ".overflow-scroll{display:none !important}" },
   "auf1.tv": { s: ".overflow-scroll{display:none !important}" },
@@ -16826,16 +16825,14 @@ const rules = {
   "store.duolingo.com": { s: ".pd-cookie-banner-window{display:none !important}" },
   "revista.seg-social.es": { s: "#p_p_id_com_ss_cookies_layout_set_portlet_CookiesLayoutSetPortlet_{display:none !important}" },
   "thealliance.ai": { s: ".CookieAcceptance_cookieAcceptance__OPnox{display:none !important}" },
-  "mytonafntastic.com": { s: "#portal-root{display:none !important}"},
-  "mytonafntastic.com": { s: ".Cookie_cookie-btn__EiMrW{display:none !important}"},
+  "mytonafntastic.com": { s: ".Cookie_cookie-btn__EiMrW,#portal-root{display:none !important}"},
   "financestrategists.com": { s: "#gdrp{display:none !important}"},
   "traveloptimizer.de": { c: 85 },
   "schwiizer-schueuemli.de": { s: ".cookieBanner_bannerWrapper__J3Ikd{display:none !important}"},
   "1a-sehen.de": { s: "#cc-container{display:none !important}"},
   "cherryservers.com": { s: "div[x-data^=cookiesConsent]{display:none !important}"},
-  "reddit.com": { s: "#shreddit-async-loader[bundlename^=reddit_cookie_banner]{display:none !important}"},
   "saturn.de": { c: 169 },
-  "wong.pe": { s: ".swal2-shown.swal2-fade.swal2-bottom-left.swal2-container{display:none !important}"}
+  "wong.pe": { s: ".swal2-shown.swal2-fade.swal2-bottom-left.swal2-container{display:none !important}", c: 85}
 };
 
 const blockUrls = {
