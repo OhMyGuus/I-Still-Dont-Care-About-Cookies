@@ -16929,6 +16929,7 @@ const blockUrls = {
     { r: "notice.sp-prod.net" },
     { r: "htmedia.in/analytics-js" },
     { r: "campact.containers.piwik.pro" },
+    { r: "containers.piwik.pro" },
     { r: "wpcc.io/lib" },
     { r: "tag.goadopt.io" },
     { r: "/typo3conf/ext/supi/" },
