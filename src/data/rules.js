@@ -16878,8 +16878,8 @@ const rules = {
   "komoot.com": { j: 5 },
   "amiunique.org": {  s: ".v-snack{display:none !important}" },
   "kbs-frb.be": { s: ".block-extendedcookiebanner{display:none !important}" },
-  "tickets.ua": { s: ".app-cookies{display:none !important}" },
-  "royalqueenseeds.cat": { s: ".cookie-popup__wrapper{display:none !important}" },
+  "tickets.ua": { s: ".app-cookies{display:none !important}" }
+
 };
 
 const blockUrls = {
