@@ -190,6 +190,7 @@ const commons = {
   166: "#cookiesModal{display:none !important}",
   167: ".cookie-box{display:none !important}",
   168: "main ~ div{display:none !important}",
+  169: "body{touch-action:unset !important; overflow: unset !important; overscroll-behavior: unset !important;}"
 };
 
 const rules = {
@@ -16831,8 +16832,9 @@ const rules = {
   "traveloptimizer.de": { c: 85 },
   "schwiizer-schueuemli.de": { s: ".cookieBanner_bannerWrapper__J3Ikd{display:none !important}"},
   "1a-sehen.de": { s: "#cc-container{display:none !important}"},
-  "cherryservers.com": { s: "div[x-data^=cookiesConsent]{display:none !important}"}
-  "reddit.com": { s: "#shreddit-async-loader[bundlename^=reddit_cookie_banner]{display:none !important}"}
+  "cherryservers.com": { s: "div[x-data^=cookiesConsent]{display:none !important}"},
+  "reddit.com": { s: "#shreddit-async-loader[bundlename^=reddit_cookie_banner]{display:none !important}"},
+  "saturn.de": { c: 169 }
 };
 
 const blockUrls = {
