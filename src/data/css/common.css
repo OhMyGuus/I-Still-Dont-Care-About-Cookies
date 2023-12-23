@@ -13640,7 +13640,6 @@ body > #bg_cookie,
 .c-gc-cookiebar,
 #swcookies-wrapper,
 .cookiesBackground,
-#mms-consent-portal-container,
 #cmplz-cookiebanner-container,
 #CookieConsentDialog,
 .js-modal-first-cookie,
@@ -13936,6 +13935,7 @@ html.show--consent #cc-main
   overflow: hidden !important;
 }
 
+#as24-cmp-popup,
 #CookieManClient,
 #apex_cookie_0,
 #box_lgpd_cookie,
@@ -14039,7 +14039,8 @@ div.modal-consents1 .side-modal-mask,
 .h-cookie-consent,
 .exide-gtm-scripts-modal-wrapper,
 .js-privacy-policy-alert.js-notice,
-.cookiebanner_background
+.cookiebanner_background,
+.cookie-popup__wrapper
 
 /* 14113 */ {
   display: none !important;
