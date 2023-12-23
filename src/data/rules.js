@@ -15145,7 +15145,10 @@ const rules = {
   "agazeta.com.br": { s: ".notification-footer{display:none !important}" },
   "pisoscentro.com": { c: 0 },
   "hintertuxergletscher.at": { j: "6" },
+  "pornorama.com": { j: "5" },
+  "xvideos.es": { j: "5" },
   "xvideos.com": { j: "5" },
+  "xnxx.com": { j: "5" },
   "worktop-express.de": { c: 85 },
   "palmangels.com": { j: "3" },
   "innerengineering.com": {

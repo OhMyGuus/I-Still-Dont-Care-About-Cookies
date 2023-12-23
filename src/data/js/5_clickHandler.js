@@ -2661,6 +2661,9 @@ function getSelector(host) {
         '.ReactModal__Overlay--after-open a[href*="Datenschutzerklaerung"]',
         ".ReactModal__Overlay--after-open footer > div:last-child button:first-child"
       );
+    case "xnxx.com":
+    case "pornorama.com":
+    case "xvideos.es":
     case "xvideos.com":
     case "anyxvideos.com":
       return ".disclaimer-opened #disclaimer-save-preferences";
