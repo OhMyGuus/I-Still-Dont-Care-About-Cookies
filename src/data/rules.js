@@ -16834,7 +16834,8 @@ const rules = {
   "1a-sehen.de": { s: "#cc-container{display:none !important}"},
   "cherryservers.com": { s: "div[x-data^=cookiesConsent]{display:none !important}"},
   "reddit.com": { s: "#shreddit-async-loader[bundlename^=reddit_cookie_banner]{display:none !important}"},
-  "saturn.de": { c: 169 }
+  "saturn.de": { c: 169 },
+  "wong.pe": { s: ".swal2-shown.swal2-fade.swal2-bottom-left.swal2-container{display:none !important}"}
 };
 
 const blockUrls = {
@@ -18007,6 +18008,7 @@ const blockUrls = {
       { r: "sdk.privacy-center.org" },
     ],
     cmp: [
+      { r: "cmp.lemonde.fr"},
       { r: "cmp.quantcast.com" },
       { r: "cmp.nextday.media/cmp", e: ["vi.nl", "omroepwest.nl"] },
       { r: "cmp.dreamlab.pl" },
