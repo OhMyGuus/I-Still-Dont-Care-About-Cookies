@@ -12,6 +12,10 @@
     "gecko": {
       "id": "idcac-pub@guus.ninja",
       "strict_min_version": "42.0"
+    },
+    "gecko_android": {
+      "id": "idcac-pub@guus.ninja",
+      "strict_min_version": "78.0"
     }
   },
   "author": "OhMyGuus and Community (originally Daniel Kladnik)",
