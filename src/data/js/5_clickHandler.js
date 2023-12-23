@@ -7204,6 +7204,10 @@ function getSelector(host) {
       return '#zdf-cmp-consent-sdk[style*="block"] #zdf-cmp-deny-btn';
     case 'all3dp.com': return _if('.pur-root a[href*="cookie-policy"]', '.pur-root button:only-child');
 
+    case 'saturn.de':
+    case 'mediaworld.it': // same as mediamarkt 
+        return '#mms-consent-portal-container button[data-test*="save-settings"]';
+
   }
 
   if (host.parts.length > 2) {

@@ -2120,11 +2120,13 @@ const rules = {
   "toffeeweb.com": { s: "#fixedFooter{display:none !important}" },
   "bgfermer.bg": { c: 130 },
   "watchfinder.co.uk": { s: "#cookie_{display:none !important}" },
-  "mediamarkt.nl": { j: "5" },
-  "mediamarkt.de": { j: "5" },
-  "mediamarkt.it": { j: "5" },
-  "mediamarkt.at": { j: "5" },
-  "mediamarkt.be": { j: "5" },
+  "mediamarkt.nl": { j: 5 },
+  "mediamarkt.de": { j: 5 },
+  "mediamarkt.it": { j: 5 },
+  "mediamarkt.at": { j: 5 },
+  "mediamarkt.be": { j: 5 },
+  "mediaworld.it": { j: 5 },
+  "saturn.de": { j: 5},
   "gonnesa.ca.it": { s: "#fake-div{display:none !important}" },
   "motorsport.com": {
     s: ".ms-footer-fixbox,.ms-header-messages,#privacy_accept{display:none !important}",
@@ -16878,11 +16880,6 @@ const rules = {
   "kbs-frb.be": { s: ".block-extendedcookiebanner{display:none !important}" },
   "tickets.ua": { s: ".app-cookies{display:none !important}" },
   "royalqueenseeds.cat": { s: ".cookie-popup__wrapper{display:none !important}" },
-  "royalqueenseeds.cat": { s: ".cookie-popup__wrapper{display:none !important}" },
-  "royalqueenseeds.cat": { s: ".cookie-popup__wrapper{display:none !important}" },
-  "royalqueenseeds.cat": { s: ".cookie-popup__wrapper{display:none !important}" },
-  "royalqueenseeds.cat": { s: ".cookie-popup__wrapper{display:none !important}" },
-
 };
 
 const blockUrls = {
