@@ -16897,7 +16897,6 @@ const rules = {
   "amiunique.org": {  s: ".v-snack{display:none !important}" },
   "kbs-frb.be": { s: ".block-extendedcookiebanner{display:none !important}" },
   "tickets.ua": { s: ".app-cookies{display:none !important}" }
-
 };
 
 const blockUrls = {
