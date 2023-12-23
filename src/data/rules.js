@@ -12249,7 +12249,7 @@ const rules = {
   },
   "libelium.com": { j: "5" },
   "euroimmun.de": { j: "5" },
-  "action.com": { s: "body > .section:first-of-type{display:none !important}" },
+  "action.com": { s: ".cookieModal{display:none !important}" },
   "myinvestor.es": { c: 0 },
   "labuenavidalg.es": { s: "#CookiesLayer{display:none !important}" },
   "otpbank.ro": { j: "5" },
