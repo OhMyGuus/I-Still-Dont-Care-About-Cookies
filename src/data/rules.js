@@ -16931,6 +16931,7 @@ const rules = {
   "douglas.nl": { s: ".modal-overlay__root.modal-overlay__general.uc-banner-modal.modal-overlay__transition-appear-done.modal-overlay__transition-enter-done{display:none!important} .modal-overlay__backdrop-enter-done.modal-overlay__backdrop-appear-done.modal-overlay__backdrop{display:none!important}", c: 85 },
   "biggreenegg.co.uk": { s: ".TheBiscuitBanner{display: none !important}", c: 85 },
   "makro.nl": { s: ".consent-disclaimer-intrusive.intrusive.consent-disclaimer.cms.component-position.generic-component.component{display: none !important}", c: 85 },
+  "vinos.ch": { s: ".consent-cookie-box-light-box{display:none !important} .page-overlay{display:none!important}", c: 85 },
 };
 
 const blockUrls = {
