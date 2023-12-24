@@ -16664,6 +16664,7 @@ const rules = {
   },
   "educado.pl": { c: 20 },
   "refurbed.de": { c: 85 },
+  "refurbed.at": { c: 85 },
   "theadelphileeds.co.uk": { c: 85 },
   "data-driven-forms.org": { j: 3 },
   "electropapa.com": { s: "#ccAcivateModal{display:none !important}", c: 14 },
@@ -16900,6 +16901,16 @@ const rules = {
   "amiunique.org": { s: ".v-snack{display:none !important}" },
   "kbs-frb.be": { s: ".block-extendedcookiebanner{display:none !important}" },
   "tickets.ua": { s: ".app-cookies{display:none !important}" },
+  "zentalk.asus.com": { c: 85 },
+  "wir-machen-druck.de": { s: ".overflow-hidden{overflow: unset  !important}" },
+  "sysdream.com": { c: 14 },
+  "dlnews.com": { s: "#id-ts52sz{display:none !important}" },
+  "technikum-wien.at": { c: 85 },
+  "kwik-fit.com": { c: 14 },
+  "iledefrance-mobilites.fr": { j: 5 },
+  "handbuch-experten.de": { c: 85 },
+  "malmoopera.se": { c: 85 },
+  "angelplatz.de": { c: 85 },
 };
 
 const blockUrls = {

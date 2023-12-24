@@ -7197,7 +7197,8 @@ function getSelector(host) {
         '.pur-root a[href*="cookie-policy"]',
         ".pur-root button:only-child"
       );
-
+    case "iledefrance-mobilites.fr":
+      return '.cookies[style*="block"] #banner-reject-cookies-form button';
     case "saturn.de":
     case "mediaworld.it": // same as mediamarkt
       return '#mms-consent-portal-container button[data-test*="save-settings"]';
