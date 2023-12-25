@@ -22,10 +22,10 @@ jobs:
         run: npm install
 
       - name: Generate block rules
-        run: node .github\workflows\generateBlockRules.js > src\rules.json
+        run: node ./.github/workflows/generateBlockRules.js > src/rules.json
 
       - name: Run Prettier
-        run: npx prettier --write .\src\rules.json
+        run: npx prettier --write ./src/rules.json
 
       - name: Check for changes
         id: git-diff
