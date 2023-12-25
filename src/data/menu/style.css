@@ -45,11 +45,12 @@ h3 {
   margin-top: 0px;
 }
 
-#report_issue_type, label[id*='issue_description'] {
+#report_issue_type,
+label[id*="issue_description"] {
   margin-bottom: 5px;
 }
 
-label[id*='issue_description'] {
+label[id*="issue_description"] {
   color: rgb(43, 43, 43);
   font-style: italic;
   display: none;

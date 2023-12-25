@@ -59,18 +59,24 @@ document.getElementById("report_anon").addEventListener("click", function (e) {
 });
 
 issueTypeSelect.addEventListener("change", () => {
-  let issueTypeValue = issueTypeSelect.options[issueTypeSelect.selectedIndex].value;
+  let issueTypeValue =
+    issueTypeSelect.options[issueTypeSelect.selectedIndex].value;
 
-  document.querySelectorAll("label[id*='issue_description']").forEach((label) => {
-    label.style.display = "none";
-  });
+  document
+    .querySelectorAll("label[id*='issue_description']")
+    .forEach((label) => {
+      label.style.display = "none";
+    });
 
-  reportNotesTextarea.style.display = (issueTypeValue == "general") ? "block" : "none";
-  document.getElementById(`${issueTypeValue}_issue_description`).style.display = "block";
+  reportNotesTextarea.style.display =
+    issueTypeValue == "general" ? "block" : "none";
+  document.getElementById(`${issueTypeValue}_issue_description`).style.display =
+    "block";
 });
 
 document.getElementById("report_anon_send").addEventListener("click", () => {
-  let issueTypeValue = issueTypeSelect.options[issueTypeSelect.selectedIndex].value;
+  let issueTypeValue =
+    issueTypeSelect.options[issueTypeSelect.selectedIndex].value;
 
   switchMenu("menu_loading");
   chrome.runtime.sendMessage(
@@ -79,7 +85,7 @@ document.getElementById("report_anon_send").addEventListener("click", () => {
       tabId: currentTab.id,
       anon: true,
       issueType: issueTypeValue,
-      notes: (issueTypeValue == "general") ? reportNotesTextarea.value : null,
+      notes: issueTypeValue == "general" ? reportNotesTextarea.value : null,
     },
     (message) => {
       if (message.error) {
