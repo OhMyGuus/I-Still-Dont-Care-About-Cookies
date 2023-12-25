@@ -46,9 +46,7 @@ body.cli-barmodal-open {
   overflow: visible !important;
 }
 
-iframe[title^="SP Consent Message"] {
-  display: none !important;
-}
+
 
 html.sp-message-open,
 html.sp-message-open body,
