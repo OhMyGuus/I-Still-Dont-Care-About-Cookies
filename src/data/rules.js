@@ -18132,7 +18132,7 @@ const blockUrls = {
           "t3n.de",
           "is.fi",
           "heise.de",
-          "nu.nl"
+          "nu.nl",
         ],
       },
       { r: "privacy-policy.u-lab.nl" },
