@@ -1,0 +1,44 @@
+name: Generate manifest V3 block rules
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-block-rules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate block rules
+        run: node .github\workflows\generateBlockRules.js > src\rules.json
+
+      - name: Run Prettier
+        run: npx prettier --write .\src\rules.json
+
+      - name: Check for changes
+        id: git-diff
+        run: echo ::set-output name=files-changed::$(git diff --name-only)
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Update block rules for Manifest V3
+          branch: update-block-rules
+          title: Update manifest V3 block rules
+          body: |
+            This pull request updates the block rules based on the latest changes.
+            Files changed:
+            ${{ steps.git-diff.outputs.files-changed }}
