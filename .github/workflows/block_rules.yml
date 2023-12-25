@@ -3,7 +3,7 @@ name: Generate manifest V3 block rules
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   generate-block-rules:
