@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
@@ -27,12 +27,8 @@ jobs:
       - name: Run Prettier
         run: npx prettier --write ./src/rules.json
 
-      - name: Check for changes
-        id: git-diff
-        run: echo ::set-output name=files-changed::$(git diff --name-only)
-
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Update block rules for Manifest V3
@@ -41,6 +37,4 @@ jobs:
           add-paths: |
             src/rules.json
           body: |
-            This pull request updates the block rules based on the latest changes.
-            Files changed:
-            ${{ steps.git-diff.outputs.files-changed }}
+            This pull request updates the manifest V3 block rules.
