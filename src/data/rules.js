@@ -190,7 +190,7 @@ const commons = {
   166: "#cookiesModal{display:none !important}",
   167: ".cookie-box{display:none !important}",
   168: "main ~ div{display:none !important}",
-  169: "body{touch-action:unset !important; overflow: unset !important; overscroll-behavior: unset !important;}"
+  169: "body{touch-action:unset !important; overflow: unset !important; overscroll-behavior: unset !important;}",
 };
 
 const rules = {
@@ -16872,17 +16872,32 @@ const rules = {
   },
   "auf1.info": { s: ".overflow-scroll{display:none !important}" },
   "auf1.tv": { s: ".overflow-scroll{display:none !important}" },
-  "store.duolingo.com": { s: ".pd-cookie-banner-window{display:none !important}" },
-  "revista.seg-social.es": { s: "#p_p_id_com_ss_cookies_layout_set_portlet_CookiesLayoutSetPortlet_{display:none !important}" },
-  "thealliance.ai": { s: ".CookieAcceptance_cookieAcceptance__OPnox{display:none !important}" },
-  "mytonafntastic.com": { s: ".Cookie_cookie-btn__EiMrW,#portal-root{display:none !important}"},
-  "financestrategists.com": { s: "#gdrp{display:none !important}"},
+  "store.duolingo.com": {
+    s: ".pd-cookie-banner-window{display:none !important}",
+  },
+  "revista.seg-social.es": {
+    s: "#p_p_id_com_ss_cookies_layout_set_portlet_CookiesLayoutSetPortlet_{display:none !important}",
+  },
+  "thealliance.ai": {
+    s: ".CookieAcceptance_cookieAcceptance__OPnox{display:none !important}",
+  },
+  "mytonafntastic.com": {
+    s: ".Cookie_cookie-btn__EiMrW,#portal-root{display:none !important}",
+  },
+  "financestrategists.com": { s: "#gdrp{display:none !important}" },
   "traveloptimizer.de": { c: 85 },
-  "schwiizer-schueuemli.de": { s: ".cookieBanner_bannerWrapper__J3Ikd{display:none !important}"},
-  "1a-sehen.de": { s: "#cc-container{display:none !important}"},
-  "cherryservers.com": { s: "div[x-data^=cookiesConsent]{display:none !important}"},
+  "schwiizer-schueuemli.de": {
+    s: ".cookieBanner_bannerWrapper__J3Ikd{display:none !important}",
+  },
+  "1a-sehen.de": { s: "#cc-container{display:none !important}" },
+  "cherryservers.com": {
+    s: "div[x-data^=cookiesConsent]{display:none !important}",
+  },
   "saturn.de": { c: 169 },
-  "wong.pe": { s: ".swal2-shown.swal2-fade.swal2-bottom-left.swal2-container{display:none !important}", c: 85}
+  "wong.pe": {
+    s: ".swal2-shown.swal2-fade.swal2-bottom-left.swal2-container{display:none !important}",
+    c: 85,
+  },
   "iconnectfx.com": {
     s: ".cdk-overlay-container{display:none !important} html{overflow:unset !important} div[id*='AllowCookiePopup']{display:none !important}",
   },
@@ -18140,7 +18155,7 @@ const blockUrls = {
       { r: "sdk.privacy-center.org" },
     ],
     cmp: [
-      { r: "cmp.lemonde.fr"},
+      { r: "cmp.lemonde.fr" },
       { r: "cmp.quantcast.com" },
       { r: "cmp.nextday.media/cmp", e: ["vi.nl", "omroepwest.nl"] },
       { r: "cmp.dreamlab.pl" },
@@ -19030,7 +19045,7 @@ const blockUrls = {
     "condair.de": ["/Cookie/ccm19/public/index.php/app.js?"],
     "eurostar.com": ["/utag.js"],
     "wko.at": ["/static/ct/consent.js"],
-    "oem.no": ["/ui/common/scripts/cookies/cookieModalComponent-797ec8a07a.js"]
+    "oem.no": ["/ui/common/scripts/cookies/cookieModalComponent-797ec8a07a.js"],
   },
 };
 
