@@ -4,7 +4,7 @@ const report = document.getElementById("report");
 const options = document.getElementById("options");
 
 const issueTypeSelect = document.getElementById("report_issue_type");
-const reportNotesTextarea = document.getElementById('report-notes');
+const reportNotesTextarea = document.getElementById("report-notes");
 
 let currentTab = false;
 

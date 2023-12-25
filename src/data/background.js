@@ -387,8 +387,8 @@ function reportWebsite(info, tab, anon, issueType, notes, callback) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        notes,
         issueType,
+        notes,
         url: tab.url,
         browser: getBrowserAndVersion(),
         extensionVersion: chrome.runtime.getManifest().version,
