@@ -26,7 +26,17 @@
           <span data-translate="reportAnonTitle"></span>
           <span id="hostname">example.com</span>
         </h3>
-        <label data-translate="reportAnonNotes"></label>
+        <select id="report_issue_type">
+          <option value="general" data-translate="generalIssueOption">
+          </option>
+          <option value="scrollbar" data-translate="scrollbarIssueOption">
+          </option>
+          <option value="modal" data-translate="modalIssueOption">
+          </option>
+        </select>
+        <label id="scrollbar_issue_description" data-translate="scrollbarIssueDescription"></label>
+        <label id="modal_issue_description" data-translate="modalIssueDescription"></label>
+        <label id="general_issue_description" data-translate="reportAnonNotes"></label>
         <textarea id="report-notes"></textarea>
         <button id="report_anon_send" data-translate="reportAnonSend"></button>
         <button
