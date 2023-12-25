@@ -190,6 +190,7 @@ const commons = {
   166: "#cookiesModal{display:none !important}",
   167: ".cookie-box{display:none !important}",
   168: "main ~ div{display:none !important}",
+  169: "body{touch-action:unset !important; overflow: unset !important; overscroll-behavior: unset !important;}",
 };
 
 const rules = {
@@ -7350,7 +7351,6 @@ const rules = {
     s: ".consent-popup--bg,.consent-popup{display:none !important}",
   },
   "amw.com.pl": { c: 0 },
-  "cherryservers.com": { s: ".cherry-cookies{display:none !important}" },
   "ggmgastro.com": { s: "ggm-cookie-hint{display:none !important}" },
   "rigb.org": { c: 2 },
   "horesta.dk": { c: 0 },
@@ -16866,17 +16866,40 @@ const rules = {
   "linuxtechmore.com": { s: "#supermag-cookie-ify{display:none !important}" },
   "it.cmlink.com": { s: ".CookiesWrap{display:none !important}" },
   "dartshopper.de": { s: "#cookie{display:none !important}" },
-  "ubook.at": { s: "#supi{display:none !important}" },
+  "ubook.at": { s: "#supi{display:none !important}", c: 85 },
   "sw-lindau.de": {
     s: "#gdpr-cookie-message-container{display:none !important}",
   },
   "auf1.info": { s: ".overflow-scroll{display:none !important}" },
   "auf1.tv": { s: ".overflow-scroll{display:none !important}" },
-  "iconnectfx.com": {
-    s: ".cdk-overlay-container{display:none !important} html{overflow:unset !important} div[id*='AllowCookiePopup']{display:none !important}",
-  },
   "store.duolingo.com": {
     s: ".pd-cookie-banner-window{display:none !important}",
+  },
+  "revista.seg-social.es": {
+    s: "#p_p_id_com_ss_cookies_layout_set_portlet_CookiesLayoutSetPortlet_{display:none !important}",
+  },
+  "thealliance.ai": {
+    s: ".CookieAcceptance_cookieAcceptance__OPnox{display:none !important}",
+  },
+  "mytonafntastic.com": {
+    s: ".Cookie_cookie-btn__EiMrW,#portal-root{display:none !important}",
+  },
+  "financestrategists.com": { s: "#gdrp{display:none !important}" },
+  "traveloptimizer.de": { c: 85 },
+  "schwiizer-schueuemli.de": {
+    s: ".cookieBanner_bannerWrapper__J3Ikd{display:none !important}",
+  },
+  "1a-sehen.de": { s: "#cc-container{display:none !important}" },
+  "cherryservers.com": {
+    s: "div[x-data^=cookiesConsent]{display:none !important}",
+  },
+  "saturn.de": { c: 169 },
+  "wong.pe": {
+    s: ".swal2-shown.swal2-fade.swal2-bottom-left.swal2-container{display:none !important}",
+    c: 85,
+  },
+  "iconnectfx.com": {
+    s: ".cdk-overlay-container{display:none !important} html{overflow:unset !important} div[id*='AllowCookiePopup']{display:none !important}",
   },
   "saechsische.de": { j: 5 },
   "motorsport-total.com": { j: 5 },
@@ -17895,6 +17918,8 @@ const blockUrls = {
       { r: "/dgp-cookie-consent" },
       { r: "/assets/as24-cmp/consent-banner/" },
       { r: "/wp-content/plugins/log-user-consents/" },
+      { r: "cdn.cookie-script.com" },
+      { r: "cmp.setupcmp.com" },
     ],
     gdpr: [
       { r: "/js/gdpr_footer.js" },
@@ -18130,6 +18155,7 @@ const blockUrls = {
       { r: "sdk.privacy-center.org" },
     ],
     cmp: [
+      { r: "cmp.lemonde.fr" },
       { r: "cmp.quantcast.com" },
       { r: "cmp.nextday.media/cmp", e: ["vi.nl", "omroepwest.nl"] },
       { r: "cmp.dreamlab.pl" },
@@ -19019,6 +19045,7 @@ const blockUrls = {
     "condair.de": ["/Cookie/ccm19/public/index.php/app.js?"],
     "eurostar.com": ["/utag.js"],
     "wko.at": ["/static/ct/consent.js"],
+    "oem.no": ["/ui/common/scripts/cookies/cookieModalComponent-797ec8a07a.js"],
   },
 };
 
