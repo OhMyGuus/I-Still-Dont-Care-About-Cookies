@@ -26,12 +26,15 @@
       '.onetrust-pc-dark-filter:not([class*="hide"]):not([style*="none"]) ~ #onetrust-pc-sdk .onetrust-close-btn-handler:first-child',
     ],
 
-    ".message-container": [
-      "button.sp_choice_type_12:not(.cmp-no-pur-privacy-btn)",
-      ".sp_choice_type_SAVE_AND_EXIT",
-      "div:not(.header) > .sp_choice_type_11:only-of-type:not(:only-child)",
-    ],
-
+	'.message-container': [
+		'button.sp_choice_type_12:not(.cmp-no-pur-privacy-btn)',
+		'.sp_choice_type_SAVE_AND_EXIT',
+		'div:not(.header) > .sp_choice_type_11:only-of-type:not(:only-child)',
+		'#notice > div:nth-child(3) .message-column:first-child:not(:only-child) .sp_choice_type_11',
+		'.sp_choice_type_11.button-responsive-primary',
+		'.sp_choice_type_13'
+	],
+	
     ".mfp-wrap.mfp-ready": [
       ".cookieselection-confirm-selection",
       "#gdpr_understandBtn",
