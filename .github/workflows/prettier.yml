@@ -25,11 +25,11 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          git diff --name-only --exit-code HEAD^ HEAD | grep -vE 'package-lock.json'
+          echo "::set-output name=has_changes::$(git status --porcelain)"
+          git diff --exit-code
 
       - name: Fail if changes found
+        if: steps.changes.outputs.has_changes != ''
         run: |
-          if [ -n "${{ steps.changes.outputs.stdout }}" ]; then
-            echo "There are changes after running Prettier. Please run Prettier locally and commit the changes.";
-            exit 1;
-          fi
+          echo "There are changes after running Prettier. Please run Prettier locally and commit the changes."
+          exit 1
