@@ -14,6 +14,7 @@
 
     "#usercentrics-root": [
       'div[data-testid="uc-buttons-container"] > button:first-child',
+      'div[data-testid="first-line-buttons"] > button:first-child',
     ],
 
     "#onetrust-consent-sdk": [
@@ -76,6 +77,8 @@
     ".fancybox-is-open": [
       "#cookie-consent .cc-page-2 #cc-set-cookie",
       '.consent-modal .btn[data-action="save-preferences"]',
+      '#acceptCookiesId[style*="block"] .cookieDecline',
+      '#cookies-modal-id[style*="block"] .js-decline',
     ],
 
     ".pum-open": [
