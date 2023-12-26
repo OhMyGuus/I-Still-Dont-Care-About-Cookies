@@ -16982,6 +16982,7 @@ const rules = {
   "tunemymusic.com": { s: ".HeaderMenu_CookieAlert__ipEfK{display:none !important}" },
   "webopedia.com": { s: ".wo-consent{display:none !important}" },
   "drudgereport.com": { s: "#dr_dae_consent{display:none !important}" },
+  "parksystems.com": { s: ".seers-cmp-cookie-data-hol{display:none !important}" },
 
 };
 
