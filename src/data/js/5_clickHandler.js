@@ -286,7 +286,7 @@ function getSelector(host) {
           return '.gdpr-modal-wrapper._show .allow-necessary, #cookies-modal-id[style*="block"] .save-cookies';
         case "douglas":
           return _chain(
-            ".uc-banner-modal .uc-list__buttons ",
+            ".uc-banner-modal .uc-list-button__more-information",
             ".uc-list-button__deny-all"
           );
         case "easyname":
