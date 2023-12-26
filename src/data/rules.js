@@ -16988,6 +16988,7 @@ const rules = {
   "parksystems.com": {
     s: ".seers-cmp-cookie-data-hol{display:none !important}",
   },
+  "lightexpert.nl": { s: "#cookie{display:none !important}" },
 };
 
 const blockUrls = {
