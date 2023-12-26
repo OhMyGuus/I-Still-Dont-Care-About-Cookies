@@ -16990,9 +16990,14 @@ const rules = {
     s: ".seers-cmp-cookie-data-hol{display:none !important}",
   },
   "lightexpert.nl": { s: "#cookie{display:none !important}" },
-  "biggreenegg.co.uk": {s: ".TheBiscuitBanner{display:none !important}", c: 85},
-  "cameraworld.co.uk": { j: 5, s: "._has-modal{overflow: unset!important} .pr-cookie-modal-wall, .modals-overlay{display:none !important}" },
-
+  "biggreenegg.co.uk": {
+    s: ".TheBiscuitBanner{display:none !important}",
+    c: 85,
+  },
+  "cameraworld.co.uk": {
+    j: 5,
+    s: "._has-modal{overflow: unset!important} .pr-cookie-modal-wall, .modals-overlay{display:none !important}",
+  },
 };
 
 const blockUrls = {
@@ -18958,7 +18963,7 @@ const blockUrls = {
     "liberation.fr": ["/wrapperMessagingWithoutDetection.js"],
     "caradisiac.com": ["/wrapperMessagingWithoutDetection"],
     "anderes-wort.de": ["/wrapperMessagingWithoutDetection"],
-    "bauer-baumschulen.ch": ["/CookieBanner.js"]
+    "bauer-baumschulen.ch": ["/CookieBanner.js"],
   },
 };
 
