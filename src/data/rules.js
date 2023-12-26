@@ -2127,6 +2127,7 @@ const rules = {
   "mediamarkt.at": { j: 5 },
   "mediamarkt.be": { j: 5 },
   "mediaworld.it": { j: 5 },
+  "mediamarkt.es": { j: 5 },
   "saturn.de": { j: 5 },
   "gonnesa.ca.it": { s: "#fake-div{display:none !important}" },
   "motorsport.com": {
@@ -16979,11 +16980,14 @@ const rules = {
   "tobycarvery.co.uk": { c: 85 },
   "toshiba-aircondition.com": { c: 85 },
   "autoweek.nl": { j: 5 },
-  "tunemymusic.com": { s: ".HeaderMenu_CookieAlert__ipEfK{display:none !important}" },
+  "tunemymusic.com": {
+    s: ".HeaderMenu_CookieAlert__ipEfK{display:none !important}",
+  },
   "webopedia.com": { s: ".wo-consent{display:none !important}" },
   "drudgereport.com": { s: "#dr_dae_consent{display:none !important}" },
-  "parksystems.com": { s: ".seers-cmp-cookie-data-hol{display:none !important}" },
-
+  "parksystems.com": {
+    s: ".seers-cmp-cookie-data-hol{display:none !important}",
+  },
 };
 
 const blockUrls = {
@@ -18156,7 +18160,7 @@ const blockUrls = {
       { r: "apps.ludostation.com/cmp/v2/cmp.js" },
       { r: "mrdev-cmp/assets/js/script.js" },
       { r: "cmp.setupcmp.com" },
-      { r: "cmp.meteored.com" }
+      { r: "cmp.meteored.com" },
     ],
     Cookie: [
       { r: "gofundme.com/js/3.0/visitorCookie.js" },
