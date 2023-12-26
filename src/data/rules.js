@@ -16989,6 +16989,7 @@ const rules = {
     s: ".seers-cmp-cookie-data-hol{display:none !important}",
   },
   "lightexpert.nl": { s: "#cookie{display:none !important}" },
+  "biggreenegg.co.uk": {s: ".TheBiscuitBanner{display:none !important}", c: 85},
 };
 
 const blockUrls = {
