@@ -18954,6 +18954,7 @@ const blockUrls = {
     "liberation.fr": ["/wrapperMessagingWithoutDetection.js"],
     "caradisiac.com": ["/wrapperMessagingWithoutDetection"],
     "anderes-wort.de": ["/wrapperMessagingWithoutDetection"],
+    "bauer-baumschulen.ch": ["/CookieBanner.js"]
   },
 };
 
