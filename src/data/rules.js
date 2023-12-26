@@ -16980,6 +16980,8 @@ const rules = {
   "toshiba-aircondition.com": { c: 85 },
   "autoweek.nl": { j: 5 },
   "tunemymusic.com": { s: ".HeaderMenu_CookieAlert__ipEfK{display:none !important}" },
+  "webopedia.com": { s: ".wo-consent{display:none !important}" },
+
 };
 
 const blockUrls = {
