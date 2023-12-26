@@ -14086,6 +14086,7 @@ const rules = {
   "photospecialist.at": { c: 20 },
   "photospecialist.de": { c: 20 },
   "kamera-express.nl": { c: 20 },
+  "kamera-express.be": { c: 20 },
   "kamera-express.lu": { c: 20 },
   "kamera-express.de": { c: 20 },
   "helpster.de": { j: "5" },
@@ -16990,6 +16991,8 @@ const rules = {
   },
   "lightexpert.nl": { s: "#cookie{display:none !important}" },
   "biggreenegg.co.uk": {s: ".TheBiscuitBanner{display:none !important}", c: 85},
+  "cameraworld.co.uk": { j: 5, s: "._has-modal{overflow: unset!important} .pr-cookie-modal-wall, .modals-overlay{display:none !important}" },
+
 };
 
 const blockUrls = {

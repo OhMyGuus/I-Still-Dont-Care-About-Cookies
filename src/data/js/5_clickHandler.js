@@ -7203,7 +7203,10 @@ function getSelector(host) {
     case "saturn.de":
     case "mediaworld.it": // same as mediamarkt
       return '#mms-consent-portal-container button[data-test*="save-settings"]';
-  }
+    case "cameraworld.co.uk": 
+      return '#btn-cookie-decline';
+
+    }
 
   if (host.parts.length > 2) {
     host.parts.shift();
