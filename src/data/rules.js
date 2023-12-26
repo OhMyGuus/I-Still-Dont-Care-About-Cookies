@@ -18151,6 +18151,7 @@ const blockUrls = {
       { r: "apps.ludostation.com/cmp/v2/cmp.js" },
       { r: "mrdev-cmp/assets/js/script.js" },
       { r: "cmp.setupcmp.com" },
+      { r: "cmp.meteored.com" }
     ],
     Cookie: [
       { r: "gofundme.com/js/3.0/visitorCookie.js" },
