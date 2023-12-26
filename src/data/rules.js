@@ -16981,6 +16981,7 @@ const rules = {
   "autoweek.nl": { j: 5 },
   "tunemymusic.com": { s: ".HeaderMenu_CookieAlert__ipEfK{display:none !important}" },
   "webopedia.com": { s: ".wo-consent{display:none !important}" },
+  "drudgereport.com": { s: "#dr_dae_consent{display:none !important}" },
 
 };
 
