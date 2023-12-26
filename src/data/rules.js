@@ -10423,7 +10423,7 @@ const rules = {
   "automobilwoche.de": { s: "#ccm{display:none !important}" },
   "5vor12.de": { s: ".consent_banner{display:none !important}" },
   "jimenezmovilidad.es": { c: 0 },
-  "calm.com": { j: "6" },
+  "calm.com": { s: "#cookie-preferences-banner{display:none !important}" },
   "otv.de": { j: "5" },
   "nordicbet.dk": { c: 32 },
   "nordicbet.com": { c: 32 },
