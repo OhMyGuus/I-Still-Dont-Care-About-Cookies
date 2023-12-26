@@ -16979,6 +16979,7 @@ const rules = {
   "tobycarvery.co.uk": { c: 85 },
   "toshiba-aircondition.com": { c: 85 },
   "autoweek.nl": { j: 5 },
+  "tunemymusic.com": { s: ".HeaderMenu_CookieAlert__ipEfK{display:none !important}" },
 };
 
 const blockUrls = {
