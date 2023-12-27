@@ -16980,6 +16980,7 @@ const rules = {
   "toshiba-aircondition.com": { c: 85 },
   "box.baldursgate3.game": { s: ".ciastko{display: none !important}" },
   "macerkopf.de": { c: 85 },
+  "mjob.si": { s: ".jss78{display: none !important}" },
 };
 
 const blockUrls = {
