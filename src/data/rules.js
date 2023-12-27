@@ -16979,7 +16979,7 @@ const rules = {
   "tobycarvery.co.uk": { c: 85 },
   "toshiba-aircondition.com": { c: 85 },
   "box.baldursgate3.game": { s: ".ciastko{display: none !important}" },
-  "macerkopf.de": {c: 85},
+  "macerkopf.de": { c: 85 },
 };
 
 const blockUrls = {
