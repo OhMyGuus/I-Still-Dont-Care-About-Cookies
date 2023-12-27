@@ -16978,6 +16978,7 @@ const rules = {
   "swedbankrobur.se": { c: 85 },
   "tobycarvery.co.uk": { c: 85 },
   "toshiba-aircondition.com": { c: 85 },
+  "box.baldursgate3.game": { s: ".ciastko{display: none !important}" },
 };
 
 const blockUrls = {
