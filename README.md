@@ -6,7 +6,7 @@ Get rid of cookie warnings from almost all websites!
 
 ## Why fork?
 
-This extension has been acquired by _**Avast**_ and I simply don't trust Avast with my data. Additionally, having it on Github allows us to improve the code and add support for websites faster.
+This extension has been acquired by _**[Avast](https://en.wikipedia.org/wiki/Avast)**_ (which itself has been acquired by _[Gen Digital Inc.](https://en.wikipedia.org/wiki/Gen_Digital)_, a large tech conglomerate) and I simply don't trust Avast with my data. Additionally, having it on GitHub allows us to improve the code and add support for websites faster.
 
 ## Download & Install
 
