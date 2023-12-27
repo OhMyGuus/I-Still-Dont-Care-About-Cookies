@@ -24,6 +24,7 @@ This extension has been acquired by _**Avast**_ and I simply don't trust Avast w
 We welcome contributions to the translation of the extension. If you're interested in helping us translate the extension to your language, you can join us on [Crowdin](https://crowdin.com/project/i-still-dont-care-about-cookie/).
 
 ## Contributing to The API
+
 This extension sends requests to an API hosted at _[api.istilldontcareaboutcookies.com](https://api.istilldontcareaboutcookies.com)_ - while this is a backend-facing piece of software, the source code is available [here on GitHub](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies-Api) and uses the C# ASP.NET library for an MVC structure.
 
 ## Credits / spotlights
