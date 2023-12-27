@@ -13,6 +13,10 @@ jobs:
         run: |
           cp src/manifest_v3.json src/manifest.json
 
+      - name: Clear hotreload
+        run: |
+          echo "" > src/data/hotreload.js
+
       - uses: actions/upload-artifact@v3
         with:
           name: ISDCAC-chrome
