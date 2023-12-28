@@ -16998,7 +16998,7 @@ const rules = {
     j: 5,
     s: "._has-modal{overflow: unset!important} .pr-cookie-modal-wall, .modals-overlay{display:none !important}",
   },
-  "favoptic.se": { c: 14}
+  "favoptic.se": { c: 14 },
 };
 
 const blockUrls = {
