@@ -17049,6 +17049,24 @@ const rules = {
     s: "._has-modal{overflow: unset!important} .pr-cookie-modal-wall, .modals-overlay{display:none !important}",
   },
   "favoptic.se": { c: 14 },
+  "badlion.net": { c: 85 },
+  "empik.com": { c: 85 },
+  "play.esea.net": { c: 85 },
+  "humanic.net": { c: 85 },
+  "kontist.com": { c: 85 },
+  "make-it-in-germany.com": { c: 85 },
+  "dt.mef.gov.it": { c: 85 },
+  "mybestbrands.de": { c: 85 },
+  "myunidays.com": { c: 85 },
+  "presseportal.de": { c: 85 },
+  "refurbed.de": { c: 85 },
+  "region-bayreuth.de": { c: 85 },
+  "soliver.si": { c: 85 },
+  "tech-faq.net": { c: 85 },
+  "thega-filmpalast.de": { c: 85 },
+  "trendmutti.com": { c: 85 },
+  "tvo.de": { c: 85 },
+  "pawsact.vier-pfoten.de": { c: 85 }
 };
 
 const blockUrls = {
