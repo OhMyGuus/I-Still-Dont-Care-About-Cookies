@@ -286,7 +286,7 @@ function getSelector(host) {
           return '.gdpr-modal-wrapper._show .allow-necessary, #cookies-modal-id[style*="block"] .save-cookies';
         case "douglas":
           return _chain(
-            ".uc-banner-modal .uc-list__buttons ",
+            ".uc-banner-modal .uc-list-button__more-information",
             ".uc-list-button__deny-all"
           );
         case "easyname":
@@ -530,6 +530,7 @@ function getSelector(host) {
     case "sourcepoint.theguardian.com":
       return "button.sp_choice_type_13, button.sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT";
     case "cmp.dpgmedia.nl":
+    case "cmp.autoweek.nl":
       return _chain(
         '.sp_choice_type_12, .tcfv2-stack[title*="Social"] .pm-switch',
         ".sp_choice_type_SAVE_AND_EXIT"
@@ -7202,6 +7203,8 @@ function getSelector(host) {
     case "saturn.de":
     case "mediaworld.it": // same as mediamarkt
       return '#mms-consent-portal-container button[data-test*="save-settings"]';
+    case "cameraworld.co.uk":
+      return "#btn-cookie-decline";
   }
 
   if (host.parts.length > 2) {
