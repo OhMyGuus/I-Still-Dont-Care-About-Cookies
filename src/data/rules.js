@@ -11489,6 +11489,12 @@ const rules = {
   "hema.nl": {
     s: ".no-scroll{position:relative !important}.has-cookie-message{padding-top:0 !important}",
   },
+  "hema.com": {
+    s: ".no-scroll{position:relative !important}.has-cookie-message{padding-top:0 !important}",
+  },
+  "hemamx.com": {
+    s: ".no-scroll{position:relative !important}.has-cookie-message{padding-top:0 !important}",
+  },
   "chregister.ch": { s: ".ui-notificationbar{display:none !important}" },
   "synology.com": { s: ".syno_cookie_element{display:none !important}" },
   "retroplace.com": { j: "5" },
