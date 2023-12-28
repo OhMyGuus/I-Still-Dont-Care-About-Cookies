@@ -1,0 +1,35 @@
+name: Prettier
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Prettier
+        run: npm run prettier
+
+      - name: Check for changes
+        id: changes
+        run: |
+          echo "::set-output name=has_changes::$(git status --porcelain)"
+          git diff --exit-code
+
+      - name: Fail if changes found
+        if: steps.changes.outputs.has_changes != ''
+        run: |
+          echo "There are changes after running Prettier. Please run Prettier locally and commit the changes."
+          exit 1

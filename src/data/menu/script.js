@@ -2,6 +2,10 @@ const toggle = document.getElementById("toggle");
 const refresh = document.getElementById("refresh");
 const report = document.getElementById("report");
 const options = document.getElementById("options");
+
+const issueTypeSelect = document.getElementById("report_issue_type");
+const reportNotesTextarea = document.getElementById("report-notes");
+
 let currentTab = false;
 
 toggle.addEventListener("click", function (e) {
@@ -54,14 +58,34 @@ document.getElementById("report_anon").addEventListener("click", function (e) {
   document.getElementById("hostname").textContent = currentTab.hostname;
 });
 
+issueTypeSelect.addEventListener("change", () => {
+  let issueTypeValue =
+    issueTypeSelect.options[issueTypeSelect.selectedIndex].value;
+
+  document
+    .querySelectorAll("label[id*='issue_description']")
+    .forEach((label) => {
+      label.style.display = "none";
+    });
+
+  reportNotesTextarea.style.display =
+    issueTypeValue == "general" ? "block" : "none";
+  document.getElementById(`${issueTypeValue}_issue_description`).style.display =
+    "block";
+});
+
 document.getElementById("report_anon_send").addEventListener("click", () => {
+  let issueTypeValue =
+    issueTypeSelect.options[issueTypeSelect.selectedIndex].value;
+
   switchMenu("menu_loading");
   chrome.runtime.sendMessage(
     {
       command: "report_website",
       tabId: currentTab.id,
       anon: true,
-      notes: document.getElementById("report-notes").value,
+      issueType: issueTypeValue,
+      notes: issueTypeValue == "general" ? reportNotesTextarea.value : null,
     },
     (message) => {
       if (message.error) {
@@ -129,7 +153,7 @@ function translate() {
     element.textContent = chrome.i18n.getMessage(element.dataset.translate);
   }
 
-  document.getElementById("report-notes").placeholder = chrome.i18n.getMessage(
+  reportNotesTextarea.placeholder = chrome.i18n.getMessage(
     "reportNotesPlaceholder"
   );
 }
