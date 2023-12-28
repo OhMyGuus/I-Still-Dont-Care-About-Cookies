@@ -16934,6 +16934,56 @@ const rules = {
   "handbuch-experten.de": { c: 85 },
   "malmoopera.se": { c: 85 },
   "angelplatz.de": { c: 85 },
+  "livejasmin.com": {
+    s: "#consent_modal{display:none !important} .consent_overlay_show{overflow:visible !important}",
+  },
+  "global.hario.com": { s: "#CookieDialog{display:none !important}" },
+  "efortuna.pl": { s: "#cookie-consent-app{display:none !important}" },
+  "growtopiagame.com": {
+    s: ".in.fade.modal-backdrop{display:none !important} #consentModal{display:none !important}",
+    c: 85,
+  },
+  "sklep.insel.pl": { s: "#st_notification_1{display:none !important}" },
+  "pracodawcy.pracuj.pl": {
+    s: "div[data-test=modal-cookie-bottom-bar]{display:none !important}",
+  },
+  "milford.de": {
+    s: "div.acris-cookie-consent.is--modal{display: none !important} .show.fade.modal-backdrop{display: none !important} .modal-open{overflow: visible !important}",
+  },
+  "tweetyai.com": { s: "app-snackbar{display: none !important}" },
+  "modivo.cz": { s: ".modal-consents{display:none !important}", c: 85 },
+  "pradel-france.com": { s: "#bagdpr{display:none !important}" },
+  "cfos-emobility.de": {
+    s: "#modal_container{display: none !important} .modal-backdrop.fade.show{display:none !important}",
+    c: 85,
+  },
+  "intelligenceonline.fr": {
+    s: "#modalCookieConsent{display:none!important} .show.fade.modal-backdrop{display: none !important} .modal-open{overflow: visible !important}",
+  },
+  "antena3.com": { c: 85 },
+  "bauer-baumschulen.ch": { c: 85 },
+  "cameraworld.co.uk": { c: 85 },
+  "favoptic.se": { c: 85 },
+  "sorglos-guenstig-fahren.com": {
+    s: ".ccm-root{display:none!important}",
+    c: 85,
+  },
+  "douglas.nl": {
+    s: ".modal-overlay__root.modal-overlay__general.uc-banner-modal.modal-overlay__transition-appear-done.modal-overlay__transition-enter-done{display:none!important} .modal-overlay__backdrop-enter-done.modal-overlay__backdrop-appear-done.modal-overlay__backdrop{display:none!important}",
+    c: 85,
+  },
+  "biggreenegg.co.uk": {
+    s: ".TheBiscuitBanner{display: none !important}",
+    c: 85,
+  },
+  "makro.nl": {
+    s: ".consent-disclaimer-intrusive.intrusive.consent-disclaimer.cms.component-position.generic-component.component{display: none !important}",
+    c: 85,
+  },
+  "vinos.ch": {
+    s: ".consent-cookie-box-light-box{display:none !important} .page-overlay{display:none!important}",
+    c: 85,
+  },
   "refurbed.it": { c: 85 },
   "refurbed.ie": { c: 85 },
   "quiksilver-europe.at": { c: 85 },
