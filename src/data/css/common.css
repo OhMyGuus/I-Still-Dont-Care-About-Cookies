@@ -154,6 +154,7 @@ div[id^="xsp_message_container_"] {
 .cookie_banner:not(body):not(html),
 #cookiePolicyNotification,
 #cookiemodalbar,
+#cookieModal,
 #cookie-warning,
 .js-cookie-policy:not(body):not(html),
 #CookieReportsMiniPanel,
