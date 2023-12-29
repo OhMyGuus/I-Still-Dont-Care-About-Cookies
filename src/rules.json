@@ -15723,18 +15723,6 @@
     }
   },
   {
-    "id": 1376,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["as.com"]
-    }
-  },
-  {
     "id": 1377,
     "priority": 1,
     "action": {
@@ -15912,198 +15900,6 @@
       "urlFilter": "consent.autopflege24.net",
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
       "initiatorDomains": ["autopflege24.net"]
-    }
-  },
-  {
-    "id": 1392,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["elconfidencial.com"]
-    }
-  },
-  {
-    "id": 1393,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["diariodecadiz.es"]
-    }
-  },
-  {
-    "id": 1394,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["lavozdegalicia.es"]
-    }
-  },
-  {
-    "id": 1395,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["publico.es"]
-    }
-  },
-  {
-    "id": 1396,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["diariodesevilla.es"]
-    }
-  },
-  {
-    "id": 1397,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["eleconomista.es"]
-    }
-  },
-  {
-    "id": 1398,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["granadahoy.com"]
-    }
-  },
-  {
-    "id": 1399,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["malagahoy.es"]
-    }
-  },
-  {
-    "id": 1400,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["diariodealmeria.es"]
-    }
-  },
-  {
-    "id": 1401,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["lavozdeasturias.es"]
-    }
-  },
-  {
-    "id": 1402,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["culturainquieta.com"]
-    }
-  },
-  {
-    "id": 1403,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["segre.com"]
-    }
-  },
-  {
-    "id": 1404,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["mappy.com"]
-    }
-  },
-  {
-    "id": 1405,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["radioplayer.fr"]
-    }
-  },
-  {
-    "id": 1406,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["goplay.be"]
-    }
-  },
-  {
-    "id": 1407,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["lavoixdunord.fr"]
     }
   },
   {
@@ -16347,18 +16143,6 @@
     }
   },
   {
-    "id": 1428,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["muyinteresante.es"]
-    }
-  },
-  {
     "id": 1429,
     "priority": 1,
     "action": {
@@ -16515,18 +16299,6 @@
     }
   },
   {
-    "id": 1442,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["t-mobile.pl"]
-    }
-  },
-  {
     "id": 1443,
     "priority": 1,
     "action": {
@@ -16608,18 +16380,6 @@
       "urlFilter": "/udg-uc-sdk.min.js",
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
       "initiatorDomains": ["porsche.com"]
-    }
-  },
-  {
-    "id": 1450,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["autocasion.com"]
     }
   },
   {
@@ -16728,18 +16488,6 @@
       "urlFilter": "api.usercentrics.eu",
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
       "initiatorDomains": ["ing.de"]
-    }
-  },
-  {
-    "id": 1460,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["europasur.es"]
     }
   },
   {
@@ -16863,18 +16611,6 @@
     }
   },
   {
-    "id": 1471,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["pisos.com"]
-    }
-  },
-  {
     "id": 1472,
     "priority": 1,
     "action": {
@@ -16920,42 +16656,6 @@
       "urlFilter": "/consent-manager/",
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
       "initiatorDomains": ["pdf24.org"]
-    }
-  },
-  {
-    "id": 1476,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["lagacetadesalamanca.es"]
-    }
-  },
-  {
-    "id": 1477,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["meilleure-innovation.com"]
-    }
-  },
-  {
-    "id": 1478,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "privacy-center.org",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["huelvainformacion.es"]
     }
   },
   {
