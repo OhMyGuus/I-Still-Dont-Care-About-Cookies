@@ -17066,7 +17066,7 @@ const rules = {
   "thega-filmpalast.de": { c: 85 },
   "trendmutti.com": { c: 85 },
   "tvo.de": { c: 85 },
-  "pawsact.vier-pfoten.de": { c: 85 }
+  "pawsact.vier-pfoten.de": { c: 85 },
 };
 
 const blockUrls = {
