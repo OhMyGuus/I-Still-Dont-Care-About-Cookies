@@ -19087,6 +19087,7 @@ const blockUrls = {
       { r: "/acc.cookienotification.js" },
       { r: "/cookiepolicy.js" },
       { r: "cookie_api/cccframe" },
+      { r: "/cookienote-" },
       {
         q: true,
         r: "/metro?sc_device=webcomponent&components=cookie",
