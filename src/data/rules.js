@@ -18411,6 +18411,15 @@ const rules = {
   "bestdrive.ch": { j: 5 },
   "bestdrive.cz": { j: 5 },
   "bestdrive.sk": { j: 5 },
+  "character.ai": {
+    "j": "5"
+},
+"account.yougov.com": {
+  "j": "5"
+},
+"order.fiveguys.nl": {
+  "j": "5"
+},
 };
 
 const blockUrls = {
