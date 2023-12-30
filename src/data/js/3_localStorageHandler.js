@@ -50,17 +50,27 @@ function getItem(hostname) {
         },
       ];
 
-    case "krant.volkskrant.nl":
-    case "krant.dg.nl":
-    case "krant.demorgen.be":
-    case "krant.trouw.nl":
-    case "krant.ad.nl":
-    case "krant.parool.nl":
-    case "krant.ed.nl":
+    case "volkskrant.nl":
+    case "dg.nl":
+    case "demorgen.be":
+    case "trouw.nl":
+    case "ad.nl":
+    case "parool.nl":
+    case "ed.nl":
+    case "bndestem.nl":
+    case "weser-kurier.de":
       return [
         { strict: false, key: "vl_disable_tracking", value: "true" },
-        { strict: false, key: "vl_disable_usecookie", value: "selected" },
+        { strict: false, key: "vl_disable_usecookie", value: "necessary" },
       ];
+    case "blaetterkatalog.welt.de":
+      return {
+        strict: true,
+        key: "DM_prefs",
+        value:
+          '{"cookie_hint":true,"accept_cookies":false,"_childs":[],"_type":1}',
+      };
+
     case "yellow.systems":
       return { strict: false, key: "isCookiesNotificationHidden", value: true };
     case "schlauer-shop24.de":
@@ -135,7 +145,7 @@ function getItem(hostname) {
         value:
           '{"required":true,"performance":false,"functional":false,"marketing":false,"analytics":false}',
       };
-
+    case "modivo.lt":
     case "modivo.pl":
     case "modivo.it":
     case "modivo.ro":
@@ -146,6 +156,8 @@ function getItem(hostname) {
     case "modivo.de":
     case "modivo.fr":
     case "modivo.it":
+    case "modivo.hr":
+    case "modivo.cz":
     case "modivo.ua":
     case "modivo.lv":
     case "modivo.si":
