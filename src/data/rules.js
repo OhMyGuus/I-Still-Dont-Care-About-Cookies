@@ -19637,7 +19637,6 @@ const blockUrls = {
       { r: "heg-cp.com/upm/privacy-manager" },
       { q: true, r: "tag=ui/privacy/CookiesConsent" },
       { r: "/dock-privacy-settings.esm.js" },
-      { r: "sdk.privacy-center.org" },
       { r: "privacy.wum.rocks/public/app.js" },
       { r: "/tagcommander/privacy_" },
       { r: "/serviceform-tools/privacy/sf-privacy" },
