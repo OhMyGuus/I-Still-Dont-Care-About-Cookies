@@ -460,9 +460,6 @@ const rules = {
   "wiara.pl": { c: 12 },
   "tyrdanmark.dk": { s: "#C46703f08cookie{display:none !important}" },
   "markgum.com.pl": { s: 'body > div[id=""]{display:none !important}' },
-  "cnn.com": {
-    s: ".m-truste,#new-tos-privacy,#js-tos-prompt,head + div,.user-msg,#notification-legal,.popup_tosEdition{display:none !important}",
-  },
   "kopland.pl": { c: 37 },
   "wampirki.com": { j: "5" },
   "zorgbelang-noordholland.nl": {
@@ -19310,7 +19307,7 @@ const blockUrls = {
       { r: "sohoshopcookies.js" },
       { r: "am-static.com/cookie-banner/sdk.js" },
       { r: "/marked-cookie-consent-web/app.js" },
-      { r: "cdn.cookielaw.org" },
+      { r: "cdn.cookielaw.org", e: ["cnn.com"] },
       { r: "/wp-content/plugins/borlabs-cookie/" },
       { r: "/wp-content/plugins/gdpr-cookie-compliance/" },
       { r: "/etagen_cookie/" },
