@@ -20661,4 +20661,3 @@ const blockUrls = {
 
 export { blockUrls, rules, commons, commonJSHandlers };
 
-console.log(JSON.stringify(blockUrls));
