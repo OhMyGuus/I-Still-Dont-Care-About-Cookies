@@ -17030,6 +17030,9 @@ const rules = {
   "swedbankrobur.se": { c: 85 },
   "tobycarvery.co.uk": { c: 85 },
   "toshiba-aircondition.com": { c: 85 },
+  "box.baldursgate3.game": { s: ".ciastko{display: none !important}" },
+  "macerkopf.de": { c: 85 },
+  "www.mjob.si": { s: ".jss78{display: none !important}" },
   "autoweek.nl": { j: 5 },
   "tunemymusic.com": {
     s: ".HeaderMenu_CookieAlert__ipEfK{display:none !important}",
