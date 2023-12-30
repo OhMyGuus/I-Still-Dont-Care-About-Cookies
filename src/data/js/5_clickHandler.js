@@ -8378,10 +8378,17 @@ function getSelector(host) {
         '#dialog a[href*="privacyprefs"]',
         '//div[@id="dialog"][.//a[contains(@href, "privacyprefs")]]//music-button[@id="dialogButton2"]'
       );
-      case 'beta.character.ai': return _if('.modal[style*="block"] button[id*="AcceptButton"]', '.modal[style*="block"] .btn-secondary', '.modal[style*="block"] .modal-footer input', '.modal[style*="block"] button[id*="AcceptButton"]'); 
-      case 'yougov.com': return '.cdk-overlay-container yg-tcf-dialog [data-cy="disagree-button"]';
-      case 'fiveguys.nl': return '.modal[style*="block"] #button_accept_cookies';
-
+    case "beta.character.ai":
+      return _if(
+        '.modal[style*="block"] button[id*="AcceptButton"]',
+        '.modal[style*="block"] .btn-secondary',
+        '.modal[style*="block"] .modal-footer input',
+        '.modal[style*="block"] button[id*="AcceptButton"]'
+      );
+    case "yougov.com":
+      return '.cdk-overlay-container yg-tcf-dialog [data-cy="disagree-button"]';
+    case "fiveguys.nl":
+      return '.modal[style*="block"] #button_accept_cookies';
   }
 
   if (host.parts.length > 2) {

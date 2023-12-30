@@ -310,6 +310,14 @@ const rules = {
   "google.mv": { j: "8" },
   "google.rs": { j: "8" },
   "google.pn": { j: "8" },
+  "google.com.tw": { j: 8 },
+  "google.gg": { j: 8 },
+  "google.vg": { j: 8 },
+  "google.co.ma": { j: 8 },
+  "google.com.uy": { j: 8 },
+  "google.com.cy": { j: 8 },
+  "google.com.ai": { j: 8 },
+  "google.cm": { j: 8 },
   "toldosalsina.com": { s: "#aviso{display:none !important}" },
   "barcelona.cat": { s: "#bcn-ccwr{display:none !important}" },
   "barclays.com": { s: ".dialogMask{display:none !important}" },
@@ -18411,15 +18419,13 @@ const rules = {
   "bestdrive.ch": { j: 5 },
   "bestdrive.cz": { j: 5 },
   "bestdrive.sk": { j: 5 },
-  "character.ai": {
-    "j": "5"
-},
-"account.yougov.com": {
-  "j": "5"
-},
-"order.fiveguys.nl": {
-  "j": "5"
-},
+  "character.ai": { j: 5 },
+  "account.yougov.com": { j: 5 },
+  "order.fiveguys.nl": { j: 5 },
+  "webstore.zvw.de": { j: 6 },
+  "krant.bndestem.nl": { j: 3 },
+  "ezeitung.weser-kurier.de": { j: 3 },
+  "blaetterkatalog.welt.de": { j: 3 },
 };
 
 const blockUrls = {

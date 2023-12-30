@@ -711,6 +711,8 @@ function getE(hostname) {
       ];
     case "temu.com":
       return ["privacy_setting=100"];
+    case "webstore.zvw.de":
+      return ["trackingAccepted=false"];
   }
 
   const parts = hostname.split(".");
