@@ -341,8 +341,6 @@ function getE(hostname) {
       return ["fvw_privacy=enabled"];
     case "kinoheld.de":
       return ["KHCONSENT=accept"];
-    case "resursbank.se":
-      return ["cookie_consent=necessary%3A1%2Cstatistics%3A0%2Cmarketing%3A0"];
     case "airmates.eu":
       return ["privacy-dialog-shown=true"];
     case "mentimeter.com":

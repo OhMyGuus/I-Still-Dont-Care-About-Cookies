@@ -135,7 +135,7 @@ function getItem(hostname) {
         value:
           '{"required":true,"performance":false,"functional":false,"marketing":false,"analytics":false}',
       };
-
+    case "modivo.lt":
     case "modivo.pl":
     case "modivo.it":
     case "modivo.ro":
@@ -146,6 +146,8 @@ function getItem(hostname) {
     case "modivo.de":
     case "modivo.fr":
     case "modivo.it":
+    case "modivo.hr":
+    case "modivo.cz":
     case "modivo.ua":
     case "modivo.lv":
     case "modivo.si":
