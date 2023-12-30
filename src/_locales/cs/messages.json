@@ -124,11 +124,11 @@
     "description": "Loading messsage"
   },
   "generalIssueOption": {
-    "message": "General issue (requires notes)",
+    "message": "Obecný problém (vyžaduje poznámky)",
     "description": "The option text for a general issue"
   },
   "scrollbarIssueOption": {
-    "message": "Scrollbar related",
+    "message": "Související s posuvníkem",
     "description": "The option text for a scrollbar issue"
   },
   "modalIssueOption": {
