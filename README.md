@@ -6,7 +6,7 @@ Get rid of cookie warnings from almost all websites!
 
 ## Why fork?
 
-This extension has been acquired by _**Avast**_ and I simply don't trust Avast with my data. Additionally, having it on Github allows us to improve the code and add support for websites faster.
+This extension has been acquired by _**[Avast](https://en.wikipedia.org/wiki/Avast)**_ (which itself has been acquired by _[Gen Digital Inc.](https://en.wikipedia.org/wiki/Gen_Digital)_, a large tech conglomerate) and I simply don't trust Avast with my data. Additionally, having it on GitHub allows us to improve the code and add support for websites faster.
 
 ## Download & Install
 
@@ -22,6 +22,10 @@ This extension has been acquired by _**Avast**_ and I simply don't trust Avast w
 ## Contributing to Translation
 
 We welcome contributions to the translation of the extension. If you're interested in helping us translate the extension to your language, you can join us on [Crowdin](https://crowdin.com/project/i-still-dont-care-about-cookie/).
+
+## Contributing to The API
+
+This extension sends requests to an API hosted at _[api.istilldontcareaboutcookies.com](https://api.istilldontcareaboutcookies.com)_ - while this is a backend-facing piece of software, the source code is available [here on GitHub](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies-Api) and uses the C# ASP.NET library for an MVC structure.
 
 ## Credits / spotlights
 

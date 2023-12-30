@@ -46,10 +46,6 @@ body.cli-barmodal-open {
   overflow: visible !important;
 }
 
-iframe[title^="SP Consent Message"] {
-  display: none !important;
-}
-
 html.sp-message-open,
 html.sp-message-open body,
 html.disable--interaction.show--consent,
@@ -14040,7 +14036,17 @@ div.modal-consents1 .side-modal-mask,
 .exide-gtm-scripts-modal-wrapper,
 .js-privacy-policy-alert.js-notice,
 .cookiebanner_background,
-.cookie-popup__wrapper
+.cookie-popup__wrapper,
+.cookie-directive-overlay,
+.cookie-popup__wrapper,
+sibbo-cmp-layout,
+.cookiemessagebackground,
+.modals-wrapper,
+.modal-backdrop,
+.glue-cookie-notification-bar,
+.env-modal-dialog,
+.env-modal-dialog__backdrop
+
 
 /* 14113 */ {
   display: none !important;
