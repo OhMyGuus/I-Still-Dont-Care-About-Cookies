@@ -154,6 +154,7 @@ div[id^="xsp_message_container_"] {
 .cookie_banner:not(body):not(html),
 #cookiePolicyNotification,
 #cookiemodalbar,
+#cookieModal,
 #cookie-warning,
 .js-cookie-policy:not(body):not(html),
 #CookieReportsMiniPanel,
@@ -12765,6 +12766,7 @@ app-cookie-policy,
 #div_message_cookies,
 #cmpBackdrop,
 #overlay-cookies,
+.overlay-cookies,
 #cookies-sticky,
 .sprd-consent,
 .cookies-box-info,
@@ -14045,9 +14047,12 @@ sibbo-cmp-layout,
 .modal-backdrop,
 .glue-cookie-notification-bar,
 .env-modal-dialog,
-.env-modal-dialog__backdrop
-
-
+.env-modal-dialog__backdrop,
+#cookieWarningNew,
+#cookie-consent,
+.cc-modal-backdrop,
+.cookieModal,
+#onetrust-blocker
 /* 14113 */ {
   display: none !important;
   height: 0 !important;
