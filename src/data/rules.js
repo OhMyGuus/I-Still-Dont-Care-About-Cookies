@@ -17067,9 +17067,15 @@ const rules = {
   "trendmutti.com": { c: 85 },
   "tvo.de": { c: 85 },
   "pawsact.vier-pfoten.de": { c: 85 },
-  "happiesthealth.com": { s: "#elementor-popup-modal-9004111222217834{display:none!important}", c: 85 },
+  "happiesthealth.com": {
+    s: "#elementor-popup-modal-9004111222217834{display:none!important}",
+    c: 85,
+  },
   "sportland.com": { c: 85 },
-  "med.uni-rostock.de": { s: ".mm-menu{display:none!important} body > dialog{display: none!important}", c: 85 },
+  "med.uni-rostock.de": {
+    s: ".mm-menu{display:none!important} body > dialog{display: none!important}",
+    c: 85,
+  },
 };
 
 const blockUrls = {
