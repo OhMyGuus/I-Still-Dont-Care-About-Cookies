@@ -18503,7 +18503,7 @@ const blockUrls = {
     { r: "/Sticky2,ConsentManager" },
     { r: "cnilCookie.js" },
     { r: "basketballbelieve.com" },
-    { r: "app.usercentrics.eu/browser-ui/", e: ["kicker.de", "kicker.ch"] },
+    { r: "app.usercentrics.eu/browser-ui/", e: ["kicker.de", "kicker.ch"]},
     { r: "cc.anytrack.de/app.js" },
     { r: "/utag/ctm/business-insurance/prod/utag.js" },
     { r: "/GDPRPanelComponent" },
@@ -20584,6 +20584,7 @@ const blockUrls = {
     "saeco.de": ["/cookiewall/"],
     "sage.co.uk": ["/Cookies.js"],
     "liebherr.com": ["/cmp/"],
+
   },
 };
 
