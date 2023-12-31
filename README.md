@@ -8,6 +8,8 @@
 
 ### Debloated fork of the extension "I don't care about cookies"
 
+#### Get rid of cookie warnings from almost all websites!
+
 <a href="https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/releases/latest">
       <img alt="Latest release" src="https://img.shields.io/github/v/release/OhMyGuus/I-Still-Dont-Care-About-Cookies.svg?logo=github&style=for-the-badge">
 </a>
@@ -19,10 +21,6 @@
 </a>
 
 </div>
-
-## Fork of the popular "I don't care about cookies" extension
-
-Get rid of cookie warnings from almost all websites!
 
 ## Why fork?
 
