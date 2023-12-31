@@ -4,7 +4,7 @@
 
 <image src="src/icons/128.png">
   
-# I Still Dont Care About Cookies
+# I still don't care about cookies
 
 ### Debloated fork of the extension "I don't care about cookies"
 
