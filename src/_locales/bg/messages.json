@@ -1,14 +1,12 @@
 {
   "extensionName": {
-    "message": "I still don't care about cookies",
+    "message": "Все още не ме е грижа за бисквитките",
     "description": "Name of the extension."
   },
-
   "extensionDescription": {
-    "message": "Сбогом на предупрежденията.",
+    "message": "Общностна версия на добавката „Все още не ме е грижа за бисквитките“ (без Avast)",
     "description": "Description of the extension."
   },
-
   "reportSkippedTitle": {
     "message": "Добавката е изключена за $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",
@@ -19,12 +17,10 @@
       }
     }
   },
-
   "reportSkippedMessage": {
     "message": "Вие сте изключили добавката за този сайт. Моля, включете я и проверете дали виждате предупреждението за бисквитки преди да го докладвате.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
-
   "reportConfirm": {
     "message": "Желаете ли да докладвате предупреждение за бисквитки в $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
@@ -35,7 +31,6 @@
       }
     }
   },
-
   "menuEnable": {
     "message": "Включване на добавката за $HOSTNAME$",
     "description": "Menu option.",
@@ -46,7 +41,6 @@
       }
     }
   },
-
   "menuDisable": {
     "message": "Изключване на добавката за $HOSTNAME$",
     "description": "Menu option.",
@@ -57,39 +51,96 @@
       }
     }
   },
-
   "menuIdle": {
     "message": "Добавката не работи за този сайт",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
-
   "menuReport": {
     "message": "Докладвайте предупреждение за бисквитки",
     "description": "Menu option."
   },
-
   "menuSupport": {
     "message": "Подкрепете този проект",
     "description": "Menu option."
   },
-
   "optionsTitle": {
     "message": "Настройки",
     "description": "Title for the options page."
   },
-
   "optionsWhitelist": {
     "message": "Списък на всички сайтове, на които е разрешено да показват предупреждения за бисквитки. По един сайт на ред:",
     "description": "Options text for whitelist box."
   },
-
+  "optionStatusIndicators": {
+    "message": "показатели на състоянието",
+    "description": "Option text for enabling the status indicator"
+  },
   "optionsButton": {
     "message": "Запазване на настройките",
     "description": "Options text for SAVE button."
   },
-
-  "optionsSaved": {
-    "message": "Настройките са запазени успешно.",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Докладване посредством Github",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Безименно докладване",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Докладване",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Бележки: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Неща като:\nВидеото не се възпроизвежда\nЧупен плъзгач\nСива област на екрана",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Изпращане на доклад",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Отказ",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "Нещо се обърка",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Опитай пак по-късно..",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Назад",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Зареждане...",
+    "description": "Loading messsage"
+  },
+  "generalIssueOption": {
+    "message": "General issue (requires notes)",
+    "description": "The option text for a general issue"
+  },
+  "scrollbarIssueOption": {
+    "message": "Scrollbar related",
+    "description": "The option text for a scrollbar issue"
+  },
+  "modalIssueOption": {
+    "message": "Modal related",
+    "description": "The option text for a modal issue"
+  },
+  "scrollbarIssueDescription": {
+    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "description": "Explanation of what a scrollbar issue is"
+  },
+  "modalIssueDescription": {
+    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "description": "Explanation of what a modal issue is"
   }
 }

@@ -1,24 +1,37 @@
+import { blockUrls, commons, commonJSHandlers, rules } from "./rules.js";
 // Vars
-
+let initialized = false;
 let cachedRules = {};
-let whitelistedDomains = {};
 let tabList = {};
 const xmlTabs = {};
 let lastDeclarativeNetRuleId = 1;
-
+let settings = { statusIndicators: true, whitelistedDomains: {} };
 const isManifestV3 = chrome.runtime.getManifest().manifest_version == 3;
 
-if (isManifestV3) {
-  /* rules.js */
-  try {
-    importScripts("rules.js");
-  } catch (e) {
-    console.log(e);
-  }
+// Badges
+function setBadge(tabId, text) {
+  const chromeAction = chrome?.browserAction ?? chrome?.action;
+
+  if (!chromeAction || !settings.statusIndicators) return;
+
+  chromeAction.setBadgeText({ text: text || "", tabId: tabId });
+
+  if (chromeAction.setBadgeBackgroundColor)
+    chromeAction.setBadgeBackgroundColor({
+      color: "#646464",
+      tabId: tabId,
+    });
+}
+
+function setSuccessBadge(tabId) {
+  setBadge(tabId, "✅");
+}
+
+function setDisabledBadge(tabId) {
+  setBadge(tabId, "⛔");
 }
 
 // Common functions
-
 function getHostname(url, cleanup) {
   try {
     if (url.indexOf("http") != 0) {
@@ -36,20 +49,24 @@ function getHostname(url, cleanup) {
 }
 
 // Whitelisting
-function updateWhitelist() {
-  lastDeclarativeNetRuleId = 1;
-  chrome.storage.local.get("whitelisted_domains", async (storedWhitelist) => {
-    if (typeof storedWhitelist.whitelisted_domains != "undefined") {
-      whitelistedDomains = storedWhitelist.whitelisted_domains;
-    }
+function updateSettings() {
+  return new Promise((resolve) => {
+    lastDeclarativeNetRuleId = 1;
+    chrome.storage.local.get(
+      { settings: { whitelistedDomains: {}, statusIndicators: true } },
+      async ({ settings: storedSettings }) => {
+        settings = storedSettings;
 
-    if (isManifestV3) {
-      await UpdateWhitelistRules();
-    }
+        if (isManifestV3) {
+          await updateWhitelistRules();
+        }
+        resolve();
+      }
+    );
   });
 }
 
-async function UpdateWhitelistRules() {
+async function updateWhitelistRules() {
   if (!isManifestV3) {
     console.warn("Called unsupported function");
     return;
@@ -59,7 +76,7 @@ async function UpdateWhitelistRules() {
   ).map((v) => {
     return v.id;
   });
-  const addRules = Object.entries(whitelistedDomains)
+  const addRules = Object.entries(settings.whitelistedDomains)
     .filter((element) => element[1])
     .map((v) => {
       return {
@@ -80,21 +97,13 @@ async function UpdateWhitelistRules() {
   });
 }
 
-updateWhitelist();
-
-chrome.runtime.onMessage.addListener(async function (request, info) {
-  if (request == "update_whitelist") {
-    updateWhitelist();
-  }
-});
-
 function isWhitelisted(tab) {
-  if (typeof whitelistedDomains[tab.hostname] != "undefined") {
+  if (typeof settings.whitelistedDomains[tab.hostname] != "undefined") {
     return true;
   }
 
   for (const i in tab.host_levels) {
-    if (typeof whitelistedDomains[tab.host_levels[i]] != "undefined") {
+    if (typeof settings.whitelistedDomains[tab.host_levels[i]] != "undefined") {
       return true;
     }
   }
@@ -103,12 +112,12 @@ function isWhitelisted(tab) {
 }
 
 function getWhitelistedDomain(tab) {
-  if (typeof whitelistedDomains[tab.hostname] != "undefined") {
+  if (typeof settings.whitelistedDomains[tab.hostname] != "undefined") {
     return tab.hostname;
   }
 
   for (const i in tab.host_levels) {
-    if (typeof whitelistedDomains[tab.host_levels[i]] != "undefined") {
+    if (typeof settings.whitelistedDomains[tab.host_levels[i]] != "undefined") {
       return tab.host_levels[i];
     }
   }
@@ -123,23 +132,19 @@ async function toggleWhitelist(tab) {
 
   if (tabList[tab.id].whitelisted) {
     // const hostname = getWhitelistedDomain(tabList[tab.id]);
-    delete whitelistedDomains[tabList[tab.id].hostname];
+    delete settings.whitelistedDomains[tabList[tab.id].hostname];
   } else {
-    whitelistedDomains[tabList[tab.id].hostname] = true;
+    settings.whitelistedDomains[tabList[tab.id].hostname] = true;
   }
-
-  chrome.storage.local.set(
-    { whitelisted_domains: whitelistedDomains },
-    function () {
-      for (const i in tabList) {
-        if (tabList[i].hostname == tabList[tab.id].hostname) {
-          tabList[i].whitelisted = !tabList[tab.id].whitelisted;
-        }
+  chrome.storage.local.set({ settings }, function () {
+    for (const i in tabList) {
+      if (tabList[i].hostname == tabList[tab.id].hostname) {
+        tabList[i].whitelisted = !tabList[tab.id].whitelisted;
       }
     }
-  );
+  });
   if (isManifestV3) {
-    await UpdateWhitelistRules();
+    await updateWhitelistRules();
   }
 }
 
@@ -183,37 +188,38 @@ function onRemovedListener(tabId) {
   }
 }
 
-function recreateTabList() {
+async function recreateTabList(magic) {
   tabList = {};
+  let results;
+  if (isManifestV3) {
+    results = await chrome.tabs.query({});
+  } else {
+    results = await new Promise((resolve, reject) => {
+      chrome.tabs.query({}, (result) => {
+        if (chrome.runtime.lastError) reject(chrome.runtime.lastError);
+        resolve(result);
+      });
+    });
+  }
+  results.forEach(onCreatedListener);
 
-  chrome.tabs.query({}, function (results) {
-    results.forEach(onCreatedListener);
-
+  if (magic) {
     for (const i in tabList) {
-      doTheMagic(tabList[i].id);
+      if (tabList.hasOwnProperty(i)) {
+        doTheMagic(tabList[i].id);
+      }
     }
-  });
+  }
 }
 
 chrome.tabs.onCreated.addListener(onCreatedListener);
 chrome.tabs.onUpdated.addListener(onUpdatedListener);
 chrome.tabs.onRemoved.addListener(onRemovedListener);
 
-chrome.runtime.onStartup.addListener(function (d) {
-  cachedRules = {};
-  recreateTabList();
-});
-
-chrome.runtime.onInstalled.addListener(function (d) {
-  cachedRules = {};
-
-  if (
-    d.reason == "update" &&
-    chrome.runtime.getManifest().version > d.previousVersion
-  ) {
-    recreateTabList();
-  }
-});
+// chrome.runtime.onStartup.addListener(async () => await initialize(true));
+chrome.runtime.onInstalled.addListener(
+  async () => await initialize(false, true)
+);
 
 // URL blocking
 
@@ -231,7 +237,12 @@ function blockUrlCallback(d) {
     }
   }
 
-  if (tabList[d.tabId] && !tabList[d.tabId].whitelisted && d.url) {
+  if (tabList[d.tabId]?.whitelisted ?? false) {
+    setDisabledBadge(d.tabId);
+    return { cancel: false };
+  }
+
+  if (tabList[d.tabId] && d.url) {
     const cleanURL = d.url.split("?")[0];
 
     // To shorten the checklist, many filters are grouped by keywords
@@ -259,7 +270,7 @@ function blockUrlCallback(d) {
                 }
               }
             }
-
+            setSuccessBadge(d.tabId);
             return { cancel: true };
           }
         }
@@ -289,7 +300,7 @@ function blockUrlCallback(d) {
             }
           }
         }
-
+        setSuccessBadge(d.tabId);
         return { cancel: true };
       }
     }
@@ -303,6 +314,7 @@ function blockUrlCallback(d) {
 
           for (const i in rules) {
             if (d.url.indexOf(rules[i]) > -1) {
+              setSuccessBadge(d.tabId);
               return { cancel: true };
             }
           }
@@ -341,7 +353,7 @@ if (!isManifestV3) {
 }
 // Reporting
 
-function reportWebsite(info, tab) {
+function reportWebsite(info, tab, anon, issueType, notes, callback) {
   if (tab.url.indexOf("http") != 0 || !tabList[tab.id]) {
     return;
   }
@@ -360,10 +372,61 @@ function reportWebsite(info, tab) {
       iconUrl: "icons/48.png",
     });
   }
+  if (!anon) {
+    chrome.tabs.create({
+      url: `https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/issues/new?assignees=OhMyGuus&labels=Website+request&template=website_request.yml&title=%5BREQ%5D%3A+${encodeURIComponent(
+        hostname
+      )}&url=${encodeURIComponent(hostname)}&version=${encodeURIComponent(
+        chrome.runtime.getManifest().version
+      )}&browser=${encodeURIComponent(getBrowserAndVersion())}`,
+    });
+  } else {
+    fetch("https://api.istilldontcareaboutcookies.com/api/report", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        issueType,
+        notes,
+        url: tab.url,
+        browser: getBrowserAndVersion(),
+        extensionVersion: chrome.runtime.getManifest().version,
+      }),
+    })
+      .then((response) => response.json())
+      .then((response) => {
+        if (
+          response &&
+          !response.error &&
+          !response.errors &&
+          response.responseURL
+        ) {
+          chrome.tabs.create({
+            url: response.responseURL,
+          });
+          callback({ error: false });
+        } else {
+          callback({ error: true });
+        }
+      })
+      .catch(() => {
+        callback({ error: true });
+      });
+  }
+}
 
-  chrome.tabs.create({
-    url: "https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/issues/new",
-  });
+function getBrowserAndVersion() {
+  const useragent = navigator.userAgent;
+  if (useragent.includes("Firefox")) {
+    return useragent.match(/Firefox\/([0-9]+[\S]+)/)[0].replace("/", " ");
+  } else if (useragent.includes("Chrome")) {
+    if (navigator.userAgentData.brands.length > 2) {
+      const { brand, version } = navigator.userAgentData.brands[1];
+      return brand + " " + version;
+    }
+  }
+  return "Other";
 }
 
 // Adding custom CSS/JS
@@ -398,12 +461,13 @@ function activateDomain(hostname, tabId, frameId) {
     executeScript({
       tabId,
       frameId,
-      file:
-        "data/js/" +
-        (cachedRule.j > 0 ? "common" + cachedRule.j : hostname) +
-        ".js",
+      file: `/data/js/${commonJSHandlers[cachedRule.j]}.js`,
     });
     status = true;
+  }
+
+  if (status) {
+    setSuccessBadge(tabId);
   }
 
   return status;
@@ -415,12 +479,13 @@ function doTheMagic(tabId, frameId, anotherTry) {
   }
 
   if (tabList[tabId].whitelisted) {
+    setDisabledBadge(tabId);
     return;
   }
 
   // Common CSS rules
   insertCSS(
-    { tabId, frameId: frameId || 0, file: "data/css/common.css" },
+    { tabId, frameId: frameId || 0, file: "/data/css/common.css" },
     function () {
       // A failure? Retry.
       if (chrome.runtime.lastError) {
@@ -428,15 +493,19 @@ function doTheMagic(tabId, frameId, anotherTry) {
 
         const currentTry = anotherTry || 1;
 
-        if (currentTry == 5) {
+        if (currentTry == 10) {
           return;
         }
-
-        return doTheMagic(tabId, frameId || 0, currentTry + 1);
+        if (currentTry > 5) {
+          setTimeout(() => doTheMagic(tabId, frameId || 0, currentTry + 1));
+        } else {
+          doTheMagic(tabId, frameId || 0, currentTry + 1);
+        }
+        return;
       }
 
       // Common social embeds
-      executeScript({ tabId, frameId, file: "data/js/embeds.js" });
+      executeScript({ tabId, frameId, file: "/data/js/embedsHandler.js" });
 
       if (activateDomain(tabList[tabId].hostname, tabId, frameId || 0)) {
         return;
@@ -451,14 +520,21 @@ function doTheMagic(tabId, frameId, anotherTry) {
       }
 
       // Common JS rules when custom rules don't exist
-      executeScript({ tabId, frameId, file: "data/js/common.js" });
+      executeScript({
+        tabId,
+        frameId,
+        file: "/data/js/0_defaultClickHandler.js",
+      });
     }
   );
 }
 
-chrome.webNavigation.onCommitted.addListener(function (tab) {
+chrome.webNavigation.onCommitted.addListener(async (tab) => {
   if (tab.frameId > 0) {
     return;
+  }
+  if (!initialized) {
+    await initialize();
   }
 
   tabList[tab.tabId] = getPreparedTab(tab);
@@ -466,50 +542,68 @@ chrome.webNavigation.onCommitted.addListener(function (tab) {
   doTheMagic(tab.tabId);
 });
 
-chrome.webRequest.onResponseStarted.addListener(
-  function (tab) {
-    if (tab.frameId > 0) {
-      doTheMagic(tab.tabId, tab.frameId);
-    }
-  },
-  { urls: ["<all_urls>"], types: ["sub_frame"] }
-);
+chrome.webNavigation.onCompleted.addListener(async function (tab) {
+  if (!initialized) {
+    await initialize();
+  }
+  if (tab.frameId > 0 && tab.url != "about:blank") {
+    doTheMagic(tab.tabId, tab.frameId);
+  }
+});
 
 // Toolbar menu
 
-chrome.runtime.onMessage.addListener(function (request, info, sendResponse) {
-  if (typeof request == "object") {
-    if (request.tabId && tabList[request.tabId]) {
-      if (request.command == "get_active_tab") {
-        const response = { tab: tabList[request.tabId] };
+chrome.runtime.onMessage.addListener((request, info, sendResponse) => {
+  initialize().then(() => {
+    let responseSend = false;
+    if (typeof request == "object") {
+      if (request.tabId && tabList[request.tabId]) {
+        if (request.command == "get_active_tab") {
+          const response = { tab: tabList[request.tabId] };
 
-        if (response.tab.whitelisted) {
-          response.tab.hostname = getWhitelistedDomain(tabList[request.tabId]);
+          if (response.tab.whitelisted) {
+            response.tab.hostname = getWhitelistedDomain(
+              tabList[request.tabId]
+            );
+          }
+          sendResponse(response);
+          responseSend = true;
+        } else if (request.command == "toggle_extension") {
+          toggleWhitelist(tabList[request.tabId]);
+        } else if (request.command == "report_website") {
+          reportWebsite(
+            info,
+            tabList[request.tabId],
+            request.anon,
+            request.issueType,
+            request.notes,
+            sendResponse
+          );
+          responseSend = true;
+        } else if (request.command == "refresh_page") {
+          executeScript({
+            tabId: request.tabId,
+            func: () => {
+              window.location.reload();
+            },
+          });
         }
-
-        sendResponse(response);
-      } else if (request.command == "toggle_extension") {
-        toggleWhitelist(tabList[request.tabId]);
-      } else if (request.command == "report_website") {
-        chrome.tabs.create({
-          url:
-            "https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/issues/new?assignees=OhMyGuus&labels=Website+request&template=site-request.md&title=%5BREQ%5D+Website+request%3A+" +
-            encodeURIComponent(tabList[request.tabId].url),
-        });
-      } else if (request.command == "refresh_page") {
-        executeScript({
-          tabId: request.tabId,
-          func: () => {
-            window.location.reload();
-          },
-        });
+      } else {
+        if (request.command == "open_options_page") {
+          chrome.tabs.create({
+            url: chrome.runtime.getURL("/data/options.html"),
+          });
+        }
       }
-    } else {
-      if (request.command == "open_options_page") {
-        chrome.tabs.create({ url: chrome.runtime.getURL("data/options.html") });
-      }
+    } else if (request == "update_settings") {
+      updateSettings();
     }
-  }
+    if (!responseSend) {
+      sendResponse();
+    }
+  });
+
+  return true;
 });
 
 function insertCSS(injection, callback) {
@@ -521,6 +615,7 @@ function insertCSS(injection, callback) {
         target: { tabId: tabId, frameIds: [frameId || 0] },
         css: css,
         files: file ? [file] : undefined,
+        origin: "USER",
       },
       callback
     );
@@ -532,6 +627,7 @@ function insertCSS(injection, callback) {
         code: css,
         frameId: frameId || 0,
         runAt: xmlTabs[tabId] ? "document_idle" : "document_start",
+        cssOrigin: "user",
       },
       callback
     );
@@ -564,3 +660,20 @@ function executeScript(injection, callback) {
     );
   }
 }
+
+async function loadCachedRules() {
+  // TODO: Load cached rules for V3 to improve speed (Requires testing to see if this actually is faster for v3)
+  cachedRules = {};
+}
+
+async function initialize(checkInitialized, magic) {
+  if (checkInitialized && initialized) {
+    return;
+  }
+  loadCachedRules();
+  await updateSettings();
+  await recreateTabList(magic);
+  initialized = true;
+}
+
+initialize();

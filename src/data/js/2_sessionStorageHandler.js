@@ -1,10 +1,13 @@
-function getItem(h) {
-  switch (h) {
+/*  Session storage handler */
+/*  Use this handler if it's possible to remove the warning using the session storage and can't be handeld using css*/
+
+function getItem(hostname) {
+  switch (hostname) {
     case "pepephone.com":
       return { strict: true, key: "cookiesChosen", value: "done" };
   }
 
-  const parts = h.split(".");
+  const parts = hostname.split(".");
 
   if (parts.length > 2) {
     parts.shift();
@@ -14,8 +17,8 @@ function getItem(h) {
   return false;
 }
 
-const h = document.location.hostname.replace(/^w{2,3}\d*\./i, "");
-const item = getItem(h);
+const hostname = document.location.hostname.replace(/^w{2,3}\d*\./i, "");
+const item = getItem(hostname);
 
 if (item) {
   const value = sessionStorage.getItem(item.key);

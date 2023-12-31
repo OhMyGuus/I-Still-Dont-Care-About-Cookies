@@ -3,12 +3,10 @@
     "message": "I still don't care about cookies",
     "description": "Name of the extension."
   },
-
   "extensionDescription": {
-    "message": "Rozlučte se s oznámeními.",
+    "message": "Komunitní verze rozšíření \"I don't care about cookies\" (bez Avastu)",
     "description": "Description of the extension."
   },
-
   "reportSkippedTitle": {
     "message": "Rozšíření je pro $HOSTNAME$ zakázáno.",
     "description": "Tells the user it cannot report a whitelisted domain.",
@@ -19,12 +17,10 @@
       }
     }
   },
-
   "reportSkippedMessage": {
     "message": "Na tomto webu jste rozšíření zakázali. Povolte jej a znovu zkontrolujte správnou funkčnost rozšíření.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
-
   "reportConfirm": {
     "message": "Chtele nahlásit oznámení o cookies na $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
@@ -35,7 +31,6 @@
       }
     }
   },
-
   "menuEnable": {
     "message": "Povolit rozšíření pro $HOSTNAME$",
     "description": "Menu option.",
@@ -46,7 +41,6 @@
       }
     }
   },
-
   "menuDisable": {
     "message": "Zakázat rozšíření pro $HOSTNAME$",
     "description": "Menu option.",
@@ -57,39 +51,96 @@
       }
     }
   },
-
   "menuIdle": {
     "message": "Rozšíření na tomto webu nefunguje",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
-
   "menuReport": {
     "message": "Nahlásit oznámení o cookies",
     "description": "Menu option."
   },
-
   "menuSupport": {
     "message": "Podpořit tento projekt",
     "description": "Menu option."
   },
-
   "optionsTitle": {
     "message": "Nastavení",
     "description": "Title for the options page."
   },
-
   "optionsWhitelist": {
     "message": "Seznam všech povolených webů, jeden web na řádek:",
     "description": "Options text for whitelist box."
   },
-
+  "optionStatusIndicators": {
+    "message": "indikátory stavu",
+    "description": "Option text for enabling the status indicator"
+  },
   "optionsButton": {
     "message": "Uložit nastavení",
     "description": "Options text for SAVE button."
   },
-
-  "optionsSaved": {
-    "message": "Nastavení bylo uloženo.",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Nahlásit pomocí Githubu",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Nahlásit anonymně",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Nahlásit",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Poznámky: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Věci jako:\nNefunguje přehrávání videa\nNefunkční posuvník\nšedé překrytí",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Odeslat hlášení",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Zrušit",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "Něco se nepovedlo",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Zkuste to znovu později..",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Zpět",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Načítání...",
+    "description": "Loading messsage"
+  },
+  "generalIssueOption": {
+    "message": "Obecný problém (vyžaduje poznámky)",
+    "description": "The option text for a general issue"
+  },
+  "scrollbarIssueOption": {
+    "message": "Související s posuvníkem",
+    "description": "The option text for a scrollbar issue"
+  },
+  "modalIssueOption": {
+    "message": "Modal related",
+    "description": "The option text for a modal issue"
+  },
+  "scrollbarIssueDescription": {
+    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "description": "Explanation of what a scrollbar issue is"
+  },
+  "modalIssueDescription": {
+    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "description": "Explanation of what a modal issue is"
   }
 }

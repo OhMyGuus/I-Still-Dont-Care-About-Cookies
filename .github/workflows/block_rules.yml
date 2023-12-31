@@ -1,0 +1,40 @@
+name: Generate manifest V3 block rules
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  generate-block-rules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate block rules
+        run: node ./.github/workflows/generateBlockRules.js > src/rules.json
+
+      - name: Run Prettier
+        run: npx prettier --write ./src/rules.json
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Update block rules for Manifest V3
+          branch: update-block-rules
+          title: Update manifest V3 block rules
+          add-paths: |
+            src/rules.json
+          body: |
+            This pull request updates the manifest V3 block rules.

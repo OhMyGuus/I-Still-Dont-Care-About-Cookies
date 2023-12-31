@@ -1,14 +1,12 @@
 {
   "extensionName": {
-    "message": "I still don't care about cookies",
+    "message": "Jeg bryr meg fortsatt ikke om informasjonskapsler",
     "description": "Name of the extension."
   },
-
   "extensionDescription": {
-    "message": "Si farvel til advarsler.",
+    "message": "En versjon av utvidelsen `Jeg bryr meg ikke om informasjonskapsler` (uten Avast) som er laget av felleskapet",
     "description": "Description of the extension."
   },
-
   "reportSkippedTitle": {
     "message": "Utvidelsen er avskrudd på $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",
@@ -19,12 +17,10 @@
       }
     }
   },
-
   "reportSkippedMessage": {
     "message": "Du har skrudd av utvidelsen på dette nettstedet. Vennligst skru den på og se om du fortsatt ser infokapseladvarselen, før du melder ifra om den.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
-
   "reportConfirm": {
     "message": "Vil du melde ifra om en infokapseladvarsel på $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
@@ -35,7 +31,6 @@
       }
     }
   },
-
   "menuEnable": {
     "message": "Skru på utvidelsen på $HOSTNAME$",
     "description": "Menu option.",
@@ -46,7 +41,6 @@
       }
     }
   },
-
   "menuDisable": {
     "message": "Skru av utvidelsen på $HOSTNAME$",
     "description": "Menu option.",
@@ -57,39 +51,96 @@
       }
     }
   },
-
   "menuIdle": {
     "message": "Utvidelsen virker ikke på dette nettstedet",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
-
   "menuReport": {
     "message": "Meld ifra om en infokapseladvarsel",
     "description": "Menu option."
   },
-
   "menuSupport": {
     "message": "Støtt dette prosjektet",
     "description": "Menu option."
   },
-
   "optionsTitle": {
     "message": "Innstillinger",
     "description": "Title for the options page."
   },
-
   "optionsWhitelist": {
     "message": "Liste over alle hvitelistede nettsteder, ett nettsted per linje:",
     "description": "Options text for whitelist box."
   },
-
+  "optionStatusIndicators": {
+    "message": "statusindikatorer",
+    "description": "Option text for enabling the status indicator"
+  },
   "optionsButton": {
     "message": "Lagre innstillinger",
     "description": "Options text for SAVE button."
   },
-
-  "optionsSaved": {
-    "message": "Innstillingene ble vellykket lagret.",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Rapporter med Github",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Rapporter anonymt",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Rapporter",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Notater: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Ting som:\nVideoavspilling som ikke fungerer\nDefekt rullefelt\ngrått overlegg",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Send rapport",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Avbryt",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "Noe gikk galt",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Prøv igjen senere..",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Tilbake",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Laster...",
+    "description": "Loading messsage"
+  },
+  "generalIssueOption": {
+    "message": "General issue (requires notes)",
+    "description": "The option text for a general issue"
+  },
+  "scrollbarIssueOption": {
+    "message": "Scrollbar related",
+    "description": "The option text for a scrollbar issue"
+  },
+  "modalIssueOption": {
+    "message": "Modal related",
+    "description": "The option text for a modal issue"
+  },
+  "scrollbarIssueDescription": {
+    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "description": "Explanation of what a scrollbar issue is"
+  },
+  "modalIssueDescription": {
+    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "description": "Explanation of what a modal issue is"
   }
 }

@@ -1,9 +1,8 @@
 {
   "manifest_version": 2,
   "name": "__MSG_extensionName__",
-  "short_name": "__MSG_extensionDescription__",
   "default_locale": "en",
-  "version": "1.0.3",
+  "version": "1.1.2",
   "icons": {
     "16": "icons/16.png",
     "48": "icons/48.png",
@@ -13,6 +12,10 @@
     "gecko": {
       "id": "idcac-pub@guus.ninja",
       "strict_min_version": "42.0"
+    },
+    "gecko_android": {
+      "id": "idcac-pub@guus.ninja",
+      "strict_min_version": "78.0"
     }
   },
   "author": "OhMyGuus and Community (originally Daniel Kladnik)",
@@ -27,7 +30,7 @@
     "webNavigation"
   ],
   "background": {
-    "scripts": ["data/rules.js", "data/context-menu.js"]
+    "page": "data/background.html"
   },
   "options_ui": {
     "page": "data/options.html",

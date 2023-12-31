@@ -3,12 +3,10 @@
     "message": "I still don't care about cookies",
     "description": "Name of the extension."
   },
-
   "extensionDescription": {
-    "message": "Zbohom varovania.",
+    "message": "Komunitná verzia rozšírenia `I don't care about cookies` (nepatrí Avastu)",
     "description": "Description of the extension."
   },
-
   "reportSkippedTitle": {
     "message": "Rozšírenie je na $HOSTNAME$ vypnuté.",
     "description": "Tells the user it cannot report a whitelisted domain.",
@@ -19,12 +17,10 @@
       }
     }
   },
-
   "reportSkippedMessage": {
     "message": "Na tejto stránke ste rozšírenie zakázali. Prosím, povoľte ho a skontrolujte, či vidíte varovanie pred cookies pred tým, ako vytvoríte hlásenie.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
-
   "reportConfirm": {
     "message": "Želáte si vytvoriť hlásenie o varovaní pred cookies na $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
@@ -35,7 +31,6 @@
       }
     }
   },
-
   "menuEnable": {
     "message": "Povoliť rozšírenie na $HOSTNAME$",
     "description": "Menu option.",
@@ -46,7 +41,6 @@
       }
     }
   },
-
   "menuDisable": {
     "message": "Zakázať rozšírenie na $HOSTNAME$",
     "description": "Menu option.",
@@ -57,39 +51,96 @@
       }
     }
   },
-
   "menuIdle": {
     "message": "Rozšírenie na tejto stránke nefunguje",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
-
   "menuReport": {
     "message": "Nahlásiť varovanie pred cookies",
     "description": "Menu option."
   },
-
   "menuSupport": {
     "message": "Podporte tento projekt",
     "description": "Menu option."
   },
-
   "optionsTitle": {
     "message": "Nastavenia",
     "description": "Title for the options page."
   },
-
   "optionsWhitelist": {
     "message": "Zoznam všetkých povolených stránok, jedna stránka na riadku:",
     "description": "Options text for whitelist box."
   },
-
+  "optionStatusIndicators": {
+    "message": "indikátory stavu",
+    "description": "Option text for enabling the status indicator"
+  },
   "optionsButton": {
     "message": "Uložiť nastavenia",
     "description": "Options text for SAVE button."
   },
-
-  "optionsSaved": {
-    "message": "Voľby úspešne uložené.",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Nahlásiť na GitHube",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Nahlásiť anonymne",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Nahlásiť",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Poznámky: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Things like:\nVideoplayback not working\nBroken scrollbar\ngray overlay",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Odoslať hlásenie",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Zrušiť",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "Vyskytla sa chyba",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Skúste to znova neskôr..",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Späť",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Načítava sa...",
+    "description": "Loading messsage"
+  },
+  "generalIssueOption": {
+    "message": "General issue (requires notes)",
+    "description": "The option text for a general issue"
+  },
+  "scrollbarIssueOption": {
+    "message": "Scrollbar related",
+    "description": "The option text for a scrollbar issue"
+  },
+  "modalIssueOption": {
+    "message": "Modal related",
+    "description": "The option text for a modal issue"
+  },
+  "scrollbarIssueDescription": {
+    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "description": "Explanation of what a scrollbar issue is"
+  },
+  "modalIssueDescription": {
+    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "description": "Explanation of what a modal issue is"
   }
 }

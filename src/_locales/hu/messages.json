@@ -3,12 +3,10 @@
     "message": "I still don't care about cookies",
     "description": "Name of the extension."
   },
-
   "extensionDescription": {
-    "message": "Mondj búcsút a figyelmeztetéseknek!",
+    "message": "Az `I don't care about cookies` kiegészítő közösségi verziója (Avast nélkül)",
     "description": "Description of the extension."
   },
-
   "reportSkippedTitle": {
     "message": "A kiegészítő ki van kapcsolva itt: $HOSTNAME$",
     "description": "Tells the user it cannot report a whitelisted domain.",
@@ -19,12 +17,10 @@
       }
     }
   },
-
   "reportSkippedMessage": {
     "message": "Ezen a webhelyen ki van kapcsolva a kiegészítő. Kérlek, kapcsold be és ellenőrizd le, hogy nem látsz-e figyelmeztetést mielőtt jelentenéd.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
-
   "reportConfirm": {
     "message": "Szeretnéd jelenteni a sütiket (cookie-kat) erről a webhelyről: $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
@@ -35,7 +31,6 @@
       }
     }
   },
-
   "menuEnable": {
     "message": "A kiegészítő bekapcsolása itt: $HOSTNAME$",
     "description": "Menu option.",
@@ -46,7 +41,6 @@
       }
     }
   },
-
   "menuDisable": {
     "message": "A kiegészítő kikapcsolása itt: $HOSTNAME$",
     "description": "Menu option.",
@@ -57,39 +51,96 @@
       }
     }
   },
-
   "menuIdle": {
-    "message": "A kiegészítő ezen a webhelyen nem működik",
+    "message": "A kiegészítő nem működik ezen a webhelyen",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
-
   "menuReport": {
-    "message": "Egy süti (cookie) figyelmeztetés jelentése",
+    "message": "Egy sütifigyelmeztetés jelentése",
     "description": "Menu option."
   },
-
   "menuSupport": {
     "message": "A projekt támogatása",
     "description": "Menu option."
   },
-
   "optionsTitle": {
     "message": "Beállítások",
     "description": "Title for the options page."
   },
-
   "optionsWhitelist": {
-    "message": "A fehér-listán szereplő webhelyek, egy weboldal soronként:",
+    "message": "A fehérlistán szereplő webhelyek, soronként egy weboldal:",
     "description": "Options text for whitelist box."
   },
-
+  "optionStatusIndicators": {
+    "message": "állapotjelzők",
+    "description": "Option text for enabling the status indicator"
+  },
   "optionsButton": {
     "message": "Beállítások mentése",
     "description": "Options text for SAVE button."
   },
-
-  "optionsSaved": {
-    "message": "A beállítások sikeresen el lettek mentve!",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Jelentés a GitHubon",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Jelentés névtelenül",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Jelentés",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Megjegyzések: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Olyan dolgok, mint:\nA videolejátszás nem működik\nElromlott görgetősáv\nszürke réteg",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Jelentés küldése",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Mégse",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "Valami hiba történt",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Próbáld később..",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Vissza",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Betöltés...",
+    "description": "Loading messsage"
+  },
+  "generalIssueOption": {
+    "message": "General issue (requires notes)",
+    "description": "The option text for a general issue"
+  },
+  "scrollbarIssueOption": {
+    "message": "Scrollbar related",
+    "description": "The option text for a scrollbar issue"
+  },
+  "modalIssueOption": {
+    "message": "Modal related",
+    "description": "The option text for a modal issue"
+  },
+  "scrollbarIssueDescription": {
+    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "description": "Explanation of what a scrollbar issue is"
+  },
+  "modalIssueDescription": {
+    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "description": "Explanation of what a modal issue is"
   }
 }

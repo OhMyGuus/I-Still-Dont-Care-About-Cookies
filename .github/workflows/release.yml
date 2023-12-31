@@ -2,6 +2,10 @@ name: Release listed
 
 on:
   workflow_dispatch:
+  push:
+    tags:
+      - "v*.*.*"
+      - "V*.*.*"
 
 jobs:
   build:
@@ -9,22 +13,21 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate release tag
-        id: tag
-        run: |
-          echo "::set-output name=release_tag::IDAC_$(date +"%Y.%m.%d_%H-%M")"
-
       - name: Move to manifest v3
         run: |
           cp src/manifest_v3.json src/manifest.json
 
+      - name: Clear hotreload
+        run: |
+          echo "" > src/data/hotreload.js
+
       - name: Archive Release
         run: |
-          7z a 'IDCAC-chrome.zip' -r './src/*'
+          7z a 'ISDCAC-chrome-source.zip' -r './src/*'
 
       - uses: actions/upload-artifact@v3
         with:
-          name: IDCAC-chrome
+          name: ISDCAC-chrome
           path: ./src/*
 
       - name: Move to manifest v2
@@ -38,16 +41,16 @@ jobs:
         with:
           cmd: build
           source: src
-          filename: "IDCAC.xpi"
+          filename: "ISDCAC.xpi"
 
       - uses: actions/upload-artifact@v3
         with:
-          name: IDCAC-firefox-unsigned
+          name: ISDCAC-firefox-unsigned
           path: ${{ steps.web-ext-build.outputs.target }}
 
       - uses: actions/upload-artifact@v3
         with:
-          name: IDCAC-firefox-source
+          name: ISDCAC-firefox-source
           path: ./src/*
 
       - name: "web-ext sign"
@@ -61,14 +64,22 @@ jobs:
           apiSecret: ${{ secrets.AMO_SIGN_SECRET }}
           timeout: 900000
 
+      - name: Sleep for 15 minutes
+        run: sleep 15m
+        shell: bash
+
+      - name: Download xpi
+        run: |
+          wget https://addons.mozilla.org/firefox/downloads/latest/istilldontcareaboutcookies/istilldontcareaboutcookies-latest.xpi --trust-server-names
+
       - uses: actions/upload-artifact@v3
         with:
-          name: IDCAC-firefox-signed
-          path: ${{ steps.web-ext-sign.outputs.target }}
+          name: ISDCAC-firefox-signed
+          path: istilldontcareaboutcookies-*.xpi
 
-      - name: Rename xpi
+      - name: Rename source xpi
         run: |
-          mv ${{ steps.web-ext-sign.outputs.target }} IDCAC-firefox.xpi
+          mv ${{ steps.web-ext-build.outputs.target }} ISDCAC-firefox-source.zip
 
       - name: "Create Release"
         uses: softprops/action-gh-release@v1
@@ -77,5 +88,6 @@ jobs:
         with:
           draft: true
           files: |
-            IDCAC-chrome.zip
-            IDCAC-firefox.xpi
+            ISDCAC-chrome-source.zip
+            ISDCAC-firefox-source.zip
+            istilldontcareaboutcookies-*.xpi

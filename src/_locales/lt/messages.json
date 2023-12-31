@@ -4,11 +4,6 @@
     "description": "Name of the extension."
   },
 
-  "extensionDescription": {
-    "message": "Pamirškite įkyrius įspėjimus apie reklaminius slapukus.",
-    "description": "Description of the extension."
-  },
-
   "reportSkippedTitle": {
     "message": "$HOSTNAME$ įskiepis yra išjungtas.",
     "description": "Tells the user it cannot report a whitelisted domain.",

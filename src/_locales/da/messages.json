@@ -3,14 +3,12 @@
     "message": "I still don't care about cookies",
     "description": "Name of the extension."
   },
-
   "extensionDescription": {
-    "message": "Sig farvel til advarsler.",
+    "message": "Fællesskabsversion af udvidelsen `I still don't care about cookies` (ingen Avast)",
     "description": "Description of the extension."
   },
-
   "reportSkippedTitle": {
-    "message": "Udvidelsen er slukket på $HOSTNAME$.",
+    "message": "Udvidelse er deaktiveret på $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",
     "placeholders": {
       "hostname": {
@@ -19,12 +17,10 @@
       }
     }
   },
-
   "reportSkippedMessage": {
-    "message": "Du har slukket udvidelsen på dette webstedet. Vær venlig at tænde den på og se, om du ser cookie-advarslen før du rapporterer det.",
+    "message": "Du har deaktiveret udvidelsen på dette webstedet. Vær venlig at aktiver den på og se, om du ser cookie-advarslen, før du rapporterer det.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
-
   "reportConfirm": {
     "message": "Vil du rapportere en cookie-advarsel på $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
@@ -35,9 +31,8 @@
       }
     }
   },
-
   "menuEnable": {
-    "message": "Tænd udvidelsen på $HOSTNAME$",
+    "message": "Aktiver udvidelse på $HOSTNAME$",
     "description": "Menu option.",
     "placeholders": {
       "hostname": {
@@ -46,9 +41,8 @@
       }
     }
   },
-
   "menuDisable": {
-    "message": "Sluk utvidelsen på $HOSTNAME$",
+    "message": "Deaktiver udvidelse på $HOSTNAME$",
     "description": "Menu option.",
     "placeholders": {
       "hostname": {
@@ -57,39 +51,96 @@
       }
     }
   },
-
   "menuIdle": {
     "message": "Udvidelsen virker ikke på dette webstedet",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
-
   "menuReport": {
-    "message": "Rapporter om en cookie-advarsel",
+    "message": "Rapporter en cookie-advarsel",
     "description": "Menu option."
   },
-
   "menuSupport": {
-    "message": "Støt dette prosjekt",
+    "message": "Støt dette projekt",
     "description": "Menu option."
   },
-
   "optionsTitle": {
     "message": "Indstillinger",
     "description": "Title for the options page."
   },
-
   "optionsWhitelist": {
-    "message": "Liste over alle hvidelistede websteder, et websted per linje:",
+    "message": "Liste over alle hvidlistede hjemmesider, en hjemmeside pr. linje:",
     "description": "Options text for whitelist box."
   },
-
+  "optionStatusIndicators": {
+    "message": "statusindikatorer",
+    "description": "Option text for enabling the status indicator"
+  },
   "optionsButton": {
-    "message": "Gem indstillingerne",
+    "message": "Gem indstillinger",
     "description": "Options text for SAVE button."
   },
-
-  "optionsSaved": {
-    "message": "Indstillingene blev vellykket gemt.",
-    "description": "Message after saving options."
+  "reportGithub": {
+    "message": "Rapporter vha. Github",
+    "description": "Menu item to report using Github"
+  },
+  "reportAnon": {
+    "message": "Rapportér anonymt",
+    "description": "Menu item to report anonymously"
+  },
+  "reportAnonTitle": {
+    "message": "Rapportér",
+    "description": "Translation of 'report' it will be shown like 'Report example.com'"
+  },
+  "reportAnonNotes": {
+    "message": "Bemærkninger: ",
+    "description": "Notes for the report"
+  },
+  "reportNotesPlaceholder": {
+    "message": "Ting som:\nVideoplayback virker ikke\nScrollbar virker ikke\ngråt overtræk",
+    "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
+  },
+  "reportAnonSend": {
+    "message": "Send rapport",
+    "description": "Button to send the report"
+  },
+  "reportAnonCancel": {
+    "message": "Annuller",
+    "description": "Button to cCancel the report"
+  },
+  "genericErrorTitle": {
+    "message": "Noget gik galt",
+    "description": "Genereric error title"
+  },
+  "genericErrorTryAgain": {
+    "message": "Prøv igen senere..",
+    "description": "Try again later message"
+  },
+  "genericErrorBack": {
+    "message": "Tilbage",
+    "description": "Back button after error"
+  },
+  "menuLoadingText": {
+    "message": "Indlæser...",
+    "description": "Loading messsage"
+  },
+  "generalIssueOption": {
+    "message": "General issue (requires notes)",
+    "description": "The option text for a general issue"
+  },
+  "scrollbarIssueOption": {
+    "message": "Scrollbar related",
+    "description": "The option text for a scrollbar issue"
+  },
+  "modalIssueOption": {
+    "message": "Modal related",
+    "description": "The option text for a modal issue"
+  },
+  "scrollbarIssueDescription": {
+    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "description": "Explanation of what a scrollbar issue is"
+  },
+  "modalIssueDescription": {
+    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "description": "Explanation of what a modal issue is"
   }
 }
