@@ -1,5 +1,25 @@
 ## [Read this issue about the current inactivity](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/issues/10278)
 
+<div align="center">
+
+<image src="src/icons/128.png">
+  
+# I Still Dont Care About Cookies
+
+### Debloated fork of the extension "I don't care about cookies"
+
+<a href="https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/releases/latest">
+      <img alt="Latest release" src="https://img.shields.io/github/v/release/OhMyGuus/I-Still-Dont-Care-About-Cookies.svg?logo=github&style=for-the-badge">
+</a>
+<a href="https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/releases">
+      <img alt="Releases" src="https://img.shields.io/github/downloads/OhMyGuus/I-Still-Dont-Care-About-Cookies/total?color=blue&label=downloads&style=for-the-badge">
+</a>
+<a href="LICENSE">
+      <img alt="License: GPL v3" src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge">
+</a>
+
+</div>
+
 ## Fork of the popular "I don't care about cookies" extension
 
 Get rid of cookie warnings from almost all websites!
@@ -36,10 +56,14 @@ This extension sends requests to an API hosted at _[api.istilldontcareaboutcooki
 - [Daniel Kladnik](https://www.linkedin.com/in/dkladnik) - Developer of original extension
 - Everyone who reported a website.
 
+## License
+
+This fork is based on [**v3.4.3**](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/versions/) of the extension, which has been distributed under the GPLv3 (GNU) license.
+
 ## Thanks to all contributors
 
 We would like to extend our gratitude to all the contributors, translators, and everyone who has helped make this extension possible. Your efforts and support are highly appreciated, and we could not have done it without you. Thank you!
 
-## License
-
-This fork is based on [**v3.4.3**](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/versions/) of the extension, which has been distributed under the GPLv3 (GNU) license.
+<a href="https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/graphs/contributors">
+  <img alt="List of contributors to this repository" src="https://contrib.rocks/image?repo=OhMyGuus/I-Still-Dont-Care-About-Cookies" />
+</a>
