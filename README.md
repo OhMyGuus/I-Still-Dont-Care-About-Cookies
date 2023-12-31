@@ -51,6 +51,10 @@ We welcome contributions to the translation of the extension. If you're interest
 
 This extension sends requests to an API hosted at _[api.istilldontcareaboutcookies.com](https://api.istilldontcareaboutcookies.com)_ - while this is a backend-facing piece of software, the source code is available [here on GitHub](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies-Api) and uses the C# ASP.NET library for an MVC structure.
 
+## License
+
+This fork is based on [**v3.4.3**](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/versions/) of the extension, which has been distributed under the GPLv3 (GNU) license.
+
 ## Credits / spotlights
 
 - [OhMyGuus](https://github.com/OhMyGuus/) - Current maintainer of this
@@ -59,10 +63,6 @@ This extension sends requests to an API hosted at _[api.istilldontcareaboutcooki
 - [All other contributors](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/graphs/contributors) (Thanks!)
 - [Daniel Kladnik](https://www.linkedin.com/in/dkladnik) - Developer of original extension
 - Everyone who reported a website.
-
-## License
-
-This fork is based on [**v3.4.3**](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/versions/) of the extension, which has been distributed under the GPLv3 (GNU) license.
 
 ## Thanks to all contributors
 
