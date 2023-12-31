@@ -36,8 +36,8 @@ This extension has been acquired by _**[Avast](https://en.wikipedia.org/wiki/Ava
 
 ## Manual installation
 
-- [Installation guide for **Firefox**](https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/wiki/Firefox-installation-guide)
-- [Installation guide for **Chrome**](https://github.com/OhMyGuus/I-Dont-Care-About-Cookies/wiki/Chrome-installation-guide)
+- [Installation guide for **Firefox**](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/wiki/Firefox-installation-guide)
+- [Installation guide for **Chrome**](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/wiki/Chrome-installation-guide)
 
 ## Contributing to Translation
 
