@@ -1,116 +1,98 @@
 name: Release listed
-
-on:
-  workflow_dispatch:
+"on":
+  workflow_dispatch: null
   push:
     tags:
-      - "v*.*.*"
-      - "V*.*.*"
-
+      - v*.*.*
+      - V*.*.*
 jobs:
   release-chrome:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
       - name: Move to manifest v3
         run: |
           cp src/manifest_v3.json src/manifest.json
-
       - name: Clear hotreload
         run: |
           echo "" > src/data/hotreload.js
-
       - name: Archive Release
         run: |
           7z a 'ISDCAC-chrome-source.zip' -r './src/*'
-
       - uses: actions/upload-artifact@v3
         with:
           name: ISDCAC-chrome
           path: ./src/*
-
-    - name: Upload & release
-      uses: mnao305/chrome-extension-upload@v4.0.1
-      with:
-        file-path: ISDCAC-chrome-source.zip
-        extension-id: hogefuga(extension id)
-        client-id: ${{ secrets.CHROME_CLIENT_ID }}
-        client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
-        refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
-
-    - name: "Create Release"
-      uses: softprops/action-gh-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        draft: true
-        files: |
-          ISDCAC-chrome-source.zip
-
+      - name: Upload & release
+        uses: mnao305/chrome-extension-upload@v4.0.1
+        with:
+          file-path: ISDCAC-chrome-source.zip
+          extension-id: hogefuga(extension id)
+          client-id: "${{ secrets.CHROME_CLIENT_ID }}"
+          client-secret: "${{ secrets.CHROME_CLIENT_SECRET }}"
+          refresh-token: "${{ secrets.CHROME_REFRESH_TOKEN }}"
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        with:
+          draft: true
+          files: |
+            ISDCAC-chrome-source.zip
   release-firefox:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
       - name: Move to manifest v2
         run: |
           cp src/manifest_v2.json src/manifest.json
-
       - name: Clear hotreload
         run: |
           echo "" > src/data/hotreload.js
-
-      - name: "web-ext build"
+      - name: web-ext build
         id: web-ext-build
         uses: kewisch/action-web-ext@v1
         with:
           cmd: build
           source: src
-          filename: "ISDCAC.xpi"
-
+          filename: ISDCAC.xpi
       - uses: actions/upload-artifact@v3
         with:
           name: ISDCAC-firefox-unsigned
-          path: ${{ steps.web-ext-build.outputs.target }}
-
+          path: "${{ steps.web-ext-build.outputs.target }}"
       - uses: actions/upload-artifact@v3
         with:
           name: ISDCAC-firefox-source
           path: ./src/*
-
-      - name: "web-ext sign"
+      - name: web-ext sign
         id: web-ext-sign
         uses: kewisch/action-web-ext@v1
         with:
           cmd: sign
-          source: ${{ steps.web-ext-build.outputs.target }}
+          source: "${{ steps.web-ext-build.outputs.target }}"
           channel: listed
-          apiKey: ${{ secrets.AMO_SIGN_KEY }}
-          apiSecret: ${{ secrets.AMO_SIGN_SECRET }}
+          apiKey: "${{ secrets.AMO_SIGN_KEY }}"
+          apiSecret: "${{ secrets.AMO_SIGN_SECRET }}"
           timeout: 900000
-
       - name: Sleep for 15 minutes
         run: sleep 15m
         shell: bash
-
       - name: Download xpi
-        run: |
-          wget https://addons.mozilla.org/firefox/downloads/latest/istilldontcareaboutcookies/istilldontcareaboutcookies-latest.xpi --trust-server-names
-
+        run: >
+          wget
+          https://addons.mozilla.org/firefox/downloads/latest/istilldontcareaboutcookies/istilldontcareaboutcookies-latest.xpi
+          --trust-server-names
       - uses: actions/upload-artifact@v3
         with:
           name: ISDCAC-firefox-signed
           path: istilldontcareaboutcookies-*.xpi
-
       - name: Rename source xpi
         run: |
           mv ${{ steps.web-ext-build.outputs.target }} ISDCAC-firefox-source.zip
-
-      - name: "Create Release"
+      - name: Create Release
         uses: softprops/action-gh-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         with:
           draft: true
           files: |
