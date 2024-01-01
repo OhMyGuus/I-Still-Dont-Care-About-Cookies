@@ -27,7 +27,7 @@ jobs:
         uses: mnao305/chrome-extension-upload@v4.0.1
         with:
           file-path: ISDCAC-chrome-source.zip
-          extension-id: hogefuga(extension id)
+          extension-id: edibdbjcniadpccecjdfdjjppcpchdlm
           client-id: "${{ secrets.CHROME_CLIENT_ID }}"
           client-secret: "${{ secrets.CHROME_CLIENT_SECRET }}"
           refresh-token: "${{ secrets.CHROME_REFRESH_TOKEN }}"
