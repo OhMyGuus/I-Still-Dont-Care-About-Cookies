@@ -8,7 +8,7 @@ on:
       - "V*.*.*"
 
 jobs:
-  build:
+  release-chrome:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -30,10 +30,36 @@ jobs:
           name: ISDCAC-chrome
           path: ./src/*
 
+    - name: Upload & release
+      uses: mnao305/chrome-extension-upload@v4.0.1
+      with:
+        file-path: ISDCAC-chrome-source.zip
+        extension-id: hogefuga(extension id)
+        client-id: ${{ secrets.CHROME_CLIENT_ID }}
+        client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
+        refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
+
+    - name: "Create Release"
+      uses: softprops/action-gh-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        draft: true
+        files: |
+          ISDCAC-chrome-source.zip
+
+  release-firefox:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
       - name: Move to manifest v2
         run: |
-          rm src/manifest.json
           cp src/manifest_v2.json src/manifest.json
+
+      - name: Clear hotreload
+        run: |
+          echo "" > src/data/hotreload.js
 
       - name: "web-ext build"
         id: web-ext-build
@@ -88,6 +114,5 @@ jobs:
         with:
           draft: true
           files: |
-            ISDCAC-chrome-source.zip
             ISDCAC-firefox-source.zip
             istilldontcareaboutcookies-*.xpi
