@@ -3175,9 +3175,7 @@ function getSelector(host) {
     case "tweakers.net":
       return _if(
         ".koekie_bar:not(.koekie_bar_inactive)",
-        '.koekie_interaction_button[data-action="configure"]',
-        '.koekie_bar .notSelect.toggleSwitch.on[data-action="toggleAll"]',
-        '.koekie_interaction_button[data-action="saveConfigured"]'
+        'button[data-action="refuseAll"]',
       );
     case "kaggle.com":
       return _if(
