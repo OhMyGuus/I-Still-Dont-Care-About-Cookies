@@ -3175,7 +3175,7 @@ function getSelector(host) {
     case "tweakers.net":
       return _if(
         ".koekie_bar:not(.koekie_bar_inactive)",
-        'button[data-action="refuseAll"]',
+        'button[data-action="refuseAll"]'
       );
     case "kaggle.com":
       return _if(
