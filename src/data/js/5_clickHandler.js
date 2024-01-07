@@ -3176,7 +3176,9 @@ function getSelector(host) {
       return _if(
         ".koekie_bar:not(.koekie_bar_inactive)",
         '.koekie_interaction_button[data-action="configure"]',
+        "FLAG:OPTIONAL",
         '.koekie_bar .notSelect.toggleSwitch.on[data-action="toggleAll"]',
+        "FLAG:REQUIRED",
         '.koekie_interaction_button[data-action="saveConfigured"]'
       );
     case "kaggle.com":
