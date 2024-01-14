@@ -391,7 +391,7 @@ function reportWebsite(info, tab, anon, issueType, notes, callback) {
         notes,
         url: tab.url,
         browser: getBrowserAndVersion(),
-        language: navigator.language,
+        language: navigator.language || Intl.DateTimeFormat().resolvedOptions().locale,
         extensionVersion: chrome.runtime.getManifest().version,
       }),
     })
