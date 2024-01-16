@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<image src="src/icons/128.png">
+<img src="src/icons/128.png" />
   
 # I still don't care about cookies
 
