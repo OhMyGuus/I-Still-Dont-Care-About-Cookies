@@ -80,7 +80,7 @@
     "description": "Options text for SAVE button."
   },
   "reportGithub": {
-    "message": "Reportează problema pe Github",
+    "message": "Reportează prin GitHub",
     "description": "Menu item to report using Github"
   },
   "reportAnon": {
@@ -96,15 +96,15 @@
     "description": "Notes for the report"
   },
   "reportNotesPlaceholder": {
-    "message": "Lucruri precum:\nVideoplayback nu funcţionează\nscrollbar stricat\nsuprapunere gri",
+    "message": "Lucruri precum:\nRedarea video nu funcționează\nscroll bar stricat\nsuprapunere gri",
     "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
   },
   "reportAnonSend": {
-    "message": "Trimite raportul",
+    "message": "Trimite raport",
     "description": "Button to send the report"
   },
   "reportAnonCancel": {
-    "message": "Anulare",
+    "message": "Anulează",
     "description": "Button to cCancel the report"
   },
   "genericErrorTitle": {
@@ -112,7 +112,7 @@
     "description": "Genereric error title"
   },
   "genericErrorTryAgain": {
-    "message": "Încercați mai târziu..",
+    "message": "Încearcă mai târziu..",
     "description": "Try again later message"
   },
   "genericErrorBack": {
@@ -124,23 +124,23 @@
     "description": "Loading messsage"
   },
   "generalIssueOption": {
-    "message": "General issue (requires notes)",
+    "message": "Probleme generale (necesită comentarii)",
     "description": "The option text for a general issue"
   },
   "scrollbarIssueOption": {
-    "message": "Scrollbar related",
+    "message": "Bară de scroll",
     "description": "The option text for a scrollbar issue"
   },
   "modalIssueOption": {
-    "message": "Modal related",
+    "message": "Funcționalitate",
     "description": "The option text for a modal issue"
   },
   "scrollbarIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "message": "Selectează aceasta opțiune pentru a raporta o problemă de scroll pe aceasta pagina - ex: \"pagina nu mai afișează un scroll bar\".",
     "description": "Explanation of what a scrollbar issue is"
   },
   "modalIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "message": "Selectează aceasta opțiune pentru a raporta o problemă funcțională pe aceasta pagina - ex: \"un pop-up blochează interacțiunea\".",
     "description": "Explanation of what a modal issue is"
   }
 }

@@ -52,7 +52,7 @@
     }
   },
   "menuIdle": {
-    "message": "La extensión no funciona en este sitio web",
+    "message": "La extensión no funciona en este sitio",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
   "menuReport": {
@@ -64,7 +64,7 @@
     "description": "Menu option."
   },
   "optionsTitle": {
-    "message": "Configuracion",
+    "message": "Configuraciones",
     "description": "Title for the options page."
   },
   "optionsWhitelist": {

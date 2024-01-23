@@ -68,11 +68,11 @@
     "description": "Title for the options page."
   },
   "optionsWhitelist": {
-    "message": "Liste de tous les sites sur liste blanche, un site par ligne:",
+    "message": "Liste de tous les sites sur liste blanche, un site par ligne :",
     "description": "Options text for whitelist box."
   },
   "optionStatusIndicators": {
-    "message": "indicateur de statut",
+    "message": "Indicateurs de statut",
     "description": "Option text for enabling the status indicator"
   },
   "optionsButton": {
@@ -80,7 +80,7 @@
     "description": "Options text for SAVE button."
   },
   "reportGithub": {
-    "message": "Signaler via Github",
+    "message": "Signaler via GitHub",
     "description": "Menu item to report using Github"
   },
   "reportAnon": {
