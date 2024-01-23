@@ -136,7 +136,7 @@
     "description": "The option text for a modal issue"
   },
   "scrollbarIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "message": "Selezionare questa opzione per segnalare un problema relativo allo scorrimento in questa pagina - ad esempio \"il sito non mostra la barra di scorrimento\".",
     "description": "Explanation of what a scrollbar issue is"
   },
   "modalIssueDescription": {

@@ -4,11 +4,11 @@
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Fællesskabsversion af udvidelsen `I still don't care about cookies` (ingen Avast)",
+    "message": "Community version of the extension `I don't care about cookies` (no Avast)",
     "description": "Description of the extension."
   },
   "reportSkippedTitle": {
-    "message": "Udvidelse er deaktiveret på $HOSTNAME$.",
+    "message": "Extension is disabled on $HOSTNAME$.",
     "description": "Tells the user it cannot report a whitelisted domain.",
     "placeholders": {
       "hostname": {
@@ -18,11 +18,11 @@
     }
   },
   "reportSkippedMessage": {
-    "message": "Du har deaktiveret udvidelsen på dette webstedet. Vær venlig at aktiver den på og se, om du ser cookie-advarslen, før du rapporterer det.",
+    "message": "You have disabled the extension on this website. Please enable it and check if you see the cookie warning before reporting.",
     "description": "Tells the user it cannot report a whitelisted domain."
   },
   "reportConfirm": {
-    "message": "Vil du rapportere en cookie-advarsel på $HOSTNAME$?",
+    "message": "Would you like to report a cookie warning on $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
     "placeholders": {
       "hostname": {
@@ -32,7 +32,7 @@
     }
   },
   "menuEnable": {
-    "message": "Aktiver udvidelse på $HOSTNAME$",
+    "message": "Enable extension on $HOSTNAME$",
     "description": "Menu option.",
     "placeholders": {
       "hostname": {
@@ -42,7 +42,7 @@
     }
   },
   "menuDisable": {
-    "message": "Deaktiver udvidelse på $HOSTNAME$",
+    "message": "Disable extension on $HOSTNAME$",
     "description": "Menu option.",
     "placeholders": {
       "hostname": {
@@ -52,95 +52,95 @@
     }
   },
   "menuIdle": {
-    "message": "Udvidelsen virker ikke på dette webstedet",
+    "message": "Extension doesn't work on this website",
     "description": "Menu option visible when enabling/disabling doesn't work."
   },
   "menuReport": {
-    "message": "Rapporter en cookie-advarsel",
+    "message": "Report a cookie warning",
     "description": "Menu option."
   },
   "menuSupport": {
-    "message": "Støt dette projekt",
+    "message": "Support this project",
     "description": "Menu option."
   },
   "optionsTitle": {
-    "message": "Indstillinger",
+    "message": "Settings",
     "description": "Title for the options page."
   },
   "optionsWhitelist": {
-    "message": "Liste over alle hvidlistede hjemmesider, en hjemmeside pr. linje:",
+    "message": "List of all whitelisted websites, one website per line:",
     "description": "Options text for whitelist box."
   },
   "optionStatusIndicators": {
-    "message": "statusindikatorer",
+    "message": "status indicators",
     "description": "Option text for enabling the status indicator"
   },
   "optionsButton": {
-    "message": "Gem indstillinger",
+    "message": "Save settings",
     "description": "Options text for SAVE button."
   },
   "reportGithub": {
-    "message": "Rapporter vha. Github",
+    "message": "Report using Github",
     "description": "Menu item to report using Github"
   },
   "reportAnon": {
-    "message": "Rapportér anonymt",
+    "message": "Report anonymously",
     "description": "Menu item to report anonymously"
   },
   "reportAnonTitle": {
-    "message": "Rapportér",
+    "message": "Report",
     "description": "Translation of 'report' it will be shown like 'Report example.com'"
   },
   "reportAnonNotes": {
-    "message": "Bemærkninger: ",
+    "message": "Notes: ",
     "description": "Notes for the report"
   },
   "reportNotesPlaceholder": {
-    "message": "Ting som:\nVideoplayback virker ikke\nScrollbar virker ikke\ngråt overtræk",
+    "message": "Things like:\nVideoplayback not working\nBroken scrollbar\ngray overlay",
     "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
   },
   "reportAnonSend": {
-    "message": "Send rapport",
+    "message": "Send report",
     "description": "Button to send the report"
   },
   "reportAnonCancel": {
-    "message": "Annuller",
+    "message": "Cancel",
     "description": "Button to cCancel the report"
   },
   "genericErrorTitle": {
-    "message": "Noget gik galt",
+    "message": "Something went wrong",
     "description": "Genereric error title"
   },
   "genericErrorTryAgain": {
-    "message": "Prøv igen senere..",
+    "message": "Try again later..",
     "description": "Try again later message"
   },
   "genericErrorBack": {
-    "message": "Tilbage",
+    "message": "Back",
     "description": "Back button after error"
   },
   "menuLoadingText": {
-    "message": "Indlæser...",
+    "message": "Loading...",
     "description": "Loading messsage"
   },
   "generalIssueOption": {
-    "message": "Generelt problem (kræver noter)",
+    "message": "General issue (requires notes)",
     "description": "The option text for a general issue"
   },
   "scrollbarIssueOption": {
-    "message": "Scrollbar relateret",
+    "message": "Scrollbar related",
     "description": "The option text for a scrollbar issue"
   },
   "modalIssueOption": {
-    "message": "Modal relateret",
+    "message": "Modal related",
     "description": "The option text for a modal issue"
   },
   "scrollbarIssueDescription": {
-    "message": "Vælg denne indstilling for at angive et problem på denne side relateret til rulning - som f. eks. 'webstedet viser ikke en rullebjælke'.",
+    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
     "description": "Explanation of what a scrollbar issue is"
   },
   "modalIssueDescription": {
-    "message": "Vælg denne indstilling for at tilkendegive et problem på denne side relateret til en modal - som f. eks. 'Der er en pop op-boks blokering hændelse'.",
+    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
     "description": "Explanation of what a modal issue is"
   }
 }

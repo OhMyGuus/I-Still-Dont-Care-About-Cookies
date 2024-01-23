@@ -22,7 +22,7 @@
     "description": "Tells the user it cannot report a whitelisted domain."
   },
   "reportConfirm": {
-    "message": "Gostaria de reportar um aviso de cookies no website $HOSTNAME$?",
+    "message": "Gostaria de reportar um aviso de cookies em $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
     "placeholders": {
       "hostname": {
@@ -92,11 +92,11 @@
     "description": "Translation of 'report' it will be shown like 'Report example.com'"
   },
   "reportAnonNotes": {
-    "message": "Notas: ",
+    "message": "Observações: ",
     "description": "Notes for the report"
   },
   "reportNotesPlaceholder": {
-    "message": "Coisas como:\nPlayback de vídeo não funciona\nBarra de scroll avariada\noverlay cinzento",
+    "message": "Coisas como:\nA reprodução de vídeo não está a funcionar\nBarra de deslocamento quebrada\nsobreposição cinzenta",
     "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
   },
   "reportAnonSend": {
@@ -116,7 +116,7 @@
     "description": "Try again later message"
   },
   "genericErrorBack": {
-    "message": "Para trás",
+    "message": "Voltar",
     "description": "Back button after error"
   },
   "menuLoadingText": {
@@ -124,23 +124,23 @@
     "description": "Loading messsage"
   },
   "generalIssueOption": {
-    "message": "General issue (requires notes)",
+    "message": "Problema geral (requer observações)",
     "description": "The option text for a general issue"
   },
   "scrollbarIssueOption": {
-    "message": "Scrollbar related",
+    "message": "Relacionado com a barra de deslocamento",
     "description": "The option text for a scrollbar issue"
   },
   "modalIssueOption": {
-    "message": "Modal related",
+    "message": "Relacionado com modal",
     "description": "The option text for a modal issue"
   },
   "scrollbarIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "message": "Seleccione esta opção para indicar um problema nesta página relacionado com a barra de deslocamento - como \"o site não está a mostrar uma barra de deslocamento\".",
     "description": "Explanation of what a scrollbar issue is"
   },
   "modalIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "message": "Seleccione esta opção para indicar um problema nesta página relacionado com um modal - como \"há uma caixa pop-up a bloquear a interação\".",
     "description": "Explanation of what a modal issue is"
   }
 }
