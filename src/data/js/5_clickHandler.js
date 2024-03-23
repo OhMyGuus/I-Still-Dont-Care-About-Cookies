@@ -8391,6 +8391,11 @@ function getSelector(host) {
       return '.cdk-overlay-container yg-tcf-dialog [data-cy="disagree-button"]';
     case "fiveguys.nl":
       return '.modal[style*="block"] #button_accept_cookies';
+    case "linasmatkasse.se":
+      return _if(
+        'div#cookies button#accept-selected-cookies-btn',
+        'div#cookies button#accept-selected-cookies-btn'
+      );
   }
 
   if (host.parts.length > 2) {
