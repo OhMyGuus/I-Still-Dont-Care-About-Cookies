@@ -18491,6 +18491,7 @@ const rules = {
   "character.ai": { j: 5 },
   "account.yougov.com": { j: 5 },
   "order.fiveguys.nl": { j: 5 },
+  "mysanantonio.com": { j: 6 },
   "webstore.zvw.de": { j: 6 },
   "krant.bndestem.nl": { j: 3 },
   "ezeitung.weser-kurier.de": { j: 3 },
