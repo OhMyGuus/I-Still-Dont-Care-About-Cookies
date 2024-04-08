@@ -8387,6 +8387,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "deep-shine.de":
+      return 'button.btn:nth-child(4)';
     case "yougov.com":
       return '.cdk-overlay-container yg-tcf-dialog [data-cy="disagree-button"]';
     case "fiveguys.nl":
