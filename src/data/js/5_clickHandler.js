@@ -2547,11 +2547,7 @@ function getSelector(host) {
     case "lasprovincias.es":
     case "diariovasco.com":
     case "elnortedecastilla.es":
-      return _chain(
-        "#didomi-notice-learn-more-button",
-        ".didomi-consent-popup-actions button:first-child",
-        '.didomi-button[aria-label*="Disagree"], .didomi-button[aria-label*="Denegar"]'
-      );
+      return '#didomi-notice-agree-button';
 
     case "france24.com":
       return _chain(
