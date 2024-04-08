@@ -18493,6 +18493,7 @@ const rules = {
   "order.fiveguys.nl": { j: 5 },
   "webstore.zvw.de": { j: 6 },
   "krant.bndestem.nl": { j: 3 },
+  "dirsyncpro.org": { j: 5 },
   "ezeitung.weser-kurier.de": { j: 3 },
   "blaetterkatalog.welt.de": { j: 3 },
 };
