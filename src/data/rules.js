@@ -18495,6 +18495,7 @@ const rules = {
   "krant.bndestem.nl": { j: 3 },
   "ezeitung.weser-kurier.de": { j: 3 },
   "blaetterkatalog.welt.de": { j: 3 },
+  "mazda-autohaus-kaschmieder-waren.de": { j: 5 },
 };
 
 const blockUrls = {
