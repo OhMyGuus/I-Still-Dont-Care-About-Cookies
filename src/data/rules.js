@@ -18492,6 +18492,7 @@ const rules = {
   "account.yougov.com": { j: 5 },
   "order.fiveguys.nl": { j: 5 },
   "webstore.zvw.de": { j: 6 },
+  "bulkapothecary.com": { j: 5 },
   "krant.bndestem.nl": { j: 3 },
   "ezeitung.weser-kurier.de": { j: 3 },
   "blaetterkatalog.welt.de": { j: 3 },
