@@ -18499,6 +18499,7 @@ const rules = {
   "webstore.zvw.de": { j: 6 },
   "krant.bndestem.nl": { j: 3 },
   "ezeitung.weser-kurier.de": { j: 3 },
+  "druhotnesuroviny.cz": { j: 5 },
   "jutarnji.hr": { j: 5 },
   "lesciseauxmagiques.fr": { j: 5 },
   "monkeytype.com": { j: 5 },

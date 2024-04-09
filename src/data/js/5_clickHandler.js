@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "druhotnesuroviny.cz":
+      return 'a.js-cc-banner-confirmAll-btn:nth-child(2)';
     case "gera.de":
       return 'button.text-nowrap:nth-child(1)';
     case "jutarnji.hr":
