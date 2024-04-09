@@ -2136,6 +2136,7 @@ const rules = {
   "saturn.de": { j: 5 },
   "prenatal.nl": { j: 5 },
   "gonnesa.ca.it": { s: "#fake-div{display:none !important}" },
+  "vogelsbergkreis.de": { j: 5 },
   "motorsport.com": {
     s: ".ms-footer-fixbox,.ms-header-messages,#privacy_accept{display:none !important}",
   },
@@ -18335,6 +18336,7 @@ const rules = {
   "music.amazon.de": { j: 5 },
   "music.amazon.fr": { j: 5 },
   "music.amazon.co.uk": { j: 5 },
+  "as.com": { j: 5 },
   "larousse.fr": { j: 5 },
   "hellozdrowie.pl": { j: 5 },
   "eurogamer.pl": { j: 5 },
@@ -18495,6 +18497,10 @@ const rules = {
   "webstore.zvw.de": { j: 6 },
   "krant.bndestem.nl": { j: 3 },
   "ezeitung.weser-kurier.de": { j: 3 },
+  "plus.nl": { j: 5 },
+  "neckermann.at": { j: 5 },
+  "bernard.fr": { j: 5 },
+  "almaviva.it": { j: 5 },
   "blaetterkatalog.welt.de": { j: 3 },
 };
 
