@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "as.com":
+      return '._5r2nlf4';
     case "almaviva.it":
       return '#enregistre';
     case "vogelsbergkreis.de":
