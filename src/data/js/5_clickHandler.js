@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "prenatal.nl":
+      return 'button.btn:nth-child(3)';
     case "plus.nl":
       return '.gtm-cookies-popup-accept-all-btn';
     case "neckermann.at":
