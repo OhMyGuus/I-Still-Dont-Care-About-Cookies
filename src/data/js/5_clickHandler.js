@@ -8387,6 +8387,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "prenatal.nl":
+      return 'button.btn:nth-child(3)';
     case "yougov.com":
       return '.cdk-overlay-container yg-tcf-dialog [data-cy="disagree-button"]';
     case "fiveguys.nl":

@@ -2134,6 +2134,7 @@ const rules = {
   "mediaworld.it": { j: 5 },
   "mediamarkt.es": { j: 5 },
   "saturn.de": { j: 5 },
+  "prenatal.nl": { j: 5 },
   "gonnesa.ca.it": { s: "#fake-div{display:none !important}" },
   "motorsport.com": {
     s: ".ms-footer-fixbox,.ms-header-messages,#privacy_accept{display:none !important}",
