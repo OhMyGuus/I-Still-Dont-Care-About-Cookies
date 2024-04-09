@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "sparkasse-karlsruhe.de":
+      return '.secondary';
     case "rugbycoachweekly.net":
       return '#aos-Cookie-Modal-Accept';
     case "rockhard.de":

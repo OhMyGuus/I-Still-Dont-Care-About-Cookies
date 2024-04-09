@@ -18497,7 +18497,8 @@ const rules = {
   "webstore.zvw.de": { j: 6 },
   "krant.bndestem.nl": { j: 3 },
   "rugbycoachweekly.net": { j: 5 },
-  "ezeitung.weser-kurier.de": { j: 3 },
+  "ezeitung.weser-kurier.de": { j: 3 }
+  "sparkasse-karlsruhe.de": { j: 5 },
   "rockhard.de": { j: 5 },
   "plus.nl": { j: 5 },
   "neckermann.at": { j: 5 },
