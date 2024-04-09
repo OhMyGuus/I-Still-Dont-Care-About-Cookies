@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "bulkapothecary.com":
+      return 'button.termly-styles-module-root-f61419:nth-child(1)';
     case "cwauthors.com":
       return 'button.cookies_btn';
     case "deep-shine.de":
