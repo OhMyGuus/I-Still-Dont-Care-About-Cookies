@@ -2134,8 +2134,10 @@ const rules = {
   "mediaworld.it": { j: 5 },
   "mediamarkt.es": { j: 5 },
   "saturn.de": { j: 5 },
+  "prenatal.nl": { j: 5 },
   "gonnesa.ca.it": { s: "#fake-div{display:none !important}" },
   "gera.de": { j: 5 },
+  "vogelsbergkreis.de": { j: 5 },
   "motorsport.com": {
     s: ".ms-footer-fixbox,.ms-header-messages,#privacy_accept{display:none !important}",
   },
@@ -13948,7 +13950,7 @@ const rules = {
   "freesciencelessons.co.uk": {
     s: ".divibars-container{display:none !important}",
   },
-  "namesilo.com": { s: "#app > header ~ section{display:none !important}" },
+  "namesilo.com": { j: 5 },
   "hansanders.nl": { s: "#cookie-dialog-wrapper{display:none !important}" },
   "hansanders.be": { s: "#cookie-module-js{display:none !important}" },
   "airgradient.com": { c: 112 },
@@ -18335,6 +18337,7 @@ const rules = {
   "music.amazon.de": { j: 5 },
   "music.amazon.fr": { j: 5 },
   "music.amazon.co.uk": { j: 5 },
+  "as.com": { j: 5 },
   "larousse.fr": { j: 5 },
   "hellozdrowie.pl": { j: 5 },
   "eurogamer.pl": { j: 5 },
@@ -18492,10 +18495,25 @@ const rules = {
   "character.ai": { j: 5 },
   "account.yougov.com": { j: 5 },
   "order.fiveguys.nl": { j: 5 },
+  "mysanantonio.com": { j: 6 },
   "webstore.zvw.de": { j: 6 },
   "krant.bndestem.nl": { j: 3 },
   "ezeitung.weser-kurier.de": { j: 3 },
+  "jutarnji.hr": { j: 5 },
+  "lesciseauxmagiques.fr": { j: 5 },
+  "monkeytype.com": { j: 5 },
+  "vantilburgonline.nl": { j: 5 },
+  "thunhoon.com": { j: 5 },
+  "rugbycoachweekly.net": { j: 5 },
+  "ezeitung.weser-kurier.de": { j: 3 }
+  "sparkasse-karlsruhe.de": { j: 5 },
+  "rockhard.de": { j: 5 },
+  "plus.nl": { j: 5 },
+  "neckermann.at": { j: 5 },
+  "bernard.fr": { j: 5 },
+  "almaviva.it": { j: 5 },
   "blaetterkatalog.welt.de": { j: 3 },
+  "mazda-autohaus-kaschmieder-waren.de": { j: 5 },
 };
 
 const blockUrls = {
