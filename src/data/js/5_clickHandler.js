@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "almaviva.it":
+      return '#enregistre';
     case "vogelsbergkreis.de":
       return _chain(
         '.cookie-consent-form__reject-button',
