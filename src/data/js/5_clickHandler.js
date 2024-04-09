@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "monkeytype.com":
+      return '.rejectAll';
     case "namesilo.com":
       return 'button.bgcw';
     case "vantilburgonline.nl":
