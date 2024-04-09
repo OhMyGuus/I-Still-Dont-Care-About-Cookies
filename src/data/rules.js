@@ -18496,6 +18496,7 @@ const rules = {
   "order.fiveguys.nl": { j: 5 },
   "webstore.zvw.de": { j: 6 },
   "krant.bndestem.nl": { j: 3 },
+  "rugbycoachweekly.net": { j: 5 },
   "ezeitung.weser-kurier.de": { j: 3 },
   "rockhard.de": { j: 5 },
   "plus.nl": { j: 5 },
