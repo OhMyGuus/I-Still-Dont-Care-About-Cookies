@@ -18510,6 +18510,7 @@ const rules = {
   "bernard.fr": { j: 5 },
   "almaviva.it": { j: 5 },
   "blaetterkatalog.welt.de": { j: 3 },
+  "mazda-autohaus-kaschmieder-waren.de": { j: 5 },
 };
 
 const blockUrls = {
