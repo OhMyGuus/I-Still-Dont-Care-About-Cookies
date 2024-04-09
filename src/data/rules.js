@@ -18500,6 +18500,7 @@ const rules = {
   "krant.bndestem.nl": { j: 3 },
   "dirsyncpro.org": { j: 5 },
   "ezeitung.weser-kurier.de": { j: 3 },
+  "cwauthors.com": { j: 5 },
   "deep-shine.de": { j: 5 },
   "druhotnesuroviny.cz": { j: 5 },
   "jutarnji.hr": { j: 5 },
