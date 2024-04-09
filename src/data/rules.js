@@ -18498,6 +18498,7 @@ const rules = {
   "mysanantonio.com": { j: 6 },
   "webstore.zvw.de": { j: 6 },
   "krant.bndestem.nl": { j: 3 },
+  "dirsyncpro.org": { j: 5 },
   "ezeitung.weser-kurier.de": { j: 3 },
   "druhotnesuroviny.cz": { j: 5 },
   "jutarnji.hr": { j: 5 },

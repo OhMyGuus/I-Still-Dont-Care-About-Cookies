@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "dirsyncpro.org":
+      return '.cookie-notice-close';
     case "druhotnesuroviny.cz":
       return 'a.js-cc-banner-confirmAll-btn:nth-child(2)';
     case "gera.de":
