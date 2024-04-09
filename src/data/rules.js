@@ -18496,6 +18496,7 @@ const rules = {
   "webstore.zvw.de": { j: 6 },
   "krant.bndestem.nl": { j: 3 },
   "ezeitung.weser-kurier.de": { j: 3 },
+  "bernard.fr": { j: 5 },
   "almaviva.it": { j: 5 },
   "blaetterkatalog.welt.de": { j: 3 },
 };
