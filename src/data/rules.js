@@ -2136,6 +2136,7 @@ const rules = {
   "saturn.de": { j: 5 },
   "prenatal.nl": { j: 5 },
   "gonnesa.ca.it": { s: "#fake-div{display:none !important}" },
+  "gera.de": { j: 5 },
   "vogelsbergkreis.de": { j: 5 },
   "motorsport.com": {
     s: ".ms-footer-fixbox,.ms-header-messages,#privacy_accept{display:none !important}",

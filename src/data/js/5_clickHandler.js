@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "gera.de":
+      return 'button.text-nowrap:nth-child(1)';
     case "jutarnji.hr":
       return '#didomi-notice-agree-button';
     case "lesciseauxmagiques.fr":
