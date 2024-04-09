@@ -13949,7 +13949,7 @@ const rules = {
   "freesciencelessons.co.uk": {
     s: ".divibars-container{display:none !important}",
   },
-  "namesilo.com": { s: "#app > header ~ section{display:none !important}" },
+  "namesilo.com": { j: 5 },
   "hansanders.nl": { s: "#cookie-dialog-wrapper{display:none !important}" },
   "hansanders.be": { s: "#cookie-module-js{display:none !important}" },
   "airgradient.com": { c: 112 },
