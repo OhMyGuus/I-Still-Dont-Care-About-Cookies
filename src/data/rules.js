@@ -18496,6 +18496,8 @@ const rules = {
   "order.fiveguys.nl": { j: 5 },
   "webstore.zvw.de": { j: 6 },
   "krant.bndestem.nl": { j: 3 },
+  "ezeitung.weser-kurier.de": { j: 3 },
+  "thunhoon.com": { j: 5 },
   "rugbycoachweekly.net": { j: 5 },
   "ezeitung.weser-kurier.de": { j: 3 }
   "sparkasse-karlsruhe.de": { j: 5 },
