@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "lesciseauxmagiques.fr":
+      return '#soy-gtm-disallow-cookies';
     case "mazda-autohaus-kaschmieder-waren.de":
       return 'button._1e1wg:nth-child(2)';
     case "monkeytype.com":

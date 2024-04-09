@@ -18498,6 +18498,7 @@ const rules = {
   "webstore.zvw.de": { j: 6 },
   "krant.bndestem.nl": { j: 3 },
   "ezeitung.weser-kurier.de": { j: 3 },
+  "lesciseauxmagiques.fr": { j: 5 },
   "monkeytype.com": { j: 5 },
   "vantilburgonline.nl": { j: 5 },
   "thunhoon.com": { j: 5 },
