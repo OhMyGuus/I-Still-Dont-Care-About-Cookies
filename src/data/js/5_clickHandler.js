@@ -2547,11 +2547,7 @@ function getSelector(host) {
     case "lasprovincias.es":
     case "diariovasco.com":
     case "elnortedecastilla.es":
-      return _chain(
-        "#didomi-notice-learn-more-button",
-        ".didomi-consent-popup-actions button:first-child",
-        '.didomi-button[aria-label*="Disagree"], .didomi-button[aria-label*="Denegar"]'
-      );
+      return '#didomi-notice-agree-button';
 
     case "france24.com":
       return _chain(
@@ -8389,6 +8385,23 @@ function getSelector(host) {
       );
     case "rockhard.de":
       return '.sp_choice_type_11';
+    case "prenatal.nl":
+      return 'button.btn:nth-child(3)';
+    case "plus.nl":
+      return '.gtm-cookies-popup-accept-all-btn';
+    case "neckermann.at":
+      return '.cookieSelectOverlayInlineSave > a:nth-child(2)';
+    case "bernard.fr":
+      return 'button.ot-btn:nth-child(2)';
+    case "as.com":
+      return '._5r2nlf4';
+    case "almaviva.it":
+      return '#enregistre';
+    case "vogelsbergkreis.de":
+      return _chain(
+        '.cookie-consent-form__reject-button',
+        '.cookie-consent-form__save-button'
+      );
     case "yougov.com":
       return '.cdk-overlay-container yg-tcf-dialog [data-cy="disagree-button"]';
     case "fiveguys.nl":
