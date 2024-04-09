@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "neckermann.at":
+      return '.cookieSelectOverlayInlineSave > a:nth-child(2)';
     case "bernard.fr":
       return 'button.ot-btn:nth-child(2)';
     case "as.com":
