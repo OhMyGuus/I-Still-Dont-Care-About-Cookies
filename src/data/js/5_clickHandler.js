@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "deep-shine.de":
+      return 'button.btn:nth-child(4)';
     case "dirsyncpro.org":
       return '.cookie-notice-close';
     case "druhotnesuroviny.cz":
