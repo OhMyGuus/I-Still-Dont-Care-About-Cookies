@@ -7303,7 +7303,7 @@ function getSelector(host) {
         ".cookie-adjust-modal-static .submit-button"
       );
     case "jackjones.com":
-      return ".cookie-notification-buttons > span + button";
+    	return "button.button--block:nth-child(1)";
     case "blix.gg":
       return _if(
         '#__layout > div > div > div[style*="width"] > div > div > a[href*="/glossary/privacy"]',
