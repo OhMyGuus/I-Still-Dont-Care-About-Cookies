@@ -8383,6 +8383,8 @@ function getSelector(host) {
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
       );
+    case "plus.nl":
+      return '.gtm-cookies-popup-accept-all-btn';
     case "neckermann.at":
       return '.cookieSelectOverlayInlineSave > a:nth-child(2)';
     case "bernard.fr":
