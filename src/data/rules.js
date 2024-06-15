@@ -15601,7 +15601,7 @@ const rules = {
   "obuvki.bg": {
     s: "#marketing-approvals{display:none !important} ._no-scroll-modal{position: unset !important}",
   },
-  "freemap.sk": { c: 100 },
+  "freemap.sk": { j: 3 },
   "nuessing.de": { c: 14 },
   "dovolena.cz": { s: ".Cookies_wrapper__ovIeZ{display:none !important}" },
   "eberry.cz": { s: ".c-cookie-consent-bar{display:none !important}" },
@@ -18519,6 +18519,7 @@ const rules = {
   "almaviva.it": { j: 5 },
   "blaetterkatalog.welt.de": { j: 3 },
   "mazda-autohaus-kaschmieder-waren.de": { j: 5 },
+  "linasmatkasse.se": { j: 5 },
 };
 
 const blockUrls = {

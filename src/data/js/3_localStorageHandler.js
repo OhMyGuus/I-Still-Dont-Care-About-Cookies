@@ -205,6 +205,12 @@ function getItem(hostname) {
         key: "cookiesInfo",
         value: "1",
       };
+    case "freemap.sk":
+      return {
+        strict: false,
+        key: "store",
+        value: '{"main":{"cookieConsentResult":false}}',
+      };
   }
 
   const parts = hostname.split(".");
