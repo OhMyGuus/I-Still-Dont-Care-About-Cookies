@@ -713,6 +713,8 @@ function getE(hostname) {
       return ["privacy_setting=100"];
     case "webstore.zvw.de":
       return ["trackingAccepted=false"];
+    case "mysanantonio.com":
+      return ['_consent_cookie={"services":[]}'];
   }
 
   const parts = hostname.split(".");

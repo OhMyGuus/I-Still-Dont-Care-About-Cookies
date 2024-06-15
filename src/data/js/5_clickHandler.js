@@ -2547,11 +2547,7 @@ function getSelector(host) {
     case "lasprovincias.es":
     case "diariovasco.com":
     case "elnortedecastilla.es":
-      return _chain(
-        "#didomi-notice-learn-more-button",
-        ".didomi-consent-popup-actions button:first-child",
-        '.didomi-button[aria-label*="Disagree"], .didomi-button[aria-label*="Denegar"]'
-      );
+      return "#didomi-notice-agree-button";
 
     case "france24.com":
       return _chain(
@@ -7307,7 +7303,7 @@ function getSelector(host) {
         ".cookie-adjust-modal-static .submit-button"
       );
     case "jackjones.com":
-      return ".cookie-notification-buttons > span + button";
+      return "button.button--block:nth-child(1)";
     case "blix.gg":
       return _if(
         '#__layout > div > div > div[style*="width"] > div > div > a[href*="/glossary/privacy"]',
@@ -8386,6 +8382,55 @@ function getSelector(host) {
         '.modal[style*="block"] .btn-secondary',
         '.modal[style*="block"] .modal-footer input',
         '.modal[style*="block"] button[id*="AcceptButton"]'
+      );
+    case "bulkapothecary.com":
+      return 'button[class^="termly-styles-module-root-"]:nth-child(1)';
+    case "cwauthors.com":
+      return "button#privacy-trust--close";
+    case "deep-shine.de":
+      return "button.btn:nth-child(4)";
+    case "dirsyncpro.org":
+      return ".cookie-notice-close";
+    case "druhotnesuroviny.cz":
+      return "a.js-cc-banner-confirmAll-btn:nth-child(2)";
+    case "gera.de":
+      return "button.text-nowrap:nth-child(1)";
+    case "jutarnji.hr":
+      return "#didomi-notice-agree-button";
+    case "lesciseauxmagiques.fr":
+      return "#soy-gtm-disallow-cookies";
+    case "mazda-autohaus-kaschmieder-waren.de":
+      return "button.cta:nth-child(2)";
+    case "monkeytype.com":
+      return ".rejectAll";
+    case "namesilo.com":
+      return "button.bgcw";
+    case "vantilburgonline.nl":
+      return "button.btn:nth-child(1)";
+    case "thunhoon.com":
+      return ".privacy-concern-close-button";
+    case "sparkasse-karlsruhe.de":
+      return ".secondary";
+    case "rugbycoachweekly.net":
+      return "#aos-Cookie-Modal-Accept";
+    case "rockhard.de":
+      return ".sp_choice_type_11";
+    case "prenatal.nl":
+      return "button.btn:nth-child(3)";
+    case "plus.nl":
+      return ".gtm-cookies-popup-accept-all-btn";
+    case "neckermann.at":
+      return ".cookieSelectOverlayInlineSave > a:nth-child(2)";
+    case "bernard.fr":
+      return "button.ot-btn:nth-child(2)";
+    case "as.com":
+      return '#redesignCmpWrapper a[href="https://as.com/"]';
+    case "almaviva.it":
+      return "#enregistre";
+    case "vogelsbergkreis.de":
+      return _chain(
+        ".cookie-consent-form__reject-button",
+        ".cookie-consent-form__save-button"
       );
     case "yougov.com":
       return '.cdk-overlay-container yg-tcf-dialog [data-cy="disagree-button"]';
