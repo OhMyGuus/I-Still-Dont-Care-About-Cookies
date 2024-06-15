@@ -8392,7 +8392,7 @@ function getSelector(host) {
     case "fiveguys.nl":
       return '.modal[style*="block"] #button_accept_cookies';
     case "linasmatkasse.se":
-      return 'div#cookies button#accept-selected-cookies-btn';
+      return "div#cookies button#accept-selected-cookies-btn";
   }
 
   if (host.parts.length > 2) {
