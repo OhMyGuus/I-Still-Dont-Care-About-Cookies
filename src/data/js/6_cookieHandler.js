@@ -714,7 +714,7 @@ function getE(hostname) {
     case "webstore.zvw.de":
       return ["trackingAccepted=false"];
     case "mysanantonio.com":
-      return ['_consent_cookie={"services":[]}']
+      return ['_consent_cookie={"services":[]}'];
   }
 
   const parts = hostname.split(".");

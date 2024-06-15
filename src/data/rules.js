@@ -18510,7 +18510,7 @@ const rules = {
   "vantilburgonline.nl": { j: 5 },
   "thunhoon.com": { j: 5 },
   "rugbycoachweekly.net": { j: 5 },
-  "ezeitung.weser-kurier.de": { j: 3 }
+  "ezeitung.weser-kurier.de": { j: 3 },
   "sparkasse-karlsruhe.de": { j: 5 },
   "rockhard.de": { j: 5 },
   "plus.nl": { j: 5 },
