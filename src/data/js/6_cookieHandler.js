@@ -435,10 +435,6 @@ function getE(hostname) {
       return [
         "lmd_consent=%7B%22userId%22%3A%22%22%2C%22timestamp%22%3A%22%22%2C%22version%22%3A1%2C%22cmpId%22%3A371%2C%22displayMode%22%3A%22cookiewall%22%2C%22purposes%22%3A%7B%22analytics%22%3Afalse%2C%22ads%22%3Afalse%2C%22personalization%22%3Afalse%2C%22mediaPlatforms%22%3Atrue%2C%22social%22%3Afalse%7D%7D",
       ];
-    case "creopard.de":
-      return [
-        "klaro=%7B%22klaro%22%3Atrue%2C%22cms%22%3Atrue%2C%22adsense%22%3Afalse%2C%22youtube%22%3Afalse%2C%22twitter%22%3Afalse%2C%22matomo%22%3Afalse%7D",
-      ];
     case "de-vogel.nl":
       return ["accept-cookies=e"];
     case "huizenzoeker.nl":
