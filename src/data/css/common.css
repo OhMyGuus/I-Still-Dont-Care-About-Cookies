@@ -14295,6 +14295,7 @@ gdpr-policy-banner,
 #cookie-flash-message,
 body:not(.cnn) > #onetrust-consent-sdk,
 body:not(.cnn) > #onetrust-blocker,
+.gaz-gdpr-modal__container,
 
 .cookie-overLay {
   display: none !important;
