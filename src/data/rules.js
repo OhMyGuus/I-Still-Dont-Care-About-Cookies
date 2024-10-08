@@ -18520,7 +18520,8 @@ const rules = {
   "blaetterkatalog.welt.de": { j: 3 },
   "mazda-autohaus-kaschmieder-waren.de": { j: 5 },
   "linasmatkasse.se": { j: 5 },
-  "adslzone.net": { s: "#gaz-gdpr-modal__container{display:none !important} body{overflow: unset !important}"}
+  "adslzone.net": { s: "#gaz-gdpr-modal__container{display:none !important} body{overflow: unset !important}"},
+  "as.com": { c: 85 },
 };
 
 const blockUrls = {
