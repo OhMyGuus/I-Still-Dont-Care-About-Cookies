@@ -15112,7 +15112,7 @@ const rules = {
   "hyundai.com": { s: ".mainTopBanner{display:none !important}" },
   "hyundai.com.br": { s: ".footertextbox{display:none !important}" },
   "torpedoconnect.de": { j: "5" },
-  "dailymotion.com": { j: "5", s: "#consent-group{display:none !important}" },
+  "dailymotion.com": { j: "5", s: "body{overflow:unset !important}" },
   "1pmobile.com": { j: "5" },
   "pro-doma.cz": { j: "5" },
   "truthsocial.com": {
