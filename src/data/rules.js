@@ -14367,6 +14367,7 @@ const rules = {
   "nytimes.com": {
     j: "5",
     s: '.free-form-content > .banner__container,.CookieBanner > .banner__container,#alertBannerMount,.gdpr.expanded-dock + div,.CookieBanner ~ .banner__container,span[data-testid="onsite-messaging-unit-gdprDock"]{display:none !important}',
+    c: 85
   },
   "abconcerts.be": { j: "5" },
   "kulturprojekte.berlin": { j: "5" },
