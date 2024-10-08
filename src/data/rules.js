@@ -18337,7 +18337,7 @@ const rules = {
   "music.amazon.de": { j: 5 },
   "music.amazon.fr": { j: 5 },
   "music.amazon.co.uk": { j: 5 },
-  "as.com": { j: 5 },
+  "as.com": { j: 5, c: 85 },
   "larousse.fr": { j: 5 },
   "hellozdrowie.pl": { j: 5 },
   "eurogamer.pl": { j: 5 },
@@ -18521,7 +18521,6 @@ const rules = {
   "mazda-autohaus-kaschmieder-waren.de": { j: 5 },
   "linasmatkasse.se": { j: 5 },
   "adslzone.net": { s: "#gaz-gdpr-modal__container{display:none !important} body{overflow: unset !important}"},
-  "as.com": { c: 85 },
 };
 
 const blockUrls = {
