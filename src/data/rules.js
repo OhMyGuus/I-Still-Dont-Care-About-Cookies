@@ -18523,6 +18523,7 @@ const rules = {
   "linasmatkasse.se": { j: 5 },
   "adslzone.net": { s: "#gaz-gdpr-modal__container{display:none !important} body{overflow: unset !important}"},
   "multitronic.fi": {c: 85, s: "#standard_overlay{display: none !important}"},
+  "mielectro.es": {s: ".capaCookie{display:none !important}"},
 };
 
 const blockUrls = {
