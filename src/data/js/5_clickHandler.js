@@ -8440,9 +8440,11 @@ function getSelector(host) {
       return "div#cookies button#accept-selected-cookies-btn";
     case "idealo.de":
       console.log("idealo");
-      const test = _sl(".deny", _sl("#usercentrics-cmp-ui"));
-      console.log(test);
-      return test;
+      const shadowRoot = _sl("#usercentrics-cmp-ui").shadowRoot;
+      console.log(shadowRoot)
+      const deny = _sl(".deny", shadowRoot);
+      console.log(deny);
+      return deny;
 
   }
 
