@@ -8439,7 +8439,10 @@ function getSelector(host) {
     case "linasmatkasse.se":
       return "div#cookies button#accept-selected-cookies-btn";
     case "idealo.de":
-      return _sl(".deny", _sl("#usercentrics-cmp-ui"));
+      console.log("idealo");
+      const test = _sl(".deny", _sl("#usercentrics-cmp-ui"));
+      console.log(test);
+      return test;
 
   }
 
