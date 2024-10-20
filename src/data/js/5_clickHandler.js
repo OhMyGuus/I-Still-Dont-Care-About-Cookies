@@ -8440,6 +8440,7 @@ function getSelector(host) {
       return "div#cookies button#accept-selected-cookies-btn";
     case "idealo.com":
       return _sl(".deny", _sl("#usercentrics-cmp-ui"));
+      
   }
 
   if (host.parts.length > 2) {
