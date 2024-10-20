@@ -8438,9 +8438,9 @@ function getSelector(host) {
       return '.modal[style*="block"] #button_accept_cookies';
     case "linasmatkasse.se":
       return "div#cookies button#accept-selected-cookies-btn";
-    case "idealo.com":
+    case "idealo.de":
       return _sl(".deny", _sl("#usercentrics-cmp-ui"));
-      
+
   }
 
   if (host.parts.length > 2) {

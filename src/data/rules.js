@@ -18520,7 +18520,7 @@ const rules = {
   "blaetterkatalog.welt.de": { j: 3 },
   "mazda-autohaus-kaschmieder-waren.de": { j: 5 },
   "linasmatkasse.se": { j: 5 },
-  "idealo.com": {j: 5},
+  "idealo.de": {j: 5},
 };
 
 const blockUrls = {
