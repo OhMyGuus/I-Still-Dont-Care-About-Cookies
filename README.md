@@ -23,7 +23,7 @@ This extension has been acquired by _**[Avast](https://en.wikipedia.org/wiki/Ava
 ## Download & Install
 
 <a href="https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt='Get the Extension on Firefox' height="75"></a>
-<a href="https://chrome.google.com/webstore/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm"><img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png" alt="Get the Extesion on Chrome" height="75" style="border: 1px solid transparent; border-radius:6px;"></a>
+<a href="https://chrome.google.com/webstore/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm"><img src="https://i.imgur.com/XBIE9pk.png" alt="Get the Extesion on Chrome" height="75" style="border: 1px solid transparent; border-radius:6px;"></a>
 <a href="https://microsoftedge.microsoft.com/addons/detail/i-still-dont-care-about-/kkacdgacpkediooahopgcbdahlpipheh"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Get_it_from_Microsoft_Badge.svg/320px-Get_it_from_Microsoft_Badge.svg.png" alt="Get the Extension on Edge" height="75" style="border: 1px solid transparent; border-radius:4px;"></a>
 
 ## Manual installation
