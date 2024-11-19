@@ -22,7 +22,7 @@
     "description": "Tells the user it cannot report a whitelisted domain."
   },
   "reportConfirm": {
-    "message": "Voulez vous signaler un avertissement de cookies on $HOSTNAME$?",
+    "message": "Voulez vous signaler un avertissement de cookies sur $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
     "placeholders": {
       "hostname": {
@@ -112,7 +112,7 @@
     "description": "Genereric error title"
   },
   "genericErrorTryAgain": {
-    "message": "Réessayez plus tard..",
+    "message": "Réessayez plus tard...",
     "description": "Try again later message"
   },
   "genericErrorBack": {
@@ -124,23 +124,23 @@
     "description": "Loading messsage"
   },
   "generalIssueOption": {
-    "message": "General issue (requires notes)",
+    "message": "Problème général (nécessite des détails)",
     "description": "The option text for a general issue"
   },
   "scrollbarIssueOption": {
-    "message": "Scrollbar related",
+    "message": "Barre de défilement",
     "description": "The option text for a scrollbar issue"
   },
   "modalIssueOption": {
-    "message": "Modal related",
+    "message": "Fenêtre modale",
     "description": "The option text for a modal issue"
   },
   "scrollbarIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "message": "Choissez cette option pour remonter un problème sur le défilement de la page - par exemple 'le site n'affiche pas la barre de défilement'",
     "description": "Explanation of what a scrollbar issue is"
   },
   "modalIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "message": "Choisissez cette option pour remonter un problème sur une modale - par exemple 'Il y a un popup qui bloque les interractions avec le site'",
     "description": "Explanation of what a modal issue is"
   }
 }
