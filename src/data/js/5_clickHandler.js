@@ -79,18 +79,22 @@ function _chain(...selectors) {
 
       continue;
     }
+    
+    const ruleObj = getRule(selectors[i]);
+    const ruleName = ruleObj.rule;
+    const selector = ruleObj.selector;
 
     if (flagUnique) {
-      selectors[i] += selectors[i].startsWith("//")
+      selector += selector.startsWith("//")
         ? '[not(contains(@class, "' + classname + '"))]'
         : ":not(" + classname + ")";
     }
 
     if (i == argumentsLength - 1) {
-      return selectors[i];
+      return selector;
     }
 
-    elements = _sl(selectors[i], false, flagAllMatches);
+    elements = _sl(selector, false, flagAllMatches);
 
     if (!flagAllMatches) elements = elements ? [elements] : [];
 
@@ -108,8 +112,13 @@ function _chain(...selectors) {
     elements.forEach(function (element) {
       if (flagUnique) element.classList.add(classname);
 
-      if (element.nodeName == "OPTION") element.selected = true;
-      else element.click();
+      if (ruleName && ruleName.toLocaleUpperCase() === "REMOVE") {
+        element.remove();
+      } else if (element.nodeName == "OPTION") {
+        element.selected = true;
+      } else {
+        element.click();
+      }
     });
   }
 
@@ -126,6 +135,26 @@ function _if_else(condition, if_selectors, else_selectors) {
   }
 
   return _chain(...else_selectors);
+}
+
+function getRule(selector) {
+  let ruleName = "";
+  if (typeof selector === "string") {
+    if (selector.charAt(0) === "[") {
+      while (true) {
+        selector = selector.substring(1)
+        if (selector.length > 0) {
+          if (selector.charAt(0) == "]") {
+            selector = selector.substring(1)
+            break
+          } else {
+            ruleName = ruleName + selector.charAt(0)
+          }
+        } else { break }
+      }
+    }
+  }
+  return {"rule": ruleName === "" ? null : ruleName, "selector": selector}
 }
 
 function getSelector(host) {
@@ -8455,12 +8484,15 @@ let timeoutDuration = 500;
 
 function searchLoop(counter, host) {
   setTimeout(function () {
-    const response = getSelector(host);
-
-    if (response) {
+    let response = getRule(getSelector(host));
+    
+    const ruleName = response.rule
+    const selector = response.selector
+    
+    if (selector) {
       let clickCounter = 0;
       const clickLoop = setInterval(function () {
-        const element = typeof response == "string" ? _sl(response) : response;
+        const element = typeof selector == "string" ? _sl(selector) : selector;
 
         if (
           element &&
@@ -8471,7 +8503,15 @@ function searchLoop(counter, host) {
 
           // Give some more time for the DOM to setup properly
           setTimeout(function () {
-            element.click();
+            if (ruleName.toLocaleUpperCase() === "REMOVE") {
+              element.remove();
+
+            // You can add more rule here
+            
+            } else {
+              // No rule specified
+              element.click();
+            }
           }, 500);
 
           clearInterval(clickLoop);
