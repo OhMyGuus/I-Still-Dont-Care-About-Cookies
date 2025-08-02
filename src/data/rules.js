@@ -344,6 +344,7 @@ const rules = {
   },
   "thejournal.ie": { c: 86 },
   "dba.dk": { c: 1 },
+  "dev.to": { s: ".popover-billboard{display:none !important;}" },
   "gosc.pl": { c: 12 },
   "bilbasen.dk": { c: 1 },
   "stargreen.com": { c: 1 },
