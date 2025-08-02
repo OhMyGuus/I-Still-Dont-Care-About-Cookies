@@ -140,11 +140,11 @@ function _if_else(condition, if_selectors, else_selectors) {
 function getRule(selector) {
   let ruleName = "";
   if (typeof selector === "string") {
-    if (selector.charAt(0) === "[") {
+    if (selector.charAt(0) === " ") {
       while (true) {
         selector = selector.substring(1)
         if (selector.length > 0) {
-          if (selector.charAt(0) == "]") {
+          if (selector.charAt(0) == " ") {
             selector = selector.substring(1)
             break
           } else {
@@ -2476,7 +2476,7 @@ function getSelector(host) {
 
     case "lefigaro.fr":
       return _chain(
-        '[REMOVE].fig-consent-banner.video-sticky-limit',
+        ' REMOVE .fig-consent-banner.video-sticky-limit',
         '.sc-iCfMLu.bSSzHR.button.button--filled.button__refuseAll'
       );
 
