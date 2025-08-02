@@ -2475,8 +2475,10 @@ function getSelector(host) {
       return '#cookie-block[style*="block"] #btn-allow';
 
     case "lefigaro.fr":
-      e = _sl(".appconsent_noscroll #appconsent iframe");
-      return e ? _sl(".button__skip", e.contentWindow.document) : e;
+      return _chain(
+        '[REMOVE].fig-consent-banner.video-sticky-limit',
+        '.sc-iCfMLu.bSSzHR.button.button--filled.button__refuseAll'
+      );
 
     case "hellozdrowie.pl":
       e = _id("cmp-iframe");
