@@ -79,7 +79,7 @@ function _chain(...selectors) {
 
       continue;
     }
-    
+
     const ruleObj = getRule(selectors[i]);
     const ruleName = ruleObj.rule;
     const selector = ruleObj.selector;
@@ -142,19 +142,21 @@ function getRule(selector) {
   if (typeof selector === "string") {
     if (selector.charAt(0) === " ") {
       while (true) {
-        selector = selector.substring(1)
+        selector = selector.substring(1);
         if (selector.length > 0) {
           if (selector.charAt(0) == " ") {
-            selector = selector.substring(1)
-            break
+            selector = selector.substring(1);
+            break;
           } else {
-            ruleName = ruleName + selector.charAt(0)
+            ruleName = ruleName + selector.charAt(0);
           }
-        } else { break }
+        } else {
+          break;
+        }
       }
     }
   }
-  return {"rule": ruleName === "" ? null : ruleName, "selector": selector}
+  return { rule: ruleName === "" ? null : ruleName, selector: selector };
 }
 
 function getSelector(host) {
@@ -2476,8 +2478,8 @@ function getSelector(host) {
 
     case "lefigaro.fr":
       return _chain(
-        ' REMOVE .fig-consent-banner.video-sticky-limit',
-        '.sc-iCfMLu.bSSzHR.button.button--filled.button__refuseAll'
+        " REMOVE .fig-consent-banner.video-sticky-limit",
+        ".sc-iCfMLu.bSSzHR.button.button--filled.button__refuseAll"
       );
 
     case "hellozdrowie.pl":
@@ -8487,10 +8489,10 @@ let timeoutDuration = 500;
 function searchLoop(counter, host) {
   setTimeout(function () {
     let response = getRule(getSelector(host));
-    
-    const ruleName = response.rule
-    const selector = response.selector
-    
+
+    const ruleName = response.rule;
+    const selector = response.selector;
+
     if (selector) {
       let clickCounter = 0;
       const clickLoop = setInterval(function () {
@@ -8508,8 +8510,7 @@ function searchLoop(counter, host) {
             if (ruleName.toLocaleUpperCase() === "REMOVE") {
               element.remove();
 
-            // You can add more rule here
-            
+              // You can add more rule here
             } else {
               // No rule specified
               element.click();
