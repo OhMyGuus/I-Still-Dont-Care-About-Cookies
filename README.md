@@ -20,7 +20,7 @@ The author of the [ISDCAC](https://github.com/OhMyGuus/I-Still-Dont-Care-About-C
 
 ## Download & Install
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/istillstilldontcareaboutcookies"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt='Get the Extension on Firefox' height="75"></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/istillx2dontcareaboutcookies"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt='Get the Extension on Firefox' height="75"></a>
 
 ## Manual installation
 
