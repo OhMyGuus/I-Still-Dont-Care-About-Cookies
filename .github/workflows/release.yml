@@ -6,39 +6,6 @@ name: Release listed
       - v*.*.*
       - V*.*.*
 jobs:
-  release-chrome:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Move to manifest v3
-        run: |
-          cp src/manifest_v3.json src/manifest.json
-      - name: Clear hotreload
-        run: |
-          echo "" > src/data/hotreload.js
-      - name: Archive Release
-        run: |
-          7z a 'ISDCAC-chrome-source.zip' -r './src/*'
-      - uses: actions/upload-artifact@v3
-        with:
-          name: ISDCAC-chrome
-          path: ./src/*
-      - name: Upload & release
-        uses: mnao305/chrome-extension-upload@v4.0.1
-        with:
-          file-path: ISDCAC-chrome-source.zip
-          extension-id: edibdbjcniadpccecjdfdjjppcpchdlm
-          client-id: "${{ secrets.CHROME_CLIENT_ID }}"
-          client-secret: "${{ secrets.CHROME_CLIENT_SECRET }}"
-          refresh-token: "${{ secrets.CHROME_REFRESH_TOKEN }}"
-      - name: Create Release
-        uses: softprops/action-gh-release@v1
-        env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        with:
-          draft: true
-          files: |
-            ISDCAC-chrome-source.zip
   release-firefox:
     runs-on: ubuntu-latest
     steps:
@@ -55,14 +22,14 @@ jobs:
         with:
           cmd: build
           source: src
-          filename: ISDCAC.xpi
+          filename: ISSDCAC.xpi
       - uses: actions/upload-artifact@v3
         with:
-          name: ISDCAC-firefox-unsigned
+          name: ISSDCAC-firefox-unsigned
           path: "${{ steps.web-ext-build.outputs.target }}"
       - uses: actions/upload-artifact@v3
         with:
-          name: ISDCAC-firefox-source
+          name: ISSDCAC-firefox-source
           path: ./src/*
       - name: web-ext sign
         id: web-ext-sign
@@ -80,15 +47,15 @@ jobs:
       - name: Download xpi
         run: >
           wget
-          https://addons.mozilla.org/firefox/downloads/latest/istilldontcareaboutcookies/istilldontcareaboutcookies-latest.xpi
+          https://addons.mozilla.org/firefox/downloads/latest/istillx2dontcareaboutcookies/istillx2dontcareaboutcookies-latest.xpi
           --trust-server-names
       - uses: actions/upload-artifact@v3
         with:
-          name: ISDCAC-firefox-signed
-          path: istilldontcareaboutcookies-*.xpi
+          name: ISSDCAC-firefox-signed
+          path: istillx2dontcareaboutcookies-*.xpi
       - name: Rename source xpi
         run: |
-          mv ${{ steps.web-ext-build.outputs.target }} ISDCAC-firefox-source.zip
+          mv ${{ steps.web-ext-build.outputs.target }} ISSDCAC-firefox-source.zip
       - name: Create Release
         uses: softprops/action-gh-release@v1
         env:
@@ -96,5 +63,5 @@ jobs:
         with:
           draft: true
           files: |
-            ISDCAC-firefox-source.zip
-            istilldontcareaboutcookies-*.xpi
+            ISSDCAC-firefox-source.zip
+            istillx2dontcareaboutcookies-*.xpi

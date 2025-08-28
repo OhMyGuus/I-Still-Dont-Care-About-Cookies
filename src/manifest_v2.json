@@ -10,15 +10,15 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "idcac-pub@guus.ninja",
-      "strict_min_version": "42.0"
+      "id": "issdcac-pub@l.martin7",
+      "strict_min_version": "58.0"
     },
     "gecko_android": {
-      "id": "idcac-pub@guus.ninja",
+      "id": "issdcac-pub@l.martin7",
       "strict_min_version": "78.0"
     }
   },
-  "author": "OhMyGuus and Community (originally Daniel Kladnik)",
+  "author": "OhMyGuus and Community (originally Daniel Kladnik) and after L-Martin7 and Community",
   "permissions": [
     "tabs",
     "storage",
