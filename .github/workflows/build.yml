@@ -9,18 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Move to manifest v3
-        run: |
-          cp src/manifest_v3.json src/manifest.json
-
       - name: Clear hotreload
         run: |
           echo "" > src/data/hotreload.js
-
-      - uses: actions/upload-artifact@v3
-        with:
-          name: ISDCAC-chrome
-          path: ./src/*
 
       - name: Move to manifest v2
         run: |
@@ -33,14 +24,14 @@ jobs:
         with:
           cmd: build
           source: src
-          filename: "ISDCAC.xpi"
+          filename: "ISSDCAC.xpi"
 
       - uses: actions/upload-artifact@v3
         with:
-          name: ISDCAC-firefox-source
+          name: ISSDCAC-firefox-source
           path: ./src/*
 
       - uses: actions/upload-artifact@v3
         with:
-          name: ISDCAC-firefox-unsigned
+          name: ISSDCAC-firefox-unsigned
           path: ${{ steps.web-ext-build.outputs.target }}
