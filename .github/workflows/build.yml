@@ -15,7 +15,7 @@ jobs:
 
       - name: Move to manifest v2
         run: |
-          rm src/manifest.json
+          rm -f src/manifest.json
           cp src/manifest_v2.json src/manifest.json
 
       - name: "web-ext build"
