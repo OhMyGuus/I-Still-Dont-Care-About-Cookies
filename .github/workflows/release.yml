@@ -23,11 +23,11 @@ jobs:
           cmd: build
           source: src
           filename: ISSDCAC.xpi
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: ISSDCAC-firefox-unsigned
           path: "${{ steps.web-ext-build.outputs.target }}"
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: ISSDCAC-firefox-source
           path: ./src/*
@@ -49,7 +49,7 @@ jobs:
           wget
           https://addons.mozilla.org/firefox/downloads/latest/istillx2dontcareaboutcookies/istillx2dontcareaboutcookies-latest.xpi
           --trust-server-names
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: ISSDCAC-firefox-signed
           path: istillx2dontcareaboutcookies-*.xpi

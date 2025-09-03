@@ -26,12 +26,12 @@ jobs:
           source: src
           filename: "ISSDCAC.xpi"
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: ISSDCAC-firefox-source
           path: ./src/*
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: ISSDCAC-firefox-unsigned
           path: ${{ steps.web-ext-build.outputs.target }}
