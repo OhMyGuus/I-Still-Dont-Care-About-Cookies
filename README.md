@@ -4,7 +4,7 @@
   
 # I STILL still don't care about cookies
 
-### Fork of the extension "I still don't care about cookies"
+### Fork of the extension "I STILL still don't care about cookies"
 
 #### Get rid of cookie warnings from almost all websites!
 
