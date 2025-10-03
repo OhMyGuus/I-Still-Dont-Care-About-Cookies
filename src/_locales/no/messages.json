@@ -124,23 +124,23 @@
     "description": "Loading messsage"
   },
   "generalIssueOption": {
-    "message": "General issue (requires notes)",
+    "message": "Generelt problem (krever merknad)",
     "description": "The option text for a general issue"
   },
   "scrollbarIssueOption": {
-    "message": "Scrollbar related",
+    "message": "Relatert til rullefelt",
     "description": "The option text for a scrollbar issue"
   },
   "modalIssueOption": {
-    "message": "Modal related",
+    "message": "Relatert til modalvindu",
     "description": "The option text for a modal issue"
   },
   "scrollbarIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "message": "Velg dette alternativet for å vise problemer på denne siden knyttet til rulling - for eksempel 'nettstedet viser ikke et rullefelt'.",
     "description": "Explanation of what a scrollbar issue is"
   },
   "modalIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "message": "Velg dette alternativet for å angi et problem på denne siden relatert til et modalvindu – for eksempel \"det er en popup-boks som blokkerer interaksjon\".",
     "description": "Explanation of what a modal issue is"
   }
 }
