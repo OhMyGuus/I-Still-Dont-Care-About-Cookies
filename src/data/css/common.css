@@ -14295,6 +14295,17 @@ gdpr-policy-banner,
 #cookie-flash-message,
 body:not(.cnn) > #onetrust-consent-sdk,
 body:not(.cnn) > #onetrust-blocker,
+.gaz-gdpr-modal__container,
+#sp_message_container_1196984,
+._69w07m,
+#sp_message_container_1166163,
+.fides-tcf-banner-container,
+.fides-modal-overlay,
+.elementor-5964,
+.CookieBox_cookieBox__uKKMM,
+.cookies-home_overlay,
+#eif-popup-policy,
+
 
 .cookie-overLay {
   display: none !important;

@@ -4847,7 +4847,7 @@ function getSelector(host) {
     case "cykelgear.dk":
       return _sl("#cookieDisclaimer:not(.ninja) #cgDenyOrAccept");
     case "dailymotion.com":
-      return 'button[class*="TCF2ContinueWithoutAccepting"], div[class*="CookiePopup"] button';
+      return 'button[class*="sp_choice_type_SE"], div[class*="CookiePopup"] button';
     case "euplf.eu":
       return _chain(
         "#cookieConsentSettingsBtn",
