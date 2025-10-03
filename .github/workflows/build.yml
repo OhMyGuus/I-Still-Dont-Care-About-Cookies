@@ -17,7 +17,7 @@ jobs:
         run: |
           echo "" > src/data/hotreload.js
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: ISDCAC-chrome
           path: ./src/*
@@ -35,12 +35,12 @@ jobs:
           source: src
           filename: "ISDCAC.xpi"
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: ISDCAC-firefox-source
           path: ./src/*
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: ISDCAC-firefox-unsigned
           path: ${{ steps.web-ext-build.outputs.target }}

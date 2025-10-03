@@ -344,6 +344,7 @@ const rules = {
   },
   "thejournal.ie": { c: 86 },
   "dba.dk": { c: 1 },
+  "dev.to": { s: ".popover-billboard{display:none !important;}" },
   "gosc.pl": { c: 12 },
   "bilbasen.dk": { c: 1 },
   "stargreen.com": { c: 1 },
@@ -14367,6 +14368,7 @@ const rules = {
   "nytimes.com": {
     j: "5",
     s: '.free-form-content > .banner__container,.CookieBanner > .banner__container,#alertBannerMount,.gdpr.expanded-dock + div,.CookieBanner ~ .banner__container,span[data-testid="onsite-messaging-unit-gdprDock"]{display:none !important}',
+    c: 85
   },
   "abconcerts.be": { j: "5" },
   "kulturprojekte.berlin": { j: "5" },
@@ -15112,7 +15114,7 @@ const rules = {
   "hyundai.com": { s: ".mainTopBanner{display:none !important}" },
   "hyundai.com.br": { s: ".footertextbox{display:none !important}" },
   "torpedoconnect.de": { j: "5" },
-  "dailymotion.com": { j: "5", s: "#consent-group{display:none !important}" },
+  "dailymotion.com": { j: "5", s: "body{overflow:unset !important}" },
   "1pmobile.com": { j: "5" },
   "pro-doma.cz": { j: "5" },
   "truthsocial.com": {
@@ -18337,7 +18339,7 @@ const rules = {
   "music.amazon.de": { j: 5 },
   "music.amazon.fr": { j: 5 },
   "music.amazon.co.uk": { j: 5 },
-  "as.com": { j: 5 },
+  "as.com": { j: 5, c: 85 },
   "larousse.fr": { j: 5 },
   "hellozdrowie.pl": { j: 5 },
   "eurogamer.pl": { j: 5 },
@@ -18521,6 +18523,9 @@ const rules = {
   "mazda-autohaus-kaschmieder-waren.de": { j: 5 },
   "linasmatkasse.se": { j: 5 },
   "idealo.de": { j: 5 },
+  "adslzone.net": { s: "#gaz-gdpr-modal__container{display:none !important} body{overflow: unset !important}"},
+  "multitronic.fi": {c: 85, s: "#standard_overlay{display: none !important}"},
+  "mielectro.es": {s: ".capaCookie{display:none !important}"},
 };
 
 const blockUrls = {

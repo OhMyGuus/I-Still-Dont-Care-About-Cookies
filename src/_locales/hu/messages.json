@@ -124,23 +124,23 @@
     "description": "Loading messsage"
   },
   "generalIssueOption": {
-    "message": "General issue (requires notes)",
+    "message": "Általános hiba (jegyzet szükséges)",
     "description": "The option text for a general issue"
   },
   "scrollbarIssueOption": {
-    "message": "Scrollbar related",
+    "message": "Görgetősávval kapcsolatos",
     "description": "The option text for a scrollbar issue"
   },
   "modalIssueOption": {
-    "message": "Modal related",
+    "message": "Alakhoz kapcsolódó",
     "description": "The option text for a modal issue"
   },
   "scrollbarIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "message": "Válaszd ezt az opciót, hogy jelents egy hibát az oldalon a görgetősávval kapcsolatban, például \"a görgetősáv nem látható\".",
     "description": "Explanation of what a scrollbar issue is"
   },
   "modalIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "message": "Válaszd ezt az opciót, hogy jelents egy hibát az oldalon egy elemmel kapcsolatban, például: \"egy felugró ablak takarja az interakciót\".",
     "description": "Explanation of what a modal issue is"
   }
 }
