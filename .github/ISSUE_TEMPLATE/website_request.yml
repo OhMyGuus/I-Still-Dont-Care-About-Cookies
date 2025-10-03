@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to report a cookie warning!
-        
+
   - type: input
     id: url
     attributes:
