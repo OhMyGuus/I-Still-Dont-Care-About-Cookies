@@ -4,7 +4,7 @@
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Версия расширения `I don't care about cookies` от сообщества (без Avast'а)",
+    "message": "Версия расширения `I don't care about cookies` от сообщества (без Avast)",
     "description": "Description of the extension."
   },
   "reportSkippedTitle": {
@@ -92,7 +92,7 @@
     "description": "Translation of 'report' it will be shown like 'Report example.com'"
   },
   "reportAnonNotes": {
-    "message": "Комментарий: ",
+    "message": "Комментарии: ",
     "description": "Notes for the report"
   },
   "reportNotesPlaceholder": {
@@ -124,23 +124,23 @@
     "description": "Loading messsage"
   },
   "generalIssueOption": {
-    "message": "General issue (requires notes)",
+    "message": "Общая проблема (требует примечаний)",
     "description": "The option text for a general issue"
   },
   "scrollbarIssueOption": {
-    "message": "Scrollbar related",
+    "message": "Проблема с панелью прокрутки",
     "description": "The option text for a scrollbar issue"
   },
   "modalIssueOption": {
-    "message": "Modal related",
+    "message": "Проблема с модульным окном",
     "description": "The option text for a modal issue"
   },
   "scrollbarIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
+    "message": "Выберите этот параметр, чтобы обозначить проблему на этой странице, связанную с панелью прокрутки, например, \"сайт не показывает панель прокрутки\".",
     "description": "Explanation of what a scrollbar issue is"
   },
   "modalIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "message": "Выберите этот параметр, чтобы обозначить проблему на этой странице, связанную с модульным окном, например, \"есть всплывающее окно, мешающее взаимодействию со страницей\".",
     "description": "Explanation of what a modal issue is"
   }
 }

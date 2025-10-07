@@ -4847,7 +4847,7 @@ function getSelector(host) {
     case "cykelgear.dk":
       return _sl("#cookieDisclaimer:not(.ninja) #cgDenyOrAccept");
     case "dailymotion.com":
-      return 'button[class*="TCF2ContinueWithoutAccepting"], div[class*="CookiePopup"] button';
+      return 'button[class*="sp_choice_type_SE"], div[class*="CookiePopup"] button';
     case "euplf.eu":
       return _chain(
         "#cookieConsentSettingsBtn",
@@ -8438,6 +8438,9 @@ function getSelector(host) {
       return '.modal[style*="block"] #button_accept_cookies';
     case "linasmatkasse.se":
       return "div#cookies button#accept-selected-cookies-btn";
+    case "idealo.de":
+      e = _id("usercentrics-cmp-ui");
+      return e && e.shadowRoot ? _sl(".deny", e.shadowRoot) : false;
   }
 
   if (host.parts.length > 2) {

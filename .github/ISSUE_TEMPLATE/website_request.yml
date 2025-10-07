@@ -9,6 +9,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to report a cookie warning!
+
   - type: input
     id: url
     attributes:
@@ -32,8 +33,8 @@ body:
     attributes:
       label: Version
       description: What version of our software are you running?
-      value: 1.0.5
-      placeholder: 1.0.5
+      value: 1.1.4
+      placeholder: 1.1.4
     validations:
       required: true
 
