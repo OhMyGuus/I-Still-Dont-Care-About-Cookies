@@ -43,7 +43,7 @@ function getHostname(url, cleanup) {
     return typeof cleanup == "undefined"
       ? a.hostname
       : a.hostname.replace(/^w{2,3}\d*\./i, "");
-  } catch (error) {
+  } catch {
     return false;
   }
 }
@@ -205,7 +205,7 @@ async function recreateTabList(magic) {
 
   if (magic) {
     for (const i in tabList) {
-      if (tabList.hasOwnProperty(i)) {
+      if (Object.prototype.hasOwnProperty.call(tabList, i)) {
         doTheMagic(tabList[i].id);
       }
     }

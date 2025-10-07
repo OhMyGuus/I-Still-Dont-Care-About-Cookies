@@ -155,7 +155,6 @@ function getItem(hostname) {
     case "modivo.gr":
     case "modivo.de":
     case "modivo.fr":
-    case "modivo.it":
     case "modivo.hr":
     case "modivo.cz":
     case "modivo.ua":

@@ -8,7 +8,7 @@ function saveOptions() {
   whitelist.forEach((line) => {
     line = line
       .trim()
-      .replace(/^\w*\:?\/+/i, "")
+      .replace(/^\w*:?\/+/i, "")
       .replace(/^w{2,3}\d*\./i, "")
       .split("/")[0]
       .split(":")[0];
