@@ -3756,7 +3756,9 @@ div[data-cookie-notification],
 .mnd-cookies:not(body):not(html),
 #capa_cookies,
 #et_cookie_law,
-.cookie_consent:not(body):not(html):not(.modal):not([class*="reveal"]):not([id*="container"]),
+.cookie_consent:not(body):not(html):not(.modal):not([class*="reveal"]):not(
+    [id*="container"]
+  ),
 #cookiesoverview,
 .site-message--cookies,
 #ukCookiePopup,
@@ -7371,7 +7373,9 @@ cookies-banner-component,
 #paquet_telecom_bandeau,
 #accept-cookie-line-maincont,
 .container-cookie-advicer,
-.cp-popup-content:not(body):not(html):not(.cpro-active-step):not(.cp-target):not(.ty-wysiwyg-content),
+.cp-popup-content:not(body):not(html):not(.cpro-active-step):not(
+    .cp-target
+  ):not(.ty-wysiwyg-content),
 #cookie-toolbar,
 .ngs-cookie-bar:not(body):not(html),
 #cookies-notification-panel,
@@ -14322,4 +14326,3 @@ body:not(.cnn) > #onetrust-blocker,
   width: 0 !important;
   overflow: hidden !important;
 }
-

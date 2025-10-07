@@ -2443,11 +2443,11 @@ function getSelector(host) {
         const button = _sl('button[data-button-type="moreOptions"]', e);
         if (button) button.click();
 
-        _sl('[class*="purposes"] input:checked', e, true).forEach(function (
-          element
-        ) {
-          element.click();
-        });
+        _sl('[class*="purposes"] input:checked', e, true).forEach(
+          function (element) {
+            element.click();
+          }
+        );
 
         return _sl('div[class*="FirstLayer__button"]:nth-child(2) > button', e);
       }

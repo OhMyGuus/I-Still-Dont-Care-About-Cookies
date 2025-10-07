@@ -6915,7 +6915,7 @@ const rules = {
   },
   "livejasmin.com": {
     s: "#consent_modal{display:none !important}",
-    c: 85
+    c: 85,
   },
   "livesexasian.com": {
     s: ".overlay-gdpr-consent{display:none !important}",
@@ -15818,7 +15818,7 @@ const rules = {
   "intellias.com": { s: ".showed-cookie-notice{display:none !important}" },
   "fvd.nl": { s: ".fixed{display:none !important}" },
   "roshtein.com": {
-    s: '.pointer-events-none{filter:unset !important; pointer-events:unset !important}',
+    s: ".pointer-events-none{filter:unset !important; pointer-events:unset !important}",
   },
   "kteohellas.gr": { s: "#cookiesettings-dialog{display:none !important}" },
   "shiftdelete.net": { s: ".banner{display:none !important}" },
@@ -16628,7 +16628,9 @@ const rules = {
     s: ".cookieConsentDialog{display:none !important}",
     c: 85,
   },
-  "hero-wars.com": { s: ".overlay--cookie_banner_without_icons{display:none !important}" },
+  "hero-wars.com": {
+    s: ".overlay--cookie_banner_without_icons{display:none !important}",
+  },
   "shanebarker.com": { s: ".kadence-conversion{display:none !important}" },
   "profim.pl": { s: 'div[class^="Cookies__content"]{display:none !important}' },
   "adressmonster.de": { c: 0 },
@@ -16742,7 +16744,9 @@ const rules = {
   "object-carpet.com": {
     s: ".hidden.cookieNoticeWrapper{display:none !important}",
   },
-  "tricount.com": { s: ".--framer-cookie-banner-container{display:none !important}" },
+  "tricount.com": {
+    s: ".--framer-cookie-banner-container{display:none !important}",
+  },
   "mjcb.io": { s: ".active.gdpr-container{display:none !important}" },
   "baden-tv.com": {
     s: ".--active.cmms_cookie_consent_manager{display:none !important} body{overflow: unset !important;}",
@@ -20539,7 +20543,7 @@ const blockUrls = {
     "saeco.de": ["/cookiewall/"],
     "sage.co.uk": ["/Cookies.js"],
     "liebherr.com": ["/cmp/"],
-    "biggreenegg.co.uk": ["/_astro/CookieBanner"]
+    "biggreenegg.co.uk": ["/_astro/CookieBanner"],
   },
 };
 
