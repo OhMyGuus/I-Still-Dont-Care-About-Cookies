@@ -46,6 +46,8 @@ body.cli-barmodal-open {
   overflow: visible !important;
 }
 
+html.data-privacy-layer-visible,
+body.didomi-popup-open,
 html.sp-message-open,
 html.sp-message-open body,
 html.disable--interaction.show--consent,
@@ -65,6 +67,8 @@ div[id^="xsp_message_container_"] {
   z-index: -1 !important;
 }
 
+#privacy-layer-modal,
+.didomi-notice-popup,
 #stickyCookieBar,
 .cookiebar-bar:not(body):not(html),
 #sliding-popup,
@@ -12124,6 +12128,9 @@ cmp-banner,
 .cookie-permission--backdrop,
 .c-cnil-wrapper,
 #__next div[class*="CookieConsent"],
+#__next section[class*="CookieConsent_wrapper"],
+.cookiescript_injected_wrapper,
+aside#usercentrics-cmp-ui,
 #popup-cookie-policy-small,
 .eightworks-cookie-consent-plus,
 .eightworks-cookie-consent-plus-toggler,
@@ -14315,3 +14322,4 @@ body:not(.cnn) > #onetrust-blocker,
   width: 0 !important;
   overflow: hidden !important;
 }
+

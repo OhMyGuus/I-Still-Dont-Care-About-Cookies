@@ -8,7 +8,7 @@ const reportNotesTextarea = document.getElementById("report-notes");
 
 let currentTab = false;
 
-toggle.addEventListener("click", function (e) {
+toggle.addEventListener("click", function () {
   chrome.runtime.sendMessage(
     {
       command: "toggle_extension",
@@ -18,7 +18,7 @@ toggle.addEventListener("click", function (e) {
   );
 });
 
-refresh.addEventListener("click", function (e) {
+refresh.addEventListener("click", function () {
   chrome.runtime.sendMessage(
     {
       command: "refresh_page",
@@ -28,7 +28,7 @@ refresh.addEventListener("click", function (e) {
   );
 });
 
-options.addEventListener("click", function (e) {
+options.addEventListener("click", function () {
   chrome.runtime.sendMessage(
     {
       command: "open_options_page",
@@ -53,7 +53,7 @@ document.getElementById("report_github").addEventListener("click", () =>
   )
 );
 
-document.getElementById("report_anon").addEventListener("click", function (e) {
+document.getElementById("report_anon").addEventListener("click", function () {
   switchMenu("menu_report_anon");
   document.getElementById("hostname").textContent = currentTab.hostname;
 });

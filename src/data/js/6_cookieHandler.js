@@ -44,10 +44,6 @@ function getE(hostname) {
     case "ciustekno.me":
       return ["cookieLaw=got_it"];
 
-    case "livejasmin.com":
-    case "livesexasian.com":
-      return ["is_personalized_content_consent_given=1"];
-
     case "milkywire.com":
     case "freeletics.com":
       return ["cookie_consent=true"];
@@ -404,8 +400,6 @@ function getE(hostname) {
       return ["cbd=1", "necoo=1"];
     case "notify.events":
       return ["_gdpr=necessary"];
-    case "notify.events":
-      return ["_gdpr=necessary"];
     case "pricewise.nl":
       return ["CookieConsent=only_necessary"];
     case "lokalplus.nrw":
@@ -670,8 +664,6 @@ function getE(hostname) {
       return ["cookieConsent3=true"];
     case "ebatpro.fr":
       return ["cookie_necessity=1", "cookie_performance=0"];
-    case "autohaus24.de":
-      return ["user_cookie_consent=essential"];
     case "carlson.fi":
     case "halonen.fi":
       return [
@@ -682,7 +674,7 @@ function getE(hostname) {
         "consentAnalytics=false",
       ];
     case "bokadirekt.se":
-      return ["CookiePreferencesMP=Mandatory"];
+      return ["BokadirektCookiePreferencesMP=Mandatory"];
     case "uniqueshop.gr":
       return [
         "iccb_init=1",
