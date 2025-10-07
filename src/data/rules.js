@@ -194,9 +194,6 @@ const commons = {
 };
 
 const rules = {
-  "jadeship.com": { 
-    s: ".rhc-theme-dark.rhc-banner {display:none !important}"
-  },
   "google.com": { j: "8" },
   "youtube.com": {
     j: "5",
@@ -18523,6 +18520,9 @@ const rules = {
   "blaetterkatalog.welt.de": { j: 3 },
   "mazda-autohaus-kaschmieder-waren.de": { j: 5 },
   "linasmatkasse.se": { j: 5 },
+  "jadeship.com": {
+    s: ".rhc-theme-dark.rhc-banner {display:none !important}",
+  },
 };
 
 const blockUrls = {
