@@ -18387,6 +18387,9 @@ const rules = {
   },
   "multitronic.fi": { c: 85, s: "#standard_overlay{display: none !important}" },
   "mielectro.es": { s: ".capaCookie{display:none !important}" },
+  "eu.muc-off.com": {
+    s: '#shopify-pc__banner, .shopify-pc__banner__dialog, .shopify-pc__banner, [class*="shopify-pc__"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 };
 
 const blockUrls = {
