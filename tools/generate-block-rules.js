@@ -1,6 +1,6 @@
 // This is used to generate the block rules for Manifest V3 from the block rules in Manifest V2.
 
-import { blockUrls } from "../../src/data/rules.js";
+import { blockUrls } from "../src/data/rules.js";
 
 function generateDeclarativeNetRules() {
   const result = [];
