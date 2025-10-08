@@ -7,7 +7,9 @@
   "scripts": {
     "lint": "eslint src .",
     "lintfix": "eslint src --fix",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "add-rule": "node tools/add-rule.js",
+    "generate-block-rules": "node tools/generate-block-rules.js > src/rules.json && prettier --write src/rules.json"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,9 @@
     "eslint-config-prettier": "^10.1.8",
     "globals": "^16.4.0",
     "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "acorn": "^8.15.0",
+    "commander": "^14.0.1"
   }
 }
