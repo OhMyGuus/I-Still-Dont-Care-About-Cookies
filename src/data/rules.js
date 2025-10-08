@@ -18387,6 +18387,9 @@ const rules = {
   },
   "multitronic.fi": { c: 85, s: "#standard_overlay{display: none !important}" },
   "mielectro.es": { s: ".capaCookie{display:none !important}" },
+  "mediarath.de": {
+    s: "#shopify-pc__banner, section.shopify-pc__banner, .shopify-pc__banner__dialog, .shopify-pc__banner__wrapper, .shopify-pc__banner__body, .shopify-pc__banner__btns, .shopify-pc__banner__btns-granular, .shopify-pc__banner__backdrop, .shopify-pc__banner__overlay, #glc-geo-backdrop, .glc-geo-backdrop, #glc-geo-modal, .glc-geo-modal { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
+  },
 };
 
 const blockUrls = {
