@@ -10,12 +10,9 @@ import * as acorn from "acorn";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-function findRulesObject(ast, source) {
+function findRulesObject(ast) {
   for (const node of ast.body) {
-    if (
-      node.type === "VariableDeclaration" &&
-      node.declarations.length > 0
-    ) {
+    if (node.type === "VariableDeclaration" && node.declarations.length > 0) {
       const declarator = node.declarations[0];
       if (
         declarator.id.type === "Identifier" &&
@@ -50,7 +47,14 @@ function findPropertyByKey(objectExpression, domain) {
   return null;
 }
 
-function buildRuleEntry(domain, css, common, handler, newline = "\n", indent = "  ") {
+function buildRuleEntry(
+  domain,
+  css,
+  common,
+  handler,
+  newline = "\n",
+  indent = "  "
+) {
   const props = {
     ...(handler && { j: handler }),
     ...(common && { c: common }),
@@ -59,7 +63,9 @@ function buildRuleEntry(domain, css, common, handler, newline = "\n", indent = "
 
   const keys = Object.entries(props);
   if (keys.length === 0) {
-    console.error(`No rule properties were provided when updating domain: ${domain}`);
+    console.error(
+      `No rule properties were provided when updating domain: ${domain}`
+    );
     process.exit(1);
   }
 
@@ -89,7 +95,7 @@ async function addOrReplaceRule(domain, css, common, handler, skipPrettier) {
     sourceType: "module",
   });
 
-  const rulesObject = findRulesObject(ast, content);
+  const rulesObject = findRulesObject(ast);
   const existingProperty = findPropertyByKey(rulesObject, domain);
   const cleanCss = css ? css.replace(/\\!/g, "!") : undefined;
 
@@ -105,15 +111,27 @@ async function addOrReplaceRule(domain, css, common, handler, skipPrettier) {
     }
 
     let lineStart = start - 1;
-    while (lineStart >= 0 && content[lineStart] !== "\n" && content[lineStart] !== "\r") {
+    while (
+      lineStart >= 0 &&
+      content[lineStart] !== "\n" &&
+      content[lineStart] !== "\r"
+    ) {
       lineStart--;
     }
     lineStart++;
 
     const indentation = content.slice(lineStart, start);
-    const entryString = buildRuleEntry(domain, cleanCss, common, handler, newline, indentation);
+    const entryString = buildRuleEntry(
+      domain,
+      cleanCss,
+      common,
+      handler,
+      newline,
+      indentation
+    );
 
-    content = content.slice(0, lineStart) + entryString + content.slice(actualEnd);
+    content =
+      content.slice(0, lineStart) + entryString + content.slice(actualEnd);
   } else {
     console.log(`Adding new rule for domain: ${domain}`);
 
@@ -123,7 +141,14 @@ async function addOrReplaceRule(domain, css, common, handler, skipPrettier) {
       content[insertPosition - 1] !== "\n" &&
       content[insertPosition - 1] !== "\r";
     const prefix = needsLeadingNewline ? newline : "";
-    const entryString = buildRuleEntry(domain, cleanCss, common, handler, newline, "  ");
+    const entryString = buildRuleEntry(
+      domain,
+      cleanCss,
+      common,
+      handler,
+      newline,
+      "  "
+    );
 
     content =
       content.slice(0, insertPosition) +
@@ -142,7 +167,7 @@ async function addOrReplaceRule(domain, css, common, handler, skipPrettier) {
     try {
       await formatFile(rulesPath);
     } catch (error) {
-      console.error("Error formatting rules.js with prettier:");
+      console.error("Error formatting rules.js with prettier:", error);
     }
   }
 }
@@ -151,7 +176,7 @@ program
   .name("add-rule")
   .description("Add or replace a rule in rules.js")
   .requiredOption("--domain <domain>", "Domain name")
-  .option("--css <css>", "CSS selector rule")
+  .option("-s", "--css <css>", "CSS selector rule")
   .option("-c, --common <number>", "Common rule number", parseInt)
   .option("-j, --handler <number>", "Handler number", parseInt)
   .option("--skip-prettier", "Skip prettier formatting")
