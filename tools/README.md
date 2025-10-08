@@ -17,7 +17,7 @@ npm run add-rule -- --domain <domain> [options]
 **Options:**
 
 - `--domain <domain>` (required) - The domain name
-- `--css <css>` - CSS selector rule (s property)
+- `-s, --css <css>` - CSS selector rule (s property)
 - `-c, --common <number>` - Common rule number (c property)
 - `-j, --handler <number>` - Handler number (j property)
   - `0` - Default click handler
