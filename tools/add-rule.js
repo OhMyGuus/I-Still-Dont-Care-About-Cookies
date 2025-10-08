@@ -176,7 +176,7 @@ program
   .name("add-rule")
   .description("Add or replace a rule in rules.js")
   .requiredOption("--domain <domain>", "Domain name")
-  .option("-s", "--css <css>", "CSS selector rule")
+  .option("-s, --css <css>", "CSS selector rule")
   .option("-c, --common <number>", "Common rule number", parseInt)
   .option("-j, --handler <number>", "Handler number", parseInt)
   .option("--skip-prettier", "Skip prettier formatting")
