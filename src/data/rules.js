@@ -18387,6 +18387,9 @@ const rules = {
   },
   "multitronic.fi": { c: 85, s: "#standard_overlay{display: none !important}" },
   "mielectro.es": { s: ".capaCookie{display:none !important}" },
+  "www.ekopyro.eu": {
+    s: "#gdpr-cookie-message-wrapper, #gdpr-cookie-message, a.cookie-reinit, .cookie-reinit, .text-center.margin-top-20.margin-botton-20, #gdpr-cookie-types { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
+  },
 };
 
 const blockUrls = {
