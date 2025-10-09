@@ -18405,6 +18405,9 @@ const rules = {
   "www.nhnieuws.nl": {
     s: "dialog.ConsentManager_consentManager__C8qkZ, .ConsentManager_container__AcZob, .ConsentManager_cookieBar__8ysUo { display: none !important; visibility: hidden !important; pointer-events: none !important; height: 0 !important; width: 0 !important; overflow: hidden !important; } html, body { overflow: auto !important; }",
   },
+  "de.industryarena.com": {
+    s: "#consent-cookie-back, #consent-cookie, #consent-cookie-container, #consent-cookie-text { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 };
 
 const blockUrls = {
