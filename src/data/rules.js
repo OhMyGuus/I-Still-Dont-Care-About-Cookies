@@ -18414,6 +18414,9 @@ const rules = {
   "creator.kodular.io": {
     s: "#termly-code-snippet-support, .t-consentPrompt { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "e-act.org.uk": {
+    s: ".notification.settings-bar, .notification-overlay { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 };
 
 const blockUrls = {
