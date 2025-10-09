@@ -18420,6 +18420,9 @@ const rules = {
   "oxfordonlineenglish.com": {
     s: '#cookie-dialog, div[aria-describedby="cookie-dialog"], .ui-widget-overlay.ui-front { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "idealo.de": {
+    s: 'aside#usercentrics-cmp-ui, iframe#uc-cross-domain-consent-sharing-bridge, div#usercentrics-root, .usercentrics, .uc-banner, [id^="usercentrics"], [data-usercentrics], .usercentrics-root, .uc-ui, .uc-overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
+  },
 };
 
 const blockUrls = {
