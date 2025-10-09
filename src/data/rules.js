@@ -18411,6 +18411,9 @@ const rules = {
   "www.reddit.com": {
     s: "#data-protection-consent-wrapper, #data-protection-consent-sheet, #data-protection-consent-dialog, .rpl-dialog, .rpl-dialog-sheet, rpl-dialog-sheet#data-protection-consent-sheet { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "creator.kodular.io": {
+    s: "#termly-code-snippet-support, .t-consentPrompt { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
+  },
 };
 
 const blockUrls = {
