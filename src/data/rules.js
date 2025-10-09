@@ -17656,7 +17656,9 @@ const rules = {
   "lvgmc.lv": { s: ".cookies__container{display:none !important}" },
   "opera.com": { s: "#cookie-consent{display:none !important}" },
   "gameleap.com": { s: "core-banner{display:none !important}" },
-  "boosty.to": { s: 'div[class*="GdprOffer"]{display:none !important}' },
+  "boosty.to": {
+    s: '[data-test-id="GDPROFFER:ROOT"],[data-test-id="GDPROFFER:CONTENT"],.GdprOffer-scss--module_root_ghTKt,.LandingCookiePanel-scss--module_root_BszA3,.LandingCookiePanel-scss--module_content_nuhY2,.LandingCookiePanel-scss--module_text_Dr6hA{display:none!important;visibility:hidden!important;}',
+  },
   "cint.com": { s: ".cint-cookiebot{display:none !important}" },
   "mydirtyhobby.de": { s: ".MuiDialogActions-root{display:none !important}" },
   "letuelezioni.it": { s: "#pp{display:none !important}" },
