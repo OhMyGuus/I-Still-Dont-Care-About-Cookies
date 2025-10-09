@@ -18393,6 +18393,9 @@ const rules = {
   "www.yalispor.com.tr": {
     s: "#ccp---nb { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "mediarath.de": {
+    s: ".shopify-pc__banner__dialog, #shopify-pc__banner, .shopify-pc__banner__wrapper, .shopify-pc__banner__body, #glc-geo, #glc-geo-backdrop, #glc-geo-modal { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
+  },
 };
 
 const blockUrls = {
