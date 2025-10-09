@@ -18414,6 +18414,9 @@ const rules = {
   "creator.kodular.io": {
     s: "#termly-code-snippet-support, .t-consentPrompt { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "harecliveacademy.e-act.org.uk": {
+    s: ".notification.settings-bar, .notification, .notification__content, .notification-overlay, .notification__title, .notification__text, .notification__close, .overlay, .overlay-mask { display: none !important; visibility: hidden !important; pointer-events: none !important; opacity: 0 !important; }",
+  },
 };
 
 const blockUrls = {
