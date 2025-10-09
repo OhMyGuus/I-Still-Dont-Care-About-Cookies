@@ -18402,6 +18402,9 @@ const rules = {
   "x.com": {
     s: 'div[data-testid="BottomBar"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "handandstone.com": {
+    s: '#termly-code-snippet-support, .t-consentPrompt, [class*="termly-styles-root"], [class*="termly-styles-main"], [class*="termly-styles-termly-banner"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
+  },
 };
 
 const blockUrls = {
