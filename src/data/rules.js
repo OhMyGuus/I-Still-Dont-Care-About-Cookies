@@ -18396,6 +18396,9 @@ const rules = {
   "mediarath.de": {
     s: ".shopify-pc__banner__dialog, #shopify-pc__banner, .shopify-pc__banner__wrapper, .shopify-pc__banner__body, #glc-geo, #glc-geo-backdrop, #glc-geo-modal { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "www.alternate.de": {
+    s: "#usercentrics-cmp-ui, #cmp-uc-shadow { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
+  },
 };
 
 const blockUrls = {
