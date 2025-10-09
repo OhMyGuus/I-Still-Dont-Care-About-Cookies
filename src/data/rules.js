@@ -18420,6 +18420,9 @@ const rules = {
   "oxfordonlineenglish.com": {
     s: '#cookie-dialog, div[aria-describedby="cookie-dialog"], .ui-widget-overlay.ui-front { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "techbook.de": {
+    s: '[id^="sp_message"], [class^="sp_message_"] { display: none !important; visibility: hidden !important; opacity: 0 !important; height: 0 !important; width: 0 !important; max-height: 0 !important; max-width: 0 !important; overflow: hidden !important; pointer-events: none !important; } .sp-message-open { height: unset !important; width: unset !important; }',
+  },
 };
 
 const blockUrls = {
