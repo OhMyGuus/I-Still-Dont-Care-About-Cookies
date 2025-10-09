@@ -18387,6 +18387,9 @@ const rules = {
   },
   "multitronic.fi": { c: 85, s: "#standard_overlay{display: none !important}" },
   "mielectro.es": { s: ".capaCookie{display:none !important}" },
+  "jobs.dayforcehcm.com": {
+    s: '[test-id="cookie-preferences-banner"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
+  },
 };
 
 const blockUrls = {
