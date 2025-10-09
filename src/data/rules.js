@@ -18387,6 +18387,9 @@ const rules = {
   },
   "multitronic.fi": { c: 85, s: "#standard_overlay{display: none !important}" },
   "mielectro.es": { s: ".capaCookie{display:none !important}" },
+  "www.yalispor.com.tr": {
+    s: "#ccp---nb, p#cc-nb-title, p#cc-nb-text, .ccp---overlay { display: none !important; }",
+  },
 };
 
 const blockUrls = {
