@@ -18399,6 +18399,9 @@ const rules = {
   "www.alternate.de": {
     s: "#usercentrics-cmp-ui, #cmp-uc-shadow { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "x.com": {
+    s: 'div[data-testid="BottomBar"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 };
 
 const blockUrls = {
