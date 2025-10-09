@@ -18390,6 +18390,9 @@ const rules = {
   "jobs.dayforcehcm.com": {
     s: '[test-id="cookie-preferences-banner"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
   },
+  "www.yalispor.com.tr": {
+    s: "#ccp---nb { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 };
 
 const blockUrls = {
