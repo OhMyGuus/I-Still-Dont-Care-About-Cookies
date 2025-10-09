@@ -18387,6 +18387,9 @@ const rules = {
   },
   "multitronic.fi": { c: 85, s: "#standard_overlay{display: none !important}" },
   "mielectro.es": { s: ".capaCookie{display:none !important}" },
+  "www.wagner-autoteile.de": {
+    s: "#cookie-transparency-modal-main, .modal-backdrop { display: none !important; visibility: hidden !important; } body.modal-open { overflow: auto !important; }",
+  },
 };
 
 const blockUrls = {
