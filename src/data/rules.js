@@ -12001,7 +12001,7 @@ const rules = {
     s: '.w-full[data-test="consent-banner"]{display:none !important}',
   },
   "galaxus.de": {
-    s: "#__next > div[aria-hidden]:not([data-layout-container]){display:none !important}",
+    s: 'dialog[aria-labelledby="cookieBannerTitle"], [aria-describedby="cookieBannerDescription"], [class^="yo7XDsR"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } body, html { overflow: auto !important; }',
   },
   "galaxus.at": {
     s: "#__next > div[aria-hidden]:not([data-layout-container]){display:none !important}",
