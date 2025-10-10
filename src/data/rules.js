@@ -12955,7 +12955,9 @@ const rules = {
   "reidl.de": { j: "5" },
   "mifcom.de": { j: "5" },
   "mifcom.ch": { j: "5" },
-  "postimees.ee": { j: "5" },
+  "postimees.ee": {
+    s: "#didomi-popup, #didomi-host, .didomi-popup-container, .didomi-popup-backdrop, .didomi-notice-popup, .didomi-buttons, button#didomi-notice-agree-button, button#didomi-notice-learn-more-button { display: none !important; visibility: hidden !important; } html, body { overflow: auto !important; }",
+  },
   "grdf.fr": { s: "#ckieBnr_banner{display:none !important}" },
   "st1.com": { s: ".cookie-consent-modal,.backdrop{display:none !important}" },
   "st1.se": { s: ".cookie-consent-modal,.backdrop{display:none !important}" },
