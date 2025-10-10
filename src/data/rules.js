@@ -3429,7 +3429,6 @@ const rules = {
     s: 'div[class*="cookieFooter-module"]{display:none !important}',
   },
   "emclient.com": { s: "#emcCookieNotification{display:none !important}" },
-  "drugs.com": { s: ".ddc-overlay,.ddc-modal{display:none !important}" },
   "vesselfinder.com": { s: ".pprem_active{display:none !important}" },
   "keithurban.net": { c: 140 },
   "onvz.nl": { s: ".popup_overlay{display:none !important}" },
