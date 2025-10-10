@@ -212,7 +212,9 @@ const rules = {
     s: 'div[class*="cookieBanner"]{display:none !important}',
   },
   "messenger.com": { j: "5" },
-  "instagram.com": { j: "5" },
+  "instagram.com": {
+    s: "[data-cookie-consent], [data-cookie-backdrop], .xdj266r.x14z9mp.xat24cr.x1lziwak, ._a9--._ap36._asz1, ._a9--._ap36._a9_1 { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
   "linkedin.com": {
     s: '#js-notification-wrapper[role="alert"],.global-alert.global-alert--yield,#global-alert-queue,#artdeco-global-alert-container,.alert,#alert{display:none !important}',
   },
