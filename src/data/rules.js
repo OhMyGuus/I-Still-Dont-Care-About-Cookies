@@ -16983,7 +16983,9 @@ const rules = {
     c: 85,
   },
   "badlion.net": { c: 85 },
-  "empik.com": { c: 85 },
+  "empik.com": {
+    s: ".CookiesConsentsBannerRodo-module_wrapper__FOXmn, .CookiesConsentsBannerRodo-module_container__FC6VL, .CookiesConsentsBannerRodo-module_containerInfo__gM4Wd, .CookiesConsentsBannerRodo-module_background__ybICk, .InfoPage-module_buttonsDesktop__M6SUt, .InfoPage-module_buttonsMobile__U1TSO { display: none !important; }",
+  },
   "play.esea.net": { c: 85 },
   "humanic.net": { c: 85 },
   "make-it-in-germany.com": { c: 85 },
