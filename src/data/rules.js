@@ -18479,6 +18479,9 @@ const rules = {
   "3.shkolkovo.online": {
     s: '[class*="AcceptCookie_AcceptCookie"],[class*="AcceptCookie_AcceptCookie__button"]{display: none !important;}',
   },
+  "vogue.co.uk": {
+    s: "#fides-overlay, #fides-overlay-wrapper, #fides-modal, #fides-banner-container, #fides-banner, #fides-banner-inner, .fides-overlay, .fides-modal-container, .fides-banner { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
