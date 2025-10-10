@@ -18461,9 +18461,6 @@ const rules = {
   "sas.dk": {
     s: "dialog.evvpf73.evvpf70, #radix-_r_19_-content-consent, #radix-_r_19_-content-details, #radix-_r_19_-content-about, button#deny-consent-button, div#survicate-box.survicate-box-FeedbackButton, div#survicate-box.survicate-box-WidgetSurvey { display: none !important; } html, body { overflow: auto !important; }",
   },
-  "arstechnica.com": {
-    s: "#fides-overlay,#fides-overlay-wrapper,#fides-modal,#fides-banner-container,#fides-banner,.fides-overlay,.fides-modal,.fides-banner,.fides-tcf-banner-container{display:none!important;visibility:hidden!important;pointer-events:none!important;}",
-  },
   "alkoteka.com": {
     s: ".modal-cookies__wrap, .modal-cookies, .modal.modal-cookies__wrap.modal--open, .modal-cookies__wrap + .modal__background, .modal-cookies__wrap .modal__background { display: none !important; } html, body { overflow: auto !important; }",
   },
