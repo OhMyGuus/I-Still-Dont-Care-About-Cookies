@@ -18476,6 +18476,9 @@ const rules = {
   "publicmobile.ca": {
     s: '[class*="footer-consent"], .footer-consent-main, [class*="fixed"][class*="bottom-0"][class*="z-20"][class*="left-0"][class*="right-0"] { display: none !important; }',
   },
+  "scan.co.uk": {
+    s: "#cookieConsentApp, #cookieConsentApp .s-theme, .s-popup, .s-popup-content, .popupBackground { display: none !important; }",
+  },
 
   // end of const rules
 };
