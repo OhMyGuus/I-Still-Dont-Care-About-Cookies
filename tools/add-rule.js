@@ -139,7 +139,9 @@ async function addOrReplaceRule(domain, css, common, handler, skipPrettier) {
 
     // Look for "// end of const rules" comment before the closing brace
     const beforeClosing = content.slice(0, insertPosition);
-    const endCommentMatch = beforeClosing.match(/\n\s*\/\/\s*end of const rules\s*\n/);
+    const endCommentMatch = beforeClosing.match(
+      /\n\s*\/\/\s*end of const rules\s*\n/
+    );
 
     if (endCommentMatch) {
       // Insert before the comment instead of after it
