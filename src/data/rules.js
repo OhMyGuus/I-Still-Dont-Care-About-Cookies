@@ -18431,6 +18431,9 @@ const rules = {
   "agenda.sweetfm.fr": {
     s: ".rgpd-div, .rgpd-conditions { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "sweetfm.fr": {
+    s: "#popin_tc_privacy, #privacy-overlay, #tc-privacy-wrapper, .tc-privacy-banner, .tc-privacy-overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
+  },
 };
 
 const blockUrls = {
