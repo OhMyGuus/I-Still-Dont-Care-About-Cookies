@@ -5791,7 +5791,6 @@ const rules = {
   "yodiz.com": { s: "#footMsgYodiz{display:none !important}" },
   "formidable.com": { s: ".formidaCookie{display:none !important}" },
   "noriel.ro": { j: "5" },
-  "gofundme.com": { j: "5" },
   "macway.com": { s: "#grpd-consent{display:none !important}" },
   "amtempo.de": { c: 13 },
   "bilety.mazowieckie.com.pl": { j: "6" },
@@ -18568,7 +18567,8 @@ const blockUrls = {
     { r: "/coolkies-walkies/" },
     { r: "/tagcommander/tc_" },
     { r: "static.axept.io/tcf/sdk.js" },
-    { r: "https://app.usercentrics.eu/browser-sdk/" },
+    { r: "app.usercentrics.eu/browser-sdk/" },
+    { r: "transcend-cdn.com/cm/" },
   ],
   common_groups: {
     cookie: [
@@ -19765,7 +19765,6 @@ const blockUrls = {
       { r: "seznam.cz/js/cmp2/scmp-external.js" },
     ],
     Cookie: [
-      { r: "gofundme.com/js/3.0/visitorCookie.js" },
       { r: "/CookiesDirective" },
       { r: "CookieAccept/affirmation.js" },
       {
