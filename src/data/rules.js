@@ -18428,6 +18428,9 @@ const rules = {
   "rus.delfi.ee": {
     s: ".modal-overlay, .modal__content > .cookie-consent, .cookie-consent { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "agenda.sweetfm.fr": {
+    s: ".rgpd-div, .rgpd-conditions { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
+  },
 };
 
 const blockUrls = {
