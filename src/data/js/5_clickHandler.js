@@ -1647,9 +1647,7 @@ function getSelector(host) {
       return "#uv-gdpr-consent-necessary-form #edit-submit--2";
 
     case "bing.com":
-      e = _id("bnp_btn_preference");
-      if (e) e.click();
-      return _sl('#cookie_preference[style*="block"] .mcp_savesettings a');
+      return ".bnp_action_container #bnp_btn_reject";
 
     case "urgibl.de":
     case "bruns.de":
