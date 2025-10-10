@@ -18463,6 +18463,9 @@ const rules = {
   "alkoteka.com": {
     s: ".modal-cookies__wrap, .modal-cookies, .modal.modal-cookies__wrap.modal--open, .modal-cookies__wrap + .modal__background, .modal-cookies__wrap .modal__background { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "chat.deepseek.com": {
+    s: '[class*="cookie_banner"],[class*="cookie_banner"] *,#cf-overlay{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}html,body{overflow:auto!important;max-height:none!important;}',
+  },
 
   // end of const rules
 };
