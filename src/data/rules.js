@@ -3429,7 +3429,6 @@ const rules = {
     s: 'div[class*="cookieFooter-module"]{display:none !important}',
   },
   "emclient.com": { s: "#emcCookieNotification{display:none !important}" },
-  "drugs.com": { s: ".ddc-overlay,.ddc-modal{display:none !important}" },
   "vesselfinder.com": { s: ".pprem_active{display:none !important}" },
   "keithurban.net": { c: 140 },
   "onvz.nl": { s: ".popup_overlay{display:none !important}" },
@@ -5792,7 +5791,6 @@ const rules = {
   "yodiz.com": { s: "#footMsgYodiz{display:none !important}" },
   "formidable.com": { s: ".formidaCookie{display:none !important}" },
   "noriel.ro": { j: "5" },
-  "gofundme.com": { j: "5" },
   "macway.com": { s: "#grpd-consent{display:none !important}" },
   "amtempo.de": { c: 13 },
   "bilety.mazowieckie.com.pl": { j: "6" },
@@ -12003,7 +12001,7 @@ const rules = {
     s: '.w-full[data-test="consent-banner"]{display:none !important}',
   },
   "galaxus.de": {
-    s: "#__next > div[aria-hidden]:not([data-layout-container]){display:none !important}",
+    s: 'dialog[aria-labelledby="cookieBannerTitle"], [aria-describedby="cookieBannerDescription"], [class^="yo7XDsR"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } body, html { overflow: auto !important; }',
   },
   "galaxus.at": {
     s: "#__next > div[aria-hidden]:not([data-layout-container]){display:none !important}",
@@ -13800,7 +13798,9 @@ const rules = {
     s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
   },
   "bild.de": { j: "5" },
-  "wetter.com": { j: "5" },
+  "wetter.com": {
+    s: "#cmp-wetter, #cmp-modal, #cmp-back, #cmp-content, #cmp-consent, #cmp-paywall, #cmp-loader, #cmp-buttons { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
+  },
   "coolblue.nl": { j: "5" },
   "coolblue.be": { j: "5" },
   "coolblue.de": { j: "5" },
@@ -18439,6 +18439,10 @@ const rules = {
   "sweetfm.fr": {
     s: "#popin_tc_privacy, #privacy-overlay, #tc-privacy-wrapper, .tc-privacy-banner, .tc-privacy-overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
   },
+  "verfassungsschutz.de": {
+    s: ".mfp-bg.mfp-ready { display: none !important; }",
+    c: 85,
+  },
   "geopop.it": {
     s: "#geopop_it .layer1, #geopop_it .gdpr-modal, #geopop_it .gdpr-modal__box { display: none !important; } body.no-scr, html.no-scr { overflow: auto !important; }",
   },
@@ -18454,14 +18458,20 @@ const rules = {
   "sas.dk": {
     s: "dialog.evvpf73.evvpf70, #radix-_r_19_-content-consent, #radix-_r_19_-content-details, #radix-_r_19_-content-about, button#deny-consent-button, div#survicate-box.survicate-box-FeedbackButton, div#survicate-box.survicate-box-WidgetSurvey { display: none !important; } html, body { overflow: auto !important; }",
   },
-  "arstechnica.com": {
-    s: "#fides-overlay,#fides-overlay-wrapper,#fides-modal,#fides-banner-container,#fides-banner,.fides-overlay,.fides-modal,.fides-banner,.fides-tcf-banner-container{display:none!important;visibility:hidden!important;pointer-events:none!important;}",
-  },
   "alkoteka.com": {
     s: ".modal-cookies__wrap, .modal-cookies, .modal.modal-cookies__wrap.modal--open, .modal-cookies__wrap + .modal__background, .modal-cookies__wrap .modal__background { display: none !important; } html, body { overflow: auto !important; }",
   },
   "chat.deepseek.com": {
     s: '[class*="cookie_banner"],[class*="cookie_banner"] *,#cf-overlay{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}html,body{overflow:auto!important;max-height:none!important;}',
+  },
+  "simontutorial.de": {
+    s: ".fade.modal-backdrop.show, .fade.modal.show { display: none !important; visibility: hidden !important; opacity: 0 !important; } body.modal-open { overflow: auto !important; padding-right: 0 !important; }",
+  },
+  "app.trakt.tv": {
+    s: '[class*="trakt-cookie-underlay"], [class*="trakt-cookie-notice"], button[data-testid="consent-button"] { display: none !important; }',
+  },
+  "3.shkolkovo.online": {
+    s: '[class*="AcceptCookie_AcceptCookie"],[class*="AcceptCookie_AcceptCookie__button"]{display: none !important;}',
   },
 
   // end of const rules
@@ -18551,6 +18561,8 @@ const blockUrls = {
     { r: "/coolkies-walkies/" },
     { r: "/tagcommander/tc_" },
     { r: "static.axept.io/tcf/sdk.js" },
+    { r: "app.usercentrics.eu/browser-sdk/" },
+    { r: "transcend-cdn.com/cm/" },
   ],
   common_groups: {
     cookie: [
@@ -19747,7 +19759,6 @@ const blockUrls = {
       { r: "seznam.cz/js/cmp2/scmp-external.js" },
     ],
     Cookie: [
-      { r: "gofundme.com/js/3.0/visitorCookie.js" },
       { r: "/CookiesDirective" },
       { r: "CookieAccept/affirmation.js" },
       {

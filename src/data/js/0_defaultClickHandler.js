@@ -33,6 +33,7 @@
     ],
 
     ".mfp-wrap.mfp-ready": [
+      ".cookiebanner-section .js-banner-button-confirm-selection",
       ".cookieselection-confirm-selection",
       "#gdpr_understandBtn",
       "#cookiebanner .button-row > :not(.consentToAll)",
@@ -507,11 +508,25 @@
   function searchLoop(counter) {
     setTimeout(function () {
       document.querySelectorAll(searchPairsJoinedKeys).forEach(function (box) {
+        console.log(
+          "Found box",
+          box,
+          "matching one of selectors",
+          searchPairsKeys
+        );
         searchPairsKeys.forEach(function (selector) {
           if (box.matches(selector)) {
             (box.shadowRoot || box)
               .querySelectorAll(searchPairs[selector].join(","))
               .forEach(function (element) {
+                console.log(
+                  "Found element",
+                  element,
+                  "inside box",
+                  box,
+                  "matching one of selectors",
+                  searchPairs[selector]
+                );
                 if (element.click && !element.classList.contains("idcac")) {
                   element.classList.add("idcac");
 
@@ -523,6 +538,14 @@
                   }
 
                   element.click();
+                  console.log(
+                    "Clicked element",
+                    element,
+                    "in box",
+                    box,
+                    "matching selector",
+                    selector
+                  );
 
                   // The 2nd click is just to be sure. Avoid when a double click breaks the process.
                   if (selector != ".message-container") {
@@ -541,6 +564,12 @@
       document
         .querySelectorAll(searchGroups[counter % searchGroupsLength])
         .forEach(function (element) {
+          console.log(
+            "Found element",
+            element,
+            "in search group",
+            counter % searchGroupsLength
+          );
           if (element.click && !element.classList.contains("idcac")) {
             element.classList.add("idcac");
 
@@ -550,6 +579,12 @@
                 url: document.location.href,
               });
             }
+            console.log(
+              "Clicked element",
+              element,
+              "in search group",
+              counter % searchGroupsLength
+            );
 
             element.click();
 
