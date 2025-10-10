@@ -18558,6 +18558,7 @@ const blockUrls = {
     { r: "/coolkies-walkies/" },
     { r: "/tagcommander/tc_" },
     { r: "static.axept.io/tcf/sdk.js" },
+    { r: "https://app.usercentrics.eu/browser-sdk/" },
   ],
   common_groups: {
     cookie: [
