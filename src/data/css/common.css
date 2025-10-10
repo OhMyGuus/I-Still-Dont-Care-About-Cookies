@@ -14313,9 +14313,8 @@ body:not(.cnn) > #onetrust-blocker,
 .cookies-home_overlay,
 #eif-popup-policy,
 #shopify-pc__banner,
-#fides-overlay .fides-overlay
-
-
+#fides-overlay .fides-overlay,
+.giraffly_gdpr,
 .cookie-overLay {
   display: none !important;
   height: 0 !important;
