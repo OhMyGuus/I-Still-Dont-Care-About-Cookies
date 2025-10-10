@@ -20617,7 +20617,7 @@ const blockUrls = {
     "sage.co.uk": ["/Cookies.js"],
     "liebherr.com": ["/cmp/"],
     "biggreenegg.co.uk": ["/_astro/CookieBanner"],
-    "qatarairways.com" : ["/cookie-gdpr/cookie-notification-qr.js"]
+    "qatarairways.com": ["/cookie-gdpr/cookie-notification-qr.js"],
   },
 };
 
