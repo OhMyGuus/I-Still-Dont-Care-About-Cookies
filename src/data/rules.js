@@ -18470,6 +18470,9 @@ const rules = {
   "simontutorial.de": {
     s: ".fade.modal-backdrop.show, .fade.modal.show { display: none !important; visibility: hidden !important; opacity: 0 !important; } body.modal-open { overflow: auto !important; padding-right: 0 !important; }",
   },
+  "app.trakt.tv": {
+    s: '[class*="trakt-cookie-underlay"], [class*="trakt-cookie-notice"], button[data-testid="consent-button"] { display: none !important; }',
+  },
 
   // end of const rules
 };
