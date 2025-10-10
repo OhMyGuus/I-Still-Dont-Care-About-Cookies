@@ -5791,7 +5791,9 @@ const rules = {
   "yodiz.com": { s: "#footMsgYodiz{display:none !important}" },
   "formidable.com": { s: ".formidaCookie{display:none !important}" },
   "noriel.ro": { j: "5" },
-  "gofundme.com": { j: "5" },
+  "gofundme.com": {
+    s: '#transcend-consent-manager, [id^="transcend"], .transcend-consent-link { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
   "macway.com": { s: "#grpd-consent{display:none !important}" },
   "amtempo.de": { c: 13 },
   "bilety.mazowieckie.com.pl": { j: "6" },
