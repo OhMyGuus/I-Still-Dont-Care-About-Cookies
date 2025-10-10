@@ -18434,6 +18434,9 @@ const rules = {
   "sweetfm.fr": {
     s: "#popin_tc_privacy, #privacy-overlay, #tc-privacy-wrapper, .tc-privacy-banner, .tc-privacy-overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
   },
+  "hussars.net": {
+    s: "#shopify-pc__banner, #shopify-section-sections--25024861471044__privacy-banner { display: none !important; }",
+  },
 };
 
 const blockUrls = {
