@@ -18442,6 +18442,9 @@ const rules = {
   "portalitv.com": {
     s: "#wb-co-cookiesgdpr_module, form#aceptarAllCookiesForm, form#aceptarCustomCookiesForm { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
   },
+  "eurobonus.shopping": {
+    s: "#the-consent-modal, #the-consent-modal___BV_modal_outer_, #the-consent-modal___BV_modal_backdrop_ { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.modal-open { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
