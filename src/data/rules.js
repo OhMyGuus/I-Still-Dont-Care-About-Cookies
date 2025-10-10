@@ -418,7 +418,7 @@ const rules = {
     s: "#exposeMask,#TMobile_nl_WebPortals_UI_PageComponents_CookieSettingsOverlay_CookieSettingsOverlayController_OverlayRootDiv{display:none !important}",
   },
   "dropbox.com": {
-    s: "#consent-iframe{display:none !important}",
+    s: "#ccpa-iframe, iframe#ccpa-iframe._ccpa-iframe_163y6_1, iframe._banner-visible_163y6_13 { display: none !important; visibility: hidden !important; width: 0 !important; height: 0 !important; }",
   },
   "legolas.pl": { s: "#kuki{display:none !important}" },
   "slke.dk": { c: 46 },
@@ -10411,7 +10411,9 @@ const rules = {
   "urbanista.de": { j: "5" },
   "chiptehnika.si": { s: ".noty_cont{display:none !important}" },
   "theweathernetwork.com": { s: ".woahbar{display:none !important}" },
-  "meteomedia.com": { s: ".woahbar{display:none !important}" },
+  "meteomedia.com": {
+    s: "#didomi-host, #didomi-popup, #buttons, .didomi-popup-backdrop, .didomi-notice-popup, .didomi-popup__backdrop, .didomi-host, .didomi-notice, .didomi-popup, .didomi-buttons, #didomi-notice-learn-more-button, #didomi-notice-disagree-button, #didomi-notice-agree-button { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; touch-action: auto !important; }",
+  },
   "warp2search.net": { c: 100 },
   "doopla.pl": { s: "div[cmp]{display:none !important}" },
   "elektriker-wissen.de": { s: "#f_cookie{display:none !important}" },
@@ -12955,7 +12957,9 @@ const rules = {
   "reidl.de": { j: "5" },
   "mifcom.de": { j: "5" },
   "mifcom.ch": { j: "5" },
-  "postimees.ee": { j: "5" },
+  "postimees.ee": {
+    s: "#didomi-popup, #didomi-host, .didomi-popup-container, .didomi-popup-backdrop, .didomi-notice-popup, .didomi-buttons, button#didomi-notice-agree-button, button#didomi-notice-learn-more-button { display: none !important; visibility: hidden !important; } html, body { overflow: auto !important; }",
+  },
   "grdf.fr": { s: "#ckieBnr_banner{display:none !important}" },
   "st1.com": { s: ".cookie-consent-modal,.backdrop{display:none !important}" },
   "st1.se": { s: ".cookie-consent-modal,.backdrop{display:none !important}" },
@@ -13478,7 +13482,7 @@ const rules = {
   "punpro.com": { s: 'div[class*="CookieSession"]{display:none !important}' },
   "siamsport.co.th": { s: "#popup-ss{display:none !important}" },
   "reddit.com": {
-    s: '#SHORTCUT_FOCUSABLE_DIV > div> div > section > [style*="Toaster"],shreddit-async-loader[bundlename*="cookie_banner"]{display:none !important}',
+    s: "#data-protection-consent-wrapper, rpl-dialog-sheet#data-protection-consent-sheet, #data-protection-consent-dialog { display: none !important; }",
   },
   "reddit.watch": {
     s: ".v-content__wrap > .container > .align-end{display:none !important}",
@@ -13796,7 +13800,9 @@ const rules = {
     s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
   },
   "bild.de": { j: "5" },
-  "wetter.com": { j: "5" },
+  "wetter.com": {
+    s: "#cmp-wetter, #cmp-modal, #cmp-back, #cmp-content, #cmp-consent, #cmp-paywall, #cmp-loader, #cmp-buttons { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
+  },
   "coolblue.nl": { j: "5" },
   "coolblue.be": { j: "5" },
   "coolblue.de": { j: "5" },
@@ -14676,7 +14682,9 @@ const rules = {
   "cashconverters.pt": { j: "5" },
   "lykke.com": { s: 'div[class*="privacy-settings"]{display:none !important}' },
   "dnzb.nl": { c: 168 },
-  "pccomponentes.com": { c: 39 },
+  "pccomponentes.com": {
+    s: '[data-testid="modal"], .sc-BKAtq.fZTjTE { display: none !important; } body.rendered { overflow: auto !important; }',
+  },
   "pelando.com.br": { c: 168 },
   "curiositystream.com": { c: 168 },
   "steambackgrounds.com": { c: 168 },
@@ -16979,7 +16987,9 @@ const rules = {
     c: 85,
   },
   "badlion.net": { c: 85 },
-  "empik.com": { c: 85 },
+  "empik.com": {
+    s: ".CookiesConsentsBannerRodo-module_wrapper__FOXmn, .CookiesConsentsBannerRodo-module_container__FC6VL, .CookiesConsentsBannerRodo-module_containerInfo__gM4Wd, .CookiesConsentsBannerRodo-module_background__ybICk, .InfoPage-module_buttonsDesktop__M6SUt, .InfoPage-module_buttonsMobile__U1TSO { display: none !important; }",
+  },
   "play.esea.net": { c: 85 },
   "humanic.net": { c: 85 },
   "make-it-in-germany.com": { c: 85 },
@@ -18438,6 +18448,35 @@ const rules = {
     s: ".mfp-bg.mfp-ready { display: none !important; }",
     c: 85,
   },
+  "geopop.it": {
+    s: "#geopop_it .layer1, #geopop_it .gdpr-modal, #geopop_it .gdpr-modal__box { display: none !important; } body.no-scr, html.no-scr { overflow: auto !important; }",
+  },
+  "portalitv.com": {
+    s: "#wb-co-cookiesgdpr_module, form#aceptarAllCookiesForm, form#aceptarCustomCookiesForm { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
+  },
+  "eurobonus.shopping": {
+    s: "#the-consent-modal, #the-consent-modal___BV_modal_outer_, #the-consent-modal___BV_modal_backdrop_ { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.modal-open { overflow: auto !important; }",
+  },
+  "retnemt.dk": {
+    s: '#headlessui-portal-root, [id^="headlessui-dialog-"], [id^="headlessui-dialog-panel-"], #cookies, #modalNode { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body, :root { overflow: auto !important; height: auto !important; }',
+  },
+  "sas.dk": {
+    s: "dialog.evvpf73.evvpf70, #radix-_r_19_-content-consent, #radix-_r_19_-content-details, #radix-_r_19_-content-about, button#deny-consent-button, div#survicate-box.survicate-box-FeedbackButton, div#survicate-box.survicate-box-WidgetSurvey { display: none !important; } html, body { overflow: auto !important; }",
+  },
+  "arstechnica.com": {
+    s: "#fides-overlay,#fides-overlay-wrapper,#fides-modal,#fides-banner-container,#fides-banner,.fides-overlay,.fides-modal,.fides-banner,.fides-tcf-banner-container{display:none!important;visibility:hidden!important;pointer-events:none!important;}",
+  },
+  "alkoteka.com": {
+    s: ".modal-cookies__wrap, .modal-cookies, .modal.modal-cookies__wrap.modal--open, .modal-cookies__wrap + .modal__background, .modal-cookies__wrap .modal__background { display: none !important; } html, body { overflow: auto !important; }",
+  },
+  "chat.deepseek.com": {
+    s: '[class*="cookie_banner"],[class*="cookie_banner"] *,#cf-overlay{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}html,body{overflow:auto!important;max-height:none!important;}',
+  },
+  "simontutorial.de": {
+    s: ".fade.modal-backdrop.show, .fade.modal.show { display: none !important; visibility: hidden !important; opacity: 0 !important; } body.modal-open { overflow: auto !important; padding-right: 0 !important; }",
+  },
+
+  // end of const rules
 };
 
 const blockUrls = {
@@ -18523,6 +18562,7 @@ const blockUrls = {
     { r: "/ModalEngage,ConsentManager,Sticky" },
     { r: "/coolkies-walkies/" },
     { r: "/tagcommander/tc_" },
+    { r: "static.axept.io/tcf/sdk.js" },
   ],
   common_groups: {
     cookie: [
@@ -19309,6 +19349,7 @@ const blockUrls = {
       { r: "/mod_pixim_cookie/" },
     ],
     consent: [
+      { r: "myprivacy-static.dpgmedia.net/consent.js" },
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
       { r: "privacy.ariadneathome.nl/script/consent.js" },
       { r: "privacy.vtwonen.nl/script/consent.js" },
@@ -20595,6 +20636,7 @@ const blockUrls = {
     "sage.co.uk": ["/Cookies.js"],
     "liebherr.com": ["/cmp/"],
     "biggreenegg.co.uk": ["/_astro/CookieBanner"],
+    "qatarairways.com": ["/cookie-gdpr/cookie-notification-qr.js"],
   },
 };
 
