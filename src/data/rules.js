@@ -16983,7 +16983,9 @@ const rules = {
   "badlion.net": { c: 85 },
   "empik.com": { c: 85 },
   "play.esea.net": { c: 85 },
-  "humanic.net": { c: 85 },
+  "humanic.net": {
+    s: "aside#usercentrics-cmp-ui, div#js-overlay.c-overlay, iframe#uc-cross-domain-consent-sharing-bridge { display: none !important; }",
+  },
   "make-it-in-germany.com": { c: 85 },
   "mybestbrands.de": { c: 85 },
   "myunidays.com": { c: 85 },
