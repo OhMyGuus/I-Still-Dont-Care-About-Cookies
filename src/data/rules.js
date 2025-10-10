@@ -18457,9 +18457,6 @@ const rules = {
   "sas.dk": {
     s: "dialog.evvpf73.evvpf70, #radix-_r_19_-content-consent, #radix-_r_19_-content-details, #radix-_r_19_-content-about, button#deny-consent-button, div#survicate-box.survicate-box-FeedbackButton, div#survicate-box.survicate-box-WidgetSurvey { display: none !important; } html, body { overflow: auto !important; }",
   },
-  "qatarairways.com": {
-    s: "#cookiebarNew, #cookie-container, #cookie-id, .cookie-note-extended.cookiewrap.cookieGdpr, .modal-backdrop.fade.show { display: none !important; } body.modal-open { overflow: auto !important; }",
-  },
 
   // end of const rules
 };
@@ -20620,6 +20617,7 @@ const blockUrls = {
     "sage.co.uk": ["/Cookies.js"],
     "liebherr.com": ["/cmp/"],
     "biggreenegg.co.uk": ["/_astro/CookieBanner"],
+    "qatarairways.com" : ["/cookie-gdpr/cookie-notification-qr.js"]
   },
 };
 
