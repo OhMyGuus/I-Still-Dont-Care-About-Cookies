@@ -631,13 +631,7 @@ function getSelector(host) {
       return 'div[data-testid="cookie-policy-dialog"] button[data-cookiebanner*="accept"]';
 
     case "instagram.com":
-      return _if_else(
-        "html#facebook",
-        ['.hasCookieBanner button[data-cookiebanner*="accept_only_essential"]'],
-        [
-          "#splash-screen ~ div[style] button + button, #splash-screen ~ div[style] div:nth-child(3) > div:nth-child(2) > button:only-child",
-        ]
-      );
+      return "//div[@role='dialog' and .//a[contains(@href, 'privacycenter.instagram.com/policies/cookies')]]//div//div//div//button[2]";
 
     case "privacymanager.io":
       return _sl("#manageSettings ~ #save, .noDenyButton .accept-all"); // new and old button, just in case
