@@ -14676,7 +14676,9 @@ const rules = {
   "cashconverters.pt": { j: "5" },
   "lykke.com": { s: 'div[class*="privacy-settings"]{display:none !important}' },
   "dnzb.nl": { c: 168 },
-  "pccomponentes.com": { c: 39 },
+  "pccomponentes.com": {
+    s: '[data-testid="modal"], .sc-BKAtq.fZTjTE { display: none !important; } body.rendered { overflow: auto !important; }',
+  },
   "pelando.com.br": { c: 168 },
   "curiositystream.com": { c: 168 },
   "steambackgrounds.com": { c: 168 },
