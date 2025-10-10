@@ -18736,6 +18736,7 @@ const blockUrls = {
           "exali.de",
           "raiplaysound.it",
           "check24.de",
+          "pasts.lv",
         ],
       },
       { r: "/common/cpol/cookiepolicy.php" },
