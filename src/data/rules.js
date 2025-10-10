@@ -418,7 +418,7 @@ const rules = {
     s: "#exposeMask,#TMobile_nl_WebPortals_UI_PageComponents_CookieSettingsOverlay_CookieSettingsOverlayController_OverlayRootDiv{display:none !important}",
   },
   "dropbox.com": {
-    s: "#consent-iframe{display:none !important}",
+    s: "#ccpa-iframe, iframe#ccpa-iframe._ccpa-iframe_163y6_1, iframe._banner-visible_163y6_13 { display: none !important; visibility: hidden !important; width: 0 !important; height: 0 !important; }",
   },
   "legolas.pl": { s: "#kuki{display:none !important}" },
   "slke.dk": { c: 46 },
