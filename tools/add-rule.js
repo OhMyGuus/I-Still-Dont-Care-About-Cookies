@@ -135,7 +135,19 @@ async function addOrReplaceRule(domain, css, common, handler, skipPrettier) {
   } else {
     console.log(`Adding new rule for domain: ${domain}`);
 
-    const insertPosition = rulesObject.end - 1;
+    let insertPosition = rulesObject.end - 1;
+
+    // Look for "// end of const rules" comment before the closing brace
+    const beforeClosing = content.slice(0, insertPosition);
+    const endCommentMatch = beforeClosing.match(
+      /\n\s*\/\/\s*end of const rules\s*\n/
+    );
+
+    if (endCommentMatch) {
+      // Insert before the comment instead of after it
+      insertPosition = endCommentMatch.index + 1; // +1 to keep the newline before comment
+    }
+
     const needsLeadingNewline =
       insertPosition > 0 &&
       content[insertPosition - 1] !== "\n" &&
