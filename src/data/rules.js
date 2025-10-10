@@ -18476,6 +18476,9 @@ const rules = {
   "3.shkolkovo.online": {
     s: '[class*="AcceptCookie_AcceptCookie"],[class*="AcceptCookie_AcceptCookie__button"]{display: none !important;}',
   },
+  "economist.com": {
+    s: '[class*="cookie-notice_mb-footer__cookie-notice"], .js-cmp-manage-cookies { display: none !important; }',
+  },
 
   // end of const rules
 };
