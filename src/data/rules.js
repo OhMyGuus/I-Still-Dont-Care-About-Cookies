@@ -18448,6 +18448,9 @@ const rules = {
   "retnemt.dk": {
     s: '#headlessui-portal-root, [id^="headlessui-dialog-"], [id^="headlessui-dialog-panel-"], #cookies, #modalNode { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body, :root { overflow: auto !important; height: auto !important; }',
   },
+  "sas.dk": {
+    s: "dialog.evvpf73.evvpf70, #radix-_r_19_-content-consent, #radix-_r_19_-content-details, #radix-_r_19_-content-about, button#deny-consent-button, div#survicate-box.survicate-box-FeedbackButton, div#survicate-box.survicate-box-WidgetSurvey { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
