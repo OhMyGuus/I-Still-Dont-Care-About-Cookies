@@ -18479,6 +18479,9 @@ const rules = {
   "scan.co.uk": {
     s: "#cookieConsentApp, #cookieConsentApp .s-theme, .s-popup, .s-popup-content, .popupBackground { display: none !important; }",
   },
+  "fusion-retro-books.myshopify.com": {
+    s: ".giraffly_gdpr, .giraffly_gdpr_first, .giraffly_gdpr_first_message { display: none !important; visibility: hidden !important; opacity: 0 !important; height: 0 !important; width: 0 !important; } body.scroll-y-off { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
