@@ -18466,6 +18466,9 @@ const rules = {
   "chat.deepseek.com": {
     s: '[class*="cookie_banner"],[class*="cookie_banner"] *,#cf-overlay{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}html,body{overflow:auto!important;max-height:none!important;}',
   },
+  "simontutorial.de": {
+    s: ".fade.modal-backdrop.show, .fade.modal.show { display: none !important; visibility: hidden !important; opacity: 0 !important; } body.modal-open { overflow: auto !important; padding-right: 0 !important; }",
+  },
 
   // end of const rules
 };
