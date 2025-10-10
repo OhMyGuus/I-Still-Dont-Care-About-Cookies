@@ -18473,6 +18473,9 @@ const rules = {
   "3.shkolkovo.online": {
     s: '[class*="AcceptCookie_AcceptCookie"],[class*="AcceptCookie_AcceptCookie__button"]{display: none !important;}',
   },
+  "publicmobile.ca": {
+    s: '[class*="footer-consent"], .footer-consent-main, [class*="fixed"][class*="bottom-0"][class*="z-20"][class*="left-0"][class*="right-0"] { display: none !important; }',
+  },
 
   // end of const rules
 };
