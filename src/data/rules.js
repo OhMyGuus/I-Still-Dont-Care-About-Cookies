@@ -18466,6 +18466,9 @@ const rules = {
   "chat.deepseek.com": {
     s: '[class*="cookie_banner"],[class*="cookie_banner"] *,#cf-overlay{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}html,body{overflow:auto!important;max-height:none!important;}',
   },
+  "bugasalt.com": {
+    s: "#shopify-pc__banner, section[id^='shopify-pc__banner'], .shopify-pc__banner__dialog, #shopify-pc__banner__btn-manage-prefs, #shopify-pc__banner__btn-accept, #shopify-pc__banner__btn-decline, #shopify-pc__banner__body-title, #shopify-pc__banner__body-policy-link, #privy-container, #privy-inner-container { display: none !important; pointer-events: none !important; visibility: hidden !important; }",
+  },
 
   // end of const rules
 };
