@@ -18470,9 +18470,6 @@ const rules = {
   "simontutorial.de": {
     s: ".fade.modal-backdrop.show, .fade.modal.show { display: none !important; visibility: hidden !important; opacity: 0 !important; } body.modal-open { overflow: auto !important; padding-right: 0 !important; }",
   },
-  "apolux.de": {
-    s: ".consent_footer, .consent_content_wrapper, .consent_content_button_wrapper, .consent-categories, #privacyConsentModal { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
-  },
 
   // end of const rules
 };
@@ -18561,6 +18558,7 @@ const blockUrls = {
     { r: "/coolkies-walkies/" },
     { r: "/tagcommander/tc_" },
     { r: "static.axept.io/tcf/sdk.js" },
+    { r: "https://app.usercentrics.eu/browser-sdk/" },
   ],
   common_groups: {
     cookie: [
