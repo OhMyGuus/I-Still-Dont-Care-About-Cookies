@@ -18425,6 +18425,9 @@ const rules = {
   "techbook.de": {
     s: '[id^="sp_message"], [class^="sp_message_"] { display: none !important; visibility: hidden !important; opacity: 0 !important; height: 0 !important; width: 0 !important; max-height: 0 !important; max-width: 0 !important; overflow: hidden !important; pointer-events: none !important; } .sp-message-open { height: unset !important; width: unset !important; }',
   },
+  "sparkasse-oberland.de": {
+    s: ".if6_eprivacy.if6_lightbox, .if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.lightbox_visible { overflow: auto !important; } body.lightbox_visible::before, body.lightbox_visible::after { display: none !important; }",
+  },
 };
 
 const blockUrls = {
