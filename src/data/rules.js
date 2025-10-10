@@ -18547,6 +18547,7 @@ const blockUrls = {
     { r: "/ModalEngage,ConsentManager,Sticky" },
     { r: "/coolkies-walkies/" },
     { r: "/tagcommander/tc_" },
+    { r: "static.axept.io/tcf/sdk.js" },
   ],
   common_groups: {
     cookie: [
