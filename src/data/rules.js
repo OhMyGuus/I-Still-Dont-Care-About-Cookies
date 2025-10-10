@@ -18453,9 +18453,6 @@ const rules = {
   "sas.dk": {
     s: "dialog.evvpf73.evvpf70, #radix-_r_19_-content-consent, #radix-_r_19_-content-details, #radix-_r_19_-content-about, button#deny-consent-button, div#survicate-box.survicate-box-FeedbackButton, div#survicate-box.survicate-box-WidgetSurvey { display: none !important; } html, body { overflow: auto !important; }",
   },
-  "acteurspublics.fr": {
-    s: 'cft5oy7-xvgf#om5sr3, #qiota-dialog, #consent_blackbar, div[style*="--ax-backdrop-color"], div[style*="z-index: 2147483645"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } body { overflow: visible !important; }',
-  },
 
   // end of const rules
 };
@@ -18543,6 +18540,7 @@ const blockUrls = {
     { r: "/ModalEngage,ConsentManager,Sticky" },
     { r: "/coolkies-walkies/" },
     { r: "/tagcommander/tc_" },
+    { r: "static.axept.io/tcf/sdk.js" },
   ],
   common_groups: {
     cookie: [
