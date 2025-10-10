@@ -18434,6 +18434,9 @@ const rules = {
   "sweetfm.fr": {
     s: "#popin_tc_privacy, #privacy-overlay, #tc-privacy-wrapper, .tc-privacy-banner, .tc-privacy-overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
   },
+  "verfassungsschutz.de": {
+    s: "section#cookiebanner.cookiebanner.cookiebanner__restrictive, section#cookiebanner, .cookiebanner, .cookiebanner__restrictive, #_yn93ky6eu, #_one8h3sjm, button#_17fxbjy1j { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 };
 
 const blockUrls = {
