@@ -10411,7 +10411,9 @@ const rules = {
   "urbanista.de": { j: "5" },
   "chiptehnika.si": { s: ".noty_cont{display:none !important}" },
   "theweathernetwork.com": { s: ".woahbar{display:none !important}" },
-  "meteomedia.com": { s: ".woahbar{display:none !important}" },
+  "meteomedia.com": {
+    s: "#didomi-host, #didomi-popup, #buttons, .didomi-popup-backdrop, .didomi-notice-popup, .didomi-popup__backdrop, .didomi-host, .didomi-notice, .didomi-popup, .didomi-buttons, #didomi-notice-learn-more-button, #didomi-notice-disagree-button, #didomi-notice-agree-button { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; touch-action: auto !important; }",
+  },
   "warp2search.net": { c: 100 },
   "doopla.pl": { s: "div[cmp]{display:none !important}" },
   "elektriker-wissen.de": { s: "#f_cookie{display:none !important}" },
