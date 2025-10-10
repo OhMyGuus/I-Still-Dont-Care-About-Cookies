@@ -13482,7 +13482,7 @@ const rules = {
   "punpro.com": { s: 'div[class*="CookieSession"]{display:none !important}' },
   "siamsport.co.th": { s: "#popup-ss{display:none !important}" },
   "reddit.com": {
-    s: '#SHORTCUT_FOCUSABLE_DIV > div> div > section > [style*="Toaster"],shreddit-async-loader[bundlename*="cookie_banner"]{display:none !important}',
+    s: "#data-protection-consent-wrapper, rpl-dialog-sheet#data-protection-consent-sheet, #data-protection-consent-dialog { display: none !important; }",
   },
   "reddit.watch": {
     s: ".v-content__wrap > .container > .align-end{display:none !important}",
