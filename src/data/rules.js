@@ -18473,6 +18473,9 @@ const rules = {
   "app.trakt.tv": {
     s: '[class*="trakt-cookie-underlay"], [class*="trakt-cookie-notice"], button[data-testid="consent-button"] { display: none !important; }',
   },
+  "3.shkolkovo.online": {
+    s: '[class*="AcceptCookie_AcceptCookie"],[class*="AcceptCookie_AcceptCookie__button"]{display: none !important;}',
+  },
 
   // end of const rules
 };
