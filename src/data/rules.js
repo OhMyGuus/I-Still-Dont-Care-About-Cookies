@@ -13800,7 +13800,9 @@ const rules = {
     s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
   },
   "bild.de": { j: "5" },
-  "wetter.com": { j: "5" },
+  "wetter.com": {
+    s: "#cmp-wetter, #cmp-modal, #cmp-back, #cmp-content, #cmp-consent, #cmp-paywall, #cmp-loader, #cmp-buttons { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
+  },
   "coolblue.nl": { j: "5" },
   "coolblue.be": { j: "5" },
   "coolblue.de": { j: "5" },
