@@ -18442,6 +18442,7 @@ const rules = {
   "portalitv.com": {
     s: "#wb-co-cookiesgdpr_module, form#aceptarAllCookiesForm, form#aceptarCustomCookiesForm { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
   },
+  // end of const rules
 };
 
 const blockUrls = {
