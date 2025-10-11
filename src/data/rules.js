@@ -1773,9 +1773,6 @@ const rules = {
   "sockshop.co.uk": { s: "#CNwrap{display:none !important}" },
   "scandtrack.com": { s: "#st_cookie{display:none !important}" },
   "bzwbk.pl": { s: ".cookie-btn{display:none !important}" },
-  "newsnow.co.uk": {
-    s: 'div[id^="sp_message_container_"], iframe[id^="sp_message_iframe_"], a#js-manage-consent { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
-  },
   "gruppocarraro.it": { c: 1 },
   "riddarhuset.se": { s: ".cookieWidget{display:none !important}" },
   "dvdbluray.hu": { s: "#sutibox{display:none !important}" },
@@ -20594,6 +20591,7 @@ const blockUrls = {
     "liberation.fr": ["/wrapperMessagingWithoutDetection.js"],
     "caradisiac.com": ["/wrapperMessagingWithoutDetection"],
     "anderes-wort.de": ["/wrapperMessagingWithoutDetection"],
+    "newsnow.co.uk": ["/wrapperMessagingWithoutDetection"],
     "bauer-baumschulen.ch": ["/CookieBanner.js"],
     "strato.se": ["/consent."],
     "imusic.de": ["/cc.js"],
