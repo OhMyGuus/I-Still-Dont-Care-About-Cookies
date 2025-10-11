@@ -8264,21 +8264,6 @@ function getSelector(host) {
     case "autoersatzteile.de":
     case "autoteiledirekt.de":
       return '.popup[style*="block"] [data-cookies-refuse]';
-    case "rtvdrenthe.nl":
-    case "rtvoost.nl":
-    case "omroepzeeland.nl":
-    case "omroepwest.nl":
-    case "rtvnoord.nl":
-    case "gld.nl":
-    case "rijnmond.nl":
-    case "1limburg.nl":
-    case "omropfryslan.nl":
-    case "rtvutrecht.nl":
-      return _chain(
-        "#consent-plugin .choices:nth-child(2) .reject",
-        "#consent-plugin .choices:nth-child(3) .reject",
-        "#consent-plugin .buttons-fixed-container > button:last-child"
-      );
     case "urlaubspiraten.de":
     case "urlaubspiraten.at":
       return document.location.hostname.indexOf("kurzreisen") != -1
