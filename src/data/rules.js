@@ -18501,6 +18501,9 @@ const rules = {
   "tickets.deutsches-museum.de": {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
   },
+  "lucrato.nl": {
+    s: ".ddm.ddmcm, .ddmcm-wrapper, .ddmcm-box, .ddmcm-content, .ddmcm-categories, .ddmcm-title { display: none !important; }",
+  },
 
   // end of const rules
 };
