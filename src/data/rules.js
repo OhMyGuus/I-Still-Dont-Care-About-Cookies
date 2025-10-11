@@ -18487,6 +18487,9 @@ const rules = {
   "easygasgroup.com": {
     s: "#cmplz-cookiebanner-container,#cmplz-manage-consent,.cmplz-blocked-content-container,.cmplz-placeholder-element,.cmplz-blocked-content-notice,.cmplz-btn.cmplz-accept,.cmplz-btn.cmplz-deny,.cmplz-btn.cmplz-view-preferences{display:none!important;visibility:hidden!important;height:0!important;width:0!important;}",
   },
+  "accountscenter.facebook.com": {
+    s: '[role="dialog"][class*="_59s7"], [class*="_10"][class*="uiLayer"], [class*="_4t2a"], .xx6bls6, span[id^="_r_"][class*="x193iq5w"] { display: none !important; }',
+  },
 
   // end of const rules
 };
