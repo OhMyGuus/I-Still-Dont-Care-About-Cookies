@@ -18501,6 +18501,9 @@ const rules = {
   "tickets.deutsches-museum.de": {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
   },
+  "amazon.nl": {
+    s: "#sp-cc-wrapper, form#cos-banner, #sp-cc-header, #sp-cc-error, #sp-cc-accept, #sp-cc-rejectall-link, a#sp-cc-customize { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
