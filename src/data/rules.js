@@ -18487,6 +18487,9 @@ const rules = {
   "easygasgroup.com": {
     s: "#cmplz-cookiebanner-container,#cmplz-manage-consent,.cmplz-blocked-content-container,.cmplz-placeholder-element,.cmplz-blocked-content-notice,.cmplz-btn.cmplz-accept,.cmplz-btn.cmplz-deny,.cmplz-btn.cmplz-view-preferences{display:none!important;visibility:hidden!important;height:0!important;width:0!important;}",
   },
+  "raspberrypi.dk": {
+    s: '.cs_preview_container, .cs-info-bar, .cs-public-cookie-bar, .cs-modal, .cs-modal-backdrop, .cs-popupbar-overlay, .cs-popupbar-overlay-bar, .cs-settings-overlay, .cs-fade, #cs_preview_popup, #cs_preview_popup_button, #text-6 .textwidget p { display: none !important; } html[style*="overflow"], body[style*="overflow"] { overflow: auto !important; height: auto !important; }',
+  },
 
   // end of const rules
 };
