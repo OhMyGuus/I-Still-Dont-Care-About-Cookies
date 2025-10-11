@@ -18169,7 +18169,6 @@ const rules = {
   "rtvoost.nl": { j: 5 },
   "omroepzeeland.nl": { j: 5 },
   "omroepwest.nl": { j: 5 },
-  "gld.nl": { j: 5 },
   "rijnmond.nl": { j: 5 },
   "1limburg.nl": { j: 5 },
   "omropfryslan.nl": { j: 5 },
@@ -19392,6 +19391,7 @@ const blockUrls = {
       { r: "/mod_pixim_cookie/" },
     ],
     consent: [
+      { r: "s.regiogroei.cloud/plugins/consent-plugin" },
       { r: "myprivacy-static.dpgmedia.net/consent.js" },
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
       { r: "privacy.ariadneathome.nl/script/consent.js" },
