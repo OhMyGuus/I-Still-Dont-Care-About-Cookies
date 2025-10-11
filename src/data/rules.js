@@ -18481,6 +18481,9 @@ const rules = {
   "spk-mecklenburg-nordwest.de": {
     s: '.if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible, .if6_outer.if6_eprivacy.if6_lightbox[aria-hidden="false"] { display: none !important; } body.lightbox_visible { overflow: auto !important; touch-action: auto !important; }',
   },
+  "ihk-muenchen.de": {
+    s: '#cookie-banner, #cookie-banner-overlay, [id^="cookie-banner"], .cookie-banner { display: none !important; visibility: hidden !important; opacity: 0 !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
