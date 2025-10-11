@@ -18499,6 +18499,9 @@ const rules = {
   "tickets.deutsches-museum.de": {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
   },
+  "amazon.co.uk": {
+    s: '[id^="sp-cc"], form#cos-banner { display: none !important; }',
+  },
 
   // end of const rules
 };
