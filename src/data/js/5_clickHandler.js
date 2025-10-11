@@ -1437,10 +1437,7 @@ function getSelector(host) {
         : false;
 
     case "oxxio.nl":
-      e = _sl(".c-modal__content--after-open");
-      return e && _ev("span[contains(., 'cookiebeleid')]", e)
-        ? _sl("button", e)
-        : false;
+      return "//div[@role='alertdialog']//button[@data-label='Weigeren']";
 
     case "monheim.de":
     case "maengelmelder.de":
@@ -6948,7 +6945,9 @@ function getSelector(host) {
     case "studienstiftung.de":
       return _sl('.modal[style*="block"] #CookieForm .btn-primary');
     case "bol.com":
-      return _sl("#js-reject-all-button");
+      return _sl(
+        "//div[@role='dialog']//button[normalize-space(text())='Weigeren']"
+      );
     case "lektury.gov.pl":
       return _sl('.modal[style*="block"] .cookies-accept-btn');
     case "hawle.de":
@@ -8265,21 +8264,6 @@ function getSelector(host) {
     case "autoersatzteile.de":
     case "autoteiledirekt.de":
       return '.popup[style*="block"] [data-cookies-refuse]';
-    case "rtvdrenthe.nl":
-    case "rtvoost.nl":
-    case "omroepzeeland.nl":
-    case "omroepwest.nl":
-    case "rtvnoord.nl":
-    case "gld.nl":
-    case "rijnmond.nl":
-    case "1limburg.nl":
-    case "omropfryslan.nl":
-    case "rtvutrecht.nl":
-      return _chain(
-        "#consent-plugin .choices:nth-child(2) .reject",
-        "#consent-plugin .choices:nth-child(3) .reject",
-        "#consent-plugin .buttons-fixed-container > button:last-child"
-      );
     case "urlaubspiraten.de":
     case "urlaubspiraten.at":
       return document.location.hostname.indexOf("kurzreisen") != -1

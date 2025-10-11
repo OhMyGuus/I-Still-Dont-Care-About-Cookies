@@ -14318,7 +14318,8 @@ body:not(.cnn) > #onetrust-blocker,
 .giraffly_gdpr,
 .cookie-overLay,
 div.sp-cc-wrapper,
-#ccm-widget {
+#ccm-widget,
+moonback-cookie-banner {
   display: none !important;
   height: 0 !important;
   z-index: -99999 !important;
