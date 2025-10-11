@@ -18514,6 +18514,9 @@ const rules = {
   "rolex.com": {
     s: '#qc-cmp2-container, #qc-cmp2-main, #qc-cmp2-ui, div[class*="Overlay-Root"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "dailyaesthetikz.com": {
+    s: ".c-cookie-bar.cookie-bar--is-visible, .cookie-bar__content, .cookie-bar__settings, .cookie-bar__button-holder { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
