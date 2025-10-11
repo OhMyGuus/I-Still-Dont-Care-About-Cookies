@@ -18520,6 +18520,9 @@ const rules = {
   "sparkasse-oberland.de": {
     s: ".if6_eprivacy.if6_lightbox, .if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.lightbox_visible { overflow: auto !important; } body.lightbox_visible::before, body.lightbox_visible::after { display: none !important; }",
   },
+  "theaterhaus.com": {
+    s: '.cookie-manager, .cookie-manager .modal-mask, .cookie-manager .modal-wrapper, .cookie-manager .modal-container { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html[style*="overflow: hidden"], body[style*="overflow: hidden"], html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
