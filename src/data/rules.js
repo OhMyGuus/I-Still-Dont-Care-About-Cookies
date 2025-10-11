@@ -11204,7 +11204,9 @@ const rules = {
   "gumenadom.si": { c: 0 },
   "backmomente.de": { j: "5" },
   "zeroco2.eco": { s: "#loadingShadow{display:none !important}" },
-  "oxxio.nl": { j: "5" },
+  "oxxio.nl": {
+    s: '[role="alertdialog"][id^="radix-"], [id^="radix-"][aria-labelledby][aria-describedby] { display: none !important; } body { overflow: auto !important; touch-action: auto !important; }',
+  },
   "elavon.pl": { j: "5" },
   "zeg-holz.de": { s: "#ucShadowRoot{display:none !important}" },
   "xeev.net": { j: "5" },
