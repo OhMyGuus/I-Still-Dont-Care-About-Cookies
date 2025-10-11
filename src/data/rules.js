@@ -18312,7 +18312,9 @@ const rules = {
   "colourbox.dk": { j: 5 },
   "colourbox.es": { j: 5 },
   "hema.com": { j: 5 },
-  "hema.nl": { j: 5 },
+  "hema.nl": {
+    s: "div#cookiebanner, aside#usercentrics-cmp-ui, span.overlay.overlay-custom, span.overlay-pdp, span.overlay.mobile-header-overlay.fullscreen-overlay, span.menu-container-overlay, span.overlay-cover, div.modal-overlay.new-modal-overlay.js-account-minilogin-overlay, div.modal-overlay.new-modal-overlay.js-password-modal-overlay, div.search-overlay-shadow.js-search-overlay-shadow, div.flyout-overlay.js-flyout-overlay, div.modal-overlay.emailoptin-modal.js-modal-overlay.js-emailoptin-modal, div.geolocation-overlay.js-geo-modal-overlay, div#surveyMask.mopinion-survey-mask, img#CookiebotSessionPixel { display: none !important; } html, body { overflow: auto !important; touch-action: auto !important; }",
+  },
   "dafy-moto.be": { j: 5 },
   "aviasales.com": { j: 5 },
   "aviasales.ru": { j: 5 },
