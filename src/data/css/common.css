@@ -52,7 +52,8 @@ html.sp-message-open,
 html.sp-message-open body,
 html.disable--interaction.show--consent,
 html.disable--interaction.show--consent body,
-body.idxrcookies-block-user-nav {
+body.idxrcookies-block-user-nav,
+.ccm-blocked {
   overflow: unset !important;
 }
 
@@ -14316,7 +14317,8 @@ body:not(.cnn) > #onetrust-blocker,
 #fides-overlay .fides-overlay,
 .giraffly_gdpr,
 .cookie-overLay,
-div.sp-cc-wrapper {
+div.sp-cc-wrapper,
+#ccm-widget {
   display: none !important;
   height: 0 !important;
   z-index: -99999 !important;

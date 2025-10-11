@@ -15523,9 +15523,6 @@ const rules = {
   "sergas.gal": {
     s: "#cookies-notices-container,.cookies-policy{display:none !important}",
   },
-  "click-learn.de": {
-    s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}",
-  },
   "lernenundhelfen.de": { s: "#cookie-layer{display:none !important}" },
   "classicalarchives.com": { s: ".Cdiv{display:none !important}" },
   "bitso.com": { s: "#__next > div + div{display:none !important}" },
@@ -15654,12 +15651,6 @@ const rules = {
   },
   "lamnia.com": { s: ".cookie-background{display:none !important}" },
   "payhawk.com": { s: ".wookiee-wrapper{display:none !important}" },
-  "apfelpage.de": {
-    s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}",
-  },
-  "inlingua-muenchen.de": {
-    s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}",
-  },
   "airteam.eu": { c: 14 },
   "jeancoutu.com": { c: 6 },
   "paulus.com.br": {
@@ -18500,9 +18491,6 @@ const rules = {
   },
   "tickets.deutsches-museum.de": {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
-  },
-  "fr.citizenwatch.eu": {
-    s: "#ccm-widget, #ccm-control-panel, .ccm-modal.ccm-widget, .ccm-modal.ccm--is-blocking { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html { overflow: auto !important; }",
   },
 
   // end of const rules
