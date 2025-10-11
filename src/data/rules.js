@@ -18513,6 +18513,9 @@ const rules = {
   "careers.teenage.engineering": {
     s: 'dialog[class*="z-cookie-alert"], [class*="z-cookie-alert"], [class*="backdrop:bg-"], [class*="cookie-consent"], [id*="cookie"] { display: none !important; } html, body { overflow: auto !important; }',
   },
+  "nd.nl": {
+    s: "#cookieconsent, #consentcontainer, #cookie_settings, .cookie-banner, #poool-widget-backdrop, #poool-widget-fullpage, #poool-widget-floating { display: none !important; }",
+  },
 
   // end of const rules
 };
