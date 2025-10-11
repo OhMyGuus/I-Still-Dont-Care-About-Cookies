@@ -14911,10 +14911,6 @@ const rules = {
   "fredolsen.es": { j: "5" },
   "myprivacy.dpgmedia.nl": { j: "5" },
   "thephoblographer.com": { s: "#nebothemeCookieBar{display:none !important}" },
-  "omg.de": {
-    s: "#CookiePlus{display:none !important}",
-    c: 14,
-  },
   "sole-runner.com": {
     s: "#CookiePlus{display:none !important}",
     c: 14,
@@ -18569,6 +18565,7 @@ const blockUrls = {
     { r: "static.axept.io/tcf/sdk.js" },
     { r: "app.usercentrics.eu/browser-sdk/" },
     { r: "transcend-cdn.com/cm/" },
+    { r: "cmp.actiview.de/app.js" },
   ],
   common_groups: {
     cookie: [
