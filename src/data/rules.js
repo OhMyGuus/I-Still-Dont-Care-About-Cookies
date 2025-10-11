@@ -18475,6 +18475,9 @@ const rules = {
   "scan.co.uk": {
     s: "#cookieConsentApp, #cookieConsentApp .s-theme, .s-popup, .s-popup-content, .popupBackground { display: none !important; }",
   },
+  "hd4kwallpapers.com": {
+    s: '[aria-labelledby="cookie-title"],[aria-describedby="cookie-description"],[role="dialog"][aria-labelledby="cookie-title"],.fc-consent-root,.fc-dialog-container,.fc-dialog.fc-choice-dialog{display:none !important;pointer-events:none !important;opacity:0 !important;height:0 !important;min-height:0 !important;margin:0 !important;padding:0 !important;} html,body{overflow:auto !important;height:auto !important;}',
+  },
 
   // end of const rules
 };
