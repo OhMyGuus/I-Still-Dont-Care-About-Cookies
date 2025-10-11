@@ -18501,6 +18501,9 @@ const rules = {
   "tickets.deutsches-museum.de": {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
   },
+  "breitbart.com": {
+    s: "#onetrust-consent-sdk, #onetrust-banner-sdk, #onetrust-policy, #onetrust-group-container, #onetrust-close-btn-container, #ot-sdk-btn-floating, .onetrust-pc-dark-filter, .onetrust-overlay, .ot-sdk-show-settings { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
