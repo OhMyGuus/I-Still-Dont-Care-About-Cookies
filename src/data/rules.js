@@ -18169,7 +18169,9 @@ const rules = {
   "rtvoost.nl": { j: 5 },
   "omroepzeeland.nl": { j: 5 },
   "omroepwest.nl": { j: 5 },
-  "gld.nl": { j: 5 },
+  "gld.nl": {
+    s: "#consent-plugin, #consent-plugin-block, #consent-plugin-layout, #consent-plugin-header, #consent-plugin-layout-container, #consent-plugin-layout-settings, #consent-plugin-config, #consent-plugin-line, #consent-plugin-buttons-wrapper, #consent-plugin-buttons-container, #consent-plugin-buttons { display: none !important; }",
+  },
   "rijnmond.nl": { j: 5 },
   "1limburg.nl": { j: 5 },
   "omropfryslan.nl": { j: 5 },
