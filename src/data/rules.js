@@ -15295,7 +15295,7 @@ const rules = {
   },
   "stromnetz-hamburg.de": { j: "5" },
   "bol.com": {
-    s: '.consent, .overlay, [id^="radix-"][role="dialog"][data-state="open"], [id*="radix-"][class*="consent"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
+    j: "5",
   },
   "unigine.com": { s: ".bottom-notice{display:none !important}" },
   "healthline.com": { j: "5" },
