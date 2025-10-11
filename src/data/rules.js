@@ -8976,7 +8976,9 @@ const rules = {
   "astroreveal.com": { s: ".EU2018{display:none !important}" },
   "kobietaxl.pl": { s: ".cookie_al{display:none !important}" },
   "swissre.com": { s: ".Notification{display:none !important}" },
-  "weeronline.nl": { j: "5" },
+  "weeronline.nl": {
+    s: "#didomi-popup, #didomi-host, #buttons.multiple.didomi-buttons.didomi-popup-notice-buttons, .didomi-popup-backdrop, .didomi-notice-popup, .didomi-host, .didomi-notice { display: none !important; } body.didomi-popup-open { overflow: visible !important; }",
+  },
   "kbv.de": { s: ".layer-cookie{display:none !important}" },
   "wissenstexte.de": { s: "body > dialog{display:none !important}" },
   "aquanox.com": { c: 0 },
