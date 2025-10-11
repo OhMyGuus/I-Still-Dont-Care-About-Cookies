@@ -4455,7 +4455,9 @@ const rules = {
     s: ".AVS-evasteseloste-container{display:none !important}",
   },
   "psicologia-online.com": { c: 4 },
-  "ben.nl": { j: "5" },
+  "ben.nl": {
+    s: 'aside#usercentrics-cmp-ui, iframe#uc-cross-domain-consent-sharing-bridge, [id^="usercentrics"], [class*="usercentrics"], [data-testid*="usercentrics"], [data-testid*="uc-"], .uc-overlay, .uc-backdrop, .usercentrics-root { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
   "medlibrary.org": { s: "#cks{display:none !important}" },
   "wylecz.to": { j: "5" },
   "gab-umweltservice.de": { s: "#rcpm{display:none !important}" },
