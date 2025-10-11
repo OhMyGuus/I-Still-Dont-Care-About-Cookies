@@ -18501,6 +18501,9 @@ const rules = {
   "tickets.deutsches-museum.de": {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
   },
+  "arstechnica.com": {
+    s: "#fides-overlay, #fides-overlay-wrapper, #fides-modal, #fides-banner-container, #fides-banner, .fides-overlay, .fides-banner, .fides-modal-container { display: none !important; }",
+  },
 
   // end of const rules
 };
