@@ -18523,6 +18523,9 @@ const rules = {
   "theaterhaus.com": {
     s: '.cookie-manager, .cookie-manager .modal-mask, .cookie-manager .modal-wrapper, .cookie-manager .modal-container { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html[style*="overflow: hidden"], body[style*="overflow: hidden"], html, body { overflow: auto !important; }',
   },
+  "airsoft-rus.ru": {
+    s: ".bxm-cookie-alert, .bxm-cookie-alert-wrapper, .bxm-cookie-alert-txt, .bxm-cookie-alert-btn { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
