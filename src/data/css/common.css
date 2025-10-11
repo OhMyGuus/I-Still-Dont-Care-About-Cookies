@@ -14316,7 +14316,7 @@ body:not(.cnn) > #onetrust-blocker,
 #fides-overlay .fides-overlay,
 .giraffly_gdpr,
 .cookie-overLay,
-[id^="sp-cc"] {
+div.sp-cc-wrapper {
   display: none !important;
   height: 0 !important;
   z-index: -99999 !important;
