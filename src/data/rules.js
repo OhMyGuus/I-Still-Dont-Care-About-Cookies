@@ -18523,6 +18523,9 @@ const rules = {
   "theaterhaus.com": {
     s: '.cookie-manager, .cookie-manager .modal-mask, .cookie-manager .modal-wrapper, .cookie-manager .modal-container { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html[style*="overflow: hidden"], body[style*="overflow: hidden"], html, body { overflow: auto !important; }',
   },
+  "zeitpunkt.nrw": {
+    s: 'div[id="disclaimerCookie"], div[id="disclaimerCookie"] * { display: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
