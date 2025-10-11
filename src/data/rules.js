@@ -1215,7 +1215,9 @@ const rules = {
   "thecoupleconnection.net": { s: "#anon_mode{display:none !important}" },
   "globalassicurazioni.it": { c: 12 },
   "gamesgrabr.com": { s: ".alerts-wrap{display:none !important}" },
-  "rd.nl": { j: "5" },
+  "rd.nl": {
+    s: "#emgCookieConsentOverlay, #emgCookieConsentBackground, #emgCookieConsentInitialPopup, #emgCookieConsentInitialPopup .inner-content, #initial-popup-title { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
+  },
   "webzeen.fr": { s: ".footer-fixed-bottom{display:none !important}" },
   "bitpalast.net": { s: ".con{display:none !important}" },
   "schoolandvacation.it": { c: 12 },
