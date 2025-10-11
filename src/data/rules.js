@@ -18526,6 +18526,9 @@ const rules = {
   "hanna-loeschl.at": {
     s: 'div[consent-skip-blocker="1"], dialog[aria-modal="true"][open], [id^="a7397-ext-"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: visible !important; }',
   },
+  "lottery.co.uk": {
+    s: "#cksModal, #cks { display: none !important; visibility: hidden !important; opacity: 0 !important; }",
+  },
 
   // end of const rules
 };
