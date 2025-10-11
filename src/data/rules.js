@@ -10534,7 +10534,9 @@ const rules = {
   "sheldrickwildlifetrust.org": { c: 2 },
   "antwerpen.be": { s: "aui-cookie-consent{display:none !important}" },
   "rtvnoord.nl": { j: "5" },
-  "wehkamp.nl": { s: "#header > aside{display:none !important}" },
+  "wehkamp.nl": {
+    s: 'section.react-aria-Dialog:has(div[data-testid="consent-dialog"]), div[data-testid="consent-dialog"], div[class*="Nfv"][class*="z-high"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } html[style*="overflow: hidden"], html[style*="overflow:hidden"] { overflow: visible !important; }',
+  },
   "novibet.gr": { s: ".setCookies{display:none !important}" },
   "elektro-met.pl": { c: 0 },
   "estetic-dent-sklep.pl": { c: 0 },
@@ -13782,7 +13784,7 @@ const rules = {
   "flyr.com": { j: "5" },
   "rewardlink.io": { c: 69 },
   "xhamster.com": {
-    s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
+    s: '[class*="experimentalModalContainer"], [class*="experimentalHeader"], [class*="experimentalContent"], [class*="experimentalButtons"], [class*="experimentalFooter"], [class*="wrapper-"] { display: none !important; } .xh-thumb-disabled *, .xh-thumb-disabled { filter: none !important; overflow: visible !important; }',
   },
   "xhamster2.com": {
     s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
@@ -14237,8 +14239,7 @@ const rules = {
   "mondverlauf.de": { s: "#cc_div{display:none !important}" },
   "sonnenverlauf.de": { s: "#cc_div{display:none !important}" },
   "revolut.com": {
-    s: 'div[role="dialog"][aria-label*="Cookie"]{display:none !important}',
-    j: "5",
+    s: '[aria-label="Choose your cookies"], [aria-label*="cookie" i], div[role="dialog"][aria-label*="cookie" i] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
   "volkssolidaritaet.de": { j: "5" },
   "allani.pl": { s: ".off-canvas-wrap ~ div{display:none !important}" },
@@ -18502,6 +18503,15 @@ const rules = {
   },
   "tickets.deutsches-museum.de": {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
+  },
+  "tehnomedia.rs": {
+    s: ".tm-cookies, a.cookies-toggler#cookies-toggle, a#cookies-necessary, a#cookies-accept { display: none !important; }",
+  },
+  "chat.mistral.ai": {
+    s: 'div[id^="radix-"][data-state="open"], div[id^="radix-"][class*="z-50"], div[id^="radix-"][class*="inset-0"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
+  },
+  "careers.teenage.engineering": {
+    s: 'dialog[class*="z-cookie-alert"], [class*="z-cookie-alert"], [class*="backdrop:bg-"], [class*="cookie-consent"], [id*="cookie"] { display: none !important; } html, body { overflow: auto !important; }',
   },
 
   // end of const rules

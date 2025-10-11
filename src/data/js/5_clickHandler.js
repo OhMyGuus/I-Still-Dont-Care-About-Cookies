@@ -1437,10 +1437,7 @@ function getSelector(host) {
         : false;
 
     case "oxxio.nl":
-      e = _sl(".c-modal__content--after-open");
-      return e && _ev("span[contains(., 'cookiebeleid')]", e)
-        ? _sl("button", e)
-        : false;
+      return "//div[@role='alertdialog']//button[@data-label='Weigeren']";
 
     case "monheim.de":
     case "maengelmelder.de":
