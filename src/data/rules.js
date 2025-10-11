@@ -18490,6 +18490,9 @@ const rules = {
   "whirlpool.com.ar": {
     s: '[data-cookie-banner-whirlpool="1"],[data-cookie-overlay-whirlpool="1"]{display:none !important; visibility:hidden !important; opacity:0 !important; pointer-events:none !important;}[data-cookie-banner-whirlpool="1"] *{display:none !important;}',
   },
+  "kickly.de": {
+    s: 'div[class*="fixed"][class*="bottom-4"][class*="z-["], div[class*="bg-gray-900"][class*="rounded-lg"][class*="shadow-xl"] { display: none !important; }',
+  },
 
   // end of const rules
 };
