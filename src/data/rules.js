@@ -15531,9 +15531,6 @@ const rules = {
   "sergas.gal": {
     s: "#cookies-notices-container,.cookies-policy{display:none !important}",
   },
-  "click-learn.de": {
-    s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}",
-  },
   "lernenundhelfen.de": { s: "#cookie-layer{display:none !important}" },
   "classicalarchives.com": { s: ".Cdiv{display:none !important}" },
   "bitso.com": { s: "#__next > div + div{display:none !important}" },
@@ -15662,12 +15659,6 @@ const rules = {
   },
   "lamnia.com": { s: ".cookie-background{display:none !important}" },
   "payhawk.com": { s: ".wookiee-wrapper{display:none !important}" },
-  "apfelpage.de": {
-    s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}",
-  },
-  "inlingua-muenchen.de": {
-    s: "#ccm-widget{display:none !important} .ccm-blocked{overflow: unset !important}",
-  },
   "airteam.eu": { c: 14 },
   "jeancoutu.com": { c: 6 },
   "paulus.com.br": {
