@@ -13996,7 +13996,7 @@ const rules = {
     s: 'div[name="footerExpander"] + div ~ div:not([style]){display:none !important}',
   },
   "sellpy.com": {
-    s: 'div[name="footerExpander"] + div ~ div:not([style]){display:none !important}',
+    s: '[data-testid="modal"], [class*="sc-kTbCBX"], [class*="sc-heIBml"], [class*="sc-eWHaVC"], [class*="sc-imWYAI"] { display: none !important; } body { overflow: auto !important; }',
   },
   "x-kom.pl": { j: "5" },
   "oscaro.es": { j: "5" },
