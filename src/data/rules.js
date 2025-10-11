@@ -18478,6 +18478,9 @@ const rules = {
   "hd4kwallpapers.com": {
     s: '[aria-labelledby="cookie-title"],[aria-describedby="cookie-description"],[role="dialog"][aria-labelledby="cookie-title"],.fc-consent-root,.fc-dialog-container,.fc-dialog.fc-choice-dialog{display:none !important;pointer-events:none !important;opacity:0 !important;height:0 !important;min-height:0 !important;margin:0 !important;padding:0 !important;} html,body{overflow:auto !important;height:auto !important;}',
   },
+  "spk-mecklenburg-nordwest.de": {
+    s: '.if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible, .if6_outer.if6_eprivacy.if6_lightbox[aria-hidden="false"] { display: none !important; } body.lightbox_visible { overflow: auto !important; touch-action: auto !important; }',
+  },
 
   // end of const rules
 };
