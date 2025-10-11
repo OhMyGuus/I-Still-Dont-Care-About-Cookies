@@ -18604,6 +18604,7 @@ const blockUrls = {
     { r: "app.usercentrics.eu/browser-sdk/" },
     { r: "transcend-cdn.com/cm/" },
     { r: "cmp.actiview.de/app.js" },
+    { r: "ddmcb.js" },
     { r: "Pubble.CookieManager.js" },
   ],
   common_groups: {
