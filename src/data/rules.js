@@ -10534,7 +10534,9 @@ const rules = {
   "sheldrickwildlifetrust.org": { c: 2 },
   "antwerpen.be": { s: "aui-cookie-consent{display:none !important}" },
   "rtvnoord.nl": { j: "5" },
-  "wehkamp.nl": { s: "#header > aside{display:none !important}" },
+  "wehkamp.nl": {
+    s: 'section.react-aria-Dialog:has(div[data-testid="consent-dialog"]), div[data-testid="consent-dialog"], div[class*="Nfv"][class*="z-high"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } html[style*="overflow: hidden"], html[style*="overflow:hidden"] { overflow: visible !important; }',
+  },
   "novibet.gr": { s: ".setCookies{display:none !important}" },
   "elektro-met.pl": { c: 0 },
   "estetic-dent-sklep.pl": { c: 0 },
