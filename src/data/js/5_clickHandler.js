@@ -6948,7 +6948,9 @@ function getSelector(host) {
     case "studienstiftung.de":
       return _sl('.modal[style*="block"] #CookieForm .btn-primary');
     case "bol.com":
-      return _sl("//div[@role='dialog']//button[normalize-space(text())='Weigeren']");
+      return _sl(
+        "//div[@role='dialog']//button[normalize-space(text())='Weigeren']"
+      );
     case "lektury.gov.pl":
       return _sl('.modal[style*="block"] .cookies-accept-btn');
     case "hawle.de":
