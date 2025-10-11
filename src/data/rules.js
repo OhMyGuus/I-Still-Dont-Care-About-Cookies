@@ -14912,8 +14912,7 @@ const rules = {
   "myprivacy.dpgmedia.nl": { j: "5" },
   "thephoblographer.com": { s: "#nebothemeCookieBar{display:none !important}" },
   "omg.de": {
-    s: "#CookiePlus{display:none !important}",
-    c: 14,
+    s: "#ccm-widget, .ccm-root, .ccm-modal, .ccm-modal-inner, .ccm-modal--body, .ccm-inner-overflow, .ccm-widget--text, #ccm-widget--title { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html.ccm-blocked, body.ccm-blocked { overflow: auto !important; height: auto !important; }",
   },
   "sole-runner.com": {
     s: "#CookiePlus{display:none !important}",
