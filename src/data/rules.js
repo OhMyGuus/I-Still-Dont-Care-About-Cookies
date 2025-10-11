@@ -18504,6 +18504,9 @@ const rules = {
   "tehnomedia.rs": {
     s: ".tm-cookies, a.cookies-toggler#cookies-toggle, a#cookies-necessary, a#cookies-accept { display: none !important; }",
   },
+  "chat.mistral.ai": {
+    s: 'div[id^="radix-"][data-state="open"], div[id^="radix-"][class*="z-50"], div[id^="radix-"][class*="inset-0"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
