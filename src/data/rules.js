@@ -18484,6 +18484,9 @@ const rules = {
   "ihk-muenchen.de": {
     s: '#cookie-banner, #cookie-banner-overlay, [id^="cookie-banner"], .cookie-banner { display: none !important; visibility: hidden !important; opacity: 0 !important; } html, body { overflow: auto !important; }',
   },
+  "easygasgroup.com": {
+    s: "#cmplz-cookiebanner-container,#cmplz-manage-consent,.cmplz-blocked-content-container,.cmplz-placeholder-element,.cmplz-blocked-content-notice,.cmplz-btn.cmplz-accept,.cmplz-btn.cmplz-deny,.cmplz-btn.cmplz-view-preferences{display:none!important;visibility:hidden!important;height:0!important;width:0!important;}",
+  },
 
   // end of const rules
 };
