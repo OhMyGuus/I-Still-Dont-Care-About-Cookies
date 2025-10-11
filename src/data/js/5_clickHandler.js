@@ -562,13 +562,7 @@ function getSelector(host) {
           'form[action^="/logout.php"] ~ div:last-child > div > div:first-child div:nth-child(2) > div[role="button"]'
         );
 
-      return _if_else(
-        ".hasCookieBanner",
-        ['button[data-cookiebanner="accept_only_essential_button"]'],
-        [
-          '//body/div[contains(@class, "-mode")]//div[@role="dialog"][.//a[contains(@href, "/policies/cookies")]]/div[2]/div/div[2]/div[@role="button"]',
-        ]
-      );
+      return 'div[role="dialog"][aria-labelledby="manage_cookies_title"] > div > div > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div[role="button"]';
 
     case "store.facebook.com":
       return _if(
