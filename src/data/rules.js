@@ -18501,6 +18501,9 @@ const rules = {
   "tickets.deutsches-museum.de": {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
   },
+  "nu.nl": {
+    s: "#pg-host-shadow-root, aside.columns__sidebar > span, aside.columns__sidebar .button-bar-block { display: none !important; } body { overflow: auto !important; height: auto !important; }",
+  },
 
   // end of const rules
 };
