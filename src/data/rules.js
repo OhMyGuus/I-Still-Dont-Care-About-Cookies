@@ -15294,7 +15294,9 @@ const rules = {
     s: '.hdfc-page > div[style*="center"]{display:none !important}',
   },
   "stromnetz-hamburg.de": { j: "5" },
-  "bol.com": { j: "5" },
+  "bol.com": {
+    s: '.consent, .overlay, [id^="radix-"][role="dialog"][data-state="open"], [id*="radix-"][class*="consent"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
+  },
   "unigine.com": { s: ".bottom-notice{display:none !important}" },
   "healthline.com": { j: "5" },
   "gruene-bundestag.de": { s: ".cn-wrapper{display:none !important}" },
