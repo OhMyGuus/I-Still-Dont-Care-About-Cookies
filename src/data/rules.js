@@ -18520,6 +18520,9 @@ const rules = {
   "sparkasse-oberland.de": {
     s: ".if6_eprivacy.if6_lightbox, .if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.lightbox_visible { overflow: auto !important; } body.lightbox_visible::before, body.lightbox_visible::after { display: none !important; }",
   },
+  "handandstone.com": {
+    s: '#termly-code-snippet-support, .t-consentPrompt, [class*="termly-styles-root"], [class*="termly-styles-main"], [class*="termly-styles-termly-banner"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
