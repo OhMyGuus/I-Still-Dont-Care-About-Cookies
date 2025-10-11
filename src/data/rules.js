@@ -18496,6 +18496,9 @@ const rules = {
   "parking.hamburg-airport.de": {
     s: ".ipcp-notification-cookie, #notificationBar_modal { display: none !important; }",
   },
+  "tickets.deutsches-museum.de": {
+    s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
+  },
 
   // end of const rules
 };
