@@ -18604,10 +18604,10 @@ const blockUrls = {
     { r: "app.usercentrics.eu/browser-sdk/" },
     { r: "transcend-cdn.com/cm/" },
     { r: "cmp.actiview.de/app.js" },
+    { r: "Pubble.CookieManager.js" },
   ],
   common_groups: {
     cookie: [
-      { r: "Pubble.CookieManager.js" },
       { r: "/media/plg_system_cookieconfirm" },
       { r: "cookie_meldung.js" },
       { r: "cookiewarning.js" },
