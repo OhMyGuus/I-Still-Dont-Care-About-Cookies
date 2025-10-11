@@ -14315,7 +14315,8 @@ body:not(.cnn) > #onetrust-blocker,
 #shopify-pc__banner,
 #fides-overlay .fides-overlay,
 .giraffly_gdpr,
-.cookie-overLay {
+.cookie-overLay,
+[id^="sp-cc"] {
   display: none !important;
   height: 0 !important;
   z-index: -99999 !important;
