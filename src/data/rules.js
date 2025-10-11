@@ -11862,7 +11862,9 @@ const rules = {
     s: "fe-product-cookie-indicator{display:none !important}",
   },
   "codeeurope.pl": { j: "5" },
-  "nrc.nl": { s: ".user-confirmation-screen{display:none !important}" },
+  "nrc.nl": {
+    s: "#didomi-host, #didomi-popup, .didomi-popup-backdrop, .didomi-notice-popup, .didomi-popup__backdrop, .didomi-host, style#didomi-css, #didomi-notice-learn-more-button, #didomi-notice-agree-button { display: none !important; visibility: hidden !important; } html, body { overflow: auto !important; }",
+  },
   "sbk.org": { j: "5" },
   "ottobock.de": { s: "#ottobock-usercentrics{display:none !important}" },
   "today.ua": { s: ".politic_confidel{display:none !important}" },
