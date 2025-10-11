@@ -14239,8 +14239,7 @@ const rules = {
   "mondverlauf.de": { s: "#cc_div{display:none !important}" },
   "sonnenverlauf.de": { s: "#cc_div{display:none !important}" },
   "revolut.com": {
-    s: 'div[role="dialog"][aria-label*="Cookie"]{display:none !important}',
-    j: "5",
+    s: '[aria-label="Choose your cookies"], [aria-label*="cookie" i], div[role="dialog"][aria-label*="cookie" i] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
   "volkssolidaritaet.de": { j: "5" },
   "allani.pl": { s: ".off-canvas-wrap ~ div{display:none !important}" },
