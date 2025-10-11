@@ -18499,6 +18499,9 @@ const rules = {
   "tickets.deutsches-museum.de": {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
   },
+  "20minutos.es": {
+    s: "#didomi-host, div[class*='didomi-consent-popup__'], #mrf-popup, #mrf-popup-content, #mrf-cmp { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
