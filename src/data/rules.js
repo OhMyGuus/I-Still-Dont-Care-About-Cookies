@@ -18493,6 +18493,9 @@ const rules = {
   "kickly.de": {
     s: 'div[class*="fixed"][class*="bottom-4"][class*="z-["], div[class*="bg-gray-900"][class*="rounded-lg"][class*="shadow-xl"] { display: none !important; }',
   },
+  "parking.hamburg-airport.de": {
+    s: ".ipcp-notification-cookie, #notificationBar_modal { display: none !important; }",
+  },
 
   // end of const rules
 };
