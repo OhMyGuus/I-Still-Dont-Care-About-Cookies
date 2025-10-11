@@ -18518,6 +18518,9 @@ const rules = {
   "careers.teenage.engineering": {
     s: 'dialog[class*="z-cookie-alert"], [class*="z-cookie-alert"], [class*="backdrop:bg-"], [class*="cookie-consent"], [id*="cookie"] { display: none !important; } html, body { overflow: auto !important; }',
   },
+  "saseurobonusmastercard.dk": {
+    s: '.cookie-consent-dialog[aria-labelledby="cookie_heading"], .cookie-consent-dialog.cookie-consent-dialog--show, .cookie-consent-dialog__content, .cookie-consent-dialog__small, .cookie-consent-dialog__content__choices__buttons { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
