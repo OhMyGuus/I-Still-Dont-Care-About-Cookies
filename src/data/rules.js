@@ -18508,6 +18508,9 @@ const rules = {
   "careers.teenage.engineering": {
     s: 'dialog[class*="z-cookie-alert"], [class*="z-cookie-alert"], [class*="backdrop:bg-"], [class*="cookie-consent"], [id*="cookie"] { display: none !important; } html, body { overflow: auto !important; }',
   },
+  "hukot.net": {
+    s: ".cm--panel, .cm--wrapper, .cm--back { display: none !important; }",
+  },
 
   // end of const rules
 };
