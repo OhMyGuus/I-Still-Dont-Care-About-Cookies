@@ -18490,6 +18490,9 @@ const rules = {
   "whirlpool.com.ar": {
     s: '[data-cookie-banner-whirlpool="1"],[data-cookie-overlay-whirlpool="1"]{display:none !important; visibility:hidden !important; opacity:0 !important; pointer-events:none !important;}[data-cookie-banner-whirlpool="1"] *{display:none !important;}',
   },
+  "fritz.com": {
+    s: "aside#usercentrics-cmp-ui, iframe#uc-cross-domain-consent-sharing-bridge, .country-selector-popup.active, .country-selector-popup, .popup-overlay, .popup-content-wrapper, .R-GlobalModal__backdrop, .overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } body.no-scroll, body.template-index.no-scroll { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
