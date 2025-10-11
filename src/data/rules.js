@@ -18518,6 +18518,9 @@ const rules = {
   "careers.teenage.engineering": {
     s: 'dialog[class*="z-cookie-alert"], [class*="z-cookie-alert"], [class*="backdrop:bg-"], [class*="cookie-consent"], [id*="cookie"] { display: none !important; } html, body { overflow: auto !important; }',
   },
+  "meinprospekt.de": {
+    s: 'aside#usercentrics-cmp-ui, [id*="usercentrics"], [class*="usercentrics"], [data-usercentrics], [id^="uc-"], [class^="uc-"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
