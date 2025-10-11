@@ -18501,6 +18501,9 @@ const rules = {
   "tickets.deutsches-museum.de": {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
   },
+  "fr.citizenwatch.eu": {
+    s: "#ccm-widget, #ccm-control-panel, .ccm-modal.ccm-widget, .ccm-modal.ccm--is-blocking { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
