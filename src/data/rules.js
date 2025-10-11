@@ -18523,6 +18523,9 @@ const rules = {
   "theaterhaus.com": {
     s: '.cookie-manager, .cookie-manager .modal-mask, .cookie-manager .modal-wrapper, .cookie-manager .modal-container { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html[style*="overflow: hidden"], body[style*="overflow: hidden"], html, body { overflow: auto !important; }',
   },
+  "hanna-loeschl.at": {
+    s: 'div[consent-skip-blocker="1"], dialog[aria-modal="true"][open], [id^="a7397-ext-"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: visible !important; }',
+  },
 
   // end of const rules
 };
