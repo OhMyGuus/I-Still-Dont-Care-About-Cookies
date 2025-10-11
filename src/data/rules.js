@@ -18487,6 +18487,9 @@ const rules = {
   "easygasgroup.com": {
     s: "#cmplz-cookiebanner-container,#cmplz-manage-consent,.cmplz-blocked-content-container,.cmplz-placeholder-element,.cmplz-blocked-content-notice,.cmplz-btn.cmplz-accept,.cmplz-btn.cmplz-deny,.cmplz-btn.cmplz-view-preferences{display:none!important;visibility:hidden!important;height:0!important;width:0!important;}",
   },
+  "whirlpool.com.ar": {
+    s: '[data-cookie-banner-whirlpool="1"],[data-cookie-overlay-whirlpool="1"]{display:none !important; visibility:hidden !important; opacity:0 !important; pointer-events:none !important;}[data-cookie-banner-whirlpool="1"] *{display:none !important;}',
+  },
 
   // end of const rules
 };
