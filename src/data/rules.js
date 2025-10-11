@@ -18529,6 +18529,9 @@ const rules = {
   "lottery.co.uk": {
     s: "#cksModal, #cks { display: none !important; visibility: hidden !important; opacity: 0 !important; }",
   },
+  "homekitfit.com": {
+    s: "#gdpr_popup, .modal-backdrop.fade.in, ._nav-mobile-backdrop.js-nav-mobile-backdrop { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
