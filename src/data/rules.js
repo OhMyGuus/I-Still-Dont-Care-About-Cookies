@@ -13446,7 +13446,9 @@ const rules = {
   "elnino-parfum.pl": { j: "5" },
   "frisonaut.de": { j: "5" },
   "sedep.com.br": { s: "#cookiesAceitar{display:none !important}" },
-  "24ur.com": { j: "5" },
+  "24ur.com": {
+    s: '.didomi-host, #didomi-popup, .didomi-popup-backdrop, .didomi-notice-popup, .didomi-popup__backdrop, .didomi-buttons, button[id^="didomi-notice-"], #didomi-notice-learn-more-button, #didomi-notice-agree-button { display: none !important; visibility: hidden !important; } html, body { overflow: auto !important; height: auto !important; }',
+  },
   "zadovoljna.si": { j: "5" },
   "connect.beinsports.com": {
     s: ".app-container > div:not(.app-content){display:none !important}",
