@@ -18532,6 +18532,9 @@ const rules = {
   "ok.ru": {
     s: "div.cookies-agreement-notification, div.cookies-agreement-notification__content, div.cookies-agreement-notification__actions { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "oz.by": {
+    s: '#modalCookie, .modal-cookie, [data-controller="cookie-dialog"], .modal-backdrop.fade.show, .nav-banner__overlay, .digi-recs-modal__overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
