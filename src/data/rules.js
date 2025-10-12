@@ -18529,6 +18529,9 @@ const rules = {
   "lottery.co.uk": {
     s: "#cksModal, #cks { display: none !important; visibility: hidden !important; opacity: 0 !important; }",
   },
+  "dannells.com": {
+    s: "#shopui-cookie-popup-container, #shopui-cookie-modal-container { display: none !important; }",
+  },
 
   // end of const rules
 };
