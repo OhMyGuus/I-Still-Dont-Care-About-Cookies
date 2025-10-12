@@ -18538,6 +18538,9 @@ const rules = {
   "keyonline.pl": {
     s: "#InfoCookieIntegracje.DolnaInformacjaCookie, #InfoCookieTlo, #CookieOknoUstawien, #CookieOknoZamknij { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "theater-kr-mg.de": {
+    s: 'aside#usercentrics-cmp-ui, iframe[id^="uc-cross-domain-consent"], iframe#uc-cross-domain-consent-sharing-bridge, dialog#modal.js-modal.modal { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
