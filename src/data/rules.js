@@ -18107,7 +18107,9 @@ const rules = {
   "jastrzabpost.pl": { j: 5 },
   "jmlnet.pl": { j: 5 },
   "senda.pl": { j: 5 },
-  "aachener-zeitung.de": { j: 5 },
+  "aachener-zeitung.de": {
+    s: '[class*="zweiwegen-model-dialog"], #didomi-host { display: none !important; }',
+  },
   "itextpdf.com": { j: 5 },
   "webasto.com": { j: 5 },
   "powershelluniversal.com": { j: 5 },
