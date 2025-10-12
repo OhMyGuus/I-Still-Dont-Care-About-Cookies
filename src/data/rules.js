@@ -18532,6 +18532,9 @@ const rules = {
   "ok.ru": {
     s: "div.cookies-agreement-notification, div.cookies-agreement-notification__content, div.cookies-agreement-notification__actions { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "woodupp.com": {
+    s: ".cookie.cookie-default, .cookie-bg-color, .cookie-inner, .cookie-overview-tab, .cookie-details-tab, .cookie-buttons { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
