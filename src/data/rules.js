@@ -13446,7 +13446,9 @@ const rules = {
   "elnino-parfum.pl": { j: "5" },
   "frisonaut.de": { j: "5" },
   "sedep.com.br": { s: "#cookiesAceitar{display:none !important}" },
-  "24ur.com": { j: "5" },
+  "24ur.com": {
+    s: '.didomi-host, #didomi-popup, .didomi-popup-backdrop, .didomi-notice-popup, .didomi-popup__backdrop, .didomi-buttons, button[id^="didomi-notice-"], #didomi-notice-learn-more-button, #didomi-notice-agree-button { display: none !important; visibility: hidden !important; } html, body { overflow: auto !important; height: auto !important; }',
+  },
   "zadovoljna.si": { j: "5" },
   "connect.beinsports.com": {
     s: ".app-container > div:not(.app-content){display:none !important}",
@@ -14329,7 +14331,9 @@ const rules = {
   "abconcerts.be": { j: "5" },
   "kulturprojekte.berlin": { j: "5" },
   "humboldtforum.org": { j: "5" },
-  "dw.com": { c: 155 },
+  "dw.com": {
+    s: "div#cmpwrapper.cmpwrapper { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
+  },
   "fz-juelich.de": { j: "5" },
   "thepensionsregulator.gov.uk": { j: "5" },
   "kaggle.com": { j: "5" },
@@ -18105,7 +18109,9 @@ const rules = {
   "jastrzabpost.pl": { j: 5 },
   "jmlnet.pl": { j: 5 },
   "senda.pl": { j: 5 },
-  "aachener-zeitung.de": { j: 5 },
+  "aachener-zeitung.de": {
+    s: '[class*="zweiwegen-model-dialog"], #didomi-host { display: none !important; }',
+  },
   "itextpdf.com": { j: 5 },
   "webasto.com": { j: 5 },
   "powershelluniversal.com": { j: 5 },
@@ -18537,6 +18543,11 @@ const rules = {
   },
   "muenchen-ausstellungen.de": {
     s: '#ccm-widget, #ccm-control-panel, input[id^="ccm--consent-switch"], .ccm-backdrop, .ccm-overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }',
+  "keyonline.pl": {
+    s: "#InfoCookieIntegracje.DolnaInformacjaCookie, #InfoCookieTlo, #CookieOknoUstawien, #CookieOknoZamknij { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
+  "wochenanzeiger.de": {
+    s: "ngb-modal-backdrop.modal-backdrop, ngb-modal-window.cookie-consent, .cookie-consent__main-dialog, .cookie-consent__button-container-right { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.modal-open { overflow: auto !important; padding-right: 0 !important; }",
   },
 
   // end of const rules
