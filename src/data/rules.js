@@ -18529,6 +18529,9 @@ const rules = {
   "lottery.co.uk": {
     s: "#cksModal, #cks { display: none !important; visibility: hidden !important; opacity: 0 !important; }",
   },
+  "raspberrypi.com": {
+    s: '[id="__rptl-cookiebanner"], [id="__rptl-cookiebanner-accept"], [id="__rptl-cookiebanner-reject"] { display: none !important; }',
+  },
 
   // end of const rules
 };
