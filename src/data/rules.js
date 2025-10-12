@@ -212,7 +212,9 @@ const rules = {
     s: 'div[class*="cookieBanner"]{display:none !important}',
   },
   "messenger.com": { j: "5" },
-  "instagram.com": { j: "5" },
+  "instagram.com": {
+    s: '[data-cookie-consent="banner"], [data-cookie-consent-overlay="true"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
   "linkedin.com": {
     s: '#js-notification-wrapper[role="alert"],.global-alert.global-alert--yield,#global-alert-queue,#artdeco-global-alert-container,.alert,#alert{display:none !important}',
   },
