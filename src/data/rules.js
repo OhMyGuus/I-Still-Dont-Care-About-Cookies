@@ -18535,6 +18535,9 @@ const rules = {
   "symondsandsampson.co.uk": {
     s: "#advanced-cookie-notificaiton, .advanced-cookie-notificaiton_wrapper, .advanced-cookie-notificaiton_icon-wrapper, .advanced-cookie-notificaiton_info-content, .advanced-cookie-notificaiton_actions, .wd-notification-cookie-exists, .wd-cookie-accept, .wd-cookie-accept-necessary, .wd-cookie-deny, input.cookie-notice { display: none !important; }",
   },
+  "muenchen-ausstellungen.de": {
+    s: '#ccm-widget, #ccm-control-panel, input[id^="ccm--consent-switch"], .ccm-backdrop, .ccm-overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }',
+  },
 
   // end of const rules
 };
