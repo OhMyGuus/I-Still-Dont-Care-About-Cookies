@@ -18532,6 +18532,9 @@ const rules = {
   "ok.ru": {
     s: "div.cookies-agreement-notification, div.cookies-agreement-notification__content, div.cookies-agreement-notification__actions { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "princess-cruises.com.tr": {
+    s: ".prtltmmc-global-wrap, #prtltmmc-popup, .prtltmmc-fixed-modal { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
