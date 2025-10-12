@@ -18529,6 +18529,9 @@ const rules = {
   "lottery.co.uk": {
     s: "#cksModal, #cks { display: none !important; visibility: hidden !important; opacity: 0 !important; }",
   },
+  "verksamt.se": {
+    s: '[data-testid="cookie-consent-dialog"], dialog#cookie-consent-dialog { display: none !important; visibility: hidden !important; pointer-events: none !important; } .vst-modal__backdrop, dialog#cookie-consent-dialog ~ .vst-modal__backdrop { display: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
