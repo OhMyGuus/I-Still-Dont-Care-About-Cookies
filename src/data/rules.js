@@ -18532,6 +18532,9 @@ const rules = {
   "ok.ru": {
     s: "div.cookies-agreement-notification, div.cookies-agreement-notification__content, div.cookies-agreement-notification__actions { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "kanopy.com": {
+    s: '.gdpr-banner, [aria-label="Cookie preferences banner"], .privacy-text-container, .privacy-text-title, .privacy-text-content { display: none !important; visibility: hidden !important; pointer-events: none !important; } .gdpr-banner * { display: none !important; }',
+  },
 
   // end of const rules
 };
