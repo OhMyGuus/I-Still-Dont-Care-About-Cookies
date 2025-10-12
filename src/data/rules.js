@@ -18540,6 +18540,9 @@ const rules = {
   "keyonline.pl": {
     s: "#InfoCookieIntegracje.DolnaInformacjaCookie, #InfoCookieTlo, #CookieOknoUstawien, #CookieOknoZamknij { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "wochenanzeiger.de": {
+    s: "ngb-modal-backdrop.modal-backdrop, ngb-modal-window.cookie-consent, .cookie-consent__main-dialog, .cookie-consent__button-container-right { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.modal-open { overflow: auto !important; padding-right: 0 !important; }",
+  },
 
   // end of const rules
 };
