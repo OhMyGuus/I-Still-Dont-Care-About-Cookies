@@ -18529,6 +18529,9 @@ const rules = {
   "lottery.co.uk": {
     s: "#cksModal, #cks { display: none !important; visibility: hidden !important; opacity: 0 !important; }",
   },
+  "ok.ru": {
+    s: "div.cookies-agreement-notification, div.cookies-agreement-notification__content, div.cookies-agreement-notification__actions { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
