@@ -18529,6 +18529,9 @@ const rules = {
   "lottery.co.uk": {
     s: "#cksModal, #cks { display: none !important; visibility: hidden !important; opacity: 0 !important; }",
   },
+  "travelbook.de": {
+    s: '[id^="sp_message_container_"], iframe[id^="sp_message_iframe_"], [id*="sp_message_overlay"], [data-testid*="cookie"], .cookie-consent { display: none !important; }',
+  },
 
   // end of const rules
 };
