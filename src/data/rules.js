@@ -18535,6 +18535,9 @@ const rules = {
   "symondsandsampson.co.uk": {
     s: "#advanced-cookie-notificaiton, .advanced-cookie-notificaiton_wrapper, .advanced-cookie-notificaiton_icon-wrapper, .advanced-cookie-notificaiton_info-content, .advanced-cookie-notificaiton_actions, .wd-notification-cookie-exists, .wd-cookie-accept, .wd-cookie-accept-necessary, .wd-cookie-deny, input.cookie-notice { display: none !important; }",
   },
+  "keyonline.pl": {
+    s: "#InfoCookieIntegracje.DolnaInformacjaCookie, #InfoCookieTlo, #CookieOknoUstawien, #CookieOknoZamknij { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
