@@ -16258,7 +16258,9 @@ const rules = {
   "skyscanner.com.vn": { j: 6 },
   "skyscanner.se": { j: 6 },
   "skyscanner.com.ar": { j: 6 },
-  "skyscanner.com.au": { j: 6 },
+  "skyscanner.com.au": {
+    s: '.cookie-consent, .cookie-banner, .consent-banner, .consent-manager, .cc-window, .CookieBanner, .cookieConsent, #onetrust-consent-sdk, #onetrust-banner-sdk, #onetrust-pc-sdk, .onetrust-pc-dark-filter, .onetrust-consent-sdk, div[id^="ZN_"] { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }',
+  },
   "skyscanner.fr": { j: 6 },
   "skyscanner.jp": { j: 6 },
   "skyscanner.com.my": { j: 6 },
