@@ -18532,6 +18532,9 @@ const rules = {
   "ok.ru": {
     s: "div.cookies-agreement-notification, div.cookies-agreement-notification__content, div.cookies-agreement-notification__actions { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "company.finnair.com": {
+    s: "section.cookie-consent-modal, .cookie-consent-wrapper, form.cookie-consent, .cookie-consent { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } body.consent-open { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
