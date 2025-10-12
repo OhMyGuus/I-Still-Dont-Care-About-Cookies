@@ -16812,7 +16812,9 @@ const rules = {
   "netzwelt.de": { j: 5 },
   "kicker.de": { j: 5 },
   "kicker.ch": { j: 5 },
-  "zdf.de": { j: 5 },
+  "zdf.de": {
+    s: '#portal-root, #portal-root .b911k0k, #portal-root [id^="radix-"], #portal-root [data-testid="cmp-modal-headline"], #portal-root #cmp-dialog, #portal-root #cmp-dialog-description { display: none !important; } body[data-scroll-locked], body[data-scroll-locked="1"] { overflow: auto !important; }',
+  },
   "3sat.de": { j: 5 },
   "heise.de": { j: 5 },
   "temu.com": { j: 6 },
