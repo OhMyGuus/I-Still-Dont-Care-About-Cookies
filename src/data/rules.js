@@ -14329,7 +14329,9 @@ const rules = {
   "abconcerts.be": { j: "5" },
   "kulturprojekte.berlin": { j: "5" },
   "humboldtforum.org": { j: "5" },
-  "dw.com": { c: 155 },
+  "dw.com": {
+    s: "div#cmpwrapper.cmpwrapper { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
+  },
   "fz-juelich.de": { j: "5" },
   "thepensionsregulator.gov.uk": { j: "5" },
   "kaggle.com": { j: "5" },
