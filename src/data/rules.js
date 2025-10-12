@@ -18538,6 +18538,9 @@ const rules = {
   "keyonline.pl": {
     s: "#InfoCookieIntegracje.DolnaInformacjaCookie, #InfoCookieTlo, #CookieOknoUstawien, #CookieOknoZamknij { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "arstechnica.com": {
+    s: "#fides-overlay, #fides-overlay-wrapper, #fides-modal, .fides-modal-container, #fides-banner-container, #fides-banner, .fides-banner, #fides-banner-inner { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
