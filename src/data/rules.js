@@ -18550,6 +18550,9 @@ const rules = {
   "ldbv.bayern.de": {
     s: "div#Cookie-Banner, #Cookie-BannerLabel, #manuell, #manuell_no, #tracking-allow, #tracking-disallow, #tracking-save, div.modal-backdrop, div.modal-backdrop.fade.show { display: none !important; } body.modal-open, body { overflow: auto !important; }",
   },
+  "app.papershift.com": {
+    s: "aside#usercentrics-cmp-ui, iframe#uc-cross-domain-consent-sharing-bridge, div#hs-interactives-modal-overlay { display: none !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
