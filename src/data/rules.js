@@ -18558,6 +18558,9 @@ const rules = {
   "progettoomnia.it": {
     s: 'aside.cookieControl, .cookieControl__Bar, .cookieControl__BarContainer, [id^="radix-vue-dialog-content"], div[class*="fixed"][class*="inset-0"], button[class*="fixed"][class*="bottom-5"][class*="right-5"] { display: none !important; } body { overflow: auto !important; }',
   },
+  "forum.netmarble.com": {
+    s: "#NMCookieBanner, #popupAgreed, .popup-agreed { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
