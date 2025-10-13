@@ -17277,7 +17277,7 @@ const rules = {
     s: '.page > div[class*="MessageBanner"]{display:none !important}',
   },
   "gq.com": {
-    s: '.page > div[class*="MessageBanner"]{display:none !important}',
+    s: "#fides-overlay, #fides-overlay-wrapper, #fides-modal, #fides-banner, #fides-banner-container, .fides-overlay, .fides-modal-container, .fides-banner, button#fides-modal-link { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
   "spoutible.com": {
     s: ".cookie-alert-modal,.modal-backdrop{display:none !important}",
