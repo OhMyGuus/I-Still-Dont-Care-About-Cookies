@@ -14111,8 +14111,7 @@ const rules = {
   "biddit.be": { s: "app-cookies-notification-v2{display:none !important}" },
   "unicredit.it": { j: "5" },
   "ihk.de": {
-    s: "#COOKIE_POLICY,#CybotCookiebotDialog,.ihk-switch{display:none !important}",
-    j: "5",
+    s: '[id^="ccm-widget"], [id^="ccm-control-panel"], .ccm-modal, .ccm--is-blocking, .ccm-widget { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
   "xbox.com": { j: "5" },
   "dmapraha.cz": { s: ".focus-cookies{display:none !important}" },
