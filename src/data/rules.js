@@ -18550,6 +18550,9 @@ const rules = {
   "ldbv.bayern.de": {
     s: "div#Cookie-Banner, #Cookie-BannerLabel, #manuell, #manuell_no, #tracking-allow, #tracking-disallow, #tracking-save, div.modal-backdrop, div.modal-backdrop.fade.show { display: none !important; } body.modal-open, body { overflow: auto !important; }",
   },
+  "futurasmus-knxgroup.com": {
+    s: '.custom-popup.consient-popup[data-modal^="cookie-"], .custom-popup.consient-popup[data-modal="types-of-consient-popup"], .custom-popup.consient-popup.popup-open, .custom-popup.consient-popup .popup-backdrop { display: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
