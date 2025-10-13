@@ -18556,6 +18556,9 @@ const rules = {
   "dtmauto.pl": {
     s: "#cookie-transparency-modal-main, #cookie-transparency-modal-main.modal, .modal-backdrop, .modal-backdrop.fade, .modal-backdrop.show { display: none !important; opacity: 0 !important; visibility: hidden !important; } body { overflow: auto !important; }",
   },
+  "progettoomnia.it": {
+    s: 'aside.cookieControl, .cookieControl__Bar, .cookieControl__BarContainer, [id^="radix-vue-dialog-content"], div[class*="fixed"][class*="inset-0"], button[class*="fixed"][class*="bottom-5"][class*="right-5"] { display: none !important; } body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
