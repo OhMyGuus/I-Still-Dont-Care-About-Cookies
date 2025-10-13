@@ -18550,6 +18550,9 @@ const rules = {
   "ldbv.bayern.de": {
     s: "div#Cookie-Banner, #Cookie-BannerLabel, #manuell, #manuell_no, #tracking-allow, #tracking-disallow, #tracking-save, div.modal-backdrop, div.modal-backdrop.fade.show { display: none !important; } body.modal-open, body { overflow: auto !important; }",
   },
+  "world.org": {
+    s: "#relyance-banner-container { display: none !important; }",
+  },
 
   // end of const rules
 };
