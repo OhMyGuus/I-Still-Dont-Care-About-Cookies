@@ -18558,6 +18558,9 @@ const rules = {
   "progettoomnia.it": {
     s: 'aside.cookieControl, .cookieControl__Bar, .cookieControl__BarContainer, [id^="radix-vue-dialog-content"], div[class*="fixed"][class*="inset-0"], button[class*="fixed"][class*="bottom-5"][class*="right-5"] { display: none !important; } body { overflow: auto !important; }',
   },
+  "auctionet.com": {
+    s: 'form.test-cookie-consent, form[class*="test-cookie"], [class*="test-cookie-consent"], .modal-background, .modal[class*="test-cookie"], .modal[class*="cookie-consent"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
