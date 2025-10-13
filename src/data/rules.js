@@ -18553,6 +18553,9 @@ const rules = {
   "futurasmus-knxgroup.com": {
     s: '.custom-popup.consient-popup[data-modal^="cookie-"], .custom-popup.consient-popup[data-modal="types-of-consient-popup"], .custom-popup.consient-popup.popup-open, .custom-popup.consient-popup .popup-backdrop { display: none !important; } html, body { overflow: auto !important; }',
   },
+  "dtmauto.pl": {
+    s: "#cookie-transparency-modal-main, #cookie-transparency-modal-main.modal, .modal-backdrop, .modal-backdrop.fade, .modal-backdrop.show { display: none !important; opacity: 0 !important; visibility: hidden !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
