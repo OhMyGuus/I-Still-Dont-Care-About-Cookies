@@ -14321,7 +14321,9 @@ const rules = {
   "xt500parts.com": {
     s: ".amgdprcookie-modal-container{display:none !important}",
   },
-  "flaschenpost.de": { j: "5" },
+  "flaschenpost.de": {
+    s: 'ion-modal[id^="ion-overlay-"], ion-modal.show-modal, [data-testid="vCfYhqImdH9cI808MM25Q"], ion-backdrop, .backdrop, .modal-backdrop { display: none !important; } body.backdrop-no-scroll { overflow: auto !important; }',
+  },
   "notco.com": { s: ".CookiesContainer{display:none !important}" },
   "nytimes.com": {
     j: "5",
