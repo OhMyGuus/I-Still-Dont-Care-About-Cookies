@@ -18550,6 +18550,9 @@ const rules = {
   "ldbv.bayern.de": {
     s: "div#Cookie-Banner, #Cookie-BannerLabel, #manuell, #manuell_no, #tracking-allow, #tracking-disallow, #tracking-save, div.modal-backdrop, div.modal-backdrop.fade.show { display: none !important; } body.modal-open, body { overflow: auto !important; }",
   },
+  "timeanddate.com": {
+    s: 'aside#usercentrics-cmp-ui, #uc-main-dialog, .cmp-wrapper, .overlay, [id*="usercentrics"], [class*="usercentrics"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
