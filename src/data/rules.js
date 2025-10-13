@@ -18550,6 +18550,9 @@ const rules = {
   "ldbv.bayern.de": {
     s: "div#Cookie-Banner, #Cookie-BannerLabel, #manuell, #manuell_no, #tracking-allow, #tracking-disallow, #tracking-save, div.modal-backdrop, div.modal-backdrop.fade.show { display: none !important; } body.modal-open, body { overflow: auto !important; }",
   },
+  "uutisvuoksi.fi": {
+    s: "#cmp-modal, #gravitoCMP-modal-layer1, #gravitoCMP-layer-3-for-layer-1, .gravitoCMP-background-overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
