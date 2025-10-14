@@ -18565,6 +18565,9 @@ const rules = {
   "naim.art": {
     s: "#cookies_back, #cookies, #cookie_non_accept, #cookie_accept, #politique_de_confidentialite { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
   },
+  "eastbarnetvets.com": {
+    s: ".ngdpr-overlay, .ngdpr-overlay-wrapper, .ngdpr-wrapper, .ngdpr-popup, .ngdpr-popup-content, .ngdpr-awrapper, .ngdpr-actions, .ngdpr-icon-wrapper, .ngdpr-icon { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
