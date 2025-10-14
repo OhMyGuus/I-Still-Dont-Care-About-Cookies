@@ -15146,7 +15146,9 @@ const rules = {
   "xxxlesnina.si": { j: "5" },
   "moemax.hr": { j: 5 },
   "moemax.ro": { j: 5 },
-  "moebelix.hu": { j: 5 },
+  "moebelix.hu": {
+    s: '#modal, #cookieBar, #modal [data-purpose="backdrop"], #modal [data-testid="backdrop"], #modal [role="dialog"] { display: none !important; } body { overflow: auto !important; }',
+  },
   "xxxlesnina.hr": { j: 5 },
   "xxxlesnina.rs": { j: 5 },
   "amara.org": {
