@@ -18565,6 +18565,9 @@ const rules = {
   "naim.art": {
     s: "#cookies_back, #cookies, #cookie_non_accept, #cookie_accept, #politique_de_confidentialite { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
   },
+  "outspot.fr": {
+    s: "ion-modal.modal-card.os-dialog--center-mobile.show-modal, ion-modal#ion-overlay-5 { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
