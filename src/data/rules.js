@@ -18558,6 +18558,9 @@ const rules = {
   "progettoomnia.it": {
     s: 'aside.cookieControl, .cookieControl__Bar, .cookieControl__BarContainer, [id^="radix-vue-dialog-content"], div[class*="fixed"][class*="inset-0"], button[class*="fixed"][class*="bottom-5"][class*="right-5"] { display: none !important; } body { overflow: auto !important; }',
   },
+  "naim.art": {
+    s: "#cookies_back, #cookies, #cookie_non_accept, #cookie_accept, #politique_de_confidentialite { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
