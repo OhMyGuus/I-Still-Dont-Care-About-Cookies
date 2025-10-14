@@ -18558,6 +18558,9 @@ const rules = {
   "progettoomnia.it": {
     s: 'aside.cookieControl, .cookieControl__Bar, .cookieControl__BarContainer, [id^="radix-vue-dialog-content"], div[class*="fixed"][class*="inset-0"], button[class*="fixed"][class*="bottom-5"][class*="right-5"] { display: none !important; } body { overflow: auto !important; }',
   },
+  "discoverflow.co": {
+    s: ".toast-coockies, .toast-coockies__cookies-msg, .toast-coockies__btns, .toast-coockies__link-btn, .cookies-blur.cdk-overlay-backdrop-showing, .alert-container.alert-container__default.llac-grid-container, lla-cms-alerts, lla-alert { display: none !important; }",
+  },
 
   // end of const rules
 };
