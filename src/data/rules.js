@@ -18565,6 +18565,9 @@ const rules = {
   "naim.art": {
     s: "#cookies_back, #cookies, #cookie_non_accept, #cookie_accept, #politique_de_confidentialite { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
   },
+  "motel-one.com": {
+    s: 'aside[id="usercentrics-cmp-ui"], iframe[id*="uc-cross-domain"], div[id*="usercentrics"], div[class*="usercentrics"], div[id^="uc-"] { display: none !important; visibility: hidden !important; pointer-events: none !important; opacity: 0 !important; }',
+  },
 
   // end of const rules
 };
