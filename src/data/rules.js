@@ -13145,7 +13145,9 @@ const rules = {
   "pribram.cz": { c: 0 },
   "money.com.tr": { s: ".kvkk{display:none !important}" },
   "bintercanarias.com": { j: "5" },
-  "24sata.hr": { s: "#didomi-host{display:none !important}" },
+  "24sata.hr": {
+    s: "#didomi-popup, #didomi-host, .didomi-popup-backdrop, .didomi-notice-popup, .didomi-popup__backdrop, .didomi-buttons, #didomi-notice-agree-button, #didomi-notice-learn-more-button { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }",
+  },
   "njuskalo.hr": { s: "#didomi-host{display:none !important}" },
   "huffingtonpost.es": { s: "#acceptationCMPWall{display:none !important}" },
   "independent.ie": {
