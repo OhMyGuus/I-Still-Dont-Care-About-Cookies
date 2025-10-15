@@ -15308,7 +15308,7 @@ const rules = {
   },
   "stromnetz-hamburg.de": { j: "5" },
   "bol.com": {
-    j: "5",
+    s: 'div[role="dialog"][id^="radix-"], div[id^="radix-"][class*="consent"], .consent { display: none !important; visibility: hidden !important; pointer-events: none !important; } body[data-scroll-locked], body[style*="pointer-events: none"] { pointer-events: auto !important; overflow: auto !important; touch-action: auto !important; }',
   },
   "unigine.com": { s: ".bottom-notice{display:none !important}" },
   "healthline.com": { j: "5" },
