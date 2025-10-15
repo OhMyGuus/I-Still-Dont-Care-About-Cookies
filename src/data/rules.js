@@ -14342,8 +14342,7 @@ const rules = {
   "stadtwerke-weilburg.de": { j: "5" },
   "freilandmuseum-fladungen.de": { j: "5" },
   "tweakers.net": {
-    j: "5",
-    s: "#koekieBar:not(.tall){display:none !important}",
+    s: "#pg-wrapper, #pg-modal, #pg-first-layer, #pg-body, #pg-footer, #pg-accept-btn, #pg-configure-btn { display: none !important; } html, body { overflow: auto !important; height: auto !important; }",
   },
   "quantifycrypto.com": { j: "5" },
   "mirells.se": { j: "5" },
