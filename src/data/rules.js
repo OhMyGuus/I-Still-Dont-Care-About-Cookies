@@ -18568,6 +18568,9 @@ const rules = {
   "outspot.fr": {
     s: "ion-modal.modal-card.os-dialog--center-mobile.show-modal, ion-modal#ion-overlay-5 { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "corrieredelveneto.corriere.it": {
+    s: "div.privacy-cp-wall, div.overlay, #ac-Overlay, #ac-notice, #wall-accedi, #wall__logo.privacy-cp-wall__container_cmp, a#privacy-cp-wall-reject-and-subscribe, a#privacy-cp-wall-reject-and-subscribe-mobile, button#privacy-cp-wall-accept, button#privacy-cp-wall-settings, a#privacy-cp-wall-login { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: visible !important; height: auto !important; }",
+  },
 
   // end of const rules
 };
