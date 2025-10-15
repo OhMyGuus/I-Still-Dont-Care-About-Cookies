@@ -17645,7 +17645,9 @@ const rules = {
   },
   "velotaf.com": { s: "#modal_cookies{display:none !important}" },
   "nendaz.org": { s: "#disclaimerCtn{display:none !important}" },
-  "mediamarkt.pl": { s: ".cookie-box{display:none !important}" },
+  "mediamarkt.pl": {
+    s: "#pwa-consent-layer-form, #mms-consent-portal-container, .pwa-consent-modal-wrapper, #pwa-consent-layer-description, #pwa-consent-layer-title, #pwa-consent-layer-accept-all-button, #mms-notification-modal-portal { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }",
+  },
   "ostsee24.de": { s: ".consent-box{display:none !important}" },
   "expocasa.it": { s: ".cc-window{display:none !important}" },
   "androidide.com": {
