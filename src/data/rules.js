@@ -18568,6 +18568,9 @@ const rules = {
   "outspot.fr": {
     s: "ion-modal.modal-card.os-dialog--center-mobile.show-modal, ion-modal#ion-overlay-5 { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "apobank.de": {
+    s: 'aside[id="usercentrics-cmp-ui"], aside[id^="usercentrics"], iframe#uc-cross-domain-consent-sharing-bridge { display: none !important; }',
+  },
 
   // end of const rules
 };
