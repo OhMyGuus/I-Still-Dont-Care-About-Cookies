@@ -18568,6 +18568,9 @@ const rules = {
   "outspot.fr": {
     s: "ion-modal.modal-card.os-dialog--center-mobile.show-modal, ion-modal#ion-overlay-5 { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "francetravail.fr": {
+    s: '.pecookies, .pecookies__modal, .pecookies__content, .pecookies__footer, pe-cookies-main, pe-cookies-footer, #pecookies-desc, #pecookies-personalize, #pecookies-accept-all, [aria-labelledby="pecookies-heading"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } [role="dialog"][aria-modal="true"] { display: none !important; }',
+  },
 
   // end of const rules
 };
