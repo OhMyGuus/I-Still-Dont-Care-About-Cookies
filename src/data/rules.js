@@ -14683,7 +14683,9 @@ const rules = {
   "baumer.com": { s: ".notification-modal.consent{display:none !important}" },
   "phdessay.com": { s: ".catfish-banner{display:none !important}" },
   "tommy.hr": { j: "5" },
-  "diariovasco.com": { j: "5" },
+  "diariovasco.com": {
+    s: "#didomi-popup.evolok-popup-backdrop, #didomi-host.didomi-host, #didomi-popup, #didomi-host, #didomi-notice-disagree-button, #didomi-notice-agree-button, style#didomi-css { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }",
+  },
   "matadornetwork.com": { s: "#tracking-notice{display:none !important}" },
   "videnov.bg": { j: "5" },
   "videnov.gr": { j: "5" },
