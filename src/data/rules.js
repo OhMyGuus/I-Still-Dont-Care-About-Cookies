@@ -15320,7 +15320,9 @@ const rules = {
   "reolink.com": { s: 'div[class*="cookie-popup"]{display:none !important}' },
   "chaincheck.de": { s: "#float-bar{display:none !important}" },
   "sofort.com": { s: "#Cookietext{display:none !important}" },
-  "meta.com": { j: "5" },
+  "meta.com": {
+    s: '[aria-label^="Allow the use of cookies"] , div[role="dialog"][aria-label*="cookies"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
   "kurzurlaub.at": { j: "5" },
   "kurzurlaub.de": { j: "5" },
   "sicherheitsdienst-harz.de": { s: "#cookieBs{display:none !important}" },
