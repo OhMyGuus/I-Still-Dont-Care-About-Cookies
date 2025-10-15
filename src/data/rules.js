@@ -11079,7 +11079,9 @@ const rules = {
   "forum.brasil-web.de": { j: "5" },
   "change.org": { j: "5" },
   "tesco.pl": { s: "#privacyOuterContainer{display:none !important}" },
-  "tesco.com": { s: "#sticky-bar-wrapper{display:none !important}" },
+  "tesco.com": {
+    s: "#onetrust-consent-sdk, #onetrust-banner-sdk, #onetrust-pc-sdk, #onetrust-policy, .ddsweb-consent-banner__container, .ddsweb-consent-banner__inner-container, .ddsweb-consent-banner__text-container, #ddsweb-consent-banner-main-headline, #ddsweb-consent-banner-main-body, #ddsweb-consent-banner-secondary-headline, #ddsweb-consent-banner-secondary-body { display: none !important; }",
+  },
   "conso.ro": { j: "5" },
   "mubi.com": { j: "6" },
   "albaparty.org": { c: 8 },
