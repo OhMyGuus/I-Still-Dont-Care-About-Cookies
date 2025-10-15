@@ -18568,6 +18568,9 @@ const rules = {
   "outspot.fr": {
     s: "ion-modal.modal-card.os-dialog--center-mobile.show-modal, ion-modal#ion-overlay-5 { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "m.ouestgo.fr": {
+    s: ".mc-banner-cookie, button#cookieButton.mc-button-cookie { display: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
