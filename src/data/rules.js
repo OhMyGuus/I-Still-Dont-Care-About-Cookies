@@ -18568,6 +18568,9 @@ const rules = {
   "outspot.fr": {
     s: "ion-modal.modal-card.os-dialog--center-mobile.show-modal, ion-modal#ion-overlay-5 { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "events-pro.ru": {
+    s: 'div.MuiBox-root[class*="css-1mvplpn"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
