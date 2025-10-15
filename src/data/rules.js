@@ -18568,6 +18568,9 @@ const rules = {
   "outspot.fr": {
     s: "ion-modal.modal-card.os-dialog--center-mobile.show-modal, ion-modal#ion-overlay-5 { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "springest.nl": {
+    s: ".cookie-notice[data-version], .cookie-notice-extended, .cookie-notice__hidden, .modal.cookie-settings-modal, .modal__mask { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }",
+  },
 
   // end of const rules
 };
