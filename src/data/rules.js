@@ -18568,6 +18568,9 @@ const rules = {
   "outspot.fr": {
     s: "ion-modal.modal-card.os-dialog--center-mobile.show-modal, ion-modal#ion-overlay-5 { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "argon40.com": {
+    s: "#shopify-pc__banner, section#shopify-pc__banner.shopify-pc__banner__dialog, style#shopify-pc__banner__styles, #shopify-pc__banner__body-title, #shopify-pc__banner__btn-manage-prefs, #shopify-pc__banner__btn-accept, #shopify-pc__banner__btn-decline { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
