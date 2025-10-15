@@ -18574,6 +18574,9 @@ const rules = {
   "lincoln.ac.uk": {
     s: '#termly-code-snippet-support, [aria-label="Cookie Consent Prompt"], .t-consentPrompt { display: none !important; }',
   },
+  "pellets-plus.es": {
+    s: "section#shopify-pc__banner.shopify-pc__banner__dialog, button#shopify-pc__banner__btn-manage-prefs, button#shopify-pc__banner__btn-accept, button#shopify-pc__banner__btn-decline { display: none !important; }",
+  },
 
   // end of const rules
 };
