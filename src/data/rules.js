@@ -18577,6 +18577,9 @@ const rules = {
   "fab365.net": {
     s: '#EeaPopup, div[id="EeaPopup"], .sc-dCFHLb.ggPQor, .sc-eBMEME.czfksa { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "coffeeb.de": {
+    s: "#shopify-pc__banner, .shopify-pc__banner__dialog, #shopify-pc__banner__body-title, #shopify-pc__banner__body-policy-link, #shopify-pc__banner__btn-manage-prefs, #shopify-pc__banner__btn-accept, #shopify-pc__banner__btn-decline { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
