@@ -18571,6 +18571,9 @@ const rules = {
   "masmovilpanama.com": {
     s: ".toast-coockies.cookie-consent-v2, .cookie-consent-v2, .toast-coockies { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "lincoln.ac.uk": {
+    s: '#termly-code-snippet-support, [aria-label="Cookie Consent Prompt"], .t-consentPrompt { display: none !important; }',
+  },
 
   // end of const rules
 };
