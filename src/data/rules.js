@@ -18568,6 +18568,9 @@ const rules = {
   "outspot.fr": {
     s: "ion-modal.modal-card.os-dialog--center-mobile.show-modal, ion-modal#ion-overlay-5 { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "espmsports.com": {
+    s: "#cookieadmin_wrapper, .cookieadmin_law_container, .cookieadmin_cookie_modal, .cookieadmin_modal_overlay, .cookieadmin_re_consent, #cookieadmin_preference, #cookieadmin_notice_title, #cookieadmin_notice, #cookieadmin_customize_button, #cookieadmin_reject_button, #cookieadmin_accept_button, .cookieadmin-poweredby { display: none !important; }",
+  },
 
   // end of const rules
 };
