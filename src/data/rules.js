@@ -18574,6 +18574,9 @@ const rules = {
   "lincoln.ac.uk": {
     s: '#termly-code-snippet-support, [aria-label="Cookie Consent Prompt"], .t-consentPrompt { display: none !important; }',
   },
+  "fab365.net": {
+    s: '#EeaPopup, div[id="EeaPopup"], .sc-dCFHLb.ggPQor, .sc-eBMEME.czfksa { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
