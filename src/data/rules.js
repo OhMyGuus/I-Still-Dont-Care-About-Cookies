@@ -18541,6 +18541,8 @@ const rules = {
   "ok.ru": {
     s: "div.cookies-agreement-notification, div.cookies-agreement-notification__content, div.cookies-agreement-notification__actions { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "hood.de": {
+    s: "aside#usercentrics-cmp-ui, #uc-main-dialog, #uc-overlay, iframe#uc-cross-domain-consent-sharing-bridge, eye-able-shader#eyeAble-Bluefilter, eye-able-shader#eyeAble-Bluefilter-Back, .cmp-wrapper.cmp { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
   "symondsandsampson.co.uk": {
     s: "#advanced-cookie-notificaiton, .advanced-cookie-notificaiton_wrapper, .advanced-cookie-notificaiton_icon-wrapper, .advanced-cookie-notificaiton_info-content, .advanced-cookie-notificaiton_actions, .wd-notification-cookie-exists, .wd-cookie-accept, .wd-cookie-accept-necessary, .wd-cookie-deny, input.cookie-notice { display: none !important; }",
   },
