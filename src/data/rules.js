@@ -18577,6 +18577,9 @@ const rules = {
   "fab365.net": {
     s: '#EeaPopup, div[id="EeaPopup"], .sc-dCFHLb.ggPQor, .sc-eBMEME.czfksa { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "birminghammail.co.uk": {
+    s: '[id^="qc-cmp2"], [class*="qc-cmp2"] { display: none !important; }',
+  },
 
   // end of const rules
 };
