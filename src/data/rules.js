@@ -18577,6 +18577,9 @@ const rules = {
   "fab365.net": {
     s: '#EeaPopup, div[id="EeaPopup"], .sc-dCFHLb.ggPQor, .sc-eBMEME.czfksa { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "acroname.com": {
+    s: "#acroname-cookie-policy-advisory-container, #cookie-advisory-window { display: none !important; }",
+  },
 
   // end of const rules
 };
