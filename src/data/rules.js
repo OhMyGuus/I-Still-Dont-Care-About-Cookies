@@ -19457,7 +19457,10 @@ const blockUrls = {
     ],
     consent: [
       { r: "s.regiogroei.cloud/plugins/consent-plugin" },
-      { r: "myprivacy-static.dpgmedia.net/consent.js" },
+      {
+        r: "myprivacy-static.dpgmedia.net/consent.js",
+        e: ["myprivacy.dpgmedia.nl"],
+      },
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
       { r: "privacy.ariadneathome.nl/script/consent.js" },
       { r: "privacy.vtwonen.nl/script/consent.js" },

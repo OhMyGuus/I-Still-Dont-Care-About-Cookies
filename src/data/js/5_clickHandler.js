@@ -87,6 +87,7 @@ function _chain(...selectors) {
     }
 
     if (i == argumentsLength - 1) {
+      console.log("test", selectors);
       return selectors[i];
     }
 
@@ -672,14 +673,24 @@ function getSelector(host) {
       return ".message-column > p > .sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT";
     case "sourcepoint.theguardian.com":
       return "button.sp_choice_type_13, button.sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT";
-    case "cmp.dpgmedia.nl":
-    case "cmp.autoweek.nl":
-      return _chain(
-        '.sp_choice_type_12, .tcfv2-stack[title*="Social"] .pm-switch',
-        ".sp_choice_type_SAVE_AND_EXIT"
-      );
+    case "myprivacy.dpgmedia.nl":
+    case "myprivacy.autoweek.nl":
+      const root = _id("pg-host-shadow-root").shadowRoot;
 
-    case "o2.pl":
+      const configureButton = _sl("#pg-configure-btn", root);
+      if (configureButton) {
+        configureButton.click();
+      }
+
+      const socialMediaToggle = _sl(
+        "#purpose-row-SOCIAL_MEDIA #toggle input[type='checkbox']",
+        root
+      );
+      if (!socialMediaToggle) return "";
+
+      socialMediaToggle.checked = true;
+      return _sl("#pg-save-preferences-btn", root);
+
     case "money.pl":
     case "open.fm":
     case "gadzetomania.pl":
