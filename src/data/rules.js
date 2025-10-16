@@ -18577,6 +18577,9 @@ const rules = {
   "fab365.net": {
     s: '#EeaPopup, div[id="EeaPopup"], .sc-dCFHLb.ggPQor, .sc-eBMEME.czfksa { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "aeroemploi.ca": {
+    s: 'div[class*="w-[350px]"][class*="rounded-xl"][class*="fixed"][class*="z-50"] { display: none !important; }',
+  },
 
   // end of const rules
 };
