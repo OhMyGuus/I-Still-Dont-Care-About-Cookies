@@ -303,11 +303,11 @@ function getSelector(host) {
         case "doppelherz":
           return _sl(".bg-coolgray")
             ? _ev(
-              'footer/following-sibling::div/div[contains(@class, "fixed")]//button[contains(@aria-label, "Akzeptieren")]'
-            )
+                'footer/following-sibling::div/div[contains(@class, "fixed")]//button[contains(@aria-label, "Akzeptieren")]'
+              )
             : _sl(
-              ".cookie-inquiry-wrapper.show .cookie-inquiry--configuration .button"
-            );
+                ".cookie-inquiry-wrapper.show .cookie-inquiry--configuration .button"
+              );
         case "musik-produktiv":
           return '.mp-modal[style*="block"] .consent-save-settings';
         case "intersport":
@@ -455,9 +455,9 @@ function getSelector(host) {
           return host.parts.indexOf("academy") != -1
             ? '.modal[style*="block"] .cookiee-agree'
             : _chain(
-              ".-is-visible[data-gdpr-manage-cookies-popup] button[data-gdpr-review-cookies]",
-              "button[data-gdpr-accept-reviewed]"
-            );
+                ".-is-visible[data-gdpr-manage-cookies-popup] button[data-gdpr-review-cookies]",
+                "button[data-gdpr-accept-reviewed]"
+              );
         case "stooq":
           return ".fc-consent-root .fc-cta-consent";
         case "bike24":
@@ -674,24 +674,23 @@ function getSelector(host) {
     case "sourcepoint.theguardian.com":
       return "button.sp_choice_type_13, button.sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT";
     case "myprivacy.dpgmedia.nl":
-    case "myprivacy.autoweek.nl":
-      {
-        const root = _id("pg-host-shadow-root").shadowRoot;
+    case "myprivacy.autoweek.nl": {
+      const root = _id("pg-host-shadow-root").shadowRoot;
 
-        const configureButton = _sl("#pg-configure-btn", root);
-        if (configureButton) {
-          configureButton.click();
-        }
-
-        const socialMediaToggle = _sl(
-          "#purpose-row-SOCIAL_MEDIA #toggle input[type='checkbox']",
-          root
-        );
-        if (!socialMediaToggle) return "";
-
-        socialMediaToggle.checked = true;
-        return _sl("#pg-save-preferences-btn", root);
+      const configureButton = _sl("#pg-configure-btn", root);
+      if (configureButton) {
+        configureButton.click();
       }
+
+      const socialMediaToggle = _sl(
+        "#purpose-row-SOCIAL_MEDIA #toggle input[type='checkbox']",
+        root
+      );
+      if (!socialMediaToggle) return "";
+
+      socialMediaToggle.checked = true;
+      return _sl("#pg-save-preferences-btn", root);
+    }
     case "money.pl":
     case "open.fm":
     case "gadzetomania.pl":
@@ -2295,8 +2294,8 @@ function getSelector(host) {
       if (e) {
         const e2 = _sl(
           ".cmp__dialog-footer-buttons button.is-secondary:not(." +
-          classname +
-          ")",
+            classname +
+            ")",
           e.contentWindow.document
         );
         if (e2) {
@@ -2306,11 +2305,11 @@ function getSelector(host) {
       }
       return e
         ? _sl(
-          ".cmp__dialog-footer-buttons button.is-secondary:not(." +
-          classname +
-          ")",
-          e.contentWindow.document
-        )
+            ".cmp__dialog-footer-buttons button.is-secondary:not(." +
+              classname +
+              ")",
+            e.contentWindow.document
+          )
         : e;
 
     case "iltalehti.fi":
@@ -2464,9 +2463,9 @@ function getSelector(host) {
       e = _id("themeFooter");
       return e && e.shadowRoot
         ? _sl(
-          ".cookie-panel:not(.zd_Hidden) #cookie_panel_accept_all",
-          e.shadowRoot
-        )
+            ".cookie-panel:not(.zd_Hidden) #cookie_panel_accept_all",
+            e.shadowRoot
+          )
         : false;
 
     case "nike.com":
@@ -8280,13 +8279,13 @@ function getSelector(host) {
     case "urlaubspiraten.at":
       return document.location.hostname.indexOf("kurzreisen") != -1
         ? _if(
-          '.modal[style*="block"] a[href*="datenschutz"]',
-          '.modal[style*="block"] .modal-footer button:first-child'
-        )
+            '.modal[style*="block"] a[href*="datenschutz"]',
+            '.modal[style*="block"] .modal-footer button:first-child'
+          )
         : _if(
-          "#hp-app > footer ~ div button",
-          '//div[@id="hp-app"]/footer/following-sibling::div//button[text()="klicke hier"]'
-        );
+            "#hp-app > footer ~ div button",
+            '//div[@id="hp-app"]/footer/following-sibling::div//button[text()="klicke hier"]'
+          );
     case "kayak.co.kr":
     case "cn.kayak.com":
       return '.visible[id*="transfer-disclaimer"] button[id*="accept"]';
