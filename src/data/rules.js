@@ -230,8 +230,7 @@ const rules = {
   },
   "msn.com": { j: "5" },
   "bing.com": {
-    s: '#bnp_cookie_banner[aria-modal="false"],#bnp_ttc_div,#thp_notf_div,.b_hide.bnp_ttc,#t_termsInfo{display:none !important}#hp_cellCenter{padding-top:0 !important}',
-    j: 5,
+    s: "#mcp_container,#mcp_overlay,#bnp_cookie_banner,#bnp_container,#cookie_preference{display:none !important;visibility:hidden !important;opacity:0 !important;}body{overflow:auto !important;}",
   },
   "microsoft.com": {
     s: "#multy-lang-betanotifier,body > .row-fluid:first-child,#notificationBanner,#ux-banner,#h_popup{display:none !important}#megabladeIframe{top:0 !important}#BodyBackground{border-top:none !important}",
