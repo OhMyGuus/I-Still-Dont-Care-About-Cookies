@@ -18212,7 +18212,9 @@ const rules = {
   "music.amazon.de": { j: 5 },
   "music.amazon.fr": { j: 5 },
   "music.amazon.co.uk": { j: 5 },
-  "as.com": { j: 5, c: 85 },
+  "as.com": {
+    s: '[id*="didomi"], [class*="didomi"], [class*="didomi-consent"], [class*="didomi-consent-popup"], iframe[src*="cp.as.com/first-layer"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } body { overflow: auto !important; }',
+  },
   "larousse.fr": { j: 5 },
   "hellozdrowie.pl": { j: 5 },
   "eurogamer.pl": { j: 5 },
