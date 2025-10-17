@@ -481,8 +481,6 @@ function getSelector(host) {
           return _chain("#js-cookienotice #detailExpand", "#cookieSaveChoice");
         case "bauhaus":
           return '.consent-popup._show button[data-bind="click: agreeSome"], .modal .cookie-actions button:last-child';
-        case "kytary":
-          return ".o-hidden .cookies-consent2 .btn:nth-child(2)";
         case "yopmail":
           return '#cons-pop:not([style*="none"]) #necesary';
         case "geizhals":
