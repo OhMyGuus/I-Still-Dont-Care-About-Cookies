@@ -18412,7 +18412,7 @@ const rules = {
     s: "#usercentrics-cmp-ui, #cmp-uc-shadow { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
   "x.com": {
-    s: 'div[data-testid="BottomBar"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+    s: '[data-cookie-banner="x-cookie-tggny2"], [data-cookie-backdrop="true"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } [data-cookie-banner="x-cookie-tggny2"] * { display: none !important; }',
   },
   "www.nhnieuws.nl": {
     s: "dialog.ConsentManager_consentManager__C8qkZ, .ConsentManager_container__AcZob, .ConsentManager_cookieBar__8ysUo { display: none !important; visibility: hidden !important; pointer-events: none !important; height: 0 !important; width: 0 !important; overflow: hidden !important; } html, body { overflow: auto !important; }",
