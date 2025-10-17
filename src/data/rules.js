@@ -18113,7 +18113,7 @@ const rules = {
   "jmlnet.pl": { j: 5 },
   "senda.pl": { j: 5 },
   "aachener-zeitung.de": {
-    s: '[class*="zweiwegen-model-dialog"], #didomi-host { display: none !important; }',
+    s: '#didomi-host, .didomi-host, [class*="didomi-consent"], [class*="didomi-consent-popup"], [class*="didomi-screen"], [class*="zweiwegen-model-dialog"], [class*="consentDialog"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
   },
   "itextpdf.com": { j: 5 },
   "webasto.com": { j: 5 },
