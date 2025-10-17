@@ -3325,7 +3325,7 @@ const rules = {
   "guce.oath.com": { j: "5" },
   "userstyles.org": { s: ".NotificationLine{display:none !important}" },
   "grammarly.com": {
-    s: 'div[class*="gdpr_notification"]{display:none !important}',
+    s: '#transcend-consent-manager, [id^="transcend-consent"], [id*="transcend-consent"], [data-testid*="consent"], [data-test-id*="consent"], [id*="cookie"], [class*="cookie"], [class*="consent"], [role="dialog"][aria-modal] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
   "pathe.nl": { j: "5" },
   "allyouneedfresh.de": { j: "5" },
