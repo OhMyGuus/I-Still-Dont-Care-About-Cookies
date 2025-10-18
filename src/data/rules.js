@@ -17820,7 +17820,9 @@ const rules = {
   "nyiron.hu": { j: 5 },
   "tfc-frankfurt.de": { j: 5 },
   "1und1.net": { j: 5 },
-  "pepperstone.com": { j: 5 },
+  "pepperstone.com": {
+    s: '[data-testid="pui-cookies"], [data-testid="pui-modal-overlay"], [data-testid="pui-modal-content"], [data-testid="pui-cookie-modal-ui"], [data-testid="pui-submit-cookies-btn"], [data-testid="pui-manage-cookies-btn"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } [data-testid="pui-cookies"] { background: transparent !important; } html, body { overflow: auto !important; }',
+  },
   "sovendus.com": { j: 5 },
   "jps.de": { j: 5 },
   "finanzchecks.de": { j: 5 },
