@@ -13373,7 +13373,7 @@ const rules = {
   "thomas-krenn.com": { j: "5" },
   "bookmygarage.com": { j: "5" },
   "fedex.com": {
-    s: "fedex-cookie-consent,fdx-caas-cookie-consent,.fxg-alert__fdx_cookie_notice{display:none !important}",
+    s: 'aside#usercentrics-cmp-ui, div[id^="ZN_"] { display: none !important; }',
   },
   "kvk.nl": { j: "5" },
   "hostnet.nl": { j: "5" },
