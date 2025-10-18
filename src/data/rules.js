@@ -18612,6 +18612,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "dto-bioflow.eu": {
+    s: "#modalController, #modalControllerContainer, .modal-backdrop, .modal-backdrop.fade.show { display: none !important; visibility: hidden !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
