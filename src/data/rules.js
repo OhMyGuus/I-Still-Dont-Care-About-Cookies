@@ -18609,6 +18609,9 @@ const rules = {
   "texashealth.org": {
     s: "div.privacy-warning.restrictive, div.privacy-warning.restrictive .info, div.privacy-warning.restrictive .submit, div.privacy-warning.restrictive a { display: none !important; }",
   },
+  "ggmax.com.br": {
+    s: '.component--page-cookies-consent, .component--page-cookies-consent .consent-buttons, .component--page-cookies-consent *, #transcend-consent-manager, iframe[src*="consent-manager"], iframe[src*="consent-sync"], iframe[src*="transcend"] { display: none !important; opacity: 0 !important; pointer-events: none !important; } body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
