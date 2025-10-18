@@ -18580,6 +18580,9 @@ const rules = {
   "dwarkesh.com": {
     s: '[class*="cookieBanner"],[class*="cookie-banner"],[class*="cookieConsent"],[class*="cookie-consent"],[id*="cookie"],[aria-label*="cookie"]{display:none!important;visibility:hidden!important;pointer-events:none!important;}',
   },
+  "lepalaisdupeton.com": {
+    s: ".wz-rgpd, .wz-rgpd__background, .wz-rgpd__wrapper { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; position: static !important; }",
+  },
 
   // end of const rules
 };
