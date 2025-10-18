@@ -13223,7 +13223,9 @@ const rules = {
   "toolstation.be": { j: "5" },
   "ti.com": { s: "#tiGDPRecModal{display:none !important}" },
   "telenor.se": { j: "5" },
-  "uber.com": { s: 'body > [data-baseweb="toaster"]{display:none !important}' },
+  "uber.com": {
+    s: "#privacy-cookie-banners-root, #privacy-cookie-banners-root * { display: none !important; }",
+  },
   "cliveemson.co.uk": { s: "#cookie-consent-form{display:none !important}" },
   "ranzijn.nl": { s: "#app > .fixed{display:none !important}" },
   "pch.com": { s: "#__tealiumDNS_banner{display:none !important}" },
