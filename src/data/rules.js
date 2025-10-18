@@ -18580,6 +18580,9 @@ const rules = {
   "dwarkesh.com": {
     s: '[class*="cookieBanner"],[class*="cookie-banner"],[class*="cookieConsent"],[class*="cookie-consent"],[id*="cookie"],[aria-label*="cookie"]{display:none!important;visibility:hidden!important;pointer-events:none!important;}',
   },
+  "savonsanomat.fi": {
+    s: ".gravitoCMP-background-overlay, #gravitoCMP-modal-layer1, #cmp-modal, .gravitoCMP-modal, #gravitoCMP-layer-3-for-layer-1, #gravitoCMP-event-listner, #modalSettingBtn, #modalConfirmBtn { display: none !important; }",
+  },
 
   // end of const rules
 };
