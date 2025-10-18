@@ -18609,6 +18609,9 @@ const rules = {
   "texashealth.org": {
     s: "div.privacy-warning.restrictive, div.privacy-warning.restrictive .info, div.privacy-warning.restrictive .submit, div.privacy-warning.restrictive a { display: none !important; }",
   },
+  "zoo.de": {
+    s: "#banner-wrapper, .overlay_bc_banner, .banner-body, .banner-body__content, .banner-header, .banner-main, .banner-main_buttons, p#all_accept, p#essential_accept, .btn-manage { display: none !important; }",
+  },
 
   // end of const rules
 };
