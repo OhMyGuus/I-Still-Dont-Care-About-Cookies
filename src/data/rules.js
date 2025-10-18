@@ -18609,6 +18609,9 @@ const rules = {
   "texashealth.org": {
     s: "div.privacy-warning.restrictive, div.privacy-warning.restrictive .info, div.privacy-warning.restrictive .submit, div.privacy-warning.restrictive a { display: none !important; }",
   },
+  "taurangainvestments.substack.com": {
+    s: 'div[class*="cookieBanner"] { display: none !important; }',
+  },
 
   // end of const rules
 };
