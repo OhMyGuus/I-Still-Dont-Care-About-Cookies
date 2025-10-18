@@ -18612,6 +18612,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "epicurious.com": {
+    s: "#fides-modal, #fides-overlay, #fides-overlay-wrapper, #fides-banner-container, #fides-banner, #fides-i18n-popover, #fides-overlay-live-region { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
