@@ -18612,6 +18612,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "semiconsam.com": {
+    s: '[class*="cookieBanner"], [class*="cookie-banner"], [class*="cookie-consent"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
