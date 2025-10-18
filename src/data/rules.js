@@ -18612,6 +18612,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "vb-rb.de": {
+    s: 'div[id^="cdk-overlay-"].cookie-notice, mat-dialog-container[id^="mat-mdc-dialog-"].mdc-dialog--open, .cookie-notice { display: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
