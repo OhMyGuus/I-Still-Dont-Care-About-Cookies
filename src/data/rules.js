@@ -14738,7 +14738,9 @@ const rules = {
   "preisjaeger.at": { j: "5" },
   "chollometro.com": { j: "5" },
   "pepper.com": { j: "5" },
-  "pepper.pl": { j: "5" },
+  "pepper.pl": {
+    s: '.popover-cover.zIndex--modal, .popover--layout-fixed-bottomSheet.popover--visible, .popover--layout-fixed.popover--visible, .popover--visible, .popover-origin[data-t="consentBanner"] { display: none !important; } body { overflow: auto !important; }',
+  },
   "pepper.it": { j: "5" },
   "hotukdeals.com": { j: "5" },
   "lnk.bio": { s: "#pb_cookie_consent{display:none !important}" },
