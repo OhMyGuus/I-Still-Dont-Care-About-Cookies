@@ -13841,18 +13841,42 @@ const rules = {
   },
   "billiger.de": { j: "5" },
   "passculture.app": { j: "5" },
-  "kytary.cz": { s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}" },
-  "kytary.fr": { s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}" },
-  "kytary.de": { s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}" },
-  "kytary.es": { s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}" },
-  "kytary.ie": { s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}" },
-  "kytary.it": { s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}" },
-  "kytary.hu": { s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}" },
-  "kytary.nl": { s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}" },
-  "kytary.at": { s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}" },
-  "kytary.pl": { s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}" },
-  "kytary.ro": { s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}" },
-  "kytary.sk": { s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}" },
+  "kytary.cz": {
+    s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
+  },
+  "kytary.fr": {
+    s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
+  },
+  "kytary.de": {
+    s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
+  },
+  "kytary.es": {
+    s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
+  },
+  "kytary.ie": {
+    s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
+  },
+  "kytary.it": {
+    s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
+  },
+  "kytary.hu": {
+    s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
+  },
+  "kytary.nl": {
+    s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
+  },
+  "kytary.at": {
+    s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
+  },
+  "kytary.pl": {
+    s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
+  },
+  "kytary.ro": {
+    s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
+  },
+  "kytary.sk": {
+    s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
+  },
   "scoresaber.com": { s: ".sticky-footer{display:none !important}" },
   "benu.at": { j: "5" },
   "ima.it": { j: "5" },
