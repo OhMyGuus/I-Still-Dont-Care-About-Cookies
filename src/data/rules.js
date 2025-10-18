@@ -18614,6 +18614,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "rac1.cat": {
+    s: '#mrf-popup, #mrf-popup-content, #mrf-cmp, div[id^="mrf-"], div[data-mrf-experience], [data-mrf-inline-removable], [data-mrf-recirculation], #mrf-popup .bavtbec, #mrf-popup .b16udqo { display: none !important; } body, html { overflow: visible !important; }',
+  },
 
   // end of const rules
 };
