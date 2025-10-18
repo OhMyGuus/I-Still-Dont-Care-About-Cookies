@@ -18609,6 +18609,9 @@ const rules = {
   "texashealth.org": {
     s: "div.privacy-warning.restrictive, div.privacy-warning.restrictive .info, div.privacy-warning.restrictive .submit, div.privacy-warning.restrictive a { display: none !important; }",
   },
+  "zdopravy.cz": {
+    s: 'aside#usercentrics-cmp-ui, [id^="usercentrics"], [data-usercentrics], iframe#uc-cross-domain-consent-sharing-bridge { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
