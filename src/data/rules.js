@@ -18614,6 +18614,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "slagterzangenberg.dk": {
+    s: ".p-cookie-consents.dialog.piranya-bpopup, .p-cookie-consents.category, .p-cookie-consents.change-consent-button, .swal2-container.swal2-center, .swal2-backdrop-show { display: none !important; } body.swal2-shown, body.p-modal-open { overflow: visible !important; padding-right: 0 !important; }",
+  },
 
   // end of const rules
 };
