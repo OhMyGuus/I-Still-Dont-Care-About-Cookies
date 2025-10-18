@@ -18614,6 +18614,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "heiligenblut.de": {
+    s: '.a8630, [class*="a8630-ext-"], dialog[class*="a8630-ext-"], [id^="ac43d7329-"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
