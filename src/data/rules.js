@@ -18580,6 +18580,9 @@ const rules = {
   "dwarkesh.com": {
     s: '[class*="cookieBanner"],[class*="cookie-banner"],[class*="cookieConsent"],[class*="cookie-consent"],[id*="cookie"],[aria-label*="cookie"]{display:none!important;visibility:hidden!important;pointer-events:none!important;}',
   },
+  "texashealth.org": {
+    s: "div.privacy-warning.restrictive, div.privacy-warning.restrictive .info, div.privacy-warning.restrictive .submit, div.privacy-warning.restrictive a { display: none !important; }",
+  },
 
   // end of const rules
 };
