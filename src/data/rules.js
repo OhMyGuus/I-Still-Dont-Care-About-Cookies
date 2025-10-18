@@ -18609,6 +18609,9 @@ const rules = {
   "texashealth.org": {
     s: "div.privacy-warning.restrictive, div.privacy-warning.restrictive .info, div.privacy-warning.restrictive .submit, div.privacy-warning.restrictive a { display: none !important; }",
   },
+  "thinkbroadband.com": {
+    s: '#termly-code-snippet-support, [class*="termly-styles-consent-banner"], [class*="termly-styles-modal"], .t-consentPrompt, .t-acceptAllButton, .t-preference-button { display: none !important; }',
+  },
 
   // end of const rules
 };
