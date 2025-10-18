@@ -18609,6 +18609,9 @@ const rules = {
   "texashealth.org": {
     s: "div.privacy-warning.restrictive, div.privacy-warning.restrictive .info, div.privacy-warning.restrictive .submit, div.privacy-warning.restrictive a { display: none !important; }",
   },
+  "linkshop.gr": {
+    s: "#gdpr_cookies_container.gdpr-cookies-container-outer, form#gdpr-cookies_form.cm-processed-form { display: none !important; }",
+  },
 
   // end of const rules
 };
