@@ -8602,7 +8602,9 @@ const rules = {
   "lbbw.de": { j: "5" },
   "timhortons.co.uk": { s: ".user-permission{display:none !important}" },
   "montanacolors.com": { j: "5" },
-  "wetransfer.com": { j: "5" },
+  "wetransfer.com": {
+    s: "#fides-overlay-wrapper, #fides-banner-container, #fides-banner, .fides-banner, .fides-consent-wall, .fides-consent-wall__background, .fides-consent-wall__container, .fides-consent-wall__content-wrapper, .fides-consent-wall__cover, .fides-consent-wall__content, .fides-consent-wall__consent-notice, .fides-consent-wall__consent-notice-intro-trees-long { display: none !important; } html, body, #__next, .app, .main-app { overflow: auto !important; height: auto !important; position: static !important; } #__next, .app, .main-app { pointer-events: auto !important; }",
+  },
   "revolver.news": { c: 11 },
   "gongfm.de": { j: "5" },
   "newrepublic.com": { s: ".popup-consent{display:none !important}" },
