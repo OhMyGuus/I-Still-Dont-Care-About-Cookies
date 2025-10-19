@@ -18614,6 +18614,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "secure.tesco.com": {
+    s: "#onetrust-banner-sdk, #onetrust-consent-sdk, #onetrust-pc-sdk, #ot-pc-content, #ot-anchor, #ddsweb-consent-banner-main-headline, #ddsweb-consent-banner-main-body, #ddsweb-consent-banner-secondary-headline, #ddsweb-consent-banner-secondary-body, .ddsweb-consent-banner__container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
