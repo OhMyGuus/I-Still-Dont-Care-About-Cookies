@@ -11357,7 +11357,9 @@ const rules = {
   },
   "modrinth.com": { s: ".container > .banner{display:none !important}" },
   "jadlonomia.com": { s: ".cbar-container{display:none !important}" },
-  "twitch.tv": { j: "5" },
+  "twitch.tv": {
+    s: '[class*="consent-banner"], [class*="consent-banner__content"], [data-testid*="consent"], [aria-label*="cookie" i] { display: none !important; } html, body { overflow: auto !important; }',
+  },
   "senec.com": { j: "5" },
   "taschenhirn.de": { j: "5" },
   "strefakonsumencka.pl": { c: 0 },
