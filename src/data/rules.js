@@ -18614,6 +18614,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "5d-it.fr": {
+    s: '.cookies-selector-button.active, .cookies-selector, .cookies-selector-popin, .cookies-selector-popin-container, .cookies-selector-popin-feedback, .cookies-selector-popin-content, .cookies-selector-popin-body, .cookies-selector-popin-title, .cookies-selector-popin-description, .cookies-selector-popin-actions, .cookies-selector-popin-list, .cookies-selector-popin-list-item, .cookies-selector-popin-list-item-infos, .cookies-selector-popin-list-item-checkbox, .gs-module[data-mod-name*="cookies_selector"] { display: none !important; }',
+  },
 
   // end of const rules
 };
