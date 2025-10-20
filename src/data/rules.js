@@ -18614,6 +18614,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "aerztekammer-bw.de": {
+    s: ".fixed-bottom.cookie-box, .fixed-bottom.cookie-banner, .cookie-box-backdrop { display: none !important; }",
+  },
 
   // end of const rules
 };
