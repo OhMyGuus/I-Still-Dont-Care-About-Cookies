@@ -18614,6 +18614,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "gomex.rs": {
+    s: '[class*="AppCookieBar"] { display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important; }',
+  },
 
   // end of const rules
 };
