@@ -18177,7 +18177,9 @@ const rules = {
   "gorna-austria.pl": { j: 5 },
   "hornerakusko.sk": { j: 5 },
   "oberoesterreich.nl": { j: 5 },
-  "geo.fr": { j: 5 },
+  "geo.fr": {
+    s: 'div[id^="sp_message_container_"], iframe[id^="sp_message_iframe_"], iframe[src*="consent.geo.fr"], div.userLoginTunnel, .utiq__consent-manager__overlay, .utiq__consent-manager, .utiq-consent-manager { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
   "tuebinger-umwelten.de": { j: 5 },
   "pcbleiterplatte.com": { j: 5 },
   "lomax.dk": { j: 5 },
