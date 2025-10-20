@@ -18620,6 +18620,9 @@ const rules = {
   "twonaturalcap.com": {
     s: '[class*="cookieBanner"], [class*="cookiebanner"], [class*="cookie-consent"], [class*="cookieConsent"], [class*="cookie"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "schmiedekult.de": {
+    s: "#consent-settings, #cookie-require-consent, #cookie-schmiede-consent-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
