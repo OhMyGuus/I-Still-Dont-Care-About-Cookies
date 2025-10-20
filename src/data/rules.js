@@ -18617,6 +18617,9 @@ const rules = {
   "gomex.rs": {
     s: '[class*="AppCookieBar"] { display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important; }',
   },
+  "gls-pakete.de": {
+    s: 'aside[id^="usercentrics"], [id^="usercentrics"], [data-cmp-type="usercentrics"], .usercentrics { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
