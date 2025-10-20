@@ -18617,6 +18617,9 @@ const rules = {
   "gomex.rs": {
     s: '[class*="AppCookieBar"] { display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important; }',
   },
+  "twonaturalcap.com": {
+    s: '[class*="cookieBanner"], [class*="cookiebanner"], [class*="cookie-consent"], [class*="cookieConsent"], [class*="cookie"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
