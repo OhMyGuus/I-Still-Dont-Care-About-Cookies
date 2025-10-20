@@ -18614,6 +18614,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "ashemaletube.me": {
+    s: "#cookieBanner, #cookieModal, #rtaBlur, #combinedBanner, #rtaBanner { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
