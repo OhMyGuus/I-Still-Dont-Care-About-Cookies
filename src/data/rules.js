@@ -14735,7 +14735,9 @@ const rules = {
   "dpa.gr": { c: 112 },
   "ikea.com": { j: "5" },
   "maxaro.nl": { c: 69 },
-  "mydealz.de": { j: "5" },
+  "mydealz.de": {
+    s: ".popover-cover.zIndex--modal, .popover--layout-fixed-bottomSheet.popover--visible, section.popover--default.popover.popover--layout-fixed-bottomSheet, .popover-portal { display: none !important; } html, body { overflow: visible !important; }",
+  },
   "dealabs.com": { j: "5" },
   "preisjaeger.at": { j: "5" },
   "chollometro.com": { j: "5" },
