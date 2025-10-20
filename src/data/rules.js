@@ -15159,7 +15159,9 @@ const rules = {
   "tusclasesparticulares.com": { s: "#pp{display:none !important}" },
   "edywerder.ch": { s: ".kadence-conversion-banner{display:none !important}" },
   "xxxlutz.at": { j: "5" },
-  "xxxlutz.de": { j: "5" },
+  "xxxlutz.de": {
+    s: '#modal, #cookieBar, div[class*="_dpUpXNX1PQh1Gb0v"] { display: none !important; } body { overflow: auto !important; padding-right: 0 !important; }',
+  },
   "xxxlutz.ch": { j: "5" },
   "xxxlutz.hu": { j: "5" },
   "xxxlutz.cz": { j: "5" },
