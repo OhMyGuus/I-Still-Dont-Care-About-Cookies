@@ -18623,6 +18623,9 @@ const rules = {
   "schmiedekult.de": {
     s: "#consent-settings, #cookie-require-consent, #cookie-schmiede-consent-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "sparkasse-regensburg.de": {
+    s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible, .if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible .cbox, .if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible .ebutton { display: none !important; }",
+  },
 
   // end of const rules
 };
