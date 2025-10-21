@@ -18623,6 +18623,9 @@ const rules = {
   "schmiedekult.de": {
     s: "#consent-settings, #cookie-require-consent, #cookie-schmiede-consent-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "grillfachwerk.de": {
+    s: '#eightworks-cookie-consent-plus, #eightworks-cookie-consent-plus-cookie-list, .eightworks-cookie-consent-plus-toggler, .eightworks-cookie-consent-plus-toggler-icon, .cookie-permission--configure-button, [data-cookie-permission="true"], .modal-backdrop, .offcanvas-backdrop { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
