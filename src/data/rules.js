@@ -18623,6 +18623,9 @@ const rules = {
   "schmiedekult.de": {
     s: "#consent-settings, #cookie-require-consent, #cookie-schmiede-consent-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "amazon.co.uk": {
+    s: "#sp-cc-wrapper, form#cos-banner, #sp-cc-header { display: none !important; }",
+  },
 
   // end of const rules
 };
