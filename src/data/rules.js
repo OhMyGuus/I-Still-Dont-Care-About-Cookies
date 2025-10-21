@@ -18623,6 +18623,9 @@ const rules = {
   "schmiedekult.de": {
     s: "#consent-settings, #cookie-require-consent, #cookie-schmiede-consent-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "bitbucket.org": {
+    s: "#onetrust-consent-sdk, #onetrust-banner-sdk, #onetrust-pc-sdk, #ot-anchor, .otFlat, .onetrust-overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; }",
+  },
 
   // end of const rules
 };
