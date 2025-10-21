@@ -18623,6 +18623,9 @@ const rules = {
   "schmiedekult.de": {
     s: "#consent-settings, #cookie-require-consent, #cookie-schmiede-consent-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "ista.com": {
+    s: "aside#usercentrics-cmp-ui, iframe#uc-cross-domain-consent-sharing-bridge, script#usercentrics-cmp, style#uc-block-styles, #usercentrics-cmp, #uc-block-styles { display: none !important; }",
+  },
 
   // end of const rules
 };
