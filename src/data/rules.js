@@ -18623,6 +18623,9 @@ const rules = {
   "schmiedekult.de": {
     s: "#consent-settings, #cookie-require-consent, #cookie-schmiede-consent-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "chatgpt.com": {
+    s: 'div[class*="bg-token-main-surface-tertiary"], div[class*="w-[100vw]"] { display: none !important; }',
+  },
 
   // end of const rules
 };
