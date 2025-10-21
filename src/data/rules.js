@@ -18623,6 +18623,9 @@ const rules = {
   "schmiedekult.de": {
     s: "#consent-settings, #cookie-require-consent, #cookie-schmiede-consent-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "ge.xhamster.desi": {
+    s: '[class*="wrapper-886ab"], [class*="experimentalModalContainer-886ab"], [class*="experimentalHeader-886ab"], [class*="experimentalContent-886ab"], [class*="experimentalButtons-886ab"], [class*="experimentalFooter-886ab"], [class*="logoContainer-886ab"], [class*="parentalBg-4c933"], [class*="parentalControl-4c933"] { display: none !important; } html, body, body.xh-scroll-disabled { overflow: auto !important; pointer-events: auto !important; }',
+  },
 
   // end of const rules
 };
