@@ -18623,6 +18623,9 @@ const rules = {
   "schmiedekult.de": {
     s: "#consent-settings, #cookie-require-consent, #cookie-schmiede-consent-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "mabutagaz.butagaz.fr": {
+    s: "#didomi-host, #didomi-popup, #buttons.multiple, #didomi-notice-agree-button, #didomi-notice-learn-more-button { display: none !important; visibility: hidden !important; pointer-events: none !important; opacity: 0 !important; }",
+  },
 
   // end of const rules
 };
