@@ -6390,7 +6390,9 @@ const rules = {
   "udruga-gradova.hr": { c: 0 },
   "zoom.earth": { c: 0 },
   "userinyerface.com": { c: 0 },
-  "cosmosmagazine.com": { c: 6 },
+  "cosmosmagazine.com": {
+    s: "#onetrust-banner-sdk, #onetrust-consent-sdk, #onetrust-pc-sdk, #ot-sdk-btn-floating, .ot-floating-button, #onetrust-close-btn-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
   "reifen-dinser.de": { c: 0 },
   "tang-freres.fr": { s: ".welcome{display:none !important}" },
   "spotify.com": {
