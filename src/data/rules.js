@@ -18623,6 +18623,9 @@ const rules = {
   "schmiedekult.de": {
     s: "#consent-settings, #cookie-require-consent, #cookie-schmiede-consent-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "sirplus.de": {
+    s: "section#shopify-pc__banner, div[style*='rgba(20, 20, 20, 0.6)'], div[style*='z-index: 90000'] { display: none !important; visibility: hidden !important; pointer-events: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
