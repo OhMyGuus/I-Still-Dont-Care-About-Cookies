@@ -18623,6 +18623,9 @@ const rules = {
   "schmiedekult.de": {
     s: "#consent-settings, #cookie-require-consent, #cookie-schmiede-consent-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "docs.ritabot.gg": {
+    s: 'div[class*="bottom-4"][class*="right-4"][class*="max-w-md"], p#cookies-description { display: none !important; }',
+  },
 
   // end of const rules
 };
