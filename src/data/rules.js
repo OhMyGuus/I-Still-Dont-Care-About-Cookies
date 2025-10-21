@@ -14737,7 +14737,9 @@ const rules = {
   "maxaro.nl": { c: 69 },
   "mydealz.de": { j: "5" },
   "dealabs.com": { j: "5" },
-  "preisjaeger.at": { j: "5" },
+  "preisjaeger.at": {
+    s: ".popover--layout-fixed-bottomSheet.popover--visible, .popover-cover.zIndex--modal, .box--contents.popover-portal { display: none !important; } html, body { overflow: auto !important; }",
+  },
   "chollometro.com": { j: "5" },
   "pepper.com": { j: "5" },
   "pepper.pl": { j: "5" },
