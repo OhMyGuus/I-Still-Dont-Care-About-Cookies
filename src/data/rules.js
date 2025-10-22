@@ -18764,6 +18764,7 @@ const blockUrls = {
   ],
   common_groups: {
     cookie: [
+      { r: "fnn-cookiemanager.js" },
       { r: "/media/plg_system_cookieconfirm" },
       { r: "cookie_meldung.js" },
       { r: "cookiewarning.js" },
