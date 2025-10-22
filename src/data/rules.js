@@ -12819,7 +12819,9 @@ const rules = {
   "sofatutor.com": { j: "5" },
   "sofatutor.ch": { j: "5" },
   "sofatutor.at": { j: "5" },
-  "alternate.de": { j: "5" },
+  "alternate.de": {
+    s: "aside#usercentrics-cmp-ui, div#cmp-uc-shadow { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
   "vsv.be": { j: "5" },
   "umicore.com": { j: "5" },
   "rodekruis.be": { j: "5" },
