@@ -18635,6 +18635,9 @@ const rules = {
   "shell.com.br": {
     s: 'consent-banner, consent-banner[privacy-url], consent-banner[src*="onetrust.com"] { display: none !important; }',
   },
+  "foundrydigital.com": {
+    s: "#hs-eu-cookie-confirmation, #hs-eu-cookie-confirmation-inner { display: none !important; }",
+  },
 
   // end of const rules
 };
