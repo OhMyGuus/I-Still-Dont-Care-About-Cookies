@@ -18665,6 +18665,9 @@ const rules = {
   "accounts.meister.co": {
     s: '[id^="cb-"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
   },
+  "ksk-diepholz.de": {
+    s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible, .if6_eprivacy, .cbox { display: none !important; }",
+  },
 
   // end of const rules
 };
