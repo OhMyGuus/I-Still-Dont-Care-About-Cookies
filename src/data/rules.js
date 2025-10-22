@@ -7026,7 +7026,9 @@ const rules = {
     s: "#cookieGradient,#cookiePrivacy{display:none !important}",
   },
   "altima-sfi.com": { s: "#politica{display:none !important}" },
-  "picdumps.com": { s: "#pcdc{display:none !important}" },
+  "picdumps.com": {
+    s: '[id^="sp_message_container_"] , iframe[id^="sp_message_iframe_"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
+  },
   "pewdiepie.store": { j: "5" },
   "sberbank.com": { s: ".personal-data-warning{display:none !important}" },
   "caldigit.com": { s: ".elementor-location-popup{display:none !important}" },
