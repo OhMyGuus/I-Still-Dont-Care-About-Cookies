@@ -18632,6 +18632,9 @@ const rules = {
   "nvu.io": {
     s: "#nvu-consent, #nvu-consent-box { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "shell.com.br": {
+    s: 'consent-banner, consent-banner[privacy-url], consent-banner[src*="onetrust.com"] { display: none !important; }',
+  },
 
   // end of const rules
 };
