@@ -18656,6 +18656,9 @@ const rules = {
   "eurotoner.hr": {
     s: ".gdpr-container-wrapper, #gdpr_configurator { display: none !important; }",
   },
+  "skytechgaming.com": {
+    s: "div[class*='bg-[#0e0e1d]'][class*='fixed'][class*='w-full'][class*='z-[999]'], .el-overlay { display: none !important; }",
+  },
 
   // end of const rules
 };
