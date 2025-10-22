@@ -18648,6 +18648,9 @@ const rules = {
   "co-wheels.org.uk": {
     s: ".c-CookieConsent, .c-CookieConsent__message, .c-CookieConsent__buttons { display: none !important; }",
   },
+  "apondo.de": {
+    s: ".message-overlay, #cookie-message { display: none !important; pointer-events: none !important; opacity: 0 !important; }",
+  },
 
   // end of const rules
 };
