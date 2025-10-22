@@ -18645,6 +18645,9 @@ const rules = {
   "le.ac.uk": {
     s: "#ccc { display: none !important; } html, body { overflow: visible !important; }",
   },
+  "co-wheels.org.uk": {
+    s: ".c-CookieConsent, .c-CookieConsent__message, .c-CookieConsent__buttons { display: none !important; }",
+  },
 
   // end of const rules
 };
