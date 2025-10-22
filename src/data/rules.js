@@ -18651,6 +18651,9 @@ const rules = {
   "apondo.de": {
     s: ".message-overlay, #cookie-message { display: none !important; pointer-events: none !important; opacity: 0 !important; }",
   },
+  "eurotoner.hr": {
+    s: ".gdpr-container-wrapper, #gdpr_configurator { display: none !important; }",
+  },
 
   // end of const rules
 };
