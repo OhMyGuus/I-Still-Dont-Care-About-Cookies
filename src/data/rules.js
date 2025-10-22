@@ -18626,6 +18626,9 @@ const rules = {
   "docs.ritabot.gg": {
     s: 'div[class*="bottom-4"][class*="right-4"][class*="max-w-md"], p#cookies-description { display: none !important; }',
   },
+  "slatinabistro.cz": {
+    s: "#cookiesModal, #gdprSpace, #lightboxOverlay, #lightbox, .modal-backdrop.fade.show { display: none !important; } body.modal-open, html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
