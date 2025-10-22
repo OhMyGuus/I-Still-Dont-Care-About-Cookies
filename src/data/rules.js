@@ -18629,9 +18629,6 @@ const rules = {
   "slatinabistro.cz": {
     s: "#cookiesModal, #gdprSpace, #lightboxOverlay, #lightbox, .modal-backdrop.fade.show { display: none !important; } body.modal-open, html, body { overflow: auto !important; }",
   },
-  "erzgebirgskreis.de": {
-    s: ".fnn-cookiemanager.layout-top, .block.cookie-popup { display: none !important; visibility: hidden !important; } html, body { overflow: auto !important; }",
-  },
 
   // end of const rules
 };
@@ -18728,6 +18725,7 @@ const blockUrls = {
   ],
   common_groups: {
     cookie: [
+      { r: "fnn-cookiemanager.js" },
       { r: "/media/plg_system_cookieconfirm" },
       { r: "cookie_meldung.js" },
       { r: "cookiewarning.js" },
