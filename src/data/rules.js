@@ -18651,6 +18651,9 @@ const rules = {
   "apondo.de": {
     s: ".message-overlay, #cookie-message { display: none !important; pointer-events: none !important; opacity: 0 !important; }",
   },
+  "amazon.it": {
+    s: "#sp-cc-wrapper, form#cos-banner, h4#sp-cc-header, div#sp-cc-error { display: none !important; }",
+  },
 
   // end of const rules
 };
