@@ -18659,6 +18659,9 @@ const rules = {
   "skytechgaming.com": {
     s: "div[class*='bg-[#0e0e1d]'][class*='fixed'][class*='w-full'][class*='z-[999]'], .el-overlay { display: none !important; }",
   },
+  "bensound.com": {
+    s: "#cookies-consent-modal, #cookies-preferences-fixed { display: none !important; }",
+  },
 
   // end of const rules
 };
