@@ -18629,6 +18629,9 @@ const rules = {
   "slatinabistro.cz": {
     s: "#cookiesModal, #gdprSpace, #lightboxOverlay, #lightbox, .modal-backdrop.fade.show { display: none !important; } body.modal-open, html, body { overflow: auto !important; }",
   },
+  "nvu.io": {
+    s: "#nvu-consent, #nvu-consent-box { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
