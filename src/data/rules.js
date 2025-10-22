@@ -13821,7 +13821,9 @@ const rules = {
     s: "#cmp-wetter, #cmp-modal, #cmp-back, #cmp-content, #cmp-consent, #cmp-paywall, #cmp-loader, #cmp-buttons { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
   },
   "coolblue.nl": { j: "5" },
-  "coolblue.be": { j: "5" },
+  "coolblue.be": {
+    s: "dialog[open], dialog.css-mrpenv { display: none !important; }",
+  },
   "coolblue.de": { j: "5" },
   "visualcrossing.com": { j: "5" },
   "culture.ru": {
