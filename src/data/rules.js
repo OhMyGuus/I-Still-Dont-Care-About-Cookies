@@ -18642,6 +18642,9 @@ const rules = {
   "foundrydigital.com": {
     s: "#hs-eu-cookie-confirmation, #hs-eu-cookie-confirmation-inner { display: none !important; }",
   },
+  "le.ac.uk": {
+    s: "#ccc { display: none !important; } html, body { overflow: visible !important; }",
+  },
 
   // end of const rules
 };
