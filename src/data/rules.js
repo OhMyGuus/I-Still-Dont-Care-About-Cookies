@@ -18662,6 +18662,9 @@ const rules = {
   "bensound.com": {
     s: "#cookies-consent-modal, #cookies-preferences-fixed { display: none !important; }",
   },
+  "accounts.meister.co": {
+    s: '[id^="cb-"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
