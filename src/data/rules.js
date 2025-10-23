@@ -18766,10 +18766,6 @@ const rules = {
   "worcestertradeframes.co.uk": {
     s: "#icaal-cookie-policy, #icaal-cookie-preferences-widget { display: none !important; }",
   },
-  "attitudeholland.nl": {
-    s: ".ibvcc-cookieconsent-popup.show, .ibvcc-dimscreen.show, .ibvjs-sidecar-dimscreen { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
-  },
-
   // end of const rules
 };
 
