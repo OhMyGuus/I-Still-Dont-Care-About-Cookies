@@ -8369,6 +8369,7 @@ function getSelector(host) {
       return '.modal[style*="block"] #button_accept_cookies';
     case "linasmatkasse.se":
       return "div#cookies button#accept-selected-cookies-btn";
+    case "sparkasse-regensburg.de":
     case "berliner-sparkasse.de":
       return "a[data-form='.eprivacy_optin_decline']";
   }
