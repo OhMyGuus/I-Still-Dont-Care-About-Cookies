@@ -329,6 +329,7 @@ const rules = {
   "cofunds.co.uk": {
     s: "#idrMasthead .idrPageRow .smContainer{display:none !important}",
   },
+  "channel4.com": { s: "body { overflow: auto !important; }" },
   "channelregister.co.uk": { s: "#RegCCO{display:none !important}" },
   "ordnancesurvey.co.uk": { s: "#messages{display:none !important}" },
   "hrportfolio.hr": { s: "#kolac{display:none}" },
