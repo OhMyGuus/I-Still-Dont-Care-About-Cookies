@@ -18667,6 +18667,9 @@ const rules = {
   "ksk-diepholz.de": {
     s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible, .if6_eprivacy, .cbox { display: none !important; }",
   },
+  "peerko.cz": {
+    s: '[class~="CA"], #cookiesDialog, .modal-backdrop { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.is-cookies-bar { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
