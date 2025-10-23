@@ -783,7 +783,9 @@ const rules = {
   "vas.com.pl": { c: 1 },
   "federacja-konsumentow.org.pl": { s: "#cu_bar{display:none !important}" },
   "bancomparador.com": { s: "#cuki{display:none !important}" },
-  "amaterky.sk": { c: 1 },
+  "amaterky.sk": {
+    s: "#initial-modal, .initial-modal, .modal-backdrop { display: none !important; } body { overflow: auto !important; }",
+  },
   "previ-direct.com": { c: 10 },
   "o2.pl": { j: "5" },
   "kodilive.eu": { s: "#claw{display:none !important}" },
