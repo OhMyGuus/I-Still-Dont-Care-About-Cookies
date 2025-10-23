@@ -8372,6 +8372,8 @@ function getSelector(host) {
     case "sparkasse-regensburg.de":
     case "berliner-sparkasse.de":
       return "a[data-form='.eprivacy_optin_decline']";
+    case "webgo.de":
+      return "button.ccm--decline-cookies";
   }
 
   if (host.parts.length > 2) {
