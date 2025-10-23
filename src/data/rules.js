@@ -18702,6 +18702,9 @@ const rules = {
   "9to5linux.com": {
     s: '#wpconsent-root, #wpconsent-container, .fc-consent-root, .fc-dialog-container, div[role="dialog"][aria-label*="9to5linux.com asks"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "toneelhuis.be": {
+    s: ".cookie-consent, form#cookie-constent-dialog.cookie-consent__form, section#cookie-consent-options { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
