@@ -18679,6 +18679,9 @@ const rules = {
   "taller.ru": {
     s: "#js-alert-cookie-window, #js-cookie-alert-close { display: none !important; }",
   },
+  "berliner-sparkasse.de": {
+    s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible, .overlayContainer { display: none !important; }",
+  },
 
   // end of const rules
 };
