@@ -14320,7 +14320,9 @@ body:not(.cnn) > #onetrust-blocker,
 div.sp-cc-wrapper,
 #ccm-widget,
 moonback-cookie-banner, 
-.ibvcc-cookieconsent-popup {
+.ibvcc-cookieconsent-popup,
+div[aria-labelledby='cookiesTrackingNoticeLink'],
+moonback-cookie-banner {
   display: none !important;
   height: 0 !important;
   z-index: -99999 !important;
