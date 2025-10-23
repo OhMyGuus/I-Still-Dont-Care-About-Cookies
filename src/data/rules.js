@@ -18778,6 +18778,9 @@ const rules = {
   "mavenanalytics.io": {
     s: ".sc-bcXHqe.eKKFFs, .sc-GKYbw.jDnToh, .sc-cZFQFd.hZpEVZ, .framer-1uzwb1k { display: none !important; }",
   },
+  "derbytelegraph.co.uk": {
+    s: '#qc-cmp2-container, #qc-cmp2-main, #qc-cmp2-ui, .pp-prompt, .pp-backdrop, .pp-overlay, div[id^="pp-"] { display: none !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
