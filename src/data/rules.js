@@ -18826,6 +18826,9 @@ const rules = {
   "vaissiere-sarl.com": {
     s: "#form_cookie_ban, button#submit_cookie_ban, .cookies-ban, .cookies-ban-wrapper, .cookies-text { display: none !important; }",
   },
+  "sp.nl": {
+    s: 'div.scheme-dark.fixed.bottom-0.z-popover, div[class*="z-popover"][class*="relative"], div[class*="z-popover"].grid { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
