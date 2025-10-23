@@ -18716,6 +18716,9 @@ const rules = {
   "mygiftstop.com": {
     s: '[id*="cookie" i], [class*="cookie" i], [id*="consent" i], [class*="consent" i] { display: none !important; }',
   },
+  "my.kaspersky.com": {
+    s: "#CybotCookiebotDialog, #Cookiebot, #CookieConsentStateDisplayStyles, #CookiebotDialogStyle, .CybotCookiebotDialogActive { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
