@@ -18823,6 +18823,9 @@ const rules = {
   "everythingrf.com": {
     s: '#cookie-law, [id*="cookie"]:not(body), [class*="cookie"]:not(body) { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "vaissiere-sarl.com": {
+    s: "#form_cookie_ban, button#submit_cookie_ban, .cookies-ban, .cookies-ban-wrapper, .cookies-text { display: none !important; }",
+  },
 
   // end of const rules
 };
