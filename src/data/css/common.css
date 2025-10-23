@@ -14319,6 +14319,7 @@ body:not(.cnn) > #onetrust-blocker,
 .cookie-overLay,
 div.sp-cc-wrapper,
 #ccm-widget,
+div[aria-labelledby='cookiesTrackingNoticeLink'],
 moonback-cookie-banner {
   display: none !important;
   height: 0 !important;
