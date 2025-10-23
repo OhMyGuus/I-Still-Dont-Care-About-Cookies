@@ -10472,7 +10472,9 @@ const rules = {
   "twl.de": { j: "5" },
   "l2central.info": { s: ".notice_footer_right{display:none !important}" },
   "spieletastisch.de": { s: ".pageloading-mask{display:none !important}" },
-  "axisbank.com": { s: "#HomePageStrip{display:none !important}" },
+  "axisbank.com": {
+    s: '[id*="privy-cmp"], [class*="privy-cmp"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
   "ingatlanbazar.hu": { s: ".ib-cookie-bar{display:none !important}" },
   "localyzeapp.com": { s: ".banner-container{display:none !important}" },
   "laposte.fr": { s: "#navigation_cookies{display:none !important}" },
