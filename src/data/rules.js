@@ -18814,6 +18814,9 @@ const rules = {
   "shipnow.gb.fedex.com": {
     s: '#termly-code-snippet-support, [class^="termly-styles-"], .t-consentPrompt { display: none !important; visibility: hidden !important; pointer-events: none !important; } #termly-code-snippet-support * { display: none !important; }',
   },
+  "velodepot.fr": {
+    s: "#cookieNoticePro, #cookieSettings, #cookieTypes, #closeIcon, #cookieAccept, #cookieReject { display: none !important; }",
+  },
 
   // end of const rules
 };
