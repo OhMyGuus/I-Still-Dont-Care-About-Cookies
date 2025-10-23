@@ -18695,6 +18695,9 @@ const rules = {
   "cdn.lada.ru": {
     s: ".modal--cookies, .modal--cookies * { display: none !important; } html { overflow: auto !important; }",
   },
+  "lisa-massage.eu": {
+    s: ".ngcookiewarning, .ngcookiewarningbottom, .ngcookiewarningcontent, .ngcookiewarningtext, .ngcookiewarningbuttons, .ngcookiewarningaccept { display: none !important; }",
+  },
 
   // end of const rules
 };
