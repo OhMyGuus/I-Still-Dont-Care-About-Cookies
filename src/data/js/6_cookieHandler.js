@@ -707,6 +707,8 @@ function getE(hostname) {
       return ["trackingAccepted=false"];
     case "mysanantonio.com":
       return ['_consent_cookie={"services":[]}'];
+    case "what3words.com":
+      return ['cookie_preferences={"analytics":false,"marketing":false}'];
     case "tesco.com":
       return [
         'cookiePreferences={"advertising":false,"experience":false}',

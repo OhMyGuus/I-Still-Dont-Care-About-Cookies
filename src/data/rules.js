@@ -10389,7 +10389,7 @@ const rules = {
     s: "cookie-layer,.cdk-overlay-container{display:none !important}",
   },
   "kupzidle.cz": { s: "body > .shadow{display:none !important}" },
-  "what3words.com": { j: "5" },
+  "what3words.com": { j: "6" },
   "bancaditalia.it": { j: "5" },
   "campbellsoup.co.uk": { c: 0 },
   "biathlonresults.com": { s: "popup-container{display:none !important}" },
