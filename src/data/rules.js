@@ -18676,6 +18676,9 @@ const rules = {
   "stuttgart-netze.de": {
     s: '.modal--cookies, .modal--cookies .modal__container { display: none !important; } html[style*="overflow: hidden"] { overflow: auto !important; padding-right: 0 !important; }',
   },
+  "taller.ru": {
+    s: "#js-alert-cookie-window, #js-cookie-alert-close { display: none !important; }",
+  },
 
   // end of const rules
 };
