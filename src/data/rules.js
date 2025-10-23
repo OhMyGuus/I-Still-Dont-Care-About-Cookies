@@ -18685,6 +18685,7 @@ const rules = {
   "antratek.com": {
     s: 'body.overflow-y-hidden{overflow:auto !important;}div[class*="bg-black/50"][class*="z-[100]"],div[class*="bg-white"][class*="max-w-3xl"]{display:none !important;}',
   },
+  "myffbad.fr": { s: ".rgpd, .rpgd-wrapper { display: none !important; }" },
 
   // end of const rules
 };
