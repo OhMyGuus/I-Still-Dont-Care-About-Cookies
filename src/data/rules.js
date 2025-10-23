@@ -18744,6 +18744,9 @@ const rules = {
   "fugaziresearch.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "tracking.postnl.nl": {
+    s: 'pnl-cookie-wall-widget, pnl-cookie-widget-overview, pnl-cookie-widget-settings { display: none !important; } body[style*="position: fixed"][style*="overflow: hidden"] { position: static !important; overflow: auto !important; width: auto !important; height: auto !important; }',
+  },
 
   // end of const rules
 };
