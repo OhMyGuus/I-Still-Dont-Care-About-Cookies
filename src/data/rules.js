@@ -18775,6 +18775,9 @@ const rules = {
   "tuesim.es": {
     s: ".cookies, .cookies__container, .cookies__info, .cookies__backdrop { display: none !important; visibility: hidden !important; opacity: 0 !important; } body, body.noscroll { overflow: auto !important; }",
   },
+  "mavenanalytics.io": {
+    s: ".sc-bcXHqe.eKKFFs, .sc-GKYbw.jDnToh, .sc-cZFQFd.hZpEVZ, .framer-1uzwb1k { display: none !important; }",
+  },
 
   // end of const rules
 };
