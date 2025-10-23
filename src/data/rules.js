@@ -18689,6 +18689,9 @@ const rules = {
   "madison.be": {
     s: "#uxm, #uxm .uxm-wrapper, #uxm .uxm-modal, #uxm .uxm-modal-body, #uxm .uxm-modal-tab-footer { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "zero-potential.com": {
+    s: '#Compliance-cs-banner, [id*="complianz" i], [id*="Compliance" i], .cmplz-banner, .complianz-cookie-banner { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
