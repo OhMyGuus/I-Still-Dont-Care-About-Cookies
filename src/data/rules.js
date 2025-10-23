@@ -18772,6 +18772,9 @@ const rules = {
   "skysmart.ru": {
     s: "cism-cookies-banner, mrkt-cookies-banner { display: none !important; }",
   },
+  "tuesim.es": {
+    s: ".cookies, .cookies__container, .cookies__info, .cookies__backdrop { display: none !important; visibility: hidden !important; opacity: 0 !important; } body, body.noscroll { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
