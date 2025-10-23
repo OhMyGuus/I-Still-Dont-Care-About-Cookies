@@ -18757,6 +18757,9 @@ const rules = {
   "freshplaza.de": {
     s: "div.grey_background, .ad_block_warning { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "incehesap.com": {
+    s: '[id="ccp---nb"], p#cc-nb-title, p#cc-nb-text, a#reject { display: none !important; }',
+  },
 
   // end of const rules
 };
