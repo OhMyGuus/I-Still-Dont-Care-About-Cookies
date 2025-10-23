@@ -18769,6 +18769,9 @@ const rules = {
   "locations.oreillyauto.com": {
     s: '#truyo-consent-module, #truyo-consent-module *, #truyo-cookieBarContent, [id="cookieSettingButton"], [id="acceptAllCookieButton"], [id="declineAllCookieButton"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "skysmart.ru": {
+    s: "cism-cookies-banner, mrkt-cookies-banner { display: none !important; }",
+  },
 
   // end of const rules
 };
