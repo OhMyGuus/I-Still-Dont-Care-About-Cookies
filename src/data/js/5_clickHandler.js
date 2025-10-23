@@ -291,7 +291,7 @@ function getSelector(host) {
             '.reveal-overlay[style*="block"] .tracking-consent-customization-popup .js-accept-selected'
           );
         case "coolblue":
-          return '.button[name="accept_cookie"]';
+          return 'button[name="accept_cookie"]';
         case "chartoo":
           return _if(
             'body > div > div:last-child a[href*="/privacy"]',
