@@ -18493,7 +18493,7 @@ const rules = {
     c: 85,
   },
   "geopop.it": {
-    s: "#geopop_it .layer1, #geopop_it .gdpr-modal, #geopop_it .gdpr-modal__box { display: none !important; } body.no-scr, html.no-scr { overflow: auto !important; }",
+    s: ".gdpr-modal, .gdpr-modal__box, .gdpr-modal__box-content, .layer1 { display: none !important; }",
   },
   "portalitv.com": {
     s: "#wb-co-cookiesgdpr_module, form#aceptarAllCookiesForm, form#aceptarCustomCookiesForm { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
