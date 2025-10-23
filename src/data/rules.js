@@ -18670,6 +18670,9 @@ const rules = {
   "peerko.cz": {
     s: '[class~="CA"], #cookiesDialog, .modal-backdrop { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.is-cookies-bar { overflow: auto !important; }',
   },
+  "its-farin.de": {
+    s: '.ad1a6, [class*="ad1a6-ext-"], dialog[aria-modal] { display: none !important; } html, body { overflow: auto !important; pointer-events: auto !important; }',
+  },
 
   // end of const rules
 };
