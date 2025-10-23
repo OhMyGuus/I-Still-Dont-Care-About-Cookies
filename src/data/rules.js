@@ -18802,6 +18802,9 @@ const rules = {
   "brkfree.com": {
     s: ".cookie-popup_component, .cookie-modal_component, .popup-overlay { display: none !important; }",
   },
+  "archon-studio.com": {
+    s: ".sg-cks-backdrop,.sg-cks-info,.sg-cks-short,.sg-cks-settings{display:none!important}body.sg-cks-block{overflow:auto!important}",
+  },
 
   // end of const rules
 };
