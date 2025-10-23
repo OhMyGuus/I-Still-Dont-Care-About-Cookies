@@ -18673,6 +18673,9 @@ const rules = {
   "its-farin.de": {
     s: '.ad1a6, [class*="ad1a6-ext-"], dialog[aria-modal] { display: none !important; } html, body { overflow: auto !important; pointer-events: auto !important; }',
   },
+  "stuttgart-netze.de": {
+    s: '.modal--cookies, .modal--cookies .modal__container { display: none !important; } html[style*="overflow: hidden"] { overflow: auto !important; padding-right: 0 !important; }',
+  },
 
   // end of const rules
 };
