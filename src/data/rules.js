@@ -18680,7 +18680,7 @@ const rules = {
     s: "#js-alert-cookie-window, #js-cookie-alert-close { display: none !important; }",
   },
   "berliner-sparkasse.de": {
-    s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible, .overlayContainer { display: none !important; }",
+    s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible, .if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible * { display: none !important; }",
   },
   "antratek.com": {
     s: 'body.overflow-y-hidden{overflow:auto !important;}div[class*="bg-black/50"][class*="z-[100]"],div[class*="bg-white"][class*="max-w-3xl"]{display:none !important;}',
