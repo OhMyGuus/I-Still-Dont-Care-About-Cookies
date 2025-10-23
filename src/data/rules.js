@@ -18817,6 +18817,9 @@ const rules = {
   "velodepot.fr": {
     s: "#cookieNoticePro, #cookieSettings, #cookieTypes, #closeIcon, #cookieAccept, #cookieReject { display: none !important; }",
   },
+  "gamsgo.com": {
+    s: ".cookie-box, .v-overlay__scrim, .v-overlay__content.gg-overlay { display: none !important; } html { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
