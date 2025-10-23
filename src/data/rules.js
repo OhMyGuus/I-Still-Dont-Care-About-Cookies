@@ -18751,6 +18751,9 @@ const rules = {
     j: 5,
     s: "div.bg-elements-tertiary.z-backdrop { display: none !important; }",
   },
+  "pigu.lt": {
+    s: "#generalModal, div.c-modal-container--consent, #consent_block, #cookieBlock { display: none !important; pointer-events: none !important; visibility: hidden !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
