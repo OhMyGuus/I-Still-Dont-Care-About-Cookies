@@ -18698,6 +18698,9 @@ const rules = {
   "lisa-massage.eu": {
     s: ".ngcookiewarning, .ngcookiewarningbottom, .ngcookiewarningcontent, .ngcookiewarningtext, .ngcookiewarningbuttons, .ngcookiewarningaccept { display: none !important; }",
   },
+  "maribelle-hamburg.de": {
+    s: ".cookieConsentWrp, #cookieConsentWrp { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
