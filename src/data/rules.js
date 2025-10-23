@@ -13798,19 +13798,19 @@ const rules = {
     s: '[class*="experimentalModalContainer"], [class*="experimentalHeader"], [class*="experimentalContent"], [class*="experimentalButtons"], [class*="experimentalFooter"], [class*="wrapper-"] { display: none !important; } .xh-thumb-disabled *, .xh-thumb-disabled { filter: none !important; overflow: visible !important; }',
   },
   "xhamster2.com": {
-    s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
+    s: '[class*="experimentalModalContainer"], [class*="experimentalHeader"], [class*="experimentalContent"], [class*="experimentalButtons"], [class*="experimentalFooter"], [class*="wrapper-"] { display: none !important; } .xh-thumb-disabled *, .xh-thumb-disabled { filter: none !important; overflow: visible !important; }',
   },
   "xhamster3.com": {
-    s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
+    s: '[class*="experimentalModalContainer"], [class*="experimentalHeader"], [class*="experimentalContent"], [class*="experimentalButtons"], [class*="experimentalFooter"], [class*="wrapper-"] { display: none !important; } .xh-thumb-disabled *, .xh-thumb-disabled { filter: none !important; overflow: visible !important; }',
   },
   "xhamster.desi": {
-    s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
+    s: '[class*="experimentalModalContainer"], [class*="experimentalHeader"], [class*="experimentalContent"], [class*="experimentalButtons"], [class*="experimentalFooter"], [class*="wrapper-"] { display: none !important; } .xh-thumb-disabled *, .xh-thumb-disabled { filter: none !important; overflow: visible !important; }',
   },
   "xhamster18.desi": {
-    s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
+    s: '[class*="experimentalModalContainer"], [class*="experimentalHeader"], [class*="experimentalContent"], [class*="experimentalButtons"], [class*="experimentalFooter"], [class*="wrapper-"] { display: none !important; } .xh-thumb-disabled *, .xh-thumb-disabled { filter: none !important; overflow: visible !important; }',
   },
   "xhamster.xuxporner.com": {
-    s: 'div[class^="cookiesAnnounce-"],.modal-4488f,.container-724f7{display:none !important}',
+    s: '[class*="experimentalModalContainer"], [class*="experimentalHeader"], [class*="experimentalContent"], [class*="experimentalButtons"], [class*="experimentalFooter"], [class*="wrapper-"] { display: none !important; } .xh-thumb-disabled *, .xh-thumb-disabled { filter: none !important; overflow: visible !important; }',
   },
   "bild.de": { j: "5" },
   "wetter.com": {
@@ -18622,10 +18622,7 @@ const rules = {
   },
   "schmiedekult.de": {
     s: "#consent-settings, #cookie-require-consent, #cookie-schmiede-consent-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
-  },
-  "ge.xhamster.desi": {
-    s: '[class*="wrapper-886ab"], [class*="experimentalModalContainer-886ab"], [class*="experimentalHeader-886ab"], [class*="experimentalContent-886ab"], [class*="experimentalButtons-886ab"], [class*="experimentalFooter-886ab"], [class*="logoContainer-886ab"], [class*="parentalBg-4c933"], [class*="parentalControl-4c933"] { display: none !important; } html, body, body.xh-scroll-disabled { overflow: auto !important; pointer-events: auto !important; }',
-  },
+  }
 
   // end of const rules
 };
