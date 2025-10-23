@@ -18711,6 +18711,9 @@ const rules = {
   "eurotone.de": {
     s: "#banner-wrapper, #cookie-banner_flag, #cookie-banner_flag__fingerprint, #cookie-banner_flag__infotext, p#all_accept.gt-block.btn-accept, p#essential_accept.gt-block.btn-accept, #gt_fade.gt_black_overlay { display: none !important; }",
   },
+  "mygiftstop.com": {
+    s: '[id*="cookie" i], [class*="cookie" i], [id*="consent" i], [class*="consent" i] { display: none !important; }',
+  },
 
   // end of const rules
 };
