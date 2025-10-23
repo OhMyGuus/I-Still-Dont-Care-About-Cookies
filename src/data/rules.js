@@ -8604,7 +8604,6 @@ const rules = {
   "lbbw.de": { j: "5" },
   "timhortons.co.uk": { s: ".user-permission{display:none !important}" },
   "montanacolors.com": { j: "5" },
-  "wetransfer.com": { j: "5" },
   "revolver.news": { c: 11 },
   "gongfm.de": { j: "5" },
   "newrepublic.com": { s: ".popup-consent{display:none !important}" },
@@ -11081,7 +11080,7 @@ const rules = {
   "forum.brasil-web.de": { j: "5" },
   "change.org": { j: "5" },
   "tesco.pl": { s: "#privacyOuterContainer{display:none !important}" },
-  "tesco.com": { s: "#sticky-bar-wrapper{display:none !important}" },
+  "tesco.com": { j: "6" },
   "conso.ro": { j: "5" },
   "mubi.com": { j: "6" },
   "albaparty.org": { c: 8 },
@@ -18668,6 +18667,15 @@ const rules = {
   "ksk-diepholz.de": {
     s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible, .if6_eprivacy, .cbox { display: none !important; }",
   },
+  "peerko.cz": {
+    s: '[class~="CA"], #cookiesDialog, .modal-backdrop { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.is-cookies-bar { overflow: auto !important; }',
+  },
+  "its-farin.de": {
+    s: '.ad1a6, [class*="ad1a6-ext-"], dialog[aria-modal] { display: none !important; } html, body { overflow: auto !important; pointer-events: auto !important; }',
+  },
+  "stuttgart-netze.de": {
+    s: '.modal--cookies, .modal--cookies .modal__container { display: none !important; } html[style*="overflow: hidden"] { overflow: auto !important; padding-right: 0 !important; }',
+  },
 
   // end of const rules
 };
@@ -20840,6 +20848,7 @@ const blockUrls = {
     "liebherr.com": ["/cmp/"],
     "biggreenegg.co.uk": ["/_astro/CookieBanner"],
     "qatarairways.com": ["/cookie-gdpr/cookie-notification-qr.js"],
+    "wetransfer.com": ["fides.js"],
   },
 };
 
