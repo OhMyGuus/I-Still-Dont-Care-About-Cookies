@@ -18796,6 +18796,9 @@ const rules = {
   "ananas.rs": {
     s: 'div[class*="sc-qyfc41"], div[class*="sc-1uahdlk-0"], button[class*="sc-1rhklln"], button[class*="sc-10gp9fk"] { display: none !important; }',
   },
+  "rajapack.co.uk": {
+    s: "#onetrust-consent-sdk, #onetrust-banner-sdk, .js-ot-page-alert, .js-ot-page-overlay { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
