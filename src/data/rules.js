@@ -14603,7 +14603,7 @@ const rules = {
   "incomputer.cz": { s: ".cookies-fixed-left{display:none !important}" },
   "mujnuz.cz": { s: 'div[id*="cookie-modal"]{display:none !important}' },
   "starwalk.space": {
-    s: "#button-actions-container ~ div{display:none !important}",
+    s: '#termly-code-snippet-support, [aria-label="Cookie Consent Prompt"], [class*="t-consentPrompt"], [class*="termly-display-preferences"], [data-tid="banner-accept"], [data-tid="banner-decline"], [data-testid="preferences-link"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
   },
   "pr0gramm.com": { j: "5" },
   "toruniak.pl": { j: "5" },
