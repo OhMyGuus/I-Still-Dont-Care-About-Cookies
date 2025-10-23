@@ -15759,7 +15759,9 @@ const rules = {
   "dic-kikin.or.jp": { s: ".footer-gdpr{display:none !important}" },
   "dynacw.co.jp": { s: "#GDPR_warning{display:none !important}" },
   "elleair.jp": { s: ".tf-cookiePolicyModal{display:none !important}" },
-  "epidemicsound.com": { s: "#es-consent{display:none !important}" },
+  "epidemicsound.com": {
+    s: '#es-cookie-banner, div[id^="onetrust"], #onetrust-consent-sdk, #onetrust-banner-sdk { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
+  },
   "festo.com.cn": {
     s: '[class^="overlay"]{display:none !important} [class*="hide-overflow"]{overflow:unset !important}',
   },
