@@ -18727,6 +18727,9 @@ const rules = {
   "rayon-boissons.com": {
     s: "#tarteaucitronRoot, #tarteaucitronAlertBig, #tarteaucitron, #tarteaucitronPremium { display: none !important; visibility: hidden !important; opacity: 0 !important; } html, body { overflow: auto !important; }",
   },
+  "uwefreund.com": {
+    s: 'div[consent-skip-blocker="1"]{display:none!important;visibility:hidden!important;pointer-events:none!important;opacity:0!important;}html,body{overflow:auto!important;}',
+  },
 
   // end of const rules
 };
