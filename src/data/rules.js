@@ -18722,6 +18722,9 @@ const rules = {
   "flux-munich.com": {
     s: "#cw-cookie-banner, #cw-cookie-options, #cw-cookie-icon { display: none !important; }",
   },
+  "rayon-boissons.com": {
+    s: "#tarteaucitronRoot, #tarteaucitronAlertBig, #tarteaucitron, #tarteaucitronPremium { display: none !important; visibility: hidden !important; opacity: 0 !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
