@@ -291,7 +291,7 @@ function getSelector(host) {
             '.reveal-overlay[style*="block"] .tracking-consent-customization-popup .js-accept-selected'
           );
         case "coolblue":
-          return '.button[name="accept_cookie"]';
+          return 'button[name="accept_cookie"]';
         case "chartoo":
           return _if(
             'body > div > div:last-child a[href*="/privacy"]',
@@ -1921,7 +1921,7 @@ function getSelector(host) {
     case "pepper.pl":
     case "pepper.it":
     case "hotukdeals.com":
-      return 'button[data-t*="continueWithoutAccepting"]';
+      return 'button[data-t*="rejectAll"]';
 
     case "karriere-jet.de":
     case "bewerbung-tipps.com":
@@ -8370,6 +8370,7 @@ function getSelector(host) {
     case "linasmatkasse.se":
       return "div#cookies button#accept-selected-cookies-btn";
     case "sparkasse-regensburg.de":
+    case "berliner-sparkasse.de":
       return "a[data-form='.eprivacy_optin_decline']";
   }
 
