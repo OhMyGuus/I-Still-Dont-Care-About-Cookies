@@ -2213,7 +2213,7 @@ const rules = {
   "kamilianie.eu": { c: 12 },
   "weshop.co.uk": { c: 11 },
   "moneybird.nl": {
-    s: ".biscuit-message-is-active .page,.biscuit-message-is-active .header{transform:none !important}",
+    s: "mb-cookie-modal-component,mb-cookie-modal-component *{display:none!important} html,body.prismic_page{overflow-y:auto!important;position:static!important;top:auto!important}",
   },
   "destockplus.com": { s: ".page_warning{display:none !important}" },
   "gwp.pl": { c: 68 },
