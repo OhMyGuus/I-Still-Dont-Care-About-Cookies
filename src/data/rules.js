@@ -18837,6 +18837,9 @@ const rules = {
   "appeltern.nl": {
     s: ".cookie-consent-modal, .cookie-consent-modal__main, .cookie-consent-modal__content, .cookie-consent-banner__actions, .cookie-consent-banner__buttons, .cookie-consent-button, .cookie-consent-link { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "doutorfinancas.pt": {
+    s: ".cookies-banner, .cookies-banner__content, .cookies-banner__buttons { display: none !important; visibility: hidden !important; pointer-events: none !important; height: 0 !important; margin: 0 !important; padding: 0 !important; overflow: hidden !important; } body.cookie-overlay, body.cookie-overlay::before, body.cookie-overlay::after { overflow: auto !important; display: block !important; content: none !important; }",
+  },
 
   // end of const rules
 };
