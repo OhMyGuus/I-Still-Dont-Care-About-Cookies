@@ -11081,7 +11081,7 @@ const rules = {
   "forum.brasil-web.de": { j: "5" },
   "change.org": { j: "5" },
   "tesco.pl": { s: "#privacyOuterContainer{display:none !important}" },
-  "tesco.com": { s: "#sticky-bar-wrapper{display:none !important}" },
+  "tesco.com": { j: "6" },
   "conso.ro": { j: "5" },
   "mubi.com": { j: "6" },
   "albaparty.org": { c: 8 },
