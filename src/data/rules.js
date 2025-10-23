@@ -13380,7 +13380,9 @@ const rules = {
   "fedex.com": {
     s: "fedex-cookie-consent,fdx-caas-cookie-consent,.fxg-alert__fdx_cookie_notice{display:none !important}",
   },
-  "kvk.nl": { j: "5" },
+  "kvk.nl": {
+    s: '.kvk-modal-overlay, .kvk-modal-dialog, section#cookie-consent, [data-ui-test-class="cookieconsent"], [class*="Modal-module_overlay__"], [class*="Modal-module_react-modal__"] { display: none !important; } body { overflow: visible !important; padding-right: 0 !important; }',
+  },
   "hostnet.nl": { j: "5" },
   "tiktok.com": { s: "tiktok-cookie-banner{display:none !important}" },
   "shopee.fr": {
