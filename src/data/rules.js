@@ -13819,7 +13819,9 @@ const rules = {
   "wetter.com": {
     s: "#cmp-wetter, #cmp-modal, #cmp-back, #cmp-content, #cmp-consent, #cmp-paywall, #cmp-loader, #cmp-buttons { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
   },
-  "coolblue.nl": { j: "5" },
+  "coolblue.nl": {
+    s: 'dialog.css-mrpenv, [id^="modal-heading-"], .css-1vit3b6, .css-vhsj99 { display: none !important; } body { overflow: auto !important; }',
+  },
   "coolblue.be": { j: "5" },
   "coolblue.de": { j: "5" },
   "visualcrossing.com": { j: "5" },
