@@ -18790,6 +18790,9 @@ const rules = {
   "kaucja.pl": {
     s: "#tarteaucitron,#tarteaucitronAlertBig,#tarteaucitronRoot,#tarteaucitronIcon,#tarteaucitronPremium{display:none!important}body{overflow:auto!important}",
   },
+  "leo-ob.de": {
+    s: "dialog#portuna_info, .portuna_info, .cc_message, #cc_options, #cookie-buttons-div, a.cc_btn { display: none !important; } dialog#portuna_info::backdrop { display: none !important; }",
+  },
 
   // end of const rules
 };
