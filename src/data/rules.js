@@ -18748,6 +18748,7 @@ const rules = {
     s: 'pnl-cookie-wall-widget, pnl-cookie-widget-overview, pnl-cookie-widget-settings { display: none !important; } body[style*="position: fixed"][style*="overflow: hidden"] { position: static !important; overflow: auto !important; width: auto !important; height: auto !important; }',
   },
   "webgo.de": {
+    j: 5,
     s: "div.bg-elements-tertiary.z-backdrop { display: none !important; }",
   },
 
