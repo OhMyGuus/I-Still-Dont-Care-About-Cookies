@@ -15959,7 +15959,9 @@ const rules = {
   "bionic-reading.com": { j: "3" },
   "starnecker.com": { c: 6 },
   "aikikai.de": { c: 14 },
-  "kick.com": { s: "#app > .main-html + .fixed{display:none !important}" },
+  "kick.com": {
+    s: ".z-modal { display: none !important; pointer-events: none !important; }",
+  },
   "primus-apotheken-stadecken.de": {
     s: "#ccModal{display:none !important}",
     c: 14,
