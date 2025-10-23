@@ -18738,6 +18738,9 @@ const rules = {
   "unsplash.com": {
     s: 'dialog[class*="styles-module_dialog__"], [class*="styles-module_dialog__"], .styles-module_content__IZ0A3, .styles-module_buttonContainer__LHjZk { display: none !important; }',
   },
+  "rosenheim.de": {
+    s: "dialog#in2-modal, dialog#in2-modal::backdrop, .c-iframeswitch__content { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
