@@ -18692,6 +18692,9 @@ const rules = {
   "zero-potential.com": {
     s: '#Compliance-cs-banner, [id*="complianz" i], [id*="Compliance" i], .cmplz-banner, .complianz-cookie-banner { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "cdn.lada.ru": {
+    s: ".modal--cookies, .modal--cookies * { display: none !important; } html { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
