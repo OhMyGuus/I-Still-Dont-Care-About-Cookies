@@ -18799,6 +18799,9 @@ const rules = {
   "rajapack.co.uk": {
     s: "#onetrust-consent-sdk, #onetrust-banner-sdk, .js-ot-page-alert, .js-ot-page-overlay { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "brkfree.com": {
+    s: ".cookie-popup_component, .cookie-modal_component, .popup-overlay { display: none !important; }",
+  },
 
   // end of const rules
 };
