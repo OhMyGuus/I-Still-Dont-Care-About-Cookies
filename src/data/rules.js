@@ -18763,6 +18763,9 @@ const rules = {
   "city-doener-fulda.de": {
     s: '[class*="6e2afb01"], [class*="53c37d5f"], #manage-cookies-button, #accept-cookies-button { display: none !important; } html, body { overflow: auto !important; }',
   },
+  "worcestertradeframes.co.uk": {
+    s: "#icaal-cookie-policy, #icaal-cookie-preferences-widget { display: none !important; }",
+  },
 
   // end of const rules
 };
