@@ -18787,6 +18787,9 @@ const rules = {
   "seriouseats.com": {
     s: "#onetrust-consent-sdk, #onetrust-banner-sdk, #onetrust-pc-sdk { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "kaucja.pl": {
+    s: "#tarteaucitron,#tarteaucitronAlertBig,#tarteaucitronRoot,#tarteaucitronIcon,#tarteaucitronPremium{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
