@@ -18831,6 +18831,9 @@ const rules = {
   "sp.nl": {
     s: 'div.scheme-dark.fixed.bottom-0.z-popover, div[class*="z-popover"][class*="relative"], div[class*="z-popover"].grid { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "oponeo.pl": {
+    s: 'div[class*="bg-[rgba(0,0,0,0.6)]"], div[class*="fixed bottom-0"][class*="bg-black"] { display: none !important; pointer-events: none !important; visibility: hidden !important; }',
+  },
 
   // end of const rules
 };
