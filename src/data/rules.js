@@ -18784,6 +18784,9 @@ const rules = {
   "thinkbroadband.com": {
     s: '#termly-code-snippet-support, [class^="termly-styles-root"], [class*="termly-styles-consent-banner"], [class*="t-consentPrompt"]{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important}',
   },
+  "seriouseats.com": {
+    s: "#onetrust-consent-sdk, #onetrust-banner-sdk, #onetrust-pc-sdk { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
