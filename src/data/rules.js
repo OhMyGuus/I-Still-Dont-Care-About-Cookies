@@ -18760,6 +18760,9 @@ const rules = {
   "incehesap.com": {
     s: '[id="ccp---nb"], p#cc-nb-title, p#cc-nb-text, a#reject { display: none !important; }',
   },
+  "city-doener-fulda.de": {
+    s: '[class*="6e2afb01"], [class*="53c37d5f"], #manage-cookies-button, #accept-cookies-button { display: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
