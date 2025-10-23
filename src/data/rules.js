@@ -18820,6 +18820,9 @@ const rules = {
   "gamsgo.com": {
     s: ".cookie-box, .v-overlay__scrim, .v-overlay__content.gg-overlay { display: none !important; } html { overflow: auto !important; }",
   },
+  "everythingrf.com": {
+    s: '#cookie-law, [id*="cookie"]:not(body), [class*="cookie"]:not(body) { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
