@@ -18766,6 +18766,9 @@ const rules = {
   "worcestertradeframes.co.uk": {
     s: "#icaal-cookie-policy, #icaal-cookie-preferences-widget { display: none !important; }",
   },
+  "locations.oreillyauto.com": {
+    s: '#truyo-consent-module, #truyo-consent-module *, #truyo-cookieBarContent, [id="cookieSettingButton"], [id="acceptAllCookieButton"], [id="declineAllCookieButton"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
