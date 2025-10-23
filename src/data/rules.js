@@ -18840,6 +18840,9 @@ const rules = {
   "doutorfinancas.pt": {
     s: ".cookies-banner, .cookies-banner__content, .cookies-banner__buttons { display: none !important; visibility: hidden !important; pointer-events: none !important; height: 0 !important; margin: 0 !important; padding: 0 !important; overflow: hidden !important; } body.cookie-overlay, body.cookie-overlay::before, body.cookie-overlay::after { overflow: auto !important; display: block !important; content: none !important; }",
   },
+  "en.autodiag-france.com": {
+    s: "#bstr--notice, div.gdpr__holder { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
