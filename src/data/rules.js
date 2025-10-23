@@ -18793,6 +18793,9 @@ const rules = {
   "leo-ob.de": {
     s: "dialog#portuna_info, .portuna_info, .cc_message, #cc_options, #cookie-buttons-div, a.cc_btn { display: none !important; } dialog#portuna_info::backdrop { display: none !important; }",
   },
+  "ananas.rs": {
+    s: 'div[class*="sc-qyfc41"], div[class*="sc-1uahdlk-0"], button[class*="sc-1rhklln"], button[class*="sc-10gp9fk"] { display: none !important; }',
+  },
 
   // end of const rules
 };
