@@ -1921,7 +1921,7 @@ function getSelector(host) {
     case "pepper.pl":
     case "pepper.it":
     case "hotukdeals.com":
-      return 'button[data-t*="continueWithoutAccepting"]';
+      return 'button[data-t*="rejectAll"]';
 
     case "karriere-jet.de":
     case "bewerbung-tipps.com":
