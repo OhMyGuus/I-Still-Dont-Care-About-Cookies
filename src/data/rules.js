@@ -14746,7 +14746,9 @@ const rules = {
   "pepper.com": { j: "5" },
   "pepper.pl": { j: "5" },
   "pepper.it": { j: "5" },
-  "hotukdeals.com": { j: "5" },
+  "hotukdeals.com": {
+    s: ".popover-cover, section.popover--default.popover--layout-fixed.popover--layout-fixed-bottomSheet.popover--visible.popover { display: none !important; } body, html { overflow: auto !important; touch-action: auto !important; }",
+  },
   "lnk.bio": { s: "#pb_cookie_consent{display:none !important}" },
   "eon.pl": { j: "5" },
   "hey.car": { j: "5" },
