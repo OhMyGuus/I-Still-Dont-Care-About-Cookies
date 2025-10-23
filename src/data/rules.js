@@ -18741,6 +18741,9 @@ const rules = {
   "rosenheim.de": {
     s: "dialog#in2-modal, dialog#in2-modal::backdrop, .c-iframeswitch__content { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "fugaziresearch.com": {
+    s: 'div[class*="cookieBanner"] { display: none !important; }',
+  },
 
   // end of const rules
 };
