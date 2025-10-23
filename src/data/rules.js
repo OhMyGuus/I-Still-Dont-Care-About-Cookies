@@ -15473,7 +15473,7 @@ const rules = {
     s: "#js-cc-modal{display:none !important} html{overflow-y: unset !important}",
   },
   "123inkt.nl": {
-    s: '.simple-popup-container[data-action="CookiePopup"]{display:none !important}',
+    s: '.c-simple-popup, .c-simple-popup__background, .c-cookie-popup, .bottom-notice, [data-action="CookiePopup"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } body[data-action="ScrollLock"] { overflow: visible !important; }',
   },
   "123tinta.es": {
     s: '.simple-popup-container[data-action="CookiePopup"]{display:none !important}',
