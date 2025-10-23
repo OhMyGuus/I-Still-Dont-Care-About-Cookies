@@ -25,3 +25,4 @@ jobs:
           stale-pr-message: "Please bump and tag OhMyGuus if the PR is still relevant."
           stale-issue-label: "no-issue-activity"
           stale-pr-label: "no-pr-activity"
+          days-before-close: 0
