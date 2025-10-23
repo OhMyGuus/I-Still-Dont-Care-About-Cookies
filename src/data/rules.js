@@ -18730,6 +18730,9 @@ const rules = {
   "uwefreund.com": {
     s: 'div[consent-skip-blocker="1"]{display:none!important;visibility:hidden!important;pointer-events:none!important;opacity:0!important;}html,body{overflow:auto!important;}',
   },
+  "unsplash.com": {
+    s: 'dialog[class*="styles-module_dialog__"], [class*="styles-module_dialog__"], .styles-module_content__IZ0A3, .styles-module_buttonContainer__LHjZk { display: none !important; }',
+  },
 
   // end of const rules
 };
