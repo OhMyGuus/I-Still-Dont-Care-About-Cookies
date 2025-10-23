@@ -18807,6 +18807,9 @@ const rules = {
   "archon-studio.com": {
     s: ".sg-cks-backdrop,.sg-cks-info,.sg-cks-short,.sg-cks-settings{display:none!important}body.sg-cks-block{overflow:auto!important}",
   },
+  "5d-it.fr": {
+    s: ".gs-module.mod-cookies_selector, .cookies-selector, .cookies-selector-popin, .cookies-selector-popin-container { display: none !important; }",
+  },
 
   // end of const rules
 };
