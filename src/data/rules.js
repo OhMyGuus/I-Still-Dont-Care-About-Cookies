@@ -18701,6 +18701,9 @@ const rules = {
   "maribelle-hamburg.de": {
     s: ".cookieConsentWrp, #cookieConsentWrp { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "9to5linux.com": {
+    s: '#wpconsent-root, #wpconsent-container, .fc-consent-root, .fc-dialog-container, div[role="dialog"][aria-label*="9to5linux.com asks"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
