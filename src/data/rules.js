@@ -18754,6 +18754,9 @@ const rules = {
   "pigu.lt": {
     s: "#generalModal, div.c-modal-container--consent, #consent_block, #cookieBlock { display: none !important; pointer-events: none !important; visibility: hidden !important; } html, body { overflow: auto !important; }",
   },
+  "freshplaza.de": {
+    s: "div.grey_background, .ad_block_warning { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
