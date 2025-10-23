@@ -14321,6 +14321,7 @@ div.sp-cc-wrapper,
 #ccm-widget,
 moonback-cookie-banner, 
 .ibvcc-cookieconsent-popup,
+.ibvcc-dimscreen.show,
 div[aria-labelledby='cookiesTrackingNoticeLink'],
 moonback-cookie-banner {
   display: none !important;
