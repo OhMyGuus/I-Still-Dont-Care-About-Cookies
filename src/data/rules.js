@@ -18810,6 +18810,9 @@ const rules = {
   "5d-it.fr": {
     s: ".gs-module.mod-cookies_selector, .cookies-selector, .cookies-selector-popin, .cookies-selector-popin-container { display: none !important; }",
   },
+  "shipnow.gb.fedex.com": {
+    s: '#termly-code-snippet-support, [class^="termly-styles-"], .t-consentPrompt { display: none !important; visibility: hidden !important; pointer-events: none !important; } #termly-code-snippet-support * { display: none !important; }',
+  },
 
   // end of const rules
 };
