@@ -18834,6 +18834,9 @@ const rules = {
   "oponeo.pl": {
     s: 'div[class*="bg-[rgba(0,0,0,0.6)]"], div[class*="fixed bottom-0"][class*="bg-black"] { display: none !important; pointer-events: none !important; visibility: hidden !important; }',
   },
+  "appeltern.nl": {
+    s: ".cookie-consent-modal, .cookie-consent-modal__main, .cookie-consent-modal__content, .cookie-consent-banner__actions, .cookie-consent-banner__buttons, .cookie-consent-button, .cookie-consent-link { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
