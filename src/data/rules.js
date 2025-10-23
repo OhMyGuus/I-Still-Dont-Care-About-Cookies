@@ -18705,6 +18705,9 @@ const rules = {
   "toneelhuis.be": {
     s: ".cookie-consent, form#cookie-constent-dialog.cookie-consent__form, section#cookie-consent-options { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
+  "compraentradas.ibercaja.es": {
+    s: "#widgetCookiesPpal, #Transparente.bgTransparente { display: none !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
