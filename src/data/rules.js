@@ -18719,6 +18719,9 @@ const rules = {
   "my.kaspersky.com": {
     s: "#CybotCookiebotDialog, #Cookiebot, #CookieConsentStateDisplayStyles, #CookiebotDialogStyle, .CybotCookiebotDialogActive { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "flux-munich.com": {
+    s: "#cw-cookie-banner, #cw-cookie-options, #cw-cookie-icon { display: none !important; }",
+  },
 
   // end of const rules
 };
