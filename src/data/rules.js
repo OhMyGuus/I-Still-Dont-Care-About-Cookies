@@ -10390,7 +10390,9 @@ const rules = {
     s: "cookie-layer,.cdk-overlay-container{display:none !important}",
   },
   "kupzidle.cz": { s: "body > .shadow{display:none !important}" },
-  "what3words.com": { j: "5" },
+  "what3words.com": {
+    s: '[id^="radix-"], .fixed.inset-0.z-50, .MuiBackdrop-root { display: none !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
+  },
   "bancaditalia.it": { j: "5" },
   "campbellsoup.co.uk": { c: 0 },
   "biathlonresults.com": { s: "popup-container{display:none !important}" },
