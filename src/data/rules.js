@@ -8604,9 +8604,6 @@ const rules = {
   "lbbw.de": { j: "5" },
   "timhortons.co.uk": { s: ".user-permission{display:none !important}" },
   "montanacolors.com": { j: "5" },
-  "wetransfer.com": {
-    s: "#fides-banner-container, #fides-banner, #fides-banner-inner, #fides-overlay-wrapper { display: none !important; } html, body { overflow: auto !important; }",
-  },
   "revolver.news": { c: 11 },
   "gongfm.de": { j: "5" },
   "newrepublic.com": { s: ".popup-consent{display:none !important}" },
@@ -20842,6 +20839,7 @@ const blockUrls = {
     "liebherr.com": ["/cmp/"],
     "biggreenegg.co.uk": ["/_astro/CookieBanner"],
     "qatarairways.com": ["/cookie-gdpr/cookie-notification-qr.js"],
+    "wetransfer.com": ["fides.js"],
   },
 };
 
