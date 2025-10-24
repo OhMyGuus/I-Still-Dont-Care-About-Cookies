@@ -18987,7 +18987,7 @@ const rules = {
     s: "#shopui-cookie-popup-container, #shopui-cookie-modal-container { display: none !important; }",
   },
   "chatgpt.com": {
-    s: "div[class*=bg-token-main-surface-tertiary]{display:none!important}",
+    s: 'div[class*="w-[100vw]"][class*="max-w-[100vw]"],div[class*="bg-token-main-surface-tertiary"]{display:none!important}',
   },
   "inclusiscore.org": { s: "#rgpd{display:none!important}" },
   "hypebeast.com": {
