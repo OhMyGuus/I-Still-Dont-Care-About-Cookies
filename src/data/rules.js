@@ -18896,6 +18896,9 @@ const rules = {
   "railmagazine.com": {
     s: '[id^="sp_message_container_"], [id^="sp_message_iframe_"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "paints4trade.com": {
+    s: "#shopui-cookie-popup-container, #shopui-cookie-modal-container, .shopui-cookie-modal, .shopui-cookie-modal__overlay, .shopui-cookie-modal__window, .shopui-cookie-modal__content, .js-ekm-eu-close { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
