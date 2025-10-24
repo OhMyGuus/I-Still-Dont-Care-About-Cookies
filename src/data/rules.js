@@ -18295,7 +18295,7 @@ const rules = {
   "music.amazon.fr": { j: 5 },
   "music.amazon.co.uk": { j: 5 },
   "as.com": {
-    s: '#didomi-host, style#didomi-css, iframe[src*="cp.as.com/first-layer"], iframe[title="Contentpass First Layer"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+    s: ':is(iframe[src*="cp.as.com/first-layer"],iframe[src*="es-config.sensic.net/3pc.html"],#didomi-host,[class*="didomi-consent"]){display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
   "larousse.fr": { j: 5 },
   "hellozdrowie.pl": { j: 5 },
