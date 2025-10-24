@@ -18961,6 +18961,9 @@ const rules = {
   "foreca.fi": {
     s: "#cmp-modal, #gravitoCMP-modal-layer1, #gravitoCMP-layer-3-for-layer-1, .gravitoCMP-modal, .gravitoCMP-content, .gravitoCMP-background-overlay, #gravitoCMP-event-listner { display: none !important; }",
   },
+  "handandstone.com": {
+    s: '#termly-code-snippet-support, .t-consentPrompt, [class*="termly-styles-root"], [class*="termly-styles-main"], [class*="termly-styles-termly-banner"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
