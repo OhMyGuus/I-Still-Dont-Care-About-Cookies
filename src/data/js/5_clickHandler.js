@@ -8378,6 +8378,8 @@ function getSelector(host) {
       return "button.ccm--decline-cookies";
     case "saseurobonusmastercard.dk":
       return ".button--necessary-approve";
+    case "gamearena.pl":
+      return ".cookie__button--deny";
     case "vms.de":
       return "._brlbs-refuse-btn > a";
   }

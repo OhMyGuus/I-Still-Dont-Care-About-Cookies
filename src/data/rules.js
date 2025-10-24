@@ -19080,6 +19080,10 @@ const rules = {
     s: "#didomi-host, div[class*='didomi-consent-popup__'], #mrf-popup, #mrf-popup-content, #mrf-cmp { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
   },
   "allrecipes.com": { c: 85 },
+  "gamearena.pl": {
+    j: 5,
+    s: ".cookie{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
   "bimcommunity.com": {
     s: '.a1b4f,[class^="a1b4f-ext"],[class*=" a1b4f-ext-"],.consent-skip-blocker,[consent-skip-blocker],[data-consent-skip-blocker]{display:none!important}html,body{position:static!important;height:auto!important;overflow:auto!important}',
   },
