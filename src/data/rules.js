@@ -19066,9 +19066,6 @@ const rules = {
   "20minutos.es": {
     s: "#didomi-host, div[class*='didomi-consent-popup__'], #mrf-popup, #mrf-popup-content, #mrf-cmp { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
   },
-  "fernwald.de": {
-    s: '.cookie-consent-dialogue, dialog.cookie-consent-form, .cookie-consent-form, .cookie-consent-form__container, .cookie-consent-form__buttons, [id^="cookie-option-"], #cookie-consent-form__description { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
-  },
 
   // end of const rules
 };
@@ -21245,6 +21242,7 @@ const blockUrls = {
     "biggreenegg.co.uk": ["/_astro/CookieBanner"],
     "qatarairways.com": ["/cookie-gdpr/cookie-notification-qr.js"],
     "wetransfer.com": ["fides.js"],
+    "fernwald.de": ["/content-cookie-consent-dialogue--component.system.js"],
   },
 };
 
