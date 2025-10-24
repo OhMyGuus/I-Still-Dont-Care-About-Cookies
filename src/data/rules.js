@@ -18997,6 +18997,9 @@ const rules = {
   "verksamt.se": {
     s: '[data-testid="cookie-consent-dialog"], dialog#cookie-consent-dialog { display: none !important; visibility: hidden !important; pointer-events: none !important; } .vst-modal__backdrop, dialog#cookie-consent-dialog ~ .vst-modal__backdrop { display: none !important; } html, body { overflow: auto !important; }',
   },
+  "luxuryfamilyhotels.co.uk": {
+    s: ".upcc-cookie-widget, .upcc-cookie-modal-container, .upcc-cookie-modal, .upcc-cookie-modal-content, .upcc-cookie-advert { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
