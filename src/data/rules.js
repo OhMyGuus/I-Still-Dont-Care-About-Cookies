@@ -409,7 +409,9 @@ const rules = {
     s: "#notify-container-sticky-wrapper{display:none !important}",
   },
   "siemens.pl": { s: ".alert.block.show,.PopupDiv{display:none !important}" },
-  "open.fm": { j: "5" },
+  "open.fm": {
+    s: '[role="dialog"][aria-modal="true"][aria-label="Plansza informacyjna WP"], [aria-label="Plansza informacyjna WP"], div[class*="ketbsiz"], div[class^="ket"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }',
+  },
   "laznianowa.pl": { c: 1 },
   "swiatnauki.pl": { s: "#menu{display:none !important}" },
   "oxfordshire.gov.uk": {
@@ -11074,7 +11076,9 @@ const rules = {
   "brookesalumni.co.uk": { s: "#PopUp{display:none !important}" },
   "eltima.com": { s: ".float-message__wrap{display:none !important}" },
   "aboalarm.de": { j: "5" },
-  "tomorrow.one": { j: "5" },
+  "tomorrow.one": {
+    s: ":is(dialog[aria-modal=true],.sc-234632e7-0.JCiFb)[open]{display:none!important;}",
+  },
   "kdanmobile.com": {
     s: '#__next > div[style*="overflow"] > div[class*="ContentWrap"],#__next > div[class*="ContentWrap"],#gdpr-wrapper{display:none !important}',
   },
@@ -16890,7 +16894,7 @@ const rules = {
   "netzwelt.de": { j: 5 },
   "kicker.de": { j: 5 },
   "kicker.ch": { j: 5 },
-  "zdf.de": { j: 5 },
+  "zdf.de": { j: 6 },
   "3sat.de": { j: 5 },
   "heise.de": { j: 5 },
   "temu.com": { j: 6 },
@@ -18291,7 +18295,7 @@ const rules = {
   "music.amazon.fr": { j: 5 },
   "music.amazon.co.uk": { j: 5 },
   "as.com": {
-    s: '#didomi-host, style#didomi-css, iframe[src*="cp.as.com/first-layer"], iframe[title="Contentpass First Layer"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+    s: ':is(iframe[src*="cp.as.com/first-layer"],iframe[src*="es-config.sensic.net/3pc.html"],#didomi-host,[class*="didomi-consent"]){display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
   "larousse.fr": { j: 5 },
   "hellozdrowie.pl": { j: 5 },
@@ -19133,6 +19137,13 @@ const rules = {
     j: 5,
     s: ".consents,.consents__wrapper,.consents__modal,.consents__mask,#consents-modal{display:none!important;}",
   },
+  "bw-bank.de": {
+    s: ".if6_eprivacy.if6_lightbox.lightbox-visible,.if6_eprivacy .cbox.cbox-medium{display:none!important}html,body{overflow:auto!important}",
+  },
+  "getraenke-schaefer.de": {
+    s: "#dialog-datenschutz,#modal-body-mask,.modal-popup.large.modal-open,.body-mask,#da-modal,#da-modal-content,#da-modal-info{display:none!important}html,body{overflow:auto!important}",
+  },
+  "sparda-bank-hamburg.de": { c: 49, j: 5 },
 
   // end of const rules
 };

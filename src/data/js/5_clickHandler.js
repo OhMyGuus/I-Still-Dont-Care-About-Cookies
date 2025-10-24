@@ -8401,6 +8401,8 @@ function getSelector(host) {
       return "//a[span[text()='Weiter ohne Einwilligung']]";
     case "superbutelki.pl":
       return ".js__accept-necessary-cookies";
+    case "sparda-bank-hamburg.de":
+      return "button[data-automation-id='consent-layer-accept-required']";
   }
 
   if (host.parts.length > 2) {
