@@ -19127,6 +19127,9 @@ const rules = {
   },
   "online-mahnantrag.de": { j: 5 },
   "bionic-benefits.co.uk": { j: 5 },
+  "vb-rb.de": {
+    s: 'div[id^="cdk-overlay-"].cookie-notice, mat-dialog-container[id^="mat-mdc-dialog-"].mdc-dialog--open, .cookie-notice { display: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
