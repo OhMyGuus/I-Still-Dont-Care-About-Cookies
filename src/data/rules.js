@@ -18938,6 +18938,9 @@ const rules = {
   "lepalaisdupeton.com": {
     s: ".wz-rgpd, .wz-rgpd__background, .wz-rgpd__wrapper { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; position: static !important; }",
   },
+  "events-pro.ru": {
+    s: 'div.MuiBox-root[class*="css-1mvplpn"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
