@@ -18673,6 +18673,7 @@ const blockUrls = {
   ],
   common_groups: {
     cookie: [
+      { r: "/cookieUserConsent.min.js" },
       { r: "/media/plg_system_cookieconfirm" },
       { r: "cookie_meldung.js" },
       { r: "cookiewarning.js" },
@@ -19456,7 +19457,6 @@ const blockUrls = {
       { r: "/mod_pixim_cookie/" },
     ],
     consent: [
-      { r: "/cookieUserConsent.min.js" },
       { r: "s.regiogroei.cloud/plugins/consent-plugin" },
       { r: "myprivacy-static.dpgmedia.net/consent.js" },
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
