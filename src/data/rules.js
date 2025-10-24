@@ -18856,6 +18856,9 @@ const rules = {
   "jaktochsportskytte.se": {
     s: '#tws-react-common--modal, #tws-react-common--modal .modal-backdrop, [id^="tws-accept-cookies"], .tws-accept-cookies--modal, .tws-accept-cookies--modal-for-advanced-consent { display: none !important; } body { overflow: auto !important; }',
   },
+  "peaceagreements.org": {
+    s: 'uoe-consent, [is="uoe-consent"], uoe-consent * , [is="uoe-consent"] * { display: none !important; visibility: hidden !important; } body.modal-open { overflow: auto !important; padding-right: 0 !important; }',
+  },
 
   // end of const rules
 };
