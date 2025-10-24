@@ -19113,6 +19113,9 @@ const rules = {
     s: "#cookieDisclaimer,#cookieDisclaimerOverlay,#modaloverlay{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
   "dittohire.com": { s: ".popup-overlay{display:none!important}" },
+  "ryobitools.eu": {
+    s: '[class*="CookiePopupstyles__Container"],[class*="CookiePopupstyles__Modal"],.js-content-overlay,.content-nav-overlay{display:none!important}html,body{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
