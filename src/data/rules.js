@@ -18500,7 +18500,7 @@ const rules = {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
   },
   "cadenaser.com": {
-    s: 'iframe[src*="cp.cadenaser.com/first-layer"], #didomi-host.didomi-host, .didomi-host { display: none !important; } body { overflow: visible !important; }',
+    s: '.c-s > div,iframe[src*="cp.cadenaser.com/first-layer"], #didomi-host.didomi-host, .didomi-host { display: none !important; } body { overflow: visible !important; }',
   },
 
   // end of const rules
