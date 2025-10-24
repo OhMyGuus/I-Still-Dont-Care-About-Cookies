@@ -4752,7 +4752,9 @@ const rules = {
     c: 14,
   },
   "l2db.info": { s: ".access-cookies{display:none !important}" },
-  "hetzner.com": { j: "6" },
+  "hetzner.com": {
+    s: "#InitModal, .modal-backdrop.fade.in, .modal-backdrop { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.modal-open, html, body { overflow: visible !important; }",
+  },
   "evengreener.com": { s: "#top-notice{display:none !important}" },
   "flyingflowers.co.uk": { s: ".overlayTxtDiv{display:none !important}" },
   "dclaw.co.uk": { j: "5" },
