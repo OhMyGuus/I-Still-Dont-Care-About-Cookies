@@ -19031,6 +19031,9 @@ const rules = {
   "espmsports.com": {
     s: "#cookieadmin_wrapper, .cookieadmin_law_container, .cookieadmin_cookie_modal, .cookieadmin_modal_overlay, .cookieadmin_re_consent, #cookieadmin_preference, #cookieadmin_notice_title, #cookieadmin_notice, #cookieadmin_customize_button, #cookieadmin_reject_button, #cookieadmin_accept_button, .cookieadmin-poweredby { display: none !important; }",
   },
+  "dashboard.sezzle.com": {
+    s: 'div[style*="position: fixed"][style*="bottom: 20px"][style*="translateX(-50%)"], [data-testid="cookie-txt"] { display: none !important; }',
+  },
 
   // end of const rules
 };
