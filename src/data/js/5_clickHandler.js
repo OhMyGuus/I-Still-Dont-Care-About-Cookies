@@ -3809,7 +3809,7 @@ function getSelector(host) {
         'div[aria-label="CookieWall"] .buttons-wrapper a'
       );
     case "bintercanarias.com":
-      return '.ui-dialog[aria-labelledby*="cookiesPolicy"][style*="block"] #btnContinue';
+      return _ev("button[@type='button' and contains(@class, 'btn-cookies')]");
     case "amplerbikes.com":
       return _ev('div[./p/a[@id="cookie-banner"]]/following-sibling::button');
     case "easyparts-rollerteile.de":
@@ -8369,6 +8369,10 @@ function getSelector(host) {
       return '.modal[style*="block"] #button_accept_cookies';
     case "linasmatkasse.se":
       return "div#cookies button#accept-selected-cookies-btn";
+    case "privatesportshop.be":
+      return "button[data-selector-cookie-button='reject-all']";
+    case "pccomponentes.com":
+      return "#cookiesrejectAll";
     case "sparkasse-regensburg.de":
     case "berliner-sparkasse.de":
       return "a[data-form='.eprivacy_optin_decline']";
@@ -8376,6 +8380,18 @@ function getSelector(host) {
       return "button.ccm--decline-cookies";
     case "marefish.es":
       return "//a[span[text()='Continuar sin consentimiento']]";
+    case "saseurobonusmastercard.dk":
+      return ".button--necessary-approve";
+    case "gamearena.pl":
+      return ".cookie__button--deny";
+    case "vms.de":
+      return "._brlbs-refuse-btn > a";
+    case "ryobitools.eu":
+      return ".save-preference-btn-handler";
+    case "play.geforcenow.com":
+      return "#agreeAndContinueButton";
+    case "online-mahnantrag.de":
+      return "a[onclick*='setCookieAndGo()']";
   }
 
   if (host.parts.length > 2) {

@@ -714,6 +714,8 @@ function getE(hostname) {
         'cookiePreferences={"advertising":false,"experience":false}',
         "OptanonAlertBoxClosed=2030-10-23T11:56:14.459Z",
       ];
+    case "carfance24.pl":
+      return ["show_consent_modal=1"];
   }
 
   const parts = hostname.split(".");
