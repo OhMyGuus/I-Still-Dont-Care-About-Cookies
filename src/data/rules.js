@@ -18979,6 +18979,7 @@ const rules = {
   "chatgpt.com": {
     s: "div[class*=bg-token-main-surface-tertiary]{display:none!important}",
   },
+  "inclusiscore.org": { s: "#rgpd{display:none!important}" },
 
   // end of const rules
 };
