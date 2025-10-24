@@ -18571,6 +18571,9 @@ const rules = {
   "gaming.amazon.com": {
     s: '.modal__backdrop__cookies-policy, .modal__content--bottom-sheet, .ReactModal__Overlay, .ReactModal__Content[aria-label="Cookies usage disclaimer banner"], [data-a-target="cookie-policy-banner"], .cookie-policy-banner__content { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
   },
+  "luna.amazon.com": {
+    s: '.modal__backdrop__cookies-policy, .modal__content--bottom-sheet, .ReactModal__Overlay, .ReactModal__Content[aria-label="Cookies usage disclaimer banner"], [data-a-target="cookie-policy-banner"], .cookie-policy-banner__content { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
