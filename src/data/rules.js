@@ -19110,6 +19110,7 @@ const rules = {
   "komoedie-bs-webshop.tkt-datacenter.net": {
     s: "#cookieDisclaimer,#cookieDisclaimerOverlay,#modaloverlay{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
+  "dittohire.com": { s: ".popup-overlay{display:none!important}" },
 
   // end of const rules
 };
