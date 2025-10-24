@@ -2132,6 +2132,7 @@ const rules = {
   "mediamarkt.be": { j: 5 },
   "mediaworld.it": { j: 5 },
   "mediamarkt.es": { j: 5 },
+  "mediamarkt.pl": { j: 5 },
   "saturn.de": { j: 5 },
   "prenatal.nl": { j: 5 },
   "gonnesa.ca.it": { s: "#fake-div{display:none !important}" },
@@ -17708,7 +17709,6 @@ const rules = {
   },
   "velotaf.com": { s: "#modal_cookies{display:none !important}" },
   "nendaz.org": { s: "#disclaimerCtn{display:none !important}" },
-  "mediamarkt.pl": { s: ".cookie-box{display:none !important}" },
   "ostsee24.de": { s: ".consent-box{display:none !important}" },
   "expocasa.it": { s: ".cc-window{display:none !important}" },
   "androidide.com": {
