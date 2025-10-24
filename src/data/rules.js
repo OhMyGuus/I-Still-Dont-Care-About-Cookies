@@ -12033,7 +12033,9 @@ const rules = {
   "gibgas.de": { j: "5" },
   "iebschool.com": { s: ".content-bottom-drawer{display:none !important}" },
   "smule.com": { j: "5" },
-  "mydpd.at": { j: "5" },
+  "mydpd.at": {
+    s: "#cookieModal, .modal-backdrop { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
+  },
   "2ip.io": { j: "5" },
   "cellbes.no": { j: "5" },
   "cellbes.cz": { j: "5" },
