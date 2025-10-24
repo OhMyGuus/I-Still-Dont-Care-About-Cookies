@@ -19068,6 +19068,7 @@ const rules = {
   },
   "allrecipes.com": { c: 85 },
   "gamearena.pl": {
+    j: 5,
     s: ".cookie{display:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
 

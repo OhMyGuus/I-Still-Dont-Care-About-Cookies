@@ -8376,6 +8376,8 @@ function getSelector(host) {
       return "button.ccm--decline-cookies";
     case "saseurobonusmastercard.dk":
       return ".button--necessary-approve";
+    case "gamearena.pl":
+      return ".cookie__button--deny";
   }
 
   if (host.parts.length > 2) {
