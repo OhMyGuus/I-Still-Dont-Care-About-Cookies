@@ -19039,6 +19039,9 @@ const rules = {
   "help.openai.com": {
     s: "div.fixed.right-0.bottom-0.left-0 { display: none !important; }",
   },
+  "francetravail.fr": {
+    s: ".pecookies,.pecookies__modal,.pecookies__content{display:none!important}",
+  },
 
   // end of const rules
 };
