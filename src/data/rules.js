@@ -19145,7 +19145,8 @@ const rules = {
   },
   "sparda-bank-hamburg.de": { c: 49, j: 5 },
   "v-bank.com": {
-    s: '#gdpr-cookie-consent,.cookieConsentMessage,.jsCookie,#portlet_CookiePortlet,div[id^="p_p_id_CookiePortlet"],eye-able-shader[id^="eyeAble-Bluefilter"]{display:none!important}',
+    s: "#p_p_id_CookiePortlet_{display:none!important}",
+    c: 85,
   },
 
   // end of const rules
