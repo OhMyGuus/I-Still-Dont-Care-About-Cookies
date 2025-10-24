@@ -18848,6 +18848,9 @@ const rules = {
   "pearlace.co.jp": {
     s: ".cookie-consent.is-show, .cookie-consent { display: none !important; }",
   },
+  "food52.com": {
+    s: '[class*="fixed"][class*="bottom-0"][class*="bg-brand-50"], [class*="cookie"], [id*="cookie"], [class*="consent"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
