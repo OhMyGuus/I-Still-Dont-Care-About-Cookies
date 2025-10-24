@@ -17862,7 +17862,9 @@ const rules = {
   "towerhousewares.co.uk": { j: 5 },
   "winehouseportugal.com": { j: 5 },
   "avoury.com": { j: 5 },
-  "fydeos.io": { j: 5 },
+  "fydeos.io": {
+    s: 'astro-island[component-url*="cookie-consent"], div[data-show][class*="drop-shadow-md"] { display: none !important; }',
+  },
   "matheguru.com": { j: 5 },
   "allgaeuer-zeitung.de": { j: 5 },
   "kiwa.com": { j: 5 },
