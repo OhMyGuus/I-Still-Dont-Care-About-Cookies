@@ -19126,6 +19126,7 @@ const rules = {
     s: "#modal,#joinUsModal,#joinUsModalMessage,.lightbox{display:none!important;}html,body{overflow:auto!important;}",
   },
   "online-mahnantrag.de": { j: 5 },
+  "bionic-benefits.co.uk": { j: 5 },
 
   // end of const rules
 };

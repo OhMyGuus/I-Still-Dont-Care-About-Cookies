@@ -8392,6 +8392,8 @@ function getSelector(host) {
       return "#agreeAndContinueButton";
     case "online-mahnantrag.de":
       return "a[onclick*='setCookieAndGo()']";
+    case "bionic-benefits.co.uk":
+      return "button[class*='_acceptCookiesButton_']";
   }
 
   if (host.parts.length > 2) {
