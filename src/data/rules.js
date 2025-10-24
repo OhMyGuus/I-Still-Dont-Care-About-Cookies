@@ -19133,6 +19133,10 @@ const rules = {
   "bionic-benefits.co.uk": { j: 5 },
   "vb-rb.de": { c: 49, j: 5 },
   "heiligenblut.de": { j: 5 },
+  "superbutelki.pl": {
+    j: 5,
+    s: ".consents,.consents__wrapper,.consents__modal,.consents__mask,#consents-modal{display:none!important;}",
+  },
   "bw-bank.de": {
     s: ".if6_eprivacy.if6_lightbox.lightbox-visible,.if6_eprivacy .cbox.cbox-medium{display:none!important}html,body{overflow:auto!important}",
   },
