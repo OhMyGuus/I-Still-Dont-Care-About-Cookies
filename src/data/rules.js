@@ -18902,6 +18902,9 @@ const rules = {
   "m.ouestgo.fr": {
     s: ".mc-banner-cookie, button#cookieButton.mc-button-cookie { display: none !important; } body { overflow: auto !important; }",
   },
+  "springest.nl": {
+    s: ".cookie-notice[data-version], .cookie-notice-extended, .cookie-notice__hidden, .modal.cookie-settings-modal, .modal__mask { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }",
+  },
 
   // end of const rules
 };
