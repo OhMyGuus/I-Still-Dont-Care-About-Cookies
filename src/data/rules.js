@@ -18893,6 +18893,9 @@ const rules = {
   "angelhands-spa.de": {
     s: '#cd-outer-hab, div[id="cd-outer-hab"] { display: none !important; }',
   },
+  "railmagazine.com": {
+    s: '[id^="sp_message_container_"], [id^="sp_message_iframe_"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
