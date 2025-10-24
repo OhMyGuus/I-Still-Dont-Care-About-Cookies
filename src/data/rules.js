@@ -18577,6 +18577,9 @@ const rules = {
   "tickets.deutsches-museum.de": {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
   },
+  "cadenaser.com": {
+    s: '.c-s > div,iframe[src*="cp.cadenaser.com/first-layer"], #didomi-host.didomi-host, .didomi-host { display: none !important; } body { overflow: visible !important; }',
+  },
   "tehnomedia.rs": {
     s: ".tm-cookies, a.cookies-toggler#cookies-toggle, a#cookies-necessary, a#cookies-accept { display: none !important; }",
   },
