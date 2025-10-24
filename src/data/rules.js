@@ -18955,6 +18955,9 @@ const rules = {
   "aeroemploi.ca": {
     s: 'div[class*="w-[350px]"][class*="rounded-xl"][class*="fixed"][class*="z-50"] { display: none !important; }',
   },
+  "fruugo.de": {
+    s: "dialog.js-modal, .js-consent-screen-home, .js-modal-body { display: none !important; } dialog.js-modal::backdrop { display: none !important; }",
+  },
 
   // end of const rules
 };
