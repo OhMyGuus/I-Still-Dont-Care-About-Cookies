@@ -19051,6 +19051,9 @@ const rules = {
   "princess-cruises.com.tr": {
     s: "#prtltmmc-popup,.prtltmmc-popup{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
+  "saseurobonusmastercard.dk": {
+    s: '.cookie-consent-dialog,[data-cookie-consent-dialog-state],div[class*="cookie"][class*="consent"],#cookie_heading{display:none!important;visibility:hidden!important;pointer-events:none!important}',
+  },
 
   // end of const rules
 };
