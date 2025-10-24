@@ -9912,7 +9912,9 @@ const rules = {
   "aral.de": { j: "5" },
   "simplyhealth.co.uk": { s: "#sh-cookie-banner{display:none !important}" },
   "indacoin.com": { s: '#root > div[style*="block"]{display:none !important}' },
-  "116117.de": { s: ".layer-cookie{display:none !important}" },
+  "116117.de": {
+    s: "#dialog1,#dialog2,.modal-backdrop,.modal.cookie-consent{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}",
+  },
   "narzedziawarszawa.pl": { c: 0 },
   "islandfreund.de": { j: "5" },
   "nickles.de": { j: "5" },
