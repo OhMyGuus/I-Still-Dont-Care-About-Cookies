@@ -18843,6 +18843,9 @@ const rules = {
   "en.autodiag-france.com": {
     s: "#bstr--notice, div.gdpr__holder { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "pearlace.co.jp": {
+    s: ".cookie-consent.is-show, .cookie-consent { display: none !important; }",
+  },
 
   // end of const rules
 };
