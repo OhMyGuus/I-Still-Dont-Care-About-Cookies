@@ -19017,6 +19017,9 @@ const rules = {
   "newbor.by": {
     s: ".cookies-start.show-modal, form.marketing-popup, .popup-text-info__wrapper, .cookies, .cookies__wrapper, .popup-text-info__btn, .btn.js-ignore-cookies, .btn.js-close-cookies, #lightboxOverlay.lightboxOverlay, #lightbox.lightbox, div.lightboxOverlay, div.lightbox { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } body { overflow: auto !important; }",
   },
+  "uutisvuoksi.fi": {
+    s: "#cmp-modal, #gravitoCMP-modal-layer1, #gravitoCMP-layer-3-for-layer-1, .gravitoCMP-background-overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
