@@ -18985,6 +18985,9 @@ const rules = {
   "hypebeast.com": {
     s: "#termly-code-snippet-support,.t-consentPrompt{display:none!important}",
   },
+  "deutscheweine.de": {
+    s: "#cookie-modal,.modal-backdrop{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
