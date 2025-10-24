@@ -18908,6 +18908,9 @@ const rules = {
   "aurapol.com": {
     s: "#cookiesDialog, .modal-backdrop { display: none !important; visibility: hidden !important; pointer-events: none !important; } body { overflow: auto !important; }",
   },
+  "eastbarnetvets.com": {
+    s: ".ngdpr-overlay, .ngdpr-overlay-wrapper, .ngdpr-wrapper, .ngdpr-popup, .ngdpr-popup-content, .ngdpr-awrapper, .ngdpr-actions, .ngdpr-icon-wrapper, .ngdpr-icon { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
