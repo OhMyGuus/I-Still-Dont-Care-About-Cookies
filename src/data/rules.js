@@ -11074,7 +11074,9 @@ const rules = {
   "brookesalumni.co.uk": { s: "#PopUp{display:none !important}" },
   "eltima.com": { s: ".float-message__wrap{display:none !important}" },
   "aboalarm.de": { j: "5" },
-  "tomorrow.one": { j: "5" },
+  "tomorrow.one": {
+    s: ":is(dialog[aria-modal=true],.sc-234632e7-0.JCiFb)[open]{display:none!important;}",
+  },
   "kdanmobile.com": {
     s: '#__next > div[style*="overflow"] > div[class*="ContentWrap"],#__next > div[class*="ContentWrap"],#gdpr-wrapper{display:none !important}',
   },
