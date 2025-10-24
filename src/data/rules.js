@@ -19129,6 +19129,9 @@ const rules = {
   "bionic-benefits.co.uk": { j: 5 },
   "vb-rb.de": { c: 49, j: 5 },
   "heiligenblut.de": { j: 5 },
+  "superbutelki.pl": {
+    s: ".consents,.consents__wrapper,.consents__modal,.consents__mask,#consents-modal{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
