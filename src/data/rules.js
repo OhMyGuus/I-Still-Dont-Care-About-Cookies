@@ -5158,7 +5158,9 @@ const rules = {
   "depo-diy.lt": { s: ".depo-cookies{display:none !important}" },
   "nettbuss.se": { s: ".header__banner{display:none !important}" },
   "florsheim.eu": { s: ".cookiesMask{display:none !important}" },
-  "canyon.com": { j: "5" },
+  "canyon.com": {
+    s: ".cookiesModal,.js-cookiesModal,.js-cookies,.xlt-modalCookies{display:none!important;visibility:hidden!important;pointer-events:none!important}body.page--noScroll{overflow:auto!important;height:auto!important}",
+  },
   "talparadio.nl": { j: "5" },
   "which.co.uk": {
     s: 'body > div[data-which-id="eprivacy-banner"]{display:none !important}',
