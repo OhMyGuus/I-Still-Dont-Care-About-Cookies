@@ -19127,9 +19127,7 @@ const rules = {
   },
   "online-mahnantrag.de": { j: 5 },
   "bionic-benefits.co.uk": { j: 5 },
-  "heiligenblut.de": {
-    s: '.a8630, [class*="a8630-ext-"], dialog[class*="a8630-ext-"], [id^="ac43d7329-"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
-  },
+  "heiligenblut.de": { j: 5 },
 
   // end of const rules
 };

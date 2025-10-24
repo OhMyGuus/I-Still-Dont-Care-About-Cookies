@@ -8394,6 +8394,8 @@ function getSelector(host) {
       return "a[onclick*='setCookieAndGo()']";
     case "bionic-benefits.co.uk":
       return "button[class*='_acceptCookiesButton_']";
+    case "heiligenblut.de":
+      return "//a[span[text()='Weiter ohne Einwilligung']]";
   }
 
   if (host.parts.length > 2) {
