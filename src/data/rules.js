@@ -18947,6 +18947,9 @@ const rules = {
   "nouveauxmarchands.com": {
     s: '#am-cookie-bar, p#amcookie-bar-content, #cookiebar-groups, div[id^="amcookie"], div[id*="cookie-bar"], .am-cookie-bar { display: none !important; }',
   },
+  "acroname.com": {
+    s: "#acroname-cookie-policy-advisory-container, #cookie-advisory-window { display: none !important; }",
+  },
 
   // end of const rules
 };
