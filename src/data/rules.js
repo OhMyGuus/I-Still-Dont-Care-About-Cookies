@@ -18568,9 +18568,6 @@ const rules = {
   "outspot.fr": {
     s: "ion-modal.modal-card.os-dialog--center-mobile.show-modal, ion-modal#ion-overlay-5 { display: none !important; } html, body { overflow: auto !important; }",
   },
-  "getsurrey.co.uk": {
-    s: "#qc-cmp2-container, #qc-cmp2-ui, .qc-cmp-cleanslate { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
-  },
 
   // end of const rules
 };
@@ -19733,6 +19730,7 @@ const blockUrls = {
       { r: "gdpr-api.sharethis.com/cmp" },
     ],
     privacy: [
+      { r: "/js/dist/privacy-plus-v2.min.js" },
       { r: "/media/plg_system_eprivacy", e: ["reshade.me"] },
       { r: "recepttar.hu/js/privacy.js" },
       {
