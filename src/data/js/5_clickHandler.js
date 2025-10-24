@@ -8399,6 +8399,8 @@ function getSelector(host) {
       return "button[data-automation-id='consent-layer-accept-selection']";
     case "heiligenblut.de":
       return "//a[span[text()='Weiter ohne Einwilligung']]";
+    case "sparda-bank-hamburg.de":
+      return "button[data-automation-id='consent-layer-accept-required']";
   }
 
   if (host.parts.length > 2) {
