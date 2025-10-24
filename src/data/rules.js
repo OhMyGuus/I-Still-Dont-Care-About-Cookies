@@ -18917,6 +18917,9 @@ const rules = {
   "tech.eu": {
     s: "#getsitecontrol-500016,[data-name=Banner],[efl-consent-not-saved],[efl-consent-edit],[class*=z-2147483647]{display:none!important} body.getsitecontrol-500016-open{overflow:auto!important}",
   },
+  "cosphera.net": {
+    s: ".cookie-box-back,.dookie-con-box,.dookie-con-banner,.cookie-consent-btn{display:none!important;visibility:hidden!important;pointer-events:none!important;opacity:0!important}",
+  },
 
   // end of const rules
 };
