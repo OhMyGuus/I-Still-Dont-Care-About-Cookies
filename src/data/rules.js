@@ -8298,7 +8298,9 @@ const rules = {
     s: "#app > div > .bg-grey-lighter{display:none !important}",
   },
   "cinkciarz.pl": { j: "5" },
-  "vecteezy.com": { s: '.ta-dm[data-qa="dm-Layer"]{display:none !important}' },
+  "vecteezy.com": {
+    s: "#sp_message_container_1366849, #sp_message_iframe_1366849, template#template-modal-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
   "webhallen.com": { c: 6 },
   "axminstertools.com": {
     s: ".axmcookie-notice-container,.axmcookie-notice-conatiner{display:none !important}",
@@ -13349,7 +13351,10 @@ const rules = {
   "toppy.nl": { j: "5" },
   "armedangels.com": { j: "5" },
   "finom.co": { j: "5" },
-  "allegro.pl": { j: "5" },
+  "allegro.pl": {
+    s: "#opbox-gdpr-consents-modal, #dialog-content, .allegro-gdpr-consents-plugin__actions-container { display: none !important; }",
+    c: 85,
+  },
   "threshold.ie": { j: "5" },
   "dolarhoje.com": { s: "#privacy-warning{display:none !important}" },
   "lannebo.se": { s: ".lannebo-cookiebot{display:none !important}" },
@@ -18572,6 +18577,9 @@ const rules = {
   "tickets.deutsches-museum.de": {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
   },
+  "cadenaser.com": {
+    s: '.c-s > div,iframe[src*="cp.cadenaser.com/first-layer"], #didomi-host.didomi-host, .didomi-host { display: none !important; } body { overflow: visible !important; }',
+  },
   "tehnomedia.rs": {
     s: ".tm-cookies, a.cookies-toggler#cookies-toggle, a#cookies-necessary, a#cookies-accept { display: none !important; }",
   },
@@ -19052,6 +19060,12 @@ const rules = {
     s: "#prtltmmc-popup,.prtltmmc-popup{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
   "saseurobonusmastercard.dk": { j: 5 },
+  "idowa.de": {
+    s: ".cmp-root-container,.cmp-modal,.cmp-backdrop,.modal-backdrop,.offcanvas-backdrop.fade{display:none!important}:is(html,body).cmp-modal-open{overflow:auto!important;position:static!important;height:auto!important}",
+  },
+  "20minutos.es": {
+    s: "#didomi-host, div[class*='didomi-consent-popup__'], #mrf-popup, #mrf-popup-content, #mrf-cmp { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
@@ -19148,6 +19162,8 @@ const blockUrls = {
   ],
   common_groups: {
     cookie: [
+      { r: "/js-cookie@2/src/js.cookie.min.js" },
+      { r: "/cookies-module/cookies-module.js" },
       { r: "fnn-cookiemanager.js" },
       { r: "/media/plg_system_cookieconfirm" },
       { r: "cookie_meldung.js" },
