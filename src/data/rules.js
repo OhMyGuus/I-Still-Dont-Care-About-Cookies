@@ -13328,7 +13328,9 @@ const rules = {
   "meteostat.net": { j: "5" },
   "tempton.de": { s: 'div[class*="ConsentBanner"]{display:none !important}' },
   "vtelevizi.cz": { s: "#CCM_popup{display:none !important}" },
-  "midwestgunworks.com": { s: "#privBanner{display:none !important}" },
+  "midwestgunworks.com": {
+    s: "#auep,#auepWrap,#auepStyle{display:none!important}body{overflow:auto!important}",
+  },
   "stromnetz.berlin": { j: "5" },
   "vattenfall.com": { j: "5" },
   "zilek.com": { j: "5" },
