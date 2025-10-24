@@ -18134,7 +18134,9 @@ const rules = {
   "badundheizung.de": { j: 5 },
   "warpedsense.com": { j: 5 },
   "albamclothing.com": { j: 5 },
-  "nykvarn.se": { j: 5 },
+  "nykvarn.se": {
+    s: "#svid12_4d267e4718242c629b91e0, #Cookiebanner, .env-modal-dialog, .env-modal-dialog__backdrop, .env-modal-backdrop, .sv-cookie-consent-modal, .sv-marketplace-sitevision-cookie-consent { display: none !important; visibility: hidden !important; pointer-events: none !important; } body, html { overflow: auto !important; position: static !important; top: auto !important; width: auto !important; }",
+  },
   "refunder.pl": { j: 5 },
   "fitnessgym-monheim.de": { j: 5 },
   "microshift.com": { j: 5 },
