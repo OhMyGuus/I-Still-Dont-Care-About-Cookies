@@ -52,7 +52,8 @@ html.sp-message-open,
 html.sp-message-open body,
 html.disable--interaction.show--consent,
 html.disable--interaction.show--consent body,
-body.idxrcookies-block-user-nav {
+body.idxrcookies-block-user-nav,
+.ccm-blocked {
   overflow: unset !important;
 }
 
@@ -12845,10 +12846,6 @@ app-cookie-banner,
 .cookie-message__wrap,
 #CookieReportsBannerAZ,
 #EUcookieBanner,
-#root
-  ~ script[src*="cdn-client.medium.com"]
-  ~ div
-  > div:not([role]):not([tabindex]),
 #gdpr-cookie-message-overlay,
 #unitcookieonpageBar,
 .mm-cookie-banner,
@@ -12857,6 +12854,7 @@ app-cookie-banner,
 #page ~ [id*="cookiebar"],
 .dcx-cookie-consense,
 .banner[class*="cookie-consent"],
+div:has(div[role="alert"] a[href*="medium-privacy-policy"]),
 comply-consent-manager,
 .cookie-consent-shadow-bg,
 #js-cookies-footer,
@@ -14146,7 +14144,6 @@ div[class*="consent-manager_pageFiller"],
 .container_cookies_alert,
 #root div[class*="GdprOffer_root"],
 .eu-privacy-overlay,
-#root ~ script[src*="cdn-client.medium.com"] ~ div > div:not([role]):not([tabindex]):not([id]):not([class*="jfk"]):not([class*="gtx"]),
 .banner[class*="cookie-consent"]:not(body),
 .tt-cookie-consent,
 #__next div[aria-describedby*="cookie-banner-dialog"],
@@ -14316,9 +14313,18 @@ body:not(.cnn) > #onetrust-blocker,
 .CookieBox_cookieBox__uKKMM,
 .cookies-home_overlay,
 #eif-popup-policy,
-
-
-.cookie-overLay {
+#shopify-pc__banner,
+#fides-overlay .fides-overlay,
+.giraffly_gdpr,
+.cookie-overLay,
+div.sp-cc-wrapper,
+#ccm-widget,
+moonback-cookie-banner, 
+.ibvcc-cookieconsent-popup,
+.ibvcc-dimscreen.show,
+div[aria-labelledby='cookiesTrackingNoticeLink'],
+pie-cookie-banner[v],
+moonback-cookie-banner {
   display: none !important;
   height: 0 !important;
   z-index: -99999 !important;

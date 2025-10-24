@@ -33,6 +33,7 @@
     ],
 
     ".mfp-wrap.mfp-ready": [
+      ".cookiebanner-section .js-banner-button-confirm-selection",
       ".cookieselection-confirm-selection",
       "#gdpr_understandBtn",
       "#cookiebanner .button-row > :not(.consentToAll)",
@@ -523,7 +524,6 @@
                   }
 
                   element.click();
-
                   // The 2nd click is just to be sure. Avoid when a double click breaks the process.
                   if (selector != ".message-container") {
                     setTimeout(function () {
@@ -550,7 +550,6 @@
                 url: document.location.href,
               });
             }
-
             element.click();
 
             setTimeout(function () {

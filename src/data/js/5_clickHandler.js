@@ -29,7 +29,8 @@ function _id(id) {
 }
 
 function _sl(selector, container, allMatches) {
-  if (selector.startsWith("//")) return _ev(selector, false, true);
+  if (selector.startsWith("//") || selector.startsWith("(//"))
+    return _ev(selector, false, true);
   container = container || document;
   if (allMatches) return container.querySelectorAll(selector);
   return container.querySelector(selector);
@@ -87,6 +88,7 @@ function _chain(...selectors) {
     }
 
     if (i == argumentsLength - 1) {
+      console.log("test", selectors);
       return selectors[i];
     }
 
@@ -290,7 +292,7 @@ function getSelector(host) {
             '.reveal-overlay[style*="block"] .tracking-consent-customization-popup .js-accept-selected'
           );
         case "coolblue":
-          return '.button[name="accept_cookie"]';
+          return 'button[name="accept_cookie"]';
         case "chartoo":
           return _if(
             'body > div > div:last-child a[href*="/privacy"]',
@@ -480,8 +482,6 @@ function getSelector(host) {
           return _chain("#js-cookienotice #detailExpand", "#cookieSaveChoice");
         case "bauhaus":
           return '.consent-popup._show button[data-bind="click: agreeSome"], .modal .cookie-actions button:last-child';
-        case "kytary":
-          return ".o-hidden .cookies-consent2 .btn:nth-child(2)";
         case "yopmail":
           return '#cons-pop:not([style*="none"]) #necesary';
         case "geizhals":
@@ -562,13 +562,7 @@ function getSelector(host) {
           'form[action^="/logout.php"] ~ div:last-child > div > div:first-child div:nth-child(2) > div[role="button"]'
         );
 
-      return _if_else(
-        ".hasCookieBanner",
-        ['button[data-cookiebanner="accept_only_essential_button"]'],
-        [
-          '//body/div[contains(@class, "-mode")]//div[@role="dialog"][.//a[contains(@href, "/policies/cookies")]]/div[2]/div/div[2]/div[@role="button"]',
-        ]
-      );
+      return 'div[role="dialog"][aria-labelledby="manage_cookies_title"] > div > div > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div[role="button"]';
 
     case "store.facebook.com":
       return _if(
@@ -576,20 +570,20 @@ function getSelector(host) {
         '//div[@id="scrollview"]//div[@role="dialog"]/div[2]/div/div[1]/div[@role="button"]'
       );
 
-    case "meta.com":
-      return _if(
-        'div[role="dialog"] a[href*="/policy/cookies"]',
-        '//div[@role="dialog"][.//a[contains(@href, "/policy/cookies")]]/div[2]/div/div[2][@role="button"]'
-      );
-    case "auth.meta.com":
-      return _if(
-        'div[role="dialog"] a[href*="/policies/cookies"]',
-        '//div[@role="dialog"][.//a[contains(@href, "/policies/cookies")]]//div[@aria-hidden="false"]/div/div[3]//div[@role="button"]'
-      );
     case "about.meta.com":
     case "ai.meta.com":
     case "fbsbx.com":
-      return '.hasCookieBanner button[data-cookiebanner="accept_only_essential_button"]';
+    case "auth.meta.com":
+    case "meta.com":
+      return _if_else(
+        'body:not(.hasCookieBanner) div[role="dialog"] a[href*="/policies/cookies"]',
+        [
+          '(//div[@role="dialog"][.//a[contains(@href,"/policies/cookies")]]//div[@role="button" and not(ancestor::div[@aria-hidden="true"]) and not(ancestor::div[@role="group"])])[position()=last()-1]',
+        ],
+        [
+          '.hasCookieBanner button[data-cookiebanner="accept_only_essential_button"]',
+        ]
+      );
 
     case "bulletin.com":
     case "fb.com":
@@ -631,13 +625,7 @@ function getSelector(host) {
       return 'div[data-testid="cookie-policy-dialog"] button[data-cookiebanner*="accept"]';
 
     case "instagram.com":
-      return _if_else(
-        "html#facebook",
-        ['.hasCookieBanner button[data-cookiebanner*="accept_only_essential"]'],
-        [
-          "#splash-screen ~ div[style] button + button, #splash-screen ~ div[style] div:nth-child(3) > div:nth-child(2) > button:only-child",
-        ]
-      );
+      return "//div[@role='dialog' and .//a[contains(@href, 'privacycenter.instagram.com/policies/cookies')]]//div//div//div//button[2]";
 
     case "privacymanager.io":
       return _sl("#manageSettings ~ #save, .noDenyButton .accept-all"); // new and old button, just in case
@@ -684,14 +672,24 @@ function getSelector(host) {
       return ".message-column > p > .sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT";
     case "sourcepoint.theguardian.com":
       return "button.sp_choice_type_13, button.sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT";
-    case "cmp.dpgmedia.nl":
-    case "cmp.autoweek.nl":
-      return _chain(
-        '.sp_choice_type_12, .tcfv2-stack[title*="Social"] .pm-switch',
-        ".sp_choice_type_SAVE_AND_EXIT"
-      );
+    case "myprivacy.dpgmedia.nl":
+    case "myprivacy.autoweek.nl": {
+      const root = _id("pg-host-shadow-root").shadowRoot;
 
-    case "o2.pl":
+      const configureButton = _sl("#pg-configure-btn", root);
+      if (configureButton) {
+        configureButton.click();
+      }
+
+      const socialMediaToggle = _sl(
+        "#purpose-row-SOCIAL_MEDIA #toggle input[type='checkbox']",
+        root
+      );
+      if (!socialMediaToggle) return "";
+
+      socialMediaToggle.checked = true;
+      return _sl("#pg-save-preferences-btn", root);
+    }
     case "money.pl":
     case "open.fm":
     case "gadzetomania.pl":
@@ -1449,10 +1447,7 @@ function getSelector(host) {
         : false;
 
     case "oxxio.nl":
-      e = _sl(".c-modal__content--after-open");
-      return e && _ev("span[contains(., 'cookiebeleid')]", e)
-        ? _sl("button", e)
-        : false;
+      return "//div[@role='alertdialog']//button[@data-label='Weigeren']";
 
     case "monheim.de":
     case "maengelmelder.de":
@@ -1647,9 +1642,7 @@ function getSelector(host) {
       return "#uv-gdpr-consent-necessary-form #edit-submit--2";
 
     case "bing.com":
-      e = _id("bnp_btn_preference");
-      if (e) e.click();
-      return _sl('#cookie_preference[style*="block"] .mcp_savesettings a');
+      return ".bnp_action_container #bnp_btn_reject";
 
     case "urgibl.de":
     case "bruns.de":
@@ -1929,7 +1922,7 @@ function getSelector(host) {
     case "pepper.pl":
     case "pepper.it":
     case "hotukdeals.com":
-      return 'button[data-t*="continueWithoutAccepting"]';
+      return 'button[data-t*="rejectAll"]';
 
     case "karriere-jet.de":
     case "bewerbung-tipps.com":
@@ -3817,7 +3810,7 @@ function getSelector(host) {
         'div[aria-label="CookieWall"] .buttons-wrapper a'
       );
     case "bintercanarias.com":
-      return '.ui-dialog[aria-labelledby*="cookiesPolicy"][style*="block"] #btnContinue';
+      return _ev("button[@type='button' and contains(@class, 'btn-cookies')]");
     case "amplerbikes.com":
       return _ev('div[./p/a[@id="cookie-banner"]]/following-sibling::button');
     case "easyparts-rollerteile.de":
@@ -6962,7 +6955,9 @@ function getSelector(host) {
     case "studienstiftung.de":
       return _sl('.modal[style*="block"] #CookieForm .btn-primary');
     case "bol.com":
-      return _sl("#js-reject-all-button");
+      return _sl(
+        "//div[@role='dialog']//button[normalize-space(text())='Weigeren']"
+      );
     case "lektury.gov.pl":
       return _sl('.modal[style*="block"] .cookies-accept-btn');
     case "hawle.de":
@@ -8279,21 +8274,6 @@ function getSelector(host) {
     case "autoersatzteile.de":
     case "autoteiledirekt.de":
       return '.popup[style*="block"] [data-cookies-refuse]';
-    case "rtvdrenthe.nl":
-    case "rtvoost.nl":
-    case "omroepzeeland.nl":
-    case "omroepwest.nl":
-    case "rtvnoord.nl":
-    case "gld.nl":
-    case "rijnmond.nl":
-    case "1limburg.nl":
-    case "omropfryslan.nl":
-    case "rtvutrecht.nl":
-      return _chain(
-        "#consent-plugin .choices:nth-child(2) .reject",
-        "#consent-plugin .choices:nth-child(3) .reject",
-        "#consent-plugin .buttons-fixed-container > button:last-child"
-      );
     case "urlaubspiraten.de":
     case "urlaubspiraten.at":
       return document.location.hostname.indexOf("kurzreisen") != -1
@@ -8390,6 +8370,35 @@ function getSelector(host) {
       return '.modal[style*="block"] #button_accept_cookies';
     case "linasmatkasse.se":
       return "div#cookies button#accept-selected-cookies-btn";
+    case "privatesportshop.be":
+      return "button[data-selector-cookie-button='reject-all']";
+    case "pccomponentes.com":
+      return "#cookiesrejectAll";
+    case "sparkasse-regensburg.de":
+    case "berliner-sparkasse.de":
+      return "a[data-form='.eprivacy_optin_decline']";
+    case "webgo.de":
+      return "button.ccm--decline-cookies";
+    case "marefish.es":
+      return "//a[span[text()='Continuar sin consentimiento']]";
+    case "saseurobonusmastercard.dk":
+      return ".button--necessary-approve";
+    case "gamearena.pl":
+      return ".cookie__button--deny";
+    case "vms.de":
+      return "._brlbs-refuse-btn > a";
+    case "ryobitools.eu":
+      return ".save-preference-btn-handler";
+    case "play.geforcenow.com":
+      return "#agreeAndContinueButton";
+    case "online-mahnantrag.de":
+      return "a[onclick*='setCookieAndGo()']";
+    case "bionic-benefits.co.uk":
+      return "button[class*='_acceptCookiesButton_']";
+    case "vb-rb.de":
+      return "button[data-automation-id='consent-layer-accept-selection']";
+    case "heiligenblut.de":
+      return "//a[span[text()='Weiter ohne Einwilligung']]";
   }
 
   if (host.parts.length > 2) {
