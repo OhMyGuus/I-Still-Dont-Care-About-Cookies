@@ -19014,6 +19014,9 @@ const rules = {
   "tenstickers.co.uk": {
     s: "#modal-cookies, .modal-backdrop { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }",
   },
+  "newbor.by": {
+    s: ".cookies-start.show-modal, form.marketing-popup, .popup-text-info__wrapper, .cookies, .cookies__wrapper, .popup-text-info__btn, .btn.js-ignore-cookies, .btn.js-close-cookies, #lightboxOverlay.lightboxOverlay, #lightbox.lightbox, div.lightboxOverlay, div.lightbox { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
