@@ -19088,7 +19088,7 @@ const rules = {
     s: '[id^="sp_message_container_"], iframe[id^="sp_message_iframe_"], [id*="sp_message_overlay"], [data-testid*="cookie"], .cookie-consent { display: none !important; }',
   },
   "shein.com": {
-    s: '[class*="_shein_privacy_"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } body { overflow: auto !important; height: auto !important; }',
+    s: '[class*="_shein_privacy_"] { display: none !important; } body { overflow: auto !important; height: auto !important; }',
   },
 
   // end of const rules
