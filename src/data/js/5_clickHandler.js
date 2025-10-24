@@ -8394,6 +8394,8 @@ function getSelector(host) {
       return "a[onclick*='setCookieAndGo()']";
     case "bionic-benefits.co.uk":
       return "button[class*='_acceptCookiesButton_']";
+    case "vb-rb.de":
+      return "button[data-automation-id='consent-layer-accept-selection']";
   }
 
   if (host.parts.length > 2) {
