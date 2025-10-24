@@ -18577,9 +18577,6 @@ const rules = {
   "fab365.net": {
     s: '#EeaPopup, div[id="EeaPopup"], .sc-dCFHLb.ggPQor, .sc-eBMEME.czfksa { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
-  "jobs.siemens.com": {
-    s: '.cookies, [class*="cookies"], h6[id^="cookieDialogTitle"], .cookies__wrapper, .cookies__content, .cookies__info, .cookies__info__copy, .cookies__info__buttons, .cookiesButton, .cookies__settings, .cookies__settings__content, .cookies__settings__option, .cookies__settings__buttons { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
-  },
 
   // end of const rules
 };
@@ -19459,6 +19456,7 @@ const blockUrls = {
       { r: "/mod_pixim_cookie/" },
     ],
     consent: [
+      { r: "/cookieUserConsent.min.js" },
       { r: "s.regiogroei.cloud/plugins/consent-plugin" },
       { r: "myprivacy-static.dpgmedia.net/consent.js" },
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
