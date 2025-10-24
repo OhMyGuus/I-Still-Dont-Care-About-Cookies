@@ -8378,6 +8378,8 @@ function getSelector(host) {
       return "button.ccm--decline-cookies";
     case "saseurobonusmastercard.dk":
       return ".button--necessary-approve";
+    case "vms.de":
+      return "._brlbs-refuse-btn > a";
   }
 
   if (host.parts.length > 2) {
