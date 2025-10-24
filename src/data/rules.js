@@ -21214,7 +21214,7 @@ const blockUrls = {
     "omni.se": ["cmp."],
     "nadeta.cz": ["/Libs/cookies"],
     "standard.sk": ["/standard-cookies/"],
-    "private.com": ["/Disclaimer.j
+    "private.com": ["/Disclaimer.js"],
     "seeandso.com": ["consent."],
     "patente.it": ["/privacy/"],
     "tk-aerztefuehrer.de": ["/utag.js"],
