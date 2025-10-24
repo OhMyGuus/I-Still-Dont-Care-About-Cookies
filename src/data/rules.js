@@ -19066,9 +19066,6 @@ const rules = {
   "20minutos.es": {
     s: "#didomi-host, div[class*='didomi-consent-popup__'], #mrf-popup, #mrf-popup-content, #mrf-cmp { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
   },
-  "lecker.de": {
-    s: '[id^="sp_message_"] , iframe[id^="sp_message_"] , iframe#lsframe { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
-  },
 
   // end of const rules
 };
@@ -21172,6 +21169,7 @@ const blockUrls = {
     "caradisiac.com": ["/wrapperMessagingWithoutDetection"],
     "anderes-wort.de": ["/wrapperMessagingWithoutDetection"],
     "newsnow.co.uk": ["/wrapperMessagingWithoutDetection"],
+    "lecker.de": ["/wrapperMessagingWithoutDetection"],
     "bauer-baumschulen.ch": ["/CookieBanner.js"],
     "strato.se": ["/consent."],
     "imusic.de": ["/cc.js"],
