@@ -19090,6 +19090,9 @@ const rules = {
   "shein.com": {
     s: '[class*="_shein_privacy_"] { display: none !important; } body { overflow: auto !important; height: auto !important; }',
   },
+  "kyokuyo.co.jp": {
+    s: "#gdpr, #bodycover { display: none !important; visibility: hidden !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
