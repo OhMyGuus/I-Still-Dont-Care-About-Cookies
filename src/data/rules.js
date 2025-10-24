@@ -19066,6 +19066,9 @@ const rules = {
   "20minutos.es": {
     s: "#didomi-host, div[class*='didomi-consent-popup__'], #mrf-popup, #mrf-popup-content, #mrf-cmp { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
   },
+  "allrecipes.com": {
+    s: '#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-pc-sdk,.onetrust-pc-sdk{display:none!important}html[style*="overflow: hidden"],html{overflow:auto!important}',
+  },
 
   // end of const rules
 };
