@@ -19042,6 +19042,9 @@ const rules = {
   "francetravail.fr": {
     s: ".pecookies,.pecookies__modal,.pecookies__content{display:none!important}",
   },
+  "auctionet.com": {
+    s: "form.test-cookie-consent,.modal-background,.modal.test-cookie-consent-screen-1{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
