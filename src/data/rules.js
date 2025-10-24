@@ -18862,6 +18862,9 @@ const rules = {
   "marca.com": {
     s: "#ue-initial-modal, #didomi-host { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } .ue-initial-modal-open, html, body { overflow: auto !important; }",
   },
+  "semiconductor.samsung.com": {
+    s: "#cookie_component_emea,#cookie_component,#cookiePopupForm,.CO35_Cookie_EMEA,.CO35_Cookie_EMEA-form,.CO11_cookie,.CO11_cookie-setting-wrapper,.contact-us-wrapper{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
