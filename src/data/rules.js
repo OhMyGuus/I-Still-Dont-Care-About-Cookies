@@ -15409,9 +15409,6 @@ const rules = {
     s: 'body > div > div[style*="182968"],body > #cookies{display:none !important}',
   },
   "whatismymovie.com": { j: "5" },
-  "corriere.it": {
-    s: "div.privacy-cp-wall, div.overlay, #ac-Overlay, #ac-notice, #wall-accedi, #wall__logo.privacy-cp-wall__container_cmp, a#privacy-cp-wall-reject-and-subscribe, a#privacy-cp-wall-reject-and-subscribe-mobile, button#privacy-cp-wall-accept, button#privacy-cp-wall-settings, a#privacy-cp-wall-login { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: visible !important; height: auto !important; }",
-  },
   "video.corriere.it": { j: "5" },
   "fxhome.com": {
     s: '.elementor-location-footer[data-elementor-type="section"],section[class*="cookiesContainer"]{display:none !important}',
@@ -21332,6 +21329,7 @@ const blockUrls = {
     "wetransfer.com": ["fides.js"],
     "fernwald.de": ["/content-cookie-consent-dialogue--component.system.js"],
     "rac1.cat": ["privacy-center.org"],
+    "corriere.it": ["/Corriere-CMP-feature.min.js"],
   },
 };
 
