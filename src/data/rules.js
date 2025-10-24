@@ -19045,6 +19045,9 @@ const rules = {
   "auctionet.com": {
     s: "form.test-cookie-consent,.modal-background,.modal.test-cookie-consent-screen-1{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
+  "netmarble.com": {
+    s: "#NMCookieBanner, #popupAgreed, .popup-agreed { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
