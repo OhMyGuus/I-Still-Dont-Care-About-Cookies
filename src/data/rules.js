@@ -18964,6 +18964,9 @@ const rules = {
   "handandstone.com": {
     s: '#termly-code-snippet-support, .t-consentPrompt, [class*="termly-styles-root"], [class*="termly-styles-main"], [class*="termly-styles-termly-banner"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
   },
+  "airsoft-rus.ru": {
+    s: ".bxm-cookie-alert, .bxm-cookie-alert-wrapper, .bxm-cookie-alert-txt, .bxm-cookie-alert-btn { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
 
   // end of const rules
 };
