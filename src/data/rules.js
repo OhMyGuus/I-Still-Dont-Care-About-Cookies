@@ -19028,6 +19028,9 @@ const rules = {
   "discoverflow.co": {
     s: ".toast-coockies, .toast-coockies__cookies-msg, .toast-coockies__btns, .toast-coockies__link-btn, .cookies-blur.cdk-overlay-backdrop-showing, .alert-container.alert-container__default.llac-grid-container, lla-cms-alerts, lla-alert { display: none !important; }",
   },
+  "espmsports.com": {
+    s: "#cookieadmin_wrapper, .cookieadmin_law_container, .cookieadmin_cookie_modal, .cookieadmin_modal_overlay, .cookieadmin_re_consent, #cookieadmin_preference, #cookieadmin_notice_title, #cookieadmin_notice, #cookieadmin_customize_button, #cookieadmin_reject_button, #cookieadmin_accept_button, .cookieadmin-poweredby { display: none !important; }",
+  },
 
   // end of const rules
 };
