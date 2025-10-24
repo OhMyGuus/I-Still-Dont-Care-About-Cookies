@@ -19025,6 +19025,9 @@ const rules = {
   "apotheken-umschau.de": {
     s: '[id^="sp_message_container_"], iframe[id^="sp_message_iframe_"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "discoverflow.co": {
+    s: ".toast-coockies, .toast-coockies__cookies-msg, .toast-coockies__btns, .toast-coockies__link-btn, .cookies-blur.cdk-overlay-backdrop-showing, .alert-container.alert-container__default.llac-grid-container, lla-cms-alerts, lla-alert { display: none !important; }",
+  },
 
   // end of const rules
 };
