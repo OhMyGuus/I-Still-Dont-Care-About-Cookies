@@ -8382,6 +8382,8 @@ function getSelector(host) {
       return ".cookie__button--deny";
     case "vms.de":
       return "._brlbs-refuse-btn > a";
+    case "ryobitools.eu":
+      return ".save-preference-btn-handler";
   }
 
   if (host.parts.length > 2) {
