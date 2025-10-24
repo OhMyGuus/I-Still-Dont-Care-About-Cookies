@@ -409,7 +409,9 @@ const rules = {
     s: "#notify-container-sticky-wrapper{display:none !important}",
   },
   "siemens.pl": { s: ".alert.block.show,.PopupDiv{display:none !important}" },
-  "open.fm": { j: "5" },
+  "open.fm": {
+    s: '[role="dialog"][aria-modal="true"][aria-label="Plansza informacyjna WP"], [aria-label="Plansza informacyjna WP"], div[class*="ketbsiz"], div[class^="ket"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }',
+  },
   "laznianowa.pl": { c: 1 },
   "swiatnauki.pl": { s: "#menu{display:none !important}" },
   "oxfordshire.gov.uk": {
