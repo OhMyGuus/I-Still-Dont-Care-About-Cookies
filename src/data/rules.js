@@ -18970,6 +18970,9 @@ const rules = {
   "zeitpunkt.nrw": {
     s: 'div[id="disclaimerCookie"], div[id="disclaimerCookie"] * { display: none !important; } html, body { overflow: auto !important; }',
   },
+  "guardarian.com": {
+    s: '[class^="CookieSection_section"],[class*="CookieSection_container"],[class*="CookieSection_text"]{display:none !important;}',
+  },
 
   // end of const rules
 };
