@@ -87,6 +87,7 @@ function _chain(...selectors) {
     }
 
     if (i == argumentsLength - 1) {
+      console.log("test", selectors);
       return selectors[i];
     }
 
@@ -290,7 +291,7 @@ function getSelector(host) {
             '.reveal-overlay[style*="block"] .tracking-consent-customization-popup .js-accept-selected'
           );
         case "coolblue":
-          return '.button[name="accept_cookie"]';
+          return 'button[name="accept_cookie"]';
         case "chartoo":
           return _if(
             'body > div > div:last-child a[href*="/privacy"]',
@@ -480,8 +481,6 @@ function getSelector(host) {
           return _chain("#js-cookienotice #detailExpand", "#cookieSaveChoice");
         case "bauhaus":
           return '.consent-popup._show button[data-bind="click: agreeSome"], .modal .cookie-actions button:last-child';
-        case "kytary":
-          return ".o-hidden .cookies-consent2 .btn:nth-child(2)";
         case "yopmail":
           return '#cons-pop:not([style*="none"]) #necesary';
         case "geizhals":
@@ -672,14 +671,24 @@ function getSelector(host) {
       return ".message-column > p > .sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT";
     case "sourcepoint.theguardian.com":
       return "button.sp_choice_type_13, button.sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT";
-    case "cmp.dpgmedia.nl":
-    case "cmp.autoweek.nl":
-      return _chain(
-        '.sp_choice_type_12, .tcfv2-stack[title*="Social"] .pm-switch',
-        ".sp_choice_type_SAVE_AND_EXIT"
-      );
+    case "myprivacy.dpgmedia.nl":
+    case "myprivacy.autoweek.nl": {
+      const root = _id("pg-host-shadow-root").shadowRoot;
 
-    case "o2.pl":
+      const configureButton = _sl("#pg-configure-btn", root);
+      if (configureButton) {
+        configureButton.click();
+      }
+
+      const socialMediaToggle = _sl(
+        "#purpose-row-SOCIAL_MEDIA #toggle input[type='checkbox']",
+        root
+      );
+      if (!socialMediaToggle) return "";
+
+      socialMediaToggle.checked = true;
+      return _sl("#pg-save-preferences-btn", root);
+    }
     case "money.pl":
     case "open.fm":
     case "gadzetomania.pl":
@@ -1437,10 +1446,7 @@ function getSelector(host) {
         : false;
 
     case "oxxio.nl":
-      e = _sl(".c-modal__content--after-open");
-      return e && _ev("span[contains(., 'cookiebeleid')]", e)
-        ? _sl("button", e)
-        : false;
+      return "//div[@role='alertdialog']//button[@data-label='Weigeren']";
 
     case "monheim.de":
     case "maengelmelder.de":
@@ -1915,7 +1921,7 @@ function getSelector(host) {
     case "pepper.pl":
     case "pepper.it":
     case "hotukdeals.com":
-      return 'button[data-t*="continueWithoutAccepting"]';
+      return 'button[data-t*="rejectAll"]';
 
     case "karriere-jet.de":
     case "bewerbung-tipps.com":
@@ -6948,7 +6954,9 @@ function getSelector(host) {
     case "studienstiftung.de":
       return _sl('.modal[style*="block"] #CookieForm .btn-primary');
     case "bol.com":
-      return _sl("#js-reject-all-button");
+      return _sl(
+        "//div[@role='dialog']//button[normalize-space(text())='Weigeren']"
+      );
     case "lektury.gov.pl":
       return _sl('.modal[style*="block"] .cookies-accept-btn');
     case "hawle.de":
@@ -8265,21 +8273,6 @@ function getSelector(host) {
     case "autoersatzteile.de":
     case "autoteiledirekt.de":
       return '.popup[style*="block"] [data-cookies-refuse]';
-    case "rtvdrenthe.nl":
-    case "rtvoost.nl":
-    case "omroepzeeland.nl":
-    case "omroepwest.nl":
-    case "rtvnoord.nl":
-    case "gld.nl":
-    case "rijnmond.nl":
-    case "1limburg.nl":
-    case "omropfryslan.nl":
-    case "rtvutrecht.nl":
-      return _chain(
-        "#consent-plugin .choices:nth-child(2) .reject",
-        "#consent-plugin .choices:nth-child(3) .reject",
-        "#consent-plugin .buttons-fixed-container > button:last-child"
-      );
     case "urlaubspiraten.de":
     case "urlaubspiraten.at":
       return document.location.hostname.indexOf("kurzreisen") != -1
@@ -8376,6 +8369,11 @@ function getSelector(host) {
       return '.modal[style*="block"] #button_accept_cookies';
     case "linasmatkasse.se":
       return "div#cookies button#accept-selected-cookies-btn";
+    case "sparkasse-regensburg.de":
+    case "berliner-sparkasse.de":
+      return "a[data-form='.eprivacy_optin_decline']";
+    case "webgo.de":
+      return "button.ccm--decline-cookies";
   }
 
   if (host.parts.length > 2) {

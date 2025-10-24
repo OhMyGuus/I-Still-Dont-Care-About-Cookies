@@ -52,7 +52,8 @@ html.sp-message-open,
 html.sp-message-open body,
 html.disable--interaction.show--consent,
 html.disable--interaction.show--consent body,
-body.idxrcookies-block-user-nav {
+body.idxrcookies-block-user-nav,
+.ccm-blocked {
   overflow: unset !important;
 }
 
@@ -14315,7 +14316,14 @@ body:not(.cnn) > #onetrust-blocker,
 #shopify-pc__banner,
 #fides-overlay .fides-overlay,
 .giraffly_gdpr,
-.cookie-overLay {
+.cookie-overLay,
+div.sp-cc-wrapper,
+#ccm-widget,
+moonback-cookie-banner, 
+.ibvcc-cookieconsent-popup,
+.ibvcc-dimscreen.show,
+div[aria-labelledby='cookiesTrackingNoticeLink'],
+moonback-cookie-banner {
   display: none !important;
   height: 0 !important;
   z-index: -99999 !important;
