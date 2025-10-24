@@ -8384,6 +8384,8 @@ function getSelector(host) {
       return "._brlbs-refuse-btn > a";
     case "ryobitools.eu":
       return ".save-preference-btn-handler";
+    case "play.geforcenow.com":
+      return "#agreeAndContinueButton";
   }
 
   if (host.parts.length > 2) {
