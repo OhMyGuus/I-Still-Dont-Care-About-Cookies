@@ -8399,6 +8399,8 @@ function getSelector(host) {
       return "button[data-automation-id='consent-layer-accept-selection']";
     case "heiligenblut.de":
       return "//a[span[text()='Weiter ohne Einwilligung']]";
+    case "superbutelki.pl":
+      return ".js__accept-necessary-cookies";
   }
 
   if (host.parts.length > 2) {
