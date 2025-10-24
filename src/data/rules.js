@@ -18941,6 +18941,9 @@ const rules = {
   "events-pro.ru": {
     s: 'div.MuiBox-root[class*="css-1mvplpn"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "store.pw.live": {
+    s: 'div[class^="FeatureBar_root__"], div[class*="FeatureBar_root__"] { display: none !important; }',
+  },
 
   // end of const rules
 };
