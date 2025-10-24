@@ -18911,6 +18911,9 @@ const rules = {
   "eastbarnetvets.com": {
     s: ".ngdpr-overlay, .ngdpr-overlay-wrapper, .ngdpr-wrapper, .ngdpr-popup, .ngdpr-popup-content, .ngdpr-awrapper, .ngdpr-actions, .ngdpr-icon-wrapper, .ngdpr-icon { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tv2kosmopol.dk": {
+    s: '[class*="z-[9999]"][class*="bg-black/75"],div[class*="max-w-xl"][class*="bg-white"]{display:none!important}',
+  },
 
   // end of const rules
 };
