@@ -18929,6 +18929,9 @@ const rules = {
   "4kfilme.de": {
     s: '[consent-skip-blocker="1"], dialog[class*="a65e9-ext"], [class*="a65e9-ext"], .a65e9 { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
   },
+  "malagaguide.net": {
+    s: '.ad2de, [class*="ad2de-ext-"], [id^="a137b4ac8-"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; } *[style*="z-index"][style*="999999"] { display: none !important; }',
+  },
 
   // end of const rules
 };
