@@ -19034,9 +19034,7 @@ const rules = {
   "dashboard.sezzle.com": {
     s: 'div[style*="position: fixed"][style*="bottom: 20px"][style*="translateX(-50%)"], [data-testid="cookie-txt"] { display: none !important; }',
   },
-  "marefish.es": {
-    s: ".aae6f,[class*=aae6f-ext-]{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}",
-  },
+  "marefish.es": { j: 5 },
 
   // end of const rules
 };
