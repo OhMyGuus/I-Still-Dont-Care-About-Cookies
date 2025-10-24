@@ -1608,7 +1608,9 @@ const rules = {
   "os-naklo.si": { c: 37 },
   "fis.tv": { s: ".messagesWrapper{display:none !important}" },
   "eloben.hu": { s: ".law-accept{display:none !important}" },
-  "tudorwatch.com": { s: ".tdr-ribbon{display:none !important}" },
+  "tudorwatch.com": {
+    s: ".qc-cmp2-container,#qc-cmp2-container,#qc-cmp2-main,#qc-cmp2-ui{display:none!important}",
+  },
   "videosection.com": { c: 1 },
   "boraszportal.hu": {
     s: "#layout_advertising_bottom{display:none !important}",
