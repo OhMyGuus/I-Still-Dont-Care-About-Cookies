@@ -18988,6 +18988,9 @@ const rules = {
   "deutscheweine.de": {
     s: "#cookie-modal,.modal-backdrop{display:none!important}html,body{overflow:auto!important}",
   },
+  "raspberrypi.com": {
+    s: '[id="__rptl-cookiebanner"], [id="__rptl-cookiebanner-accept"], [id="__rptl-cookiebanner-reject"] { display: none !important; }',
+  },
 
   // end of const rules
 };
