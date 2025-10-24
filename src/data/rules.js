@@ -18899,6 +18899,9 @@ const rules = {
   "paints4trade.com": {
     s: "#shopui-cookie-popup-container, #shopui-cookie-modal-container, .shopui-cookie-modal, .shopui-cookie-modal__overlay, .shopui-cookie-modal__window, .shopui-cookie-modal__content, .js-ekm-eu-close { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "m.ouestgo.fr": {
+    s: ".mc-banner-cookie, button#cookieButton.mc-button-cookie { display: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
