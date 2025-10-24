@@ -19959,6 +19959,7 @@ const blockUrls = {
       { r: "/mod_pixim_cookie/" },
     ],
     consent: [
+      { r: "/cookieUserConsent.min.js" },
       { r: "s.regiogroei.cloud/plugins/consent-plugin" },
       {
         r: "myprivacy-static.dpgmedia.net/consent.js",
