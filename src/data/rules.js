@@ -18868,6 +18868,9 @@ const rules = {
   "slagterzangenberg.dk": {
     s: ".p-cookie-consents.dialog.piranya-bpopup, .p-cookie-consents.category, .p-cookie-consents.change-consent-button, .swal2-container.swal2-center, .swal2-backdrop-show { display: none !important; } body.swal2-shown, body.p-modal-open { overflow: visible !important; padding-right: 0 !important; }",
   },
+  "icinga.com": {
+    s: '[consent-skip-blocker="1"], dialog[aria-modal="true"][class*="a742e"], [class*="a742e-ext"], .a742e { display: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
