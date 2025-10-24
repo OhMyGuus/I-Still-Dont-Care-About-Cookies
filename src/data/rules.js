@@ -18885,6 +18885,9 @@ const rules = {
   "semiconsam.com": {
     s: '[class*="cookieBanner"], [class*="cookie-banner"], [class*="cookie-consent"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "linkshop.gr": {
+    s: "#gdpr_cookies_container.gdpr-cookies-container-outer, form#gdpr-cookies_form.cm-processed-form { display: none !important; }",
+  },
 
   // end of const rules
 };
