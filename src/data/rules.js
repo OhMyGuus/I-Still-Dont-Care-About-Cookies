@@ -14977,7 +14977,9 @@ const rules = {
   "mobility.ch": { j: "5" },
   "museumsportal-berlin.de": { j: "5" },
   "onatera.com": { j: "5" },
-  "beleuchtung.de": { s: ".cookie-setting{display:none !important}" },
+  "beleuchtung.de": {
+    s: '#cookieSetting, [id*="cookie" i], [class*="cookie" i], #btn-cookie-accept-essencial, #btn-cookie-showmore, #btn-cookie-settings, #btn-cookie-accept-all, dialog#fancybox-1, .fancybox__backdrop, .fancybox__container, .fancybox__dialog { display: none !important; } html, body { overflow: auto !important; }',
+  },
   "rode.com": { c: 3 },
   "cpk.com": { j: "5" },
   "sachsen.de": { s: ".privacy-modal,.ld_container{display:none !important}" },
