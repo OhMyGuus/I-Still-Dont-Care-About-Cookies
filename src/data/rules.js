@@ -18851,6 +18851,9 @@ const rules = {
   "food52.com": {
     s: '[class*="fixed"][class*="bottom-0"][class*="bg-brand-50"], [class*="cookie"], [id*="cookie"], [class*="consent"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "jaktochsportskytte.se": {
+    s: '#tws-react-common--modal, #tws-react-common--modal .modal-backdrop, [id^="tws-accept-cookies"], .tws-accept-cookies--modal, .tws-accept-cookies--modal-for-advanced-consent { display: none !important; } body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
