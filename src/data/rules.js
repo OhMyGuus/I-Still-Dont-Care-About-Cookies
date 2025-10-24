@@ -16809,9 +16809,7 @@ const rules = {
   "netzwelt.de": { j: 5 },
   "kicker.de": { j: 5 },
   "kicker.ch": { j: 5 },
-  "zdf.de": {
-    s: "#radix-_r_0_, #cmp-dialog, #cmp-dialog-description, .b911k0k { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }",
-  },
+  "zdf.de": { j: 6 },
   "3sat.de": { j: 5 },
   "heise.de": { j: 5 },
   "temu.com": { j: 6 },
