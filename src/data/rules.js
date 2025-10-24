@@ -19134,6 +19134,9 @@ const rules = {
   "bw-bank.de": {
     s: ".if6_eprivacy.if6_lightbox.lightbox-visible,.if6_eprivacy .cbox.cbox-medium{display:none!important}html,body{overflow:auto!important}",
   },
+  "getraenke-schaefer.de": {
+    s: "#dialog-datenschutz,#modal-body-mask,.modal-popup.large.modal-open,.body-mask,#da-modal,#da-modal-content,#da-modal-info{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
