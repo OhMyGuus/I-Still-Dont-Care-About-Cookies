@@ -18879,6 +18879,9 @@ const rules = {
   "zoo.de": {
     s: "#banner-wrapper, .overlay_bc_banner, .banner-body, .banner-body__content, .banner-header, .banner-main, .banner-main_buttons, p#all_accept, p#essential_accept, .btn-manage { display: none !important; }",
   },
+  "ggmax.com.br": {
+    s: '.component--page-cookies-consent, .component--page-cookies-consent .consent-buttons, .component--page-cookies-consent *, #transcend-consent-manager, iframe[src*="consent-manager"], iframe[src*="consent-sync"], iframe[src*="transcend"] { display: none !important; opacity: 0 !important; pointer-events: none !important; } body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
