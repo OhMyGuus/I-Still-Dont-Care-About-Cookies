@@ -13322,6 +13322,7 @@ const rules = {
   "finom.co": { j: "5" },
   "allegro.pl": {
     s: "#opbox-gdpr-consents-modal, #dialog-content, .allegro-gdpr-consents-plugin__actions-container { display: none !important; }",
+    c: 85,
   },
   "threshold.ie": { j: "5" },
   "dolarhoje.com": { s: "#privacy-warning{display:none !important}" },
