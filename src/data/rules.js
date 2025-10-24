@@ -19087,6 +19087,9 @@ const rules = {
   "travelbook.de": {
     s: '[id^="sp_message_container_"], iframe[id^="sp_message_iframe_"], [id*="sp_message_overlay"], [data-testid*="cookie"], .cookie-consent { display: none !important; }',
   },
+  "shein.com": {
+    s: '[class*="_shein_privacy_"], [data-sheinprivacysign5351640105], .popup-dialog.popup-dialog-couponPackage, .coupon-dialog, .coupon-package-v2__wrapper { display: none !important; visibility: hidden !important; pointer-events: none !important; } body { overflow: auto !important; height: auto !important; }',
+  },
 
   // end of const rules
 };
