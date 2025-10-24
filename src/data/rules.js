@@ -19093,9 +19093,7 @@ const rules = {
   "kyokuyo.co.jp": {
     s: "#gdpr, #bodycover { display: none !important; visibility: hidden !important; } html, body { overflow: auto !important; }",
   },
-  "carfrance24.pl": {
-    s: "template#consents-modal, .consents, .consents__wrapper, .consents__modal, .consents__basic-view, .consents__mask { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
-  },
+  "carfrance24.pl": { j: 6 },
 
   // end of const rules
 };
