@@ -19097,9 +19097,7 @@ const rules = {
   "autoschool.dosaaf.ru": {
     s: ".modal.modal-welcome.is-active, .modal-welcome_wrapper, .modal-welcome_inner, .modal-welcome_info, .modal-welcome_side, .modal-welcome_img, .modal-welcome_btn, .modal.modal--spam.welcome-pt-overlay { display: none !important; } html, body { overflow: auto !important; height: auto !important; }",
   },
-  "vms.de": {
-    s: '#BorlabsCookieBox, .BorlabsCookie, [id^="BorlabsCookie"], .cookie-box, .bottom-center.show-cookie-box, .show-cookie-logo, .cookie-preference { display: none !important; }',
-  },
+  "vms.de": { j: 5 },
 
   // end of const rules
 };
@@ -19926,7 +19924,7 @@ const blockUrls = {
       { r: "am-static.com/cookie-banner/sdk.js" },
       { r: "/marked-cookie-consent-web/app.js" },
       { r: "cdn.cookielaw.org", e: ["cnn.com"] },
-      { r: "/wp-content/plugins/borlabs-cookie/" },
+      { r: "/wp-content/plugins/borlabs-cookie/", e: ["vms.de"] },
       { r: "/wp-content/plugins/gdpr-cookie-compliance/" },
       { r: "/etagen_cookie/" },
       { r: "/cookie_overlay.js" },
