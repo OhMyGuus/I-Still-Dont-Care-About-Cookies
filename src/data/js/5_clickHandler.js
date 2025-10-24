@@ -8378,6 +8378,8 @@ function getSelector(host) {
       return "a[data-form='.eprivacy_optin_decline']";
     case "webgo.de":
       return "button.ccm--decline-cookies";
+    case "marefish.es":
+      return "//a[span[text()='Continuar sin consentimiento']]";
     case "saseurobonusmastercard.dk":
       return ".button--necessary-approve";
     case "gamearena.pl":

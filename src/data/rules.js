@@ -19062,6 +19062,7 @@ const rules = {
   "dashboard.sezzle.com": {
     s: 'div[style*="position: fixed"][style*="bottom: 20px"][style*="translateX(-50%)"], [data-testid="cookie-txt"] { display: none !important; }',
   },
+  "marefish.es": { j: 5 },
   "help.openai.com": {
     s: "div.fixed.right-0.bottom-0.left-0 { display: none !important; }",
   },
