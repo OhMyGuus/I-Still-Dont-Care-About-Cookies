@@ -19003,6 +19003,9 @@ const rules = {
   "oz.by": {
     s: '#modalCookie, .modal-cookie, [data-controller="cookie-dialog"], .modal-backdrop.fade.show, .nav-banner__overlay, .digi-recs-modal__overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } body { overflow: auto !important; }',
   },
+  "company.finnair.com": {
+    s: "section.cookie-consent-modal, .cookie-consent-wrapper, form.cookie-consent, .cookie-consent { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } body.consent-open { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
