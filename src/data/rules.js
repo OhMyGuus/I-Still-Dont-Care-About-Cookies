@@ -19048,6 +19048,9 @@ const rules = {
   "netmarble.com": {
     s: "#NMCookieBanner, #popupAgreed, .popup-agreed { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "princess-cruises.com.tr": {
+    s: "#prtltmmc-popup,.prtltmmc-popup{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
