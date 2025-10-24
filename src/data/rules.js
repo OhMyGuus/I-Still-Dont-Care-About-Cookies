@@ -14774,7 +14774,9 @@ const rules = {
   "filman.cc": { c: 0 },
   "naf.no": { c: 6 },
   "bnb.bg": { s: ".dvCookies{display:none !important}" },
-  "bnb.by": { s: ".warning{display:none !important}" },
+  "bnb.by": {
+    s: "#cookie-modal.cookies, #cookies-modal-confirm.base-modal, #custom-overlay, #custom-overlay_full { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
+  },
   "denikreferendum.cz": {
     s: ".PopupBackground,.GDPRPopup{display:none !important}",
   },
