@@ -6557,7 +6557,7 @@ const rules = {
   "distrokid.com": { j: "6" },
   "wtp.waw.pl": { s: ".page-consent{display:none !important}" },
   "musescore.com": {
-    s: "body > div:not([id]):not([class]):not([style]),body > section > section{display:none !important}",
+    s: "[id^=qc-cmp2-],[class^=qc-cmp2-]{display:none!important}",
   },
   "financenancy.com": { c: 147 },
   "marusik.cz": { c: 154 },
