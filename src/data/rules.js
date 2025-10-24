@@ -21169,6 +21169,7 @@ const blockUrls = {
     "caradisiac.com": ["/wrapperMessagingWithoutDetection"],
     "anderes-wort.de": ["/wrapperMessagingWithoutDetection"],
     "newsnow.co.uk": ["/wrapperMessagingWithoutDetection"],
+    "lecker.de": ["/wrapperMessagingWithoutDetection"],
     "bauer-baumschulen.ch": ["/CookieBanner.js"],
     "strato.se": ["/consent."],
     "imusic.de": ["/cc.js"],
