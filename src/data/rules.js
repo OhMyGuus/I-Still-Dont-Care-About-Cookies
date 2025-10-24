@@ -18914,6 +18914,9 @@ const rules = {
   "tv2kosmopol.dk": {
     s: '[class*="z-[9999]"][class*="bg-black/75"],div[class*="max-w-xl"][class*="bg-white"]{display:none!important}',
   },
+  "tech.eu": {
+    s: "#getsitecontrol-500016,[data-name=Banner],[efl-consent-not-saved],[efl-consent-edit],[class*=z-2147483647]{display:none!important} body.getsitecontrol-500016-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
