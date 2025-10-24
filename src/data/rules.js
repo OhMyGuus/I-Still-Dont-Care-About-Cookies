@@ -19051,6 +19051,9 @@ const rules = {
   "princess-cruises.com.tr": {
     s: "#prtltmmc-popup,.prtltmmc-popup{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
+  "idowa.de": {
+    s: ".cmp-root-container,.cmp-modal,.cmp-backdrop,.modal-backdrop,.offcanvas-backdrop.fade{display:none!important}:is(html,body).cmp-modal-open{overflow:auto!important;position:static!important;height:auto!important}",
+  },
 
   // end of const rules
 };
