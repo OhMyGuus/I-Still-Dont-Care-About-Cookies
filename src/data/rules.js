@@ -19093,6 +19093,9 @@ const rules = {
   "kyokuyo.co.jp": {
     s: "#gdpr, #bodycover { display: none !important; visibility: hidden !important; } html, body { overflow: auto !important; }",
   },
+  "beachmetro.com": {
+    s: "#cc--main,#cc_div,#cm,#cm-ov,#cs-ov,#s-cnt{display:none!important;visibility:hidden!important;opacity:0!important} html.force--consent.show--consent,html.force--consent.show--consent body{height:auto!important;overflow-x:hidden!important}",
+  },
 
   // end of const rules
 };
