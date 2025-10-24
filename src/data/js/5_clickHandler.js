@@ -8374,6 +8374,8 @@ function getSelector(host) {
       return "a[data-form='.eprivacy_optin_decline']";
     case "webgo.de":
       return "button.ccm--decline-cookies";
+    case "saseurobonusmastercard.dk":
+      return ".button--necessary-approve";
   }
 
   if (host.parts.length > 2) {
