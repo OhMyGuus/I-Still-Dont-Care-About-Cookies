@@ -18991,6 +18991,9 @@ const rules = {
   "raspberrypi.com": {
     s: '[id="__rptl-cookiebanner"], [id="__rptl-cookiebanner-accept"], [id="__rptl-cookiebanner-reject"] { display: none !important; }',
   },
+  "homekitfit.com": {
+    s: '#gdpr_popup,.modal-backdrop,.bottom-freezed-bar{display:none!important;visibility:hidden!important;pointer-events:none!important}body.cc-popup-opened,body[style*="overflow: hidden"]{overflow:auto!important}',
+  },
 
   // end of const rules
 };
