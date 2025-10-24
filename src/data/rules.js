@@ -12843,7 +12843,9 @@ const rules = {
   "veiligverkeer.be": { j: "5" },
   "workshopsveiligverkeer.be": { j: "5" },
   "vias.be": { j: "5" },
-  "united-domains.de": { j: "5" },
+  "united-domains.de": {
+    s: "#cookie-layer-container,[role=alertdialog][aria-modal=true]{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}",
+  },
   "reshade.me": { j: "5" },
   "nordcheckout.com": {
     s: "#__next > div > .text-grey-darker{display:none !important}",
