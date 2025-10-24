@@ -20243,6 +20243,7 @@ const blockUrls = {
       { r: "gdpr-api.sharethis.com/cmp" },
     ],
     privacy: [
+      { r: "/js/dist/privacy-plus-v2.min.js" },
       { r: "/media/plg_system_eprivacy", e: ["reshade.me"] },
       { r: "recepttar.hu/js/privacy.js" },
       {
