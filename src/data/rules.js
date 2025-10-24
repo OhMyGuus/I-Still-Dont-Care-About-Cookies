@@ -18923,6 +18923,9 @@ const rules = {
   "cosphera.net": {
     s: ".cookie-box-back,.dookie-con-box,.dookie-con-banner,.cookie-consent-btn{display:none!important;visibility:hidden!important;pointer-events:none!important;opacity:0!important}",
   },
+  "orthoptiste.pro": {
+    s: "#cootra, .cootra-texte, .cootra-boutons, .cootra-accept, .cootra-refus { display: none !important; }",
+  },
 
   // end of const rules
 };
