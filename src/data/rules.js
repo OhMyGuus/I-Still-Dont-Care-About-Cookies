@@ -19189,6 +19189,7 @@ const blockUrls = {
   ],
   common_groups: {
     cookie: [
+      { r: "pressidium-cookie-consent/public/bundle.client.js" },
       { r: "/js-cookie@2/src/js.cookie.min.js" },
       { r: "/cookies-module/cookies-module.js" },
       { r: "fnn-cookiemanager.js" },
