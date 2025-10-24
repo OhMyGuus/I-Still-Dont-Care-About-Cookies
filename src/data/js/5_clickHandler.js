@@ -3809,7 +3809,7 @@ function getSelector(host) {
         'div[aria-label="CookieWall"] .buttons-wrapper a'
       );
     case "bintercanarias.com":
-      return '.ui-dialog[aria-labelledby*="cookiesPolicy"][style*="block"] #btnContinue';
+      return _ev("button[@type='button' and contains(@class, 'btn-cookies')]");
     case "amplerbikes.com":
       return _ev('div[./p/a[@id="cookie-banner"]]/following-sibling::button');
     case "easyparts-rollerteile.de":
