@@ -12834,7 +12834,7 @@ const rules = {
   "sofatutor.ch": { j: "5" },
   "sofatutor.at": { j: "5" },
   "alternate.de": {
-    s: "aside#usercentrics-cmp-ui, div#cmp-uc-shadow { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+    s: "#usercentrics-cmp-ui,#cmp-uc-shadow,#modal-darkener,.modal-darkener{display:none!important}",
   },
   "vsv.be": { j: "5" },
   "umicore.com": { j: "5" },
