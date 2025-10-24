@@ -19098,6 +19098,9 @@ const rules = {
     s: ".modal.modal-welcome.is-active, .modal-welcome_wrapper, .modal-welcome_inner, .modal-welcome_info, .modal-welcome_side, .modal-welcome_img, .modal-welcome_btn, .modal.modal--spam.welcome-pt-overlay { display: none !important; } html, body { overflow: auto !important; height: auto !important; }",
   },
   "vms.de": { j: 5 },
+  "metalzone.fr": {
+    s: '#sd-cmp,div[class*="sd-cmp-"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
