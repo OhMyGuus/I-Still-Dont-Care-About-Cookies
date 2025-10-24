@@ -19101,6 +19101,9 @@ const rules = {
   "metalzone.fr": {
     s: '#sd-cmp,div[class*="sd-cmp-"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "komoedie-bs-webshop.tkt-datacenter.net": {
+    s: "#cookieDisclaimer,#cookieDisclaimerOverlay,#modaloverlay{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
