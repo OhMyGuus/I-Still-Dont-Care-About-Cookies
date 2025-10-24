@@ -18871,6 +18871,9 @@ const rules = {
   "icinga.com": {
     s: '[consent-skip-blocker="1"], dialog[aria-modal="true"][class*="a742e"], [class*="a742e-ext"], .a742e { display: none !important; } html, body { overflow: auto !important; }',
   },
+  "dto-bioflow.eu": {
+    s: "#modalController, #modalControllerContainer, .modal-backdrop, .modal-backdrop.fade.show { display: none !important; visibility: hidden !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
