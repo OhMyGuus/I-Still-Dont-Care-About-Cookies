@@ -19144,6 +19144,9 @@ const rules = {
     s: "#dialog-datenschutz,#modal-body-mask,.modal-popup.large.modal-open,.body-mask,#da-modal,#da-modal-content,#da-modal-info{display:none!important}html,body{overflow:auto!important}",
   },
   "sparda-bank-hamburg.de": { c: 49, j: 5 },
+  "v-bank.com": {
+    s: '#gdpr-cookie-consent,.cookieConsentMessage,.jsCookie,#portlet_CookiePortlet,div[id^="p_p_id_CookiePortlet"],eye-able-shader[id^="eyeAble-Bluefilter"]{display:none!important}',
+  },
 
   // end of const rules
 };
