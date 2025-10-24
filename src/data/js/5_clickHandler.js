@@ -29,7 +29,8 @@ function _id(id) {
 }
 
 function _sl(selector, container, allMatches) {
-  if (selector.startsWith("//")) return _ev(selector, false, true);
+  if (selector.startsWith("//") || selector.startsWith("(//"))
+    return _ev(selector, false, true);
   container = container || document;
   if (allMatches) return container.querySelectorAll(selector);
   return container.querySelector(selector);
@@ -569,20 +570,20 @@ function getSelector(host) {
         '//div[@id="scrollview"]//div[@role="dialog"]/div[2]/div/div[1]/div[@role="button"]'
       );
 
-    case "meta.com":
-      return _if(
-        'div[role="dialog"] a[href*="/policy/cookies"]',
-        '//div[@role="dialog"][.//a[contains(@href, "/policy/cookies")]]/div[2]/div/div[2][@role="button"]'
-      );
-    case "auth.meta.com":
-      return _if(
-        'div[role="dialog"] a[href*="/policies/cookies"]',
-        '//div[@role="dialog"][.//a[contains(@href, "/policies/cookies")]]//div[@aria-hidden="false"]/div/div[3]//div[@role="button"]'
-      );
     case "about.meta.com":
     case "ai.meta.com":
     case "fbsbx.com":
-      return '.hasCookieBanner button[data-cookiebanner="accept_only_essential_button"]';
+    case "auth.meta.com":
+    case "meta.com":
+      return _if_else(
+        'body:not(.hasCookieBanner) div[role="dialog"] a[href*="/policies/cookies"]',
+        [
+          '(//div[@role="dialog"][.//a[contains(@href,"/policies/cookies")]]//div[@role="button" and not(ancestor::div[@aria-hidden="true"]) and not(ancestor::div[@role="group"])])[position()=last()-1]',
+        ],
+        [
+          '.hasCookieBanner button[data-cookiebanner="accept_only_essential_button"]',
+        ]
+      );
 
     case "bulletin.com":
     case "fb.com":
