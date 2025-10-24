@@ -18793,7 +18793,7 @@ const rules = {
     s: '#qc-cmp2-container, #qc-cmp2-main, #qc-cmp2-ui, .pp-prompt, .pp-backdrop, .pp-overlay, div[id^="pp-"] { display: none !important; pointer-events: none !important; }',
   },
   "thinkbroadband.com": {
-    s: '#termly-code-snippet-support, [class^="termly-styles-root"], [class*="termly-styles-consent-banner"], [class*="t-consentPrompt"]{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important}',
+    s: '#termly-code-snippet-support, [class*="termly-styles-consent-banner"], [class*="termly-styles-modal"], .t-consentPrompt, .t-acceptAllButton, .t-preference-button { display: none !important; }',
   },
   "seriouseats.com": {
     s: "#onetrust-banner-sdk,#onetrust-consent-sdk.show-banner,#onetrust-pc-sdk{display:none!important} html,body,:root{overflow:auto!important;padding-bottom:0!important;height:auto!important}",
