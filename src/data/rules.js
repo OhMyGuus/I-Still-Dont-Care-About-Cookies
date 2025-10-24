@@ -18021,7 +18021,9 @@ const rules = {
   "forbes.co": { j: 5 },
   "uwv.nl": { j: 5 },
   "postal.ninja": { j: 5 },
-  "pons.com": { j: 5 },
+  "pons.com": {
+    s: 'div[class*="bg-black-25"][class*="backdrop-blur-xs"], div[class*="text-gray-darker"][class*="max-w-sm"]{display:none!important;pointer-events:none!important;}',
+  },
   "soundboks.com": { j: 5 },
   "idealcountryproperty.com": { j: 5 },
   "katespapermoney.co.uk": { j: 5 },
