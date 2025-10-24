@@ -8298,7 +8298,9 @@ const rules = {
     s: "#app > div > .bg-grey-lighter{display:none !important}",
   },
   "cinkciarz.pl": { j: "5" },
-  "vecteezy.com": { s: '.ta-dm[data-qa="dm-Layer"]{display:none !important}' },
+  "vecteezy.com": {
+    s: "#sp_message_container_1366849, #sp_message_iframe_1366849, template#template-modal-container { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
+  },
   "webhallen.com": { c: 6 },
   "axminstertools.com": {
     s: ".axmcookie-notice-container,.axmcookie-notice-conatiner{display:none !important}",
