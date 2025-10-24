@@ -19097,6 +19097,9 @@ const rules = {
   "autoschool.dosaaf.ru": {
     s: ".modal.modal-welcome.is-active, .modal-welcome_wrapper, .modal-welcome_inner, .modal-welcome_info, .modal-welcome_side, .modal-welcome_img, .modal-welcome_btn, .modal.modal--spam.welcome-pt-overlay { display: none !important; } html, body { overflow: auto !important; height: auto !important; }",
   },
+  "vms.de": {
+    s: '#BorlabsCookieBox, .BorlabsCookie, [id^="BorlabsCookie"], .cookie-box, .bottom-center.show-cookie-box, .show-cookie-logo, .cookie-preference { display: none !important; }',
+  },
 
   // end of const rules
 };
