@@ -19114,6 +19114,9 @@ const rules = {
   },
   "dittohire.com": { s: ".popup-overlay{display:none!important}" },
   "ryobitools.eu": { j: 5 },
+  "docs.streamlit.io": {
+    s: '[class*="gdpr_Container__"],[class*="gdpr_Markdown__"]{display:none!important}',
+  },
 
   // end of const rules
 };
