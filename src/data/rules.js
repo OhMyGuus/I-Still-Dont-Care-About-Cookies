@@ -2568,7 +2568,9 @@ const rules = {
     s: ".main > .block.block-block.show{display:none !important}",
   },
   "ttv.pl": { s: "#msgLayer{display:none !important}" },
-  "androidcentral.com": { s: ".usr-msg{display:none !important}" },
+  "androidcentral.com": {
+    s: '[id^="sp_message_container"], iframe[id^="sp_message_iframe"], [id^="sp_message_parent"], [id^="sp_message"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
   "oysteryachts.com": { c: 121 },
   "vrin.fr": { s: "#Disclaimer{display:none !important}" },
   "locservice.fr": {
