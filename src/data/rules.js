@@ -2570,7 +2570,7 @@ const rules = {
   },
   "ttv.pl": { s: "#msgLayer{display:none !important}" },
   "androidcentral.com": {
-    s: '[id^="sp_message_container"], iframe[id^="sp_message_iframe"], [id^="sp_message_parent"], [id^="sp_message"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+    s: '[id^="sp_message_container_"],iframe[id^="sp_message_iframe_"]{display:none!important}',
   },
   "oysteryachts.com": { c: 121 },
   "vrin.fr": { s: "#Disclaimer{display:none !important}" },
