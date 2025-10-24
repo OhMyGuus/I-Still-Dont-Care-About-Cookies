@@ -18888,6 +18888,9 @@ const rules = {
   "linkshop.gr": {
     s: "#gdpr_cookies_container.gdpr-cookies-container-outer, form#gdpr-cookies_form.cm-processed-form { display: none !important; }",
   },
+  "angelhands-spa.de": {
+    s: '#cd-outer-hab, div[id="cd-outer-hab"] { display: none !important; }',
+  },
 
   // end of const rules
 };
