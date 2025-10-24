@@ -18651,9 +18651,7 @@ const rules = {
   "apondo.de": {
     s: ".message-overlay, #cookie-message { display: none !important; pointer-events: none !important; opacity: 0 !important; }",
   },
-  "privatesportshop.be": {
-    s: "dialog#cookie-consent-banner, dialog#spa-dialog { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
-  },
+  "privatesportshop.be": { j: 5 },
 
   // end of const rules
 };
