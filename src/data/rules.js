@@ -18640,6 +18640,9 @@ const rules = {
   "taurangainvestments.substack.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
+  "aerztekammer-bw.de": {
+    s: ".fixed-bottom.cookie-box, .fixed-bottom.cookie-banner, .cookie-box-backdrop { display: none !important; }",
+  },
   "gomex.rs": {
     s: '[class*="AppCookieBar"] { display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important; }',
   },
