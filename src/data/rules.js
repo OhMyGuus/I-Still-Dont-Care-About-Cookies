@@ -2139,7 +2139,7 @@ const rules = {
   "gera.de": { j: 5 },
   "vogelsbergkreis.de": { j: 5 },
   "motorsport.com": {
-    s: ".ms-footer-fixbox,.ms-header-messages,#privacy_accept{display:none !important}",
+    s: "[id^=sp_message_container_],[id^=sp_message_iframe_]{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
   "lifeisstrange.com": { s: ".comp-flash-notice{display:none !important}" },
   "zumba.com": { c: 26 },
