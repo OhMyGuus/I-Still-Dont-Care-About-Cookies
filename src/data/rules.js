@@ -18926,6 +18926,9 @@ const rules = {
   "orthoptiste.pro": {
     s: "#cootra, .cootra-texte, .cootra-boutons, .cootra-accept, .cootra-refus { display: none !important; }",
   },
+  "4kfilme.de": {
+    s: '[consent-skip-blocker="1"], dialog[class*="a65e9-ext"], [class*="a65e9-ext"], .a65e9 { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
