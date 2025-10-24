@@ -19011,6 +19011,9 @@ const rules = {
   "woodupp.com": {
     s: ".cookie.cookie-default, .cookie-bg-color, .cookie-inner, .cookie-overview-tab, .cookie-details-tab, .cookie-buttons { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "tenstickers.co.uk": {
+    s: "#modal-cookies, .modal-backdrop { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }",
+  },
 
   // end of const rules
 };
