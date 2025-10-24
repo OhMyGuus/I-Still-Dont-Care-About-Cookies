@@ -19176,6 +19176,7 @@ const blockUrls = {
       { r: "/js-cookie@2/src/js.cookie.min.js" },
       { r: "/cookies-module/cookies-module.js" },
       { r: "fnn-cookiemanager.js" },
+      { r: "/cookieUserConsent.min.js" },
       { r: "/media/plg_system_cookieconfirm" },
       { r: "cookie_meldung.js" },
       { r: "cookiewarning.js" },
@@ -19959,7 +19960,6 @@ const blockUrls = {
       { r: "/mod_pixim_cookie/" },
     ],
     consent: [
-      { r: "/cookieUserConsent.min.js" },
       { r: "s.regiogroei.cloud/plugins/consent-plugin" },
       {
         r: "myprivacy-static.dpgmedia.net/consent.js",
