@@ -8370,7 +8370,7 @@ function getSelector(host) {
     case "linasmatkasse.se":
       return "div#cookies button#accept-selected-cookies-btn";
     case "pccomponentes.com":
-      return "cookiesrejectAll";
+      return "#cookiesrejectAll";
   }
 
   if (host.parts.length > 2) {
