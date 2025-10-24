@@ -18967,6 +18967,9 @@ const rules = {
   "airsoft-rus.ru": {
     s: ".bxm-cookie-alert, .bxm-cookie-alert-wrapper, .bxm-cookie-alert-txt, .bxm-cookie-alert-btn { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
   },
+  "zeitpunkt.nrw": {
+    s: 'div[id="disclaimerCookie"], div[id="disclaimerCookie"] * { display: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
