@@ -21255,6 +21255,7 @@ const blockUrls = {
     "biggreenegg.co.uk": ["/_astro/CookieBanner"],
     "qatarairways.com": ["/cookie-gdpr/cookie-notification-qr.js"],
     "wetransfer.com": ["fides.js"],
+    "fernwald.de": ["/content-cookie-consent-dialogue--component.system.js"],
   },
 };
 
