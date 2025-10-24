@@ -15044,7 +15044,9 @@ const rules = {
   "filescan.io": { c: 2 },
   "kodiko.gr": { j: "5" },
   "only.com": { s: ".overlay-backdrop{display:none !important}" },
-  "sj.se": { j: "5" },
+  "sj.se": {
+    s: '.MuiDialog-root .MuiBackdrop-root.MuiModal-backdrop,.MuiPaper-root[aria-label="Vi använder cookies"]{display:none!important}body{overflow:auto!important}',
+  },
   "vitalsource.com": {
     s: '.dismiss-cookie,div[aria-describedby*="CookieBanner"],.App > footer + div[role="dialog"]{display:none !important}',
   },
