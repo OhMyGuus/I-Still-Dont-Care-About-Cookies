@@ -19077,6 +19077,9 @@ const rules = {
   "gmx.com": {
     s: '[id*="cookie" i],[class*="cookie" i],[id*="consent" i],[class*="consent" i],[data-testid*="consent" i],[data-test-id*="consent" i],[data-testid*="cookie" i],[data-test-id*="cookie" i],[class*="cc-" i],.onetrust,.ot-sdk-container,#onetrust-consent-sdk,#onetrust-banner-sdk{display:none !important;visibility:hidden !important;pointer-events:none !important;}',
   },
+  "travelbook.de": {
+    s: '[id^="sp_message_container_"], iframe[id^="sp_message_iframe_"], [id*="sp_message_overlay"], [data-testid*="cookie"], .cookie-consent { display: none !important; }',
+  },
 
   // end of const rules
 };
