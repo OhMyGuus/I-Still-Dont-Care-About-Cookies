@@ -15409,7 +15409,6 @@ const rules = {
     s: 'body > div > div[style*="182968"],body > #cookies{display:none !important}',
   },
   "whatismymovie.com": { j: "5" },
-  "corriere.it": { s: ".tp-modal.manine-modal{display:none !important}" },
   "video.corriere.it": { j: "5" },
   "fxhome.com": {
     s: '.elementor-location-footer[data-elementor-type="section"],section[class*="cookiesContainer"]{display:none !important}',
@@ -21330,6 +21329,7 @@ const blockUrls = {
     "wetransfer.com": ["fides.js"],
     "fernwald.de": ["/content-cookie-consent-dialogue--component.system.js"],
     "rac1.cat": ["privacy-center.org"],
+    "corriere.it": ["/Corriere-CMP-feature.min.js"],
   },
 };
 
