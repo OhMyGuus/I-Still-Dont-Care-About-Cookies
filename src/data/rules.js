@@ -18976,6 +18976,9 @@ const rules = {
   "dannells.com": {
     s: "#shopui-cookie-popup-container, #shopui-cookie-modal-container { display: none !important; }",
   },
+  "chatgpt.com": {
+    s: "div[class*=bg-token-main-surface-tertiary]{display:none!important}",
+  },
 
   // end of const rules
 };
