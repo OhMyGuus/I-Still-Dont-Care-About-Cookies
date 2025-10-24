@@ -18460,9 +18460,6 @@ const rules = {
   "arstechnica.com": {
     s: "#fides-overlay,#fides-overlay-wrapper,#fides-modal,#fides-banner-container,#fides-banner,.fides-overlay,.fides-modal,.fides-banner,.fides-tcf-banner-container{display:none!important;visibility:hidden!important;pointer-events:none!important;}",
   },
-  "applusiteuve.com": {
-    s: "#wb-co-cookiesgdpr_module.wb-co-cookiesgdpr, .cookiesgdpr, .cookiesgdpr__base, .wb-co-cookiesgdpr__dialog { display: none !important; visibility: hidden !important; } body.showcookie { overflow: auto !important; }",
-  },
 
   // end of const rules
 };
@@ -18554,6 +18551,8 @@ const blockUrls = {
   ],
   common_groups: {
     cookie: [
+      { r: "/js-cookie@2/src/js.cookie.min.js" },
+      { r: "/cookies-module/cookies-module.js" },
       { r: "/media/plg_system_cookieconfirm" },
       { r: "cookie_meldung.js" },
       { r: "cookiewarning.js" },
