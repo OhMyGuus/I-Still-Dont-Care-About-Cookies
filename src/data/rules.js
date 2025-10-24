@@ -19137,6 +19137,9 @@ const rules = {
   "getraenke-schaefer.de": {
     s: "#dialog-datenschutz,#modal-body-mask,.modal-popup.large.modal-open,.body-mask,#da-modal,#da-modal-content,#da-modal-info{display:none!important}html,body{overflow:auto!important}",
   },
+  "sparda-bank-hamburg.de": {
+    s: ".cdk-overlay-pane.cookie-notice,.cdk-overlay-backdrop.cookie-notice-backdrop,.cookie-banner-display,mat-dialog-container[aria-modal=true].mdc-dialog--open,[id^=cdk-overlay-],[id^=mat-mdc-dialog-]{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
