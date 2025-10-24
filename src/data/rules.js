@@ -13900,7 +13900,9 @@ const rules = {
   "ideal.lv": { j: "5" },
   "ideal.ee": { j: "5" },
   "marginalen.se": { j: "5" },
-  "kobo.com": { s: 'body > div[id^="cki"]{display:none !important}' },
+  "kobo.com": {
+    s: 'div[class*="z-dialog"][class*="bottom-medium"] { display: none !important; }',
+  },
   "underarmour.it": { s: ".l-consent_banner{display:none !important}" },
   "kronansapotek.se": { j: "5" },
   "udir.no": { c: 20 },
