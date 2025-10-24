@@ -14718,6 +14718,7 @@ const rules = {
   "lykke.com": { s: 'div[class*="privacy-settings"]{display:none !important}' },
   "dnzb.nl": { c: 168 },
   "pccomponentes.com": {
+    j: 5,
     s: '[data-testid="modal"], .sc-BKAtq.fZTjTE, .sc-kiLEMZ.ginAJZ, .sc-gUrTyy.ftrMNu, .buttonsContainer-TK9tI9, #cookiesAcceptAll, #cookiesrejectAll, #personalizeCookies, #cn_hidden_data, #cn_banner_form_alta_footer, .cn_content, .cn_banner_placeholder { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } body { overflow: auto !important; }',
   },
   "pelando.com.br": { c: 168 },

@@ -8369,6 +8369,8 @@ function getSelector(host) {
       return '.modal[style*="block"] #button_accept_cookies';
     case "linasmatkasse.se":
       return "div#cookies button#accept-selected-cookies-btn";
+    case "pccomponentes.com":
+      return "cookiesrejectAll";
   }
 
   if (host.parts.length > 2) {
