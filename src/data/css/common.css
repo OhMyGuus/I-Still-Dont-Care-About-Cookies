@@ -14332,3 +14332,13 @@ moonback-cookie-banner {
   width: 0 !important;
   overflow: hidden !important;
 }
+
+#cos-banner,
+#sp-cc-wrapper {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
