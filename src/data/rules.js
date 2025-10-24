@@ -19048,7 +19048,7 @@ const rules = {
     s: "#cmp-modal, #gravitoCMP-modal-layer1, #gravitoCMP-layer-3-for-layer-1, .gravitoCMP-background-overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
   "apotheken-umschau.de": {
-    s: '[id^="sp_message_container_"], iframe[id^="sp_message_iframe_"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+    s: 'div[id^="sp_message_container_"],iframe[id^="sp_message_iframe_"],#sp_pmm,#sp_reset{display:none!important}body{overflow:auto!important}',
   },
   "discoverflow.co": {
     s: ".toast-coockies, .toast-coockies__cookies-msg, .toast-coockies__btns, .toast-coockies__link-btn, .cookies-blur.cdk-overlay-backdrop-showing, .alert-container.alert-container__default.llac-grid-container, lla-cms-alerts, lla-alert { display: none !important; }",
