@@ -18958,6 +18958,9 @@ const rules = {
   "fruugo.de": {
     s: "dialog.js-modal, .js-consent-screen-home, .js-modal-body { display: none !important; } dialog.js-modal::backdrop { display: none !important; }",
   },
+  "foreca.fi": {
+    s: "#cmp-modal, #gravitoCMP-modal-layer1, #gravitoCMP-layer-3-for-layer-1, .gravitoCMP-modal, .gravitoCMP-content, .gravitoCMP-background-overlay, #gravitoCMP-event-listner { display: none !important; }",
+  },
 
   // end of const rules
 };
