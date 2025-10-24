@@ -18859,6 +18859,9 @@ const rules = {
   "peaceagreements.org": {
     s: 'uoe-consent, [is="uoe-consent"], uoe-consent * , [is="uoe-consent"] * { display: none !important; visibility: hidden !important; } body.modal-open { overflow: auto !important; padding-right: 0 !important; }',
   },
+  "marca.com": {
+    s: "#ue-initial-modal, #didomi-host { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } .ue-initial-modal-open, html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
