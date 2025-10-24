@@ -18982,6 +18982,9 @@ const rules = {
     s: "div[class*=bg-token-main-surface-tertiary]{display:none!important}",
   },
   "inclusiscore.org": { s: "#rgpd{display:none!important}" },
+  "hypebeast.com": {
+    s: "#termly-code-snippet-support,.t-consentPrompt{display:none!important}",
+  },
 
   // end of const rules
 };
