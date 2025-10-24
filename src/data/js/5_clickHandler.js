@@ -8388,6 +8388,8 @@ function getSelector(host) {
       return ".save-preference-btn-handler";
     case "play.geforcenow.com":
       return "#agreeAndContinueButton";
+    case "online-mahnantrag.de":
+      return "a[onclick*='setCookieAndGo()']";
   }
 
   if (host.parts.length > 2) {

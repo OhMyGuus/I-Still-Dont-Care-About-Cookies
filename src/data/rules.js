@@ -19124,9 +19124,7 @@ const rules = {
   "familygamingdatabase.com": {
     s: "#modal,#joinUsModal,#joinUsModalMessage,.lightbox{display:none!important;}html,body{overflow:auto!important;}",
   },
-  "online-mahnantrag.de": {
-    s: "article#CookiesButtons { display: none !important; }",
-  },
+  "online-mahnantrag.de": { j: 5 },
 
   // end of const rules
 };
