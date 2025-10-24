@@ -16531,7 +16531,9 @@ const rules = {
   },
   "cicenergigune.com": { s: "#over-cookies-msg{display:none !important}" },
   "allsaints.com": { s: ".b-notification_dialogs{display:none !important}" },
-  "play.geforcenow.com": { j: 5 },
+  "play.geforcenow.com": {
+    s: "mat-dialog-container.mat-mdc-dialog-container[role=dialog],.cdk-overlay-pane.dialogWelcome,.oobe-dialog,#agreeAndContinueButton{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
   "flybair.ch": { s: "#gdprcookie{display:none !important}" },
   "planningportal.co.uk": { s: ".tqc-portal{display:none !important}", c: 85 },
   "jemako.com": { s: "#acb-wrapper{display:none !important}" },
