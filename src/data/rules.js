@@ -19117,6 +19117,7 @@ const rules = {
   "docs.streamlit.io": {
     s: '[class*="gdpr_Container__"],[class*="gdpr_Markdown__"]{display:none!important}',
   },
+  "dlsite.com": { s: ".Trust360{display:none!important}" },
 
   // end of const rules
 };
