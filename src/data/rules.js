@@ -19150,6 +19150,7 @@ const rules = {
   "autobild.de": {
     s: 'div[id^="sp_message_container_"], iframe[id^="sp_message_iframe_"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "amazon.de": { s: "#cos-banner,#sp-cc-wrapper{display:none!important}" },
 
   // end of const rules
 };
