@@ -18944,6 +18944,9 @@ const rules = {
   "store.pw.live": {
     s: 'div[class^="FeatureBar_root__"], div[class*="FeatureBar_root__"] { display: none !important; }',
   },
+  "nouveauxmarchands.com": {
+    s: '#am-cookie-bar, p#amcookie-bar-content, #cookiebar-groups, div[id^="amcookie"], div[id*="cookie-bar"], .am-cookie-bar { display: none !important; }',
+  },
 
   // end of const rules
 };
