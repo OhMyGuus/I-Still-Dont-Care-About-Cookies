@@ -19121,6 +19121,9 @@ const rules = {
     s: '[class*="gdpr_Container__"],[class*="gdpr_Markdown__"]{display:none!important}',
   },
   "dlsite.com": { s: ".Trust360{display:none!important}" },
+  "familygamingdatabase.com": {
+    s: "#modal,#joinUsModal,#joinUsModalMessage,.lightbox{display:none!important;}html,body{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
