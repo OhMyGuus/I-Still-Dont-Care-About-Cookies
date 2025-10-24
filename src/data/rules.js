@@ -19059,6 +19059,9 @@ const rules = {
   "idowa.de": {
     s: ".cmp-root-container,.cmp-modal,.cmp-backdrop,.modal-backdrop,.offcanvas-backdrop.fade{display:none!important}:is(html,body).cmp-modal-open{overflow:auto!important;position:static!important;height:auto!important}",
   },
+  "20minutos.es": {
+    s: "#didomi-host, div[class*='didomi-consent-popup__'], #mrf-popup, #mrf-popup-content, #mrf-cmp { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
