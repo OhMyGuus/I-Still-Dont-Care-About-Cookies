@@ -18952,6 +18952,9 @@ const rules = {
   "acroname.com": {
     s: "#acroname-cookie-policy-advisory-container, #cookie-advisory-window { display: none !important; }",
   },
+  "aeroemploi.ca": {
+    s: 'div[class*="w-[350px]"][class*="rounded-xl"][class*="fixed"][class*="z-50"] { display: none !important; }',
+  },
 
   // end of const rules
 };
