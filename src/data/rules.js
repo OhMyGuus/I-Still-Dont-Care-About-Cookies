@@ -13351,7 +13351,10 @@ const rules = {
   "toppy.nl": { j: "5" },
   "armedangels.com": { j: "5" },
   "finom.co": { j: "5" },
-  "allegro.pl": { j: "5" },
+  "allegro.pl": {
+    s: "#opbox-gdpr-consents-modal, #dialog-content, .allegro-gdpr-consents-plugin__actions-container { display: none !important; }",
+    c: 85,
+  },
   "threshold.ie": { j: "5" },
   "dolarhoje.com": { s: "#privacy-warning{display:none !important}" },
   "lannebo.se": { s: ".lannebo-cookiebot{display:none !important}" },
