@@ -19070,6 +19070,9 @@ const rules = {
   "bimcommunity.com": {
     s: '.a1b4f,[class^="a1b4f-ext"],[class*=" a1b4f-ext-"],.consent-skip-blocker,[consent-skip-blocker],[data-consent-skip-blocker]{display:none!important}html,body{position:static!important;height:auto!important;overflow:auto!important}',
   },
+  "gmx.com": {
+    s: '[id*="cookie" i],[class*="cookie" i],[id*="consent" i],[class*="consent" i],[data-testid*="consent" i],[data-test-id*="consent" i],[data-testid*="cookie" i],[data-test-id*="cookie" i],[class*="cc-" i],.onetrust,.ot-sdk-container,#onetrust-consent-sdk,#onetrust-banner-sdk{display:none !important;visibility:hidden !important;pointer-events:none !important;}',
+  },
 
   // end of const rules
 };
