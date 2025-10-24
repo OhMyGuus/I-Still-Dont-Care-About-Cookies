@@ -13165,7 +13165,9 @@ const rules = {
   "bintercanarias.com": { j: "5" },
   "24sata.hr": { s: "#didomi-host{display:none !important}" },
   "njuskalo.hr": { s: "#didomi-host{display:none !important}" },
-  "huffingtonpost.es": { s: "#acceptationCMPWall{display:none !important}" },
+  "huffingtonpost.es": {
+    s: 'iframe[src*="cp.huffingtonpost.es/first-layer"], iframe[title*="Contentpass"], iframe[style*="2147483647"], div#didomi-host.didomi-host { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: visible !important; }',
+  },
   "independent.ie": {
     s: '#didomi-host,a[onclick*="Didomi.preferences"]{display:none !important}',
   },
