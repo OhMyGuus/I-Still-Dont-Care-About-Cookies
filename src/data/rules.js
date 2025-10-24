@@ -19128,6 +19128,7 @@ const rules = {
   "online-mahnantrag.de": { j: 5 },
   "bionic-benefits.co.uk": { j: 5 },
   "vb-rb.de": { c: 49, j: 5 },
+  "heiligenblut.de": { j: 5 },
 
   // end of const rules
 };

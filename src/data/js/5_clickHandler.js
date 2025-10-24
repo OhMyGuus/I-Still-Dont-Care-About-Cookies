@@ -8396,6 +8396,8 @@ function getSelector(host) {
       return "button[class*='_acceptCookiesButton_']";
     case "vb-rb.de":
       return "button[data-automation-id='consent-layer-accept-selection']";
+    case "heiligenblut.de":
+      return "//a[span[text()='Weiter ohne Einwilligung']]";
   }
 
   if (host.parts.length > 2) {
