@@ -19147,6 +19147,9 @@ const rules = {
     s: "#p_p_id_CookiePortlet_{display:none!important}",
     c: 85,
   },
+  "autobild.de": {
+    s: 'div[id^="sp_message_container_"], iframe[id^="sp_message_iframe_"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
