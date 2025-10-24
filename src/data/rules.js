@@ -18882,6 +18882,9 @@ const rules = {
   "ggmax.com.br": {
     s: '.component--page-cookies-consent, .component--page-cookies-consent .consent-buttons, .component--page-cookies-consent *, #transcend-consent-manager, iframe[src*="consent-manager"], iframe[src*="consent-sync"], iframe[src*="transcend"] { display: none !important; opacity: 0 !important; pointer-events: none !important; } body { overflow: auto !important; }',
   },
+  "semiconsam.com": {
+    s: '[class*="cookieBanner"], [class*="cookie-banner"], [class*="cookie-consent"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+  },
 
   // end of const rules
 };
