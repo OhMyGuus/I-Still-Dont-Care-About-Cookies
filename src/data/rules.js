@@ -18973,6 +18973,9 @@ const rules = {
   "guardarian.com": {
     s: '[class^="CookieSection_section"],[class*="CookieSection_container"],[class*="CookieSection_text"]{display:none !important;}',
   },
+  "dannells.com": {
+    s: "#shopui-cookie-popup-container, #shopui-cookie-modal-container { display: none !important; }",
+  },
 
   // end of const rules
 };
