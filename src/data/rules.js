@@ -19129,9 +19129,6 @@ const rules = {
   "bionic-benefits.co.uk": { j: 5 },
   "vb-rb.de": { c: 49, j: 5 },
   "heiligenblut.de": { j: 5 },
-  "rac1.cat": {
-    s: ':is(#didomi-host,.didomi-host,.didomi-modal,.didomi-backdrop,#mrf-popup,#mrf-popup-content,#mrf-cmp){display:none!important;visibility:hidden!important;pointer-events:none!important} :is(body,html)[style*="overflow:hidden"],:is(body,html)[style*="overflow: hidden"]{overflow:auto!important}',
-  },
 
   // end of const rules
 };
@@ -21313,6 +21310,7 @@ const blockUrls = {
     "qatarairways.com": ["/cookie-gdpr/cookie-notification-qr.js"],
     "wetransfer.com": ["fides.js"],
     "fernwald.de": ["/content-cookie-consent-dialogue--component.system.js"],
+    "rac1.cat": ["privacy-center.org"],
   },
 };
 
