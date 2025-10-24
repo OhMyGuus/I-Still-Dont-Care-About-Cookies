@@ -18932,6 +18932,9 @@ const rules = {
   "malagaguide.net": {
     s: '.ad2de, [class*="ad2de-ext-"], [id^="a137b4ac8-"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; } *[style*="z-index"][style*="999999"] { display: none !important; }',
   },
+  "merida.be": {
+    s: 'div[class*="bg-gray-light"][class*="fixed"][class*="inset-x-0"][class*="bottom-0"][class*="border-t"], .js-cookie-accept, button.js-cookie-accept, input.js-cookie-accept { display: none !important; }',
+  },
 
   // end of const rules
 };
