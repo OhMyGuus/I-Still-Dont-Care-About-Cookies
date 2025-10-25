@@ -19240,6 +19240,7 @@ const rules = {
     s: ".additional_overlay,.popup-choose-cookies,.popup-choose-cookies__wrap{display:none!important}",
   },
   "hostico.ro": { s: "#cookies{display:none!important}" },
+  "knobi-farm.de": { s: "#banner-wrapper{display:none!important}" },
 
   // end of const rules
 };
