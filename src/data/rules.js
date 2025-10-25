@@ -19179,6 +19179,9 @@ const rules = {
   "bz-berlin.de": {
     s: '[id^="sp_message_container_"],[id^="sp_message_iframe_"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "jouw.postnl.nl": {
+    s: "pnl-cookie-wall-widget[available-locales],#postnl-cookie-widget,.language-chooser__backdrop{display:none!important;visibility:hidden!important;opacity:0!important;height:0!important;width:0!important;overflow:hidden!important;border:0!important}html,body,body[style*='overflow: hidden']{position:static!important;overflow:auto!important;width:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
