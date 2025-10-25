@@ -13457,7 +13457,8 @@ const rules = {
   "hifi4you.de": { c: 4 },
   "lemonde.fr": { j: "5" },
   "nouvelobs.com": {
-    s: "#gdpr-popin,.gdpr-glm,.gdpr-glm__body,.popin--open{display:none!important;visibility:hidden!important;opacity:0!important}html,body{overflow:auto!important;height:auto!important}",
+    s: "#gdpr-popin,.gdpr-glm,.gdpr-glm__body,.popin--open{display:none!important;visibility:hidden!important;opacity:0!important}",
+    c: 85,
   },
   "send.cz": { s: ".cookie-ok{display:none !important}" },
   "oekolandbau.de": { j: "5" },
