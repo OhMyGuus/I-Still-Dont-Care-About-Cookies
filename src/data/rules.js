@@ -19163,6 +19163,9 @@ const rules = {
   "netbird.io": {
     s: 'div[class*="bg-nb-gray"][style*="z-index:"],div[class*="max-w-lg"][class*="bg-black"]{display:none!important}',
   },
+  "ge.xhamster.desi": {
+    s: ".wrapper-886ab.desktop-886ab,.experimentalModalContainer-886ab{display:none!important}body.xh-scroll-disabled{overflow:auto!important}",
+  },
 
   // end of const rules
 };
