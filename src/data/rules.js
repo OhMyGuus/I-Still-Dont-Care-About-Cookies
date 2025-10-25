@@ -19163,6 +19163,9 @@ const rules = {
   "netbird.io": {
     s: 'div[class*="bg-nb-gray"][style*="z-index:"],div[class*="max-w-lg"][class*="bg-black"]{display:none!important}',
   },
+  "saseurobonusmastercard.no": {
+    s: ".cookie-consent-dialog,#cookie_heading{display:none!important}",
+  },
 
   // end of const rules
 };
