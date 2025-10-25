@@ -7110,7 +7110,7 @@ const rules = {
   "maxmind.com": { s: "#mm-ccpa-notice{display:none !important}" },
   "computertotaal.nl": { j: "6" },
   "ozon.ru": {
-    s: "#__nuxt > .layout-page > div:last-child:not([class]){display:none !important}",
+    s: "[data-widget=cookieBubble],.uw_f1a,.p3.p4{display:none!important}",
   },
   "head-fi.org": { c: 11 },
   "tradingview.com": {
