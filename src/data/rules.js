@@ -19190,6 +19190,9 @@ const rules = {
   "milwaukeetool.eu": {
     s: "#onetrust-cookie-popup,.CookiePopupstyles__Container-sc-1ija68d-0,.ot-sdk-overlay,.onetrust-pc-dark-filter{display:none!important}html,body{overflow:auto!important}body{height:auto!important}",
   },
+  "koch-mit.de": {
+    s: ":is(#BorlabsCookieBox,#BorlabsCookieWidget,#BorlabsDialogBackdrop,.brlbs-fixed.brlbs-w-screen.brlbs-h-screen,.brlbs-cmpnt-dialog-backdrop,.brlbs-cmpnt-widget,.brlbs-cmpnt-dialog,.brlbs-cmpnt-dialog-box){display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important;height:auto!important;touch-action:auto!important}",
+  },
 
   // end of const rules
 };
