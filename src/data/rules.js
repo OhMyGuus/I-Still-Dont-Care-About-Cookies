@@ -19119,9 +19119,6 @@ const rules = {
   "docs.streamlit.io": {
     s: '[class*="gdpr_Container__"],[class*="gdpr_Markdown__"]{display:none!important}',
   },
-  "handelsblatt.com": {
-    j: 5,
-  },
 
   // end of const rules
 };

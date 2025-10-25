@@ -550,8 +550,13 @@
                 url: document.location.href,
               });
             }
-            element.click();
 
+            if (element) {
+              if (element.disabled) {
+                element.disabled = false;
+              }
+              element.click();
+            }
             setTimeout(function () {
               if (element) {
                 if (element.disabled) {
