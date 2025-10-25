@@ -707,6 +707,8 @@ function getE(hostname) {
       return ["trackingAccepted=false"];
     case "mysanantonio.com":
       return ['_consent_cookie={"services":[]}'];
+    case "zdf.de":
+      return ["zdf_cmp_configuration=true"];
     case "what3words.com":
       return ['cookie_preferences={"analytics":false,"marketing":false}'];
     case "tesco.com":
@@ -714,6 +716,8 @@ function getE(hostname) {
         'cookiePreferences={"advertising":false,"experience":false}',
         "OptanonAlertBoxClosed=2030-10-23T11:56:14.459Z",
       ];
+    case "carfance24.pl":
+      return ["show_consent_modal=1"];
   }
 
   const parts = hostname.split(".");

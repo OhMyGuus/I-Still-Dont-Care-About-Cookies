@@ -10921,7 +10921,6 @@ body > .cookie[data-cookie-layer],
 #cookie_warning_content.popup,
 #cookie-policy-widget,
 .fix-b[data-init="js-accept-cookies"],
-.jconfirm.jconfirm-bootstrap > div[class^="jconfirm"],
 ark-cookiebar,
 .cookie-consent.cookie-consent--opened,
 #myCookieConsent,
@@ -14323,7 +14322,18 @@ moonback-cookie-banner,
 .ibvcc-cookieconsent-popup,
 .ibvcc-dimscreen.show,
 div[aria-labelledby='cookiesTrackingNoticeLink'],
+pie-cookie-banner[v],
 moonback-cookie-banner {
+  display: none !important;
+  height: 0 !important;
+  z-index: -99999 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
+
+#cos-banner,
+#sp-cc-wrapper {
   display: none !important;
   height: 0 !important;
   z-index: -99999 !important;
