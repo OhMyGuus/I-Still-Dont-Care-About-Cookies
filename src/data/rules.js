@@ -11905,7 +11905,9 @@ const rules = {
   "hotroxuk.com": { s: ".dot_cookies{display:none !important}" },
   "packrafting-store.de": { s: "#basharModal{display:none !important}" },
   "gloria-palast.de": { j: "5" },
-  "ft.com": { j: "5" },
+  "ft.com": {
+    s: "div[id^=sp_message_container_],iframe[id^=sp_message_iframe_],div.brandmetrics-survey,.o-banner.n-exponea,.o-banner--exponea-marketing-popup-prompt{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
   "dobrzemieszkaj.pl": { c: 137 },
   "modepark.de": { j: "5" },
   "extract.pics": { j: "5" },
