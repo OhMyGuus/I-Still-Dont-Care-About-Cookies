@@ -19179,6 +19179,9 @@ const rules = {
   "bz-berlin.de": {
     s: '[id^="sp_message_container_"],[id^="sp_message_iframe_"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "amazon.de": {
+    s: "#sp-cc-wrapper,form#cos-banner,#sp-cc-header,#sp-cc-error{display:none!important}",
+  },
 
   // end of const rules
 };
