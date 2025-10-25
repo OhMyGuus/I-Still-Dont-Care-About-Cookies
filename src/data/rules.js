@@ -19239,6 +19239,7 @@ const rules = {
   "pkwteile.de": {
     s: ".additional_overlay,.popup-choose-cookies,.popup-choose-cookies__wrap{display:none!important}",
   },
+  "hostico.ro": { s: "#cookies{display:none!important}" },
 
   // end of const rules
 };
