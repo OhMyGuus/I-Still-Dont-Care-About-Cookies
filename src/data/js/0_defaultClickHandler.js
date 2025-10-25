@@ -523,15 +523,25 @@
                     });
                   }
 
-                  element.click();
+                  if (element) {
+                    if (element.disabled) {
+                      element.disabled = false;
+                    }
+                    element.click();
+                  }
                   // The 2nd click is just to be sure. Avoid when a double click breaks the process.
                   if (selector != ".message-container") {
                     setTimeout(function () {
-                      if (element) element.click();
-                    }, 500);
+                      if (element) {
+                        if (element.disabled) {
+                          element.disabled = false;
+                        }
+                        element.click();
+                      }
+                    }, 300);
                   }
 
-                  timeoutDuration += 500;
+                  timeoutDuration += 300;
                 }
               });
           }
@@ -566,7 +576,7 @@
               }
             }, 300);
 
-            timeoutDuration += 500;
+            timeoutDuration += 300;
           }
         });
 
