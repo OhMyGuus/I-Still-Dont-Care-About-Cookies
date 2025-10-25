@@ -8395,6 +8395,8 @@ function getSelector(host) {
       return ".js__accept-necessary-cookies";
     case "sparda-bank-hamburg.de":
       return "button[data-automation-id='consent-layer-accept-required']";
+    case "nature.com":
+      return ".cc-banner__button-reject";
   }
 
   if (host.parts.length > 2) {
