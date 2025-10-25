@@ -19170,6 +19170,9 @@ const rules = {
     s: ".cookie-consent,#cookie-consent-content{display:none!important}",
   },
   "comdirect.de": { s: "com-consent-layer{display:none!important}" },
+  "bz-berlin.de": {
+    s: '[id^="sp_message_container_"],[id^="sp_message_iframe_"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
