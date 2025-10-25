@@ -14570,9 +14570,7 @@ const rules = {
   "bagsandcoversdirect.co.uk": { s: ".cookbx{display:none !important}" },
   "bazaartracker.com": { j: "5" },
   "seatris.ai": { j: "5" },
-  "erli.pl": {
-    s: 'div[class*="kqFfgHy"],div[class*="W99JNBd"],div[class*="SQ9XinX"],div[class*="AwsZqgt"]{display:none!important}html,body{overflow:auto!important}',
-  },
+  "erli.pl": { j: 3 },
   "moovitapp.com": { s: "mv-cookie-banner{display:none !important}" },
   "replika.com": { s: 'div[class*="GdprPopup"]{display:none !important}' },
   "replika.ai": { s: 'div[class*="GdprPopup"]{display:none !important}' },
