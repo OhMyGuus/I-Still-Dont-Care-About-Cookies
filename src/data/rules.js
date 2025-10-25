@@ -19234,6 +19234,10 @@ const rules = {
   "lmarena.ai": {
     s: 'div:is([role="dialog"][id^="radix-_r_"],[class*="bg-black/80"]){display:none!important} body{pointer-events: auto!important;}',
   },
+  "pkwteile.de": {
+    s: ".additional_overlay,.popup-choose-cookies,.popup-choose-cookies__wrap{display:none!important}",
+  },
+
   // end of const rules
 };
 
