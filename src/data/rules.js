@@ -19213,6 +19213,9 @@ const rules = {
   "blog.bytebytego.com": {
     s: '[class*="cookieBanner"],[class*="cookie-banner"]{display:none!important}',
   },
+  "plannedparenthood.org": {
+    s: "#cookieBanner,#cookieBannerSettings,#cookieBannerLanguageToggle,.cookieBanner,.cookieBannerSettings{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
