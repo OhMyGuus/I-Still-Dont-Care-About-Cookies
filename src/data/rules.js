@@ -14782,7 +14782,9 @@ const rules = {
   "preisjaeger.at": { j: "5" },
   "chollometro.com": { j: "5" },
   "pepper.com": { j: "5" },
-  "pepper.pl": { j: "5" },
+  "pepper.pl": {
+    s: ".popover-cover.zIndex--modal,section.popover--default.popover--layout-fixed-bottomSheet.popover--visible{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow-y:auto!important;height:auto!important}",
+  },
   "pepper.it": { j: "5" },
   "hotukdeals.com": { j: "5" },
   "lnk.bio": { s: "#pb_cookie_consent{display:none !important}" },
