@@ -19094,7 +19094,6 @@ const rules = {
   "princess-cruises.com.tr": {
     s: "#prtltmmc-popup,.prtltmmc-popup{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
-  "saseurobonusmastercard.dk": { j: 5 },
   "idowa.de": {
     s: ".cmp-root-container,.cmp-modal,.cmp-backdrop,.modal-backdrop,.offcanvas-backdrop.fade{display:none!important}:is(html,body).cmp-modal-open{overflow:auto!important;position:static!important;height:auto!important}",
   },
@@ -19169,6 +19168,13 @@ const rules = {
   "netbird.io": {
     s: 'div[class*="bg-nb-gray"][style*="z-index:"],div[class*="max-w-lg"][class*="bg-black"]{display:none!important}',
   },
+  "saseurobonusmastercard.dk": { j: 5 },
+  "saseurobonusmastercard.no": { j: 5 },
+  "saseurobonusmastercard.se": { j: 5 },
+  "spendwise.se": { j: 5 },
+  "spendwise.no": { j: 5 },
+  "spendwise.fi": { j: 5 },
+  "spendwise.dk": { j: 5 },
   "revolutionrace.co.uk": {
     s: ":is(.cookie-popup,.modal-layer,.quickshop__backdrop,.quick-cart__backdrop){display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:visible!important}body{position:static!important; padding-right:0px!important;}",
   },

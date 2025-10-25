@@ -516,6 +516,9 @@ function getSelector(host) {
           return '#mms-consent-portal-container button[data-test*="save-settings"]';
         case "komoot":
           return '.ReactModal__Content--after-open button[data-testid="gdpr-banner-decline"]';
+        case "spendwise":
+        case "saseurobonusmastercard":
+          return ".button--necessary-approve";
       }
     }
 
@@ -8373,8 +8376,6 @@ function getSelector(host) {
       return "button.ccm--decline-cookies";
     case "marefish.es":
       return "//a[span[text()='Continuar sin consentimiento']]";
-    case "saseurobonusmastercard.dk":
-      return ".button--necessary-approve";
     case "gamearena.pl":
       return ".cookie__button--deny";
     case "vms.de":
