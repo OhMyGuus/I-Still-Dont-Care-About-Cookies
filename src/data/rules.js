@@ -19187,6 +19187,9 @@ const rules = {
   "ksta.de": {
     s: '[id^="sp_message_container_"],iframe[id^="sp_message_iframe_"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "milwaukeetool.eu": {
+    s: "#onetrust-cookie-popup,.CookiePopupstyles__Container-sc-1ija68d-0,.ot-sdk-overlay,.onetrust-pc-dark-filter{display:none!important}html,body{overflow:auto!important}body{height:auto!important}",
+  },
 
   // end of const rules
 };
