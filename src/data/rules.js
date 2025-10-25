@@ -19205,6 +19205,9 @@ const rules = {
   },
   "ranobelib.me": { j: 3 },
   "nature.com": { j: 5 },
+  "bestmann.com": {
+    s: '[consent-skip-blocker="1"],.a6ee3{display:none!important}html,body{overflow:auto!important;touch-action:auto!important}',
+  },
 
   // end of const rules
 };
