@@ -18311,7 +18311,7 @@ const rules = {
     s: ':is(iframe[src*="cp.as.com/first-layer"],iframe[src*="es-config.sensic.net/3pc.html"],#didomi-host,[class*="didomi-consent"]){display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
   "larousse.fr": {
-    s: "#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-pc-sdk,#ot-anchor,iframe.p3-outlet{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+    s: "#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-pc-sdk,#ot-anchor,iframe.p3-outlet{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}.wrapper{filter:none!important}",
   },
   "hellozdrowie.pl": { j: 5 },
   "eurogamer.pl": { j: 5 },

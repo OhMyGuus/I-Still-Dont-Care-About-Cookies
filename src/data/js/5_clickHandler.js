@@ -1127,7 +1127,6 @@ function getSelector(host) {
     case "avisendanmark.dk":
     case "ikea.com":
     case "ilsole24ore.com":
-    case "larousse.fr":
     case "tio.ch":
       return '#onetrust-banner-sdk:not([style*="none"]) #onetrust-accept-btn-handler';
 
