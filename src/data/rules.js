@@ -19065,7 +19065,6 @@ const rules = {
   "20minutos.es": {
     s: "#didomi-host, div[class*='didomi-consent-popup__'], #mrf-popup, #mrf-popup-content, #mrf-cmp { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
   },
-  "breitbart.com": {},
 
   // end of const rules
 };
