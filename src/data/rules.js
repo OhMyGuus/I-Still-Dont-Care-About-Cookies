@@ -11141,7 +11141,9 @@ const rules = {
   "airsoft.ch": { s: ".cb{display:none !important}" },
   "ticket.io": { j: "5" },
   "courrierinternational.com": { j: "5" },
-  "mediapart.fr": { s: ".cc-modal{display:none !important}" },
+  "mediapart.fr": {
+    s: "#js-gateaux-secs,#gateaux-secs-landing,#um-banner,[id^=sp_message_],.sp-overlay{display:none!important;visibility:hidden!important;pointer-events:none!important} :is(html,body),:is(html,body).sp-message-open{overflow:auto!important;height:auto!important}",
+  },
   "icabanken.se": {
     s: "#blockbackground,#removeOnClose{display:none !important}",
   },
