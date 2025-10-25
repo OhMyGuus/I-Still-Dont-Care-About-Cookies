@@ -13275,7 +13275,9 @@ const rules = {
   "canarias7.es": { j: "5" },
   "elcomercio.es": { j: "5" },
   "getaround.com": { j: "5" },
-  "wp.pl": { j: "5" },
+  "wp.pl": {
+    s: 'div[role="dialog"][aria-label="Plansza informacyjna WP"],.t836yo2{display:none!important;visibility:hidden!important;pointer-events:none!important}.fux95cx,.eir8eap,.wp-scroll-lock,html,body{overflow:auto!important}',
+  },
   "classicube.net": { j: "5" },
   "basic-tutorials.de": {
     c: 1,
