@@ -19179,6 +19179,9 @@ const rules = {
   "bz-berlin.de": {
     s: '[id^="sp_message_container_"],[id^="sp_message_iframe_"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "pstramway.vivaticket.com": {
+    s: ':is([id*="onetrust"],[id*="cookie"],[class*="cookie"],[id*="consent"],[class*="consent"],.onetrust-root,.ot-sdk-cookie-consent){display:none!important;visibility:hidden!important;pointer-events:none!important}',
+  },
 
   // end of const rules
 };
