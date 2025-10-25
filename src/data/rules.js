@@ -19198,6 +19198,9 @@ const rules = {
     s: "#coheroModal,.modal-backdrop.show{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}",
   },
   "ranobelib.me": { j: 3 },
+  "nature.com": {
+    s: "dialog.cc-banner,[data-cc-banner],.cc-banner__container{display:none!important;visibility:hidden!important}",
+  },
 
   // end of const rules
 };
