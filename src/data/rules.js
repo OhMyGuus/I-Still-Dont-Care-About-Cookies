@@ -19150,6 +19150,9 @@ const rules = {
   "autobild.de": {
     s: 'div[id^="sp_message_container_"], iframe[id^="sp_message_iframe_"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
+  "id.mobile.de": {
+    s: ".onetrust-banner,.onetrust-pc-dark-filter,[id*='onetrust'],[data-testid*='cookie'],[data-test*='cookie'],.cookie-consent,.cookie-banner,.consent-banner,.cc_banner{display:none!important;}",
+  },
 
   // end of const rules
 };
