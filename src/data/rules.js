@@ -19163,6 +19163,9 @@ const rules = {
   "netbird.io": {
     s: 'div[class*="bg-nb-gray"][style*="z-index:"],div[class*="max-w-lg"][class*="bg-black"]{display:none!important}',
   },
+  "revolutionrace.co.uk": {
+    s: ":is(.cookie-popup,.modal-layer,.quickshop__backdrop,.quick-cart__backdrop){display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:visible!important}body{position:static!important; padding-right:0px!important;}",
+  },
 
   // end of const rules
 };
