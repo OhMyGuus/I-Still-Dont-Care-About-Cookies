@@ -19196,6 +19196,9 @@ const rules = {
   "plusportal.hr": {
     s: ".cookies_popup-container,.cookies_popup{display:none!important}html,body{overflow:auto!important}",
   },
+  "bosybod.cz": {
+    s: "#coheroModal,.modal-backdrop.show{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
