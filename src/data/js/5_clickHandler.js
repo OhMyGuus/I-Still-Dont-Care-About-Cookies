@@ -8386,12 +8386,17 @@ function getSelector(host) {
       return ".save-preference-btn-handler";
     case "play.geforcenow.com":
       return "#agreeAndContinueButton";
-    case "handelsblatt.com":
+    case "handelsblatt.com": {
+      const e2 = _sl(".sp_choice_type_12");
+      if (e2) {
+        e2.click();
+      }
       e = _sl(".sp_choice_type_SAVE_AND_EXIT");
       if (e) {
         e.disabled = false;
       }
-      return e;
+      return ".sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT";
+    }
   }
 
   if (host.parts.length > 2) {
