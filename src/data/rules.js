@@ -19160,6 +19160,9 @@ const rules = {
   "123-3d.nl": {
     s: ".c-simple-popup,.c-simple-popup__background,.bottom-notice,.c-cookie-popup{display:none!important}",
   },
+  "netbird.io": {
+    s: 'div[class*="bg-nb-gray"][style*="z-index:"],div[class*="max-w-lg"][class*="bg-black"]{display:none!important}',
+  },
 
   // end of const rules
 };
