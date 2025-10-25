@@ -504,10 +504,7 @@ function getSelector(host) {
             "#cookies-accept"
           );
         case "chrono24":
-          return _chain(
-            ".modal.active .js-cookie-settings",
-            ".wt-consent-manager-save"
-          );
+          return ".js-cookie-accept-required";
         case "winparts":
           return ".cookie-consent-active .selectie-toestaan";
         case "onleihe":
