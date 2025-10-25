@@ -8393,7 +8393,7 @@ function getSelector(host) {
     case "heiligenblut.de":
       return "//a[span[text()='Weiter ohne Einwilligung']]";
     case "superbutelki.pl":
-      return ".js__accept-necessary-cookies";
+      return ".js__accept-necessary";
     case "sparda-bank-hamburg.de":
       return "button[data-automation-id='consent-layer-accept-required']";
     case "nature.com":
