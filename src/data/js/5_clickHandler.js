@@ -3055,13 +3055,6 @@ function getSelector(host) {
       );
     case "otherbundesliga.com":
       return 'div[data-gi-selector="reject-all-cookies"] ~ div a';
-    case "erli.pl":
-      return _if(
-        'p > a[href*="prywatnosci-i-cookie"]',
-        "FLAG:UNIQUE",
-        '//p[./a[contains(@href, "prywatnosci-i-cookie")]]/following-sibling::button[last()]',
-        '//p[./a[contains(@href, "prywatnosci-i-cookie")]]/following-sibling::button[last()]'
-      );
     case "seatris.ai":
       return _chain(
         ".accept_all + .options",

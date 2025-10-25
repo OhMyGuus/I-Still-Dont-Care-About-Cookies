@@ -210,6 +210,13 @@ function getItem(hostname) {
         key: "store",
         value: '{"main":{"cookieConsentResult":false}}',
       };
+    case "erli.pl":
+      return {
+        strict: false,
+        key: "COOKIES_CONSENTS",
+        value:
+          '{"marketingAndStatistics":false,"personalization":false,"at":99999999999999}',
+      };
   }
 
   const parts = hostname.split(".");
