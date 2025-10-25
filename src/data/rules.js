@@ -19197,6 +19197,7 @@ const rules = {
   "bosybod.cz": {
     s: "#coheroModal,.modal-backdrop.show{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}",
   },
+  "ranobelib.me": { j: 3 },
 
   // end of const rules
 };
