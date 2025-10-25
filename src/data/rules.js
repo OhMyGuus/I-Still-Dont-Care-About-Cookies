@@ -14555,7 +14555,10 @@ const rules = {
     s: ".cookie-though{display:none !important;left:-99999px}",
   },
   "autodoc.de": {
-    s: ".popup.popup--notification,.notification-popup,[data-popup-cookies],[data-terms-cookies-popup],.notification-popup__content,.notification-popup__content-wrap,.overlay{display:none!important;visibility:hidden!important} html,body{overflow:auto!important;position:static!important}",
+    s: "div[data-popup-cookies],body:has([data-popup-cookies]).overlay {display:none!important;visibility:hidden!important} html,body{overflow:auto!important;position:static!important}",
+  },
+  "autodoc.parts": {
+    s: "div[data-popup-cookies],body:has([data-popup-cookies]).overlay {display:none!important;visibility:hidden!important} html,body{overflow:auto!important;position:static!important}",
   },
   "italotreno.it": {
     s: ".pre-header-bar.cookies,#cookie-row{display:none !important}",
