@@ -20024,6 +20024,8 @@ const blockUrls = {
       { r: "sohoshopcookies.js" },
       { r: "am-static.com/cookie-banner/sdk.js" },
       { r: "/marked-cookie-consent-web/app.js" },
+      { r: "cdn.cookielaw.org", e: ["cnn.com", "breitbart.com"] },
+      { r: "/wp-content/plugins/borlabs-cookie/" },
       { r: "cdn.cookielaw.org", e: ["cnn.com"] },
       { r: "/wp-content/plugins/borlabs-cookie/", e: ["vms.de"] },
       { r: "/wp-content/plugins/gdpr-cookie-compliance/" },
