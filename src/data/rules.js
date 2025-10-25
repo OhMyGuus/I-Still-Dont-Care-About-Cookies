@@ -14870,7 +14870,9 @@ const rules = {
   "chrono24.se": { j: "5" },
   "chrono24.ro": { j: "5" },
   "chrono24.kr": { j: "5" },
-  "chrono24.pt": { j: "5" },
+  "chrono24.pt": {
+    s: "dialog.gdpr-layer,.js-overlay.overlay{display:none!important}",
+  },
   "chrono24.com.br": { j: "5" },
   "chrono24.com.ar": { j: "5" },
   "chrono24.com.ru": { j: "5" },
