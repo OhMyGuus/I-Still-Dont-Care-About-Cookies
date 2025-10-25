@@ -741,8 +741,10 @@ function getSelector(host) {
       return e;
 
     case "wp.pl":
-      document.cookie = "WP-cookie-info=1"; // wiadomosci
-      return _ev("button[contains(., 'PRZECHODZ')]");
+      return _chain(
+        "//div[@role='dialog' and @aria-label='Plansza informacyjna WP']//button[normalize-space(text())='Ustawienia zaawansowane']",
+        "//div[@role='dialog' and @aria-label='Plansza informacyjna WP']//button[normalize-space(text())='Zapisz']"
+      );
 
     case "blikopzeewolde.nl":
     case "socialmediaacademie.nl":
