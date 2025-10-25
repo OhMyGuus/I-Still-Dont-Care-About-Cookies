@@ -19163,6 +19163,9 @@ const rules = {
   "netbird.io": {
     s: 'div[class*="bg-nb-gray"][style*="z-index:"],div[class*="max-w-lg"][class*="bg-black"]{display:none!important}',
   },
+  "action.eko.org": {
+    s: 'dialog#in2-modal,[class*="in2-modal"],.in2-modal-container{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
