@@ -18800,9 +18800,7 @@ const rules = {
   "unsplash.com": {
     s: 'dialog[class*="styles-module_dialog__"], [class*="styles-module_dialog__"], .styles-module_content__IZ0A3, .styles-module_buttonContainer__LHjZk { display: none !important; }',
   },
-  "rosenheim.de": {
-    s: "dialog#in2-modal, dialog#in2-modal::backdrop, .c-iframeswitch__content { display: none !important; } html, body { overflow: auto !important; }",
-  },
+  "rosenheim.de": { j: 6 },
   "fugaziresearch.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
   },
@@ -19162,9 +19160,6 @@ const rules = {
   },
   "netbird.io": {
     s: 'div[class*="bg-nb-gray"][style*="z-index:"],div[class*="max-w-lg"][class*="bg-black"]{display:none!important}',
-  },
-  "museum.rosenheim.de": {
-    s: "dialog#in2-modal.in2-modal,.c-iframeswitch,.c-iframeswitch-wrapper{display:none!important;pointer-events:none!important}",
   },
 
   // end of const rules

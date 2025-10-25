@@ -718,6 +718,8 @@ function getE(hostname) {
       ];
     case "carfance24.pl":
       return ["show_consent_modal=1"];
+    case "rosenheim.de":
+      return ["in2cookiemodal-selection=[%22essential%22]"];
   }
 
   const parts = hostname.split(".");
