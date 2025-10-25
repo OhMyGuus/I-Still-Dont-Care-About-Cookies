@@ -19065,9 +19065,7 @@ const rules = {
   "20minutos.es": {
     s: "#didomi-host, div[class*='didomi-consent-popup__'], #mrf-popup, #mrf-popup-content, #mrf-cmp { display: none !important; visibility: hidden !important; } body { overflow: auto !important; }",
   },
-  "breitbart.com": {
-    s: "#onetrust-consent-sdk, #onetrust-banner-sdk, #onetrust-policy, #onetrust-group-container, #onetrust-close-btn-container, #ot-sdk-btn-floating, .onetrust-pc-dark-filter, .onetrust-overlay, .ot-sdk-show-settings { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
-  },
+  "breitbart.com": {},
 
   // end of const rules
 };
@@ -19891,7 +19889,7 @@ const blockUrls = {
       { r: "sohoshopcookies.js" },
       { r: "am-static.com/cookie-banner/sdk.js" },
       { r: "/marked-cookie-consent-web/app.js" },
-      { r: "cdn.cookielaw.org", e: ["cnn.com"] },
+      { r: "cdn.cookielaw.org", e: ["cnn.com", "breitbart.com"] },
       { r: "/wp-content/plugins/borlabs-cookie/" },
       { r: "/wp-content/plugins/gdpr-cookie-compliance/" },
       { r: "/etagen_cookie/" },
