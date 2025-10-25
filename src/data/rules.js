@@ -19181,6 +19181,9 @@ const rules = {
   "bz-berlin.de": {
     s: '[id^="sp_message_container_"],[id^="sp_message_iframe_"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "theonion.com": {
+    s: "#consent-banner-main,#consent-banner-modal,#consent-banner-wall,#consent-banner-settings,.fc-consent-root,.fc-dialog-container,.fc-dialog,.fc-dialog-content,.fc-choice-dialog,.consent-banner-modal-wrapper{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
