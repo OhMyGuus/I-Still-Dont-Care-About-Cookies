@@ -19208,6 +19208,9 @@ const rules = {
   "bestmann.com": {
     s: '[consent-skip-blocker="1"],.a6ee3{display:none!important}html,body{overflow:auto!important;touch-action:auto!important}',
   },
+  "copilot.microsoft.com": {
+    s: 'div[class*="cookie-banner"],#cookie-banner{display:none!important}',
+  },
 
   // end of const rules
 };
