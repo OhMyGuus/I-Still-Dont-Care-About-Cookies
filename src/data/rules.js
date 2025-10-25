@@ -13180,7 +13180,9 @@ const rules = {
   "independent.ie": {
     s: '#didomi-host,a[onclick*="Didomi.preferences"]{display:none !important}',
   },
-  "programme-tv.net": { j: "5" },
+  "programme-tv.net": {
+    s: "div[id^=sp_message_container_],iframe[id^=sp_message_iframe_]{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
   "bike-bild.de": { j: "5" },
   "cosmopolitan.de": { j: "5" },
   "golem.de": { j: "5" },
