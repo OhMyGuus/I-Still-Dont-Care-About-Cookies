@@ -19210,6 +19210,9 @@ const rules = {
   "northwesttradecentre.co.uk": {
     s: "#global-consent-banner,#wz-overlay{display:none!important}",
   },
+  "blog.bytebytego.com": {
+    s: '[class*="cookieBanner"],[class*="cookie-banner"]{display:none!important}',
+  },
 
   // end of const rules
 };
