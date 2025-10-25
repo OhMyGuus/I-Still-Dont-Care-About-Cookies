@@ -21336,6 +21336,7 @@ const blockUrls = {
     "fernwald.de": ["/content-cookie-consent-dialogue--component.system.js"],
     "rac1.cat": ["privacy-center.org"],
     "corriere.it": ["/Corriere-CMP-feature.min.js"],
+    "mobile.de": ["/cmpApi.js"],
   },
 };
 
