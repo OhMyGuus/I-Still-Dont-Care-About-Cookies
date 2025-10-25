@@ -6684,7 +6684,7 @@ function getSelector(host) {
     case "alan.com":
       return _sl("#root > div > button");
     case "elsevier.com":
-      return _sl('#cookie-modal[style*="block"] #accept-cookies'); // journalinsights
+      return _sl('button[data-testid="reject-all-cookies-button"]');
     case "viva.gr":
       return ".cc-bar .cc-btn--reject";
     case "corbby.com.pl":

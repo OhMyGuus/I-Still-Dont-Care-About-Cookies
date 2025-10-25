@@ -5970,9 +5970,7 @@ const rules = {
   "volcanoteide.com": { s: ".cc-grower{display:none !important}" },
   "alan.com": { j: "5" },
   "himsa.com": { s: ".cookieApprove{display:none !important}" },
-  "elsevier.com": {
-    s: 'div[data-testid="cookie-banner"],[data-testid="accept-all-cookies-button"],[data-testid="reject-all-cookies-button"],[data-testid="cookie-settings-button"],[data-testid="cookie-settings-button-on-footer"]{display:none!important}html,body{overflow:auto!important}',
-  },
+  "elsevier.com": { j: 5 },
   "niceareas.co.uk": { s: ".rayAlertBox{display:none !important}" },
   "foxrenderfarm.com": {
     s: '#gatsby-focus-wrapper > div[class*="Contact"] ~ div{display:none !important}',
@@ -20026,9 +20024,11 @@ const blockUrls = {
       { r: "sohoshopcookies.js" },
       { r: "am-static.com/cookie-banner/sdk.js" },
       { r: "/marked-cookie-consent-web/app.js" },
-      { r: "cdn.cookielaw.org", e: ["cnn.com", "breitbart.com"] },
+      {
+        r: "cdn.cookielaw.org",
+        e: ["cnn.com", "breitbart.com", "elsevier.com"],
+      },
       { r: "/wp-content/plugins/borlabs-cookie/" },
-      { r: "cdn.cookielaw.org", e: ["cnn.com"] },
       { r: "/wp-content/plugins/borlabs-cookie/", e: ["vms.de"] },
       { r: "/wp-content/plugins/gdpr-cookie-compliance/" },
       { r: "/etagen_cookie/" },
