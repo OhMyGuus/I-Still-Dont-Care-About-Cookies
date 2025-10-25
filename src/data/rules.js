@@ -5970,7 +5970,9 @@ const rules = {
   "volcanoteide.com": { s: ".cc-grower{display:none !important}" },
   "alan.com": { j: "5" },
   "himsa.com": { s: ".cookieApprove{display:none !important}" },
-  "elsevier.com": { j: "5" },
+  "elsevier.com": {
+    s: 'div[data-testid="cookie-banner"],[data-testid="accept-all-cookies-button"],[data-testid="reject-all-cookies-button"],[data-testid="cookie-settings-button"],[data-testid="cookie-settings-button-on-footer"]{display:none!important}html,body{overflow:auto!important}',
+  },
   "niceareas.co.uk": { s: ".rayAlertBox{display:none !important}" },
   "foxrenderfarm.com": {
     s: '#gatsby-focus-wrapper > div[class*="Contact"] ~ div{display:none !important}',
