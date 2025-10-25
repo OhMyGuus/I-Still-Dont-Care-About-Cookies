@@ -19209,6 +19209,7 @@ const rules = {
   "friedrich-lange.de": {
     s: 'div[consent-skip-blocker="1"],dialog.aa177-ext-0-303{display:none!important}body{overflow-y:auto!important}',
   },
+  "divlove.com": { s: ".emgcookie{display:none !important}" },
   "northwesttradecentre.co.uk": {
     s: "#global-consent-banner,#wz-overlay{display:none!important}",
   },
