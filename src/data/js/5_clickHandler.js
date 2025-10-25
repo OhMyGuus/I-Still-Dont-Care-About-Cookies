@@ -88,7 +88,6 @@ function _chain(...selectors) {
     }
 
     if (i == argumentsLength - 1) {
-      console.log("test", selectors);
       return selectors[i];
     }
 
