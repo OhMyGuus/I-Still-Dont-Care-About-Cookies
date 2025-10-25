@@ -19026,7 +19026,7 @@ const rules = {
     s: "#shopui-cookie-popup-container, #shopui-cookie-modal-container { display: none !important; }",
   },
   "chatgpt.com": {
-    s: "[data-hide-cookie-banner=1]{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+    s: "div[class*=bg-token-main-surface-tertiary],aside:has(a[href$='privacy']),[data-testid='modal-cookie-consent-banner-mobile']{display:none!important}",
   },
   "inclusiscore.org": { s: "#rgpd{display:none!important}" },
   "hypebeast.com": {
