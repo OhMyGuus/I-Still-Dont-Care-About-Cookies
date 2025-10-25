@@ -19216,6 +19216,9 @@ const rules = {
   "plannedparenthood.org": {
     s: "#cookieBanner,#cookieBannerSettings,#cookieBannerLanguageToggle,.cookieBanner,.cookieBannerSettings{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "doctorio.io": {
+    j: 5,
+  },
 
   // end of const rules
 };
