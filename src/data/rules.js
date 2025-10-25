@@ -19228,6 +19228,9 @@ const rules = {
   "eltiempo.es": {
     s: 'div[data-nosnippet],iframe[src*="cp.eltiempo.es"],iframe[src*="contentpass"],#didomi-host,[class*=didomi],[id^=didomi],[class*=contentpass]{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}',
   },
+  "lmarena.ai": {
+    s: 'div:is([role="dialog"][id^="radix-_r_"],[class*="bg-black/80"]){display:none!important}',
+  },
 
   // end of const rules
 };
