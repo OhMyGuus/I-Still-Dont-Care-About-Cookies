@@ -19193,6 +19193,9 @@ const rules = {
   "koch-mit.de": {
     s: ":is(#BorlabsCookieBox,#BorlabsCookieWidget,#BorlabsDialogBackdrop,.brlbs-fixed.brlbs-w-screen.brlbs-h-screen,.brlbs-cmpnt-dialog-backdrop,.brlbs-cmpnt-widget,.brlbs-cmpnt-dialog,.brlbs-cmpnt-dialog-box){display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important;height:auto!important;touch-action:auto!important}",
   },
+  "plusportal.hr": {
+    s: ".cookies_popup-container,.cookies_popup{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
