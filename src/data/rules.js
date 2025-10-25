@@ -6407,7 +6407,9 @@ const rules = {
     s: "#main > .Root > section,.mh-message-bar{display:none !important}",
   },
   "ovplaza.nl": { c: 6 },
-  "spox.com": { s: ".spxcib.open{display:none !important}" },
+  "spox.com": {
+    s: "iframe[id^=sp_message_iframe],div[id^=sp_message_container]{display:none!important} html,body{overflow:auto!important}",
+  },
   "scholieren.com": { c: 6 },
   "asket.com": { s: ".site-notice{display:none !important}" },
   "scummvm.org": { c: 6 },
