@@ -8398,6 +8398,9 @@ function getSelector(host) {
       return "button[data-automation-id='consent-layer-accept-required']";
     case "nature.com":
       return ".cc-banner__button-reject";
+    case "galaxus.at":
+    case "galaxus.de":
+      return "(//dialog[@aria-labelledby='cookieBannerTitle']//button)[2]";
   }
 
   if (host.parts.length > 2) {

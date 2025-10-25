@@ -12032,12 +12032,8 @@ const rules = {
   "consumentenbond.nl": {
     s: '.w-full[data-test="consent-banner"]{display:none !important}',
   },
-  "galaxus.de": {
-    s: 'dialog[aria-labelledby="cookieBannerTitle"], [aria-describedby="cookieBannerDescription"], [class^="yo7XDsR"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } body, html { overflow: auto !important; }',
-  },
-  "galaxus.at": {
-    s: "#__next > div[aria-hidden]:not([data-layout-container]){display:none !important}",
-  },
+  "galaxus.de": { j: 5 },
+  "galaxus.at": { j: 5 },
   "brewdog.com": { s: "#segment-consent-banner{display:none !important}" },
   "fupro.de": { c: 14 },
   "host-unlimited.de": { j: "5" },
