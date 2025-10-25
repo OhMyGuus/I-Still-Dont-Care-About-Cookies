@@ -16895,7 +16895,9 @@ const rules = {
   "verkehrsrundschau.de": { j: 5 },
   "insideevs.de": { j: 5 },
   "motor1.com": { j: 5 },
-  "netzwelt.de": { j: 5 },
+  "netzwelt.de": {
+    s: ':is(#onetrust-consent-sdk,#onetrust-banner-sdk,.otCenterRounded,.onetrust-pc-dark-filter,iframe[src*="cp.netzwelt.de"],iframe[style*="z-index: 2147483647"],iframe[style*="position: fixed"][style*="inset: 0px"]){display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{height:auto!important;overflow:auto!important}',
+  },
   "kicker.de": { j: 5 },
   "kicker.ch": { j: 5 },
   "zdf.de": { j: 6 },
