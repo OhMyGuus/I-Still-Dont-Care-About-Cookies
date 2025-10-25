@@ -19241,6 +19241,9 @@ const rules = {
   },
   "hostico.ro": { s: "#cookies{display:none!important}" },
   "knobi-farm.de": { s: "#banner-wrapper{display:none!important}" },
+  "auth.kodular.io": {
+    s: "#termly-code-snippet-support{display:none!important}",
+  },
 
   // end of const rules
 };
