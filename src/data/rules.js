@@ -19169,6 +19169,7 @@ const rules = {
   "ilmatieteenlaitos.fi": {
     s: ".cookie-consent,#cookie-consent-content{display:none!important}",
   },
+  "comdirect.de": { s: "com-consent-layer{display:none!important}" },
 
   // end of const rules
 };
