@@ -8387,14 +8387,6 @@ function getSelector(host) {
     case "play.geforcenow.com":
       return "#agreeAndContinueButton";
     case "handelsblatt.com": {
-      const e2 = _sl(".sp_choice_type_12");
-      if (e2) {
-        e2.click();
-      }
-      e = _sl(".sp_choice_type_SAVE_AND_EXIT");
-      if (e) {
-        e.disabled = false;
-      }
       return ".sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT";
     }
   }
@@ -8430,8 +8422,11 @@ function searchLoop(counter, host) {
 
           // Give some more time for the DOM to setup properly
           setTimeout(function () {
+            if (element && element.disabled) {
+              element.disabled = false;
+            }
             element.click();
-          }, 500);
+          }, 300);
 
           clearInterval(clickLoop);
         } else {

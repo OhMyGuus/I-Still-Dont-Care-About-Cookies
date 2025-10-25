@@ -553,8 +553,13 @@
             element.click();
 
             setTimeout(function () {
-              if (element) element.click();
-            }, 500);
+              if (element) {
+                if (element.disabled) {
+                  element.disabled = false;
+                }
+                element.click();
+              }
+            }, 300);
 
             timeoutDuration += 500;
           }

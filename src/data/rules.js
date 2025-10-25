@@ -19120,7 +19120,6 @@ const rules = {
     s: '[class*="gdpr_Container__"],[class*="gdpr_Markdown__"]{display:none!important}',
   },
   "handelsblatt.com": {
-    s: '[id^="sp_message_"]{display:none!important}html,body{overflow:auto!important}',
     j: 5,
   },
 
