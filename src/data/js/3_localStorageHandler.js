@@ -210,6 +210,19 @@ function getItem(hostname) {
         key: "store",
         value: '{"main":{"cookieConsentResult":false}}',
       };
+    case "erli.pl":
+      return {
+        strict: false,
+        key: "COOKIES_CONSENTS",
+        value:
+          '{"marketingAndStatistics":false,"personalization":false,"at":99999999999999}',
+      };
+    case "ranobelib.me":
+      return {
+        strict: false,
+        key: "cookies-toast-shown",
+        value: "true",
+      };
   }
 
   const parts = hostname.split(".");

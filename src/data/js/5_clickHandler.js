@@ -504,10 +504,7 @@ function getSelector(host) {
             "#cookies-accept"
           );
         case "chrono24":
-          return _chain(
-            ".modal.active .js-cookie-settings",
-            ".wt-consent-manager-save"
-          );
+          return ".js-cookie-accept-required";
         case "winparts":
           return ".cookie-consent-active .selectie-toestaan";
         case "onleihe":
@@ -747,8 +744,10 @@ function getSelector(host) {
       return e;
 
     case "wp.pl":
-      document.cookie = "WP-cookie-info=1"; // wiadomosci
-      return _ev("button[contains(., 'PRZECHODZ')]");
+      return _chain(
+        "//div[@role='dialog' and @aria-label='Plansza informacyjna WP']//button[normalize-space(text())='Ustawienia zaawansowane']",
+        "//div[@role='dialog' and @aria-label='Plansza informacyjna WP']//button[normalize-space(text())='Zapisz']"
+      );
 
     case "blikopzeewolde.nl":
     case "socialmediaacademie.nl":
@@ -3061,13 +3060,6 @@ function getSelector(host) {
       );
     case "otherbundesliga.com":
       return 'div[data-gi-selector="reject-all-cookies"] ~ div a';
-    case "erli.pl":
-      return _if(
-        'p > a[href*="prywatnosci-i-cookie"]',
-        "FLAG:UNIQUE",
-        '//p[./a[contains(@href, "prywatnosci-i-cookie")]]/following-sibling::button[last()]',
-        '//p[./a[contains(@href, "prywatnosci-i-cookie")]]/following-sibling::button[last()]'
-      );
     case "seatris.ai":
       return _chain(
         ".accept_all + .options",
@@ -6695,7 +6687,7 @@ function getSelector(host) {
     case "alan.com":
       return _sl("#root > div > button");
     case "elsevier.com":
-      return _sl('#cookie-modal[style*="block"] #accept-cookies'); // journalinsights
+      return _sl('button[data-testid="reject-all-cookies-button"]');
     case "viva.gr":
       return ".cc-bar .cc-btn--reject";
     case "corbby.com.pl":
@@ -8404,6 +8396,8 @@ function getSelector(host) {
       return ".js__accept-necessary-cookies";
     case "sparda-bank-hamburg.de":
       return "button[data-automation-id='consent-layer-accept-required']";
+    case "nature.com":
+      return ".cc-banner__button-reject";
   }
 
   if (host.parts.length > 2) {
@@ -8437,8 +8431,11 @@ function searchLoop(counter, host) {
 
           // Give some more time for the DOM to setup properly
           setTimeout(function () {
+            if (element && element.disabled) {
+              element.disabled = false;
+            }
             element.click();
-          }, 500);
+          }, 300);
 
           clearInterval(clickLoop);
         } else {
