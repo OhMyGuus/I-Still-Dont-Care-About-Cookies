@@ -1,5 +1,3 @@
-## [Read this issue about the current inactivity](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/issues/10278)
-
 <div align="center">
 
 <img src="src/icons/128.png" />
