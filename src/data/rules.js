@@ -6407,7 +6407,9 @@ const rules = {
     s: "#main > .Root > section,.mh-message-bar{display:none !important}",
   },
   "ovplaza.nl": { c: 6 },
-  "spox.com": { s: ".spxcib.open{display:none !important}" },
+  "spox.com": {
+    s: "iframe[id^=sp_message_iframe],div[id^=sp_message_container]{display:none!important} html,body{overflow:auto!important}",
+  },
   "scholieren.com": { c: 6 },
   "asket.com": { s: ".site-notice{display:none !important}" },
   "scummvm.org": { c: 6 },
@@ -19026,7 +19028,7 @@ const rules = {
     s: "#shopui-cookie-popup-container, #shopui-cookie-modal-container { display: none !important; }",
   },
   "chatgpt.com": {
-    s: "div[class*=bg-token-main-surface-tertiary]{display:none!important}",
+    s: "div[class*=bg-token-main-surface-tertiary],aside:has(a[href$='privacy']),[data-testid='modal-cookie-consent-banner-mobile']{display:none!important}",
   },
   "inclusiscore.org": { s: "#rgpd{display:none!important}" },
   "hypebeast.com": {
@@ -19208,7 +19210,30 @@ const rules = {
     s: 'div[consent-skip-blocker="1"],dialog.aa177-ext-0-303{display:none!important}body{overflow-y:auto!important}',
   },
   "divlove.com": { s: ".emgcookie{display:none !important}" },
-
+  "northwesttradecentre.co.uk": {
+    s: "#global-consent-banner,#wz-overlay{display:none!important}",
+  },
+  "blog.bytebytego.com": {
+    s: '[class*="cookieBanner"],[class*="cookie-banner"]{display:none!important}',
+  },
+  "plannedparenthood.org": {
+    s: "#cookieBanner,#cookieBannerSettings,#cookieBannerLanguageToggle,.cookieBanner,.cookieBannerSettings{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
+  "doctorio.io": {
+    j: 5,
+  },
+  "mesinfos.fr": {
+    s: "#rgpd,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important}",
+  },
+  "lumix-trybeforebuy.eu.panasonic.com": {
+    s: ".cc-isolation-container,.cc-bg-white,.cc-font.cc-fixed{display:none!important}",
+  },
+  "eltiempo.es": {
+    s: 'div[data-nosnippet],iframe[src*="cp.eltiempo.es"],iframe[src*="contentpass"],#didomi-host,[class*=didomi],[id^=didomi],[class*=contentpass]{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}',
+  },
+  "lmarena.ai": {
+    s: 'div:is([role="dialog"][id^="radix-_r_"],[class*="bg-black/80"]){display:none!important} body{pointer-events: auto!important;}',
+  },
   // end of const rules
 };
 

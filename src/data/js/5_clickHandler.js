@@ -8401,6 +8401,8 @@ function getSelector(host) {
     case "galaxus.at":
     case "galaxus.de":
       return "(//dialog[@aria-labelledby='cookieBannerTitle']//button)[2]";
+    case "doctorio.io":
+      return "//dialog//a[span[text()='Continue without consent']]";
   }
 
   if (host.parts.length > 2) {
