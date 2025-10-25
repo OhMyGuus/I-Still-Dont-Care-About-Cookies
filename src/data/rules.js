@@ -19163,6 +19163,9 @@ const rules = {
   "netbird.io": {
     s: 'div[class*="bg-nb-gray"][style*="z-index:"],div[class*="max-w-lg"][class*="bg-black"]{display:none!important}',
   },
+  "museum.rosenheim.de": {
+    s: "dialog#in2-modal.in2-modal,.c-iframeswitch,.c-iframeswitch-wrapper{display:none!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
