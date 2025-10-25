@@ -19219,6 +19219,9 @@ const rules = {
   "doctorio.io": {
     j: 5,
   },
+  "mesinfos.fr": {
+    s: "#rgpd,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
