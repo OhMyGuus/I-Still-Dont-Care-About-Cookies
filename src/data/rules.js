@@ -16002,7 +16002,7 @@ const rules = {
   "starnecker.com": { c: 6 },
   "aikikai.de": { c: 14 },
   "kick.com": {
-    s: ".z-modal { display: none !important; pointer-events: none !important; }",
+    s: ".z-modal.fixed.bottom-4.left-4.right-4{display:none!important}",
   },
   "primus-apotheken-stadecken.de": {
     s: "#ccModal{display:none !important}",
