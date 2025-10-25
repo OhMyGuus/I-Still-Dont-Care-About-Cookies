@@ -19225,6 +19225,9 @@ const rules = {
   "lumix-trybeforebuy.eu.panasonic.com": {
     s: ".cc-isolation-container,.cc-bg-white,.cc-font.cc-fixed{display:none!important}",
   },
+  "eltiempo.es": {
+    s: 'div[data-nosnippet],iframe[src*="cp.eltiempo.es"],iframe[src*="contentpass"],#didomi-host,[class*=didomi],[id^=didomi],[class*=contentpass]{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
