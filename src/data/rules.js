@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "der-windows-papst.de": {
+    s: 'dialog[aria-modal="true"],dialog[open],[aria-labelledby^="a3c01-ext-0-"],[class*="a3c01-ext-"],[id^="a3c01-"],div[id^="a9d442d4c-"],.a3c01{display:none!important}html,body{overflow:auto!important;height:auto!important}*{pointer-events:auto!important}',
+  },
 
   // end of const rules
 };
