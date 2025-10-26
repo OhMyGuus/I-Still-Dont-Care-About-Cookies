@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "compnetgmbh.de": {
+    s: 'div.a6089[style*="rgba(33, 41, 52, 0.57)"],div[id^="a39d86dba-"]{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
