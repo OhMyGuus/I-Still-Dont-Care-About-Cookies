@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "compact-online.de": {
+    s: 'div[consent-skip-blocker="1"],dialog[open][aria-modal=true],.aa3f2{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
