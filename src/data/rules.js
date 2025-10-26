@@ -13857,7 +13857,9 @@ const rules = {
   },
   "coolblue.nl": { j: "5" },
   "coolblue.be": { j: "5" },
-  "coolblue.de": { j: "5" },
+  "coolblue.de": {
+    s: '[role="dialog"][aria-hidden="false"],[id^="modal-heading-"],div.css-1du40ve,div.css-mzu0ab,form.css-z44lts,div.css-16jjypw{display:none!important}body{overflow:auto!important}',
+  },
   "visualcrossing.com": { j: "5" },
   "culture.ru": {
     s: "#__next main + div ~ div:last-child,.notify-bar{display:none !important}",
