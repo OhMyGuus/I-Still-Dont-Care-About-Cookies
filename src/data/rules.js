@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "der-it-blog.de": {
+    s: "[id=a664c5b20-e0ba-4bf9-94eb-261e59613ab8],dialog[class*=a6fd2-ext-0-],[class*=a6fd2-2]{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
