@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "neuropraxis-gruenwald.de": {
+    s: "dialog.afb56-ext-0-298,.afb56,.afb56-ext-4-290,.afb56-ext-4-364{display:none!important}html,body{overflow:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
