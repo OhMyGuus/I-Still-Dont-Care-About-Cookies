@@ -14782,7 +14782,9 @@ const rules = {
   "dpa.gr": { c: 112 },
   "ikea.com": { j: "5" },
   "maxaro.nl": { c: 69 },
-  "mydealz.de": { j: "5" },
+  "mydealz.de": {
+    s: ".popover--layout-fixed-bottomSheet,.popover-cover{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}",
+  },
   "dealabs.com": { j: "5" },
   "preisjaeger.at": { j: "5" },
   "chollometro.com": { j: "5" },
