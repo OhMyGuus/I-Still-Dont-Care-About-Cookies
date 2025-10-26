@@ -2995,7 +2995,9 @@ const rules = {
   "lepavelillois.com": { s: "#stickyHeader{display:none !important}" },
   "win3x.org": { c: 1 },
   "greta.shop": { s: "#paragraph_cookie{display:none !important}" },
-  "jpgames.de": { s: "#ingameCookie{display:none !important}" },
+  "jpgames.de": {
+    s: ".a7945,[class*='a7945-ext-']{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
   "lataamo.akuankka.fi": { c: 31 },
   "akuankka.fi": { s: ".cb-container{display:none !important}" },
   "ligna.de": { c: 92 },
