@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "bergzeit.de": {
+    s: "#cookie-disclaimer,.page-overlay{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
