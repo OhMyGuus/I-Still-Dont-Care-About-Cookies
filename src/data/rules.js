@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "wattnschrauber.de": {
+    s: '.a5015,[class*="a5015-ext-"],[id^="ad63a9784-"]{display:none!important}html,body,:root{overflow:auto!important}',
+  },
 
   // end of const rules
 };
