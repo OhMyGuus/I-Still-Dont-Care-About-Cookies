@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "biwenger.as.com": {
+    s: "#didomi-popup,#didomi-host,#acceptationCMPWall{display:none!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
