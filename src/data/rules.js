@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "amateurphotographer.com": {
+    s: "div[id^=sp_message_container_],iframe[id^=sp_message_iframe_]{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
