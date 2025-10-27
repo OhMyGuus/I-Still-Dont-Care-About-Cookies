@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "maengelmelder.essen.de": {
+    s: '#wdw-cookie-consent,.v-easy-dialog--backdrop,[id^="v-easy-dialog--content-"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
