@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "windowspower.de": {
+    s: 'div[id^="a198749ff"][class~="a65bd"],dialog.a65bd-ext-0-303,.a65bd-ext-0-367,.a65bd-ext-2-336,.a65bd-ext-3-269,.a65bd-ext-4-292{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important;position:static!important}',
+  },
 
   // end of const rules
 };
