@@ -389,7 +389,7 @@ function reportWebsite(info, tab, anon, issueType, notes, callback) {
       body: JSON.stringify({
         issueType,
         notes,
-        url: tab.url,
+        url: hostname,
         browser: getBrowserAndVersion(),
         language:
           navigator.language || Intl.DateTimeFormat().resolvedOptions().locale,
