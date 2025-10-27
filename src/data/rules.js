@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "wetransfer.com": {
+    s: "#fides-overlay-wrapper,#fides-banner-container,#fides-embed-container,#fides-banner{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
