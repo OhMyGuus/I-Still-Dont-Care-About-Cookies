@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "friseurlang.com": {
+    s: ".afbf8,[class^=afbf8-ext-],[id^=afbf8-ext-],#eu-cookie-law.hide-on-button{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
