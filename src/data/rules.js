@@ -18856,7 +18856,7 @@ const rules = {
     s: '#termly-code-snippet-support, [class*="termly-styles-consent-banner"], [class*="termly-styles-modal"], .t-consentPrompt, .t-acceptAllButton, .t-preference-button { display: none !important; }',
   },
   "seriouseats.com": {
-    s: "#onetrust-banner-sdk,#onetrust-consent-sdk.show-banner,#onetrust-pc-sdk{display:none!important} html,body,:root{overflow:auto!important;padding-bottom:0!important;height:auto!important}",
+    s: "#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-pc-sdk{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
   "kaucja.pl": {
     s: "#tarteaucitron,#tarteaucitronAlertBig,#tarteaucitronRoot,#tarteaucitronIcon,#tarteaucitronPremium{display:none!important}body{overflow:auto!important}",
