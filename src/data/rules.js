@@ -18058,7 +18058,7 @@ const rules = {
   "jbfo.nl": { j: 5 },
   "sportdeutschland.tv": { j: 5 },
   "rikstoto.no": { j: 5 },
-  "tellows.de": { j: 5 },
+  "tellows.de": { s: "#cmpscreen,#overlay{display:none!important;}" },
   "bokio.se": { j: 5 },
   "piratinviaggio.it": { j: 5 },
   "wakacyjnipiraci.pl": { j: 5 },
