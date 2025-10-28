@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "calibre-ebook.com": {
+    s: "#qc-cmp2-container,#qc-cmp2-main,#qc-cmp2-ui,#more-options-btn,#disagree-btn,#accept-btn{display:none!important}",
+  },
 
   // end of const rules
 };
