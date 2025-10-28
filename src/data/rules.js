@@ -13177,7 +13177,7 @@ const rules = {
   "24sata.hr": { s: "#didomi-host{display:none !important}" },
   "njuskalo.hr": { s: "#didomi-host{display:none !important}" },
   "huffingtonpost.es": {
-    s: 'iframe[src*="cp.huffingtonpost.es/first-layer"], iframe[title*="Contentpass"], iframe[style*="2147483647"], div#didomi-host.didomi-host { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: visible !important; }',
+    s: 'iframe[src*="first-layer"],iframe[src*="contentpass"],iframe[src*="cp.huffingtonpost"],#didomi-host,[class*="didomi-consent-popup"],[class*="didomi-screen"],[class*="didomi-backdrop"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}',
   },
   "independent.ie": {
     s: '#didomi-host,a[onclick*="Didomi.preferences"]{display:none !important}',
