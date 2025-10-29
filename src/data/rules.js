@@ -19030,7 +19030,7 @@ const rules = {
     s: "#shopui-cookie-popup-container, #shopui-cookie-modal-container { display: none !important; }",
   },
   "chatgpt.com": {
-    s: "div[class*=bg-token-main-surface-tertiary],aside:has(a[href$='privacy']),[data-testid='modal-cookie-consent-banner-mobile']{display:none!important}",
+    s: ".bg-token-main-surface-tertiary{display:none!important}div[class*='w-[100vw]'][class*='overflow-hidden']{overflow:visible!important}",
   },
   "inclusiscore.org": { s: "#rgpd{display:none!important}" },
   "hypebeast.com": {
