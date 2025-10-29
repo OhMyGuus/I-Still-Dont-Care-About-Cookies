@@ -18610,7 +18610,7 @@ const rules = {
     s: "div#MainModalDiv.main-modal-div, div.banner-container, div.main-cb.banner-window { display: none !important; }",
   },
   "cadenaser.com": {
-    s: '.c-s > div,iframe[src*="cp.cadenaser.com/first-layer"], #didomi-host.didomi-host, .didomi-host { display: none !important; } body { overflow: visible !important; }',
+    s: 'iframe[src*="cp.cadenaser.com"],[id*="didomi"],[class*="didomi"]{display:none!important}html,body{overflow:auto!important}',
   },
   "tehnomedia.rs": {
     s: ".tm-cookies, a.cookies-toggler#cookies-toggle, a#cookies-necessary, a#cookies-accept { display: none !important; }",
