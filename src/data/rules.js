@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "edition.cnn.com": {
+    s: ":is(#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-pc-sdk){display:none!important;}",
+  },
 
   // end of const rules
 };
