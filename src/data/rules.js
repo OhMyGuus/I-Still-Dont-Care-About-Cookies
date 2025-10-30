@@ -10305,7 +10305,9 @@ const rules = {
   "futurezone.at": { j: "5" },
   "profil.at": { j: "5" },
   "kurier.at": { j: "5" },
-  "omroepbrabant.nl": { j: "5" },
+  "omroepbrabant.nl": {
+    s: "[class*=consent-manager_page-filler],[class*=consent-manager_consent-manager],[class*=consent-manager_container]{display:none!important}",
+  },
   "cloudvps.nl": { j: "5" },
   "transip.nl": { j: "5" },
   "transip.eu": { j: "5" },
