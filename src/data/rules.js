@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "ups.com": {
+    s: "#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-pc-sdk,#ot-pc-content,#ot-anchor{display:none!important}html,body{overflow:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
