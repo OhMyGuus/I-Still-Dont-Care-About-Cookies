@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "galaxus.fr": {
+    s: ':is(#cookieBannerTitle,#cookieBannerDescription,[aria-labelledby="cookieBannerTitle"],.yo7XDsR,.yo7XDsR1,.yo7XDsR2,.yo7XDsR3,.yo7XDsR4,.yo7XDsR7,.yY0MvC5,.ygpSQUW,.yjroWfh){display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
