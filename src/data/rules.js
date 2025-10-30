@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "paramountplus.com": {
+    s: "#onetrust-banner-sdk,#onetrust-consent-sdk,#onetrust-pc-sdk,#ot-sdk-show-settings{display:none!important;visibility:hidden!important;pointer-events:none!important;}",
+  },
 
   // end of const rules
 };
