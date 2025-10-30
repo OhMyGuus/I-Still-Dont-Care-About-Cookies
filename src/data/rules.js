@@ -4937,7 +4937,9 @@ const rules = {
   "drupal.org": { s: "#drupalorg-crosssite-gdpr{display:none !important}" },
   "gosu.ai": { s: "gosu-notification{display:none !important}" },
   "coinsquare.com": { s: "#body ~ div{display:none !important}" },
-  "mapy.geoportal.gov.pl": { j: "5" },
+  "mapy.geoportal.gov.pl": {
+    s: "#cookies-message-container,#cookies-message,#accept-cookies-checkbox{display:none!important}html,body{overflow:auto!important}",
+  },
   "starmoney.de": { s: ".footer-banner-wrap{display:none !important}" },
   "prudential.co.za": {
     s: ".investor-type-box .cookie-policy-text{display:none !important}",
