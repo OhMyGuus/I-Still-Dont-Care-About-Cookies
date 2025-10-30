@@ -19225,7 +19225,7 @@ const rules = {
     j: 5,
   },
   "mesinfos.fr": {
-    s: "#rgpd,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important}",
+    s: "#rgpd,.box-rgpd,.modal-bck.rgpd-bck{display:none!important}body{overflow:auto!important}",
   },
   "lumix-trybeforebuy.eu.panasonic.com": {
     s: ".cc-isolation-container,.cc-bg-white,.cc-font.cc-fixed{display:none!important}",
