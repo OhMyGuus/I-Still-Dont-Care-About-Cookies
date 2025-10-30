@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "amazon.co.uk": {
+    s: "#cos-banner,#sp-cc-wrapper,#sp-cc-header{display:none!important}",
+  },
 
   // end of const rules
 };
