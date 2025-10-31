@@ -19304,6 +19304,9 @@ const rules = {
   "bird.com": {
     s: '[data-framer-name="First Visit - Mobile"],div[style*="position: fixed"][style*="bottom: 0"]{display:none!important}',
   },
+  "farmaciatedin.es": {
+    s: "#alcacookiealert,.alcacookiealert{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
