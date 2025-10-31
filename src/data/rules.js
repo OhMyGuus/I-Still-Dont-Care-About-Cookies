@@ -19292,6 +19292,9 @@ const rules = {
   "taklope.com": {
     s: "#kixell_st,#kstw,#kstpw,.kstp,.kstoverlay{display:none!important} body.kst-popup-shown{overflow:auto!important;padding-right:0!important} html{overflow:visible!important}",
   },
+  "die-fliesenwelt.de": {
+    s: '.pnotify-modal,.pnotify-modal-overlay,[aria-labelledby="cookieManager-title"]{display:none!important}',
+  },
 
   // end of const rules
 };
