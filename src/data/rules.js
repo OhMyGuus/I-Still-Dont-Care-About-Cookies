@@ -19323,6 +19323,9 @@ const rules = {
   "s-jena.de": {
     s: 'div:is([class*="if6_eprivacy"],[class*="if6_outer"])[class*="lightbox"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:visible!important;touch-action:auto!important;pointer-events:auto!important}',
   },
+  "sparkasse-allgaeu.de": {
+    s: ".overlayContainer,.if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible,.if6_outer.if6_lightbox.session-countdown{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
