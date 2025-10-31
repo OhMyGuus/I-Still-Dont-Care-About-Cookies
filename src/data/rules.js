@@ -19244,6 +19244,9 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "techniklieben.de": {
+    s: "#c-pop,.page-overlay{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
