@@ -19301,6 +19301,9 @@ const rules = {
   "heinemann-gruppe.de": {
     s: "#ccBar,#ccBarMain,#ccBarMainInner,#ccBarMore{display:none!important}",
   },
+  "bird.com": {
+    s: '[data-framer-name="First Visit - Mobile"],div[style*="position: fixed"][style*="bottom: 0"]{display:none!important}',
+  },
 
   // end of const rules
 };
