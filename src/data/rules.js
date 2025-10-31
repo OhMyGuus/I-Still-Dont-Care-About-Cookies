@@ -15538,7 +15538,9 @@ const rules = {
   "zugportal.de": { j: "3" },
   "swiss.com": { j: "5" },
   "befirst.info": { s: ".p-cookies{display:none !important}" },
-  "cleveroad.com": { s: ".bZ_vx{display:none !important}" },
+  "cleveroad.com": {
+    s: 'div[style*="overflow: hidden; margin-top: -1px;"]{display:none!important}',
+  },
   "etiskarna.si": { s: ".cookie__content{display:none !important}" },
   "solvimus.de": { j: "6" },
   "archerresourcing.co.uk": { j: "6" },
