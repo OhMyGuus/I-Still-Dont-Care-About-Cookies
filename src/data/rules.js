@@ -15280,7 +15280,7 @@ const rules = {
   "huizenzoeker.nl": { j: "6" },
   "itau.com.br": { s: ".marco-civil-container{display:none !important}" },
   "nordvpn.com": {
-    s: ".CookieConsentExperiment,.CookieConsentV2{display:none !important}",
+    s: "#consent-widget-container,#cookie-consent-widgets,.ConsentWidget,.ConsentWidget__container{display:none!important;}",
   },
   "jw.org": { s: ".lnc-firstRunPopup{display:none !important}" },
   "dndbeyond.com": { j: "6" },
