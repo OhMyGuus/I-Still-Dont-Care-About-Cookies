@@ -19263,6 +19263,9 @@ const rules = {
     s: ".cookie-consent,.cookie-consent-buttons{display:none!important}",
   },
   "coinstats.app": { s: '[class*="CookiesPopup_"]{display:none!important}' },
+  "muh-burger.de": {
+    s: ".cookie-consent,.cookie-consent-buttons,div.background[data-v-45e217ba]{display:none!important}",
+  },
 
   // end of const rules
 };
