@@ -19280,6 +19280,9 @@ const rules = {
   "bresser.de": {
     s: "#ccAcivateModal,.modal-backdrop.fade.show{display:none!important}html,body{overflow:auto!important}",
   },
+  "dielandpartie.de": {
+    s: "#cookieclaimer,#cookieimg{display:none!important}",
+  },
 
   // end of const rules
 };
