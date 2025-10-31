@@ -15280,7 +15280,7 @@ const rules = {
   "huizenzoeker.nl": { j: "6" },
   "itau.com.br": { s: ".marco-civil-container{display:none !important}" },
   "nordvpn.com": {
-    s: ".CookieConsentExperiment,.CookieConsentV2{display:none !important}",
+    s: "#consent-widget-container,#cookie-consent-widgets,.ConsentWidget,.ConsentWidget__container{display:none!important;}",
   },
   "jw.org": { s: ".lnc-firstRunPopup{display:none !important}" },
   "dndbeyond.com": { j: "6" },
@@ -15538,7 +15538,9 @@ const rules = {
   "zugportal.de": { j: "3" },
   "swiss.com": { j: "5" },
   "befirst.info": { s: ".p-cookies{display:none !important}" },
-  "cleveroad.com": { s: ".bZ_vx{display:none !important}" },
+  "cleveroad.com": {
+    s: 'div[style*="overflow: hidden; margin-top: -1px;"]{display:none!important}',
+  },
   "etiskarna.si": { s: ".cookie__content{display:none !important}" },
   "solvimus.de": { j: "6" },
   "archerresourcing.co.uk": { j: "6" },
@@ -17212,7 +17214,9 @@ const rules = {
     s: 'div[class*="tracking-consent"]{display:none !important}',
   },
   "fondsclever.de": { s: "#cWgtCooHin{display:none !important}" },
-  "pascoe.de": { s: ".tx-pascoe-consent-manager{display:none !important}" },
+  "pascoe.de": {
+    s: "#pascoeconsentmanager-container,.pascoeconsentmanager-content{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
   "2captcha.com": {
     s: ".app-level-notifications__item_cookies-policy{display:none !important}",
   },
@@ -18658,7 +18662,7 @@ const rules = {
     s: "div#Cookie-Banner, #Cookie-BannerLabel, #manuell, #manuell_no, #tracking-allow, #tracking-disallow, #tracking-save, div.modal-backdrop, div.modal-backdrop.fade.show { display: none !important; } body.modal-open, body { overflow: auto !important; }",
   },
   "futurasmus-knxgroup.com": {
-    s: '.custom-popup.consient-popup[data-modal^="cookie-"], .custom-popup.consient-popup[data-modal="types-of-consient-popup"], .custom-popup.consient-popup.popup-open, .custom-popup.consient-popup .popup-backdrop { display: none !important; } html, body { overflow: auto !important; }',
+    s: "#cookieConsentModal,#cookieTypesModal,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important}",
   },
   "dtmauto.pl": {
     s: "#cookie-transparency-modal-main, #cookie-transparency-modal-main.modal, .modal-backdrop, .modal-backdrop.fade, .modal-backdrop.show { display: none !important; opacity: 0 !important; visibility: hidden !important; } body { overflow: auto !important; }",
@@ -19245,6 +19249,119 @@ const rules = {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
   "careers.tryhackme.com": { j: 5 },
+  "techniklieben.de": {
+    s: "#c-pop,.page-overlay{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
+  "enzinger.com": {
+    s: "#c-pop,.c-pop{display:none!important}html,body{overflow:auto!important}",
+  },
+  "fanpage.it": {
+    s: ".gdpr-modal,.gdpr-modal__box,.gdpr-modal__box-content,.layer1{display:none!important}",
+  },
+  "yufap.com": {
+    s: "#cookies-content,#cookies-ok,#growl,#mobile-user-menu,[id^='eh']{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
+  "hoteldenhaagwassenaar.nl": {
+    s: "valk-nx-cookie-manager{display:none!important;visibility:hidden!important;pointer-events:none!important}, body.overflow-hidden.fixed.w-full{overflow:auto!important;position:static!important;height:auto!important}",
+  },
+  "himas-doener.de": {
+    s: ".cookie-consent,.cookie-consent-buttons{display:none!important}",
+  },
+  "coinstats.app": { s: '[class*="CookiesPopup_"]{display:none!important}' },
+  "muh-burger.de": {
+    s: ".cookie-consent,.cookie-consent-buttons,div.background[data-v-45e217ba]{display:none!important}",
+  },
+  "mystolzz.de": {
+    s: ".cookie-consent,.cookie-consent-buttons{display:none!important}",
+  },
+  "toroburger.de": {
+    s: '[class*="cookie-consent"], .cookie-consent-buttons{display:none!important;visibility:hidden!important;pointer-events:none!important}',
+  },
+  "tonerweb.no": { s: ".cookie-terms{display:none!important}" },
+  "syntx.ai": { s: ".cookie,.cookie__alert{display:none!important}" },
+  "app.filen.io": {
+    s: ".flex.flex-row.z-50.absolute.bottom-4.right-4,.flex.flex-row.gap-4.p-4.bg-background.border.rounded-sm{display:none!important}body{overflow:visible!important}",
+  },
+  "bresser.de": {
+    s: "#ccAcivateModal,.modal-backdrop.fade.show{display:none!important}html,body{overflow:auto!important}",
+  },
+  "dielandpartie.de": {
+    s: "#cookieclaimer,#cookieimg{display:none!important}",
+  },
+  "steamaster.pl": {
+    s: "#cookie-notification-root,.steamaster-cookie-notify-block,.steamaster-cookie{display:none!important}html,body{overflow:auto!important}",
+  },
+  "produkte.programmieren-starten.de": {
+    s: ".elo-snackbar,.elo-snackbar__content,.elo-snackbar__buttons,#cookies-session-iframe{display:none!important}",
+  },
+  "taklope.com": {
+    s: "#kixell_st,#kstw,#kstpw,.kstp,.kstoverlay{display:none!important} body.kst-popup-shown{overflow:auto!important;padding-right:0!important} html{overflow:visible!important}",
+  },
+  "die-fliesenwelt.de": {
+    s: '.pnotify-modal,.pnotify-modal-overlay,[aria-labelledby="cookieManager-title"]{display:none!important}',
+  },
+  "mensch.dgb.de": {
+    s: ".cookienote_banner,.cookienote_button_container,.cookienote_links{display:none!important}",
+  },
+  "heinemann-gruppe.de": {
+    s: "#ccBar,#ccBarMain,#ccBarMainInner,#ccBarMore{display:none!important}",
+  },
+  "bird.com": {
+    s: '[data-framer-name="First Visit - Mobile"],div[style*="position: fixed"][style*="bottom: 0"]{display:none!important}',
+  },
+  "farmaciatedin.es": {
+    s: "#alcacookiealert,.alcacookiealert{display:none!important}html,body{overflow:auto!important}",
+  },
+  "jobs.jobandtalent.com": {
+    s: "[class^=Overlay__overlay__],[class^=Container__modal__],[class^=Modal__modal__],[class^=Intro__container__],[class^=Actions__container__]{display:none!important}",
+  },
+  "123ink.se": {
+    s: ".bottom-notice,.c-simple-popup,.c-cookie-popup,.c-simple-popup__background{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
+  "sska.de": {
+    s: '[class*="if6_eprivacy"],[class*="if6_lightbox"][class*="lightbox-visible"],[class*="if6_lightbox"][class*="if6_outer"]{display:none!important} html,body{overflow:auto!important}',
+  },
+  "s-jena.de": {
+    s: 'div:is([class*="if6_eprivacy"],[class*="if6_outer"])[class*="lightbox"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:visible!important;touch-action:auto!important;pointer-events:auto!important}',
+  },
+  "sparkasse-allgaeu.de": {
+    s: ".overlayContainer,.if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible,.if6_outer.if6_lightbox.session-countdown{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important;height:auto!important}",
+  },
+  "gramex.dk": {
+    s: '[id^="cookie20-"],[id^="btn-cookie20-accept-"]{display:none!important}html,body{overflow:auto!important}',
+  },
+  "berdsen.pl": {
+    s: "#ciachaModalBackground,#ciachaModal,#ciachaInfoBox{display:none!important}html,body{overflow:auto!important}",
+  },
+  "sparkasse-heilbronn.de": {
+    s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible,form[class^=eprivacy_optin_]{display:none!important}body{overflow:auto!important}",
+  },
+  "suuapinga.com": {
+    s: "#site-overlay,#shopify-section-popup,#shopify-section-popup .popup-content{display:none!important}html,body{overflow:auto!important}",
+  },
+  "maengelmelder.essen.de": {
+    s: "#wdw-cookie-consent,[id^=v-easy-dialog--content],.v-easy-dialog--backdrop{display:none!important}body{overflow:auto!important}html{overflow:visible!important}",
+  },
+  "pietsch-gruppe.de": {
+    s: ".pnotify-modal-overlay,.pnotify-modal-overlay-in,.cookieManagerQ-sm-overlay,.pnotify.pnotify-modal,#cookieManager-title{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
+  "boutique.lesoir.be": {
+    s: "#didomi-host,#didomi-popup,.didomi-popup-backdrop,.didomi-notice-popup,.didomi-popup-container,.ec-notices,.ec-notice,.ec-notice__wrap,.ec-notice__message{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
+  "sparkassedeggendorf.de": {
+    s: ".if6_eprivacy.if6_lightbox.lightbox-visible,.if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible{display:none!important}",
+  },
+  "friseur-hagen.de": {
+    s: ".pkcp,.pkcp-overlay,.pkcp-banner,.pkcp-details,.pkcp-revoke{display:none!important} html,body{overflow:auto!important;touch-action:auto!important}",
+  },
+  "biwenger.as.com": {
+    s: "#didomi-host,#didomi-popup,#acceptationCMPWall,.blockNavigation{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
+  "bitget.com": { s: ".micro-cookie-dialog{display:none!important;}" },
+  "hamburg.leibniz-lib.de": {
+    s: ".p-privacy-settings{display:none!important}html{overflow:auto!important}",
+  },
+
   // end of const rules
 };
 
