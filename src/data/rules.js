@@ -19273,6 +19273,7 @@ const rules = {
     s: '[class*="cookie-consent"], .cookie-consent-buttons{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
   "tonerweb.no": { s: ".cookie-terms{display:none!important}" },
+  "syntx.ai": { s: ".cookie,.cookie__alert{display:none!important}" },
 
   // end of const rules
 };
