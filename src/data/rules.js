@@ -19262,6 +19262,7 @@ const rules = {
   "himas-doener.de": {
     s: ".cookie-consent,.cookie-consent-buttons{display:none!important}",
   },
+  "coinstats.app": { s: '[class*="CookiesPopup_"]{display:none!important}' },
 
   // end of const rules
 };
