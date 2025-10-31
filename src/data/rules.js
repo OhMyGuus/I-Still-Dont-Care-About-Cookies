@@ -19283,6 +19283,9 @@ const rules = {
   "dielandpartie.de": {
     s: "#cookieclaimer,#cookieimg{display:none!important}",
   },
+  "steamaster.pl": {
+    s: "#cookie-notification-root,.steamaster-cookie-notify-block,.steamaster-cookie{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
