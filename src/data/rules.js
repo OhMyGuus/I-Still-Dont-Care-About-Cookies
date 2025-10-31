@@ -19338,6 +19338,9 @@ const rules = {
   "suuapinga.com": {
     s: "#site-overlay,#shopify-section-popup,#shopify-section-popup .popup-content{display:none!important}html,body{overflow:auto!important}",
   },
+  "maengelmelder.essen.de": {
+    s: "#wdw-cookie-consent,[id^=v-easy-dialog--content],.v-easy-dialog--backdrop{display:none!important}body{overflow:auto!important}html{overflow:visible!important}",
+  },
 
   // end of const rules
 };
