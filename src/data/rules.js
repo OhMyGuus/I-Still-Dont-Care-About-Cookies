@@ -19368,6 +19368,9 @@ const rules = {
   "strasbourg-pieces-auto.fr": {
     s: "#rcc-confirm-button,div[class*='inset-x-0'][class*='bottom-0'][class*='border-red-600']{display:none!important}",
   },
+  "born-ermel.eu": {
+    s: ".gedepiar-modal,.gedepiar-info.is-open.is-full-width{display:none!important;}",
+  },
 
   // end of const rules
 };
