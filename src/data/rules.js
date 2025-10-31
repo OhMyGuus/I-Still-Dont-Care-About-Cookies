@@ -19277,6 +19277,9 @@ const rules = {
   "app.filen.io": {
     s: ".flex.flex-row.z-50.absolute.bottom-4.right-4,.flex.flex-row.gap-4.p-4.bg-background.border.rounded-sm{display:none!important}body{overflow:visible!important}",
   },
+  "bresser.de": {
+    s: "#ccAcivateModal,.modal-backdrop.fade.show{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
