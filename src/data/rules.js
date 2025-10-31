@@ -19361,6 +19361,9 @@ const rules = {
   "hamburg.leibniz-lib.de": {
     s: ".p-privacy-settings{display:none!important}html{overflow:auto!important}",
   },
+  "reemploi.be": {
+    s: ".cookies,#cookiesettings,.modal-backdrop,a.cookie-close{display:none!important}",
+  },
 
   // end of const rules
 };
