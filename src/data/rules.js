@@ -19310,6 +19310,9 @@ const rules = {
   "jobs.jobandtalent.com": {
     s: "[class^=Overlay__overlay__],[class^=Container__modal__],[class^=Modal__modal__],[class^=Intro__container__],[class^=Actions__container__]{display:none!important}",
   },
+  "123ink.se": {
+    s: ".bottom-notice,.c-simple-popup,.c-cookie-popup,.c-simple-popup__background{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
