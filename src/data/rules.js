@@ -19289,6 +19289,9 @@ const rules = {
   "produkte.programmieren-starten.de": {
     s: ".elo-snackbar,.elo-snackbar__content,.elo-snackbar__buttons,#cookies-session-iframe{display:none!important}",
   },
+  "taklope.com": {
+    s: "#kixell_st,#kstw,#kstpw,.kstp,.kstoverlay{display:none!important} body.kst-popup-shown{overflow:auto!important;padding-right:0!important} html{overflow:visible!important}",
+  },
 
   // end of const rules
 };
