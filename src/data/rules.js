@@ -19307,6 +19307,9 @@ const rules = {
   "farmaciatedin.es": {
     s: "#alcacookiealert,.alcacookiealert{display:none!important}html,body{overflow:auto!important}",
   },
+  "jobs.jobandtalent.com": {
+    s: "[class^=Overlay__overlay__],[class^=Container__modal__],[class^=Modal__modal__],[class^=Intro__container__],[class^=Actions__container__]{display:none!important}",
+  },
 
   // end of const rules
 };
