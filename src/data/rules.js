@@ -19365,6 +19365,9 @@ const rules = {
     s: ".cookies,#cookiesettings,.modal-backdrop,a.cookie-close{display:none!important}",
   },
   "mainfrankentheater.de": { s: ".dataprotection{display:none!important;}" },
+  "strasbourg-pieces-auto.fr": {
+    s: "#rcc-confirm-button,div[class*='inset-x-0'][class*='bottom-0'][class*='border-red-600']{display:none!important}",
+  },
 
   // end of const rules
 };
