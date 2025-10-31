@@ -19350,6 +19350,9 @@ const rules = {
   "sparkassedeggendorf.de": {
     s: ".if6_eprivacy.if6_lightbox.lightbox-visible,.if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible{display:none!important}",
   },
+  "friseur-hagen.de": {
+    s: ".pkcp,.pkcp-overlay,.pkcp-banner,.pkcp-details,.pkcp-revoke{display:none!important} html,body{overflow:auto!important;touch-action:auto!important}",
+  },
 
   // end of const rules
 };
