@@ -19266,6 +19266,9 @@ const rules = {
   "muh-burger.de": {
     s: ".cookie-consent,.cookie-consent-buttons,div.background[data-v-45e217ba]{display:none!important}",
   },
+  "mystolzz.de": {
+    s: ".cookie-consent,.cookie-consent-buttons{display:none!important}",
+  },
 
   // end of const rules
 };
