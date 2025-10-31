@@ -19398,6 +19398,9 @@ const rules = {
   "gospodarka.dziennik.pl": {
     s: "#cmp,#pushpushgo-form-container.ppg__container,#bhr-items{display:none!important}",
   },
+  "theobjective.com": {
+    s: '[id^="didomi"],#mrf-popup,#onesignal-slidedown-container{display:none!important;pointer-events:none!important;visibility:hidden!important;opacity:0!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
