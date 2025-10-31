@@ -19356,6 +19356,7 @@ const rules = {
   "biwenger.as.com": {
     s: "#didomi-host,#didomi-popup,#acceptationCMPWall,.blockNavigation{display:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
+  "bitget.com": { s: ".micro-cookie-dialog{display:none!important;}" },
 
   // end of const rules
 };
