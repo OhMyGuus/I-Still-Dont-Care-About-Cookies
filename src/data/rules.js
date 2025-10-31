@@ -19364,6 +19364,7 @@ const rules = {
   "reemploi.be": {
     s: ".cookies,#cookiesettings,.modal-backdrop,a.cookie-close{display:none!important}",
   },
+  "mainfrankentheater.de": { s: ".dataprotection{display:none!important;}" },
 
   // end of const rules
 };
