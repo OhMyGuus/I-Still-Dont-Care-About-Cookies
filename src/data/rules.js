@@ -9864,7 +9864,7 @@ const rules = {
   "ellexgk.cz": { c: 154 },
   "boxeez.no": { s: ".bz-no-click{display:none !important}" },
   "finansavisen.no": {
-    s: "#finansavisen-gdpr-disclaimer{display:none !important}",
+    s: "[id^=sp_message_container_],[id^=sp_message_iframe_]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
   "kapital.no": { s: "#finansavisen-gdpr-disclaimer{display:none !important}" },
   "vzajemna.si": { c: 0 },
