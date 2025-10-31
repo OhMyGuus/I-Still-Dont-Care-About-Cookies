@@ -17214,7 +17214,9 @@ const rules = {
     s: 'div[class*="tracking-consent"]{display:none !important}',
   },
   "fondsclever.de": { s: "#cWgtCooHin{display:none !important}" },
-  "pascoe.de": { s: ".tx-pascoe-consent-manager{display:none !important}" },
+  "pascoe.de": {
+    s: "#pascoeconsentmanager-container,.pascoeconsentmanager-content{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
   "2captcha.com": {
     s: ".app-level-notifications__item_cookies-policy{display:none !important}",
   },
