@@ -19247,6 +19247,9 @@ const rules = {
   "techniklieben.de": {
     s: "#c-pop,.page-overlay{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
+  "enzinger.com": {
+    s: "#c-pop,.c-pop{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
