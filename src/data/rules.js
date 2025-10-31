@@ -19383,6 +19383,9 @@ const rules = {
   "club.auto-doc.fr": {
     s: ".gdpr-panel, .gdpr-panel__container-main { display: none !important; } body { overflow: auto !important; }",
   },
+  "liveramp.es": {
+    s: '#ketch-banner,#ketch-consent-banner,div[class*="ketch-fixed"][class*="ketch-top-0"][class*="ketch-bg-ketch-black-black-10"]{display:none!important;pointer-events:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
