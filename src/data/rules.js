@@ -19379,6 +19379,7 @@ const rules = {
   "rettpol.pl": {
     s: '[id^="lgcookieslaw_banner_"],#cookie-info,.cookie-box,.lgcookieslaw-modal,.lgcookieslaw-overlay,#lgcookieslaw_fixed_button,#lgcookieslaw_customize_cookies_link{display:none!important}html,body{overflow:auto!important;touch-action:auto!important;position:static!important}',
   },
+  "visitdallas.com": { s: ".msg--cookie-consent{display:none!important}" },
 
   // end of const rules
 };
