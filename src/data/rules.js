@@ -19335,6 +19335,9 @@ const rules = {
   "sparkasse-heilbronn.de": {
     s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible,form[class^=eprivacy_optin_]{display:none!important}body{overflow:auto!important}",
   },
+  "suuapinga.com": {
+    s: "#site-overlay,#shopify-section-popup,#shopify-section-popup .popup-content{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
