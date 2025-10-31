@@ -19395,6 +19395,9 @@ const rules = {
   "tastyslips.com": {
     s: ".epr-notice.elevation-8,#page-overlay{display:none!important}",
   },
+  "gospodarka.dziennik.pl": {
+    s: "#cmp,#pushpushgo-form-container.ppg__container,#bhr-items{display:none!important}",
+  },
 
   // end of const rules
 };
