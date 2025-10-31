@@ -8401,6 +8401,8 @@ function getSelector(host) {
       return "(//dialog[@aria-labelledby='cookieBannerTitle']//button)[2]";
     case "doctorio.io":
       return "//dialog//a[span[text()='Continue without consent']]";
+    case "careers.tryhackme.com":
+      return "button[data-action='click->common--cookies--alert#disableAll']";
   }
 
   if (host.parts.length > 2) {
