@@ -19253,6 +19253,9 @@ const rules = {
   "fanpage.it": {
     s: ".gdpr-modal,.gdpr-modal__box,.gdpr-modal__box-content,.layer1{display:none!important}",
   },
+  "yufap.com": {
+    s: "#cookies-content,#cookies-ok,#growl,#mobile-user-menu,[id^='eh']{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
