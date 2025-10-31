@@ -19392,6 +19392,9 @@ const rules = {
   "rothco.com": {
     s: ".google-consent-popup,.google-consent-popup-mask,.consent-banner-wrapper,.consent-banner-content{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "tastyslips.com": {
+    s: ".epr-notice.elevation-8,#page-overlay{display:none!important}",
+  },
 
   // end of const rules
 };
