@@ -19259,6 +19259,9 @@ const rules = {
   "hoteldenhaagwassenaar.nl": {
     s: "valk-nx-cookie-manager{display:none!important;visibility:hidden!important;pointer-events:none!important}, body.overflow-hidden.fixed.w-full{overflow:auto!important;position:static!important;height:auto!important}",
   },
+  "himas-doener.de": {
+    s: ".cookie-consent,.cookie-consent-buttons{display:none!important}",
+  },
 
   // end of const rules
 };
