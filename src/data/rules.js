@@ -19373,6 +19373,9 @@ const rules = {
   "born-ermel.eu": {
     s: ".gedepiar-modal,.gedepiar-info.is-open.is-full-width{display:none!important;}",
   },
+  "nak-west.de": {
+    s: "#cookie_settings.modal.open,#ck_container.modal-container,#ck_extended_container.modal-extended{display:none!important;}",
+  },
 
   // end of const rules
 };
