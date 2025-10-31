@@ -19326,6 +19326,9 @@ const rules = {
   "sparkasse-allgaeu.de": {
     s: ".overlayContainer,.if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible,.if6_outer.if6_lightbox.session-countdown{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "gramex.dk": {
+    s: '[id^="cookie20-"],[id^="btn-cookie20-accept-"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
