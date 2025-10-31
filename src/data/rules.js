@@ -19341,6 +19341,9 @@ const rules = {
   "maengelmelder.essen.de": {
     s: "#wdw-cookie-consent,[id^=v-easy-dialog--content],.v-easy-dialog--backdrop{display:none!important}body{overflow:auto!important}html{overflow:visible!important}",
   },
+  "leben-mit-ohne.de": {
+    s: 'div[consent-skip-blocker="1"],dialog[aria-modal="true"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body,#page-container{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
