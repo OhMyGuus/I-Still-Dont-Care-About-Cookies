@@ -19253,6 +19253,9 @@ const rules = {
   "fanpage.it": {
     s: ".gdpr-modal,.gdpr-modal__box,.gdpr-modal__box-content,.layer1{display:none!important}",
   },
+  "gamepro.de": {
+    s: "#didomi-host,#didomi-notice,#cmp-modal,#sidebar-backdrop,#notification-overlay,#lightbox,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
