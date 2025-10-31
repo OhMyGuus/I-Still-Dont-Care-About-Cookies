@@ -19329,6 +19329,9 @@ const rules = {
   "gramex.dk": {
     s: '[id^="cookie20-"],[id^="btn-cookie20-accept-"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "berdsen.pl": {
+    s: "#ciachaModalBackground,#ciachaModal,#ciachaInfoBox{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
