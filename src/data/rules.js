@@ -19344,6 +19344,9 @@ const rules = {
   "pietsch-gruppe.de": {
     s: ".pnotify-modal-overlay,.pnotify-modal-overlay-in,.cookieManagerQ-sm-overlay,.pnotify.pnotify-modal,#cookieManager-title{display:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
+  "boutique.lesoir.be": {
+    s: "#didomi-host,#didomi-popup,.didomi-popup-backdrop,.didomi-notice-popup,.didomi-popup-container,.ec-notices,.ec-notice,.ec-notice__wrap,.ec-notice__message{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
