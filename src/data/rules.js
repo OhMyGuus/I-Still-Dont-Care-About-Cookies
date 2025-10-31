@@ -19401,6 +19401,9 @@ const rules = {
   "theobjective.com": {
     s: '[id^="didomi"],#mrf-popup,#onesignal-slidedown-container{display:none!important;pointer-events:none!important;visibility:hidden!important;opacity:0!important}html,body{overflow:auto!important}',
   },
+  "softtrader.eu": {
+    s: "#popups-holder,#cookie.cookie-warning-modal,#settings.cookie-warning-modal,#show-custom-settings,#accept-all,#accept-functional,#save-custom-settings{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
