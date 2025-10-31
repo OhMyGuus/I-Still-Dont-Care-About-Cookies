@@ -19298,6 +19298,9 @@ const rules = {
   "mensch.dgb.de": {
     s: ".cookienote_banner,.cookienote_button_container,.cookienote_links{display:none!important}",
   },
+  "heinemann-gruppe.de": {
+    s: "#ccBar,#ccBarMain,#ccBarMainInner,#ccBarMore{display:none!important}",
+  },
 
   // end of const rules
 };
