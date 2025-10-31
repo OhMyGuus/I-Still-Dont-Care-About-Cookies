@@ -11564,7 +11564,7 @@ const rules = {
   "fulhamfc.com": { j: "5" },
   "restegourmet.de": { j: "6" },
   "xe.com": {
-    s: '#__next div[class*="ConsentBanner"]{bottom:-100% !important}',
+    s: 'div[class*="sc-3db4b83e-0"][class*="ezPiiq"],section[class*="sc-1cb43183-0"]{display:none!important}',
   },
   "aion.eu": { j: "5" },
   "jovempan.com.br": { s: ".custom-container-lgpd{display:none !important}" },
