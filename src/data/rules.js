@@ -19269,6 +19269,9 @@ const rules = {
   "mystolzz.de": {
     s: ".cookie-consent,.cookie-consent-buttons{display:none!important}",
   },
+  "toroburger.de": {
+    s: '[class*="cookie-consent"], .cookie-consent-buttons{display:none!important;visibility:hidden!important;pointer-events:none!important}',
+  },
 
   // end of const rules
 };
