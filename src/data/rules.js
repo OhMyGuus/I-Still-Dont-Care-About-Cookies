@@ -19295,6 +19295,9 @@ const rules = {
   "die-fliesenwelt.de": {
     s: '.pnotify-modal,.pnotify-modal-overlay,[aria-labelledby="cookieManager-title"]{display:none!important}',
   },
+  "mensch.dgb.de": {
+    s: ".cookienote_banner,.cookienote_button_container,.cookienote_links{display:none!important}",
+  },
 
   // end of const rules
 };
