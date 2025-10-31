@@ -19256,6 +19256,9 @@ const rules = {
   "yufap.com": {
     s: "#cookies-content,#cookies-ok,#growl,#mobile-user-menu,[id^='eh']{display:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
+  "hoteldenhaagwassenaar.nl": {
+    s: "valk-nx-cookie-manager{display:none!important;visibility:hidden!important;pointer-events:none!important}, body.overflow-hidden.fixed.w-full{overflow:auto!important;position:static!important;height:auto!important}",
+  },
 
   // end of const rules
 };
