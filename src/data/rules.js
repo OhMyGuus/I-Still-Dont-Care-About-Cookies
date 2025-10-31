@@ -19376,6 +19376,9 @@ const rules = {
   "nak-west.de": {
     s: "#cookie_settings.modal.open,#ck_container.modal-container,#ck_extended_container.modal-extended{display:none!important;}",
   },
+  "sparkasse-niederbayern-mitte.de": {
+    s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible{display:none!important}",
+  },
 
   // end of const rules
 };
