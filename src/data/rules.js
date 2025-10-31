@@ -19286,6 +19286,9 @@ const rules = {
   "steamaster.pl": {
     s: "#cookie-notification-root,.steamaster-cookie-notify-block,.steamaster-cookie{display:none!important}html,body{overflow:auto!important}",
   },
+  "produkte.programmieren-starten.de": {
+    s: ".elo-snackbar,.elo-snackbar__content,.elo-snackbar__buttons,#cookies-session-iframe{display:none!important}",
+  },
 
   // end of const rules
 };
