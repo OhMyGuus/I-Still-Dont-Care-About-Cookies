@@ -19274,6 +19274,9 @@ const rules = {
   },
   "tonerweb.no": { s: ".cookie-terms{display:none!important}" },
   "syntx.ai": { s: ".cookie,.cookie__alert{display:none!important}" },
+  "app.filen.io": {
+    s: ".flex.flex-row.z-50.absolute.bottom-4.right-4,.flex.flex-row.gap-4.p-4.bg-background.border.rounded-sm{display:none!important}body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
