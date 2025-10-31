@@ -16226,7 +16226,9 @@ const rules = {
   "klachtenkompas.nl": {
     s: 'div[data-test="consent-banner"]{display:none !important}',
   },
-  "huutokaupat.com": { j: "6" },
+  "huutokaupat.com": {
+    s: "#CybotCookiebotDialog,.CybotCookiebotDialogActive,div[class*=CookiebotDialog]{display:none!important}",
+  },
   "mein-eigenheim.de": { s: ".overlay_cookiebanner{display:none !important}" },
   "jetbrains.com": {
     s: ".jetbrains-cookies-banner-3{display:none !important}",
