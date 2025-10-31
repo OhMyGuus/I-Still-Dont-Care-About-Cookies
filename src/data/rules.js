@@ -19341,6 +19341,9 @@ const rules = {
   "maengelmelder.essen.de": {
     s: "#wdw-cookie-consent,[id^=v-easy-dialog--content],.v-easy-dialog--backdrop{display:none!important}body{overflow:auto!important}html{overflow:visible!important}",
   },
+  "pietsch-gruppe.de": {
+    s: ".pnotify-modal-overlay,.pnotify-modal-overlay-in,.cookieManagerQ-sm-overlay,.pnotify.pnotify-modal,#cookieManager-title{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
