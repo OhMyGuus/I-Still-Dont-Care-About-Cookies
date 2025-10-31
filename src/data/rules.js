@@ -19353,6 +19353,9 @@ const rules = {
   "friseur-hagen.de": {
     s: ".pkcp,.pkcp-overlay,.pkcp-banner,.pkcp-details,.pkcp-revoke{display:none!important} html,body{overflow:auto!important;touch-action:auto!important}",
   },
+  "biwenger.as.com": {
+    s: "#didomi-host,#didomi-popup,#acceptationCMPWall,.blockNavigation{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
