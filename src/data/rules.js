@@ -19272,6 +19272,7 @@ const rules = {
   "toroburger.de": {
     s: '[class*="cookie-consent"], .cookie-consent-buttons{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
+  "tonerweb.no": { s: ".cookie-terms{display:none!important}" },
 
   // end of const rules
 };
