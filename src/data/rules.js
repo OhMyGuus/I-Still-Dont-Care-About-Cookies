@@ -19347,6 +19347,9 @@ const rules = {
   "boutique.lesoir.be": {
     s: "#didomi-host,#didomi-popup,.didomi-popup-backdrop,.didomi-notice-popup,.didomi-popup-container,.ec-notices,.ec-notice,.ec-notice__wrap,.ec-notice__message{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "sparkassedeggendorf.de": {
+    s: ".if6_eprivacy.if6_lightbox.lightbox-visible,.if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible{display:none!important}",
+  },
 
   // end of const rules
 };
