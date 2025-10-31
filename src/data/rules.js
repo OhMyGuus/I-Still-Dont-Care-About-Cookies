@@ -19332,6 +19332,9 @@ const rules = {
   "berdsen.pl": {
     s: "#ciachaModalBackground,#ciachaModal,#ciachaInfoBox{display:none!important}html,body{overflow:auto!important}",
   },
+  "sparkasse-heilbronn.de": {
+    s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible,form[class^=eprivacy_optin_]{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
