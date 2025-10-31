@@ -19405,6 +19405,9 @@ const rules = {
     s: "#popups-holder,#cookie.cookie-warning-modal,#settings.cookie-warning-modal,#show-custom-settings,#accept-all,#accept-functional,#save-custom-settings{display:none!important}body{overflow:auto!important}",
   },
   "coco-bar.at": { s: ".cookie-consent,.cookie-close{display:none!important}" },
+  "guide-epargne.be": {
+    s: "#pg-host-shadow-root{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
