@@ -19250,6 +19250,9 @@ const rules = {
   "enzinger.com": {
     s: "#c-pop,.c-pop{display:none!important}html,body{overflow:auto!important}",
   },
+  "fanpage.it": {
+    s: ".gdpr-modal,.gdpr-modal__box,.gdpr-modal__box-content,.layer1{display:none!important}",
+  },
 
   // end of const rules
 };
