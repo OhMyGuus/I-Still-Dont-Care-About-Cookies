@@ -19317,6 +19317,9 @@ const rules = {
   "123ink.se": {
     s: ".bottom-notice,.c-simple-popup,.c-cookie-popup,.c-simple-popup__background{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "sska.de": {
+    s: '[class*="if6_eprivacy"],[class*="if6_lightbox"][class*="lightbox-visible"],[class*="if6_lightbox"][class*="if6_outer"]{display:none!important} html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
