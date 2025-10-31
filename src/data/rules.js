@@ -19376,6 +19376,9 @@ const rules = {
   "nak-west.de": {
     s: "#cookie_settings.modal.open,#ck_container.modal-container,#ck_extended_container.modal-extended{display:none!important;}",
   },
+  "rettpol.pl": {
+    s: '[id^="lgcookieslaw_banner_"],#cookie-info,.cookie-box,.lgcookieslaw-modal,.lgcookieslaw-overlay,#lgcookieslaw_fixed_button,#lgcookieslaw_customize_cookies_link{display:none!important}html,body{overflow:auto!important;touch-action:auto!important;position:static!important}',
+  },
 
   // end of const rules
 };
