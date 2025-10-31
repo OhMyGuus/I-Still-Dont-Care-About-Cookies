@@ -19404,6 +19404,7 @@ const rules = {
   "softtrader.eu": {
     s: "#popups-holder,#cookie.cookie-warning-modal,#settings.cookie-warning-modal,#show-custom-settings,#accept-all,#accept-functional,#save-custom-settings{display:none!important}body{overflow:auto!important}",
   },
+  "coco-bar.at": { s: ".cookie-consent,.cookie-close{display:none!important}" },
 
   // end of const rules
 };
