@@ -19535,9 +19535,7 @@ const rules = {
   "marianos.com": {
     s: '.kds-Modal-overlay,.kds-Modal-overlay--afterOpen.is-open,.kds-Modal.SiteModal-terms_policy_update_notification,.kds-Modal.kds-Modal--afterOpen.is-open,#SiteModalContainer,#PopupModalContainer,div[id^="ZN_"],#onetrust-consent-sdk{display:none!important}html,body{overflow:auto!important;height:auto!important}',
   },
-  "electrissime.fr": {
-    s: "#cookieDisclaimerPopup,#overlay-cookie,.reveal-overlay,.reveal.modal-container{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important;position:static!important}",
-  },
+  "electrissime.fr": { j: 5 },
 
   // end of const rules
 };

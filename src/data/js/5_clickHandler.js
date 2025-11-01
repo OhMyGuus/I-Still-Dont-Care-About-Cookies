@@ -8403,6 +8403,8 @@ function getSelector(host) {
       return "button[data-action='click->common--cookies--alert#disableAll']";
     case "tickets.vws-siegen.de":
       return "//div[@role='dialog'][.//h5[normalize-space()='We use cookies']]//button[@aria-label='Save']";
+    case "electrissime.fr":
+      return "#divCookiesGeneral a[onclick=\"userCookieChoice('0')\"]";
   }
 
   if (host.parts.length > 2) {
