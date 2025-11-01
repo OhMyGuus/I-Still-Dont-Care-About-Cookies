@@ -19499,6 +19499,9 @@ const rules = {
   "tencentcloud.com": {
     s: "#qccomponent-header,#navigationBar,.eea-cookie-tip,.intl-cookie-tip-container{display:none!important}",
   },
+  "wetransfer.com": {
+    s: ".fides-consent-wall,#fides-overlay-wrapper,#fides-banner-container,#fides-banner,#fides-embed-container{display:none!important}body.fides-overlay-modal-link-shown{overflow:auto!important}",
+  },
 
   // end of const rules
 };
