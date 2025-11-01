@@ -19442,6 +19442,9 @@ const rules = {
   "translationsforprogress.org": {
     s: 'div[style*="position:fixed"][style*="bottom:10px"][style*="border:10px solid orange"]{display:none!important}',
   },
+  "busbud.com": {
+    s: ".consent-banner-backdrop,.consent-banner{display:none!important}",
+  },
 
   // end of const rules
 };
