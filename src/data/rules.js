@@ -19477,6 +19477,9 @@ const rules = {
   "4ndreas.net": {
     s: '[consent-skip-blocker],dialog[aria-modal="true"],#a25a89077-3e6a-4df8-a3d4-066ff6e53221,#ac0a7-253,#ac0a7-254{display:none!important}html,body{overflow:auto!important;position:static!important}',
   },
+  "sparkasse-ulm.de": {
+    s: 'div[class*="if6_eprivacy"],div.if6_outer.if6_lightbox.lightbox-visible{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
