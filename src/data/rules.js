@@ -19539,6 +19539,9 @@ const rules = {
   "croatia.hr": {
     s: '#ccc,#ccc-overlay,[id^="ccc-notify"],.ccc-notify,.ccc-notify__notify,.ccc-notify-button{display:none!important;visibility:hidden!important;pointer-events:none!important} body.ccc-disable-scroll{overflow:auto!important;position:static!important;top:auto!important}',
   },
+  "frende.no": {
+    s: "#userNotice-banner-2,#userNotice-title,.userNotice-background,.userNotice-banner{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
