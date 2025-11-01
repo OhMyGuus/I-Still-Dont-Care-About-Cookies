@@ -732,6 +732,14 @@ function getE(hostname) {
       ];
     case "iffmh.de":
       return ["consentmanager-essential='essential only'"];
+    case "autodoc24.ch":
+    case "auto-doc.ch":
+      return [
+        "all_analytics_cookies=denied",
+        "all_marketing_cookies=denied",
+        "analytics_storage=denied",
+        "ad_storage=denied",
+      ];
   }
 
   const parts = hostname.split(".");
