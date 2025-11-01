@@ -19455,6 +19455,7 @@ const rules = {
   "cv-mate.com": {
     s: '[id="radix-:ri:"],[id="radix-:rk:"]{display:none!important}',
   },
+  "xogot.com": { s: "#bannerWrapper,#cookieSettings{display:none!important;}" },
 
   // end of const rules
 };
