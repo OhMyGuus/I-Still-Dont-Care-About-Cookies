@@ -19468,6 +19468,9 @@ const rules = {
   "diejugendherbergen.de": {
     s: ".consent-banny,.consent-banny-content{display:none!important}",
   },
+  "123accu.nl": {
+    s: ".c-simple-popup,.bottom-notice,.c-simple-popup__background,.c-cookie-popup{display:none!important}",
+  },
 
   // end of const rules
 };
