@@ -12900,7 +12900,7 @@ const rules = {
   "delicasaitalia-uk.com": { c: 60 },
   "uk.barclays": { s: ".barclays-consent{display:none !important}" },
   "truecaller.com": {
-    s: '#app > .fixed[class*="bottom"]{display:none !important}',
+    s: 'iframe[src*="cookies.truecaller.com"],div[style*="rgba(0, 0, 0, 0.5)"],div[style*="z-index: 9998"],div[style*="pointer-events: auto"][style*="position: fixed"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}',
   },
   "rsu.de": { j: "5" },
   "rp-online.de": { j: "5" },
