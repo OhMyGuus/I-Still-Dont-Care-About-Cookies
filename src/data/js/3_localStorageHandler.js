@@ -255,6 +255,13 @@ function getItem(hostname) {
           value: "[]",
         },
       ];
+    case "teilauto.net":
+      return {
+        strict: true,
+        key: "ccb_contao_token_1",
+        value:
+          '{"configId":1,"pageId":1,"version":1,"saved":1762026743,"cookies":[]}',
+      };
   }
 
   const parts = hostname.split(".");
