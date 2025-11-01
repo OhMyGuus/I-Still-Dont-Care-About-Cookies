@@ -730,6 +730,8 @@ function getE(hostname) {
         "tibber_cc_performance=rejected",
         "tibber_cc_targeting=rejected",
       ];
+    case "iffmh.de":
+      return ["consentmanager-essential='essential only'"];
   }
 
   const parts = hostname.split(".");
