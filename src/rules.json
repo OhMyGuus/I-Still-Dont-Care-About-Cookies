@@ -7230,7 +7230,10 @@
     "condition": {
       "urlFilter": "myprivacy-static.dpgmedia.net/consent.js",
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "excludedInitiatorDomains": ["myprivacy.dpgmedia.nl"]
+      "excludedInitiatorDomains": [
+        "myprivacy.dpgmedia.nl",
+        "myprivacy.dpgmedia.be"
+      ]
     }
   },
   {
@@ -18558,25 +18561,13 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/_next/static/chunks/cookieOverlay",
-      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
-      "initiatorDomains": ["galaxus.fr"]
-    }
-  },
-  {
-    "id": 1624,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
       "urlFilter": "consent.werner-mertz.de",
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
       "initiatorDomains": ["werner-mertz.de"]
     }
   },
   {
-    "id": 1625,
+    "id": 1624,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18588,7 +18579,7 @@
     }
   },
   {
-    "id": 1626,
+    "id": 1625,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18600,7 +18591,7 @@
     }
   },
   {
-    "id": 1627,
+    "id": 1626,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18612,7 +18603,7 @@
     }
   },
   {
-    "id": 1628,
+    "id": 1627,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18624,7 +18615,7 @@
     }
   },
   {
-    "id": 1629,
+    "id": 1628,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18636,7 +18627,7 @@
     }
   },
   {
-    "id": 1630,
+    "id": 1629,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18648,7 +18639,7 @@
     }
   },
   {
-    "id": 1631,
+    "id": 1630,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18660,7 +18651,7 @@
     }
   },
   {
-    "id": 1632,
+    "id": 1631,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18672,7 +18663,7 @@
     }
   },
   {
-    "id": 1633,
+    "id": 1632,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18684,7 +18675,7 @@
     }
   },
   {
-    "id": 1634,
+    "id": 1633,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18696,7 +18687,7 @@
     }
   },
   {
-    "id": 1635,
+    "id": 1634,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18708,7 +18699,7 @@
     }
   },
   {
-    "id": 1636,
+    "id": 1635,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18720,7 +18711,7 @@
     }
   },
   {
-    "id": 1637,
+    "id": 1636,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18732,7 +18723,7 @@
     }
   },
   {
-    "id": 1638,
+    "id": 1637,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18744,7 +18735,7 @@
     }
   },
   {
-    "id": 1639,
+    "id": 1638,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18756,7 +18747,7 @@
     }
   },
   {
-    "id": 1640,
+    "id": 1639,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18768,7 +18759,7 @@
     }
   },
   {
-    "id": 1641,
+    "id": 1640,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18780,7 +18771,7 @@
     }
   },
   {
-    "id": 1642,
+    "id": 1641,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18792,7 +18783,7 @@
     }
   },
   {
-    "id": 1643,
+    "id": 1642,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18804,7 +18795,7 @@
     }
   },
   {
-    "id": 1644,
+    "id": 1643,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18816,7 +18807,7 @@
     }
   },
   {
-    "id": 1645,
+    "id": 1644,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18828,7 +18819,7 @@
     }
   },
   {
-    "id": 1646,
+    "id": 1645,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18840,7 +18831,7 @@
     }
   },
   {
-    "id": 1647,
+    "id": 1646,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18852,7 +18843,7 @@
     }
   },
   {
-    "id": 1648,
+    "id": 1647,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18864,7 +18855,7 @@
     }
   },
   {
-    "id": 1649,
+    "id": 1648,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18876,7 +18867,7 @@
     }
   },
   {
-    "id": 1650,
+    "id": 1649,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18888,7 +18879,7 @@
     }
   },
   {
-    "id": 1651,
+    "id": 1650,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18900,7 +18891,7 @@
     }
   },
   {
-    "id": 1652,
+    "id": 1651,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18912,7 +18903,7 @@
     }
   },
   {
-    "id": 1653,
+    "id": 1652,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18924,7 +18915,7 @@
     }
   },
   {
-    "id": 1654,
+    "id": 1653,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18936,7 +18927,7 @@
     }
   },
   {
-    "id": 1655,
+    "id": 1654,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18948,7 +18939,7 @@
     }
   },
   {
-    "id": 1656,
+    "id": 1655,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18960,7 +18951,7 @@
     }
   },
   {
-    "id": 1657,
+    "id": 1656,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18972,7 +18963,7 @@
     }
   },
   {
-    "id": 1658,
+    "id": 1657,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18984,7 +18975,7 @@
     }
   },
   {
-    "id": 1659,
+    "id": 1658,
     "priority": 1,
     "action": {
       "type": "block"
@@ -18996,7 +18987,7 @@
     }
   },
   {
-    "id": 1660,
+    "id": 1659,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19008,7 +18999,7 @@
     }
   },
   {
-    "id": 1661,
+    "id": 1660,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19020,7 +19011,7 @@
     }
   },
   {
-    "id": 1662,
+    "id": 1661,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19032,7 +19023,7 @@
     }
   },
   {
-    "id": 1663,
+    "id": 1662,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19044,7 +19035,7 @@
     }
   },
   {
-    "id": 1664,
+    "id": 1663,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19056,7 +19047,7 @@
     }
   },
   {
-    "id": 1665,
+    "id": 1664,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19068,7 +19059,7 @@
     }
   },
   {
-    "id": 1666,
+    "id": 1665,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19080,7 +19071,7 @@
     }
   },
   {
-    "id": 1667,
+    "id": 1666,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19092,7 +19083,7 @@
     }
   },
   {
-    "id": 1668,
+    "id": 1667,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19104,7 +19095,7 @@
     }
   },
   {
-    "id": 1669,
+    "id": 1668,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19116,7 +19107,7 @@
     }
   },
   {
-    "id": 1670,
+    "id": 1669,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19128,7 +19119,7 @@
     }
   },
   {
-    "id": 1671,
+    "id": 1670,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19140,7 +19131,7 @@
     }
   },
   {
-    "id": 1672,
+    "id": 1671,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19152,7 +19143,7 @@
     }
   },
   {
-    "id": 1673,
+    "id": 1672,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19164,7 +19155,7 @@
     }
   },
   {
-    "id": 1674,
+    "id": 1673,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19176,7 +19167,7 @@
     }
   },
   {
-    "id": 1675,
+    "id": 1674,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19188,7 +19179,7 @@
     }
   },
   {
-    "id": 1676,
+    "id": 1675,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19200,7 +19191,7 @@
     }
   },
   {
-    "id": 1677,
+    "id": 1676,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19212,7 +19203,7 @@
     }
   },
   {
-    "id": 1678,
+    "id": 1677,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19224,7 +19215,7 @@
     }
   },
   {
-    "id": 1679,
+    "id": 1678,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19236,7 +19227,7 @@
     }
   },
   {
-    "id": 1680,
+    "id": 1679,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19248,7 +19239,7 @@
     }
   },
   {
-    "id": 1681,
+    "id": 1680,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19260,7 +19251,7 @@
     }
   },
   {
-    "id": 1682,
+    "id": 1681,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19272,7 +19263,7 @@
     }
   },
   {
-    "id": 1683,
+    "id": 1682,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19284,7 +19275,7 @@
     }
   },
   {
-    "id": 1684,
+    "id": 1683,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19296,7 +19287,7 @@
     }
   },
   {
-    "id": 1685,
+    "id": 1684,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19308,7 +19299,7 @@
     }
   },
   {
-    "id": 1686,
+    "id": 1685,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19320,7 +19311,7 @@
     }
   },
   {
-    "id": 1687,
+    "id": 1686,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19332,7 +19323,7 @@
     }
   },
   {
-    "id": 1688,
+    "id": 1687,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19344,7 +19335,7 @@
     }
   },
   {
-    "id": 1689,
+    "id": 1688,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19356,7 +19347,7 @@
     }
   },
   {
-    "id": 1690,
+    "id": 1689,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19368,7 +19359,7 @@
     }
   },
   {
-    "id": 1691,
+    "id": 1690,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19380,7 +19371,7 @@
     }
   },
   {
-    "id": 1692,
+    "id": 1691,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19392,7 +19383,7 @@
     }
   },
   {
-    "id": 1693,
+    "id": 1692,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19404,7 +19395,7 @@
     }
   },
   {
-    "id": 1694,
+    "id": 1693,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19416,7 +19407,7 @@
     }
   },
   {
-    "id": 1695,
+    "id": 1694,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19428,7 +19419,7 @@
     }
   },
   {
-    "id": 1696,
+    "id": 1695,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19440,7 +19431,7 @@
     }
   },
   {
-    "id": 1697,
+    "id": 1696,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19452,7 +19443,7 @@
     }
   },
   {
-    "id": 1698,
+    "id": 1697,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19464,7 +19455,7 @@
     }
   },
   {
-    "id": 1699,
+    "id": 1698,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19476,7 +19467,7 @@
     }
   },
   {
-    "id": 1700,
+    "id": 1699,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19488,7 +19479,7 @@
     }
   },
   {
-    "id": 1701,
+    "id": 1700,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19500,7 +19491,7 @@
     }
   },
   {
-    "id": 1702,
+    "id": 1701,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19512,7 +19503,7 @@
     }
   },
   {
-    "id": 1703,
+    "id": 1702,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19524,7 +19515,7 @@
     }
   },
   {
-    "id": 1704,
+    "id": 1703,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19536,7 +19527,7 @@
     }
   },
   {
-    "id": 1705,
+    "id": 1704,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19548,7 +19539,7 @@
     }
   },
   {
-    "id": 1706,
+    "id": 1705,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19560,7 +19551,7 @@
     }
   },
   {
-    "id": 1707,
+    "id": 1706,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19572,7 +19563,7 @@
     }
   },
   {
-    "id": 1708,
+    "id": 1707,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19584,7 +19575,7 @@
     }
   },
   {
-    "id": 1709,
+    "id": 1708,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19596,7 +19587,7 @@
     }
   },
   {
-    "id": 1710,
+    "id": 1709,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19608,7 +19599,7 @@
     }
   },
   {
-    "id": 1711,
+    "id": 1710,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19620,7 +19611,7 @@
     }
   },
   {
-    "id": 1712,
+    "id": 1711,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19632,7 +19623,7 @@
     }
   },
   {
-    "id": 1713,
+    "id": 1712,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19644,7 +19635,7 @@
     }
   },
   {
-    "id": 1714,
+    "id": 1713,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19656,7 +19647,7 @@
     }
   },
   {
-    "id": 1715,
+    "id": 1714,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19668,7 +19659,7 @@
     }
   },
   {
-    "id": 1716,
+    "id": 1715,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19680,7 +19671,7 @@
     }
   },
   {
-    "id": 1717,
+    "id": 1716,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19692,7 +19683,7 @@
     }
   },
   {
-    "id": 1718,
+    "id": 1717,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19704,7 +19695,7 @@
     }
   },
   {
-    "id": 1719,
+    "id": 1718,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19716,7 +19707,7 @@
     }
   },
   {
-    "id": 1720,
+    "id": 1719,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19728,7 +19719,7 @@
     }
   },
   {
-    "id": 1721,
+    "id": 1720,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19740,7 +19731,7 @@
     }
   },
   {
-    "id": 1722,
+    "id": 1721,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19752,7 +19743,7 @@
     }
   },
   {
-    "id": 1723,
+    "id": 1722,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19764,7 +19755,7 @@
     }
   },
   {
-    "id": 1724,
+    "id": 1723,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19776,7 +19767,7 @@
     }
   },
   {
-    "id": 1725,
+    "id": 1724,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19788,7 +19779,7 @@
     }
   },
   {
-    "id": 1726,
+    "id": 1725,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19800,7 +19791,7 @@
     }
   },
   {
-    "id": 1727,
+    "id": 1726,
     "priority": 1,
     "action": {
       "type": "block"
@@ -19809,6 +19800,18 @@
       "urlFilter": "/cmpApi.js",
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
       "initiatorDomains": ["mobile.de"]
+    }
+  },
+  {
+    "id": 1727,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "js.cookie.min.js",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["secretgermanjodel.com"]
     }
   }
 ]
