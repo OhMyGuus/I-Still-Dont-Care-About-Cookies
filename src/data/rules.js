@@ -19523,6 +19523,9 @@ const rules = {
   "noctua.at": {
     s: "section[aria-modal=true][data-placement=center][id^=_r_],div[data-slot=wrapper],div[class*=bg-overlay]{display:none!important}",
   },
+  "rns.id": {
+    s: '[class*="AgreeCookiePolicy"],[class*="modal-mask"]{display:none!important}html,body,#__next{overflow:auto!important}',
+  },
 
   // end of const rules
 };
