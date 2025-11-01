@@ -19471,6 +19471,9 @@ const rules = {
   "123accu.nl": {
     s: ".c-simple-popup,.bottom-notice,.c-simple-popup__background,.c-cookie-popup{display:none!important}",
   },
+  "shop.hillmangroup.com": {
+    s: "c-osf-cookie-consent[data-component-id^='osfCookieConsent'], .osf-cookie-consent, .osf-cookie-consent_dialog, .osf-cookie-consent_backdrop{display:none!important}",
+  },
 
   // end of const rules
 };
