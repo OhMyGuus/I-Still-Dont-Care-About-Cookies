@@ -11153,7 +11153,7 @@ const rules = {
     s: "#js-gateaux-secs,#gateaux-secs-landing,#um-banner,[id^=sp_message_],.sp-overlay{display:none!important;visibility:hidden!important;pointer-events:none!important} :is(html,body),:is(html,body).sp-message-open{overflow:auto!important;height:auto!important}",
   },
   "icabanken.se": {
-    s: "#blockbackground,#removeOnClose{display:none !important}",
+    s: ".react-aria-ModalOverlay,.react-aria-Modal,.drawer_container__2ol2t,.cookie-consent_content__chefz,.accept-cookies_wrapper__Kb7w8,#backdrop{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
   "labellevie.com": { s: "#confidentiality{display:none !important}" },
   "lcd-compare.com": { j: "5" },
