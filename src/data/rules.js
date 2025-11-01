@@ -19533,6 +19533,9 @@ const rules = {
   "filen.io": { j: 6 },
   "app.filen.io": { j: 3 },
   "vinnova.se": { j: 6 },
+  "bom.gov.au": {
+    s: ".alert-bar.bom-form-alert.bom-form-alert--info:has(a[href*='/privacy']){display:none!important}",
+  },
 
   // end of const rules
 };
