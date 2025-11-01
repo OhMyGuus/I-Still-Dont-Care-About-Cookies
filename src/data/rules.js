@@ -19520,6 +19520,9 @@ const rules = {
   "swu.de": {
     s: "consentissimo-banner,consentissimo-overlay,consentissimo-control{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}",
   },
+  "highdeck.wetransfer.com": {
+    s: ".fides-consent-wall,#fides-overlay-wrapper,#fides-embed-container,#fides-banner-container,#fides-banner,#fides-banner-inner{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
