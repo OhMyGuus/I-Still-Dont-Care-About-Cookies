@@ -19523,6 +19523,9 @@ const rules = {
   "mzk.zgora.pl": {
     s: "div.cookies{display:none!important}body{overflow:auto!important}",
   },
+  "tencentcloud.com": {
+    s: "#qccomponent-header,#navigationBar,.eea-cookie-tip,.intl-cookie-tip-container{display:none!important}",
+  },
 
   // end of const rules
 };
