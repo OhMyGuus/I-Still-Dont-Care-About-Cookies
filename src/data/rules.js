@@ -14918,7 +14918,9 @@ const rules = {
   "west-dunbarton.gov.uk": { j: "5" },
   "n8n.io": { s: ".consent_modal{display:none !important}" },
   "plos.org": { c: 6 },
-  "vodafone.de": { j: "5" },
+  "vodafone.de": {
+    s: "#dip-consent,#dip-consent-container,#dip-consent-summary,.dip-consent,.dip-consent-container,.dip-consent-content{display:none!important} html,body{overflow:auto!important}",
+  },
   "vodafone.es": { j: "5" },
   "skyperfectjsat.space": { s: ".m-box-policy{display:none !important}" },
   "plaque-immatriculation-auto.com": {
