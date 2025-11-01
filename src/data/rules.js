@@ -19462,6 +19462,9 @@ const rules = {
   "lisca.rs": {
     s: ".modals-overlay,.amgdprcookie-modal-container,.amgdprcookie-modal-block,.amgdprcookie-modal-template,#modal-content-13,#amgdprcookie-form,.amgdprcookie-policy-container,.amgdprcookie-buttons-block,#wpn-lightbox-overlay,#wpn-lightbox-content,#wpx-newsletter-popup,#weltpixel_newsletter,#wpn-lightbox-close-newsletter{display:none!important}html,body{overflow:auto!important}",
   },
+  "swu.de": {
+    s: 'consentissimo-banner,div[id^="id-823c51e89"]{display:none!important;visibility:hidden!important;height:0!important;overflow:hidden!important}',
+  },
 
   // end of const rules
 };
