@@ -19536,6 +19536,9 @@ const rules = {
   "bom.gov.au": {
     s: ".alert-bar.bom-form-alert.bom-form-alert--info:has(a[href*='/privacy']){display:none!important}",
   },
+  "croatia.hr": {
+    s: '#ccc,#ccc-overlay,[id^="ccc-notify"],.ccc-notify,.ccc-notify__notify,.ccc-notify-button{display:none!important;visibility:hidden!important;pointer-events:none!important} body.ccc-disable-scroll{overflow:auto!important;position:static!important;top:auto!important}',
+  },
 
   // end of const rules
 };
