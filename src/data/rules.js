@@ -19408,6 +19408,9 @@ const rules = {
   "budapest.com": {
     s: "#privacyConsentModal,.modal-backdrop{display:none!important;visibility:hidden!important;pointer-events:none!important}body.modal-open{overflow:auto!important}",
   },
+  "adidas.com.ph": {
+    s: "#gl-modal__root,.cookie-consent-modal,.gl-modal__dialog,#modal-content,.gl-modal__overlay,.gl-modal__main,.gl-modal__main-content{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;height:0!important;width:0!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
