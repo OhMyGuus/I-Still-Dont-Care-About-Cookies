@@ -223,6 +223,12 @@ function getItem(hostname) {
         key: "cookies-toast-shown",
         value: "true",
       };
+    case "zdf.de":
+      return {
+        strict: false,
+        key: "zdf_cmp_configuration",
+        value: "true",
+      };
   }
 
   const parts = hostname.split(".");
