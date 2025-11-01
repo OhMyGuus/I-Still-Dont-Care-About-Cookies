@@ -19439,6 +19439,9 @@ const rules = {
   "mdbootstrap.com": {
     s: "#accept_cookies_modal,#manage_cookies_modal,#dpl-mdb5-cookies-modal,.modal-backdrop{display:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
+  "translationsforprogress.org": {
+    s: 'div[style*="position:fixed"][style*="bottom:10px"][style*="border:10px solid orange"]{display:none!important}',
+  },
 
   // end of const rules
 };
