@@ -19523,6 +19523,9 @@ const rules = {
     s: "#WWTDialogCookie,#cookieData,.el-dialog__wrapper,.v-modal,.el-dialog{display:none!important}",
   },
   "facealinceste.fr": { s: ".cookie-banner,.overlay{display:none!important}" },
+  "alltheanime.fr": {
+    s: "div.fixed.bottom-0.right-0.m-5{display:none!important}",
+  },
 
   // end of const rules
 };
