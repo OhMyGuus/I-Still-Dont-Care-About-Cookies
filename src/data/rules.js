@@ -18472,7 +18472,9 @@ const rules = {
   "allegro.sk": { j: 5 },
   "banknorwegian.se": { j: 5 },
   "banknorwegian.fi": { j: 5 },
-  "banknorwegian.no": { j: 5 },
+  "banknorwegian.no": {
+    s: 'div[class*="cookieConsentDialog"],.MuiBackdrop-root.MuiModal-backdrop,.MuiDialog-paper{display:none!important}html,body{overflow:auto!important}',
+  },
   "submodica.xyz": { j: 5 },
   "submodica.com": { j: 5 },
   "bestdrive.at": { j: 5 },
