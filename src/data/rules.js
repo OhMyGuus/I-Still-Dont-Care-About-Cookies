@@ -18022,7 +18022,9 @@ const rules = {
   "psinfoodservice.com": { j: 5 },
   "kodinerds.net": { j: 5 },
   "covomo.de": { j: 5 },
-  "movistar.es": { j: 5 },
+  "movistar.es": {
+    s: "#cookies-bar-component,.oneTrustCookie{display:none!important}",
+  },
   "21vek.by": { j: 5 },
   "toonpool.com": { j: 5 },
   "undelucram.ro": { j: 5 },
