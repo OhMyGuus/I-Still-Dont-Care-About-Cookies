@@ -18608,9 +18608,6 @@ const rules = {
   "hd4kwallpapers.com": {
     s: '[aria-labelledby="cookie-title"],[aria-describedby="cookie-description"],[role="dialog"][aria-labelledby="cookie-title"],.fc-consent-root,.fc-dialog-container,.fc-dialog.fc-choice-dialog{display:none !important;pointer-events:none !important;opacity:0 !important;height:0 !important;min-height:0 !important;margin:0 !important;padding:0 !important;} html,body{overflow:auto !important;height:auto !important;}',
   },
-  "spk-mecklenburg-nordwest.de": {
-    s: '.if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible, .if6_outer.if6_eprivacy.if6_lightbox[aria-hidden="false"] { display: none !important; } body.lightbox_visible { overflow: auto !important; touch-action: auto !important; }',
-  },
   "ihk-muenchen.de": {
     s: '#cookie-banner, #cookie-banner-overlay, [id^="cookie-banner"], .cookie-banner { display: none !important; visibility: hidden !important; opacity: 0 !important; } html, body { overflow: auto !important; }',
   },
@@ -18649,9 +18646,6 @@ const rules = {
   },
   "dailyaesthetikz.com": {
     s: ".c-cookie-bar.cookie-bar--is-visible, .cookie-bar__content, .cookie-bar__settings, .cookie-bar__button-holder { display: none !important; } html, body { overflow: auto !important; }",
-  },
-  "sparkasse-oberland.de": {
-    s: ".if6_eprivacy.if6_lightbox, .if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.lightbox_visible { overflow: auto !important; } body.lightbox_visible::before, body.lightbox_visible::after { display: none !important; }",
   },
   "theaterhaus.com": {
     s: '.cookie-manager, .cookie-manager .modal-mask, .cookie-manager .modal-wrapper, .cookie-manager .modal-container { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html[style*="overflow: hidden"], body[style*="overflow: hidden"], html, body { overflow: auto !important; }',
@@ -18765,9 +18759,6 @@ const rules = {
   },
   "accounts.meister.co": {
     s: '[id^="cb-"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }',
-  },
-  "ksk-diepholz.de": {
-    s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible, .if6_eprivacy, .cbox { display: none !important; }",
   },
   "peerko.cz": {
     s: '[class~="CA"], #cookiesDialog, .modal-backdrop { display: none !important; visibility: hidden !important; pointer-events: none !important; } body.is-cookies-bar { overflow: auto !important; }',
@@ -19168,9 +19159,6 @@ const rules = {
   "vb-rb.de": { c: 49, j: 5 },
   "heiligenblut.de": { j: 5 },
   "superbutelki.pl": { j: 5 },
-  "bw-bank.de": {
-    s: ".if6_eprivacy.if6_lightbox.lightbox-visible,.if6_eprivacy .cbox.cbox-medium{display:none!important}html,body{overflow:auto!important}",
-  },
   "getraenke-schaefer.de": {
     s: "#dialog-datenschutz,#modal-body-mask,.modal-popup.large.modal-open,.body-mask,#da-modal,#da-modal-content,#da-modal-info{display:none!important}html,body{overflow:auto!important}",
   },
@@ -19334,23 +19322,11 @@ const rules = {
   "123ink.se": {
     s: ".bottom-notice,.c-simple-popup,.c-cookie-popup,.c-simple-popup__background{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
-  "sska.de": {
-    s: '[class*="if6_eprivacy"],[class*="if6_lightbox"][class*="lightbox-visible"],[class*="if6_lightbox"][class*="if6_outer"]{display:none!important} html,body{overflow:auto!important}',
-  },
-  "s-jena.de": {
-    s: 'div:is([class*="if6_eprivacy"],[class*="if6_outer"])[class*="lightbox"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:visible!important;touch-action:auto!important;pointer-events:auto!important}',
-  },
-  "sparkasse-allgaeu.de": {
-    s: ".overlayContainer,.if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible,.if6_outer.if6_lightbox.session-countdown{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important;height:auto!important}",
-  },
   "gramex.dk": {
     s: '[id^="cookie20-"],[id^="btn-cookie20-accept-"]{display:none!important}html,body{overflow:auto!important}',
   },
   "berdsen.pl": {
     s: "#ciachaModalBackground,#ciachaModal,#ciachaInfoBox{display:none!important}html,body{overflow:auto!important}",
-  },
-  "sparkasse-heilbronn.de": {
-    s: ".if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible,form[class^=eprivacy_optin_]{display:none!important}body{overflow:auto!important}",
   },
   "suuapinga.com": {
     s: "#site-overlay,#shopify-section-popup,#shopify-section-popup .popup-content{display:none!important}html,body{overflow:auto!important}",
@@ -19363,9 +19339,6 @@ const rules = {
   },
   "boutique.lesoir.be": {
     s: "#didomi-host,#didomi-popup,.didomi-popup-backdrop,.didomi-notice-popup,.didomi-popup-container,.ec-notices,.ec-notice,.ec-notice__wrap,.ec-notice__message{display:none!important;visibility:hidden!important;pointer-events:none!important}",
-  },
-  "sparkassedeggendorf.de": {
-    s: ".if6_eprivacy.if6_lightbox.lightbox-visible,.if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible{display:none!important}",
   },
   "friseur-hagen.de": {
     s: ".pkcp,.pkcp-overlay,.pkcp-banner,.pkcp-details,.pkcp-revoke{display:none!important} html,body{overflow:auto!important;touch-action:auto!important}",
@@ -19482,9 +19455,6 @@ const rules = {
   },
   "4ndreas.net": {
     s: '[consent-skip-blocker],dialog[aria-modal="true"],#a25a89077-3e6a-4df8-a3d4-066ff6e53221,#ac0a7-253,#ac0a7-254{display:none!important}html,body{overflow:auto!important;position:static!important}',
-  },
-  "sparkasse-ulm.de": {
-    s: 'div[class*="if6_eprivacy"],div.if6_outer.if6_lightbox.lightbox-visible{display:none!important}html,body{overflow:auto!important}',
   },
   "hplus.ch": {
     s: "#cc_div,#cm,#cm-ov,#cc--main{display:none!important}html,body{overflow:auto!important;height:auto!important}",

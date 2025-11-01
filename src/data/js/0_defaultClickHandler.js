@@ -4,6 +4,8 @@
 
 (function () {
   const searchPairs = {
+    ".if6_eprivacy": [".ebutton > a[data-form*='eprivacy_optin_decline']"],
+
     ".wp-exclude-emoji": [
       'div[id^="bnnr"] > div[style*="; order: 1"] span',
       "a[data-order]:nth-child(2) span",
