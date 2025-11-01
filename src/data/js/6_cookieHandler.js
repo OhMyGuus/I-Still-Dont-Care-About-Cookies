@@ -730,6 +730,8 @@ function getE(hostname) {
         "tibber_cc_performance=rejected",
         "tibber_cc_targeting=rejected",
       ];
+    case "ullstein.de":
+      return ["us_cookieconsent_de=false"];
     case "iffmh.de":
       return ["consentmanager-essential='essential only'"];
     case "autodoc24.ch":

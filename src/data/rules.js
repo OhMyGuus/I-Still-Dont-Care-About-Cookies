@@ -17353,9 +17353,7 @@ const rules = {
   "prozon.com": { s: "#rgpd-popup-container{display:none !important}" },
   "aplikuj.pl": { s: 'div[x-data="cookie"]{display:none !important}' },
   "mybanker.dk": { s: "#mybanker-cookie-consent{display:none !important}" },
-  "ullstein.de": {
-    s: 'div[role="alertdialog"][aria-label*="Cookies"]{display:none !important}',
-  },
+  "ullstein.de": { j: 6 },
   "tehnomanija.rs": { s: ".CookiesConsentSlot{display:none !important}" },
   "kramerguitars.com": { s: "#cookieModal{display:none !important}" },
   "melectronics.ch": {
