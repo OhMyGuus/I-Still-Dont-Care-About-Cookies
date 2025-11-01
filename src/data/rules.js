@@ -19526,6 +19526,9 @@ const rules = {
   "rns.id": {
     s: '[class*="AgreeCookiePolicy"],[class*="modal-mask"]{display:none!important}html,body,#__next{overflow:auto!important}',
   },
+  "lgbtqnation.com": {
+    s: ".wcc-overlay,.wcc-consent-container,.wcc-consent-bar,.wcc-notice,.wcc-notice-group,.wcc-notice-des,.wcc-notice-btn-wrapper,.blackgum-campaign,.Campaign__canvas,[id^=om-]{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
