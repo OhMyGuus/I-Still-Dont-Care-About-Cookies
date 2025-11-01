@@ -19545,6 +19545,9 @@ const rules = {
   "maxicoffee.de": {
     s: ".cookie-statement,#dialogoverlay,.dialog-overlay.cookie-holder{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "owntag.eu": {
+    s: "#consent-banner{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
