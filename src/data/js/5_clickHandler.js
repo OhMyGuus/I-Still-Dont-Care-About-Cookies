@@ -8401,6 +8401,8 @@ function getSelector(host) {
       return "//dialog//a[span[text()='Continue without consent']]";
     case "careers.tryhackme.com":
       return "button[data-action='click->common--cookies--alert#disableAll']";
+    case "tickets.vws-siegen.de":
+      return "//div[@role='dialog'][.//h5[normalize-space()='We use cookies']]//button[@aria-label='Save']";
   }
 
   if (host.parts.length > 2) {
