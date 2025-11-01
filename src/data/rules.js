@@ -19456,6 +19456,7 @@ const rules = {
     s: '[id="radix-:ri:"],[id="radix-:rk:"]{display:none!important}',
   },
   "xogot.com": { s: "#bannerWrapper,#cookieSettings{display:none!important;}" },
+  "yesim.app": { s: "[class*=CookiesAlert_]{display:none!important}" },
 
   // end of const rules
 };
