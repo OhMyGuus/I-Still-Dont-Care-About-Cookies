@@ -19474,6 +19474,9 @@ const rules = {
   "shop.hillmangroup.com": {
     s: "c-osf-cookie-consent[data-component-id^='osfCookieConsent'], .osf-cookie-consent, .osf-cookie-consent_dialog, .osf-cookie-consent_backdrop{display:none!important}",
   },
+  "4ndreas.net": {
+    s: '[consent-skip-blocker],dialog[aria-modal="true"],#a25a89077-3e6a-4df8-a3d4-066ff6e53221,#ac0a7-253,#ac0a7-254{display:none!important}html,body{overflow:auto!important;position:static!important}',
+  },
 
   // end of const rules
 };
