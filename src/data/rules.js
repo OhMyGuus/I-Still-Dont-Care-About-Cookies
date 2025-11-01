@@ -19424,6 +19424,9 @@ const rules = {
   "activa.cz": {
     s: "#js--cookie_consent_banner_container,.cookie_consent_banner_container,.cookie_consent_banner__title,.cookie_consent_banner__text,.cookie_consent_banner__buttons{display:none!important}",
   },
+  "oshop-network.de": {
+    s: ".consent-banner-root,.module-blocker-root,.module-blocker-backdrop,#pbModal,#pbBlocker,.page-blocker-modal,.page-blocker-blocker,.module-blocker-root-grid,.consent-banner-banner{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
