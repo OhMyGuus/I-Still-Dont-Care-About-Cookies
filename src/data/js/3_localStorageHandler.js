@@ -242,6 +242,19 @@ function getItem(hostname) {
         key: "zdf_cmp_configuration",
         value: "true",
       };
+    case "asan.com.pl":
+      return [
+        {
+          strict: false,
+          key: "show_consent_modal",
+          value: "1",
+        },
+        {
+          strict: false,
+          key: "user_consents",
+          value: "[]",
+        },
+      ];
   }
 
   const parts = hostname.split(".");

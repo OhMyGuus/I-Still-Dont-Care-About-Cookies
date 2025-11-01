@@ -19513,6 +19513,7 @@ const rules = {
     j: 6,
   },
   "impuls.lt": { s: "div[data-controller=cookie-bar]{display:none}" },
+  "asan.com.pl": { j: 3 },
 
   // end of const rules
 };
