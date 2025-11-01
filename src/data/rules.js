@@ -19420,6 +19420,7 @@ const rules = {
   "ledperf.ch": {
     s: ".euconsent-background,.euconsent-container{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}",
   },
+  "pdfgear.com": { s: "#termly-code-snippet-support{display:none!important;}" },
 
   // end of const rules
 };
