@@ -11551,7 +11551,9 @@ const rules = {
   "redenacionalderadio.com.br": {
     s: "#viewlet-disclaimer{display:none !important}",
   },
-  "moebel.de": { j: "5" },
+  "moebel.de": {
+    s: '[data-testid="modal-dialog"],[data-testid="modal-dialog"] .pointer-events-auto,[data-testid="modal-overlay"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}',
+  },
   "eqmac.app": { j: "3" },
   "dvdoo.dk": { j: "5" },
   "altibox.no": { j: "5" },
