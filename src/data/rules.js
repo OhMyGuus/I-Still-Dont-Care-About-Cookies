@@ -17354,9 +17354,7 @@ const rules = {
   "prozon.com": { s: "#rgpd-popup-container{display:none !important}" },
   "aplikuj.pl": { s: 'div[x-data="cookie"]{display:none !important}' },
   "mybanker.dk": { s: "#mybanker-cookie-consent{display:none !important}" },
-  "ullstein.de": {
-    s: 'div[class*="sc-dAlyuH"],div[class*="sc-iMWBiJ"],div[class*="sc-aXZVg"],aside[class*="sc-jlZhew"]{display:none!important} :is(html,body,#__next){overflow:auto!important;position:static!important}',
-  },
+  "ullstein.de": { j: 6 },
   "tehnomanija.rs": { s: ".CookiesConsentSlot{display:none !important}" },
   "kramerguitars.com": { s: "#cookieModal{display:none !important}" },
   "melectronics.ch": {
