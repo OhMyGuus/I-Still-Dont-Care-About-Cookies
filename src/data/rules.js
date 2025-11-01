@@ -19431,6 +19431,9 @@ const rules = {
   "framework.scaledagile.com": {
     s: '.mantine-Alert-root[id^="mantine-"],.mantine-Alert-wrapper,.mantine-Alert-body,.mantine-Alert-message{display:none!important}',
   },
+  "deiters.de": {
+    s: ".cookie-modal,.cookie-permission-container,.modal-backdrop{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}body.modal-open{padding-right:0!important}",
+  },
 
   // end of const rules
 };
