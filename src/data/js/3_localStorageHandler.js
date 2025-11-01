@@ -223,6 +223,19 @@ function getItem(hostname) {
         key: "cookies-toast-shown",
         value: "true",
       };
+    case "mediathekviewweb.de":
+      return [
+        {
+          strict: false,
+          key: "allowCookies",
+          value: false,
+        },
+        {
+          strict: false,
+          key: "allowCookiesAsked",
+          value: 9999999999999,
+        },
+      ];
     case "zdf.de":
       return {
         strict: false,
