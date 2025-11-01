@@ -5067,8 +5067,6 @@ function getSelector(host) {
       return _sl(
         ".v-dialog__content--active .ui-cookie-consent button.primary"
       );
-    case "tibber.com":
-      return _chain("#__next .Consent .save", "#__next .Consent .save");
     case "vorteile.net":
       return _sl(".consent-modal--show .js-accept");
     case "generali.at":
