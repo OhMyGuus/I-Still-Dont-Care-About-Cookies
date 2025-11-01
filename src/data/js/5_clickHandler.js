@@ -716,7 +716,7 @@ function getSelector(host) {
     case "jastrzabpost.pl":
     case "homebook.pl":
     case "nauka.rocks":
-      return _ev("button[contains(., 'PRZECHODZ')]");
+      return _ev("button[contains(., 'przechodzę')]");
 
     case "octapharma.com":
       e = _sl("#assistant-paper button");
