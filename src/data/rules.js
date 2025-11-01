@@ -19526,6 +19526,9 @@ const rules = {
   "alltheanime.fr": {
     s: "div.fixed.bottom-0.right-0.m-5{display:none!important}",
   },
+  "auto-doc.ch": {
+    s: ".overlay,.notification-popup,.popup.popup--notification{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
