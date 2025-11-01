@@ -19532,6 +19532,9 @@ const rules = {
   "lagofast.com": {
     s: 'div[class*="fixed"]:is([class*="w-[420px]"],[class*="bg-[#393939]"]){display:none!important}',
   },
+  "trabzonspor.org.tr": {
+    s: 'div:is([class*="fixed"][class*="bottom-0"][class*="bg-white"][class*="w-full"],[class*="absolute"][class*="inset-0"][class*="opacity-60"]){display:none!important;}',
+  },
 
   // end of const rules
 };
