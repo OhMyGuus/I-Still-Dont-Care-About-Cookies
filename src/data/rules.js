@@ -19529,6 +19529,7 @@ const rules = {
   "auto-doc.ch": { j: 6 },
   "autodoc24.ch": { j: 6 },
   "galaxus.fr": { j: 6 },
+  "tickets.vws-siegen.de": { j: 5 },
 
   // end of const rules
 };
