@@ -19508,6 +19508,9 @@ const rules = {
   "hamradiodeluxe.com": {
     s: "#uc-cookie-notice,.uc-cookie-notice,.uc-cookie-notice-head,.cookie-notice-text,.reveal-overlay,a#uc-cookie-notice-closer{display:none!important}",
   },
+  "economist.com": {
+    s: "[class*=cookie-notice],.js-cmp-manage-cookies{display:none!important}footer[data-testid=footer]{padding-bottom:0!important}",
+  },
 
   // end of const rules
 };
