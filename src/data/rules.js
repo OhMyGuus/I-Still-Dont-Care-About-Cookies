@@ -19506,6 +19506,9 @@ const rules = {
   "archonfirearms.com": {
     s: ".wpcb-container,.wpcb-message{display:none!important}",
   },
+  "testefiorite.it": {
+    s: '[consent-skip-blocker="1"],dialog[aria-modal="true"].a4dbb-2{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body,document.documentElement{overflow:auto!important}',
+  },
 
   // end of const rules
 };
