@@ -19520,6 +19520,9 @@ const rules = {
   "swu.de": {
     s: "consentissimo-banner,consentissimo-overlay,consentissimo-control{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}",
   },
+  "sparkasse-nuernberg.de": {
+    s: ".if6_eprivacy,.if6_lightbox{display:none!important}",
+  },
 
   // end of const rules
 };
