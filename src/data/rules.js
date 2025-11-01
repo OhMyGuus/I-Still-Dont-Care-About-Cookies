@@ -19528,6 +19528,9 @@ const rules = {
   },
   "auto-doc.ch": { j: 6 },
   "autodoc24.ch": { j: 6 },
+  "galaxus.fr": {
+    s: "dialog[aria-labelledby=cookieBannerTitle],#cookieBannerTitle,#cookieBannerDescription{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
