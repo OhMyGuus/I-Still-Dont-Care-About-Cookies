@@ -17817,7 +17817,9 @@ const rules = {
   "perplexity.ai": {
     s: ".fixed.bottom-sm.left-sm.bg-background{display:none !important}",
   },
-  "pkgs.org": { s: "#consent_notice{display:none !important}" },
+  "pkgs.org": {
+    s: "#consent-notice{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
   "smartthingsfind.samsung.com": {
     s: ".fixed.bottom-0{display:none !important}",
   },
