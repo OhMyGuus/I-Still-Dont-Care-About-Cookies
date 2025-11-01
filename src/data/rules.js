@@ -13983,7 +13983,9 @@ const rules = {
   "getrad.co": { s: ".cookie-policy-modal{display:none !important}" },
   "contino.io": { s: "main ~ footer ~ div{display:none !important}" },
   "rockstargames.com": { s: "main ~ footer ~ div{display:none !important}" },
-  "vroomly.com": { j: "5" },
+  "vroomly.com": {
+    s: ".ReactModalPortal,.ReactModal__Overlay,.ReactModal__Content{display:none!important}html,body.ReactModal__Body--open{overflow:visible!important}",
+  },
   "talkingtomandfriends.com": {
     s: "#cookie-settings{display:none !important}",
   },
