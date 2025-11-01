@@ -19538,6 +19538,9 @@ const rules = {
   "marathon-sport.de": {
     s: "#incms-dpbanner,.incms-dpbanner{display:none!important}html,body{overflow:auto!important}",
   },
+  "norsk-tipping.no": {
+    s: "#headlessui-portal-root,[id^=headlessui-dialog]{display:none!important} html,body{overflow:auto!important;-webkit-overflow-scrolling:touch!important}",
+  },
 
   // end of const rules
 };
