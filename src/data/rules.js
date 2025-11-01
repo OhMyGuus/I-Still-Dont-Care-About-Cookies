@@ -19499,6 +19499,9 @@ const rules = {
   "tencentcloud.com": {
     s: "#qccomponent-header,#navigationBar,.eea-cookie-tip,.intl-cookie-tip-container{display:none!important}",
   },
+  "croatia.hr": {
+    s: '#ccc,#ccc-overlay,[id^="ccc-notify"],.ccc-notify,.ccc-notify__notify,.ccc-notify-button{display:none!important;visibility:hidden!important;pointer-events:none!important} body.ccc-disable-scroll{overflow:auto!important;position:static!important;top:auto!important}',
+  },
 
   // end of const rules
 };
