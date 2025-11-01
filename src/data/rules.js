@@ -8642,9 +8642,7 @@ const rules = {
   },
   "latendresseencuisine.com": { s: ".mdc-snackbar{display:none !important}" },
   "realm667.com": { j: "5" },
-  "mediathekviewweb.de": {
-    s: "dialog[open]{display:none!important}dialog[open]::backdrop{background:transparent!important;pointer-events:none!important}",
-  },
+  "mediathekviewweb.de": { j: "3" },
   "virginaustralia.com": { j: "5" },
   "cnam-bretagne.fr": { s: ".ojc_consent{display:none !important}" },
   "sendgb.com": { j: "5" },
