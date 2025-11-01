@@ -740,6 +740,8 @@ function getE(hostname) {
         "analytics_storage=denied",
         "ad_storage=denied",
       ];
+    case "galaxus.fr":
+      return [".consent=fu0-ma0-pe0"];
   }
 
   const parts = hostname.split(".");

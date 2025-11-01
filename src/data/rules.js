@@ -19528,9 +19528,7 @@ const rules = {
   },
   "auto-doc.ch": { j: 6 },
   "autodoc24.ch": { j: 6 },
-  "galaxus.fr": {
-    s: "dialog[aria-labelledby=cookieBannerTitle],#cookieBannerTitle,#cookieBannerDescription{display:none!important}html,body{overflow:auto!important}",
-  },
+  "galaxus.fr": { j: 6 },
 
   // end of const rules
 };
@@ -21614,7 +21612,6 @@ const blockUrls = {
     "zs-watch.com": ["/dtc-fe/policy-control"],
     "loveholidays.ie": ["cookies.js"],
     "georg.at": ["/inc/cookie_modal_ajax.php"],
-    "galaxus.fr": ["/_next/static/chunks/cookieOverlay"],
     "werner-mertz.de": ["consent.werner-mertz.de"],
     "corporate.modivo.com": ["/dist/js/cmp.js"],
     "jimms.fi": ["/jimmsconsent"],
