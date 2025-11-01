@@ -19532,6 +19532,9 @@ const rules = {
   "autodoc24.ch": { j: 6 },
   "galaxus.fr": { j: 6 },
   "tickets.vws-siegen.de": { j: 5 },
+  "marianos.com": {
+    s: '.kds-Modal-overlay,.kds-Modal-overlay--afterOpen.is-open,.kds-Modal.SiteModal-terms_policy_update_notification,.kds-Modal.kds-Modal--afterOpen.is-open,#SiteModalContainer,#PopupModalContainer,div[id^="ZN_"],#onetrust-consent-sdk{display:none!important}html,body{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
