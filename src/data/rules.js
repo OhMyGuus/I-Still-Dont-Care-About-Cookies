@@ -16006,9 +16006,7 @@ const rules = {
   "gruporesolve.com.br": { s: "#over-cookies{display:none !important}" },
   "podarujwigilie.pl": { s: "footer ~ div{display:none !important}" },
   "band.us": { s: ".bcm_bandCookieModuleWrap{display:none !important}" },
-  "filen.io": {
-    s: 'div:is([class*="backdrop-blur-2xl"],[class*="fixed"][class*="bottom-4"][class*="z-50"]){display:none!important}',
-  },
+  "filen.io": { j: 6 },
   "olvg.nl": {
     s: "#gdpr-selection-screen{display:none !important}",
     c: 85,
