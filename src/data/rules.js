@@ -19529,6 +19529,9 @@ const rules = {
   "auto-doc.ch": { j: 6 },
   "autodoc24.ch": { j: 6 },
   "galaxus.fr": { j: 6 },
+  "tickets.vws-siegen.de": {
+    s: 'div[class*="MuiDialog-"],div[class*="MuiBackdrop-root"]{display:none!important}body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
