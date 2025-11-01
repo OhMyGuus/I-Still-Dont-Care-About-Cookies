@@ -5937,7 +5937,7 @@ const rules = {
   "cartegie.com": { s: "#modal-overlay{display:none !important}" },
   "framatube.org": { s: ".row.privacy-concerns{display:none !important}" },
   "insurancebusinessmag.com": {
-    s: ".notification_strip{display:none !important}",
+    s: "#termly-code-snippet-support, .t-consentPrompt, .termly-styles-root-b0aebb { display: none !important; }",
   },
   "architecturalrecord.com": { j: "6" },
   "friv-games.com": { c: 34 },
