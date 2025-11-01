@@ -19457,6 +19457,9 @@ const rules = {
   },
   "xogot.com": { s: "#bannerWrapper,#cookieSettings{display:none!important;}" },
   "yesim.app": { s: "[class*=CookiesAlert_]{display:none!important}" },
+  "lisca.rs": {
+    s: ".modals-overlay,.amgdprcookie-modal-container,.amgdprcookie-modal-block,.amgdprcookie-modal-template,#modal-content-13,#amgdprcookie-form,.amgdprcookie-policy-container,.amgdprcookie-buttons-block,#wpn-lightbox-overlay,#wpn-lightbox-content,#wpx-newsletter-popup,#weltpixel_newsletter,#wpn-lightbox-close-newsletter{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
