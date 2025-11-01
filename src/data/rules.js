@@ -19514,6 +19514,9 @@ const rules = {
   "xplay.gg": {
     s: "div[class^=sc-8e67d2a3-]{display:none!important}body{overflow:auto!important}",
   },
+  "vosmms.com": {
+    s: "#CkC{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
