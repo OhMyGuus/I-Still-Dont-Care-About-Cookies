@@ -264,7 +264,7 @@ function getItem(hostname) {
       };
     case "app.filen.io":
       return {
-        strict: false,
+        strict: true,
         key: "cookieConsent",
         value: '"needed"',
       };
