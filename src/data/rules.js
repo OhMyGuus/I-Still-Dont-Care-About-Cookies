@@ -19508,6 +19508,7 @@ const rules = {
   "gemeinde-schipkau.de": {
     j: 6,
   },
+  "impuls.lt": { s: "div[data-controller=cookie-bar]{display:none}" },
 
   // end of const rules
 };
