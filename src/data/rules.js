@@ -19502,6 +19502,9 @@ const rules = {
   "flexispot.es": {
     s: ":is(#gdprMask,#cmpbox,#cmpboxcontent,#cmpboxrecall){display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}",
   },
+  "myprivacy.dpgmedia.be": {
+    s: ".dpg-dummy-cookie-consent{display:none!important}",
+  },
 
   // end of const rules
 };
