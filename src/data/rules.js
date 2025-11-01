@@ -19522,6 +19522,7 @@ const rules = {
   "winwingsim.com": {
     s: "#WWTDialogCookie,#cookieData,.el-dialog__wrapper,.v-modal,.el-dialog{display:none!important}",
   },
+  "facealinceste.fr": { s: ".cookie-banner,.overlay{display:none!important}" },
 
   // end of const rules
 };
