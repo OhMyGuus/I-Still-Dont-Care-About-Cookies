@@ -17540,7 +17540,9 @@ const rules = {
   "suhrkamp.de": { s: "#whcm{display:none !important}" },
   "gov.in": { s: ".cookies-wrapper{display:none !important}" },
   "moneytalksnews.com": { s: "#footer-overlay{display:none !important}" },
-  "mango.com": { c: 2 },
+  "mango.com": {
+    s: 'dialog.CookiesWrapper_cookiesWrapper__935Oq,.CookiesNotice_cookiesNotice__sV3MZ{display:none!important}body[style*="position: fixed"]{position:static!important;top:auto!important;overflow:auto!important}',
+  },
   "koenigsegg.com": {
     s: 'section[data-component*="cookie-notice"]{display:none !important}',
   },
