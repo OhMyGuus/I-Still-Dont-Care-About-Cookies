@@ -19514,7 +19514,7 @@ const rules = {
   },
   "impuls.lt": { s: "div[data-controller=cookie-bar]{display:none}" },
   "asan.com.pl": { j: 3 },
-  "teilauto.net": { s: ".contao-cookiebar{display:none!important}" },
+  "teilauto.net": { j: 3 },
 
   // end of const rules
 };
