@@ -19532,6 +19532,7 @@ const rules = {
   "electrissime.fr": { j: 5 },
   "filen.io": { j: 6 },
   "app.filen.io": { j: 3 },
+  "vinnova.se": { j: 6 },
 
   // end of const rules
 };
