@@ -15300,7 +15300,9 @@ const rules = {
   "education.lego.com": { j: "6" },
   "bonobology.com": { s: ".dialog-widget-content{display:none !important}" },
   "bodypak.pl": { s: ".pop-cookiebox{display:none !important}" },
-  "beurer.se": { j: "6" },
+  "beurer.se": {
+    s: "#cookie-consent-modal,#mm-blocker,#lightbox,#lightboxOverlay,.lightboxOverlay,#mobile-menu.mm-pagedim-black,.modal-backdrop{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
   "arsys.es": { s: 'div[name="cookies"]{display:none !important}' },
   "swb-busundbahn.de": { c: 85 },
   "uni-mozarteum.at": { j: "6" },
