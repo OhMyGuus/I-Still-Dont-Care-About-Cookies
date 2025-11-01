@@ -7381,7 +7381,6 @@ function getSelector(host) {
     case "kicker.ch":
     case "kicker.de":
       return '.fancybox-container[style*="block"] a[onclick*="acceptAllConsents"]';
-    case "zdf.de":
     case "3sat.de":
       return '#zdf-cmp-consent-sdk[style*="block"] #zdf-cmp-deny-btn';
     case "all3dp.com":
