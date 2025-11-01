@@ -19532,6 +19532,9 @@ const rules = {
   "electrissime.fr": { j: 5 },
   "filen.io": { j: 6 },
   "app.filen.io": { j: 3 },
+  "vinnova.se": {
+    s: "#modal-container,#modal-container .remodal-overlay,#modal-container .remodal-wrapper,#modal-container .remodal,.component-lightbox.component-lightbox-gdpr,article.remodal{display:none!important;visibility:hidden!important;pointer-events:none!important}html.remodal-is-locked,body{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
