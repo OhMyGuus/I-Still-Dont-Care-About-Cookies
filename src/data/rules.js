@@ -12684,7 +12684,9 @@ const rules = {
   "rueducommerce.fr": { j: "5" },
   "smdv.de": { j: "5" },
   "digitalo.de": { j: "5" },
-  "voelkner.de": { j: "5" },
+  "voelkner.de": {
+    s: "#js_country_redirect_popup,#js_reveal_cookie_content,#disable_customer_group,.reveal__overlay,.js_off_canvas__overlay{display:none!important}html,body{overflow:auto!important}",
+  },
   "getgoods.com": { j: "5" },
   "acquire.io": { s: ".home-announcement{display:none !important}" },
   "joom.com": {
