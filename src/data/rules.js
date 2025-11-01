@@ -19517,6 +19517,9 @@ const rules = {
   "vosmms.com": {
     s: "#CkC{display:none!important}html,body{overflow:auto!important}",
   },
+  "swu.de": {
+    s: "consentissimo-banner,consentissimo-overlay,consentissimo-control{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
