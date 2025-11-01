@@ -19417,6 +19417,9 @@ const rules = {
   "mapa.targeo.pl": {
     s: "[id^=cookiescript]{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "ledperf.ch": {
+    s: ".euconsent-background,.euconsent-container{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
