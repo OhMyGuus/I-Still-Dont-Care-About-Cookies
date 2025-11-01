@@ -19541,6 +19541,7 @@ const rules = {
   "norsk-tipping.no": {
     s: "#headlessui-portal-root,[id^=headlessui-dialog]{display:none!important} html,body{overflow:auto!important;-webkit-overflow-scrolling:touch!important}",
   },
+  "uncutnews.ch": { s: "#CooDialog{display:none!important}" },
 
   // end of const rules
 };
