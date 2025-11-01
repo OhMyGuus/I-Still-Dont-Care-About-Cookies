@@ -16699,7 +16699,7 @@ const rules = {
   },
   "afilio.de": { s: ".component-c-overlay{display:none !imp ortant}" },
   "turkishairlines.com": {
-    s: "#cookieWarningMessageNew{display:none !important}",
+    s: ":is([id^=sec-],#allowCookiesButton,#notAllowCookiesButton,#changeCookiesSettingsButton,[class*=cookie-warning],[class*=overlay]){display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
   "olerum.de": {
     s: ".cookiemessagebackground{display:none !important}",
