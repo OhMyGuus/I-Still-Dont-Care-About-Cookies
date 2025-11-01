@@ -19503,6 +19503,9 @@ const rules = {
   "navicat.com": {
     s: ".consent-banner-background,.consent-banner{display:none!important}html,body{overflow:auto!important}",
   },
+  "archonfirearms.com": {
+    s: ".wpcb-container,.wpcb-message{display:none!important}",
+  },
 
   // end of const rules
 };
