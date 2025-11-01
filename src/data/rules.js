@@ -11065,7 +11065,9 @@ const rules = {
   "timberland.com.tw": {
     s: ".container-component > .dialog ~ div:last-child{display:none !important}",
   },
-  "tibber.com": { j: "5", s: ".privacyButton{display:none !important}" },
+  "tibber.com": {
+    s: '[class*="CookieConsent_"],[class*="ConsentForm_"]{display:none!important;visibility:hidden!important;pointer-events:none!important}body[style*="overflow: hidden"]{overflow:auto!important}',
+  },
   "tesa.com": { j: "6" },
   "tapir-store.de": { s: ".cs-cookie__wrapper{display:none !important}" },
   "quora.com": {
