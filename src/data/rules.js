@@ -19491,6 +19491,9 @@ const rules = {
   "tescoinsurance.com": {
     s: "#ensNotifyBanner,#ensPrivacyBlock,#ensModalWrapper{display:none!important} html,body{overflow:auto!important}",
   },
+  "tescobank.com": {
+    s: "#ensPrivacyBlock,#ensNotifyBanner,#ensModalWrapper{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
