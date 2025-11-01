@@ -19514,6 +19514,9 @@ const rules = {
   },
   "impuls.lt": { s: "div[data-controller=cookie-bar]{display:none}" },
   "asan.com.pl": { j: 3 },
+  "frende.no": {
+    s: "#userNotice-banner-2,#userNotice-title,.userNotice-background,.userNotice-banner{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
