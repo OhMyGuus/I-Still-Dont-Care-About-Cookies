@@ -15173,9 +15173,6 @@ const rules = {
   },
   "notify.events": { j: "6" },
   "pricewise.nl": { j: "6" },
-  "apotheke-villingen.de": {
-    s: "#elementor-popup-modal-710{display:none!important}",
-  },
   "pngwebicons.com": { s: "#myModal{display:none!important}" },
   "lokalplus.nrw": { j: "6" },
   "passadena.gr": { c: 6 },
