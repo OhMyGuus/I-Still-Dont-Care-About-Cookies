@@ -19414,6 +19414,9 @@ const rules = {
   "stoneline.de": {
     s: "#ccAcivateModal,#ccSettings,.cookie-consent-setting-container,.cookie-consent-accept-button,.cookie-consent-accept-only-functional-button,.cookie-consent-button-margin,.cookie-consent-group-collapse,.modal-backdrop{display:none!important}body{overflow:auto!important}",
   },
+  "mapa.targeo.pl": {
+    s: "[id^=cookiescript]{display:none!important} html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
