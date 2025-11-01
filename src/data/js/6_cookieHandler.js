@@ -718,6 +718,20 @@ function getE(hostname) {
       return ["show_consent_modal=1"];
     case "rosenheim.de":
       return ["in2cookiemodal-selection=[%22essential%22]"];
+    case "gemeinde-schipkau.de":
+      return [
+        "cookieconsent=technical",
+        "cookieconsentTimestamp=9999999999999",
+      ];
+    case "tibber.com":
+      return [
+        "tibber_cc_essential=approved",
+        "tibber_cc_functional=rejected",
+        "tibber_cc_performance=rejected",
+        "tibber_cc_targeting=rejected",
+      ];
+    case "iffmh.de":
+      return ["consentmanager-essential='essential only'"];
   }
 
   const parts = hostname.split(".");

@@ -11065,7 +11065,7 @@ const rules = {
   "timberland.com.tw": {
     s: ".container-component > .dialog ~ div:last-child{display:none !important}",
   },
-  "tibber.com": { j: "5", s: ".privacyButton{display:none !important}" },
+  "tibber.com": { j: "6" },
   "tesa.com": { j: "6" },
   "tapir-store.de": { s: ".cs-cookie__wrapper{display:none !important}" },
   "quora.com": {
@@ -11551,7 +11551,9 @@ const rules = {
   "redenacionalderadio.com.br": {
     s: "#viewlet-disclaimer{display:none !important}",
   },
-  "moebel.de": { j: "5" },
+  "moebel.de": {
+    s: '[data-testid="modal-dialog"],[data-testid="modal-dialog"] .pointer-events-auto,[data-testid="modal-overlay"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}',
+  },
   "eqmac.app": { j: "3" },
   "dvdoo.dk": { j: "5" },
   "altibox.no": { j: "5" },
@@ -13983,7 +13985,9 @@ const rules = {
   "getrad.co": { s: ".cookie-policy-modal{display:none !important}" },
   "contino.io": { s: "main ~ footer ~ div{display:none !important}" },
   "rockstargames.com": { s: "main ~ footer ~ div{display:none !important}" },
-  "vroomly.com": { j: "5" },
+  "vroomly.com": {
+    s: ".ReactModalPortal,.ReactModal__Overlay,.ReactModal__Content{display:none!important}html,body.ReactModal__Body--open{overflow:visible!important}",
+  },
   "talkingtomandfriends.com": {
     s: "#cookie-settings{display:none !important}",
   },
@@ -15173,9 +15177,6 @@ const rules = {
   },
   "notify.events": { j: "6" },
   "pricewise.nl": { j: "6" },
-  "apotheke-villingen.de": {
-    s: "#elementor-popup-modal-710{display:none!important}",
-  },
   "pngwebicons.com": { s: "#myModal{display:none!important}" },
   "lokalplus.nrw": { j: "6" },
   "passadena.gr": { c: 6 },
@@ -19510,6 +19511,16 @@ const rules = {
   },
   "alteg.io": {
     s: "ui-kit-modal[class*=showed] :is(.background[class*=darken],.modal),ui-kit-gdpr-consent-banner,.banner-consent{display:none!important}",
+  },
+  "gemeinde-schipkau.de": {
+    j: 6,
+  },
+  "impuls.lt": { s: "div[data-controller=cookie-bar]{display:none}" },
+  "asan.com.pl": { j: 3 },
+  "teilauto.net": { j: 3 },
+  "iffmh.de": { j: 6 },
+  "winwingsim.com": {
+    s: "#WWTDialogCookie,#cookieData,.el-dialog__wrapper,.v-modal,.el-dialog{display:none!important}",
   },
 
   // end of const rules

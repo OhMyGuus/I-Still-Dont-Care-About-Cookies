@@ -242,6 +242,26 @@ function getItem(hostname) {
         key: "zdf_cmp_configuration",
         value: "true",
       };
+    case "asan.com.pl":
+      return [
+        {
+          strict: false,
+          key: "show_consent_modal",
+          value: "1",
+        },
+        {
+          strict: false,
+          key: "user_consents",
+          value: "[]",
+        },
+      ];
+    case "teilauto.net":
+      return {
+        strict: true,
+        key: "ccb_contao_token_1",
+        value:
+          '{"configId":1,"pageId":1,"version":1,"saved":1762026743,"cookies":[]}',
+      };
   }
 
   const parts = hostname.split(".");
