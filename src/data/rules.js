@@ -19452,6 +19452,9 @@ const rules = {
   "alpunto.com.co": {
     s: ".dialog-lightbox-widget,.elementor-location-popup{display:none!important}",
   },
+  "cv-mate.com": {
+    s: '[id="radix-:ri:"],[id="radix-:rk:"]{display:none!important}',
+  },
 
   // end of const rules
 };
