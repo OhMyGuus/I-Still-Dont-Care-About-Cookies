@@ -9665,7 +9665,9 @@ const rules = {
   "hot.dk": { s: "#scw{display:none !important}" },
   "rba.hr": { s: "#cd-module-main{display:none !important}" },
   "rbainvest.hr": { s: "#cd-module-main{display:none !important}" },
-  "mathem.se": { j: "5" },
+  "mathem.se": {
+    s: '[data-testid="cookie-widget"],[class*="cookie-widget"]{display:none!important}',
+  },
   "nicequest.com": { s: "#footer ~ div{display:none !important}" },
   "orange.pl": {
     s: '#__next > div > section[role="region"],.opl-cookie-control{display:none !important}',
