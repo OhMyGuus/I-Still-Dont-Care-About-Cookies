@@ -19497,6 +19497,9 @@ const rules = {
   "lambimaailm.ee": {
     s: "#fancybox-1,.fancybox__backdrop,#cookieSetting,.cookie-setting,.fancybox__container.is-ready{display:none!important}html.with-fancybox,body{overflow:auto!important}",
   },
+  "statskontoret.se": {
+    s: "#cookieModal,#cookiesettingsModal,.modal-backdrop{display:none!important} body{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
