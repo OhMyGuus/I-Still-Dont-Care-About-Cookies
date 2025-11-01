@@ -19436,6 +19436,9 @@ const rules = {
   "deiters.de": {
     s: ".cookie-modal,.cookie-permission-container,.modal-backdrop{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}body.modal-open{padding-right:0!important}",
   },
+  "mdbootstrap.com": {
+    s: "#accept_cookies_modal,#manage_cookies_modal,#dpl-mdb5-cookies-modal,.modal-backdrop{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
