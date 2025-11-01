@@ -723,6 +723,13 @@ function getE(hostname) {
         "cookieconsent=technical",
         "cookieconsentTimestamp=9999999999999",
       ];
+    case "tibber.com":
+      return [
+        "tibber_cc_essential=approved",
+        "tibber_cc_functional=rejected",
+        "tibber_cc_performance=rejected",
+        "tibber_cc_targeting=rejected",
+      ];
   }
 
   const parts = hostname.split(".");
