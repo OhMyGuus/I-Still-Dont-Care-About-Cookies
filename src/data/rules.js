@@ -16006,7 +16006,6 @@ const rules = {
   "gruporesolve.com.br": { s: "#over-cookies{display:none !important}" },
   "podarujwigilie.pl": { s: "footer ~ div{display:none !important}" },
   "band.us": { s: ".bcm_bandCookieModuleWrap{display:none !important}" },
-  "filen.io": { j: 6 },
   "olvg.nl": {
     s: "#gdpr-selection-screen{display:none !important}",
     c: 85,
@@ -19266,9 +19265,6 @@ const rules = {
   },
   "tonerweb.no": { s: ".cookie-terms{display:none!important}" },
   "syntx.ai": { s: ".cookie,.cookie__alert{display:none!important}" },
-  "app.filen.io": {
-    s: ".flex.flex-row.z-50.absolute.bottom-4.right-4,.flex.flex-row.gap-4.p-4.bg-background.border.rounded-sm{display:none!important}body{overflow:visible!important}",
-  },
   "bresser.de": {
     s: "#ccAcivateModal,.modal-backdrop.fade.show{display:none!important}html,body{overflow:auto!important}",
   },
@@ -19534,6 +19530,8 @@ const rules = {
     s: '.kds-Modal-overlay,.kds-Modal-overlay--afterOpen.is-open,.kds-Modal.SiteModal-terms_policy_update_notification,.kds-Modal.kds-Modal--afterOpen.is-open,#SiteModalContainer,#PopupModalContainer,div[id^="ZN_"],#onetrust-consent-sdk{display:none!important}html,body{overflow:auto!important;height:auto!important}',
   },
   "electrissime.fr": { j: 5 },
+  "filen.io": { j: 6 },
+  "app.filen.io": { j: 3 },
 
   // end of const rules
 };

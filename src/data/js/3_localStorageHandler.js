@@ -262,6 +262,12 @@ function getItem(hostname) {
         value:
           '{"configId":1,"pageId":1,"version":1,"saved":1762026743,"cookies":[]}',
       };
+    case "app.filen.io":
+      return {
+        strict: false,
+        key: "cookieConsent",
+        value: '"needed"',
+      };
   }
 
   const parts = hostname.split(".");
