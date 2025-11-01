@@ -19550,6 +19550,9 @@ const rules = {
   "owntag.eu": {
     s: "#consent-banner{display:none!important}body{overflow:auto!important}",
   },
+  "mzk.zgora.pl": {
+    s: "div.cookies{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
