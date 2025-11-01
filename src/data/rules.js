@@ -19485,6 +19485,9 @@ const rules = {
   "hplus.ch": {
     s: "#cc_div,#cm,#cm-ov,#cc--main{display:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
+  "menton.de": {
+    s: '.nr-privacy-modal-box-v3,.nr-privacy-sticky-trigger.opencookiepanel,[class*="nr-privacy"][class*="backdrop"],[class*="nr-privacy"][class*="overlay"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
