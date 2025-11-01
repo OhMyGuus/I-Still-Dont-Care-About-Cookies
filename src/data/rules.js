@@ -18699,7 +18699,7 @@ const rules = {
     s: '#termly-code-snippet-support, [aria-label="Cookie Consent Prompt"], .t-consentPrompt { display: none !important; }',
   },
   "fab365.net": {
-    s: '#EeaPopup, div[id="EeaPopup"], .sc-dCFHLb.ggPQor, .sc-eBMEME.czfksa { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
+    s: '#EeaPopup,div[class*="sc-kdBSHD"],div[class*="sc-lcIPJg"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
   "dwarkesh.com": {
     s: '[class*="cookieBanner"],[class*="cookie-banner"],[class*="cookieConsent"],[class*="cookie-consent"],[id*="cookie"],[aria-label*="cookie"]{display:none!important;visibility:hidden!important;pointer-events:none!important;}',
