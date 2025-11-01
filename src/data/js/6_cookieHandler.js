@@ -744,6 +744,8 @@ function getE(hostname) {
       return [".consent=fu0-ma0-pe0"];
     case "filen.io":
       return ["cookieConsent=optOut"];
+    case "vinnova.se":
+      return ["_vinnova_gdpr=0"];
   }
 
   const parts = hostname.split(".");
