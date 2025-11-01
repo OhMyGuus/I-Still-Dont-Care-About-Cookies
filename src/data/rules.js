@@ -19421,6 +19421,9 @@ const rules = {
     s: ".euconsent-background,.euconsent-container{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}",
   },
   "pdfgear.com": { s: "#termly-code-snippet-support{display:none!important;}" },
+  "activa.cz": {
+    s: "#js--cookie_consent_banner_container,.cookie_consent_banner_container,.cookie_consent_banner__title,.cookie_consent_banner__text,.cookie_consent_banner__buttons{display:none!important}",
+  },
 
   // end of const rules
 };
