@@ -19374,7 +19374,7 @@ const rules = {
     s: '#ketch-banner,#ketch-consent-banner,div[class*="ketch-fixed"][class*="ketch-top-0"][class*="ketch-bg-ketch-black-black-10"]{display:none!important;pointer-events:none!important}html,body{overflow:auto!important}',
   },
   "openai.com": {
-    s: 'div[role="dialog"][aria-labelledby="cookieConsentTitle"]{display:none!important}',
+    s: '[role="dialog"][aria-labelledby="cookieConsentTitle"]{display:none!important}',
   },
   "rothco.com": {
     s: ".google-consent-popup,.google-consent-popup-mask,.consent-banner-wrapper,.consent-banner-content{display:none!important;visibility:hidden!important;pointer-events:none!important}",
