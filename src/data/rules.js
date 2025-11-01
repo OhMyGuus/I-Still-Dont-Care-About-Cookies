@@ -19506,7 +19506,7 @@ const rules = {
     s: "#uc-cookie-notice,.uc-cookie-notice,.uc-cookie-notice-head,.cookie-notice-text,.reveal-overlay,a#uc-cookie-notice-closer{display:none!important}",
   },
   "gemeinde-schipkau.de": {
-    s: "#portuna_info,.info_popup_wrapper{display:none!important}",
+    j: 6,
   },
 
   // end of const rules
