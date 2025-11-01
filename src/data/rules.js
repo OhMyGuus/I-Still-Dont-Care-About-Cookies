@@ -19500,6 +19500,9 @@ const rules = {
   "statskontoret.se": {
     s: "#cookieModal,#cookiesettingsModal,.modal-backdrop{display:none!important} body{overflow:auto!important;padding-right:0!important}",
   },
+  "navicat.com": {
+    s: ".consent-banner-background,.consent-banner{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
