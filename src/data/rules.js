@@ -19535,6 +19535,9 @@ const rules = {
   "trabzonspor.org.tr": {
     s: 'div:is([class*="fixed"][class*="bottom-0"][class*="bg-white"][class*="w-full"],[class*="absolute"][class*="inset-0"][class*="opacity-60"]){display:none!important;}',
   },
+  "marathon-sport.de": {
+    s: "#incms-dpbanner,.incms-dpbanner{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
