@@ -19509,6 +19509,9 @@ const rules = {
   "testefiorite.it": {
     s: '[consent-skip-blocker="1"],dialog[aria-modal="true"].a4dbb-2{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body,document.documentElement{overflow:auto!important}',
   },
+  "xplay.gg": {
+    s: "div[class^=sc-8e67d2a3-]{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
