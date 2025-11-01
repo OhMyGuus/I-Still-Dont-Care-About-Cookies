@@ -19428,6 +19428,9 @@ const rules = {
     s: ".consent-banner-root,.module-blocker-root,.module-blocker-backdrop,#pbModal,#pbBlocker,.page-blocker-modal,.page-blocker-blocker,.module-blocker-root-grid,.consent-banner-banner{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
   "mall.hr": { s: ".legal-consent{display:none!important}" },
+  "framework.scaledagile.com": {
+    s: '.mantine-Alert-root[id^="mantine-"],.mantine-Alert-wrapper,.mantine-Alert-body,.mantine-Alert-message{display:none!important}',
+  },
 
   // end of const rules
 };
