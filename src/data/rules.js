@@ -19536,6 +19536,9 @@ const rules = {
     s: '.kds-Modal-overlay,.kds-Modal-overlay--afterOpen.is-open,.kds-Modal.SiteModal-terms_policy_update_notification,.kds-Modal.kds-Modal--afterOpen.is-open,#SiteModalContainer,#PopupModalContainer,div[id^="ZN_"],#onetrust-consent-sdk{display:none!important}html,body{overflow:auto!important;height:auto!important}',
   },
   "electrissime.fr": { j: 5 },
+  "features.filen.io": {
+    s: ".cc-window,.cookie-consent,.cookie-banner,[id*=cookie],[class*=cookie],[data-testid*=cookie],[data-testid*=consent]{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
