@@ -19499,6 +19499,9 @@ const rules = {
   "tencentcloud.com": {
     s: "#qccomponent-header,#navigationBar,.eea-cookie-tip,.intl-cookie-tip-container{display:none!important}",
   },
+  "flexispot.es": {
+    s: ":is(#gdprMask,#cmpbox,#cmpboxcontent,#cmpboxrecall){display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
