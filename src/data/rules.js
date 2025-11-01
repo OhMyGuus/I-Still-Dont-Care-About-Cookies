@@ -15006,6 +15006,7 @@ const rules = {
   "emailoctopus.com": { j: "5" },
   "fredolsen.es": { j: "5" },
   "myprivacy.dpgmedia.nl": { j: "5" },
+  "myprivacy.dpgmedia.be": { j: "5" },
   "thephoblographer.com": { s: "#nebothemeCookieBar{display:none !important}" },
   "sole-runner.com": {
     s: "#CookiePlus{display:none !important}",
@@ -20393,7 +20394,7 @@ const blockUrls = {
       { r: "s.regiogroei.cloud/plugins/consent-plugin" },
       {
         r: "myprivacy-static.dpgmedia.net/consent.js",
-        e: ["myprivacy.dpgmedia.nl"],
+        e: ["myprivacy.dpgmedia.nl", "myprivacy.dpgmedia.be"],
       },
       { r: "tmgonlinemedia.nl/consent/script/consent.js" },
       { r: "privacy.ariadneathome.nl/script/consent.js" },
