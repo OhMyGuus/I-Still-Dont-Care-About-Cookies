@@ -19427,6 +19427,7 @@ const rules = {
   "oshop-network.de": {
     s: ".consent-banner-root,.module-blocker-root,.module-blocker-backdrop,#pbModal,#pbBlocker,.page-blocker-modal,.page-blocker-blocker,.module-blocker-root-grid,.consent-banner-banner{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "mall.hr": { s: ".legal-consent{display:none!important}" },
 
   // end of const rules
 };
