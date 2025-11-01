@@ -7614,7 +7614,7 @@ const rules = {
   "linuxhandbook.com": { c: 108 },
   "tarnkappe.info": { j: "6" },
   "bbc.co.uk": {
-    s: '#root > #header-content > div > div[class*="DialogBackdrop"]{display:none !important}',
+    s: '[id^="bbccookies"],#cookiePrompt,#ngasCookiePrompt,#subliminal-banner,[id^="sp_message_"]{display:none!important;}',
   },
   "werkenindelandentuinbouw.nl": { c: 27 },
   "myki.com": { c: 0 },
