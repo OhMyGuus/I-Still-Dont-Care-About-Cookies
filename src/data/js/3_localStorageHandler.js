@@ -236,6 +236,12 @@ function getItem(hostname) {
           value: 9999999999999,
         },
       ];
+    case "zdf.de":
+      return {
+        strict: false,
+        key: "zdf_cmp_configuration",
+        value: "true",
+      };
   }
 
   const parts = hostname.split(".");
