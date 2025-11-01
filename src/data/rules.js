@@ -4642,9 +4642,7 @@ const rules = {
   "extreme-d0wn.net": { s: "#a-cn-wrapper{display:none !important}" },
   "worditout.com": { s: "body > #g{display:none !important}" },
   "thread.com": { s: "thread-cookie-notice{display:none !important}" },
-  "dobreprogramy.pl": {
-    s: '.b601n07,.m2zthfs,[role=dialog][aria-label*="Plansza informacyjna"]{display:none!important;visibility:hidden!important}html,body{overflow:auto!important;height:auto!important}',
-  },
+  "dobreprogramy.pl": { j: "5" },
   "thelily.com": { j: "5" },
   "mapsofworld.com": { s: "#dialog{display:none !important}" },
   "nowness.com": { s: ".ns-info-bar{display:none !important}" },
