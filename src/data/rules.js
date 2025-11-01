@@ -19462,6 +19462,9 @@ const rules = {
   "lisca.rs": {
     s: ".modals-overlay,.amgdprcookie-modal-container,.amgdprcookie-modal-block,.amgdprcookie-modal-template,#modal-content-13,#amgdprcookie-form,.amgdprcookie-policy-container,.amgdprcookie-buttons-block,#wpn-lightbox-overlay,#wpn-lightbox-content,#wpx-newsletter-popup,#weltpixel_newsletter,#wpn-lightbox-close-newsletter{display:none!important}html,body{overflow:auto!important}",
   },
+  "myszomarket.pl": {
+    s: "#flexiblecookies_container,#flexiblecookies_cookie_banner,#flexiblecookies_settings_background{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
