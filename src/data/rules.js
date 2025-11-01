@@ -19465,6 +19465,9 @@ const rules = {
   "myszomarket.pl": {
     s: "#flexiblecookies_container,#flexiblecookies_cookie_banner,#flexiblecookies_settings_background{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "diejugendherbergen.de": {
+    s: ".consent-banny,.consent-banny-content{display:none!important}",
+  },
 
   // end of const rules
 };
