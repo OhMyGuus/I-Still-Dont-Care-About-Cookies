@@ -19503,6 +19503,9 @@ const rules = {
   "flexispot.es": {
     s: ":is(#gdprMask,#cmpbox,#cmpboxcontent,#cmpboxrecall){display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}",
   },
+  "hamradiodeluxe.com": {
+    s: "#uc-cookie-notice,.uc-cookie-notice,.uc-cookie-notice-head,.cookie-notice-text,.reveal-overlay,a#uc-cookie-notice-closer{display:none!important}",
+  },
 
   // end of const rules
 };
