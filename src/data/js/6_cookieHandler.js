@@ -742,6 +742,8 @@ function getE(hostname) {
       ];
     case "galaxus.fr":
       return [".consent=fu0-ma0-pe0"];
+    case "filen.io":
+      return ["cookieConsent=optOut"];
   }
 
   const parts = hostname.split(".");
