@@ -19488,6 +19488,9 @@ const rules = {
   "menton.de": {
     s: '.nr-privacy-modal-box-v3,.nr-privacy-sticky-trigger.opencookiepanel,[class*="nr-privacy"][class*="backdrop"],[class*="nr-privacy"][class*="overlay"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "tescoinsurance.com": {
+    s: "#ensNotifyBanner,#ensPrivacyBlock,#ensModalWrapper{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
