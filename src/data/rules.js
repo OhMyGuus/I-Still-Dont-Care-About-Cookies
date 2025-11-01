@@ -19513,6 +19513,9 @@ const rules = {
     j: 6,
   },
   "impuls.lt": { s: "div[data-controller=cookie-bar]{display:none}" },
+  "asan.com.pl": {
+    s: ".consents,.consents__wrapper,.consents__modal,.consents__basic-view,.consents__mask,template#consents-modal{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
