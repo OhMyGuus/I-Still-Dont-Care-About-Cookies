@@ -11153,7 +11153,7 @@ const rules = {
     s: "#js-gateaux-secs,#gateaux-secs-landing,#um-banner,[id^=sp_message_],.sp-overlay{display:none!important;visibility:hidden!important;pointer-events:none!important} :is(html,body),:is(html,body).sp-message-open{overflow:auto!important;height:auto!important}",
   },
   "icabanken.se": {
-    s: "#blockbackground,#removeOnClose{display:none !important}",
+    s: ".react-aria-ModalOverlay,.react-aria-Modal,.drawer_container__2ol2t,.cookie-consent_content__chefz,.accept-cookies_wrapper__Kb7w8,#backdrop{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
   "labellevie.com": { s: "#confidentiality{display:none !important}" },
   "lcd-compare.com": { j: "5" },
@@ -12900,7 +12900,7 @@ const rules = {
   "delicasaitalia-uk.com": { c: 60 },
   "uk.barclays": { s: ".barclays-consent{display:none !important}" },
   "truecaller.com": {
-    s: '#app > .fixed[class*="bottom"]{display:none !important}',
+    s: 'iframe[src*="cookies.truecaller.com"],div[style*="rgba(0, 0, 0, 0.5)"],div[style*="z-index: 9998"],div[style*="pointer-events: auto"][style*="position: fixed"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}',
   },
   "rsu.de": { j: "5" },
   "rp-online.de": { j: "5" },
@@ -15300,7 +15300,9 @@ const rules = {
   "education.lego.com": { j: "6" },
   "bonobology.com": { s: ".dialog-widget-content{display:none !important}" },
   "bodypak.pl": { s: ".pop-cookiebox{display:none !important}" },
-  "beurer.se": { j: "6" },
+  "beurer.se": {
+    s: "#cookie-consent-modal,#mm-blocker,#lightbox,#lightboxOverlay,.lightboxOverlay,#mobile-menu.mm-pagedim-black,.modal-backdrop{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
   "arsys.es": { s: 'div[name="cookies"]{display:none !important}' },
   "swb-busundbahn.de": { c: 85 },
   "uni-mozarteum.at": { j: "6" },
@@ -16004,9 +16006,6 @@ const rules = {
   "gruporesolve.com.br": { s: "#over-cookies{display:none !important}" },
   "podarujwigilie.pl": { s: "footer ~ div{display:none !important}" },
   "band.us": { s: ".bcm_bandCookieModuleWrap{display:none !important}" },
-  "filen.io": {
-    s: "#__next > div + div,#root > div + div{display:none !important}",
-  },
   "olvg.nl": {
     s: "#gdpr-selection-screen{display:none !important}",
     c: 85,
@@ -16699,7 +16698,7 @@ const rules = {
   },
   "afilio.de": { s: ".component-c-overlay{display:none !imp ortant}" },
   "turkishairlines.com": {
-    s: "#cookieWarningMessageNew{display:none !important}",
+    s: ":is([id^=sec-],#allowCookiesButton,#notAllowCookiesButton,#changeCookiesSettingsButton,[class*=cookie-warning],[class*=overlay]){display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
   "olerum.de": {
     s: ".cookiemessagebackground{display:none !important}",
@@ -19264,9 +19263,6 @@ const rules = {
   },
   "tonerweb.no": { s: ".cookie-terms{display:none!important}" },
   "syntx.ai": { s: ".cookie,.cookie__alert{display:none!important}" },
-  "app.filen.io": {
-    s: ".flex.flex-row.z-50.absolute.bottom-4.right-4,.flex.flex-row.gap-4.p-4.bg-background.border.rounded-sm{display:none!important}body{overflow:visible!important}",
-  },
   "bresser.de": {
     s: "#ccAcivateModal,.modal-backdrop.fade.show{display:none!important}html,body{overflow:auto!important}",
   },
@@ -19507,11 +19503,43 @@ const rules = {
   "hamradiodeluxe.com": {
     s: "#uc-cookie-notice,.uc-cookie-notice,.uc-cookie-notice-head,.cookie-notice-text,.reveal-overlay,a#uc-cookie-notice-closer{display:none!important}",
   },
+  "alteg.io": {
+    s: "ui-kit-modal[class*=showed] :is(.background[class*=darken],.modal),ui-kit-gdpr-consent-banner,.banner-consent{display:none!important}",
+  },
   "gemeinde-schipkau.de": {
     j: 6,
   },
   "impuls.lt": { s: "div[data-controller=cookie-bar]{display:none}" },
   "asan.com.pl": { j: 3 },
+  "teilauto.net": { j: 3 },
+  "iffmh.de": { j: 6 },
+  "winwingsim.com": {
+    s: "#WWTDialogCookie,#cookieData,.el-dialog__wrapper,.v-modal,.el-dialog{display:none!important}",
+  },
+  "facealinceste.fr": { s: ".cookie-banner,.overlay{display:none!important}" },
+  "alltheanime.fr": {
+    s: "div.fixed.bottom-0.right-0.m-5{display:none!important}",
+  },
+  "auto-doc.ch": { j: 6 },
+  "autodoc24.ch": { j: 6 },
+  "galaxus.fr": { j: 6 },
+  "tickets.vws-siegen.de": { j: 5 },
+  "marianos.com": {
+    s: '.kds-Modal-overlay,.kds-Modal-overlay--afterOpen.is-open,.kds-Modal.SiteModal-terms_policy_update_notification,.kds-Modal.kds-Modal--afterOpen.is-open,#SiteModalContainer,#PopupModalContainer,div[id^="ZN_"],#onetrust-consent-sdk{display:none!important}html,body{overflow:auto!important;height:auto!important}',
+  },
+  "electrissime.fr": { j: 5 },
+  "filen.io": { j: 6 },
+  "app.filen.io": { j: 3 },
+  "vinnova.se": { j: 6 },
+  "bom.gov.au": {
+    s: ".alert-bar.bom-form-alert.bom-form-alert--info:has(a[href*='/privacy']){display:none!important}",
+  },
+  "croatia.hr": {
+    s: '#ccc,#ccc-overlay,[id^="ccc-notify"],.ccc-notify,.ccc-notify__notify,.ccc-notify-button{display:none!important;visibility:hidden!important;pointer-events:none!important} body.ccc-disable-scroll{overflow:auto!important;position:static!important;top:auto!important}',
+  },
+  "frende.no": {
+    s: "#userNotice-banner-2,#userNotice-title,.userNotice-background,.userNotice-banner{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
@@ -21595,7 +21623,6 @@ const blockUrls = {
     "zs-watch.com": ["/dtc-fe/policy-control"],
     "loveholidays.ie": ["cookies.js"],
     "georg.at": ["/inc/cookie_modal_ajax.php"],
-    "galaxus.fr": ["/_next/static/chunks/cookieOverlay"],
     "werner-mertz.de": ["consent.werner-mertz.de"],
     "corporate.modivo.com": ["/dist/js/cmp.js"],
     "jimms.fi": ["/jimmsconsent"],
@@ -21700,6 +21727,7 @@ const blockUrls = {
     "rac1.cat": ["privacy-center.org"],
     "corriere.it": ["/Corriere-CMP-feature.min.js"],
     "mobile.de": ["/cmpApi.js"],
+    "secretgermanjodel.com": ["js.cookie.min.js"],
   },
 };
 

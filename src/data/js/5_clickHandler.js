@@ -716,7 +716,7 @@ function getSelector(host) {
     case "jastrzabpost.pl":
     case "homebook.pl":
     case "nauka.rocks":
-      return _ev("button[contains(., 'PRZECHODZ')]");
+      return _ev("button[contains(., 'przechodzę')]");
 
     case "octapharma.com":
       e = _sl("#assistant-paper button");
@@ -8401,6 +8401,10 @@ function getSelector(host) {
       return "//dialog//a[span[text()='Continue without consent']]";
     case "careers.tryhackme.com":
       return "button[data-action='click->common--cookies--alert#disableAll']";
+    case "tickets.vws-siegen.de":
+      return "//div[@role='dialog'][.//h5[normalize-space()='We use cookies']]//button[@aria-label='Save']";
+    case "electrissime.fr":
+      return "#divCookiesGeneral a[onclick=\"userCookieChoice('0')\"]";
   }
 
   if (host.parts.length > 2) {

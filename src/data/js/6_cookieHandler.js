@@ -732,6 +732,22 @@ function getE(hostname) {
       ];
     case "ullstein.de":
       return ["us_cookieconsent_de=false"];
+    case "iffmh.de":
+      return ["consentmanager-essential='essential only'"];
+    case "autodoc24.ch":
+    case "auto-doc.ch":
+      return [
+        "all_analytics_cookies=denied",
+        "all_marketing_cookies=denied",
+        "analytics_storage=denied",
+        "ad_storage=denied",
+      ];
+    case "galaxus.fr":
+      return [".consent=fu0-ma0-pe0"];
+    case "filen.io":
+      return ["cookieConsent=optOut"];
+    case "vinnova.se":
+      return ["_vinnova_gdpr=0"];
   }
 
   const parts = hostname.split(".");
