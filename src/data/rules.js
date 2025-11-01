@@ -19294,7 +19294,7 @@ const rules = {
   "tonerweb.no": { s: ".cookie-terms{display:none!important}" },
   "syntx.ai": { s: ".cookie,.cookie__alert{display:none!important}" },
   "app.filen.io": {
-    s: ".flex.flex-row.z-50.absolute.bottom-4.right-4,.flex.flex-row.gap-4.p-4.bg-background.border.rounded-sm{display:none!important}body{overflow:visible!important}",
+    s: "div[class*=z-50][class*=bottom-4][class*=right-4],div[class*=flex][class*=gap-4][class*=p-4][class*=bg-background][class*=border][class*=rounded-sm]{display:none!important;}html,body{overflow:auto!important;}",
   },
   "bresser.de": {
     s: "#ccAcivateModal,.modal-backdrop.fade.show{display:none!important}html,body{overflow:auto!important}",
