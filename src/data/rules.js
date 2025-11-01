@@ -19480,6 +19480,9 @@ const rules = {
   "sparkasse-ulm.de": {
     s: 'div[class*="if6_eprivacy"],div.if6_outer.if6_lightbox.lightbox-visible{display:none!important}html,body{overflow:auto!important}',
   },
+  "hplus.ch": {
+    s: "#cc_div,#cm,#cm-ov,#cc--main{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
