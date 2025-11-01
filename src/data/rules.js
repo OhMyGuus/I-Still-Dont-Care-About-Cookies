@@ -19520,6 +19520,9 @@ const rules = {
   "swu.de": {
     s: "consentissimo-banner,consentissimo-overlay,consentissimo-control{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}",
   },
+  "spk-in-ei.de": {
+    s: ".if6_outer.if6_lightbox.lightbox-visible .if6_inner,.if6_outer.if6_lightbox.lightbox-visible .cbox,.if6_outer.if6_lightbox.lightbox-visible .ebutton,.if6_outer.if6_eprivacy.if6_lightbox.lightbox-visible,.s_info_layer__Overlay-module__overlay___PjFtk{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
