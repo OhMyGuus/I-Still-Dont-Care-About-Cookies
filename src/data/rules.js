@@ -19332,9 +19332,7 @@ const rules = {
   "123ink.se": {
     s: ".bottom-notice,.c-simple-popup,.c-cookie-popup,.c-simple-popup__background{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
-  "sska.de": {
-    s: '[class*="if6_eprivacy"],[class*="if6_lightbox"][class*="lightbox-visible"],[class*="if6_lightbox"][class*="if6_outer"]{display:none!important} html,body{overflow:auto!important}',
-  },
+  "sska.de": { s: ".if6_eprivacy.if6_lightbox{display:none!important}" },
   "s-jena.de": {
     s: 'div:is([class*="if6_eprivacy"],[class*="if6_outer"])[class*="lightbox"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:visible!important;touch-action:auto!important;pointer-events:auto!important}',
   },
