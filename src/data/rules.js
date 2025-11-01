@@ -19520,6 +19520,9 @@ const rules = {
   "swu.de": {
     s: "consentissimo-banner,consentissimo-overlay,consentissimo-control{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}",
   },
+  "sparkasse-landshut.de": {
+    s: ".if6_outer.if6_lightbox{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
