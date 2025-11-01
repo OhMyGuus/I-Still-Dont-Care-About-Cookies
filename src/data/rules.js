@@ -19529,6 +19529,9 @@ const rules = {
   "lgbtqnation.com": {
     s: ".wcc-overlay,.wcc-consent-container,.wcc-consent-bar,.wcc-notice,.wcc-notice-group,.wcc-notice-des,.wcc-notice-btn-wrapper,.blackgum-campaign,.Campaign__canvas,[id^=om-]{display:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
+  "lagofast.com": {
+    s: 'div[class*="fixed"]:is([class*="w-[420px]"],[class*="bg-[#393939]"]){display:none!important}',
+  },
 
   // end of const rules
 };
