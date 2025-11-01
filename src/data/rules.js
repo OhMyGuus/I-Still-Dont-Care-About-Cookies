@@ -19532,6 +19532,9 @@ const rules = {
   "electrissime.fr": { j: 5 },
   "filen.io": { j: 6 },
   "app.filen.io": { j: 3 },
+  "pdfaid.com": {
+    s: "[class*=Dialog_dialogOverlay],[class*=Dialog_dialogContent]{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
