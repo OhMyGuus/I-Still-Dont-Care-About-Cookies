@@ -718,6 +718,11 @@ function getE(hostname) {
       return ["show_consent_modal=1"];
     case "rosenheim.de":
       return ["in2cookiemodal-selection=[%22essential%22]"];
+    case "gemeinde-schipkau.de":
+      return [
+        "cookieconsent=technical",
+        "cookieconsentTimestamp=9999999999999",
+      ];
   }
 
   const parts = hostname.split(".");

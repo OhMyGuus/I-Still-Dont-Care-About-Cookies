@@ -19505,6 +19505,9 @@ const rules = {
   "hamradiodeluxe.com": {
     s: "#uc-cookie-notice,.uc-cookie-notice,.uc-cookie-notice-head,.cookie-notice-text,.reveal-overlay,a#uc-cookie-notice-closer{display:none!important}",
   },
+  "gemeinde-schipkau.de": {
+    j: 6,
+  },
 
   // end of const rules
 };
