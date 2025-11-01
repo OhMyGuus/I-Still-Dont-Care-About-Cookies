@@ -233,7 +233,7 @@ function getItem(hostname) {
         {
           strict: false,
           key: "allowCookiesAsked",
-          value: 99999999999,
+          value: 9999999999999,
         },
       ];
   }
