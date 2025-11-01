@@ -19447,7 +19447,7 @@ const rules = {
     s: 'div[style*="position:fixed"][style*="bottom:10px"][style*="border:10px solid orange"]{display:none!important}',
   },
   "busbud.com": {
-    s: ".consent-banner-backdrop,.consent-banner{display:none!important}",
+    s: ".consent-banner-backdrop,.consent-banner{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
   "alpunto.com.co": {
     s: ".dialog-lightbox-widget,.elementor-location-popup{display:none!important}",
