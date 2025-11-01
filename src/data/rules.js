@@ -4305,7 +4305,9 @@ const rules = {
   "kaffee-melangerie.de": { c: 8 },
   "liveradio.ie": { c: 8 },
   "letsdeal.no": { s: 'div[class^="gdpr-panel"]{display:none !important}' },
-  "letsdeal.se": { s: 'div[class^="gdpr-panel"]{display:none !important}' },
+  "letsdeal.se": {
+    s: '[class*="gdpr-"]{display:none!important}html,body{overflow:auto!important;height:auto!important}',
+  },
   "transitionnetwork.org": {
     s: "#tofino-notification{display:none !important}",
   },
