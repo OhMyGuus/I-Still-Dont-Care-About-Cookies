@@ -19449,6 +19449,9 @@ const rules = {
   "busbud.com": {
     s: ".consent-banner-backdrop,.consent-banner{display:none!important}",
   },
+  "alpunto.com.co": {
+    s: ".dialog-lightbox-widget,.elementor-location-popup{display:none!important}",
+  },
 
   // end of const rules
 };
