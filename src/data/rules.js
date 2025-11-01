@@ -19505,6 +19505,9 @@ const rules = {
   "hamradiodeluxe.com": {
     s: "#uc-cookie-notice,.uc-cookie-notice,.uc-cookie-notice-head,.cookie-notice-text,.reveal-overlay,a#uc-cookie-notice-closer{display:none!important}",
   },
+  "amazon.com.be": {
+    s: "#cos-banner,#redir-modal,#redir-overlay,#sp-cc-wrapper{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
