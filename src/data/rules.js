@@ -19508,6 +19508,9 @@ const rules = {
   "hamradiodeluxe.com": {
     s: "#uc-cookie-notice,.uc-cookie-notice,.uc-cookie-notice-head,.cookie-notice-text,.reveal-overlay,a#uc-cookie-notice-closer{display:none!important}",
   },
+  "alteg.io": {
+    s: "ui-kit-modal[class*=showed] :is(.background[class*=darken],.modal),ui-kit-gdpr-consent-banner,.banner-consent{display:none!important}",
+  },
 
   // end of const rules
 };
