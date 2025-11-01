@@ -19516,6 +19516,9 @@ const rules = {
   "asan.com.pl": { j: 3 },
   "teilauto.net": { j: 3 },
   "iffmh.de": { j: 6 },
+  "winwingsim.com": {
+    s: "#WWTDialogCookie,#cookieData,.el-dialog__wrapper,.v-modal,.el-dialog{display:none!important}",
+  },
 
   // end of const rules
 };
