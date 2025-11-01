@@ -19520,6 +19520,9 @@ const rules = {
   "swu.de": {
     s: "consentissimo-banner,consentissimo-overlay,consentissimo-control{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}",
   },
+  "noctua.at": {
+    s: "section[aria-modal=true][data-placement=center][id^=_r_],div[data-slot=wrapper],div[class*=bg-overlay]{display:none!important}",
+  },
 
   // end of const rules
 };
