@@ -672,6 +672,7 @@ function getSelector(host) {
     case "sourcepoint.theguardian.com":
       return "button.sp_choice_type_13, button.sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT";
     case "myprivacy.dpgmedia.nl":
+    case "myprivacy.dpgmedia.be":
     case "myprivacy.autoweek.nl": {
       const root = _id("pg-host-shadow-root").shadowRoot;
 
