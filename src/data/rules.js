@@ -19530,9 +19530,6 @@ const rules = {
   "autodoc24.ch": { j: 6 },
   "galaxus.fr": { j: 6 },
   "tickets.vws-siegen.de": { j: 5 },
-  "secretgermanjodel.com": {
-    s: "#alertBackground,#alertOuter,#alertInner,.alertText,.alertTitle{display:none!important}html,body{overflow:auto!important}",
-  },
 
   // end of const rules
 };
@@ -21720,6 +21717,7 @@ const blockUrls = {
     "rac1.cat": ["privacy-center.org"],
     "corriere.it": ["/Corriere-CMP-feature.min.js"],
     "mobile.de": ["/cmpApi.js"],
+    "secretgermanjodel.com": ["js.cookie.min.js"],
   },
 };
 
