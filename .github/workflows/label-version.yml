@@ -1,0 +1,71 @@
+name: Add Version Label
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  label-version:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - name: Extract and add version label
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueBody = context.payload.issue.body || '';
+
+            // Parse the version from the issue body
+            // Looking for pattern: ### Version\n{version}
+            const versionMatch = issueBody.match(/###\s*Version\s*\n\s*([^\s\n]+)/i);
+
+            if (versionMatch && versionMatch[1]) {
+              let version = versionMatch[1].trim();
+              // Remove 'v' prefix if it exists in the version string
+              version = version.replace(/^v/i, '');
+              const labelName = `v${version}`;
+              
+              console.log(`Found version: ${version}`);
+              console.log(`Creating/adding label: ${labelName}`);
+              
+              try {
+                // Try to get the label first to check if it exists
+                await github.rest.issues.getLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: labelName
+                }).catch(async (error) => {
+                  // If label doesn't exist (404), create it
+                  if (error.status === 404) {
+                    console.log(`Label ${labelName} does not exist, creating it...`);
+                    await github.rest.issues.createLabel({
+                      owner: context.repo.owner,
+                      repo: context.repo.repo,
+                      name: labelName,
+                      color: '0366d6',
+                      description: `Version ${version}`
+                    });
+                  } else {
+                    throw error;
+                  }
+                });
+                
+                // Add the label to the issue
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.payload.issue.number,
+                  labels: [labelName]
+                });
+                
+                console.log(`Successfully added label ${labelName} to issue #${context.payload.issue.number}`);
+              } catch (error) {
+                console.error(`Error processing label: ${error.message}`);
+                throw error;
+              }
+            } else {
+              console.log('No version found in issue body');
+            }
