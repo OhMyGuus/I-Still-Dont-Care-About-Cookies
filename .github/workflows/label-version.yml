@@ -32,12 +32,14 @@ jobs:
               console.log(`Creating/adding label: ${labelName}`);
               
               try {
-                // Try to get the label first to check if it exists
-                await github.rest.issues.getLabel({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  name: labelName
-                }).catch(async (error) => {
+                // Check if the label exists, create it if not
+                try {
+                  await github.rest.issues.getLabel({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    name: labelName
+                  });
+                } catch (error) {
                   // If label doesn't exist (404), create it
                   if (error.status === 404) {
                     console.log(`Label ${labelName} does not exist, creating it...`);
@@ -51,7 +53,7 @@ jobs:
                   } else {
                     throw error;
                   }
-                });
+                }
                 
                 // Add the label to the issue
                 await github.rest.issues.addLabels({
