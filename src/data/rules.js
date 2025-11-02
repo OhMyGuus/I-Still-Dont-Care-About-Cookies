@@ -19552,6 +19552,7 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
+  "deepseek.com": { s: ".cookie_banner-wrap{display:none!important}" },
 
   // end of const rules
 };
