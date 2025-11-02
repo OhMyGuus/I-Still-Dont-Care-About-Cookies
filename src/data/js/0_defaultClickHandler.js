@@ -4,6 +4,8 @@
 
 (function () {
   const searchPairs = {
+    ".if6_eprivacy": [".ebutton > a[data-form*='eprivacy_optin_decline']"],
+
     ".wp-exclude-emoji": [
       'div[id^="bnnr"] > div[style*="; order: 1"] span',
       "a[data-order]:nth-child(2) span",
@@ -495,7 +497,8 @@
 		.cookiesOverlay2Box #cookiesConsentOK,\
 		#myCookieModal.in .cookie-button,\
 		div[data-cookie-path] a[href*="technologies/cookies"] + div,\
-		.disable--interaction .cm__btn[data-role=necessary]',
+		.disable--interaction .cm__btn[data-role=necessary],\
+		div[consent-skip-blocker] dialog[open] a[role="button"]:not([id$="-ext-0-255"]):not([class*="ext-1-414"])',
   ];
 
   // Search loop function
@@ -503,7 +506,7 @@
   const searchGroupsLength = searchGroups.length;
   const searchPairsKeys = Object.keys(searchPairs);
   const searchPairsJoinedKeys = searchPairsKeys.join(",");
-  let timeoutDuration = 300;
+  let timeoutDuration = 0;
 
   function searchLoop(counter) {
     setTimeout(function () {
@@ -513,6 +516,7 @@
             (box.shadowRoot || box)
               .querySelectorAll(searchPairs[selector].join(","))
               .forEach(function (element) {
+                console.log("Default click handler activated on", element);
                 if (element.click && !element.classList.contains("idcac")) {
                   element.classList.add("idcac");
 
@@ -598,5 +602,5 @@
     html.className += " idc0_343";
     searchLoop(0);
     clearInterval(start);
-  }, 500);
+  }, 250);
 })();

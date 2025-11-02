@@ -672,6 +672,7 @@ function getSelector(host) {
     case "sourcepoint.theguardian.com":
       return "button.sp_choice_type_13, button.sp_choice_type_12, .sp_choice_type_SAVE_AND_EXIT";
     case "myprivacy.dpgmedia.nl":
+    case "myprivacy.dpgmedia.be":
     case "myprivacy.autoweek.nl": {
       const root = _id("pg-host-shadow-root").shadowRoot;
 
@@ -715,7 +716,7 @@ function getSelector(host) {
     case "jastrzabpost.pl":
     case "homebook.pl":
     case "nauka.rocks":
-      return _ev("button[contains(., 'PRZECHODZ')]");
+      return _ev("button[contains(., 'przechodzę')]");
 
     case "octapharma.com":
       e = _sl("#assistant-paper button");
@@ -5066,8 +5067,6 @@ function getSelector(host) {
       return _sl(
         ".v-dialog__content--active .ui-cookie-consent button.primary"
       );
-    case "tibber.com":
-      return _chain("#__next .Consent .save", "#__next .Consent .save");
     case "vorteile.net":
       return _sl(".consent-modal--show .js-accept");
     case "generali.at":
@@ -7381,7 +7380,6 @@ function getSelector(host) {
     case "kicker.ch":
     case "kicker.de":
       return '.fancybox-container[style*="block"] a[onclick*="acceptAllConsents"]';
-    case "zdf.de":
     case "3sat.de":
       return '#zdf-cmp-consent-sdk[style*="block"] #zdf-cmp-deny-btn';
     case "all3dp.com":
@@ -8401,6 +8399,12 @@ function getSelector(host) {
       return "(//dialog[@aria-labelledby='cookieBannerTitle']//button)[2]";
     case "doctorio.io":
       return "//dialog//a[span[text()='Continue without consent']]";
+    case "careers.tryhackme.com":
+      return "button[data-action='click->common--cookies--alert#disableAll']";
+    case "tickets.vws-siegen.de":
+      return "//div[@role='dialog'][.//h5[normalize-space()='We use cookies']]//button[@aria-label='Save']";
+    case "electrissime.fr":
+      return "#divCookiesGeneral a[onclick=\"userCookieChoice('0')\"]";
   }
 
   if (host.parts.length > 2) {

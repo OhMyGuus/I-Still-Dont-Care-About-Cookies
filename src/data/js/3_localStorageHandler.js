@@ -223,6 +223,51 @@ function getItem(hostname) {
         key: "cookies-toast-shown",
         value: "true",
       };
+    case "mediathekviewweb.de":
+      return [
+        {
+          strict: false,
+          key: "allowCookies",
+          value: false,
+        },
+        {
+          strict: false,
+          key: "allowCookiesAsked",
+          value: 9999999999999,
+        },
+      ];
+    case "zdf.de":
+      return {
+        strict: false,
+        key: "zdf_cmp_configuration",
+        value: "true",
+      };
+    case "asan.com.pl":
+      return [
+        {
+          strict: false,
+          key: "show_consent_modal",
+          value: "1",
+        },
+        {
+          strict: false,
+          key: "user_consents",
+          value: "[]",
+        },
+      ];
+    case "teilauto.net":
+      return {
+        strict: true,
+        key: "ccb_contao_token_1",
+        value:
+          '{"configId":1,"pageId":1,"version":1,"saved":1762026743,"cookies":[]}',
+      };
+    case "app.filen.io":
+      return {
+        strict: true,
+        key: "cookieConsent",
+        value: '"needed"',
+      };
   }
 
   const parts = hostname.split(".");

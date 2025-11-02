@@ -707,8 +707,6 @@ function getE(hostname) {
       return ["trackingAccepted=false"];
     case "mysanantonio.com":
       return ['_consent_cookie={"services":[]}'];
-    case "zdf.de":
-      return ["zdf_cmp_configuration=true"];
     case "what3words.com":
       return ['cookie_preferences={"analytics":false,"marketing":false}'];
     case "tesco.com":
@@ -720,6 +718,36 @@ function getE(hostname) {
       return ["show_consent_modal=1"];
     case "rosenheim.de":
       return ["in2cookiemodal-selection=[%22essential%22]"];
+    case "gemeinde-schipkau.de":
+      return [
+        "cookieconsent=technical",
+        "cookieconsentTimestamp=9999999999999",
+      ];
+    case "tibber.com":
+      return [
+        "tibber_cc_essential=approved",
+        "tibber_cc_functional=rejected",
+        "tibber_cc_performance=rejected",
+        "tibber_cc_targeting=rejected",
+      ];
+    case "ullstein.de":
+      return ["us_cookieconsent_de=false"];
+    case "iffmh.de":
+      return ["consentmanager-essential='essential only'"];
+    case "autodoc24.ch":
+    case "auto-doc.ch":
+      return [
+        "all_analytics_cookies=denied",
+        "all_marketing_cookies=denied",
+        "analytics_storage=denied",
+        "ad_storage=denied",
+      ];
+    case "galaxus.fr":
+      return [".consent=fu0-ma0-pe0"];
+    case "filen.io":
+      return ["cookieConsent=optOut"];
+    case "vinnova.se":
+      return ["_vinnova_gdpr=0"];
   }
 
   const parts = hostname.split(".");
