@@ -19552,6 +19552,9 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
+  "zaferakcay.wetransfer.com": {
+    s: "[id^=fides-],[class*=fides-consent-wall],[class^=WallpaperWrapper_wp-wrapper],.fides-banner{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
