@@ -11516,9 +11516,7 @@ const rules = {
   "tempo.com": { j: "5" },
   "bulletin.com": { j: "5" },
   "huk24.de": { j: "5" },
-  "huk.de": {
-    s: "smc-consent-banner.hydrated,s-dialog.s-dialog--show.hydrated,s-dialog[show]{display:none!important;visibility:hidden!important;pointer-events:none!important;height:0!important;width:0!important}html,body{overflow-y:auto!important}",
-  },
+  "huk.de": { j: "5" },
   "myminifactory.com": { s: ".footerBottom ~ div{display:none !important}" },
   "findhs.codes": { s: "#PrivacyAlert{display:none !important}" },
   "group.rwe": { j: "5" },
