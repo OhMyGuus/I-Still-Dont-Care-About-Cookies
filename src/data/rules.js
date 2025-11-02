@@ -21736,6 +21736,7 @@ const blockUrls = {
     "rac1.cat": ["privacy-center.org"],
     "corriere.it": ["/Corriere-CMP-feature.min.js"],
     "mobile.de": ["/cmpApi.js"],
+    "walesonline.co.uk": ["cmp.inmobi.com"],
     "secretgermanjodel.com": ["js.cookie.min.js"],
   },
 };
