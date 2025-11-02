@@ -4308,7 +4308,7 @@ const rules = {
     s: "[class*=gdpr-overlay],[class*=gdpr-panel]{display:none!important}body{overflow:auto!important}",
   },
   "letsdeal.se": {
-    s: '[class*="gdpr-"]{display:none!important}html,body{overflow:auto!important;height:auto!important}',
+    s: "[class*=gdpr-],[class*=content-wrapper]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
   "transitionnetwork.org": {
     s: "#tofino-notification{display:none !important}",
