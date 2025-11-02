@@ -19550,7 +19550,7 @@ const rules = {
     s: '.cc-window.cc-banner,#cookieconsent\\:desc,div[style*="rgba(0, 0, 0, 0.4)"],div[style*="z-index: 2147483647"],iframe[src*="nojazz.eu"],iframe[src*="consentui"]{display:none!important}',
   },
   "nebula.zyxel.com": {
-    s: "[id*=cookie],[class*=cookie],[id*=consent],[class*=consent],[id*=gdpr],[class*=gdpr],[id*=onetrust],[class*=onetrust],.optanon-alert,.optanon-alert-box{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+    s: ".cdk-overlay-container{display:none!important}",
   },
 
   // end of const rules
