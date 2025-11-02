@@ -17573,7 +17573,7 @@ const rules = {
     s: '.fixed[data-toast*="cookies"]{display:none !important}',
   },
   "incogni.com": {
-    s: '[data-testid="cookie-consent-wrapper"],[data-testid="cookie-management-overlay"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
+    s: '[data-testid="cookie-consent-wrapper"],[data-testid="cookie-management-overlay"],.CookieConsent_cookieConsent__pIj_y,.z-consent-overlay{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
   "reimaginethegame.economist.com": {
     s: 'div[class*="tracking_banner"]{display:none !important}',
