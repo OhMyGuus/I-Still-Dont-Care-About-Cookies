@@ -14397,7 +14397,9 @@ const rules = {
   "2gis.com.cy": { s: "#confirm ~ div{display:none !important}" },
   "2gis.ru": { s: "#confirm ~ footer{display:none !important}" },
   "sites.google.com": { j: "5" },
-  "canva.com": { j: "5" },
+  "canva.com": {
+    s: ".NoN2AA._5_MXiw, .cD74fQ, .mWbJNKR.NUKeTg, .QThTF_u { display: none !important; }",
+  },
   "ertflix.gr": { j: "6" },
   "sky.com": { j: "5" },
   "xt500parts.com": {
