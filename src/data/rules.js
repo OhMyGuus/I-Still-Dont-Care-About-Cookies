@@ -14267,7 +14267,9 @@ const rules = {
   "lush.com": { j: "5" },
   "fixtout.fr": { s: ".gtcookies-change-settings{display:none !important}" },
   "kotas.com.br": { j: "5" },
-  "money.pl": { j: "5" },
+  "money.pl": {
+    s: "[role=dialog][aria-modal=true],.eses78x,.n7zorv4,.wb5ysbz,.wg2f5oh,.b97qw0h,.gf9s51u{display:none!important;visibility:hidden!important;pointer-events:none!important} :root,html,body{overflow:auto!important;height:auto!important}",
+  },
   "carrefour.es": { j: "5" },
   "carrefour.pf": { s: "#__next > div > span{display:none !important}" },
   "poliklinikaprosek.cz": { s: ".cookie_opruz{display:none !important}" },
