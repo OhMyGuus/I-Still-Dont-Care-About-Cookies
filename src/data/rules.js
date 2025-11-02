@@ -19552,6 +19552,9 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
+  "tvinfo.de": {
+    s: "div[id^=qc-cmp2],.qc-cmp2-container,.qc-cmp2-main{display:none!important;visibility:hidden!important}",
+  },
 
   // end of const rules
 };
