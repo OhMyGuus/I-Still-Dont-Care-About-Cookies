@@ -19244,9 +19244,6 @@ const rules = {
   "kodular.io": {
     s: '#termly-code-snippet-support,.t-consentPrompt,[class*="termly-styles-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
   },
-  "walesonline.co.uk": {
-    s: "[id^=qc-cmp2],[class*=qc-cmp2],[id*=pp-prompt],.pp-prompt{display:none!important}",
-  },
 
   // end of const rules
 };
@@ -21435,6 +21432,7 @@ const blockUrls = {
     "rac1.cat": ["privacy-center.org"],
     "corriere.it": ["/Corriere-CMP-feature.min.js"],
     "mobile.de": ["/cmpApi.js"],
+    "walesonline.co.uk": ["cmp.inmobi.com"],
   },
 };
 
