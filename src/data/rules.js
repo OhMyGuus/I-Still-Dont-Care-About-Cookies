@@ -19552,6 +19552,9 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
+  "jku.hu": {
+    s: "div[id^=a777d-ext],div.a777d,dialog[class*=a777d-ext]{display:none!important;visibility:hidden!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
