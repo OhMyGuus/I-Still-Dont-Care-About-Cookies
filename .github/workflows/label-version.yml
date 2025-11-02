@@ -17,6 +17,13 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const issueBody = context.payload.issue.body || '';
+            const issueAuthor = context.payload.issue.user.login;
+
+            // Skip if issue is created by OhMyGuus-Bot
+            if (issueAuthor === 'OhMyGuus-Bot') {
+              console.log('Skipping issue created by OhMyGuus-Bot');
+              return;
+            }
 
             // Parse the version from the issue body
             // Looking for pattern: ### Version\n{version}
