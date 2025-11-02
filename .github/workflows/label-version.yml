@@ -31,9 +31,17 @@ jobs:
 
             if (versionMatch && versionMatch[1]) {
               let version = versionMatch[1].trim();
-              // Remove 'v' prefix if it exists in the version string
+              // Remove 'v' or 'V' prefix if it exists in the version string
               version = version.replace(/^v/i, '');
-              const labelName = `v${version}`;
+              
+              // Validate version format (x.x.x)
+              const versionRegex = /^\d+\.\d+\.\d+$/;
+              if (!versionRegex.test(version)) {
+                console.log(`Invalid version format: ${version}. Expected format: x.x.x`);
+                return;
+              }
+              
+              const labelName = `V${version}`;
               
               console.log(`Found version: ${version}`);
               console.log(`Creating/adding label: ${labelName}`);
