@@ -18698,9 +18698,7 @@ const rules = {
   "lincoln.ac.uk": {
     s: '#termly-code-snippet-support, [aria-label="Cookie Consent Prompt"], .t-consentPrompt { display: none !important; }',
   },
-  "fab365.net": {
-    s: '#EeaPopup,div[class*="sc-kdBSHD"],div[class*="sc-lcIPJg"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
-  },
+  "fab365.net": { j: 6 },
   "dwarkesh.com": {
     s: '[class*="cookieBanner"],[class*="cookie-banner"],[class*="cookieConsent"],[class*="cookie-consent"],[id*="cookie"],[aria-label*="cookie"]{display:none!important;visibility:hidden!important;pointer-events:none!important;}',
   },

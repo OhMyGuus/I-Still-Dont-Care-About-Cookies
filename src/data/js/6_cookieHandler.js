@@ -748,6 +748,10 @@ function getE(hostname) {
       return ["cookieConsent=optOut"];
     case "vinnova.se":
       return ["_vinnova_gdpr=0"];
+    case "fab365.net":
+      return [
+        'eea_approval={"ad_user_data":"granted","ad_storage":"denied","ad_personalization":"denied","functionality_storage":"denied","analytics_storage":"denied"}',
+      ];
   }
 
   const parts = hostname.split(".");
