@@ -15095,7 +15095,9 @@ const rules = {
     s: '#cookie-consents,div[data-testid="page-content"] + div{display:none !important}',
   },
   "anyxvideos.com": { j: "5" },
-  "bike24.de": { j: "5" },
+  "bike24.de": {
+    s: '[data-testid^="cookie-consent"],button[aria-label="Schließen"][class*="inset-0"],.z-above-content.fixed.top-0.left-0{display:none!important}',
+  },
   "bike24.fr": { j: "5" },
   "bike24.at": { j: "5" },
   "bike24.it": { j: "5" },
