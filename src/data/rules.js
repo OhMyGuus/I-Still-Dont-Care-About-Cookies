@@ -19549,6 +19549,9 @@ const rules = {
   "songteksten.net": {
     s: '.cc-window.cc-banner,#cookieconsent\\:desc,div[style*="rgba(0, 0, 0, 0.4)"],div[style*="z-index: 2147483647"],iframe[src*="nojazz.eu"],iframe[src*="consentui"]{display:none!important}',
   },
+  "nebula.zyxel.com": {
+    s: ".cdk-overlay-container{display:none!important}",
+  },
 
   // end of const rules
 };
