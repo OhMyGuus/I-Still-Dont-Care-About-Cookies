@@ -2127,10 +2127,7 @@ function getSelector(host) {
 
     case "huk24.de":
     case "huk.de":
-      return _chain(
-        ".cookie-consent__button:first-child",
-        '.cookie-consent__button[type="submit"]'
-      );
+      return "s-button[data-testid='button--einstellungen-speichern'] > button";
 
     case "group.rwe":
     case "rwe.com":
