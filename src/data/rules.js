@@ -19552,6 +19552,9 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
+  "jobs.indy.fr": {
+    s: 'dialog.z-cookie-alert,dialog[data-controller*="cookies"],[data-controller="cookie-preferences"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
+  },
 
   // end of const rules
 };
