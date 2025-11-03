@@ -19552,6 +19552,9 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
+  "boyfriend.tv": {
+    s: "#cookieBanner,#cookieModal,#rtaBlur,.combined-banner,.rta-section{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
