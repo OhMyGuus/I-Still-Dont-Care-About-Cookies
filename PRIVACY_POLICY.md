@@ -16,7 +16,7 @@ We value your privacy and collect as little data as possible.
 - **When Using the “Report Anonymously” Functionality:**
   In that case, the extension collects and stores only the following minimal, non-personal data:
   - The **hostname** of the website you reported
-  - The **browser used** (e.g., Chrome, Edge, FireFox)
+  - The **browser used** (e.g., Chrome, Edge, Firefox)
   - The **version number** of the extension
   - **Any notes you voluntarily provide** when submitting the report
 
