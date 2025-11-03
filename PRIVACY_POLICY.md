@@ -23,11 +23,13 @@ We value your privacy and collect as little data as possible.
   This information helps us diagnose compatibility issues, improve site handling, and better understand user feedback.
   No other data — such as your IP address, browsing history, or personal identifiers — is collected or stored.
 
-## Data Storage and Retention
+## Data Storage
 
-Reports are securely stored on our servers for analysis and improvement purposes only.
-We do not share or sell this data to any third parties.
-Data is retained only as long as necessary for debugging or improvement, then permanently deleted.
+Reports submitted through the “Report” feature are stored publicly as GitHub issues or comments within our official repository. Please note that any information you include in your report (such as notes or descriptions) will become publicly visible once published on GitHub.
+
+If you wish to have a report or specific information within it removed or redacted, you may contact us using the details provided below. Upon receiving a valid request, we will make reasonable efforts to delete or anonymize the relevant data.
+
+We do not sell, share, or otherwise disclose reported information to third parties for marketing, analytics, or any other unrelated purposes.
 
 ## Permissions
 
