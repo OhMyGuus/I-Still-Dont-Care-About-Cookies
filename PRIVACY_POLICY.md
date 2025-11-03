@@ -23,7 +23,7 @@ We value your privacy and collect as little data as possible.
   This information helps us diagnose compatibility issues, improve site handling, and better understand user feedback.
   No other data — such as your IP address, browsing history, or personal identifiers — is collected or stored.
 
-## Data Storage and Retention
+## Data Storage
 
 Reports submitted through the “Report” feature are stored publicly as GitHub issues or comments within our official repository. Please note that any information you include in your report (such as notes or descriptions) will become publicly visible once published on GitHub.
 
