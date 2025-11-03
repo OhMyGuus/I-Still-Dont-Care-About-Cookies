@@ -19552,6 +19552,9 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
+  "green-kitchen.com": {
+    s: "#shopify-pc__banner,.shopify-pc__banner__dialog{display:none!important}",
+  },
 
   // end of const rules
 };
