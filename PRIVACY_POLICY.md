@@ -10,16 +10,15 @@ This extension automatically hides or dismisses cookie consent banners on websit
 
 We value your privacy and collect as little data as possible.
 
-* **Normal Usage:**
+- **Normal Usage:**
   During normal use of the extension, we do **not** collect, store, or share any personal or identifiable information. All processing occurs locally within your browser.
 
-* **When Using the “Report Anonymously” Functionality:**
+- **When Using the “Report Anonymously” Functionality:**
   In that case, the extension collects and stores only the following minimal, non-personal data:
-
-  * The **hostname** of the website you reported
-  * The **browser used** (e.g., Chrome, Edge, FireFox)
-  * The **version number** of the extension
-  * **Any notes you voluntarily provide** when submitting the report
+  - The **hostname** of the website you reported
+  - The **browser used** (e.g., Chrome, Edge, FireFox)
+  - The **version number** of the extension
+  - **Any notes you voluntarily provide** when submitting the report
 
   This information helps us diagnose compatibility issues, improve site handling, and better understand user feedback.
   No other data — such as your IP address, browsing history, or personal identifiers — is collected or stored.
