@@ -13,7 +13,7 @@ We value your privacy and collect as little data as possible.
 - **Normal Usage:**
   During normal use of the extension, we do **not** collect, store, or share any personal or identifiable information. All processing occurs locally within your browser.
 
-- **When Using the “Report Anonymously” Functionality:**
+- **When Using the “Report" Functionality:**
   In that case, the extension collects and stores only the following minimal, non-personal data:
   - The **hostname** of the website you reported
   - The **browser used** (e.g., Chrome, Edge, Firefox)
@@ -40,7 +40,7 @@ This extension does **not** use analytics, tracking scripts, advertising service
 
 ## Data Security
 
-We take reasonable measures to protect any data collected through the “Report Anonymously” feature from unauthorized access or disclosure.
+We take reasonable measures to protect any data collected through the “Report feature from unauthorized access or disclosure.
 
 ## Children’s Privacy
 
