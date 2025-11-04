@@ -14273,7 +14273,7 @@ const rules = {
   "form.bar": { s: ".formbarConsent{display:none !important}" },
   "bittitan.com": { c: 0 },
   "lepotcommun.fr": {
-    s: '.react-responsive-modal-root,[class*="CookiesModal"]{display:none!important}',
+    s: '[class*="CookiesModal"]{display:none!important}',
   },
   "koryotel.com": { s: "#footer_overlay{display:none !important}" },
   "satisfactorygame.com": { c: 2 },

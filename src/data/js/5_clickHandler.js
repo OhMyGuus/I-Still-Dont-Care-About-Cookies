@@ -3225,11 +3225,6 @@ function getSelector(host) {
         'a[href*="cookieSection"]',
         '//div[./div/p/a[contains(@href, "cookieSection")]]//button[2]'
       );
-    case "lepotcommun.fr":
-      return _if(
-        'div[role="dialog"]',
-        '//div[@role="dialog"]//button[./div[text()="Tout refuser"]]'
-      );
     case "henleyglobal.com":
       return _chain(
         '.cookieswindow[style*="block"] .allow-selection',
