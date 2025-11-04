@@ -14797,7 +14797,9 @@ const rules = {
   "ikea.com": { j: "5" },
   "maxaro.nl": { c: 69 },
   "mydealz.de": { j: "5" },
-  "dealabs.com": { j: "5" },
+  "dealabs.com": {
+    s: ".popover--layout-fixed-bottomSheet,.popover-cover,.popover-portal{display:none!important}body{overflow:auto!important}",
+  },
   "preisjaeger.at": { j: "5" },
   "chollometro.com": { j: "5" },
   "pepper.com": { j: "5" },
