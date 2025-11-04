@@ -20880,6 +20880,7 @@ const blockUrls = {
       { r: "determinator.service-cmp.com" },
       { r: "seznam.cz/js/cmp2/scmp.js" },
       { r: "seznam.cz/js/cmp2/scmp-external.js" },
+      { r: "wp-content/plugins/mrdev_cmp/" },
     ],
     Cookie: [
       { r: "/CookiesDirective" },
