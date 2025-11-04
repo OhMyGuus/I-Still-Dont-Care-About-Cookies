@@ -19552,6 +19552,9 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
+  "it.milwaukeetool.eu": {
+    s: "#onetrust-cookie-popup,#cookie-onetrust-show-info,#cookie-onetrust-accept-all,#ot-sdk-btn{display:none!important}html,body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
