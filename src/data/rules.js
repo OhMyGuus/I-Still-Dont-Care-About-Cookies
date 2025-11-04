@@ -19579,7 +19579,7 @@ const rules = {
   },
   "toya.pl": { s: "#cm-overlay,.cm-container-initial{display:none!important}" },
   "wildberries.ru": {
-    s: "#cookiePolicyRoot,.fixed-block__cookies,.cookies{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;touch-action:auto!important}",
+    s: "#cookiePolicyRoot,.fixed-block__cookies,.cookies{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
 
   // end of const rules
