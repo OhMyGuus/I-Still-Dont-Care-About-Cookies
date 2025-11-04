@@ -17305,7 +17305,7 @@ const rules = {
   "vitriini.fi": { s: ".ltcn{display:none !important}" },
   "arbesko.com": { s: ".ltcn{display:none !important}" },
   "remitly.com": {
-    s: 'footer > [class^="footer"] ~ div{display:none !important}',
+    s: "#cookie-consent-prompt-modal,.frxs393{display:none!important}",
   },
   "privfile.com": { s: "#scNotiBanner{display:none !important}" },
   "smugmug.com": {
