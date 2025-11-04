@@ -12863,9 +12863,7 @@ const rules = {
   "veiligverkeer.be": { j: "5" },
   "workshopsveiligverkeer.be": { j: "5" },
   "vias.be": { j: "5" },
-  "united-domains.de": {
-    s: "#cookie-layer-container,[role=alertdialog][aria-modal=true]{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}",
-  },
+  "united-domains.de": { j: 5 },
   "reshade.me": { j: "5" },
   "nordcheckout.com": {
     s: "#__next > div > .text-grey-darker{display:none !important}",
@@ -21420,7 +21418,6 @@ const blockUrls = {
     "amicoblu.it": ["/snap-popup.js"],
     "podrozerowerowe.info": ["/apprise"],
     "stadtwerke-luebz.de": ["/data-consent."],
-    "united-domains.de": ["/neo-cookie-layer.js", "/cookie-layer.js"],
     "peter-bringts.de": ["/cookieWidget.min.js"],
     "lux-residence.com": ["/cookie-consent/"],
     "df.eu": ["privacy-manager-v"],

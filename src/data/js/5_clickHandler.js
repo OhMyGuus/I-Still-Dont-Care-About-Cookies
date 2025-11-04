@@ -3983,7 +3983,7 @@ function getSelector(host) {
     case "reshade.me":
       return '.activebar-container:not([style*="none"]) .accept';
     case "united-domains.de":
-      return '.layer-overlay[style*="block"] .cookie-layer-dialog .confirm-selection';
+      return ".cookie-layer-dialog .confirm-selection";
     case "vias.be":
       return '#cookies-banner[style*="block"] .btn-accept-necessary';
     case "sportfondsen.nl":
