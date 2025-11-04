@@ -17834,7 +17834,9 @@ const rules = {
   "ameli.fr": {
     s: "#idPopupWARecueilConsentement,#bandeauConsentement,#pageConsentement{display:none !important}",
   },
-  "eiendomsmegler1.no": { s: "#opt-in{display:none !important}" },
+  "eiendomsmegler1.no": {
+    s: "#opt-in-important,.optin__wrapper,.optin,.optin__backdrop{display:none!important}body{overflow:auto!important}",
+  },
   "sonusparadisi.cz": { s: "#cookie-form{display:none !important}" },
   "exitlag.com": { s: "#cookie-exitlag{display:none !important}" },
   "audental.co.uk": { s: ".DmxlabsKooke{display:none !important}" },
