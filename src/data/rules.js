@@ -19570,9 +19570,7 @@ const rules = {
   "eerlijketen.nl": { j: 3 },
   "hertz247.de": { j: 3 },
   "oidiosound.co.uk": { s: "#privacy-pop-up{display:none!important}" },
-  "codetalks.com": {
-    s: 'div[class*="z-50"][class*="fixed"][class*="bottom-0"]{display:none!important;}',
-  },
+  "codetalks.com": { j: 3 },
 
   // end of const rules
 };
