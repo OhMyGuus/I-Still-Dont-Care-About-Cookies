@@ -19567,9 +19567,7 @@ const rules = {
   "zus.pl": {
     s: "#main-cookie-dialog,#preferences-cookie-dialog{display:none!important}body.cookies-info{overflow:auto!important}",
   },
-  "eerlijketen.nl": {
-    s: 'div[class*="bg-[#dee2d4]"], div[class*="bg-[rgba"]{display:none!important;}',
-  },
+  "eerlijketen.nl": { j: 3 },
 
   // end of const rules
 };
