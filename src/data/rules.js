@@ -19561,6 +19561,9 @@ const rules = {
   "bet365.it": {
     s: '[class^="rcc-"],[class*=" rcc-"]{display:none!important}',
   },
+  "benalmadena24.pl": {
+    s: ':is([class*="fixed"][class*="h-screen"][class*="justify-center"],[class*="rounded-lg"][class*="bg-white"][class*="p-6"]){display:none!important}body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
