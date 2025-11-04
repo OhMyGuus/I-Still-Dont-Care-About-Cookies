@@ -19600,6 +19600,9 @@ const rules = {
   "prolaika.sk": {
     s: "#WebyCookie,form[class*=WebyCookie][class*=overlayActive]{display:none!important}",
   },
+  "app.jobscan.co": {
+    s: "#termly-code-snippet-support,.t-consentPrompt{display:none!important}",
+  },
 
   // end of const rules
 };
