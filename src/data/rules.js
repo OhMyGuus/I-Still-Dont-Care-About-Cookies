@@ -19571,6 +19571,9 @@ const rules = {
   "hertz247.de": { j: 3 },
   "oidiosound.co.uk": { s: "#privacy-pop-up{display:none!important}" },
   "codetalks.com": { j: 3 },
+  "commeunroi.com": {
+    s: "#overlay-cookie,#cookieDisclaimerPopup,#wookiesDisclaimer,#divCookiesGeneral,#divCookiesConfig,#cookie-disabled{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
