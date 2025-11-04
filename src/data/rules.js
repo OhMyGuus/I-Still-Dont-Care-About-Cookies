@@ -19568,6 +19568,9 @@ const rules = {
     s: "#main-cookie-dialog,#preferences-cookie-dialog{display:none!important}body.cookies-info{overflow:auto!important}",
   },
   "eerlijketen.nl": { j: 3 },
+  "hertz247.de": {
+    s: ".modal.show,.modal-backdrop.show{display:none!important}body{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
