@@ -19552,9 +19552,6 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
-  "audi.de": {
-    s: "#ensModalWrapper,#ensModalBackdrop{display:none!important;visibility:hidden!important}body{overflow:auto!important}",
-  },
 
   // end of const rules
 };
@@ -21744,6 +21741,7 @@ const blockUrls = {
     "mobile.de": ["/cmpApi.js"],
     "walesonline.co.uk": ["cmp.inmobi.com"],
     "secretgermanjodel.com": ["js.cookie.min.js"],
+    "tms.audi.com": ["/audi/nemo-de/Bootstrap.js"],
   },
 };
 
