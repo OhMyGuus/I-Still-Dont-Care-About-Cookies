@@ -294,6 +294,16 @@ function getItem(hostname) {
       ];
     case "codetalks.com":
       return { strict: true, key: "cookieConsent", value: "rejected" };
+
+    case "komoot.com":
+      return [
+        {
+          strict: false,
+          key: "komoot_gdpr_data",
+          value:
+            '{"requestDone":true,"technicalAcceptedTrackers":["datadog","komoot_sdk_technical","komoot_sdk_analytics","komoot_legacy_technical","komoot_legacy_analytics","facebook_sdk"],"analyticsAcceptedTrackers":[],"profilingAcceptedTrackers":[],"lastAcceptedVersion":1}',
+        },
+      ];
   }
 
   const parts = hostname.split(".");
