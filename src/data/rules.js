@@ -19610,6 +19610,9 @@ const rules = {
   "sgkb.ch": {
     s: ".cfy-cookie-consent-banner,[data-cfy-consent-banner],#cfy-consent-accept-button{display:none!important}",
   },
+  "bbvamijubilacion.es": {
+    s: "#cookieModal,.modal-backdrop{display:none!important}body{overflow:auto!important}body.modal-open{padding-right:0!important}",
+  },
 
   // end of const rules
 };
