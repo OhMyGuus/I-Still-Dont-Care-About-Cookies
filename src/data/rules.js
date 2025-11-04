@@ -19627,6 +19627,9 @@ const rules = {
   "mbtools.com": {
     s: '[aria-label="Cookie Consent Prompt"]{display:none!important;}',
   },
+  "danigta.de": {
+    s: ":is(.fc-consent-root,.fc-dialog-overlay,.fc-dialog-container,.fc-dialog,div[class*=fixed][class*=bottom-0][class*=bg-gray-900]){display:none!important}:is(html,body){overflow:auto!important}",
+  },
 
   // end of const rules
 };
