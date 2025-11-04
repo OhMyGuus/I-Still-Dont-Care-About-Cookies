@@ -19606,6 +19606,7 @@ const rules = {
   "mitrachem.com": {
     s: '[class*="fs-cc-banner2_"],.set-all-components-to-display-none-and-use-this-div-to-create-a-symbol-2{display:none!important}',
   },
+  "projectcece.com": { s: "#cookiebar-container{display:none!important}" },
 
   // end of const rules
 };
