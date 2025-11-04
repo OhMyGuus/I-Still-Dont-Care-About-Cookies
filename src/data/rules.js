@@ -19597,6 +19597,9 @@ const rules = {
   "philippus-leipzig.de": {
     s: ".cs-cookie__wrapper.cs-show-modal,.cs-cookie-layer{display:none!important}body.cs-cookie__open{overflow:auto!important;height:auto!important}",
   },
+  "prolaika.sk": {
+    s: "#WebyCookie,form[class*=WebyCookie][class*=overlayActive]{display:none!important}",
+  },
 
   // end of const rules
 };
