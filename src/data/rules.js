@@ -19634,6 +19634,9 @@ const rules = {
     s: "#Compliance-cs-banner,.Compliance-cs-container{display:none!important}",
   },
   "bricklink.com": { s: "#js-blp-cookie-notice{display:none!important}" },
+  "comarch.pl": {
+    s: ".consent-modal2,.consent-modal2__wrapper,.consent-modal2__general{display:none!important}body.consent-modal2__body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
