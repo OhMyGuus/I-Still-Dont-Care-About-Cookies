@@ -287,6 +287,11 @@ function getItem(hostname) {
         key: "accept_cookies",
         value: "false",
       };
+    case "hertz247.de":
+      return [
+        { strict: false, key: "Cookie_acceptordeny", value: "denied" },
+        { strict: false, key: "Performance_cookie", value: "false" },
+      ];
   }
 
   const parts = hostname.split(".");
