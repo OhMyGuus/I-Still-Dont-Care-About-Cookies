@@ -19552,9 +19552,6 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
-  "t-mobile.cz": {
-    s: ".cocos-gdpr-dialog{display:none!important;visibility:hidden!important;pointer-events:none!important}body.gdpr-dialog-active{overflow:auto!important}",
-  },
 
   // end of const rules
 };
@@ -21543,7 +21540,7 @@ const blockUrls = {
     "immozentral.com": ["/stylecc"],
     "loesdau.de": ["/cookieConsent"],
     "zugtouren.de": ["/cc_cookie.js"],
-    "t-mobile.cz": ["consent"],
+    "t-mobile.cz": ["gdpr-component"],
     "gfps.com": ["cdn.civiccomputing.com"],
     "dgeg.gov.pt": ["/jquery.cookiekit.js"],
     "minmote.no": ["cmp."],
