@@ -10379,7 +10379,9 @@ const rules = {
   "99airdrops.com": { s: ".legal-notice{display:none !important}" },
   "strato.de": { j: "5" },
   "noodweer.be": { j: "5" },
-  "videoload.de": { j: "5" },
+  "videoload.de": {
+    s: '.A41_M,[class*="O8nPZ"],[id^="OVERLAY-"]{display:none!important}html,body{overflow:auto!important}',
+  },
   "magentatv.de": { j: "5" },
   "billomat.com": { j: "5" },
   "teutoburger-muenzauktion.de": { j: "5" },
