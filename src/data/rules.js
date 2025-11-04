@@ -19607,6 +19607,9 @@ const rules = {
     s: '[class*="fs-cc-banner2_"],.set-all-components-to-display-none-and-use-this-div-to-create-a-symbol-2{display:none!important}',
   },
   "projectcece.com": { s: "#cookiebar-container{display:none!important}" },
+  "sgkb.ch": {
+    s: ".cfy-cookie-consent-banner,[data-cfy-consent-banner],#cfy-consent-accept-button{display:none!important}",
+  },
 
   // end of const rules
 };
