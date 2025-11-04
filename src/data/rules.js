@@ -19633,6 +19633,7 @@ const rules = {
   "quellnatura.de": {
     s: "#Compliance-cs-banner,.Compliance-cs-container{display:none!important}",
   },
+  "bricklink.com": { s: "#js-blp-cookie-notice{display:none!important}" },
 
   // end of const rules
 };
