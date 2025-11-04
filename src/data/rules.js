@@ -19584,6 +19584,9 @@ const rules = {
   "deltaforce.garena.com": {
     s: ".cookie,.cookie__overlay,.cookie__nav,.cookie__side-bar{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "emuready.com": {
+    s: '[class*="z-[70]"],[class*="bg-black/30"],[class*="max-w-5xl"]{display:none!important}',
+  },
 
   // end of const rules
 };
