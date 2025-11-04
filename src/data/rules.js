@@ -19562,6 +19562,9 @@ const rules = {
     s: '[class^="rcc-"],[class*=" rcc-"]{display:none!important}',
   },
   "benalmadena24.pl": { j: 3 },
+  "hautsdefrance.fr": {
+    s: '[id^="tarteaucitron"],[id^="tac"],.tarteaucitronAsk,.tarteaucitronAlertBigTop{display:none!important}html,body{overflow:visible!important}',
+  },
 
   // end of const rules
 };
