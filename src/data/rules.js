@@ -14574,7 +14574,7 @@ const rules = {
     s: ".cookie-though{display:none !important;left:-99999px}",
   },
   "autodoc.de": {
-    s: "div[data-popup-cookies],body:has([data-popup-cookies]).overlay {display:none!important;visibility:hidden!important} html,body{overflow:auto!important;position:static!important}",
+    s: ".overlay,.popup--alert{display:none!important}body{overflow:auto!important}",
   },
   "autodoc.parts": {
     s: "div[data-popup-cookies],body:has([data-popup-cookies]).overlay {display:none!important;visibility:hidden!important} html,body{overflow:auto!important;position:static!important}",
