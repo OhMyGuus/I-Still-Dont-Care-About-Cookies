@@ -281,6 +281,12 @@ function getItem(hostname) {
         key: "cookie_consent",
         value: "false",
       };
+    case "eerlijketen.nl":
+      return {
+        strict: false,
+        key: "accept_cookies",
+        value: "false",
+      };
   }
 
   const parts = hostname.split(".");
