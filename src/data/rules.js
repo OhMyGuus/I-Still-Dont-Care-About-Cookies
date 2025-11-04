@@ -19603,6 +19603,9 @@ const rules = {
   "app.jobscan.co": {
     s: "#termly-code-snippet-support,.t-consentPrompt{display:none!important}",
   },
+  "mitrachem.com": {
+    s: '[class*="fs-cc-banner2_"],.set-all-components-to-display-none-and-use-this-div-to-create-a-symbol-2{display:none!important}',
+  },
 
   // end of const rules
 };
