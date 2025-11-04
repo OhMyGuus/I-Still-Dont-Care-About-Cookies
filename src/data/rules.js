@@ -19645,6 +19645,7 @@ const blockUrls = {
     { r: "cmp.actiview.de/app.js" },
     { r: "ddmcb.js" },
     { r: "Pubble.CookieManager.js" },
+    { r: "tms.audi.com" },
   ],
   common_groups: {
     cookie: [
@@ -21741,7 +21742,6 @@ const blockUrls = {
     "mobile.de": ["/cmpApi.js"],
     "walesonline.co.uk": ["cmp.inmobi.com"],
     "secretgermanjodel.com": ["js.cookie.min.js"],
-    "tms.audi.com": ["/audi/nemo-de/Bootstrap.js"],
   },
 };
 
