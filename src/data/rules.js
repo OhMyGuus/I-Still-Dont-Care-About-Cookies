@@ -19552,6 +19552,9 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
+  "centralepneus.fr": {
+    s: "div.content-bottom-fullwidth[data-controller*=rgpd]{display:none!important}",
+  },
 
   // end of const rules
 };
