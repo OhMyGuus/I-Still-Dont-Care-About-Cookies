@@ -19587,6 +19587,9 @@ const rules = {
   "emuready.com": {
     s: '[class*="z-[70]"],[class*="bg-black/30"],[class*="max-w-5xl"]{display:none!important}',
   },
+  "shop.apotal.de": {
+    s: "#cookie-message,.message-overlay{display:none!important}",
+  },
 
   // end of const rules
 };
