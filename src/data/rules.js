@@ -19552,6 +19552,9 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
+  "audi.de": {
+    s: "#ensModalWrapper,#ensModalBackdrop{display:none!important;visibility:hidden!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
