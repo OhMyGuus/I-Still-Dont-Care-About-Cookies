@@ -19613,6 +19613,9 @@ const rules = {
   "bbvamijubilacion.es": {
     s: "#cookieModal,.modal-backdrop{display:none!important}body{overflow:auto!important}body.modal-open{padding-right:0!important}",
   },
+  "leuchtturm.de": {
+    s: "html,body{overflow:auto!important}#ccg-cookie-consent-banner,#fullPageBackDrop.open{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
