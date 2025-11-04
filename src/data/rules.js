@@ -19594,6 +19594,9 @@ const rules = {
     s: ".m-cookieConsent,.m-cookieSettings{display:none!important}",
   },
   "firsty.app": { j: 3 },
+  "philippus-leipzig.de": {
+    s: ".cs-cookie__wrapper.cs-show-modal,.cs-cookie-layer{display:none!important}body.cs-cookie__open{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
