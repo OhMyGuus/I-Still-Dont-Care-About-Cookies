@@ -19574,6 +19574,9 @@ const rules = {
   "commeunroi.com": {
     s: "#overlay-cookie,#cookieDisclaimerPopup,#wookiesDisclaimer,#divCookiesGeneral,#divCookiesConfig,#cookie-disabled{display:none!important} html,body{overflow:auto!important}",
   },
+  "fordannecy.fr": {
+    s: "#cookie-consent-modal,.gw-cookie-consent--overlay.gw-modal__overlay{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
