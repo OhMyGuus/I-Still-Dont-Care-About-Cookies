@@ -19593,6 +19593,7 @@ const rules = {
   "almdudler.com": {
     s: ".m-cookieConsent,.m-cookieSettings{display:none!important}",
   },
+  "firsty.app": { j: 3 },
 
   // end of const rules
 };
