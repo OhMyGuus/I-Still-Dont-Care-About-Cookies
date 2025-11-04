@@ -19558,6 +19558,9 @@ const rules = {
   "centralepneus.ch": {
     s: "div.content-bottom-fullwidth[data-controller*=rgpd]{display:none!important}",
   },
+  "bet365.it": {
+    s: '[class^="rcc-"],[class*=" rcc-"]{display:none!important}',
+  },
 
   // end of const rules
 };
