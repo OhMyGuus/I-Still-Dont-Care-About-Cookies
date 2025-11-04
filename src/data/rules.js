@@ -19624,6 +19624,9 @@ const rules = {
   "myheritage.dk": {
     s: "#cookie_preferences_banner_root,#cookie_preferences_banner_root .cookie_preferences_banner,#cookie_preferences_banner_root .cookie_banner_overlay{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
+  "mbtools.com": {
+    s: '#termly-code-snippet-support,[aria-label="Cookie Consent Prompt"],.t-consentPrompt,[class*="termly-styles-root"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;padding-right:0!important}',
+  },
 
   // end of const rules
 };
