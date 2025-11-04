@@ -268,6 +268,13 @@ function getItem(hostname) {
         key: "cookieConsent",
         value: '"needed"',
       };
+    case "videoload.de":
+      return {
+        strict: false,
+        key: "DTAG_GUEST_PRIVACY_FLAGS",
+        value:
+          '{"infoService":null,"infoToBroadcasters":false,"infoToThirdParty":null,"marketing":false,"personalAdvertising":false,"personalizedUi":false,"productImprovements":false,"thirdParty":false}',
+      };
   }
 
   const parts = hostname.split(".");

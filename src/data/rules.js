@@ -10379,7 +10379,7 @@ const rules = {
   "99airdrops.com": { s: ".legal-notice{display:none !important}" },
   "strato.de": { j: "5" },
   "noodweer.be": { j: "5" },
-  "videoload.de": { j: "5" },
+  "videoload.de": { j: "3" },
   "magentatv.de": { j: "5" },
   "billomat.com": { j: "5" },
   "teutoburger-muenzauktion.de": { j: "5" },
