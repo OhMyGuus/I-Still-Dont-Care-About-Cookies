@@ -15935,7 +15935,9 @@ const rules = {
     c: 14,
   },
   "kokoomus.fi": { s: "gds-consent-manager{display:none !important}" },
-  "allegro.cz": { j: "5" },
+  "allegro.cz": {
+    s: '#opbox-gdpr-consents-modal,[data-box-name="allegro.gdpr.consents.sheet"],[data-analytics-category^="allegro.gdpr.consents"]{display:none!important;visibility:hidden!important;pointer-events:none!important}body:has(#opbox-gdpr-consents-modal,[data-box-name="allegro.gdpr.consents.sheet"]){overflow:auto!important}',
+  },
   "pah.org.pl": { s: ".cookies-notice__container{display:none !important}" },
   "cupt.gov.pl": {
     s: "#wiCookieBar1,#wiCookieBar2{display:none !important}",
