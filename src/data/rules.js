@@ -19593,9 +19593,7 @@ const rules = {
   "almdudler.com": {
     s: ".m-cookieConsent,.m-cookieSettings{display:none!important}",
   },
-  "firsty.app": {
-    s: 'div[class*="fixed"][class*="bottom-8"][class*="right-8"]{display:none!important}',
-  },
+  "firsty.app": { j: 3 },
 
   // end of const rules
 };

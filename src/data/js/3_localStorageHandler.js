@@ -292,6 +292,7 @@ function getItem(hostname) {
         { strict: false, key: "Cookie_acceptordeny", value: "denied" },
         { strict: false, key: "Performance_cookie", value: "false" },
       ];
+    case "firsty.app":
     case "codetalks.com":
       return { strict: true, key: "cookieConsent", value: "rejected" };
 
