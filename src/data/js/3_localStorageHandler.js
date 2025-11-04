@@ -275,6 +275,12 @@ function getItem(hostname) {
         value:
           '{"infoService":null,"infoToBroadcasters":false,"infoToThirdParty":null,"marketing":false,"personalAdvertising":false,"personalizedUi":false,"productImprovements":false,"thirdParty":false}',
       };
+    case "benalmadena24.pl":
+      return {
+        strict: false,
+        key: "cookie_consent",
+        value: "false",
+      };
   }
 
   const parts = hostname.split(".");
