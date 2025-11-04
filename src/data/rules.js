@@ -19555,6 +19555,9 @@ const rules = {
   "centralepneus.fr": {
     s: "div.content-bottom-fullwidth[data-controller*=rgpd]{display:none!important}",
   },
+  "centralepneus.ch": {
+    s: ".content-bottom-fullwidth[data-controller*=rgpd]{display:none!important}",
+  },
 
   // end of const rules
 };
