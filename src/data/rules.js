@@ -19590,6 +19590,9 @@ const rules = {
   "shop.apotal.de": {
     s: "#cookie-message,.message-overlay{display:none!important}",
   },
+  "almdudler.com": {
+    s: ".m-cookieConsent,.m-cookieSettings{display:none!important}",
+  },
 
   // end of const rules
 };
