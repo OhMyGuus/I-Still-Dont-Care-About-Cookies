@@ -15297,9 +15297,7 @@ const rules = {
   "jw.org": { s: ".lnc-firstRunPopup{display:none !important}" },
   "dndbeyond.com": { j: "6" },
   "commanderspellbook.com": { s: ".border-b-2{display:none !important}" },
-  "education.lego.com": {
-    s: "[data-testid=modal]{display:none!important}body.blockScroll{overflow:auto!important}",
-  },
+  "education.lego.com": { j: "6" },
   "bonobology.com": { s: ".dialog-widget-content{display:none !important}" },
   "bodypak.pl": { s: ".pop-cookiebox{display:none !important}" },
   "beurer.se": {
