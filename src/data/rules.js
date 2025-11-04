@@ -19619,6 +19619,9 @@ const rules = {
   "speechify.com": {
     s: 'div[class*="fixed"][class*="inset-0"][class*="bg-black"][class*="bg-opacity-70"],div[class*="bg-glass-800"]{display:none!important}body{overflow:auto!important}',
   },
+  "myheritage.dk": {
+    s: "#cookie_preferences_banner_root,#cookie_preferences_banner_root .cookie_preferences_banner,#cookie_preferences_banner_root .cookie_banner_overlay{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
