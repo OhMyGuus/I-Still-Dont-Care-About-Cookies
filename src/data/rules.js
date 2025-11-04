@@ -19630,6 +19630,9 @@ const rules = {
   "danigta.de": {
     s: ":is(.fc-consent-root,.fc-dialog-overlay,.fc-dialog-container,.fc-dialog,div[class*=fixed][class*=bottom-0][class*=bg-gray-900]){display:none!important}:is(html,body){overflow:auto!important}",
   },
+  "quellnatura.de": {
+    s: "#Compliance-cs-banner,.Compliance-cs-container{display:none!important}",
+  },
 
   // end of const rules
 };
