@@ -19565,6 +19565,9 @@ const rules = {
   "hautsdefrance.fr": {
     s: '[id^="tarteaucitron"],[id^="tac"],.tarteaucitronAsk,.tarteaucitronAlertBigTop{display:none!important}html,body{overflow:visible!important}',
   },
+  "mudblazor.com": {
+    s: ".mud-cc-container,.mud-cc-content,.mud-cc-body,.mud-cc-actions{display:none!important}",
+  },
 
   // end of const rules
 };
