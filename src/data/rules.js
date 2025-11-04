@@ -19616,6 +19616,9 @@ const rules = {
   "leuchtturm.de": {
     s: "html,body{overflow:auto!important}#ccg-cookie-consent-banner,#fullPageBackDrop.open{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "speechify.com": {
+    s: 'div[class*="fixed"][class*="inset-0"][class*="bg-black"][class*="bg-opacity-70"],div[class*="bg-glass-800"]{display:none!important}body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
