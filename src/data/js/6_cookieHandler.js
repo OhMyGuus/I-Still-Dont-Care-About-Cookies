@@ -752,6 +752,11 @@ function getE(hostname) {
       return [
         'eea_approval={"ad_user_data":"granted","ad_storage":"denied","ad_personalization":"denied","functionality_storage":"denied","analytics_storage":"denied"}',
       ];
+    case "autodoc.de":
+    case "autodoc.parts":
+      return [
+        "atct=eyJjb29raWVUeXBlIjpbImNvb2tpZV9yZXF1aXJlZCIsImNvb2tpZV9yZXF1aXJlZCJdfQ%3D%3D",
+      ];
   }
 
   const parts = hostname.split(".");
