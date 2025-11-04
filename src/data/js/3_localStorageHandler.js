@@ -292,6 +292,8 @@ function getItem(hostname) {
         { strict: false, key: "Cookie_acceptordeny", value: "denied" },
         { strict: false, key: "Performance_cookie", value: "false" },
       ];
+    case "codetalks.com":
+      return { strict: true, key: "cookieConsent", value: "rejected" };
   }
 
   const parts = hostname.split(".");
