@@ -14573,12 +14573,8 @@ const rules = {
   "conduktor.io": {
     s: ".cookie-though{display:none !important;left:-99999px}",
   },
-  "autodoc.de": {
-    s: "div[data-popup-cookies],body:has([data-popup-cookies]).overlay {display:none!important;visibility:hidden!important} html,body{overflow:auto!important;position:static!important}",
-  },
-  "autodoc.parts": {
-    s: "div[data-popup-cookies],body:has([data-popup-cookies]).overlay {display:none!important;visibility:hidden!important} html,body{overflow:auto!important;position:static!important}",
-  },
+  "autodoc.de": { j: 6 },
+  "autodoc.parts": { j: 6 },
   "italotreno.it": {
     s: ".pre-header-bar.cookies,#cookie-row{display:none !important}",
   },
