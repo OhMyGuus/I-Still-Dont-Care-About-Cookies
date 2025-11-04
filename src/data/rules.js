@@ -16927,7 +16927,7 @@ const rules = {
   "all3dp.com": { j: 5 },
   "komoot.de": { j: 5 },
   "komoot.com": {
-    s: "#gdpr_banner_portal,#banner_portal_container,#redesign_survey_portal,dialog[open]{display:none!important}body{overflow:auto!important}",
+    s: 'dialog[aria-hidden="false"],dialog[aria-hidden="false"]::backdrop,#gdpr_banner_portal,#banner_portal_container{display:none!important}html,body{overflow:auto!important}',
   },
   "amiunique.org": { s: ".v-snack{display:none !important}" },
   "kbs-frb.be": { s: ".block-extendedcookiebanner{display:none !important}" },
