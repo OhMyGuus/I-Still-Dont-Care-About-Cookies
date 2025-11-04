@@ -14272,7 +14272,9 @@ const rules = {
   "semper.se": { s: 'div[class*="CookieContainer"]{display:none !important}' },
   "form.bar": { s: ".formbarConsent{display:none !important}" },
   "bittitan.com": { c: 0 },
-  "lepotcommun.fr": { j: "5" },
+  "lepotcommun.fr": {
+    s: '[class*="CookiesModal"]{display:none!important}',
+  },
   "koryotel.com": { s: "#footer_overlay{display:none !important}" },
   "satisfactorygame.com": { c: 2 },
   "blockfi.com": { j: "5" },
