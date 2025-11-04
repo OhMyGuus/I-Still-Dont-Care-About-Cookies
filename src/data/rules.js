@@ -19568,6 +19568,7 @@ const rules = {
     s: "#main-cookie-dialog,#preferences-cookie-dialog{display:none!important}body.cookies-info{overflow:auto!important}",
   },
   "eerlijketen.nl": { j: 3 },
+  "oidiosound.co.uk": { s: "#privacy-pop-up{display:none!important}" },
 
   // end of const rules
 };
