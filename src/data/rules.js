@@ -19577,6 +19577,7 @@ const rules = {
   "fordannecy.fr": {
     s: "#cookie-consent-modal,.gw-cookie-consent--overlay.gw-modal__overlay{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important}",
   },
+  "toya.pl": { s: "#cm-overlay,.cm-container-initial{display:none!important}" },
 
   // end of const rules
 };
