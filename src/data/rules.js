@@ -19568,6 +19568,9 @@ const rules = {
   "mudblazor.com": {
     s: ".mud-cc-container,.mud-cc-content,.mud-cc-body,.mud-cc-actions{display:none!important}",
   },
+  "zus.pl": {
+    s: "#main-cookie-dialog,#preferences-cookie-dialog{display:none!important}body.cookies-info{overflow:auto!important}",
+  },
 
   // end of const rules
 };
