@@ -19581,6 +19581,9 @@ const rules = {
   "wildberries.ru": {
     s: "#cookiePolicyRoot,.fixed-block__cookies,.cookies{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "deltaforce.garena.com": {
+    s: ".cookie,.cookie__overlay,.cookie__nav,.cookie__side-bar{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
