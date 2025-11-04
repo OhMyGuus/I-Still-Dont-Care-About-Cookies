@@ -441,7 +441,7 @@ function getE(hostname) {
       return ["cookie-consent=denied"];
     case "education.lego.com":
       return [
-        'LEGO_COOKIE_SETTINGS={"preferences":[{"label":"analytics","value":false},{"label":"legomarketing","value":false},{"label":"thirdparty","value":false}],"reconsentDate":""}',
+        'LEGO_COOKIE_SETTINGS={"preferences":[{"key":"necessary","value":true},{"key":"analytics","value":false},{"key":"legomarketing","value":false},{"key":"thirdparty","value":false}]}',
       ];
     case "beurer.se":
       return [
