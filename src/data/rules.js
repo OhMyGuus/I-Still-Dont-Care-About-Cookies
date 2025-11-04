@@ -19574,6 +19574,9 @@ const rules = {
   "commeunroi.com": {
     s: "#overlay-cookie,#cookieDisclaimerPopup,#wookiesDisclaimer,#divCookiesGeneral,#divCookiesConfig,#cookie-disabled{display:none!important} html,body{overflow:auto!important}",
   },
+  "100jourspourentreprendre.fr": {
+    s: "#modal-cmp,.modal-backdrop.fade.show{display:none!important}body{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
