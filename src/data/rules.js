@@ -19682,6 +19682,9 @@ const rules = {
   "angermund.myroyal.de": {
     s: "#cookie,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important}",
   },
+  "people.com": {
+    s: "#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-policy,#onetrust-pc-sdk{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
