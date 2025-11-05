@@ -19715,6 +19715,7 @@ const rules = {
   "compramostucoche.es": { j: 6 },
   "extra.ge": { j: 3 },
   "kulturkaufhaus.de": { j: 5 },
+  "bugzilla.mozilla.org": { s: "#moz-consent-banner{display:none!important}" },
 
   // end of const rules
 };
