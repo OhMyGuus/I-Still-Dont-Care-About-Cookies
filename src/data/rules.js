@@ -19702,7 +19702,7 @@ const rules = {
   },
   "pdfaid.com": { j: 6 },
   "testphase.rechtsinformationen.bund.de": {
-    s: "section[data-testid=cookie-banner],section[aria-label*=Cookie-Einstellungen i]{display:none!important}",
+    s: "section[data-testid=cookie-banner]{display:none!important}",
   },
 
   // end of const rules
