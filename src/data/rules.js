@@ -19642,9 +19642,7 @@ const rules = {
   "folkbiblioteken.lund.se": {
     s: "#cc--main,#cc_div,#cm-ov{display:none!important}html,body{overflow:auto!important}",
   },
-  "hugendubel.info": {
-    s: "dialog.confirm.cookie,dialog.confirm.cookie::backdrop{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}",
-  },
+  "hugendubel.info": { j: 5 },
 
   // end of const rules
 };
