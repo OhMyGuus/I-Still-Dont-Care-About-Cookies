@@ -19714,9 +19714,7 @@ const rules = {
   "tabii.com": { s: "[data-testid=gdpr-popup]{display:none!important}" },
   "compramostucoche.es": { j: 6 },
   "extra.ge": { j: 3 },
-  "kulturkaufhaus.de": {
-    s: 'dialog.confirm.cookie,div.trboDimmer,div[id$="_dimmer"]{display:none!important}body{overflow:auto!important}',
-  },
+  "kulturkaufhaus.de": { j: 5 },
 
   // end of const rules
 };
