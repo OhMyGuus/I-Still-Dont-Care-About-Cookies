@@ -19704,6 +19704,9 @@ const rules = {
     s: ".cb-gdpr{display:none!important}",
   },
   "pdfaid.com": { j: 6 },
+  "ups.com": {
+    s: "#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-pc-sdk,#ot-pc-content,#ot-anchor{display:none!important}html,body{overflow:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
