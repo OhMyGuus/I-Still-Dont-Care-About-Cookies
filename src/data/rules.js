@@ -15141,7 +15141,9 @@ const rules = {
   "assura.ch": {
     s: "#__next > div[class] > div[display]{display:none !important}",
   },
-  "capcut.com": { s: ".lv_cookie_banner-wrapper{display:none !important}" },
+  "capcut.com": {
+    s: '[class*="cookie" i],[id*="cookie" i],[data-testid*="cookie" i]{display:none!important;visibility:hidden!important}',
+  },
   "hyundai.pt": { j: "5" },
   "hyundai.com": { s: ".mainTopBanner{display:none !important}" },
   "hyundai.com.br": { s: ".footertextbox{display:none !important}" },
