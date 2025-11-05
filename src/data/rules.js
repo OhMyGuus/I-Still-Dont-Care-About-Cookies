@@ -19699,6 +19699,7 @@ const rules = {
     s: ".focus.focus-cookiebara.active,#cookieBara,.cookiebara-wrapper,.cookiebar-simple{display:none!important}body{overflow:visible!important}",
   },
   "mjob.si": { j: 6 },
+  "err.ee": { j: 6 },
 
   // end of const rules
 };

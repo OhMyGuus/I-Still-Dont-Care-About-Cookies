@@ -770,6 +770,8 @@ function getE(hostname) {
       return ["mjob_ads=false", "mjob_analytics=false", "mjob_necessary=true"];
     case "wolframalpha.com":
       return ["__cookie_consent=1"];
+    case "err.ee":
+      return ["errCookieConsent=necessary"];
   }
 
   const parts = hostname.split(".");
