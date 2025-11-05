@@ -19700,6 +19700,9 @@ const rules = {
   },
   "mjob.si": { j: 6 },
   "err.ee": { j: 6 },
+  "wetransfer.com": {
+    s: ".cb-gdpr{display:none!important}",
+  },
 
   // end of const rules
 };
