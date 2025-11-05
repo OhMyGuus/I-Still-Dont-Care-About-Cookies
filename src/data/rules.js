@@ -7119,9 +7119,7 @@ const rules = {
     s: "[data-widget=cookieBubble],.uw_f1a,.p3.p4{display:none!important}",
   },
   "head-fi.org": { c: 11 },
-  "tradingview.com": {
-    s: "#overlap-manager-root,[data-qa-id=overlap-manager-root],.toastList-Hvz5Irky,.toastListScroll-Hvz5Irky,.toastListInner-Hvz5Irky,.toastGroup-JUpQSPBo,.toastCommonBase-zMOxH_8U,.itemInner-JUpQSPBo,.itemInnerInner-JUpQSPBo,.actionBtn-ICNSJWAI,.acceptAll-ICNSJWAI{display:none!important}html,body{overflow:auto!important}",
-  },
+  "tradingview.com": { j: 6 },
   "pcmweb.nl": { j: "5" },
   "webastoconnect.com": { s: ".alert.ecc.show-ecc{display:none !important}" },
   "jobnet.dk": { j: "5" },

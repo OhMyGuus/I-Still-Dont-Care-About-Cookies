@@ -761,6 +761,10 @@ function getE(hostname) {
       return ["privacy2=necessary"];
     case "arte.tv":
       return ["user_consent=audience%3Doff%2Ctechnical%3Doff"];
+    case "tradingview.com":
+      return [
+        'cookiesSettings-consent={"analytics":false,"advertising":false}',
+      ];
   }
 
   const parts = hostname.split(".");
