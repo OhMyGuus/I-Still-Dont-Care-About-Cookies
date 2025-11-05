@@ -19664,6 +19664,9 @@ const rules = {
   "testdevelocidad.es": {
     s: "[id^=gaz-gdpr-],[class*=gaz-gdpr-]{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
+  "angermund.myroyal.de": {
+    s: "#cookie,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
