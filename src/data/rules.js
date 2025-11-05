@@ -5706,9 +5706,7 @@ const rules = {
     s: 'body > div[data-editable="boxCookieNotification"]{display:none !important}',
   },
   "lisa.ru": { c: 150 },
-  "arte.tv": {
-    s: ".ds-1jj3hza,.ds-1qoykhs,.ds-1mo8v4u,.ds-9ujs52{display:none!important;}",
-  },
+  "arte.tv": { j: 6 },
   "a2s.pl": { s: ".cookieForm{display:none !important}" },
   "skanetrafiken.se": { c: 0 },
   "trendsales.dk": {

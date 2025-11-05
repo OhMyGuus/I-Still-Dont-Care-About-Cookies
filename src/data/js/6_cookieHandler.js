@@ -759,6 +759,8 @@ function getE(hostname) {
       ];
     case "oko.press":
       return ["privacy2=necessary"];
+    case "arte.tv":
+      return ["user_consent=audience%3Doff%2Ctechnical%3Doff"];
   }
 
   const parts = hostname.split(".");
