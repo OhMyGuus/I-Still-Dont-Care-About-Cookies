@@ -19726,6 +19726,9 @@ const rules = {
   "byhealth.pl": {
     s: "#RodoCookiesInit,#RodoCookiesInfo,.modal-backdrop{display:none!important;visibility:hidden!important}body{overflow:auto!important}",
   },
+  "clickprinting.es": {
+    s: '.popupbox[data-state="open"],.popupbox.is-active[id^="radix-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}body[style*="overflow: hidden"]{overflow:auto!important}',
+  },
 
   // end of const rules
 };
