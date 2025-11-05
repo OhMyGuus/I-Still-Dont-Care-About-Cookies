@@ -19720,6 +19720,7 @@ const rules = {
     s: "#banner-pc,#banner-contents,#banner-image,#browser-banner,.MuiBackdrop-root,.MuiDrawer-root,.MuiDrawer-paper{display:none!important}html,body{overflow:auto!important}",
   },
   "eau.veolia.fr": { j: 6 },
+  "instreet.com.tr": { s: "efilli-layout-dynamic{display:none!important}" },
 
   // end of const rules
 };
