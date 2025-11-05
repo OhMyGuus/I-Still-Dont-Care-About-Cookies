@@ -19716,6 +19716,9 @@ const rules = {
   "extra.ge": { j: 3 },
   "kulturkaufhaus.de": { j: 5 },
   "bugzilla.mozilla.org": { s: "#moz-consent-banner{display:none!important}" },
+  "v3.account.samsung.com": {
+    s: "#banner-pc,#banner-contents,#banner-image,#browser-banner,.MuiBackdrop-root,.MuiDrawer-root,.MuiDrawer-paper{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
