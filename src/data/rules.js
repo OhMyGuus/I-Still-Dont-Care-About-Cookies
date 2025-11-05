@@ -19695,9 +19695,6 @@ const rules = {
   "lizenzpate.de": {
     s: "#ccAcivateModal,#ccSettings,#ccConsentAccordion,.modal-backdrop,a.blur-elysium-slide-link-overlay{display:none!important}html,body{overflow:auto!important}",
   },
-  "filmaffinity.com": {
-    s: '[id^="qc-cmp2"],[class*="qc-cmp2"]{display:none!important;}',
-  },
 
   // end of const rules
 };

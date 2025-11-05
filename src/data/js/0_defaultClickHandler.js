@@ -207,7 +207,7 @@
   };
 
   const searchGroups = [
-    '.qc-cmp2-summary-buttons button[mode="secondary"],\
+    '.qc-cmp2-summary-buttons button#disagree-btn,\
 		.qc-cmp2-buttons-desktop > button:first-child,\
 		#didomi-popup .didomi-button-highlight:not([class*="paywall"]):not([class*="disagree"]),\
 		#rgpd_video .rgpd-mask a[data-rgpd-consent],\
@@ -572,10 +572,7 @@
               element.click();
             }
             setTimeout(function () {
-              if (element) {
-                if (element.disabled) {
-                  element.disabled = false;
-                }
+              if (element && element.id != "disagree-btn") {
                 element.click();
               }
             }, 300);
