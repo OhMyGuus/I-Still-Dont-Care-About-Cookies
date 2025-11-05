@@ -19689,6 +19689,9 @@ const rules = {
   "vindueskarme.dk": {
     s: "#tws-react-common--modal,#tws-accept-cookies--modal,#consentAllButton,#consentNecessaryButton,#cookieSettingsButton,.modal-backdrop{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
+  "16100.fi": {
+    s: ".cookie-consent,.modal-backdrop.show{display:none!important} body.modal-open{overflow:visible!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
