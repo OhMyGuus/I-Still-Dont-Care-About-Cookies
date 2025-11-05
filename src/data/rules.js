@@ -1666,7 +1666,7 @@ const rules = {
   "futurelearn.com": {
     s: '.m-heads-up-banner[aria_label="Cookie banner"]{display:none !important}',
   },
-  "ksk-koeln.de": { s: "#dpWarningWrapper{display:none !important}" },
+  "ksk-koeln.de": { j: "5" },
   "infogreffe.fr": {
     s: ".trackingCookiesDisclaimer .header{margin-top:0 !important}",
   },

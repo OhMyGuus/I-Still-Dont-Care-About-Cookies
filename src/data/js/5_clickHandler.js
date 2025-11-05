@@ -8357,6 +8357,7 @@ function getSelector(host) {
       return "button[data-selector-cookie-button='reject-all']";
     case "pccomponentes.com":
       return "#cookiesrejectAll";
+    case "ksk-koeln.de":
     case "sparkasse-regensburg.de":
     case "berliner-sparkasse.de":
       return "a[data-form='.eprivacy_optin_decline']";
