@@ -19710,6 +19710,9 @@ const rules = {
   },
   "health.com": { c: 85 },
   "tabii.com": { s: "[data-testid=gdpr-popup]{display:none!important}" },
+  "compramostucoche.es": {
+    s: "#gdpr-banner-root,.GDPRBanner-module_banner__RleVq,.modal__bg,.modal__outer,.modal-root,.modal__wrap,.modal__container,.modal__content{display:none!important;visibility:hidden!important;pointer-events:none!important} html.modal-open,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
