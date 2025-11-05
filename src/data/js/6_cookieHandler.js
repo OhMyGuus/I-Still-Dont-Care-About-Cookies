@@ -441,7 +441,7 @@ function getE(hostname) {
       return ["cookie-consent=denied"];
     case "education.lego.com":
       return [
-        'LEGO_COOKIE_SETTINGS={"preferences":[{"label":"analytics","value":false},{"label":"legomarketing","value":false},{"label":"thirdparty","value":false}],"reconsentDate":""}',
+        'LEGO_COOKIE_SETTINGS={"preferences":[{"key":"necessary","value":true},{"key":"analytics","value":false},{"key":"legomarketing","value":false},{"key":"thirdparty","value":false}]}',
       ];
     case "beurer.se":
       return [
@@ -754,6 +754,18 @@ function getE(hostname) {
       ];
     case "pfand-gehoert-daneben.de":
       return ["gdpr_preface=1"];
+    case "oko.press":
+      return ["privacy2=necessary"];
+    case "arte.tv":
+      return ["user_consent=audience%3Doff%2Ctechnical%3Doff"];
+    case "tradingview.com":
+      return [
+        'cookiesSettings-consent={"analytics":false,"advertising":false}',
+      ];
+    case "sj.se":
+      return [
+        "sj_consent_v1=%7B%22consent%22%3A%7B%22MARKETING%22%3Afalse%2C%22PERSONALIZATION%22%3Afalse%7D%2C%22uuid%22%3A%22000000-0000-0000-0000-000000000000%22%7D",
+      ];
   }
 
   const parts = hostname.split(".");

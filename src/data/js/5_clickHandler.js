@@ -3225,11 +3225,6 @@ function getSelector(host) {
         'a[href*="cookieSection"]',
         '//div[./div/p/a[contains(@href, "cookieSection")]]//button[2]'
       );
-    case "lepotcommun.fr":
-      return _if(
-        'div[role="dialog"]',
-        '//div[@role="dialog"]//button[./div[text()="Tout refuser"]]'
-      );
     case "henleyglobal.com":
       return _chain(
         '.cookieswindow[style*="block"] .allow-selection',
@@ -3983,7 +3978,7 @@ function getSelector(host) {
     case "reshade.me":
       return '.activebar-container:not([style*="none"]) .accept';
     case "united-domains.de":
-      return '.layer-overlay[style*="block"] .cookie-layer-dialog .confirm-selection';
+      return ".cookie-layer-dialog .confirm-selection";
     case "vias.be":
       return '#cookies-banner[style*="block"] .btn-accept-necessary';
     case "sportfondsen.nl":
@@ -6620,10 +6615,6 @@ function getSelector(host) {
       return _sl("#cookieModal.show .close");
     case "otpportalok.hu":
       return _sl(".pop_up_bg .cookie_button_col_btn button");
-    case "arte.tv":
-      return _sl(
-        '.popup_cookies.active .button.active, .modal[style*="block"] #acceptAllCookiesBtn'
-      );
     case "cip.nl":
       return _sl(".container > .justify-content-center #accept");
     case "jm.se":
@@ -8362,6 +8353,7 @@ function getSelector(host) {
       return "button[data-selector-cookie-button='reject-all']";
     case "pccomponentes.com":
       return "#cookiesrejectAll";
+    case "ksk-koeln.de":
     case "sparkasse-regensburg.de":
     case "berliner-sparkasse.de":
       return "a[data-form='.eprivacy_optin_decline']";
@@ -8402,6 +8394,8 @@ function getSelector(host) {
       return "//div[@role='dialog'][.//h5[normalize-space()='We use cookies']]//button[@aria-label='Save']";
     case "electrissime.fr":
       return "#divCookiesGeneral a[onclick=\"userCookieChoice('0')\"]";
+    case "hugendubel.info":
+      return "button[data-katalon='acceptRequired']";
   }
 
   if (host.parts.length > 2) {

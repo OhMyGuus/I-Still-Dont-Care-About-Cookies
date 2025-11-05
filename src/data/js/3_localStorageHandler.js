@@ -268,6 +268,43 @@ function getItem(hostname) {
         key: "cookieConsent",
         value: '"needed"',
       };
+    case "videoload.de":
+      return {
+        strict: false,
+        key: "DTAG_GUEST_PRIVACY_FLAGS",
+        value:
+          '{"infoService":null,"infoToBroadcasters":false,"infoToThirdParty":null,"marketing":false,"personalAdvertising":false,"personalizedUi":false,"productImprovements":false,"thirdParty":false}',
+      };
+    case "benalmadena24.pl":
+      return {
+        strict: false,
+        key: "cookie_consent",
+        value: "false",
+      };
+    case "eerlijketen.nl":
+      return {
+        strict: false,
+        key: "accept_cookies",
+        value: "false",
+      };
+    case "hertz247.de":
+      return [
+        { strict: false, key: "Cookie_acceptordeny", value: "denied" },
+        { strict: false, key: "Performance_cookie", value: "false" },
+      ];
+    case "firsty.app":
+    case "codetalks.com":
+      return { strict: true, key: "cookieConsent", value: "rejected" };
+
+    case "komoot.com":
+      return [
+        {
+          strict: false,
+          key: "komoot_gdpr_data",
+          value:
+            '{"requestDone":true,"technicalAcceptedTrackers":["datadog","komoot_sdk_technical","komoot_sdk_analytics","komoot_legacy_technical","komoot_legacy_analytics","facebook_sdk"],"analyticsAcceptedTrackers":[],"profilingAcceptedTrackers":[],"lastAcceptedVersion":1}',
+        },
+      ];
   }
 
   const parts = hostname.split(".");
