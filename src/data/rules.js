@@ -19649,6 +19649,9 @@ const rules = {
   "mollie.com": {
     s: ".--framer-cookie-banner-container{display:none!important}",
   },
+  "accu.org": {
+    s: "#snackbar{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
