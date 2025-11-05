@@ -19165,7 +19165,9 @@ const rules = {
   "ilmatieteenlaitos.fi": {
     s: ".cookie-consent,#cookie-consent-content{display:none!important}",
   },
-  "comdirect.de": { s: "com-consent-layer{display:none!important}" },
+  "comdirect.de": {
+    s: "a[id^=cmp],a#cmp-trigger,.layer__backdrop.layer-tooltip__backdrop,.layer-tooltip__container,.layer__content.layer-tooltip__content,.layer__content-wrapper.layer-tooltip__content-wrapper,.layer-tooltip,.omega-teaser__content-overlay{display:none!important}",
+  },
   "bz-berlin.de": {
     s: '[id^="sp_message_container_"],[id^="sp_message_iframe_"]{display:none!important}html,body{overflow:auto!important}',
   },
