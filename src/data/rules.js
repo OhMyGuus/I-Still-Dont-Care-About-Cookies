@@ -5707,7 +5707,7 @@ const rules = {
   },
   "lisa.ru": { c: 150 },
   "arte.tv": {
-    s: ".ds-1jj3hza,.ds-1mo8v4u,.ds-1e05hq4,.ds-9ujs52{display:none!important}",
+    s: ".ds-1jj3hza,.ds-1qoykhs,.ds-1mo8v4u,.ds-9ujs52{display:none!important;}",
   },
   "a2s.pl": { s: ".cookieForm{display:none !important}" },
   "skanetrafiken.se": { c: 0 },
