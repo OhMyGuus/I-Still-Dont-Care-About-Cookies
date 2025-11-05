@@ -7120,7 +7120,7 @@ const rules = {
   },
   "head-fi.org": { c: 11 },
   "tradingview.com": {
-    s: 'div[class^="toast-positioning-wrapper"]{display:none !important}',
+    s: "#overlap-manager-root,[data-qa-id=overlap-manager-root],.toastList-Hvz5Irky,.toastListScroll-Hvz5Irky,.toastListInner-Hvz5Irky,.toastGroup-JUpQSPBo,.toastCommonBase-zMOxH_8U,.itemInner-JUpQSPBo,.itemInnerInner-JUpQSPBo,.actionBtn-ICNSJWAI,.acceptAll-ICNSJWAI{display:none!important}html,body{overflow:auto!important}",
   },
   "pcmweb.nl": { j: "5" },
   "webastoconnect.com": { s: ".alert.ecc.show-ecc{display:none !important}" },
