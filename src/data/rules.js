@@ -19692,6 +19692,9 @@ const rules = {
   "16100.fi": {
     s: ".cookie-consent,.modal-backdrop.show{display:none!important} body.modal-open{overflow:visible!important;padding-right:0!important}",
   },
+  "lizenzpate.de": {
+    s: "#ccAcivateModal,#ccSettings,#ccConsentAccordion,.modal-backdrop,a.blur-elysium-slide-link-overlay{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
