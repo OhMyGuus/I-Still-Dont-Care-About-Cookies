@@ -15390,7 +15390,7 @@ const rules = {
     s: 'div[class*="gdpr__Modal"]{display:none !important}',
   },
   "nablawave.com": { j: "5" },
-  "esm-computer.de": { j: "5" },
+  "esm-computer.de": { j: "6" },
   "carsized.com": { s: "body > center ~ center{display:none !important}" },
   "mycards.hdfcbank.com": {
     s: '.hdfc-page > div[style*="center"]{display:none !important}',
