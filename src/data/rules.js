@@ -19721,6 +19721,9 @@ const rules = {
   },
   "eau.veolia.fr": { j: 6 },
   "instreet.com.tr": { s: "efilli-layout-dynamic{display:none!important}" },
+  "luminam.ro": {
+    s: "#cookieSetting,#fancybox-1,.fancybox__container,.fancybox__dialog,.fancybox__contentInner,.fancybox__slide,.fancybox__backdrop,#btn-cookie-accept-all,#btn-cookie-showmore,#btn-cookie-accept-essencial{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
