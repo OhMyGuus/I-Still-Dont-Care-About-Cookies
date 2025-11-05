@@ -19695,6 +19695,9 @@ const rules = {
   "lizenzpate.de": {
     s: "#ccAcivateModal,#ccSettings,#ccConsentAccordion,.modal-backdrop,a.blur-elysium-slide-link-overlay{display:none!important}html,body{overflow:auto!important}",
   },
+  "skyman.cz": {
+    s: "#cookiesDialog,.modal-backdrop{display:none!important;visibility:hidden!important;pointer-events:none!important}body.modal-open{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
