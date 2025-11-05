@@ -305,6 +305,13 @@ function getItem(hostname) {
             '{"requestDone":true,"technicalAcceptedTrackers":["datadog","komoot_sdk_technical","komoot_sdk_analytics","komoot_legacy_technical","komoot_legacy_analytics","facebook_sdk"],"analyticsAcceptedTrackers":[],"profilingAcceptedTrackers":[],"lastAcceptedVersion":1}',
         },
       ];
+    case "extra.ge":
+      return {
+        strict: false,
+        key: "unauthorized-cookie-popup",
+        value:
+          "Thu Nov 06 2077 00:00:00 GMT+0100 (Central European Standard Time)",
+      };
   }
 
   const parts = hostname.split(".");

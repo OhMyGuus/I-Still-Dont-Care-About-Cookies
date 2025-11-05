@@ -19713,6 +19713,7 @@ const rules = {
   "health.com": { c: 85 },
   "tabii.com": { s: "[data-testid=gdpr-popup]{display:none!important}" },
   "compramostucoche.es": { j: 6 },
+  "extra.ge": { j: 3 },
 
   // end of const rules
 };
