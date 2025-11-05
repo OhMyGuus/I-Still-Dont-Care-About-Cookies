@@ -19661,6 +19661,9 @@ const rules = {
   "npm.fr": {
     s: "#cc_div,#cc--main,#cm,#cm-ov,.cc_div,.c--anim{display:none!important}html,body{overflow:auto!important}",
   },
+  "testdevelocidad.es": {
+    s: "[id^=gaz-gdpr-],[class*=gaz-gdpr-]{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
