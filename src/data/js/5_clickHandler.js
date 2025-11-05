@@ -8394,6 +8394,7 @@ function getSelector(host) {
     case "electrissime.fr":
       return "#divCookiesGeneral a[onclick=\"userCookieChoice('0')\"]";
     case "hugendubel.info":
+    case "kulturkaufhaus.de":
       return "button[data-katalon='acceptRequired']";
   }
 
