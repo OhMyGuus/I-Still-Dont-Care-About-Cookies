@@ -19637,6 +19637,9 @@ const rules = {
   "comarch.pl": {
     s: ".consent-modal2,.consent-modal2__wrapper,.consent-modal2__general{display:none!important}body.consent-modal2__body{overflow:auto!important}",
   },
+  "ibs-ggmbh.eu": {
+    s: "div[consent-skip-blocker],dialog[open]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
