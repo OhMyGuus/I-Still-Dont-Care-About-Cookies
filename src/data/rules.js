@@ -19711,7 +19711,7 @@ const rules = {
     s: '[id^="lgcookieslaw_banner_"],#lgcookieslaw_modal,#lgcookieslaw_fixed_button,.lgcookieslaw-backdrop,.lgcookieslaw-overlay,.pk-shadow{display:none!important}html,body{overflow:auto!important}',
   },
   "health.com": {
-    s: '#onetrust-banner-sdk,#onetrust-consent-sdk,.onetrust-banner{display:none!important} :is(html,body)[style*="overflow:hidden"]{overflow:auto!important}',
+    c: 85,
   },
 
   // end of const rules
