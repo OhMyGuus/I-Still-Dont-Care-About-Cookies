@@ -776,6 +776,10 @@ function getE(hostname) {
       return [
         "gdpr_consent_value=ad_storage%3Ddenied%3Bad_user_data%3Ddenied%3Bad_personalization%3Ddenied%3Banalytics_storage%3Ddenied",
       ];
+    case "onlyoffice.com":
+      return [
+        "cookie_preferences=%7B%22necessary%22%3A%22granted%22%2C%22analytics_storage%22%3A%22denied%22%2C%22ad_storage%22%3A%22denied%22%2C%22ad_user_data%22%3A%22denied%22%2C%22ad_personalization%22%3A%22denied%22%2C%22security_storage%22%3A%22granted%22%2C%22functionality_storage%22%3A%22denied%22%2C%22personalization_storage%22%3A%22denied%22%7D",
+      ];
   }
 
   const parts = hostname.split(".");

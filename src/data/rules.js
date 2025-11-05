@@ -13011,9 +13011,7 @@ const rules = {
   },
   "beincrypto.com": { s: "#amp-user-notification1{display:none !important}" },
   "edifier.com": { c: 0 },
-  "onlyoffice.com": {
-    s: '#accept-all,#decline-all,#settings,div[class*="sc-4b1541d7-3"],div[class*="sc-4b1541d7-4"],.oo-header-overlay{display:none !important;pointer-events:none !important;visibility:hidden !important;}',
-  },
+  "onlyoffice.com": { j: 6 },
   "cheaptickets.ch": { j: "5" },
   "torrossa.com": { j: "5" },
   "iupp.com.br": { j: "5" },
