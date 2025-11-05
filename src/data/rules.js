@@ -13994,7 +13994,9 @@ const rules = {
   "freesciencelessons.co.uk": {
     s: ".divibars-container{display:none !important}",
   },
-  "namesilo.com": { j: 5 },
+  "namesilo.com": {
+    s: "#fixed-footer,#fixed-footer-teleport,.fixed-footer{display:none!important}",
+  },
   "hansanders.nl": { s: "#cookie-dialog-wrapper{display:none !important}" },
   "hansanders.be": { s: "#cookie-module-js{display:none !important}" },
   "airgradient.com": { c: 112 },
