@@ -16046,9 +16046,7 @@ const rules = {
     c: 14,
   },
   "bushnell.com": { s: "#consent-tracking{display:none !important}" },
-  "oko.press": {
-    s: "div.fixed.animate-slide-bottom-in[aria-hidden=true], div.fixed.animate-slide-bottom-in[style*=bottom]{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important}",
-  },
+  "oko.press": { j: "6" },
   "myeventeo.com": { s: ".box-container{display:none !important}" },
   "minervamagazine.com": { s: ".pcb{display:none !important}" },
   "ancientegyptmagazine.com": { s: ".pcb{display:none !important}" },
