@@ -19655,6 +19655,9 @@ const rules = {
   "unifyfcu.com": {
     s: ".ccpa-container.js-ccpa-container,#block-ccpa{display:none!important}",
   },
+  "testfiltering.com": {
+    s: "section.cookies.cookies--explicit{display:none!important}",
+  },
 
   // end of const rules
 };
