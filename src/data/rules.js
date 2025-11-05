@@ -19663,6 +19663,9 @@ const rules = {
   "angermund.myroyal.de": {
     s: "#cookie,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important}",
   },
+  "auto-doc.ie": {
+    s: ".popup.popup--notification,.notification-popup,.notification-popup__content,.overlay{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
