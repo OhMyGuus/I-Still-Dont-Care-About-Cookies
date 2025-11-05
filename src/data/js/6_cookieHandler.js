@@ -374,6 +374,7 @@ function getE(hostname) {
       return ["cookiewarn=1"];
     case "mubi.com":
       return ["mubi-cookie-consent=allow"];
+    case "esm-computer.de":
     case "ersatzteilshop.de":
       return ["cookie-preference=1"];
     case "svenskaspel.se":
@@ -765,6 +766,26 @@ function getE(hostname) {
     case "sj.se":
       return [
         "sj_consent_v1=%7B%22consent%22%3A%7B%22MARKETING%22%3Afalse%2C%22PERSONALIZATION%22%3Afalse%7D%2C%22uuid%22%3A%22000000-0000-0000-0000-000000000000%22%7D",
+      ];
+    case "mjob.si":
+      return ["mjob_ads=false", "mjob_analytics=false", "mjob_necessary=true"];
+    case "wolframalpha.com":
+      return ["__cookie_consent=1"];
+    case "err.ee":
+      return ["errCookieConsent=necessary"];
+    case "pdfaid.com":
+      return [
+        "gdpr_consent_value=ad_storage%3Ddenied%3Bad_user_data%3Ddenied%3Bad_personalization%3Ddenied%3Banalytics_storage%3Ddenied",
+      ];
+    case "onlyoffice.com":
+      return [
+        "cookie_preferences=%7B%22necessary%22%3A%22granted%22%2C%22analytics_storage%22%3A%22denied%22%2C%22ad_storage%22%3A%22denied%22%2C%22ad_user_data%22%3A%22denied%22%2C%22ad_personalization%22%3A%22denied%22%2C%22security_storage%22%3A%22granted%22%2C%22functionality_storage%22%3A%22denied%22%2C%22personalization_storage%22%3A%22denied%22%7D",
+      ];
+    case "compramostucoche.es":
+      return ["gdpr_preferences=%7B%22categories%22%3A%5B%5D%7D"];
+    case "eau.veolia.fr":
+      return [
+        "hasConsent=value%3Drequired-only%3BcreationDate%3D9762385041866",
       ];
   }
 

@@ -7276,7 +7276,6 @@ function getSelector(host) {
       return "app-cookie-consent-modal .btn-cancel";
     case "stromnetz-hamburg.de":
       return ".cookie-bar.active .active .btn + .btn-cookie-accept";
-    case "esm-computer.de":
     case "calmwaters.de":
       return '.cookie-permission-container[style*="block"] .cookie-permission-button';
     case "centrumxp.pl":
@@ -8396,7 +8395,11 @@ function getSelector(host) {
     case "electrissime.fr":
       return "#divCookiesGeneral a[onclick=\"userCookieChoice('0')\"]";
     case "hugendubel.info":
+    case "kulturkaufhaus.de":
       return "button[data-katalon='acceptRequired']";
+    case "luminam.ro":
+    case "beleuchtung.de":
+      return "#btn-cookie-accept-essencial";
   }
 
   if (host.parts.length > 2) {
@@ -8410,7 +8413,7 @@ function getSelector(host) {
 
 // Search loop function
 
-let timeoutDuration = 500;
+let timeoutDuration = 100;
 
 function searchLoop(counter, host) {
   setTimeout(function () {
@@ -8434,7 +8437,7 @@ function searchLoop(counter, host) {
               element.disabled = false;
             }
             element.click();
-          }, 300);
+          }, 100);
 
           clearInterval(clickLoop);
         } else {
@@ -8481,5 +8484,5 @@ function searchLoop(counter, host) {
     }
 
     clearInterval(start);
-  }, 500);
+  }, 200);
 })();
