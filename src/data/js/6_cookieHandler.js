@@ -780,6 +780,8 @@ function getE(hostname) {
       return [
         "cookie_preferences=%7B%22necessary%22%3A%22granted%22%2C%22analytics_storage%22%3A%22denied%22%2C%22ad_storage%22%3A%22denied%22%2C%22ad_user_data%22%3A%22denied%22%2C%22ad_personalization%22%3A%22denied%22%2C%22security_storage%22%3A%22granted%22%2C%22functionality_storage%22%3A%22denied%22%2C%22personalization_storage%22%3A%22denied%22%7D",
       ];
+    case "compramostucoche.es":
+      return ["gdpr_preferences=%7B%22categories%22%3A%5B%5D%7D"];
   }
 
   const parts = hostname.split(".");
