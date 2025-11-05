@@ -19643,6 +19643,9 @@ const rules = {
     s: "#cc--main,#cc_div,#cm-ov{display:none!important}html,body{overflow:auto!important}",
   },
   "hugendubel.info": { j: 5 },
+  "hannah.fr": {
+    s: 'div[class*="fixed"][class*="right-4"][class*="bottom-4"]{display:none!important}',
+  },
 
   // end of const rules
 };
