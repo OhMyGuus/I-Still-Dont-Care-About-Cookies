@@ -13890,7 +13890,9 @@ const rules = {
   "pagespeed.web.dev": {
     s: 'c-wiz > div > div > div > div[jscontroller][jsaction$=");"]{display:none !important}',
   },
-  "billiger.de": { j: "5" },
+  "billiger.de": {
+    s: ".cmpwrapper{display:none!important}body{overflow:auto!important}",
+  },
   "passculture.app": { j: "5" },
   "kytary.cz": {
     s: "#cpModal,.modal-backdrop{display:none !important;} body{overflow:auto !important;}",
