@@ -19692,9 +19692,7 @@ const rules = {
   "16100.fi": {
     s: ".cookie-consent,.modal-backdrop.show{display:none!important} body.modal-open{overflow:visible!important;padding-right:0!important}",
   },
-  "steuerring.de": {
-    s: '[id*="Cookiebot"],.CybotCookiebotFader,.CybotCookiebotDialogActive{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important;height:auto!important}',
-  },
+  "steuerring.de": { j: 5 },
 
   // end of const rules
 };
@@ -20148,6 +20146,7 @@ const blockUrls = {
       {
         r: "consent.cookiebot.com",
         e: [
+          "steuerring.de",
           "storyhouseegmont.dk",
           "storyhouseegmont.no",
           "storyhouseegmont.se",
