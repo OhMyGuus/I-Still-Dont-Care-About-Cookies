@@ -19646,6 +19646,9 @@ const rules = {
   "hannah.fr": {
     s: 'div[class*="fixed"][class*="right-4"][class*="bottom-4"]{display:none!important}',
   },
+  "mollie.com": {
+    s: ".--framer-cookie-banner-container{display:none!important}",
+  },
 
   // end of const rules
 };
