@@ -19700,6 +19700,9 @@ const rules = {
   },
   "mjob.si": { j: 6 },
   "err.ee": { j: 6 },
+  "wetransfer.com": {
+    s: ".fides-consent-wall,#fides-overlay-wrapper,#fides-banner-container,#fides-banner,#fides-embed-container{display:none!important}body.fides-overlay-modal-link-shown{overflow:auto!important}",
+  },
 
   // end of const rules
 };
