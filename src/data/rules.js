@@ -20532,7 +20532,7 @@ const blockUrls = {
       { r: "/marked-cookie-consent-web/app.js" },
       {
         r: "cdn.cookielaw.org",
-        e: ["cnn.com", "breitbart.com", "elsevier.com"],
+        e: ["cnn.com", "breitbart.com", "elsevier.com", "ups.com"],
       },
       { r: "/wp-content/plugins/borlabs-cookie/" },
       { r: "/wp-content/plugins/borlabs-cookie/", e: ["vms.de"] },
