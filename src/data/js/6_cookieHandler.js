@@ -772,6 +772,10 @@ function getE(hostname) {
       return ["__cookie_consent=1"];
     case "err.ee":
       return ["errCookieConsent=necessary"];
+    case "pdfaid.com":
+      return [
+        "gdpr_consent_value=ad_storage%3Ddenied%3Bad_user_data%3Ddenied%3Bad_personalization%3Ddenied%3Banalytics_storage%3Ddenied",
+      ];
   }
 
   const parts = hostname.split(".");

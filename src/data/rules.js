@@ -19703,6 +19703,7 @@ const rules = {
   "wetransfer.com": {
     s: ".cb-gdpr{display:none!important}",
   },
+  "pdfaid.com": { j: 6 },
 
   // end of const rules
 };
