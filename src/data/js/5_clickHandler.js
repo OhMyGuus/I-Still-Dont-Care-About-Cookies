@@ -6615,10 +6615,6 @@ function getSelector(host) {
       return _sl("#cookieModal.show .close");
     case "otpportalok.hu":
       return _sl(".pop_up_bg .cookie_button_col_btn button");
-    case "arte.tv":
-      return _sl(
-        '.popup_cookies.active .button.active, .modal[style*="block"] #acceptAllCookiesBtn'
-      );
     case "cip.nl":
       return _sl(".container > .justify-content-center #accept");
     case "jm.se":
