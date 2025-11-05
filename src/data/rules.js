@@ -13012,7 +13012,7 @@ const rules = {
   "beincrypto.com": { s: "#amp-user-notification1{display:none !important}" },
   "edifier.com": { c: 0 },
   "onlyoffice.com": {
-    s: '#accept-all,#decline-all,#settings,div[class*="sc-4b1541d7-3"],div[class*="sc-4b1541d7-4"],.oo-header-overlay{display:none !important;pointer-events:none !important;visibility:hidden !important;}',
+    s: "div:has(h4.sc-e5e62682-0.cRgQmC),div.sc-b3004359-0.hCQdOF,div.sc-e90bdf2a-3.iOebLc,#accept-all,#decline-all,#settings{display:none!important}",
   },
   "cheaptickets.ch": { j: "5" },
   "torrossa.com": { j: "5" },
