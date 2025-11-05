@@ -783,6 +783,8 @@ function getE(hostname) {
       ];
     case "compramostucoche.es":
       return ["gdpr_preferences=%7B%22categories%22%3A%5B%5D%7D"];
+    case "eau.veolia.fr":
+      return ["value=required-only"];
   }
 
   const parts = hostname.split(".");
