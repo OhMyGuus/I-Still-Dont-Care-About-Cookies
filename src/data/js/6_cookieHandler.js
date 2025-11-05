@@ -768,6 +768,8 @@ function getE(hostname) {
       ];
     case "mjob.si":
       return ["mjob_ads=false", "mjob_analytics=false", "mjob_necessary=true"];
+    case "wolframalpha.com":
+      return ["__cookie_consent=1"];
   }
 
   const parts = hostname.split(".");
