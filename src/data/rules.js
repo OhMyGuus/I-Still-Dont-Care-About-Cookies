@@ -19718,8 +19718,8 @@ const rules = {
   },
   "eau.veolia.fr": { j: 6 },
   "instreet.com.tr": { s: "efilli-layout-dynamic{display:none!important}" },
-  "luminam.ro": { j: 6 },
-  "beleuchtung.de": { j: 6 },
+  "luminam.ro": { j: 5 },
+  "beleuchtung.de": { j: 5 },
 
   // end of const rules
 };
