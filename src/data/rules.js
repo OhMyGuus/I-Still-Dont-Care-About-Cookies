@@ -19704,6 +19704,9 @@ const rules = {
   "testphase.rechtsinformationen.bund.de": {
     s: "section[data-testid=cookie-banner]{display:none!important}",
   },
+  "myheritage.nl": {
+    s: "#cookie_preferences_banner_root,#cookie_preferences_banner,#cookie_preferences_banner_container,#cookie_banner_overlay{display:none!important}html,body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
