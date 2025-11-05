@@ -19637,6 +19637,9 @@ const rules = {
   "comarch.pl": {
     s: ".consent-modal2,.consent-modal2__wrapper,.consent-modal2__general{display:none!important}body.consent-modal2__body{overflow:auto!important}",
   },
+  "app.rampnetwork.com": {
+    s: "#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-pc-sdk,#ot-fltr-modal,#ot-anchor{display:none!important}html,body{overflow-y:auto!important}",
+  },
 
   // end of const rules
 };
