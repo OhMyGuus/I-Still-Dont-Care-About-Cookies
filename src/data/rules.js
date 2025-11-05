@@ -19723,6 +19723,9 @@ const rules = {
   "forstseile24.de": {
     s: "#cookie-banner_flag,#cookie-banner_flag__fingerprint,#cookie-banner_flag__infotext,#banner-wrapper{display:none!important}",
   },
+  "byhealth.pl": {
+    s: "#RodoCookiesInit,#RodoCookiesInfo,.modal-backdrop{display:none!important;visibility:hidden!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
