@@ -19719,6 +19719,7 @@ const rules = {
   "v3.account.samsung.com": {
     s: "#banner-pc,#banner-contents,#banner-image,#browser-banner,.MuiBackdrop-root,.MuiDrawer-root,.MuiDrawer-paper{display:none!important}html,body{overflow:auto!important}",
   },
+  "eau.veolia.fr": { j: 6 },
 
   // end of const rules
 };
