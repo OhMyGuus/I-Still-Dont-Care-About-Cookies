@@ -766,6 +766,8 @@ function getE(hostname) {
       return [
         "sj_consent_v1=%7B%22consent%22%3A%7B%22MARKETING%22%3Afalse%2C%22PERSONALIZATION%22%3Afalse%7D%2C%22uuid%22%3A%22000000-0000-0000-0000-000000000000%22%7D",
       ];
+    case "mjob.si":
+      return ["mjob_ads=false", "mjob_analytics=false", "mjob_necessary=true"];
   }
 
   const parts = hostname.split(".");

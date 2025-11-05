@@ -17010,7 +17010,6 @@ const rules = {
   "toshiba-aircondition.com": { c: 85 },
   "box.baldursgate3.game": { s: ".ciastko{display: none !important}" },
   "macerkopf.de": { c: 85 },
-  "www.mjob.si": { s: ".jss78{display: none !important}" },
   "autoweek.nl": { j: 5 },
   "tunemymusic.com": {
     s: ".HeaderMenu_CookieAlert__ipEfK{display:none !important}",
@@ -19701,9 +19700,7 @@ const rules = {
   "casadelprofumo.it": {
     s: ".focus.focus-cookiebara.active,#cookieBara,.cookiebara-wrapper,.cookiebar-simple{display:none!important}body{overflow:visible!important}",
   },
-  "mjob.si": {
-    s: 'div[class*="inset-0"][class*="bg-black/50"],div[class*="bg[#70EAC3]"],div.fixed.bottom-0.z-50.w-full{display:none!important}',
-  },
+  "mjob.si": { j: 6 },
 
   // end of const rules
 };
