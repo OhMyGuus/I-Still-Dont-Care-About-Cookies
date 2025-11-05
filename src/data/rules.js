@@ -18322,9 +18322,6 @@ const rules = {
   "music.amazon.de": { j: 5 },
   "music.amazon.fr": { j: 5 },
   "music.amazon.co.uk": { j: 5 },
-  "as.com": {
-    s: 'iframe[src*="cp.as.com/first-layer"],#didomi-host,.msh{display:none!important}html,body{overflow:auto!important}',
-  },
   "larousse.fr": {
     s: "#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-pc-sdk,#ot-anchor,iframe.p3-outlet{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}.wrapper{filter:none!important}",
   },
@@ -20948,6 +20945,7 @@ const blockUrls = {
       { r: "/wp-content/plugins/myagileprivacy/" },
     ],
     cmp: [
+      { r: "cmp.prisa.com" },
       { r: "gravito.network/cmp" },
       { r: "cmp.lemonde.fr" },
       { r: "cmp.quantcast.com" },
