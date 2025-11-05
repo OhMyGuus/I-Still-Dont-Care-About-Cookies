@@ -13209,9 +13209,7 @@ const rules = {
   "abercrombie.com": {
     s: '.flash-message[data-flash-message-group-id*="cookie-accept"]{display:none !important}',
   },
-  "wolframalpha.com": {
-    s: "#__next > div > section:last-of-type{display:none !important}",
-  },
+  "wolframalpha.com": { j: 6 },
   "blukit.com.br": { j: "5" },
   "informator.ua": { c: 153 },
   "bund.de": { j: "5", s: "#bfr-cookielaw,.datahint{display:none !important}" },
