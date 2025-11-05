@@ -787,6 +787,11 @@ function getE(hostname) {
       return [
         "hasConsent=value%3Drequired-only%3BcreationDate%3D9762385041866",
       ];
+    case "luminam.ro":
+    case "beleuchtung.de":
+      return [
+        'mCs={"dZones":{"ad_user_data":0,"analytics":0,"ad":0,"personalization":0,"preference":0,"ad_personalization":0},"Version":"2","AcceptAll":0}',
+      ];
   }
 
   const parts = hostname.split(".");

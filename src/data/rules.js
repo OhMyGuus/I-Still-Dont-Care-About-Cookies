@@ -15023,9 +15023,6 @@ const rules = {
   "mobility.ch": { j: "5" },
   "museumsportal-berlin.de": { j: "5" },
   "onatera.com": { j: "5" },
-  "beleuchtung.de": {
-    s: '#cookieSetting, [id*="cookie" i], [class*="cookie" i], #btn-cookie-accept-essencial, #btn-cookie-showmore, #btn-cookie-settings, #btn-cookie-accept-all, dialog#fancybox-1, .fancybox__backdrop, .fancybox__container, .fancybox__dialog { display: none !important; } html, body { overflow: auto !important; }',
-  },
   "rode.com": { c: 3 },
   "cpk.com": { j: "5" },
   "sachsen.de": { s: ".privacy-modal,.ld_container{display:none !important}" },
@@ -19721,9 +19718,8 @@ const rules = {
   },
   "eau.veolia.fr": { j: 6 },
   "instreet.com.tr": { s: "efilli-layout-dynamic{display:none!important}" },
-  "luminam.ro": {
-    s: "#cookieSetting,#fancybox-1,.fancybox__container,.fancybox__dialog,.fancybox__contentInner,.fancybox__slide,.fancybox__backdrop,#btn-cookie-accept-all,#btn-cookie-showmore,#btn-cookie-accept-essencial{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}",
-  },
+  "luminam.ro": { j: 6 },
+  "beleuchtung.de": { j: 6 },
 
   // end of const rules
 };
