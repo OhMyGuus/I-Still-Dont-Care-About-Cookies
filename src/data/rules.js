@@ -19683,6 +19683,7 @@ const rules = {
   "16100.fi": {
     s: ".cookie-consent,.modal-backdrop.show{display:none!important} body.modal-open{overflow:visible!important;padding-right:0!important}",
   },
+  "steuerring.de": { j: 5 },
   "lizenzpate.de": {
     s: "#ccAcivateModal,#ccSettings,#ccConsentAccordion,.modal-backdrop,a.blur-elysium-slide-link-overlay{display:none!important}html,body{overflow:auto!important}",
   },
@@ -20182,6 +20183,7 @@ const blockUrls = {
       {
         r: "consent.cookiebot.com",
         e: [
+          "steuerring.de",
           "storyhouseegmont.dk",
           "storyhouseegmont.no",
           "storyhouseegmont.se",

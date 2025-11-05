@@ -1973,6 +1973,7 @@ function getSelector(host) {
     case "bbc.com":
       return ".fc-consent-root .fc-confirm-choices";
 
+    case "steuerring.de":
     case "hoyavision.com":
     case "kino.dk":
     case "berlingske.dk":
