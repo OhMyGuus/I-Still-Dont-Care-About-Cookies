@@ -19685,6 +19685,9 @@ const rules = {
   "people.com": {
     s: "#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-policy,#onetrust-pc-sdk{display:none!important}html,body{overflow:auto!important}",
   },
+  "vindueskarme.dk": {
+    s: "#tws-react-common--modal,#tws-accept-cookies--modal,#consentAllButton,#consentNecessaryButton,#cookieSettingsButton,.modal-backdrop{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
