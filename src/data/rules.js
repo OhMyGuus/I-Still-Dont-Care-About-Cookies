@@ -15023,9 +15023,6 @@ const rules = {
   "mobility.ch": { j: "5" },
   "museumsportal-berlin.de": { j: "5" },
   "onatera.com": { j: "5" },
-  "beleuchtung.de": {
-    s: '#cookieSetting, [id*="cookie" i], [class*="cookie" i], #btn-cookie-accept-essencial, #btn-cookie-showmore, #btn-cookie-settings, #btn-cookie-accept-all, dialog#fancybox-1, .fancybox__backdrop, .fancybox__container, .fancybox__dialog { display: none !important; } html, body { overflow: auto !important; }',
-  },
   "rode.com": { c: 3 },
   "cpk.com": { j: "5" },
   "sachsen.de": { s: ".privacy-modal,.ld_container{display:none !important}" },
@@ -19721,6 +19718,8 @@ const rules = {
   },
   "eau.veolia.fr": { j: 6 },
   "instreet.com.tr": { s: "efilli-layout-dynamic{display:none!important}" },
+  "luminam.ro": { j: 5 },
+  "beleuchtung.de": { j: 5 },
 
   // end of const rules
 };
