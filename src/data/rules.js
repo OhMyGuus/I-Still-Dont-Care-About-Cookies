@@ -7120,7 +7120,7 @@ const rules = {
   },
   "head-fi.org": { c: 11 },
   "tradingview.com": {
-    s: 'div[class^="toast-positioning-wrapper"]{display:none !important}',
+    s: ".toastGroup-JUpQSPBo,.toastCommonBase-zMOxH_8U,.contentContainer-zMOxH_8U,ul[class*=list-JUpQSPBo],div[class*=toastList],[class*=cookies]{display:none!important;visibility:hidden!important}",
   },
   "pcmweb.nl": { j: "5" },
   "webastoconnect.com": { s: ".alert.ecc.show-ecc{display:none !important}" },
