@@ -19698,6 +19698,9 @@ const rules = {
   "skyman.cz": {
     s: "#cookiesDialog,.modal-backdrop{display:none!important;visibility:hidden!important;pointer-events:none!important}body.modal-open{overflow:auto!important;padding-right:0!important}",
   },
+  "casadelprofumo.it": {
+    s: ".focus.focus-cookiebara.active,#cookieBara,.cookiebara-wrapper,.cookiebar-simple{display:none!important}body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
