@@ -19707,6 +19707,9 @@ const rules = {
   "myheritage.nl": {
     s: "#cookie_preferences_banner_root,#cookie_preferences_banner,#cookie_preferences_banner_container,#cookie_banner_overlay{display:none!important}html,body{overflow:visible!important}",
   },
+  "equinoxe-univers.com": {
+    s: '[id^="lgcookieslaw_banner_"],#lgcookieslaw_modal,#lgcookieslaw_fixed_button,.lgcookieslaw-backdrop,.lgcookieslaw-overlay,.pk-shadow{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
