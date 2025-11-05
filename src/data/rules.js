@@ -19652,6 +19652,9 @@ const rules = {
   "accu.org": {
     s: "#snackbar{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "unifyfcu.com": {
+    s: ".ccpa-container.js-ccpa-container,#block-ccpa{display:none!important}",
+  },
 
   // end of const rules
 };
