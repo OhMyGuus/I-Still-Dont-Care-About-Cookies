@@ -19567,6 +19567,7 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
+  "pfand-gehoert-daneben.de": { j: 6 },
   "centralepneus.fr": {
     s: "div.content-bottom-fullwidth[data-controller*=rgpd]{display:none!important}",
   },
