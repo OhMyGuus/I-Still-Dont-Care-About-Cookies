@@ -8398,6 +8398,8 @@ function getSelector(host) {
       return "//div[@role='dialog'][.//h5[normalize-space()='We use cookies']]//button[@aria-label='Save']";
     case "electrissime.fr":
       return "#divCookiesGeneral a[onclick=\"userCookieChoice('0')\"]";
+    case "hugendubel.info":
+      return "button[data-katalon='acceptRequired']";
   }
 
   if (host.parts.length > 2) {
