@@ -757,6 +757,8 @@ function getE(hostname) {
       return [
         "atct=eyJjb29raWVUeXBlIjpbImNvb2tpZV9yZXF1aXJlZCIsImNvb2tpZV9yZXF1aXJlZCJdfQ%3D%3D",
       ];
+    case "oko.press":
+      return ["privacy2=necessary"];
   }
 
   const parts = hostname.split(".");

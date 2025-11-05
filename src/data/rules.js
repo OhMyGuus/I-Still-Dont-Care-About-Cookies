@@ -16046,7 +16046,7 @@ const rules = {
     c: 14,
   },
   "bushnell.com": { s: "#consent-tracking{display:none !important}" },
-  "oko.press": { s: "#__next > .fixed{display:none !important}" },
+  "oko.press": { j: "6" },
   "myeventeo.com": { s: ".box-container{display:none !important}" },
   "minervamagazine.com": { s: ".pcb{display:none !important}" },
   "ancientegyptmagazine.com": { s: ".pcb{display:none !important}" },
