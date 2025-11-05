@@ -7275,7 +7275,6 @@ function getSelector(host) {
       return "app-cookie-consent-modal .btn-cancel";
     case "stromnetz-hamburg.de":
       return ".cookie-bar.active .active .btn + .btn-cookie-accept";
-    case "esm-computer.de":
     case "calmwaters.de":
       return '.cookie-permission-container[style*="block"] .cookie-permission-button';
     case "centrumxp.pl":

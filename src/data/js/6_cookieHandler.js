@@ -374,6 +374,7 @@ function getE(hostname) {
       return ["cookiewarn=1"];
     case "mubi.com":
       return ["mubi-cookie-consent=allow"];
+    case "esm-computer.de":
     case "ersatzteilshop.de":
       return ["cookie-preference=1"];
     case "svenskaspel.se":
