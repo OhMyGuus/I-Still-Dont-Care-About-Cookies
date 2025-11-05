@@ -752,6 +752,8 @@ function getE(hostname) {
       return [
         'eea_approval={"ad_user_data":"granted","ad_storage":"denied","ad_personalization":"denied","functionality_storage":"denied","analytics_storage":"denied"}',
       ];
+    case "pfand-gehoert-daneben.de":
+      return ["gdpr_preface=1"];
   }
 
   const parts = hostname.split(".");

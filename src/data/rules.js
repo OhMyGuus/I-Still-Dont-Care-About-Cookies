@@ -19552,9 +19552,7 @@ const rules = {
   "nebula.zyxel.com": {
     s: ".cdk-overlay-container{display:none!important}",
   },
-  "pfand-gehoert-daneben.de": {
-    s: ".cookie__wrapper,.cookie,.cookie__branding-holder{display:none!important}body.cookie__body{overflow:auto!important}",
-  },
+  "pfand-gehoert-daneben.de": { j: 6 },
 
   // end of const rules
 };
