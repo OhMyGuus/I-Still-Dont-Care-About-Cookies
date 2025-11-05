@@ -19637,6 +19637,9 @@ const rules = {
   "comarch.pl": {
     s: ".consent-modal2,.consent-modal2__wrapper,.consent-modal2__general{display:none!important}body.consent-modal2__body{overflow:auto!important}",
   },
+  "nicematin.com": {
+    s: "#nm-cookies-wall,#overlay,.didomi-popup-backdrop,.didomi-host{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
