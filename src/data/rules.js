@@ -19711,6 +19711,7 @@ const rules = {
     s: '[id^="lgcookieslaw_banner_"],#lgcookieslaw_modal,#lgcookieslaw_fixed_button,.lgcookieslaw-backdrop,.lgcookieslaw-overlay,.pk-shadow{display:none!important}html,body{overflow:auto!important}',
   },
   "health.com": { c: 85 },
+  "tabii.com": { s: "[data-testid=gdpr-popup]{display:none!important}" },
 
   // end of const rules
 };
