@@ -19703,9 +19703,7 @@ const rules = {
   "wetransfer.com": {
     s: ".cb-gdpr{display:none!important}",
   },
-  "pdfaid.com": {
-    s: "[class*=Dialog_dialogOverlay],[class*=Dialog_dialogContent]{display:none!important}html,body{overflow:auto!important}",
-  },
+  "pdfaid.com": { j: 6 },
 
   // end of const rules
 };
