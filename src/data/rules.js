@@ -14571,8 +14571,6 @@ const rules = {
   "conduktor.io": {
     s: ".cookie-though{display:none !important;left:-99999px}",
   },
-  "autodoc.de": { j: 6 },
-  "autodoc.parts": { j: 6 },
   "italotreno.it": {
     s: ".pre-header-bar.cookies,#cookie-row{display:none !important}",
   },
@@ -17047,7 +17045,6 @@ const rules = {
     c: 85,
   },
   "autocont.cz": { s: ".cookie-fade-window{display:none!important}", c: 85 },
-  "autodoc.fi": { s: ".overlay{display:none!important}", c: 85 },
   "baldursgate3.game": { s: "div[class=ciastko]{display:none!important}" },
   "bargaintown.ie": { s: "#cookies-popup{display:none!important}", c: 85 },
   "bbr.dk": { s: ".eksCookieContainer{display:none!important}", c: 85 },
@@ -19522,8 +19519,30 @@ const rules = {
   "alltheanime.fr": {
     s: "div.fixed.bottom-0.right-0.m-5{display:none!important}",
   },
-  "auto-doc.ch": { j: 6 },
-  "autodoc24.ch": { j: 6 },
+  "auto-doc.ch": {
+    s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
+    c: 85,
+  },
+  "auto-doc.ie": {
+    s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
+    c: 85,
+  },
+  "autodoc24.ch": {
+    s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
+    c: 85,
+  },
+  "autodoc.fi": {
+    s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
+    c: 85,
+  },
+  "autodoc.de": {
+    s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
+    c: 85,
+  },
+  "autodoc.parts": {
+    s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
+    c: 85,
+  },
   "galaxus.fr": { j: 6 },
   "tickets.vws-siegen.de": { j: 5 },
   "marianos.com": {
