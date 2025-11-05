@@ -19701,6 +19701,9 @@ const rules = {
     s: ".cb-gdpr{display:none!important}",
   },
   "pdfaid.com": { j: 6 },
+  "testphase.rechtsinformationen.bund.de": {
+    s: "section[data-testid=cookie-banner],section[aria-label*=Cookie-Einstellungen i]{display:none!important}",
+  },
 
   // end of const rules
 };
