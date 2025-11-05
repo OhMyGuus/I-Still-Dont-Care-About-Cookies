@@ -15072,7 +15072,7 @@ const rules = {
   "kodiko.gr": { j: "5" },
   "only.com": { s: ".overlay-backdrop{display:none !important}" },
   "sj.se": {
-    s: '.MuiDialog-root .MuiBackdrop-root.MuiModal-backdrop,.MuiPaper-root[aria-label="Vi använder cookies"]{display:none!important}body{overflow:auto!important}',
+    s: ".MuiDialog-root.always-allow-animation.MuiModal-root,.MuiDialog-container.MuiDialog-scrollBody,.MuiBackdrop-root.MuiModal-backdrop{display:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
   "vitalsource.com": {
     s: '.dismiss-cookie,div[aria-describedby*="CookieBanner"],.App > footer + div[role="dialog"]{display:none !important}',
