@@ -15546,7 +15546,7 @@ const rules = {
   "cleveroad.com": {
     s: 'div[style*="overflow: hidden; margin-top: -1px;"]{display:none!important}',
   },
-  "etiskarna.si": { s: ".cookie__content{display:none !important}" },
+  "etiskarna.si": { s: "[class*=CookieConsent_]{display:none!important}" },
   "solvimus.de": { j: "6" },
   "archerresourcing.co.uk": { j: "6" },
   "plateuptools.com": { j: "5" },
