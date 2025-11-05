@@ -19713,6 +19713,9 @@ const rules = {
   "health.com": { c: 85 },
   "tabii.com": { s: "[data-testid=gdpr-popup]{display:none!important}" },
   "compramostucoche.es": { j: 6 },
+  "extra.ge": {
+    s: 'app-global-modal,app-pookie,app-global-modal-item,#global_modal_area,.allow-scroll,div[class*="_x_bg-dark-600"],div[class*="_x_bottom-16"][class*="_x_right-50prc"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
