@@ -19720,6 +19720,9 @@ const rules = {
   "instreet.com.tr": { s: "efilli-layout-dynamic{display:none!important}" },
   "luminam.ro": { j: 5 },
   "beleuchtung.de": { j: 5 },
+  "forstseile24.de": {
+    s: "#cookie-banner_flag,#cookie-banner_flag__fingerprint,#cookie-banner_flag__infotext,#banner-wrapper{display:none!important}",
+  },
 
   // end of const rules
 };
