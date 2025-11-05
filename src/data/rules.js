@@ -19658,6 +19658,9 @@ const rules = {
   "testfiltering.com": {
     s: "section.cookies.cookies--explicit{display:none!important}",
   },
+  "npm.fr": {
+    s: "#cc_div,#cc--main,#cm,#cm-ov,.cc_div,.c--anim{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
