@@ -13210,7 +13210,7 @@ const rules = {
     s: '.flash-message[data-flash-message-group-id*="cookie-accept"]{display:none !important}',
   },
   "wolframalpha.com": {
-    s: "#__next > div > section:last-of-type{display:none !important}",
+    s: 'section[textcolor="#ffffff"]{display:none!important} html,body{overflow:visible!important}',
   },
   "blukit.com.br": { j: "5" },
   "informator.ua": { c: 153 },
