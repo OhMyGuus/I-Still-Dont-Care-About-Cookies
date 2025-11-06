@@ -19734,6 +19734,9 @@ const rules = {
     s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
   },
   "gamepro.de": { j: 5 },
+  "gladiator-fight.com": {
+    s: "template#consents-modal,.consents,.consents__modal,.consents__basic-view,.consents__mask{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
