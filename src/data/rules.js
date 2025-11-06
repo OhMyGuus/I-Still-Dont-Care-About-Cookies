@@ -5373,7 +5373,9 @@ const rules = {
   "admagazine.ru": {
     s: ".modal--bottom-right.bg-color-dark{display:none !important}",
   },
-  "vitacost.com": { s: "#cookieJar{display:none !important}" },
+  "vitacost.com": {
+    s: "#gpcBannerAlert.gpc-banner-alert,#gpcBannerAlertOverlay,#onetrust-banner-sdk,#onetrust-consent-sdk{display:none!important}",
+  },
   "draftium.com": { s: "#cta ~ div,#cta ~ section{display:none !important}" },
   "cesifo-group.de": { s: "#cob{display:none !important}" },
   "pitax.pl": { c: 0 },
