@@ -19730,6 +19730,9 @@ const rules = {
   "clickprinting.es": {
     s: '.popupbox[data-state="open"],.popupbox.is-active[id^="radix-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}body[style*="overflow: hidden"]{overflow:auto!important}',
   },
+  "moviesost.com": {
+    s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
