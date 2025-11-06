@@ -5519,6 +5519,7 @@ function getSelector(host) {
       return _sl(".layerActive #cookie-form #confirmChoices");
     case "dehn.at":
       return _sl('#cookieConsent[style*="block"] .button.hollow');
+    case "gamepro.de":
     case "gamestar.de":
       return _sl(
         '.modal[style*="block"] .cmp-accept, .modal[style*="block"] .btn[href*="acceptCmp"]'
