@@ -19165,7 +19165,7 @@ const rules = {
   "ilmatieteenlaitos.fi": {
     s: ".cookie-consent,#cookie-consent-content{display:none!important}",
   },
-  "comdirect.de": { s: "com-consent-layer{display:none!important}" },
+  "comdirect.de": { j: 5 },
   "bz-berlin.de": {
     s: '[id^="sp_message_container_"],[id^="sp_message_iframe_"]{display:none!important}html,body{overflow:auto!important}',
   },
@@ -21488,7 +21488,6 @@ const blockUrls = {
     "arena-now.de": ["/tarteaucitron/"],
     "bysarahkhan.com": ["/surbma-yes-no-popup/"],
     "tryinteract.com": ["/consent.js"],
-    "comdirect.de": ["/consentMgmt/"],
     "pasztor.at": ["/privacy.js"],
     "weltverbesserer.de": ["/tealium-external/"],
     "aarhusmotion.dk": ["/cookiesettings.js"],

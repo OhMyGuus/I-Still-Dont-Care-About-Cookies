@@ -48,6 +48,20 @@ function _ev(selector, container, full) {
     .iterateNext();
 }
 
+function shadowQuerySelector(selector, root = document) {
+  const el = root.querySelector(selector);
+  if (el) return el;
+
+  const shadowHosts = root.querySelectorAll("*");
+  for (const host of shadowHosts) {
+    if (host.shadowRoot) {
+      const found = shadowQuerySelector(selector, host.shadowRoot);
+      if (found) return found;
+    }
+  }
+  return undefined;
+}
+
 let currentChainElement = 0;
 
 function _chain(...selectors) {
@@ -8400,6 +8414,8 @@ function getSelector(host) {
     case "luminam.ro":
     case "beleuchtung.de":
       return "#btn-cookie-accept-essencial";
+    case "comdirect.de":
+      return shadowQuerySelector("com-button#cmpDenyAll");
   }
 
   if (host.parts.length > 2) {
