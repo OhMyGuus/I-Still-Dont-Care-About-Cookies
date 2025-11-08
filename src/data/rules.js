@@ -19734,6 +19734,9 @@ const rules = {
     s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
   },
   "gamepro.de": { j: 5 },
+  "malaysiaairlines.com": {
+    s: ".OverlayBtmSticky.backdrop.CookiesNotificationBtmOverlaySticky,.overlay-container,.overlay-wrapper,.cookies-notification-wrapper,.generic-container.cookie-generic-container{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
