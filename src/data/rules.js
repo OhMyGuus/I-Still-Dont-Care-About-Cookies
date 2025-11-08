@@ -19734,6 +19734,9 @@ const rules = {
     s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
   },
   "gamepro.de": { j: 5 },
+  "llama.meta.com": {
+    s: '[aria-label^="Allow the use of cookies from Meta on this browser?"],[role=dialog][aria-label*=cookies],.xixxii4.x47corl.x1q2oy4v{display:none!important;}',
+  },
 
   // end of const rules
 };
