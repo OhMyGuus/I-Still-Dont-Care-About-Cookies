@@ -19734,6 +19734,9 @@ const rules = {
     s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
   },
   "gamepro.de": { j: 5 },
+  "dashboard.balena-cloud.com": {
+    s: '.MuiDrawer-root.MuiDrawer-anchorBottom.MuiDrawer-modal.MuiModal-root,.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorBottom,.MuiBackdrop-root{display:none!important}body[style*="overflow: hidden"]{overflow:auto!important}',
+  },
 
   // end of const rules
 };
