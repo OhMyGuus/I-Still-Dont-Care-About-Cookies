@@ -14022,7 +14022,9 @@ const rules = {
   "viva.com.ph": { s: ".pop-cookies{display:none !important}" },
   "mtbiker.sk": { s: "#biscuitModal{display:none !important}" },
   "sverigesingenjorer.se": { s: ".cookie-layer{display:none !important}" },
-  "blocket.se": { j: "5" },
+  "blocket.se": {
+    s: "[id^=sp_message_container_],iframe[id^=sp_message_iframe_]{display:none!important}body{overflow:auto!important}",
+  },
   "nowfoods.com": {
     s: ".block-sd-cookie-consent-block{display:none !important}",
   },
