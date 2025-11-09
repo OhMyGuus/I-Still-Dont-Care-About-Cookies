@@ -19734,6 +19734,9 @@ const rules = {
     s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
   },
   "gamepro.de": { j: 5 },
+  "m.kaskus.co.id": {
+    s: '.overlay_overlay__CvnmQ,div[class*="z-90"][class*="bottom-0"][class*="bg-surface-primary"],div[class*="rounded-t"][class*="z-100"][class*="bottom-0"]{display:none!important;opacity:0!important;pointer-events:none!important}html{overflow:visible!important}body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
