@@ -19734,6 +19734,9 @@ const rules = {
     s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
   },
   "gamepro.de": { j: 5 },
+  "fruugoschweiz.com": {
+    s: "dialog.js-modal,dialog.js-modal::backdrop,.js-consent-screen-home,.js-modal-body,footer.d-flex.justify-content-between.flex-column.flex-sm-row{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important;touch-action:auto!important}",
+  },
 
   // end of const rules
 };
