@@ -16911,7 +16911,9 @@ const rules = {
   },
   "kicker.de": { j: 5 },
   "kicker.ch": { j: 5 },
-  "zdf.de": { j: 3 },
+  "zdf.de": {
+    s: '[role="dialog"][id^="radix-"],div.b911k0k,div[data-aria-hidden][data-state="open"][aria-hidden="true"]{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}',
+  },
   "3sat.de": { j: 5 },
   "heise.de": { j: 5 },
   "temu.com": { j: 6 },
