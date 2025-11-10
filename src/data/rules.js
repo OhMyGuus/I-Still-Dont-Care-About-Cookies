@@ -15592,7 +15592,9 @@ const rules = {
   "seekube.com": { s: "._1AsHk{display:none !important}" },
   "smart.com": { j: "6" },
   "mesdroitssociaux.gouv.fr": { c: 49 },
-  "remarkable.com": { s: 'div[data-cy="cookiebar"]{display:none !important}' },
+  "remarkable.com": {
+    s: "dialog.ark-dialog[open],dialog.ark-dialog[open] .ark-modal{display:none!important} dialog.ark-dialog::backdrop{background:transparent!important} html,body{overflow:auto!important;position:static!important;touch-action:auto!important}",
+  },
   "accu-components.com": {
     s: 'div[x-data="cookies"]{display:none !important}',
   },
