@@ -19734,6 +19734,9 @@ const rules = {
     s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
   },
   "gamepro.de": { j: 5 },
+  "rudiheger.eu": {
+    s: "#ccAcivateModal,#ccSettings,#ccConsentAccordion,a#ccActivateModalLink,#tcinn-a11y-overlay,.modal-backdrop,.cookie-consent-setting-container{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important} html,body,body.modal-open{overflow:auto!important} html,body{height:auto!important}",
+  },
 
   // end of const rules
 };
