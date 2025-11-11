@@ -19734,6 +19734,9 @@ const rules = {
     s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
   },
   "gamepro.de": { j: 5 },
+  "ulforum.de": {
+    s: ":is(#cookie-modal,#cookie-modal-tpl,#cookie-modal .modal-dialog,.modal-backdrop,[id^=fc-focus-trap-],.modal.in){display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;height:0!important;width:0!important;overflow:hidden!important}html,body,body[style]{overflow:auto!important;height:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
