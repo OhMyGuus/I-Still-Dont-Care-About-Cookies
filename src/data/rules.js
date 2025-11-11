@@ -18622,7 +18622,7 @@ const rules = {
     s: ".tm-cookies, a.cookies-toggler#cookies-toggle, a#cookies-necessary, a#cookies-accept { display: none !important; }",
   },
   "chat.mistral.ai": {
-    s: '[role="dialog"][data-state="open"], .bg-overlay[data-state="open"], .backdrop-blur-xs[data-state="open"], [id^="radix-_R_"][data-state="open"] { display: none !important; } body { pointer-events: auto !important; }',
+    s: 'div[id^="radix-"][id$="_mdb_"],div[class*="bg-overlay"],[class*="backdrop-blur"]{display:none!important}html,body{overflow:visible!important}',
   },
   "careers.teenage.engineering": {
     s: 'dialog[class*="z-cookie-alert"], [class*="z-cookie-alert"], [class*="backdrop:bg-"], [class*="cookie-consent"], [id*="cookie"] { display: none !important; } html, body { overflow: auto !important; }',
