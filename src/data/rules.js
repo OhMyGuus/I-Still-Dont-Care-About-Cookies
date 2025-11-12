@@ -19734,6 +19734,9 @@ const rules = {
     s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
   },
   "gamepro.de": { j: 5 },
+  "usth.bundesfinanzministerium.de": {
+    s: ".bhh-cookie-banner,.bhh-cookie-banner *,.bhh-cookie-banner__intro,.bhh-cookie-banner__form,.bhh-cookie-banner-buttons{display:none!important;max-height:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
