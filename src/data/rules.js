@@ -19734,6 +19734,9 @@ const rules = {
     s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
   },
   "gamepro.de": { j: 5 },
+  "fr.bellroy.com": {
+    s: "bellroy-cookie-dialog,dialog#cookie-dialog{display:none!important;visibility:hidden!important;height:0!important;width:0!important} bellroy-cookie-dialog::backdrop,dialog#cookie-dialog::backdrop{background:transparent!important} :is(html,body):has(dialog#cookie-dialog[open]){overflow:auto!important}",
+  },
 
   // end of const rules
 };
