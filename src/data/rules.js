@@ -19734,6 +19734,9 @@ const rules = {
     s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
   },
   "gamepro.de": { j: 5 },
+  "phonearena.com": {
+    s: '#nc,#nc-popover,#nc.backdrop,.nc-popover,[id^="sp_message_container_"],iframe[id^="sp_message_iframe_"]{display:none!important;visibility:hidden!important;pointer-events:none!important} :is(html,body),:is(html,body)[style],:is(html,body)[style*="overflow"]{overflow:auto!important;height:auto!important;max-height:none!important}',
+  },
 
   // end of const rules
 };
