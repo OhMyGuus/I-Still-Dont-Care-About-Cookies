@@ -19737,6 +19737,7 @@ const rules = {
   "initiative-klimaneutral.de": {
     s: ".dsbanner { display: none !important; }",
   },
+  "holidu.nl": { s: "#cookie-selector { display: none !important; }" },
 
   // end of const rules
 };
