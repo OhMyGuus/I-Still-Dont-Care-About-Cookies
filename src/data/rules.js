@@ -19742,6 +19742,9 @@ const rules = {
   "holidu.de": { s: "#cookie-selector{display:none !important}" },
   "holidu.com": { s: "#cookie-selector{display:none !important}" },
   "holidu.fr": { s: "#cookie-selector{display:none !important}" },
+  "outspot.be": {
+    s: "#ion-overlay-5, ion-backdrop.backdrop-no-tappable { display: none !important; }",
+  },
 
   // end of const rules
 };
