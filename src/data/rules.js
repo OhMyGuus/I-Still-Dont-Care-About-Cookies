@@ -10744,7 +10744,6 @@ const rules = {
   "ferchau.com": { j: "5" },
   "able-group.de": { j: "5" },
   "discordtemplates.com": { s: ".consent-card{display:none !important}" },
-  "holidu.de": { s: "#cookie-selector{display:none !important}" },
   "zoot.ro": { s: ".gpdr{display:none !important}" },
   "coregames.com": {
     s: '.open [class*="modalBottom"]{display:none !important}',
@@ -19737,6 +19736,12 @@ const rules = {
   "initiative-klimaneutral.de": {
     s: ".dsbanner { display: none !important; }",
   },
+  "holidu.nl": { s: "#cookie-selector { display: none !important; }" },
+  "holidu.be": { s: "#cookie-selector { display: none !important; }" },
+  "holidu.se": { s: "#cookie-selector { display: none !important; }" },
+  "holidu.de": { s: "#cookie-selector{display:none !important}" },
+  "holidu.com": { s: "#cookie-selector{display:none !important}" },
+  "holidu.fr": { s: "#cookie-selector{display:none !important}" },
 
   // end of const rules
 };
