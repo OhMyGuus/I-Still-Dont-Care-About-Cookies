@@ -19746,6 +19746,7 @@ const rules = {
   "flatmates.com.au": {
     s: ".fc-consent-root, .gdpr-consent-element-wrapper { display: none !important; }",
   },
+  "sfr.fr": { s: "#CkC { display: none !important; }" },
 
   // end of const rules
 };
