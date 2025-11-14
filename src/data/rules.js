@@ -19750,6 +19750,7 @@ const rules = {
   "klementoninvesting.substack.com": {
     s: '[class*="cookieBanner"] { display: none !important; }',
   },
+  "ecodigo.fr": { s: ".ecodigo-ckm-wrapper { display: none !important; }" },
 
   // end of const rules
 };
