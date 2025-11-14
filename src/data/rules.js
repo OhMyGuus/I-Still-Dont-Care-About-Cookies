@@ -19759,6 +19759,7 @@ const rules = {
   "drum-tec.fr": {
     s: "#cookie-consent, .page-wrap--cookie-permission, .iwv-cookie-overlay{display:none!important; }",
   },
+  "gdels.com": { s: "tcm-modal{display:none!important}" },
 
   // end of const rules
 };
