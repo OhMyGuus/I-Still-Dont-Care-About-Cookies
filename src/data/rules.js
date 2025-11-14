@@ -15520,12 +15520,9 @@ const rules = {
   "fakenewsfrance.com": {
     s: "#js-cc-modal{display:none !important} html{overflow-y: unset !important}",
   },
-  "123inkt.nl": {
-    s: '.c-simple-popup, .c-simple-popup__background, .c-cookie-popup, .bottom-notice, [data-action="CookiePopup"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } body[data-action="ScrollLock"] { overflow: visible !important; }',
-  },
-  "123tinta.es": {
-    s: '.simple-popup-container[data-action="CookiePopup"]{display:none !important}',
-  },
+  "123inkt.nl": { s: "[data-action=CookiePopup]{display:none!important}" },
+  "123tinta.es": { s: "[data-action=CookiePopup]{display:none!important}" },
+  "123drukuj.pl": { s: "[data-action=CookiePopup]{display:none!important}" },
   "beruby.com": { s: "#box-shadow{display:none !important}" },
   "arche.net": {
     s: "#cookieModal{display:none !important}",
@@ -19768,9 +19765,6 @@ const rules = {
   "specializedbrno.cz": { s: "#inshopCookies { display: none !important; }" },
   "press.christies.com": { s: "#modal_cookies { display: none !important; }" },
   "djakdom.pl": { s: "#tlocookie,#dspcookie{display:none !important;}" },
-  "123drukuj.pl": {
-    s: "[data-action=CookiePopup],.bottom-notice,.c-simple-popup{display:none!important}",
-  },
 
   // end of const rules
 };
