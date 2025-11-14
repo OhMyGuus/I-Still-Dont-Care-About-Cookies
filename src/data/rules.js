@@ -19768,6 +19768,9 @@ const rules = {
   "specializedbrno.cz": { s: "#inshopCookies { display: none !important; }" },
   "press.christies.com": { s: "#modal_cookies { display: none !important; }" },
   "djakdom.pl": { s: "#tlocookie,#dspcookie{display:none !important;}" },
+  "123drukuj.pl": {
+    s: "[data-action=CookiePopup],.bottom-notice,.c-simple-popup{display:none!important}",
+  },
 
   // end of const rules
 };
