@@ -19742,6 +19742,7 @@ const rules = {
   "holidu.de": { s: "#cookie-selector{display:none !important}" },
   "holidu.com": { s: "#cookie-selector{display:none !important}" },
   "holidu.fr": { s: "#cookie-selector{display:none !important}" },
+  "keychron.com.es": { s: "#tinycookie-wrapper { display: none !important; }" },
 
   // end of const rules
 };
