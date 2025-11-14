@@ -19751,6 +19751,9 @@ const rules = {
     s: '[class*="cookieBanner"] { display: none !important; }',
   },
   "guso.fr": { s: "pe-cookies{display: none !important;}" },
+  "shop.hmusic.hu": {
+    s: ".rb-cookiealert-cover-page { display: none !important; }",
+  },
 
   // end of const rules
 };
