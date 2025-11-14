@@ -19743,6 +19743,9 @@ const rules = {
   "holidu.com": { s: "#cookie-selector{display:none !important}" },
   "holidu.fr": { s: "#cookie-selector{display:none !important}" },
   "keychron.com.es": { s: "#tinycookie-wrapper { display: none !important; }" },
+  "flatmates.com.au": {
+    s: ".fc-consent-root, .gdpr-consent-element-wrapper { display: none !important; }",
+  },
 
   // end of const rules
 };
