@@ -19750,6 +19750,7 @@ const rules = {
   "klementoninvesting.substack.com": {
     s: '[class*="cookieBanner"] { display: none !important; }',
   },
+  "sklep.wszystkodlabiura.pl": { s: ".consents { display: none !important; }" },
 
   // end of const rules
 };
