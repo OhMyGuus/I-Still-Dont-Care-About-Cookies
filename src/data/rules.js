@@ -19747,6 +19747,9 @@ const rules = {
     s: ".fc-consent-root, .gdpr-consent-element-wrapper { display: none !important; }",
   },
   "sfr.fr": { s: "#CkC { display: none !important; }" },
+  "klementoninvesting.substack.com": {
+    s: '[class*="cookieBanner"] { display: none !important; }',
+  },
 
   // end of const rules
 };
