@@ -19765,6 +19765,9 @@ const rules = {
   "specializedbrno.cz": { s: "#inshopCookies { display: none !important; }" },
   "press.christies.com": { s: "#modal_cookies { display: none !important; }" },
   "djakdom.pl": { s: "#tlocookie,#dspcookie{display:none !important;}" },
+  "tm90210.toastmastersclubs.org": {
+    s: "#privacyNotice, #cookieNotice { display: none !important; }",
+  },
 
   // end of const rules
 };
