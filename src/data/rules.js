@@ -19756,6 +19756,9 @@ const rules = {
   "shop.hmusic.hu": {
     s: ".rb-cookiealert-cover-page { display: none !important; }",
   },
+  "drum-tec.fr": {
+    s: "#cookie-consent, .page-wrap--cookie-permission, .iwv-cookie-overlay{display:none!important; }",
+  },
 
   // end of const rules
 };
