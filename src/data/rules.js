@@ -1302,7 +1302,9 @@ const rules = {
   "eknjiga.hr": { c: 53 },
   "whoisanna.com": { s: ".popup-background,.popup{display:none !important}" },
   "heythroppark.co.uk": { s: "#pecr_summary{display:none !important}" },
-  "headfirstbristol.co.uk": { c: 33 },
+  "headfirstbristol.co.uk": {
+    s: "#injected_cookie_notice { display: none !important; }",
+  },
   "elternchecker.de": { c: 31 },
   "xlbygg.se": { s: ".main.cookiewarning{margin-top:0 !important}" },
   "penzionist.info": { c: 122 },
