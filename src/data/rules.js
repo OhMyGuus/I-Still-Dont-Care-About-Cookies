@@ -19765,6 +19765,7 @@ const rules = {
     s: ".l-cookie.pos_bottom{display:none!important}",
   },
   "dziennik.pl": { s: "#cmp { display:none !important; }" },
+  "specializedbrno.cz": { s: "#inshopCookies { display: none !important; }" },
 
   // end of const rules
 };
