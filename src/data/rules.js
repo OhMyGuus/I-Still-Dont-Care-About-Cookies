@@ -19767,6 +19767,7 @@ const rules = {
   "dziennik.pl": { s: "#cmp { display:none !important; }" },
   "specializedbrno.cz": { s: "#inshopCookies { display: none !important; }" },
   "press.christies.com": { s: "#modal_cookies { display: none !important; }" },
+  "djakdom.pl": { s: "#tlocookie,#dspcookie{display:none !important;}" },
 
   // end of const rules
 };
