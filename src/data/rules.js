@@ -19764,6 +19764,7 @@ const rules = {
   "kompiuteriumokykla.lt": {
     s: ".l-cookie.pos_bottom{display:none!important}",
   },
+  "ris.bz.it": { s: "[id^=cookieconsent] { display: none !important; }" },
 
   // end of const rules
 };
