@@ -19761,6 +19761,9 @@ const rules = {
   },
   "gdels.com": { s: "tcm-modal{display:none!important}" },
   "useful.codes": { s: ".uc-consent { display: none !important; }" },
+  "kompiuteriumokykla.lt": {
+    s: ".l-cookie.pos_bottom{display:none!important}",
+  },
 
   // end of const rules
 };
