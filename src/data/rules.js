@@ -19760,6 +19760,7 @@ const rules = {
     s: "#cookie-consent, .page-wrap--cookie-permission, .iwv-cookie-overlay{display:none!important; }",
   },
   "gdels.com": { s: "tcm-modal{display:none!important}" },
+  "useful.codes": { s: ".uc-consent { display: none !important; }" },
 
   // end of const rules
 };
