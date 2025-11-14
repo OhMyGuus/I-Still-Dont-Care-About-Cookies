@@ -19760,6 +19760,9 @@ const rules = {
     s: "#cookie-consent, .page-wrap--cookie-permission, .iwv-cookie-overlay{display:none!important; }",
   },
   "gdels.com": { s: "tcm-modal{display:none!important}" },
+  "cryptomus.com": {
+    s: ".cookie-modal_wrapper__ta2fj { display: none !important; }",
+  },
 
   // end of const rules
 };
