@@ -19777,6 +19777,9 @@ const rules = {
   "okw.co.uk": {
     s: "#cookie-banner-host,#cookie-modal,#cp-btn-floating,.consent-pp-modal-body,.cp-floating-button{display:none!important}html,body{overflow:auto!important;position:static!important}",
   },
+  "ultimahora.es": {
+    s: "#mrf-popup, #black-overlay { display: none !important; }",
+  },
 
   // end of const rules
 };
