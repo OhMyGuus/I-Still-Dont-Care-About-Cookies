@@ -19781,6 +19781,9 @@ const rules = {
     s: "#consent-message-container { display: none !important; }",
   },
   "fothermo.com": { s: "#banner-wrapper{ display: none !important; }" },
+  "artsy.net": {
+    s: ".Box-sc-15se88d-0.iPezQL, .Box-sc-15se88d-0.kpAHbg { display: none !important; }",
+  },
 
   // end of const rules
 };
