@@ -19768,6 +19768,9 @@ const rules = {
   "press.christies.com": { s: "#modal_cookies { display: none !important; }" },
   "djakdom.pl": { s: "#tlocookie,#dspcookie{display:none !important;}" },
   "autoset.by": { s: ".cookie.js-cookie { display: none !important; }" },
+  "bundesfinanzministerium.de": {
+    s: ".bhh-cookie-banner,#bhh-cookie-banner__toggledown-0{display:none!important}",
+  },
 
   // end of const rules
 };
