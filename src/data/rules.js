@@ -19780,6 +19780,7 @@ const rules = {
   "katoflix.com": {
     s: "#consent-message-container { display: none !important; }",
   },
+  "fothermo.com": { s: "#banner-wrapper{ display: none !important; }" },
 
   // end of const rules
 };
