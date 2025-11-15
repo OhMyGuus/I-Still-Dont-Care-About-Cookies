@@ -12522,7 +12522,9 @@ const rules = {
   "eutraining.eu": { s: "#eutraining-cookibar{display:none !important}" },
   "olafneumann.org": { s: "#rg_container_cookie{display:none !important}" },
   "brp.com": { s: "#consent-dialog{display:none !important}" },
-  "min.io": { s: ".footer__banner{display:none !important}" },
+  "min.io": {
+    s: ".fs-consent_component, [fs-consent-element='internal-component'], [fs-consent-element$='preferences'] { display: none !important; }",
+  },
   "rundfunkbeitrag.de": { s: "#optInId{display:none !important}" },
   "pizzafan.gr": { j: "5" },
   "mathaus.ro": { s: "#cookieOptionsFooter{display:none !important}" },
