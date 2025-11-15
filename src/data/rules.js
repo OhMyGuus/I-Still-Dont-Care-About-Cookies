@@ -19781,6 +19781,9 @@ const rules = {
     s: "#consent-message-container { display: none !important; }",
   },
   "fothermo.com": { s: "#banner-wrapper{ display: none !important; }" },
+  "meblify.pl": {
+    s: "#consent-banner-main, #cookieMessage, #cc-banner-iframe, #cc-button-iframe { display: none !important; }",
+  },
 
   // end of const rules
 };
