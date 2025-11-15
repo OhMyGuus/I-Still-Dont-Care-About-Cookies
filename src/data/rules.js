@@ -19771,6 +19771,9 @@ const rules = {
   "bundesfinanzministerium.de": {
     s: ".bhh-cookie-banner,#bhh-cookie-banner__toggledown-0{display:none!important}",
   },
+  "asdatyres.co.uk": {
+    s: "#cookieBanner,#cookieModalSettings,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
