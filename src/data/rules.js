@@ -19781,6 +19781,9 @@ const rules = {
     s: "#consent-message-container { display: none !important; }",
   },
   "fothermo.com": { s: "#banner-wrapper{ display: none !important; }" },
+  "base64encode.org": {
+    s: ".footer_cookie, #qc-cmp2-container, #qc-cmp2-main, #qc-cmp2-usp { display: none !important; }",
+  },
 
   // end of const rules
 };
