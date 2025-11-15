@@ -19781,6 +19781,9 @@ const rules = {
     s: "#consent-message-container { display: none !important; }",
   },
   "fothermo.com": { s: "#banner-wrapper{ display: none !important; }" },
+  "autodoc.es": {
+    s: ".overlay, .popup--notification, .notification-popup { display: none !important; }",
+  },
 
   // end of const rules
 };
