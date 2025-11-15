@@ -19774,6 +19774,9 @@ const rules = {
   "asdatyres.co.uk": {
     s: "#cookieBanner,#cookieModalSettings,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important;padding-right:0!important}",
   },
+  "okw.co.uk": {
+    s: "#cookie-banner-host,#cookie-modal,#cp-btn-floating,.consent-pp-modal-body,.cp-floating-button{display:none!important}html,body{overflow:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
