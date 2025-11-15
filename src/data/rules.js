@@ -19781,6 +19781,7 @@ const rules = {
     s: "#consent-message-container { display: none !important; }",
   },
   "fothermo.com": { s: "#banner-wrapper{ display: none !important; }" },
+  "kion.ru": { s: "ui-web-alert { display: none !important; }" },
 
   // end of const rules
 };
