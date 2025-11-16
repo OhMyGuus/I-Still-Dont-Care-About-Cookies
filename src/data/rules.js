@@ -19798,6 +19798,9 @@ const rules = {
     s: 'div[class*="cookie-modal_wrapper"] { display: none !important; }',
   },
   "ris.bz.it": { j: 6 },
+  "hellvetia.ch": {
+    s: "div.w-full.bg-gray-darkest.text-gray-light.p-4.fixed.bottom-0.max-h-halfscreen.overflow-auto{display:none!important}",
+  },
 
   // end of const rules
 };
