@@ -19816,6 +19816,9 @@ const rules = {
   "drdevonprice.substack.com": {
     s: "div[class*=cookieBanner]{display:none!important}",
   },
+  "ulforum.de": {
+    s: "#cookie-modal, .modal-backdrop { display:none !important; } body { overflow:auto !important; height:auto !important; }",
+  },
 
   // end of const rules
 };
