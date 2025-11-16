@@ -799,6 +799,10 @@ function getE(hostname) {
         "cp_social=0",
         "cp_watch=0",
       ];
+    case "aup.athens-abt.com":
+      return [
+        "siteCookie=%7B%22unclassified%22%3Afalse%2C%22commercial%22%3Afalse%2C%22settings%22%3Afalse%2C%22statistics%22%3Afalse%2C%22required%22%3Atrue%7D",
+      ];
   }
 
   const parts = hostname.split(".");
