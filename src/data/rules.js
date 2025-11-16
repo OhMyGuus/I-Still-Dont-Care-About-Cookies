@@ -19825,6 +19825,9 @@ const rules = {
   "badhall.at": {
     s: "#cookie-modal, .cc-window-backdrop.modal-backdrop { display: none !important; } body { overflow: auto !important; margin-right: 0 !important; }",
   },
+  "santaclausvillage.info": {
+    s: ".cookie-consent,#cookie-overlay{display:none!important}",
+  },
 
   // end of const rules
 };
