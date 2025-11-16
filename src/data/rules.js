@@ -19792,6 +19792,9 @@ const rules = {
     s: ".elementor-location-popup[data-elementor-id='48278'] { display: none !important; }",
   },
   "moebelkroeger.com": { j: 6 },
+  "strezov-sampling.com": {
+    s: 'aside[id^=\\"consent\\"] { display: none !important; }',
+  },
 
   // end of const rules
 };
