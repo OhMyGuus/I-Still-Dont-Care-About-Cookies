@@ -19796,7 +19796,7 @@ const rules = {
     s: "aside#consentCookies{display:none!important;}",
   },
   "cryptomus.com": {
-    s: ".cookie-modal_wrapper__ta2fj { display: none !important; }",
+    s: 'div[class*="cookie-modal_wrapper"] { display: none !important; }',
   },
 
   // end of const rules
