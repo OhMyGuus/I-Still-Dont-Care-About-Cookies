@@ -19780,6 +19780,7 @@ const rules = {
   "hut.de": { s: "#c-cookie-banner{ display:none !important; }" },
   "hsnstore.pt": { s: "#cookiebar-outer { display: none !important; }" },
   "autosinnovate.org": { s: "#theme-gdpr { display: none !important; }" },
+  "aup.athens-abt.com": { j: 6 },
 
   // end of const rules
 };
