@@ -19806,6 +19806,9 @@ const rules = {
   "atramex.ch": {
     s: 'div[class*="bg-red-700"][class*="text-white"],div[class*="bg-black"][class*="bg-opacity-50"]{display:none!important}',
   },
+  "ultimahora.es": {
+    s: "#mrf-popup,#black-overlay{display:none!important}body{overflow:auto!important;margin-right:0!important}",
+  },
 
   // end of const rules
 };
