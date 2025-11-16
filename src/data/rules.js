@@ -19828,6 +19828,9 @@ const rules = {
   "santaclausvillage.info": {
     s: ".cookie-consent,#cookie-overlay{display:none!important}",
   },
+  "galerieslafayette.com": {
+    s: "#popin_tc_privacy,#privacy-overlay{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
