@@ -208,6 +208,7 @@
 
   const searchGroups = [
     '.qc-cmp2-summary-buttons button#disagree-btn,\
+		.qc-cmp2-summary-buttons:not(:has(#disagree-btn)) #more-options-btn,\
 		.qc-cmp2-buttons-desktop > button:first-child,\
 		#didomi-popup .didomi-button-highlight:not([class*="paywall"]):not([class*="disagree"]),\
 		#rgpd_video .rgpd-mask a[data-rgpd-consent],\
@@ -510,6 +511,7 @@
 
   function searchLoop(counter) {
     setTimeout(function () {
+	  timeoutDuration = 50;
       document.querySelectorAll(searchPairsJoinedKeys).forEach(function (box) {
         searchPairsKeys.forEach(function (selector) {
           if (box.matches(selector)) {
@@ -542,10 +544,10 @@
                         }
                         element.click();
                       }
-                    }, 300);
+                    }, 150);
                   }
-
-                  timeoutDuration += 300;
+				console.log("Timeout for element click:", timeoutDuration);
+                  timeoutDuration += 150;
                 }
               });
           }
@@ -577,7 +579,8 @@
               }
             }, 300);
 
-            timeoutDuration += 300;
+			console.log("Timeout for element click:", timeoutDuration);
+            timeoutDuration += 100;
           }
         });
 
@@ -585,8 +588,6 @@
         searchLoop(counter + 1);
       }
     }, timeoutDuration);
-
-    timeoutDuration += 50;
   }
 
   const start = setInterval(function () {

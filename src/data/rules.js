@@ -18630,9 +18630,6 @@ const rules = {
   "hukot.net": {
     s: ".cm--panel, .cm--wrapper, .cm--back { display: none !important; }",
   },
-  "rolex.com": {
-    s: '#qc-cmp2-container, #qc-cmp2-main, #qc-cmp2-ui, div[class*="Overlay-Root"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
-  },
   "dailyaesthetikz.com": {
     s: ".c-cookie-bar.cookie-bar--is-visible, .cookie-bar__content, .cookie-bar__settings, .cookie-bar__button-holder { display: none !important; } html, body { overflow: auto !important; }",
   },
@@ -18840,9 +18837,6 @@ const rules = {
   },
   "mavenanalytics.io": {
     s: ".sc-bcXHqe.eKKFFs, .sc-GKYbw.jDnToh, .sc-cZFQFd.hZpEVZ, .framer-1uzwb1k { display: none !important; }",
-  },
-  "derbytelegraph.co.uk": {
-    s: '#qc-cmp2-container, #qc-cmp2-main, #qc-cmp2-ui, .pp-prompt, .pp-backdrop, .pp-overlay, div[id^="pp-"] { display: none !important; pointer-events: none !important; }',
   },
   "thinkbroadband.com": {
     s: '#termly-code-snippet-support, [class*="termly-styles-consent-banner"], [class*="termly-styles-modal"], .t-consentPrompt, .t-acceptAllButton, .t-preference-button { display: none !important; }',
@@ -19781,9 +19775,6 @@ const rules = {
     s: "#consent-message-container { display: none !important; }",
   },
   "fothermo.com": { s: "#banner-wrapper{ display: none !important; }" },
-  "base64encode.org": {
-    s: ".footer_cookie, #qc-cmp2-container, #qc-cmp2-main, #qc-cmp2-usp { display: none !important; }",
-  },
 
   // end of const rules
 };
