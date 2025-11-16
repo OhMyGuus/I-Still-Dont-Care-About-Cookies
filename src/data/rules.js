@@ -19795,6 +19795,9 @@ const rules = {
   "strezov-sampling.com": {
     s: "aside#consentCookies{display:none!important;}",
   },
+  "cryptomus.com": {
+    s: ".cookie-modal_wrapper__ta2fj { display: none !important; }",
+  },
 
   // end of const rules
 };
