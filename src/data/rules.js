@@ -19831,6 +19831,7 @@ const rules = {
   "daileisure.co.uk": {
     s: ".notification-wrapper.notification-wrapper-bottom{display:none!important}",
   },
+  "meneame.net": { s: "#qc-cmp2-container { display: none !important; }" },
 
   // end of const rules
 };
