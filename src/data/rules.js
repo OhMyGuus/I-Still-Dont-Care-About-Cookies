@@ -19831,6 +19831,9 @@ const rules = {
   "daileisure.co.uk": {
     s: ".notification-wrapper.notification-wrapper-bottom{display:none!important}",
   },
+  "secretswissjodel.com": {
+    s: "#alertBackground { display: none !important; }",
+  },
 
   // end of const rules
 };
