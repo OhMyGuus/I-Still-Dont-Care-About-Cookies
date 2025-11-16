@@ -789,6 +789,16 @@ function getE(hostname) {
       ];
     case "two-notes.com":
       return ["cookiesettings_status=deny"];
+    case "theprotocol.it":
+      return [
+        "cookiesPolicy=v3",
+        "cp_advertisement:0",
+        "cp_comfortable:0",
+        "cp_core:1",
+        "cp_personalized:0",
+        "cp_social:0",
+        "cp_watch:0",
+      ];
   }
 
   const parts = hostname.split(".");
