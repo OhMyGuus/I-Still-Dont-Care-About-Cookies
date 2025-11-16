@@ -19819,6 +19819,9 @@ const rules = {
   "ulforum.de": {
     s: "#cookie-modal, .modal-backdrop { display:none !important; } body { overflow:auto !important; height:auto !important; }",
   },
+  "kamperhaug.no": {
+    s: "div[aria-labelledby=modal-title][role=dialog][aria-modal=true]{display:none!important;}",
+  },
 
   // end of const rules
 };
