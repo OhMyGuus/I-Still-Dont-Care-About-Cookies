@@ -19781,6 +19781,9 @@ const rules = {
   "hsnstore.pt": { s: "#cookiebar-outer { display: none !important; }" },
   "autosinnovate.org": { s: "#theme-gdpr { display: none !important; }" },
   "aup.athens-abt.com": { j: 6 },
+  "matekmindenkinek.hu": {
+    s: "#largeID, .modal-backdrop { display: none !important; }",
+  },
 
   // end of const rules
 };
