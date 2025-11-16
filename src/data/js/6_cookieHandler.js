@@ -811,6 +811,8 @@ function getE(hostname) {
       return [
         'dp_cookieconsent_status={"status":"approved","checkboxes":[{"name":"statistics","checked":false},{"name":"marketing","checked":false}]}',
       ];
+    case "bellroy.com":
+      return ["cookie_consent=denied"];
   }
 
   const parts = hostname.split(".");

@@ -19812,6 +19812,7 @@ const rules = {
   "parkershop.eu": {
     s: "#cc-modal,#cc-set{display:none!important}html,body{overflow:auto!important}",
   },
+  "bellroy.com": { j: 6 },
 
   // end of const rules
 };
