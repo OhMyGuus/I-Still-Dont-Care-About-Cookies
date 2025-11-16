@@ -804,7 +804,7 @@ function getE(hostname) {
         "siteCookie=%7B%22unclassified%22%3Afalse%2C%22commercial%22%3Afalse%2C%22settings%22%3Afalse%2C%22statistics%22%3Afalse%2C%22required%22%3Atrue%7D",
       ];
     case "moebelkroeger.com":
-      return ["cookieConsent:-"];
+      return ["cookieConsent=-"];
   }
 
   const parts = hostname.split(".");

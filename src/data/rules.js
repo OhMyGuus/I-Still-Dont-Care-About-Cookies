@@ -19793,7 +19793,7 @@ const rules = {
   },
   "moebelkroeger.com": { j: 6 },
   "strezov-sampling.com": {
-    s: 'aside[id^=\\"consent\\"] { display: none !important; }',
+    s: "aside#consentCookies{display:none!important;}",
   },
 
   // end of const rules
