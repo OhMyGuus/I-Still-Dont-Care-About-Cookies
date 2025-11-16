@@ -805,6 +805,10 @@ function getE(hostname) {
       ];
     case "moebelkroeger.com":
       return ["cookieConsent=-"];
+    case "ris.bz.it":
+      return [
+        'dp_cookieconsent_status={"status":"approved","checkboxes":[{"name":"statistics","checked":false},{"name":"marketing","checked":false}]}',
+      ];
   }
 
   const parts = hostname.split(".");

@@ -19798,7 +19798,7 @@ const rules = {
   "cryptomus.com": {
     s: 'div[class*="cookie-modal_wrapper"] { display: none !important; }',
   },
-  "ris.bz.it": { s: "[id^=cookieconsent] { display: none !important; }" },
+  "ris.bz.it": { j: 6 },
 
   // end of const rules
 };
