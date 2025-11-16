@@ -4875,7 +4875,6 @@ const rules = {
   "karmy.com.pl": { c: 16 },
   "prevac.eu": { c: 16 },
   "bmjv.de": { c: 16 },
-  "antyweb.pl": { j: "6" },
   "intact-batterien.de": { s: ".notes{display:none !important}" },
   "atticadps.gr": { c: 0 },
   "learnosm.org": { s: "#optout-form{display:none !important}" },

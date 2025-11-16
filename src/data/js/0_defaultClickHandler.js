@@ -209,6 +209,7 @@
   const searchGroups = [
     '.qc-cmp2-summary-buttons button#disagree-btn,\
 		.qc-cmp2-summary-buttons:not(:has(#disagree-btn)) #more-options-btn,\
+		.qc-cmp2-summary-buttons:not(:has(#disagree-btn)):not(:has(#more-options-btn)) button[mode="secondary"],\
 		.qc-cmp2-buttons-desktop > button:first-child,\
 		#didomi-popup .didomi-button-highlight:not([class*="paywall"]):not([class*="disagree"]),\
 		#rgpd_video .rgpd-mask a[data-rgpd-consent],\
