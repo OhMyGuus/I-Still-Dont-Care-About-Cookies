@@ -14322,6 +14322,7 @@ moonback-cookie-banner,
 .ibvcc-cookieconsent-popup,
 .ibvcc-dimscreen.show,
 div[aria-labelledby='cookiesTrackingNoticeLink'],
+#consent-banner-main:has(#consent-banner-wall),
 pie-cookie-banner[v],
 moonback-cookie-banner {
   display: none !important;
