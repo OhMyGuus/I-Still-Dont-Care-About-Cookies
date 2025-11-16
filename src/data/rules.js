@@ -19806,6 +19806,9 @@ const rules = {
   "atramex.ch": {
     s: 'div[class*="bg-red-700"][class*="text-white"],div[class*="bg-black"][class*="bg-opacity-50"]{display:none!important}',
   },
+  "trigar.pl": {
+    s: ".consents { display: none !important; }\\nbody { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
