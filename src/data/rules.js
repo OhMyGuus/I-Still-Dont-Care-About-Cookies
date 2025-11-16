@@ -19802,6 +19802,9 @@ const rules = {
   },
   "ontrac.com": { s: ".notification-bar { display: none !important; }" },
   "huk-autoservice.de": { j: 5 },
+  "marthastewart.com": {
+    s: "#onetrust-consent-sdk,#onetrust-banner-sdk{display:none!important;visibility:hidden!important}html{overflow:auto!important}",
+  },
 
   // end of const rules
 };
