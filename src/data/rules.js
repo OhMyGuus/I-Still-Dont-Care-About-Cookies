@@ -19812,9 +19812,7 @@ const rules = {
   "parkershop.eu": {
     s: "#cc-modal,#cc-set{display:none!important}html,body{overflow:auto!important}",
   },
-  "fr.bellroy.com": {
-    s: "bellroy-cookie-dialog,dialog#cookie-dialog{display:none!important;visibility:hidden!important;height:0!important;width:0!important} bellroy-cookie-dialog::backdrop,dialog#cookie-dialog::backdrop{background:transparent!important} :is(html,body):has(dialog#cookie-dialog[open]){overflow:auto!important}",
-  },
+  "bellroy.com": { j: 6 },
 
   // end of const rules
 };
