@@ -20155,6 +20155,7 @@ const blockUrls = {
           "dvdoo.dk",
         ],
       },
+      { r: "bc-prod-config.empathy.co" },
       { r: "/cookienotice/Js/" },
       {
         r: "/wp-content/plugins/fortune-cookie-consent-policy/",
