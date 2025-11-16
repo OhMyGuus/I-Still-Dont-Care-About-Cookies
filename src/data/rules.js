@@ -19822,6 +19822,9 @@ const rules = {
   "kamperhaug.no": {
     s: "div[aria-labelledby=modal-title][role=dialog][aria-modal=true]{display:none!important;}",
   },
+  "badhall.at": {
+    s: "#cookie-modal, .cc-window-backdrop.modal-backdrop { display: none !important; } body { overflow: auto !important; margin-right: 0 !important; }",
+  },
 
   // end of const rules
 };
