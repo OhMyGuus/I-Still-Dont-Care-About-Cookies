@@ -511,7 +511,7 @@
 
   function searchLoop(counter) {
     setTimeout(function () {
-	  timeoutDuration = 50;
+      timeoutDuration = 50;
       document.querySelectorAll(searchPairsJoinedKeys).forEach(function (box) {
         searchPairsKeys.forEach(function (selector) {
           if (box.matches(selector)) {
@@ -546,7 +546,7 @@
                       }
                     }, 150);
                   }
-				console.log("Timeout for element click:", timeoutDuration);
+                  console.log("Timeout for element click:", timeoutDuration);
                   timeoutDuration += 150;
                 }
               });
@@ -579,7 +579,7 @@
               }
             }, 300);
 
-			console.log("Timeout for element click:", timeoutDuration);
+            console.log("Timeout for element click:", timeoutDuration);
             timeoutDuration += 100;
           }
         });
