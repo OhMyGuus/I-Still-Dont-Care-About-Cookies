@@ -520,7 +520,6 @@
             (box.shadowRoot || box)
               .querySelectorAll(searchPairs[selector].join(","))
               .forEach(function (element) {
-                console.log("Default click handler activated on", element);
                 if (element.click && !element.classList.contains("idcac")) {
                   element.classList.add("idcac");
 
