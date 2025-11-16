@@ -19784,6 +19784,9 @@ const rules = {
   "matekmindenkinek.hu": {
     s: "#largeID, .modal-backdrop { display: none !important; }",
   },
+  "arb.co.za": {
+    s: ".elementor-location-popup[data-elementor-id='48278'] { display: none !important; }",
+  },
 
   // end of const rules
 };
