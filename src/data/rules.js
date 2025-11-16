@@ -19803,6 +19803,9 @@ const rules = {
   "marthastewart.com": {
     s: "#onetrust-consent-sdk,#onetrust-banner-sdk{display:none!important;visibility:hidden!important}html{overflow:auto!important}",
   },
+  "atramex.ch": {
+    s: 'div[class*="bg-red-700"][class*="text-white"],div[class*="bg-black"][class*="bg-opacity-50"]{display:none!important}',
+  },
 
   // end of const rules
 };
