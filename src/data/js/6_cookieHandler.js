@@ -787,6 +787,8 @@ function getE(hostname) {
       return [
         "hasConsent=value%3Drequired-only%3BcreationDate%3D9762385041866",
       ];
+    case "hellowatt.fr":
+      return ["ckiesCsnt=100"];
   }
 
   const parts = hostname.split(".");
