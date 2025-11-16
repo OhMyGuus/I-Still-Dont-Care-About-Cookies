@@ -19828,6 +19828,9 @@ const rules = {
   "santaclausvillage.info": {
     s: ".cookie-consent,#cookie-overlay{display:none!important}",
   },
+  "24.hu": {
+    s: "#qc-cmp2-container, .u-overlayFullScreen { display: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
