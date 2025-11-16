@@ -19777,7 +19777,7 @@ const rules = {
   "okw.co.uk": {
     s: "#cookie-banner-host,#cookie-modal,#cp-btn-floating,.consent-pp-modal-body,.cp-floating-button{display:none!important}html,body{overflow:auto!important;position:static!important}",
   },
-  "two-notes.com": { s: '[id^="cdk-overlay"] { display: none !important; }' },
+  "two-notes.com": { j: 6 },
 
   // end of const rules
 };
