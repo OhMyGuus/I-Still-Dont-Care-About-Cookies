@@ -19809,6 +19809,9 @@ const rules = {
   "ultimahora.es": {
     s: "#mrf-popup,#black-overlay{display:none!important}body{overflow:auto!important;margin-right:0!important}",
   },
+  "parkershop.eu": {
+    s: "#cc-modal,#cc-set{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
