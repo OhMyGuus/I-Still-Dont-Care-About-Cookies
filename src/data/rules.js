@@ -19828,6 +19828,9 @@ const rules = {
   "galerieslafayette.com": {
     s: "#popin_tc_privacy,#privacy-overlay{display:none!important}html,body{overflow:auto!important}",
   },
+  "daileisure.co.uk": {
+    s: ".notification-wrapper.notification-wrapper-bottom{display:none!important}",
+  },
 
   // end of const rules
 };
