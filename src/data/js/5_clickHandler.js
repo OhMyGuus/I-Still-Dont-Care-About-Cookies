@@ -1029,7 +1029,7 @@ function getSelector(host) {
     case "voelkner.de":
     case "digitalo.de":
     case "getgoods.com":
-      return '.reveal__overlay[style*="block"] [data-cookie_consent="0"]';
+      return '.js_cookie_content button[data-cookie_consent="0"]';
 
     case "teb.pl":
     case "technikum.pl":
@@ -8417,6 +8417,8 @@ function getSelector(host) {
       return "#btn-cookie-accept-essencial";
     case "comdirect.de":
       return shadowQuerySelector("com-button#cmpDenyAll");
+    case "huk-autoservice.de":
+      return 'button[data-value="cookie-accept-necessary"]';
   }
 
   if (host.parts.length > 2) {
