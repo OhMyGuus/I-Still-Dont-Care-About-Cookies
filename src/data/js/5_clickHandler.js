@@ -8417,6 +8417,8 @@ function getSelector(host) {
       return "#btn-cookie-accept-essencial";
     case "comdirect.de":
       return shadowQuerySelector("com-button#cmpDenyAll");
+    case "huk-autoservice.de":
+      return 'button[data-value="cookie-accept-necessary"]';
   }
 
   if (host.parts.length > 2) {

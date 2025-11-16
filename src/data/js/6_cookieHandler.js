@@ -787,6 +787,28 @@ function getE(hostname) {
       return [
         "hasConsent=value%3Drequired-only%3BcreationDate%3D9762385041866",
       ];
+    case "two-notes.com":
+      return ["cookiesettings_status=deny"];
+    case "theprotocol.it":
+      return [
+        "cookiesPolicy=v3",
+        "cp_advertisement=0",
+        "cp_comfortable=0",
+        "cp_core=1",
+        "cp_personalized=0",
+        "cp_social=0",
+        "cp_watch=0",
+      ];
+    case "aup.athens-abt.com":
+      return [
+        "siteCookie=%7B%22unclassified%22%3Afalse%2C%22commercial%22%3Afalse%2C%22settings%22%3Afalse%2C%22statistics%22%3Afalse%2C%22required%22%3Atrue%7D",
+      ];
+    case "moebelkroeger.com":
+      return ["cookieConsent=-"];
+    case "ris.bz.it":
+      return [
+        'dp_cookieconsent_status={"status":"approved","checkboxes":[{"name":"statistics","checked":false},{"name":"marketing","checked":false}]}',
+      ];
   }
 
   const parts = hostname.split(".");

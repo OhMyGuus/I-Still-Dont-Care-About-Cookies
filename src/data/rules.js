@@ -1302,7 +1302,9 @@ const rules = {
   "eknjiga.hr": { c: 53 },
   "whoisanna.com": { s: ".popup-background,.popup{display:none !important}" },
   "heythroppark.co.uk": { s: "#pecr_summary{display:none !important}" },
-  "headfirstbristol.co.uk": { c: 33 },
+  "headfirstbristol.co.uk": {
+    s: "#injected_cookie_notice { display: none !important; }",
+  },
   "elternchecker.de": { c: 31 },
   "xlbygg.se": { s: ".main.cookiewarning{margin-top:0 !important}" },
   "penzionist.info": { c: 122 },
@@ -4873,7 +4875,6 @@ const rules = {
   "karmy.com.pl": { c: 16 },
   "prevac.eu": { c: 16 },
   "bmjv.de": { c: 16 },
-  "antyweb.pl": { j: "6" },
   "intact-batterien.de": { s: ".notes{display:none !important}" },
   "atticadps.gr": { c: 0 },
   "learnosm.org": { s: "#optout-form{display:none !important}" },
@@ -10744,7 +10745,6 @@ const rules = {
   "ferchau.com": { j: "5" },
   "able-group.de": { j: "5" },
   "discordtemplates.com": { s: ".consent-card{display:none !important}" },
-  "holidu.de": { s: "#cookie-selector{display:none !important}" },
   "zoot.ro": { s: ".gpdr{display:none !important}" },
   "coregames.com": {
     s: '.open [class*="modalBottom"]{display:none !important}',
@@ -12521,7 +12521,9 @@ const rules = {
   "eutraining.eu": { s: "#eutraining-cookibar{display:none !important}" },
   "olafneumann.org": { s: "#rg_container_cookie{display:none !important}" },
   "brp.com": { s: "#consent-dialog{display:none !important}" },
-  "min.io": { s: ".footer__banner{display:none !important}" },
+  "min.io": {
+    s: ".fs-consent_component, [fs-consent-element='internal-component'], [fs-consent-element$='preferences'] { display: none !important; }",
+  },
   "rundfunkbeitrag.de": { s: "#optInId{display:none !important}" },
   "pizzafan.gr": { j: "5" },
   "mathaus.ro": { s: "#cookieOptionsFooter{display:none !important}" },
@@ -15519,12 +15521,9 @@ const rules = {
   "fakenewsfrance.com": {
     s: "#js-cc-modal{display:none !important} html{overflow-y: unset !important}",
   },
-  "123inkt.nl": {
-    s: '.c-simple-popup, .c-simple-popup__background, .c-cookie-popup, .bottom-notice, [data-action="CookiePopup"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } body[data-action="ScrollLock"] { overflow: visible !important; }',
-  },
-  "123tinta.es": {
-    s: '.simple-popup-container[data-action="CookiePopup"]{display:none !important}',
-  },
+  "123inkt.nl": { s: "[data-action=CookiePopup]{display:none!important}" },
+  "123tinta.es": { s: "[data-action=CookiePopup]{display:none!important}" },
+  "123drukuj.pl": { s: "[data-action=CookiePopup]{display:none!important}" },
   "beruby.com": { s: "#box-shadow{display:none !important}" },
   "arche.net": {
     s: "#cookieModal{display:none !important}",
@@ -15939,10 +15938,7 @@ const rules = {
   },
   "worksmile.com": { s: ".cookies-component{display:none !important}" },
   "dryg.pl": { s: '[class^="CookiesNotification"]{display:none !important}' },
-  "theprotocol.it": {
-    s: '[class^="Container_"]{display:none !important}',
-    c: 85,
-  },
+  "theprotocol.it": { j: "6" },
   "centrumrowerowe.pl": { s: "#consentsPolicyDialog{display:none !important}" },
   "img.ly": { s: ".cke-overlay{display:none !important}" },
   "bm-grenoble.fr": { s: "#app > div > :last-child{display:none !important}" },
@@ -18630,9 +18626,6 @@ const rules = {
   "hukot.net": {
     s: ".cm--panel, .cm--wrapper, .cm--back { display: none !important; }",
   },
-  "rolex.com": {
-    s: '#qc-cmp2-container, #qc-cmp2-main, #qc-cmp2-ui, div[class*="Overlay-Root"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
-  },
   "dailyaesthetikz.com": {
     s: ".c-cookie-bar.cookie-bar--is-visible, .cookie-bar__content, .cookie-bar__settings, .cookie-bar__button-holder { display: none !important; } html, body { overflow: auto !important; }",
   },
@@ -18840,9 +18833,6 @@ const rules = {
   },
   "mavenanalytics.io": {
     s: ".sc-bcXHqe.eKKFFs, .sc-GKYbw.jDnToh, .sc-cZFQFd.hZpEVZ, .framer-1uzwb1k { display: none !important; }",
-  },
-  "derbytelegraph.co.uk": {
-    s: '#qc-cmp2-container, #qc-cmp2-main, #qc-cmp2-ui, .pp-prompt, .pp-backdrop, .pp-overlay, div[id^="pp-"] { display: none !important; pointer-events: none !important; }',
   },
   "thinkbroadband.com": {
     s: '#termly-code-snippet-support, [class*="termly-styles-consent-banner"], [class*="termly-styles-modal"], .t-consentPrompt, .t-acceptAllButton, .t-preference-button { display: none !important; }',
@@ -19500,7 +19490,6 @@ const rules = {
     j: 6,
   },
   "impuls.lt": { s: "div[data-controller=cookie-bar]{display:none}" },
-  "asan.com.pl": { j: 3 },
   "teilauto.net": { j: 3 },
   "iffmh.de": { j: 6 },
   "winwingsim.com": {
@@ -19531,6 +19520,10 @@ const rules = {
     c: 85,
   },
   "autodoc.parts": {
+    s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
+    c: 85,
+  },
+  "autodoc.es": {
     s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
     c: 85,
   },
@@ -19734,6 +19727,84 @@ const rules = {
     s: 'div.fixed.bottom-0.left-0.right-0.bg-white.p-4.shadow-2xl.text-black:has(a.text-primary.font-bold[href="/privacy-policy"]) { display: none !important; }',
   },
   "gamepro.de": { j: 5 },
+  "initiative-klimaneutral.de": {
+    s: ".dsbanner { display: none !important; }",
+  },
+  "holidu.nl": { s: "#cookie-selector { display: none !important; }" },
+  "holidu.be": { s: "#cookie-selector { display: none !important; }" },
+  "holidu.se": { s: "#cookie-selector { display: none !important; }" },
+  "holidu.de": { s: "#cookie-selector{display:none !important}" },
+  "holidu.com": { s: "#cookie-selector{display:none !important}" },
+  "holidu.fr": { s: "#cookie-selector{display:none !important}" },
+  "keychron.com.es": { s: "#tinycookie-wrapper { display: none !important; }" },
+  "flatmates.com.au": {
+    s: ".fc-consent-root, .gdpr-consent-element-wrapper { display: none !important; }",
+  },
+  "sfr.fr": { s: "#CkC { display: none !important; }" },
+  "klementoninvesting.substack.com": {
+    s: '[class*="cookieBanner"] { display: none !important; }',
+  },
+  "ecodigo.fr": {
+    s: ".ecodigo-ckm-wrapper { display: none !important; }",
+    c: 85,
+  },
+  "guso.fr": { s: "pe-cookies{display: none !important;}" },
+  "shop.hmusic.hu": {
+    s: ".rb-cookiealert-cover-page { display: none !important; }",
+  },
+  "drum-tec.fr": {
+    s: "#cookie-consent, .page-wrap--cookie-permission, .iwv-cookie-overlay{display:none!important; }",
+  },
+  "gdels.com": { s: "tcm-modal{display:none!important}" },
+  "useful.codes": { s: ".uc-consent { display: none !important; }" },
+  "kompiuteriumokykla.lt": {
+    s: ".l-cookie.pos_bottom{display:none!important}",
+  },
+  "dziennik.pl": { s: "#cmp { display:none !important; }" },
+  "specializedbrno.cz": { s: "#inshopCookies { display: none !important; }" },
+  "press.christies.com": { s: "#modal_cookies { display: none !important; }" },
+  "djakdom.pl": { s: "#tlocookie,#dspcookie{display:none !important;}" },
+  "autoset.by": { s: ".cookie.js-cookie { display: none !important; }" },
+  "bundesfinanzministerium.de": {
+    s: ".bhh-cookie-banner,#bhh-cookie-banner__toggledown-0{display:none!important}",
+  },
+  "asdatyres.co.uk": {
+    s: "#cookieBanner,#cookieModalSettings,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important;padding-right:0!important}",
+  },
+  "okw.co.uk": {
+    s: "#cookie-banner-host,#cookie-modal,#cp-btn-floating,.consent-pp-modal-body,.cp-floating-button{display:none!important}html,body{overflow:auto!important;position:static!important}",
+  },
+  "two-notes.com": { j: 6 },
+  "katoflix.com": {
+    s: "#consent-message-container { display: none !important; }",
+  },
+  "fothermo.com": { s: "#banner-wrapper{ display: none !important; }" },
+  "hut.de": { s: "#c-cookie-banner{ display:none !important; }" },
+  "hsnstore.pt": { s: "#cookiebar-outer { display: none !important; }" },
+  "autosinnovate.org": { s: "#theme-gdpr { display: none !important; }" },
+  "aup.athens-abt.com": { j: 6 },
+  "matekmindenkinek.hu": {
+    s: "#largeID, .modal-backdrop { display: none !important; }",
+  },
+  "arb.co.za": {
+    s: ".elementor-location-popup[data-elementor-id='48278'] { display: none !important; }",
+  },
+  "moebelkroeger.com": { j: 6 },
+  "strezov-sampling.com": {
+    s: "aside#consentCookies{display:none!important;}",
+  },
+  "cryptomus.com": {
+    s: 'div[class*="cookie-modal_wrapper"] { display: none !important; }',
+  },
+  "ris.bz.it": { j: 6 },
+  "hellvetia.ch": {
+    s: "div.w-full.bg-gray-darkest.text-gray-light.p-4.fixed.bottom-0.max-h-halfscreen.overflow-auto{display:none!important}",
+  },
+  "ontrac.com": { s: ".notification-bar { display: none !important; }" },
+  "huk-autoservice.de": { j: 5 },
+  "marthastewart.com": {
+    s: "#onetrust-consent-sdk,#onetrust-banner-sdk{display:none!important;visibility:hidden!important}html{overflow:auto!important}",
+  },
 
   // end of const rules
 };
@@ -20110,6 +20181,7 @@ const blockUrls = {
           "dvdoo.dk",
         ],
       },
+      { r: "bc-prod-config.empathy.co" },
       { r: "/cookienotice/Js/" },
       {
         r: "/wp-content/plugins/fortune-cookie-consent-policy/",
