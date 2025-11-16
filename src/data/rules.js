@@ -19534,6 +19534,10 @@ const rules = {
     s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
     c: 85,
   },
+  "autodoc.es": {
+    s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
+    c: 85,
+  },
   "galaxus.fr": { j: 6 },
   "tickets.vws-siegen.de": { j: 5 },
   "marianos.com": {
@@ -19781,10 +19785,6 @@ const rules = {
     s: "#consent-message-container { display: none !important; }",
   },
   "fothermo.com": { s: "#banner-wrapper{ display: none !important; }" },
-  "autodoc.es": {
-    s: ".overlay, .popup--notification, .notification-popup { display: none !important; }",
-  },
-
   // end of const rules
 };
 
