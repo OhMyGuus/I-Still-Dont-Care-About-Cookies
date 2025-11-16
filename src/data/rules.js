@@ -18545,9 +18545,6 @@ const rules = {
   "agenda.sweetfm.fr": {
     s: ".rgpd-div, .rgpd-conditions { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
-  "sweetfm.fr": {
-    s: "#popin_tc_privacy, #privacy-overlay, #tc-privacy-wrapper, .tc-privacy-banner, .tc-privacy-overlay { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; }",
-  },
   "verfassungsschutz.de": {
     s: ".mfp-bg.mfp-ready { display: none !important; }",
     c: 85,
@@ -21014,6 +21011,8 @@ const blockUrls = {
       { r: "gdpr-api.sharethis.com/cmp" },
     ],
     privacy: [
+      { r: "/privacy_v2_63.js" },
+      { r: "/privacy_v2_37.js" },
       { r: "/js/dist/privacy-plus-v2.min.js" },
       { r: "/media/plg_system_eprivacy", e: ["reshade.me"] },
       { r: "recepttar.hu/js/privacy.js" },
