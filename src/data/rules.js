@@ -19791,7 +19791,7 @@ const rules = {
   "arb.co.za": {
     s: ".elementor-location-popup[data-elementor-id='48278'] { display: none !important; }",
   },
-  "moebelkroeger.com": { s: "#consentBanner { display: none !important; }" },
+  "moebelkroeger.com": { j: 6 },
 
   // end of const rules
 };
