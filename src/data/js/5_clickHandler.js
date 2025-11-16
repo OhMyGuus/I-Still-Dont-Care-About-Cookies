@@ -1029,7 +1029,7 @@ function getSelector(host) {
     case "voelkner.de":
     case "digitalo.de":
     case "getgoods.com":
-      return '.reveal__overlay[style*="block"] [data-cookie_consent="0"]';
+      return '.js_cookie_content button[data-cookie_consent="0"]';
 
     case "teb.pl":
     case "technikum.pl":
