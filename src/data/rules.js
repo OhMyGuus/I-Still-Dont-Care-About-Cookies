@@ -19801,6 +19801,7 @@ const rules = {
   "hellvetia.ch": {
     s: "div.w-full.bg-gray-darkest.text-gray-light.p-4.fixed.bottom-0.max-h-halfscreen.overflow-auto{display:none!important}",
   },
+  "sklep.wszystkodlabiura.pl": { s: ".consents { display: none !important; }" },
 
   // end of const rules
 };
