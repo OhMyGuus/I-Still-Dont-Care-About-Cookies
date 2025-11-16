@@ -500,7 +500,8 @@
 		#myCookieModal.in .cookie-button,\
 		div[data-cookie-path] a[href*="technologies/cookies"] + div,\
 		.disable--interaction .cm__btn[data-role=necessary],\
-		div[consent-skip-blocker] dialog[open] a[role="button"]:not([id$="-ext-0-255"]):not([class*="ext-1-414"])',
+		div[consent-skip-blocker] dialog[open] a[role="button"]:not([id$="-ext-0-255"]):not([class*="ext-1-414"]),\
+		div.consents .consents__wrapper .consents__modal .consents__buttons .js__accept-necessary',
   ];
 
   // Search loop function

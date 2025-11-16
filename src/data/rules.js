@@ -19490,7 +19490,6 @@ const rules = {
     j: 6,
   },
   "impuls.lt": { s: "div[data-controller=cookie-bar]{display:none}" },
-  "asan.com.pl": { j: 3 },
   "teilauto.net": { j: 3 },
   "iffmh.de": { j: 6 },
   "winwingsim.com": {
@@ -19801,7 +19800,6 @@ const rules = {
   "hellvetia.ch": {
     s: "div.w-full.bg-gray-darkest.text-gray-light.p-4.fixed.bottom-0.max-h-halfscreen.overflow-auto{display:none!important}",
   },
-  "sklep.wszystkodlabiura.pl": { s: ".consents { display: none !important; }" },
 
   // end of const rules
 };
