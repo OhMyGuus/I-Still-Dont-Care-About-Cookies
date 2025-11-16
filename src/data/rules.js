@@ -19813,6 +19813,9 @@ const rules = {
     s: "#cc-modal,#cc-set{display:none!important}html,body{overflow:auto!important}",
   },
   "bellroy.com": { j: 6 },
+  "drdevonprice.substack.com": {
+    s: "div[class*=cookieBanner]{display:none!important}",
+  },
 
   // end of const rules
 };
