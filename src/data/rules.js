@@ -19746,6 +19746,10 @@ const rules = {
   "klementoninvesting.substack.com": {
     s: '[class*="cookieBanner"] { display: none !important; }',
   },
+  "ecodigo.fr": {
+    s: ".ecodigo-ckm-wrapper { display: none !important; }",
+    c: 85,
+  },
   "guso.fr": { s: "pe-cookies{display: none !important;}" },
   "shop.hmusic.hu": {
     s: ".rb-cookiealert-cover-page { display: none !important; }",
