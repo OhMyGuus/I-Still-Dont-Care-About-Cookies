@@ -15939,10 +15939,7 @@ const rules = {
   },
   "worksmile.com": { s: ".cookies-component{display:none !important}" },
   "dryg.pl": { s: '[class^="CookiesNotification"]{display:none !important}' },
-  "theprotocol.it": {
-    s: '[class^="Container_"]{display:none !important}',
-    c: 85,
-  },
+  "theprotocol.it": { j: "6" },
   "centrumrowerowe.pl": { s: "#consentsPolicyDialog{display:none !important}" },
   "img.ly": { s: ".cke-overlay{display:none !important}" },
   "bm-grenoble.fr": { s: "#app > div > :last-child{display:none !important}" },
