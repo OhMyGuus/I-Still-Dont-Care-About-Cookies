@@ -11758,7 +11758,7 @@ const rules = {
   "wanderservice-schwarzwald.de": { j: "5" },
   "alpenvereinaktiv.com": { j: "5" },
   "nakedwines.com": { s: "nkd-cookie-banner{display:none !important}" },
-  "hellowatt.fr": { s: "#cookie-modal__container{display:none !important}" },
+  "hellowatt.fr": { j: 6 },
   "fancentro.com": {
     s: ".MuiContainer-root > div > header ~ div{display:none !important}",
   },
