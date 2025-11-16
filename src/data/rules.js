@@ -19801,6 +19801,7 @@ const rules = {
     s: "div.w-full.bg-gray-darkest.text-gray-light.p-4.fixed.bottom-0.max-h-halfscreen.overflow-auto{display:none!important}",
   },
   "ontrac.com": { s: ".notification-bar { display: none !important; }" },
+  "huk-autoservice.de": { j: 5 },
 
   // end of const rules
 };
