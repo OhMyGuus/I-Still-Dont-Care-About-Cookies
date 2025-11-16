@@ -19779,6 +19779,7 @@ const rules = {
   "fothermo.com": { s: "#banner-wrapper{ display: none !important; }" },
   "hut.de": { s: "#c-cookie-banner{ display:none !important; }" },
   "hsnstore.pt": { s: "#cookiebar-outer { display: none !important; }" },
+  "autosinnovate.org": { s: "#theme-gdpr { display: none !important; }" },
 
   // end of const rules
 };
