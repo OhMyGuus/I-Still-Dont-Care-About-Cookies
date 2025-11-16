@@ -19775,11 +19775,13 @@ const rules = {
   "okw.co.uk": {
     s: "#cookie-banner-host,#cookie-modal,#cp-btn-floating,.consent-pp-modal-body,.cp-floating-button{display:none!important}html,body{overflow:auto!important;position:static!important}",
   },
+  "two-notes.com": { j: 6 },
   "katoflix.com": {
     s: "#consent-message-container { display: none !important; }",
   },
   "fothermo.com": { s: "#banner-wrapper{ display: none !important; }" },
   "hut.de": { s: "#c-cookie-banner{ display:none !important; }" },
+
   // end of const rules
 };
 
