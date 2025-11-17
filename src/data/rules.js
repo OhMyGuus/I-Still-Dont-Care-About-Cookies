@@ -19869,6 +19869,7 @@ const rules = {
   },
   "kion.ru": { s: "ui-web-alert { display: none !important; }" },
   "trampolino.gr": { s: "#toast-cookie,#showCookies{display:none!important}" },
+  "exclusivestores.gr": { s: ".fixed-bottom{display:none!important}" },
 
   // end of const rules
 };
