@@ -19836,6 +19836,9 @@ const rules = {
   },
   "umontreal.ca": { s: ".consent-container{display:none!important;}" },
   "loaded.com": { s: ".t-consentPrompt { display: none !important; }" },
+  "showtv.com.tr": {
+    s: "div.fc-consent-root{display:none!important}.widget-cookie-popup{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
