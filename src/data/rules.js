@@ -19943,6 +19943,9 @@ const rules = {
   "rocken.jobs": {
     s: "#cookies,.cookies-popup,.banner-blur{display:none!important}",
   },
+  "careers.nordicsemi.com": {
+    s: '.z-cookie-alert,dialog[data-controller="common--cookies--alert"],dialog[data-controller="common--cookies--preferences"]{display:none!important;visibility:hidden!important;pointer-events:none!important}dialog.z-cookie-alert::backdrop,dialog[data-controller="common--cookies--preferences"]::backdrop{background:transparent!important}body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
