@@ -19859,6 +19859,9 @@ const rules = {
     s: "#tarteaucitronRoot{display:none!important}html,body{overflow:auto!important}",
   },
   "koledam.com": { s: "#wmkcprivacy{display:none!important}" },
+  "openfinancebrasil.org.br": {
+    s: ".modal-privacidade { display: none !important; } .modal-backdrop { display: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
