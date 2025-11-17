@@ -19858,6 +19858,7 @@ const rules = {
   "olympiahall.com": {
     s: "#tarteaucitronRoot{display:none!important}html,body{overflow:auto!important}",
   },
+  "koledam.com": { s: "#wmkcprivacy{display:none!important}" },
 
   // end of const rules
 };
