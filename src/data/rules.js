@@ -19836,6 +19836,9 @@ const rules = {
   },
   "umontreal.ca": { s: ".consent-container{display:none!important;}" },
   "loaded.com": { s: ".t-consentPrompt { display: none !important; }" },
+  "nl.aliexpress.com": {
+    s: "#voyager-gdpr-2025 { display: none !important; }",
+  },
 
   // end of const rules
 };
