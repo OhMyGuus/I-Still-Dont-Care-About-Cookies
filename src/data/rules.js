@@ -14933,7 +14933,7 @@ const rules = {
   "guard.io": {
     s: '#gatsby-focus-wrapper > img ~ div[style*="transform"]{display:none !important}',
   },
-  "essential.gg": { s: ".c-confirmation{display:none !important}" },
+  "essential.gg": { s: "#banner-67053 { display: none !important; }" },
   "mcdonalds.hu": { c: 4 },
   "mcdonalds.si": { j: "5" },
   "ccc.eu": {
