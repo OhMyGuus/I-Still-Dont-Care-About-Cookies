@@ -6368,7 +6368,9 @@ const rules = {
   "srazenazver.cz": { c: 0 },
   "sudzibas.lv": { c: 0 },
   "tuenti.es": { c: 0 },
-  "dvdmax.pl": { c: 0 },
+  "dvdmax.pl": {
+    s: ".modal-cookies,.header-overflow{display:none!important;}",
+  },
   "abbeylegal.com": { c: 0 },
   "magniflex.cz": { c: 0 },
   "francecars.fr": { c: 0 },
