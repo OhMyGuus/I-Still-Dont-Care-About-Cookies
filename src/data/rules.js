@@ -19911,9 +19911,6 @@ const rules = {
   "optimatours.de": {
     s: ".cookies-confirm-bg,.cookies-confirm-bg-backdrop{display:none!important}",
   },
-  "taxheaven.gr": {
-    s: '[id^="cookiescript_"],div[style*="z-index: 2000000000"],div[style*="opacity: 0.05"]{display:none!important}',
-  },
 
   // end of const rules
 };
@@ -21169,6 +21166,7 @@ const blockUrls = {
       { r: "/wp-content/plugins/myagileprivacy/" },
     ],
     cmp: [
+      { r: "cdn.cookie-script.com" },
       { r: "cmp.prisa.com" },
       { r: "gravito.network/cmp" },
       { r: "cmp.lemonde.fr" },
