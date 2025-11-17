@@ -19911,6 +19911,9 @@ const rules = {
   "optimatours.de": {
     s: ".cookies-confirm-bg,.cookies-confirm-bg-backdrop{display:none!important}",
   },
+  "caf.fr": {
+    s: "#sliding-popup,#popup_geoloc,.modal-backdrop,#youtubeCookiePopup,.eu-cookie-compliance-banner{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
