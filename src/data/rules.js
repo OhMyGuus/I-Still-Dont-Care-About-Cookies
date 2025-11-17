@@ -19842,6 +19842,9 @@ const rules = {
   "billetterie.musee-armee.fr": {
     s: "#tarteaucitronRoot{display:none!important}html,body{overflow:visible!important}",
   },
+  "partners.cz": {
+    s: 'dialog.part_cookieconsent, dialog.part_cookieconsent::backdrop { display: none !important; } html[style*="overflow: hidden"] { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
