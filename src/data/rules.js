@@ -19900,6 +19900,9 @@ const rules = {
   "comic-con.org": {
     s: '[aria-label="Cookie Consent Prompt"],.t-consentPrompt,[class*="termly-styles-termly-banner"]{display:none!important;visibility:hidden!important}body{overflow:auto!important}',
   },
+  "red-by-sfr.fr": {
+    s: '#CkC,[aria-label="Consentement des cookies"],[role=dialog][aria-modal=true]{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
