@@ -19909,7 +19909,7 @@ const rules = {
     s: '[class^="cookies_wrapper"],[class^="cookies_container"]{display:none!important}',
   },
   "optimatours.de": {
-    s: ".cookies-confirm-bg,.cookies-confirm-bg-backdrop{display:none!important}",
+    s: "#btn-cookie-confirm,.cookies-confirm-bg{display:none!important}",
   },
   "caf.fr": { j: 6 },
   "kaup24.ee": {
