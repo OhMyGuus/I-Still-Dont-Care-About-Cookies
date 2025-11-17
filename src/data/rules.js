@@ -19918,6 +19918,9 @@ const rules = {
   "cortinadecor.com": {
     s: "#cookieNotice,#cookieManagementeModal,#PleaseWait,.modal-backdrop,#overlay.ui-widget-overlay{display:none!important}html,body{overflow:auto!important}",
   },
+  "vitaminbolt.hu": {
+    s: ".wcc-modal,.wcc-overlay,.wcc-consent-container.wcc-popup-center{display:none!important;visibility:hidden!important;pointer-events:none!important}body.wcc-popup-overflow{overflow:auto!important}",
+  },
 
   // end of const rules
 };
