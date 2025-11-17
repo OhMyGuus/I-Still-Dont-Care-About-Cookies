@@ -19835,6 +19835,7 @@ const rules = {
     s: ".cookie__popup,.custom__popup__wrapper{display:none!important} html,body{overflow:auto!important}",
   },
   "umontreal.ca": { s: ".consent-container{display:none!important;}" },
+  "loaded.com": { s: ".t-consentPrompt { display: none !important; }" },
 
   // end of const rules
 };
