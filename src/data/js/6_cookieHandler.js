@@ -813,6 +813,8 @@ function getE(hostname) {
       ];
     case "bellroy.com":
       return ["cookie_consent=denied"];
+    case "caf.fr":
+      return ["cookie-agreed-version=1.0.0", "cookie-agreed=1"];
   }
 
   const parts = hostname.split(".");
