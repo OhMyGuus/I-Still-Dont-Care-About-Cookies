@@ -19909,6 +19909,9 @@ const rules = {
   "myplantin.com": {
     s: '[class^="cookies_wrapper"],[class^="cookies_container"]{display:none!important}',
   },
+  "optimatours.de": {
+    s: ".cookies-confirm-bg,.cookies-confirm-bg-backdrop{display:none!important}",
+  },
 
   // end of const rules
 };
