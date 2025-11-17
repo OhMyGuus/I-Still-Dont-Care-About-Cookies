@@ -19928,6 +19928,9 @@ const rules = {
   "tiendavelox.com.ar": {
     s: ".js-notification-cookie-private.notification-fixed-bottom,.js-notification-close-private.js-acknowledge-cookies-private{display:none!important}",
   },
+  "story.pl": {
+    s: '[id^="qc-cmp2-"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
+  },
 
   // end of const rules
 };
