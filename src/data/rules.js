@@ -19891,6 +19891,9 @@ const rules = {
   "kbhallen.dk": {
     s: "#cookieManager,.modal-backdrop{display:none!important}body{overflow:auto!important}",
   },
+  "autorigin.com": {
+    s: "#cmp-container.rgpd,#rgpd-cookie-form{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
