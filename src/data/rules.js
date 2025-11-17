@@ -19931,6 +19931,9 @@ const rules = {
   "lazienkarium.pl": {
     s: "#basicConsentModal,.modal-backdrop.fade.show{display:none!important;visibility:hidden!important}body.modal-open{overflow:auto!important;padding-right:0!important}",
   },
+  "herb-fahrzeugteile.de": {
+    s: '.js-offcanvas-singleton.offcanvas-modal.show,.offcanvas-backdrop.fade.show,[id^="offcanvas-cookie"],.offcanvas-cookie-entries{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
