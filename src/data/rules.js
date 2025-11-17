@@ -19940,6 +19940,9 @@ const rules = {
   "ijzershop.nl": {
     s: "#cookiesModal,.modal-backdrop{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}html{overflow:auto!important}",
   },
+  "rocken.jobs": {
+    s: "#cookies,.cookies-popup,.banner-blur{display:none!important}",
+  },
 
   // end of const rules
 };
