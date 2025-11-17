@@ -19925,6 +19925,9 @@ const rules = {
   "shc-care.de": {
     s: ".simple-bs-dialog,#cookie-form,.modal-backdrop,.modal.show{display:none!important;visibility:hidden!important;pointer-events:none!important}body.modal-open{overflow:auto!important;padding-right:0!important;position:static!important}",
   },
+  "tiendavelox.com.ar": {
+    s: ".js-notification-cookie-private.notification-fixed-bottom,.js-notification-close-private.js-acknowledge-cookies-private{display:none!important}",
+  },
 
   // end of const rules
 };
