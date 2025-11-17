@@ -8419,6 +8419,8 @@ function getSelector(host) {
       return shadowQuerySelector("com-button#cmpDenyAll");
     case "huk-autoservice.de":
       return 'button[data-value="cookie-accept-necessary"]';
+    case "720dgree.de":
+      return '.overlay_bc_banner span[data-cookie-save=""]';
   }
 
   if (host.parts.length > 2) {
