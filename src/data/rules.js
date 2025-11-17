@@ -3508,7 +3508,6 @@ const rules = {
   "hindustantimes.com": { j: "5" },
   "lyricsmode.com": { c: 1 },
   "recurly.com": { s: ".recurly-gdpr{display:none !important}" },
-  "pokewiki.de": { s: "#gl-topbar-bg,#gl-topbar{display:none !important}" },
   "aa.com": { s: "#aa_optoutmulti-Modal{display:none !important}" },
   "lzinios.lt": { c: 1 },
   "heroku.com": { s: "#heroku-cookie-banner{display:none !important}" },
