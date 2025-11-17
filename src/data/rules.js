@@ -19885,6 +19885,9 @@ const rules = {
   "medigy.com": {
     s: ".cookie-bottom,div[style*='z-index:2000000000']{display:none!important}html,body{overflow:auto!important}",
   },
+  "dashboard.balena-cloud.com": {
+    s: '.MuiDrawer-root.MuiDrawer-anchorBottom.MuiDrawer-modal.MuiModal-root,.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorBottom,.MuiBackdrop-root{display:none!important}body[style*="overflow: hidden"]{overflow:auto!important}',
+  },
 
   // end of const rules
 };
