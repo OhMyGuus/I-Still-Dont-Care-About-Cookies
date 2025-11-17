@@ -19880,7 +19880,7 @@ const rules = {
     s: "[id^=gaz-gdpr-],.gaz-gdpr-modal{display:none!important}html,body{overflow:auto!important}",
   },
   "circumetnea.it": {
-    s: "#gdpr_cookie_banner,#gdpr_container,#gdpr_bottom,#gdpr_cookie_mini_banner{display:none!important}",
+    s: "#gdpr_cookie_banner,#gdpr_container,#gdpr_cookie_mini_banner{display:none!important}",
   },
   "medigy.com": {
     s: ".cookie-bottom,div[style*='z-index:2000000000']{display:none!important}html,body{overflow:auto!important}",
