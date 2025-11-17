@@ -16891,7 +16891,6 @@ const rules = {
   "iconnectfx.com": {
     s: ".cdk-overlay-container{display:none !important} html{overflow:unset !important} div[id*='AllowCookiePopup']{display:none !important}",
   },
-  "saechsische.de": { j: 5 },
   "motorsport-total.com": { j: 5 },
   "gabler.de": { j: 5 },
   "autohaus.de": { j: 5 },
@@ -22112,6 +22111,7 @@ const blockUrls = {
     "mobile.de": ["/cmpApi.js"],
     "walesonline.co.uk": ["cmp.inmobi.com"],
     "secretgermanjodel.com": ["js.cookie.min.js"],
+    "saechsische.de": ["cmp-sp.saechsische.de"],
   },
 };
 
