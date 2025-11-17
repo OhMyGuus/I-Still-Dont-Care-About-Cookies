@@ -19839,6 +19839,9 @@ const rules = {
   "showtv.com.tr": {
     s: "div.fc-consent-root{display:none!important}.widget-cookie-popup{display:none!important}body{overflow:auto!important}",
   },
+  "billetterie.musee-armee.fr": {
+    s: "#tarteaucitronRoot{display:none!important}html,body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
