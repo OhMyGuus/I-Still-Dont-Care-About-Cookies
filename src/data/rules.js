@@ -19855,6 +19855,9 @@ const rules = {
   "goodbarber.oeldetogo.de": {
     s: "#cdk-overlay-gb-app0,.cdk-overlay-backdrop{display:none!important}body{overflow:auto!important}",
   },
+  "olympiahall.com": {
+    s: "#tarteaucitronRoot{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
