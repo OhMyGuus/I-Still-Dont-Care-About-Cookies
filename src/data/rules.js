@@ -19922,6 +19922,9 @@ const rules = {
   "vitaminbolt.hu": {
     s: ".wcc-modal,.wcc-overlay,.wcc-consent-container.wcc-popup-center{display:none!important;visibility:hidden!important;pointer-events:none!important}body.wcc-popup-overflow{overflow:auto!important}",
   },
+  "shc-care.de": {
+    s: ".simple-bs-dialog,#cookie-form,.modal-backdrop,.modal.show{display:none!important;visibility:hidden!important;pointer-events:none!important}body.modal-open{overflow:auto!important;padding-right:0!important;position:static!important}",
+  },
 
   // end of const rules
 };
