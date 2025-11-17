@@ -19918,6 +19918,9 @@ const rules = {
   "cortinadecor.com": {
     s: "#cookieNotice,#cookieManagementeModal,#PleaseWait,.modal-backdrop,#overlay.ui-widget-overlay{display:none!important}html,body{overflow:auto!important}",
   },
+  "720dgree.de": {
+    s: "#banner-wrapper,.overlay_bc_banner,.banner-body{display:none!important}",
+  },
 
   // end of const rules
 };
