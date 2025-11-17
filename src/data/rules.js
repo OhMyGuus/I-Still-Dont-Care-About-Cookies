@@ -19911,6 +19911,7 @@ const rules = {
   "optimatours.de": {
     s: ".cookies-confirm-bg,.cookies-confirm-bg-backdrop{display:none!important}",
   },
+  "caf.fr": { j: 6 },
 
   // end of const rules
 };
