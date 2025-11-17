@@ -19906,6 +19906,9 @@ const rules = {
   "ilsaggiatore.com": {
     s: "#quivi-cookie-banner{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "myplantin.com": {
+    s: '[class^="cookies_wrapper"],[class^="cookies_container"]{display:none!important}',
+  },
 
   // end of const rules
 };
