@@ -19904,7 +19904,7 @@ const rules = {
     s: '#CkC,[aria-label="Consentement des cookies"],[role=dialog][aria-modal=true]{display:none!important;visibility:hidden!important;pointer-events:none!important} html,body{overflow:auto!important}',
   },
   "ilsaggiatore.com": {
-    s: "#quivi-cookie-banner,.quivi-cookie-banner{display:none!important}",
+    s: "#quivi-cookie-banner{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
 
   // end of const rules
