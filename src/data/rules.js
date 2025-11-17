@@ -19894,6 +19894,9 @@ const rules = {
   "autorigin.com": {
     s: "#cmp-container.rgpd,#rgpd-cookie-form{display:none!important}html,body{overflow:auto!important}",
   },
+  "redeszone.net": {
+    s: "[id^=gaz-gdpr-]{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
