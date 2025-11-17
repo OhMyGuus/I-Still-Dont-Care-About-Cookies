@@ -19915,6 +19915,9 @@ const rules = {
   "kaup24.ee": {
     s: "#generalModal,#consent_block,#cookieBlock{display:none!important}html{overflow:auto!important}",
   },
+  "cortinadecor.com": {
+    s: "#cookieNotice,#cookieManagementeModal,#PleaseWait,.modal-backdrop,#overlay.ui-widget-overlay{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
