@@ -19848,6 +19848,9 @@ const rules = {
   "deutsches-museum.de": {
     s: ".cookiebanner--minimal { display: none !important; }",
   },
+  "eitca.org": {
+    s: ".wcc-consent-container,.wcc-overlay{display:none!important}body.wcc-popup-overflow{overflow:auto!important}",
+  },
 
   // end of const rules
 };
