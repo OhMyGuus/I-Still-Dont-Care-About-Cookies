@@ -19851,6 +19851,9 @@ const rules = {
   "eitca.org": {
     s: ".wcc-consent-container,.wcc-overlay{display:none!important}body.wcc-popup-overflow{overflow:auto!important}",
   },
+  "goodbarber.oeldetogo.de": {
+    s: "#cdk-overlay-gb-app0,.cdk-overlay-backdrop{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
