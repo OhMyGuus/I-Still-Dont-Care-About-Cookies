@@ -17385,7 +17385,6 @@ const rules = {
   "clubmed.us": { s: ".Layout > .fixed{display:none !important}" },
   "yamibuy.com": { c: 20 },
   "atlasstoked.com": { s: ".gdprModal{display:none !important}" },
-  "finn.no": { s: "#schibsted-banner{display:none !important}" },
   "motek.no": { s: ".js-gdpr{display:none !important}" },
   "coloursofistria.com": { s: ".altcm-fixed{display:none !important}" },
   "levnesporaky.cz": {
@@ -21772,7 +21771,6 @@ const blockUrls = {
     "iracing.com": ["/checkcookies.js"],
     "avast.com": ["/otBannerSdk.js"],
     "tek.no": ["cmp."],
-    "finn.no": ["cmp."],
     "lifesycle.co.uk": ["/ice.js"],
     "next-immo.com": ["/cookies"],
     "financer.com": ["/fnGdpr.js"],
