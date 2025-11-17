@@ -19876,6 +19876,9 @@ const rules = {
   "edenjobs.de": {
     s: "#cc--main,#cc_div,#cm,#cm-ov,#cs-ov,#pp-ov{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
+  "hardzone.es": {
+    s: "[id^=gaz-gdpr-],.gaz-gdpr-modal{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
