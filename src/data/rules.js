@@ -19865,6 +19865,9 @@ const rules = {
   "lammintupa.fi": {
     s: ".wcc-consent-container { display: none !important; }",
   },
+  "rukasafaris.fi": {
+    s: ".wcc-consent-container, .wcc-overlay, .wcc-modal, .wcc-preference-center, .wcc-btn-revisit-wrapper { display: none!important; }",
+  },
 
   // end of const rules
 };
