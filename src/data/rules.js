@@ -19912,6 +19912,9 @@ const rules = {
     s: ".cookies-confirm-bg,.cookies-confirm-bg-backdrop{display:none!important}",
   },
   "caf.fr": { j: 6 },
+  "kaup24.ee": {
+    s: "#generalModal,#consent_block,#cookieBlock{display:none!important}html{overflow:auto!important}",
+  },
 
   // end of const rules
 };
