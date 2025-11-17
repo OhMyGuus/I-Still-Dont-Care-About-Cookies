@@ -19897,6 +19897,9 @@ const rules = {
   "redeszone.net": {
     s: "[id^=gaz-gdpr-]{display:none!important}html,body{overflow:auto!important}",
   },
+  "comic-con.org": {
+    s: '[aria-label="Cookie Consent Prompt"],.t-consentPrompt,[class*="termly-styles-termly-banner"]{display:none!important;visibility:hidden!important}body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
