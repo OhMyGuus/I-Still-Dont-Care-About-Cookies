@@ -19845,6 +19845,9 @@ const rules = {
   "partners.cz": {
     s: 'dialog.part_cookieconsent, dialog.part_cookieconsent::backdrop { display: none !important; } html[style*="overflow: hidden"] { overflow: auto !important; }',
   },
+  "deutsches-museum.de": {
+    s: ".cookiebanner--minimal { display: none !important; }",
+  },
 
   // end of const rules
 };
