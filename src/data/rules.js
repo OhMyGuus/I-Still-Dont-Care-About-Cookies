@@ -19934,6 +19934,9 @@ const rules = {
   "herb-fahrzeugteile.de": {
     s: '.js-offcanvas-singleton.offcanvas-modal.show,.offcanvas-backdrop.fade.show,[id^="offcanvas-cookie"],.offcanvas-cookie-entries{display:none!important}html,body{overflow:auto!important}',
   },
+  "dtdc.com": {
+    s: "#termly-code-snippet-support,[class*='t-consentPrompt'],[class*='termly-styles-termly-banner']{display:none!important;}",
+  },
 
   // end of const rules
 };
