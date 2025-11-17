@@ -19867,6 +19867,7 @@ const rules = {
   "rukasafaris.fi": {
     s: ".wcc-consent-container, .wcc-overlay, .wcc-modal, .wcc-preference-center, .wcc-btn-revisit-wrapper { display: none!important; }",
   },
+  "kion.ru": { s: "ui-web-alert { display: none !important; }" },
 
   // end of const rules
 };
