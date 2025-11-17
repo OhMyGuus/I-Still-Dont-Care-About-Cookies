@@ -19868,6 +19868,7 @@ const rules = {
     s: ".wcc-consent-container, .wcc-overlay, .wcc-modal, .wcc-preference-center, .wcc-btn-revisit-wrapper { display: none!important; }",
   },
   "kion.ru": { s: "ui-web-alert { display: none !important; }" },
+  "trampolino.gr": { s: "#toast-cookie,#showCookies{display:none!important}" },
 
   // end of const rules
 };
