@@ -19873,6 +19873,9 @@ const rules = {
   "snoop.app": {
     s: 'div[class*="z-["][class*="inset-0"],div[class*="bottom-0"][class*="w-full"][class*="fixed"]{display:none!important}',
   },
+  "edenjobs.de": {
+    s: "#cc--main,#cc_div,#cm,#cm-ov,#cs-ov,#pp-ov{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
