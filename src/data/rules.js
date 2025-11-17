@@ -19831,6 +19831,9 @@ const rules = {
   "daileisure.co.uk": {
     s: ".notification-wrapper.notification-wrapper-bottom{display:none!important}",
   },
+  "verywellfit.com": {
+    s: "#onetrust-consent-sdk { display: none !important; }",
+  },
 
   // end of const rules
 };
