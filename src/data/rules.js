@@ -19888,6 +19888,9 @@ const rules = {
   "dashboard.balena-cloud.com": {
     s: '.MuiDrawer-root.MuiDrawer-anchorBottom.MuiDrawer-modal.MuiModal-root,.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorBottom,.MuiBackdrop-root{display:none!important}body[style*="overflow: hidden"]{overflow:auto!important}',
   },
+  "kbhallen.dk": {
+    s: "#cookieManager,.modal-backdrop{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
