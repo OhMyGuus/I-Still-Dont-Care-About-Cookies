@@ -20671,6 +20671,7 @@ const blockUrls = {
           "elsevier.com",
           "ups.com",
           "marthastewart.com",
+          "verywellfit.com",
         ],
       },
       { r: "/wp-content/plugins/borlabs-cookie/" },
