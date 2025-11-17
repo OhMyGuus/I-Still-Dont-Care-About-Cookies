@@ -19928,6 +19928,9 @@ const rules = {
   "tiendavelox.com.ar": {
     s: ".js-notification-cookie-private.notification-fixed-bottom,.js-notification-close-private.js-acknowledge-cookies-private{display:none!important}",
   },
+  "lazienkarium.pl": {
+    s: "#basicConsentModal,.modal-backdrop.fade.show{display:none!important;visibility:hidden!important}body.modal-open{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
