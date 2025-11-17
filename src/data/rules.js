@@ -19834,6 +19834,7 @@ const rules = {
   "kinepraktijkweekers.be": {
     s: ".cookie__popup,.custom__popup__wrapper{display:none!important} html,body{overflow:auto!important}",
   },
+  "umontreal.ca": { s: ".consent-container{display:none!important;}" },
 
   // end of const rules
 };
