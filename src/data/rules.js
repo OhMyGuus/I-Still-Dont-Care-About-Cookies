@@ -19946,6 +19946,7 @@ const rules = {
   "careers.nordicsemi.com": {
     s: '.z-cookie-alert,dialog[data-controller="common--cookies--alert"],dialog[data-controller="common--cookies--preferences"]{display:none!important;visibility:hidden!important;pointer-events:none!important}dialog.z-cookie-alert::backdrop,dialog[data-controller="common--cookies--preferences"]::backdrop{background:transparent!important}body{overflow:auto!important}',
   },
+  "shop.metacomp.de": { s: "#es-cookie-solution{display:none!important}" },
 
   // end of const rules
 };
