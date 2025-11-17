@@ -19937,6 +19937,9 @@ const rules = {
   "dtdc.com": {
     s: "#termly-code-snippet-support,[class*='t-consentPrompt'],[class*='termly-styles-termly-banner']{display:none!important;}",
   },
+  "ijzershop.nl": {
+    s: "#cookiesModal,.modal-backdrop{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}html{overflow:auto!important}",
+  },
 
   // end of const rules
 };
