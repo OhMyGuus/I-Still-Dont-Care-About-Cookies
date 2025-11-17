@@ -19831,6 +19831,9 @@ const rules = {
   "daileisure.co.uk": {
     s: ".notification-wrapper.notification-wrapper-bottom{display:none!important}",
   },
+  "kinepraktijkweekers.be": {
+    s: ".cookie__popup,.custom__popup__wrapper{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
