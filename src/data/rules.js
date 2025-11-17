@@ -19862,6 +19862,9 @@ const rules = {
   "openfinancebrasil.org.br": {
     s: ".modal-privacidade { display: none !important; } .modal-backdrop { display: none !important; } body { overflow: auto !important; }",
   },
+  "lammintupa.fi": {
+    s: ".wcc-consent-container { display: none !important; }",
+  },
 
   // end of const rules
 };
