@@ -21166,6 +21166,7 @@ const blockUrls = {
       { r: "/wp-content/plugins/myagileprivacy/" },
     ],
     cmp: [
+      { r: "cdn.cookie-script.com" },
       { r: "cmp.prisa.com" },
       { r: "gravito.network/cmp" },
       { r: "cmp.lemonde.fr" },
