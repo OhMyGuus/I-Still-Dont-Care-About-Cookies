@@ -19982,6 +19982,9 @@ const rules = {
   "verbatim-europe.com": {
     s: "body { overflow: auto !important; } #consentModal, .modal-backdrop { display: none !important; }",
   },
+  "rukaadventures.fi": {
+    s: ".wcc-consent-container,.wcc-modal,.wcc-btn-revisit-wrapper{display:none!important}",
+  },
 
   // end of const rules
 };
