@@ -19975,6 +19975,9 @@ const rules = {
   "smilehost.com.br": {
     s: 'div[class="fixed bottom-0 left-0 right-0 z-[100] p-4"],div[class="absolute inset-0 bg-black/50 z-[1]"]{display:none!important}',
   },
+  "atlasformen.fr": {
+    s: "dialog[data-cookie-wall-dialog]{display:none!important} body.inset-0.max-sm\\:fixed{overflow:auto!important}",
+  },
 
   // end of const rules
 };
