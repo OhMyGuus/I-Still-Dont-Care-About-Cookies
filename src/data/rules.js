@@ -19967,6 +19967,7 @@ const rules = {
   "pharmatip.gr": {
     s: "#webexpert-cookie-bar{display:none!important}body{overflow:auto!important}",
   },
+  "verkkouutiset.fi": { s: "#cmp-modal { display: none !important; }" },
 
   // end of const rules
 };
