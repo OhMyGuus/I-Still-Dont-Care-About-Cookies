@@ -20004,6 +20004,9 @@ const rules = {
   "aubergeduvieuxport.com": {
     s: "#ff-wp-tracking, .ff-wp-tracking__overlay { display: none !important; }",
   },
+  "malaysiaairlines.com": {
+    s: ".OverlayBtmSticky.backdrop.CookiesNotificationBtmOverlaySticky,.overlay-container,.overlay-wrapper,.cookies-notification-wrapper,.generic-container.cookie-generic-container{display:none!important;visibility:hidden!important;pointer-events:none!important}",
+  },
 
   // end of const rules
 };
