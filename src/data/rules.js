@@ -19978,6 +19978,7 @@ const rules = {
   "atlasformen.fr": {
     s: "dialog[data-cookie-wall-dialog]{display:none!important} body.inset-0.max-sm\\:fixed{overflow:auto!important}",
   },
+  "france.scc.com": { s: ".bi-cookies-modale { display: none !important; }" },
 
   // end of const rules
 };
