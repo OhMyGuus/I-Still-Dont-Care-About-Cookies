@@ -7121,7 +7121,7 @@ const rules = {
     s: "[data-widget=cookieBubble],.uw_f1a,.p3.p4{display:none!important}",
   },
   "head-fi.org": { c: 11 },
-  "tradingview.com": { j: 6 },
+  "tradingview.com": { s: "#overlap-manager-root{display:none!important}" },
   "pcmweb.nl": { j: "5" },
   "webastoconnect.com": { s: ".alert.ecc.show-ecc{display:none !important}" },
   "jobnet.dk": { j: "5" },
