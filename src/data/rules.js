@@ -20000,6 +20000,7 @@ const rules = {
   "forocoches.com": {
     s: "#sd-cmp{display:none!important}html,body{overflow:auto!important}",
   },
+  "desenio.com": { s: '[id*="cookie-banner"]{display:none!important}' },
 
   // end of const rules
 };
