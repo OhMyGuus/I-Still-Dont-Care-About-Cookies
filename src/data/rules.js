@@ -19971,6 +19971,7 @@ const rules = {
   "pcbway.com": {
     s: ".cookies-pop-alert,.cookies-pop-box{display:none!important}",
   },
+  "no.co": { s: ".fixed.bottom-0.bg-noco-gray-900{display:none!important}" },
 
   // end of const rules
 };
