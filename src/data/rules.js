@@ -17358,7 +17358,9 @@ const rules = {
     s: '.app div[class*="Cookie__cookie"],div[data-cookiebanner]{display:none !important}',
   },
   "toloka.ai": { s: "div[data-cookiebanner]{display:none !important}" },
-  "webnode.com": { s: ".w-cookie-bar{display:none !important}" },
+  "webnode.com": {
+    s: "#cbar-root,#cbar-root .modal,#cbar-root .modal-overlay,#cbar-root .table-data-modal{display:none!important}body{overflow:auto!important}",
+  },
   "angel-domaene.de": { s: "#cookie-consent{display:none !important}" },
   "volvocars-partner.pl": { s: ".cookies_relative{display:none !important}" },
   "them.us": {
