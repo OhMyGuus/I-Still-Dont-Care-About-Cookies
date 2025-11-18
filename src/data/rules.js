@@ -19991,6 +19991,7 @@ const rules = {
   "stickermule.com": {
     s: ".banner:has(.consentText){display:none!important;}",
   },
+  "markamama.com.tr": { s: "#ccp---nb,#mobile-menu-2{display:none!important}" },
 
   // end of const rules
 };
