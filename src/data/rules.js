@@ -7053,7 +7053,6 @@ const rules = {
   "jbl.de": {
     s: ".uim .overlay,.uim .overlay ~ .container.basic-modal{display:none !important}",
   },
-  "bytbil.com": { j: "5" },
   "pacjent.gov.pl": {
     s: "#cookies,#zgoda.sekcja-ciasteczka{display:none !important}",
   },
