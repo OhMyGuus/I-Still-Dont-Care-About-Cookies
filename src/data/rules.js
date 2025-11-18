@@ -19954,6 +19954,9 @@ const rules = {
   "robinsonsmovieworld.com": {
     s: "#manage-cookies,#cook{display:none!important}",
   },
+  "collectu.de": {
+    s: "#cookie_popup,.modal-backdrop{display:none!important;}body{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
