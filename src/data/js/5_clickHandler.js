@@ -6858,8 +6858,6 @@ function getSelector(host) {
       );
     case "blackboard.com":
       return _sl(".CookieConsent #agree_button");
-    case "bytbil.com":
-      return _sl('.uk-modal[style*="block"] #privacyModalAcceptBtn');
     case "pointblankmusicschool.com":
       return _sl(
         '.fancybox-overlay[style*="block"] .accept[onclick*="cookieControl"]'
