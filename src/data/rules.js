@@ -19979,6 +19979,9 @@ const rules = {
     s: "dialog[data-cookie-wall-dialog]{display:none!important} body.inset-0.max-sm\\:fixed{overflow:auto!important}",
   },
   "france.scc.com": { s: ".bi-cookies-modale { display: none !important; }" },
+  "verbatim-europe.com": {
+    s: "body { overflow: auto !important; } #consentModal, .modal-backdrop { display: none !important; }",
+  },
 
   // end of const rules
 };
