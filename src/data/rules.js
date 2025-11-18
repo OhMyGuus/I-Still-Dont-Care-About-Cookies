@@ -19988,6 +19988,9 @@ const rules = {
   "fazua.com": {
     s: "#cookieConsent,.cookie-consent.show,.modal-backdrop.fade.show{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}",
   },
+  "stickermule.com": {
+    s: ".banner:has(.consentText){display:none!important;}",
+  },
 
   // end of const rules
 };
