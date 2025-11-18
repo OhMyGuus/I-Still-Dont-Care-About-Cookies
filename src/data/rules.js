@@ -19950,6 +19950,9 @@ const rules = {
   "citadele.lv": {
     s: "#sg-brownieBar,#brownieBar,#cookies-bar-wrapper,#sg-brownieBar2,#brownieBar2,.cookies-bar-wrapper,.brownie-bar{display:none!important}",
   },
+  "verkkouutiset.fi": {
+    s: ".gravitoCMP-background-overlay,.gravitoCMP-modal{display:none!important}",
+  },
 
   // end of const rules
 };
