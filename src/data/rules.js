@@ -19957,6 +19957,7 @@ const rules = {
   "collectu.de": {
     s: "#cookie_popup,.modal-backdrop{display:none!important;}body{overflow:auto!important;}",
   },
+  "accscience.com": { s: ".ipub-cookie { display: none !important; }" },
 
   // end of const rules
 };
