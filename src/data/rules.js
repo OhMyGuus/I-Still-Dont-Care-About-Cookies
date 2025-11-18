@@ -20001,6 +20001,9 @@ const rules = {
     s: "#sd-cmp{display:none!important}html,body{overflow:auto!important}",
   },
   "desenio.com": { s: '[id*="cookie-banner"]{display:none!important}' },
+  "aubergeduvieuxport.com": {
+    s: "#ff-wp-tracking, .ff-wp-tracking__overlay { display: none !important; }",
+  },
 
   // end of const rules
 };
