@@ -19995,6 +19995,9 @@ const rules = {
   "greencell.global": {
     s: "#js-modern-cookie-modal,#js-modern-cookie-scrollable,#js-agree-cookies-button{display:none!important}",
   },
+  "forocoches.com": {
+    s: "#sd-cmp{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
