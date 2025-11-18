@@ -19985,6 +19985,9 @@ const rules = {
   "rukaadventures.fi": {
     s: ".wcc-consent-container,.wcc-modal,.wcc-btn-revisit-wrapper{display:none!important}",
   },
+  "fazua.com": {
+    s: "#cookieConsent,.cookie-consent.show,.modal-backdrop.fade.show{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
