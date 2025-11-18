@@ -19950,6 +19950,7 @@ const rules = {
   "citadele.lv": {
     s: "#sg-brownieBar,#brownieBar,#cookies-bar-wrapper,#sg-brownieBar2,#brownieBar2,.cookies-bar-wrapper,.brownie-bar{display:none!important}",
   },
+  "katerelos.gr": { s: ".glcn_accept_cookie { display: none !important; }" },
 
   // end of const rules
 };
