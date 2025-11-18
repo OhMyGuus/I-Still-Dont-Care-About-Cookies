@@ -7053,7 +7053,9 @@ const rules = {
   "jbl.de": {
     s: ".uim .overlay,.uim .overlay ~ .container.basic-modal{display:none !important}",
   },
-  "bytbil.com": { j: "5" },
+  "bytbil.com": {
+    s: '[id^=sp_message_container_],iframe[id^=sp_message_iframe_],iframe[src*="cmpv2.bytbil.com"]{display:none!important;visibility:hidden!important;pointer-events:none!important}',
+  },
   "pacjent.gov.pl": {
     s: "#cookies,#zgoda.sekcja-ciasteczka{display:none !important}",
   },
