@@ -19972,6 +19972,9 @@ const rules = {
     s: ".cookies-pop-alert,.cookies-pop-box{display:none!important}",
   },
   "no.co": { s: ".fixed.bottom-0.bg-noco-gray-900{display:none!important}" },
+  "smilehost.com.br": {
+    s: 'div[class="fixed bottom-0 left-0 right-0 z-[100] p-4"],div[class="absolute inset-0 bg-black/50 z-[1]"]{display:none!important}',
+  },
 
   // end of const rules
 };
