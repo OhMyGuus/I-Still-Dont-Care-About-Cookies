@@ -19962,6 +19962,9 @@ const rules = {
     s: "#modal-cookie-consent,.modal-backdrop{display:none!important}body{overflow:auto!important}",
   },
   "eopyy.gov.gr": { s: ".o-cookie-dialog { display: none !important; }" },
+  "pharmatip.gr": {
+    s: "#webexpert-cookie-bar{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
