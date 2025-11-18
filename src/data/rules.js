@@ -20010,6 +20010,7 @@ const rules = {
   "visitpittsburgh.com": {
     s: ".msg--ribbon,div[id^=id-][class*=banner]{display:none!important}",
   },
+  "armarinhosaojose.com.br": { s: "#lgpd{display:none!important}" },
 
   // end of const rules
 };
