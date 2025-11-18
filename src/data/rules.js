@@ -20007,6 +20007,9 @@ const rules = {
   "malaysiaairlines.com": {
     s: ".OverlayBtmSticky.backdrop.CookiesNotificationBtmOverlaySticky,.overlay-container,.overlay-wrapper,.cookies-notification-wrapper,.generic-container.cookie-generic-container{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
+  "visitpittsburgh.com": {
+    s: ".msg--ribbon,div[id^=id-][class*=banner]{display:none!important}",
+  },
 
   // end of const rules
 };
