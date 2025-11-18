@@ -19951,6 +19951,9 @@ const rules = {
     s: "#sg-brownieBar,#brownieBar,#cookies-bar-wrapper,#sg-brownieBar2,#brownieBar2,.cookies-bar-wrapper,.brownie-bar{display:none!important}",
   },
   "katerelos.gr": { s: ".glcn_accept_cookie { display: none !important; }" },
+  "conservativehome.com": {
+    s: "#qc-cmp2-container { display: none !important; }",
+  },
 
   // end of const rules
 };
