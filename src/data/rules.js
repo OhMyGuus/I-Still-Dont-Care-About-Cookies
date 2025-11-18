@@ -12218,7 +12218,7 @@ const rules = {
   "mikrobitti.fi": { j: "5" },
   "uusisuomi.fi": { j: "5" },
   "kauppalehti.fi": { j: "5" },
-  "deepl.com": { s: "#dl_cookieBanner{display:none !important}" },
+  "deepl.com": { s: "[data-testid=dl-cookieBanner]{display:none!important}" },
   "teknikkdeler.no": { c: 0 },
   "gymgrossisten.com": { s: ".overlay-banner{display:none !important}" },
   "marc-o-polo.com": { j: "5" },
