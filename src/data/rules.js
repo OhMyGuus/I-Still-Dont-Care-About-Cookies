@@ -19958,6 +19958,9 @@ const rules = {
     s: "#cookie_popup,.modal-backdrop{display:none!important;}body{overflow:auto!important;}",
   },
   "accscience.com": { s: ".ipub-cookie { display: none !important; }" },
+  "allaaktier.se": {
+    s: "#modal-cookie-consent,.modal-backdrop{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
