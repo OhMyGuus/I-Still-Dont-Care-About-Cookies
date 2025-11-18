@@ -19961,6 +19961,7 @@ const rules = {
   "allaaktier.se": {
     s: "#modal-cookie-consent,.modal-backdrop{display:none!important}body{overflow:auto!important}",
   },
+  "eopyy.gov.gr": { s: ".o-cookie-dialog { display: none !important; }" },
 
   // end of const rules
 };
