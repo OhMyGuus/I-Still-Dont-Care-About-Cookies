@@ -20010,6 +20010,7 @@ const rules = {
     s: ".msg--ribbon,div[id^=id-][class*=banner]{display:none!important}",
   },
   "armarinhosaojose.com.br": { s: "#lgpd{display:none!important}" },
+  "app.mindmup.com": { s: "#ga-consent-banner { display: none !important; }" },
 
   // end of const rules
 };
