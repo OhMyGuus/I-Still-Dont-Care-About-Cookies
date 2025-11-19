@@ -20021,6 +20021,9 @@ const rules = {
   "ipowerqueen.de": {
     s: ".pq-gdpr__popup,.pq-gdpr__preference{display:none!important}",
   },
+  "neon-free.ch": {
+    s: ".--framer-cookie-banner-container{display:none!important}",
+  },
 
   // end of const rules
 };
