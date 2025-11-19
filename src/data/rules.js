@@ -20011,6 +20011,9 @@ const rules = {
   },
   "armarinhosaojose.com.br": { s: "#lgpd{display:none!important}" },
   "app.mindmup.com": { s: "#ga-consent-banner { display: none !important; }" },
+  "simyo.nl": {
+    s: "[data-interaction-element=cookie-wall]{display:none!important}",
+  },
 
   // end of const rules
 };
