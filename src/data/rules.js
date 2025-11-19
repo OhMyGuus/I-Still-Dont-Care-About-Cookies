@@ -20010,6 +20010,9 @@ const rules = {
     s: ".msg--ribbon,div[id^=id-][class*=banner]{display:none!important}",
   },
   "armarinhosaojose.com.br": { s: "#lgpd{display:none!important}" },
+  "nicematin.com": {
+    s: "#didomi-host,#nm-cookies-wall{display:none!important} body{overflow:auto!important;margin-right:0!important}",
+  },
 
   // end of const rules
 };
