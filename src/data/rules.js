@@ -20017,6 +20017,7 @@ const rules = {
   "eleconomista.es": {
     s: "#mrf-popup,#mask-modal{display: none !important;}#lazy-container{overflow: auto !important;}",
   },
+  "angular.dev": { s: ".docs-cookies-popup{display:none!important}" },
 
   // end of const rules
 };
