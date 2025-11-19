@@ -20014,6 +20014,9 @@ const rules = {
   "simyo.nl": {
     s: "[data-interaction-element=cookie-wall]{display:none!important}",
   },
+  "eleconomista.es": {
+    s: "#mrf-popup,#mask-modal{display: none !important;}#lazy-container{overflow: auto !important;}",
+  },
 
   // end of const rules
 };
