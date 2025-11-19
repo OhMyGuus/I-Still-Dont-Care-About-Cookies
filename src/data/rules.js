@@ -20028,6 +20028,7 @@ const rules = {
   "ain-outdoor.com": {
     s: ".oax_cookie_consent_modal{display:none!important}body:has(.oax_cookie_consent_modal){overflow:auto!important}",
   },
+  "lastdodo.fr": { s: "[data-controller=cookie-bar]{display:none!important}" },
 
   // end of const rules
 };
