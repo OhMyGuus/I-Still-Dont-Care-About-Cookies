@@ -20025,6 +20025,9 @@ const rules = {
     s: ".--framer-cookie-banner-container{display:none!important}",
   },
   "tello.com": { s: "#footer_overlay { display: none !important; }" },
+  "ain-outdoor.com": {
+    s: ".oax_cookie_consent_modal{display:none!important}body:has(.oax_cookie_consent_modal){overflow:auto!important}",
+  },
 
   // end of const rules
 };
