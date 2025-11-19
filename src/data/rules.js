@@ -20018,6 +20018,9 @@ const rules = {
     s: "#mrf-popup,#mask-modal{display: none !important;}#lazy-container{overflow: auto !important;}",
   },
   "angular.dev": { s: ".docs-cookies-popup{display:none!important}" },
+  "ipowerqueen.de": {
+    s: ".pq-gdpr__popup,.pq-gdpr__preference{display:none!important}",
+  },
 
   // end of const rules
 };
