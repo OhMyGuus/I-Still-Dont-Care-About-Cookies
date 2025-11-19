@@ -20032,6 +20032,9 @@ const rules = {
   "beyondidentity.com": {
     s: "[fs-consent-element=banner] { display: none !important; }",
   },
+  "boo.world": {
+    s: 'div[role="alert"][class*="bottom-4"][class*="-translate-x-1/2"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
