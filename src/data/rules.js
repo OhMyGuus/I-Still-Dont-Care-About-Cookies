@@ -20024,6 +20024,7 @@ const rules = {
   "neon-free.ch": {
     s: ".--framer-cookie-banner-container{display:none!important}",
   },
+  "tello.com": { s: "#footer_overlay { display: none !important; }" },
 
   // end of const rules
 };
