@@ -20035,6 +20035,9 @@ const rules = {
   "boo.world": {
     s: 'div[role="alert"][class*="bottom-4"][class*="-translate-x-1/2"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "t-online.de": {
+    s: "[id^=sp_message_container_] { display: none !important; }",
+  },
 
   // end of const rules
 };
