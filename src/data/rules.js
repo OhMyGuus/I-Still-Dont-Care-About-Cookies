@@ -20035,6 +20035,7 @@ const rules = {
   "boo.world": {
     s: 'div[role="alert"][class*="bottom-4"][class*="-translate-x-1/2"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "koponyeg.hu": { s: "#qc-cmp2-container { display: none !important; }" },
 
   // end of const rules
 };
