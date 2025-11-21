@@ -20035,6 +20035,9 @@ const rules = {
   "boo.world": {
     s: 'div[role="alert"][class*="bottom-4"][class*="-translate-x-1/2"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "elotrolado.net": {
+    s: "#qc-cmp2-container{display:none!important} body:has(#qc-cmp2-container){overflow:auto!important}",
+  },
 
   // end of const rules
 };
