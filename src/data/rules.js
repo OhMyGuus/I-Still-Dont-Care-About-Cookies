@@ -19136,7 +19136,7 @@ const rules = {
     s: 'div[id^="sp_message_container_"], iframe[id^="sp_message_iframe_"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
   },
   "123-3d.nl": {
-    s: ".c-simple-popup,.c-simple-popup__background,.bottom-notice,.c-cookie-popup{display:none!important}",
+    s: '.c-simple-popup[data-action="CookiePopup"]{display:none!important}',
   },
   "netbird.io": {
     s: 'div[class*="bg-nb-gray"][style*="z-index:"],div[class*="max-w-lg"][class*="bg-black"]{display:none!important}',
