@@ -19914,7 +19914,9 @@ const rules = {
   "optimatours.de": {
     s: "#btn-cookie-confirm,.cookies-confirm-bg{display:none!important}",
   },
-  "caf.fr": { j: 6 },
+  "caf.fr": {
+    s: ".filter-eu-compliance-popup,#sliding-popup{display:none!important}html,body{overflow:auto!important}",
+  },
   "kaup24.ee": {
     s: "#generalModal,#consent_block,#cookieBlock{display:none!important}html{overflow:auto!important}",
   },
