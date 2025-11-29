@@ -20038,6 +20038,7 @@ const rules = {
   "vectorconsulting.in": {
     s: ".cookies--popup{display:none!important} body:has(.cookies--popup){overflow:auto!important}",
   },
+  "oevplus.ch": { s: "#legal { display: none !important; }" },
 
   // end of const rules
 };
