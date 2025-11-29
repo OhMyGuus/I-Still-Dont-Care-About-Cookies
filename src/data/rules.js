@@ -20098,6 +20098,9 @@ const rules = {
   "unchartedterritories.tomaspueyo.com": {
     s: "[class*=cookieBanner i]{display:none!important}",
   },
+  "otozegarki.pl": {
+    s: "#cookieModal,#cookieModalBottom{display:none!important}",
+  },
 
   // end of const rules
 };
