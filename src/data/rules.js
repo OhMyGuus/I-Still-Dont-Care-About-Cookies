@@ -20059,6 +20059,7 @@ const rules = {
   },
   "technik.bild.de": { s: "#am-cookie-bar{display:none!important}" },
   "circuitsnips.com": { s: ".bg-card.border-t{display:none!important}" },
+  "efantasy.gr": { s: '[id^="cookiejar-"]{display:none!important}' },
 
   // end of const rules
 };
