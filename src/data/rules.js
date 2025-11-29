@@ -18122,7 +18122,9 @@ const rules = {
     s: 'div[data-testid="iconCookies"]{display:none !important}',
     j: 5,
   },
-  "primor.eu": { j: 5 },
+  "primor.eu": {
+    s: "#am-cookie-bar{display:none!important} #html-body{overflow:auto!important}",
+  },
   "meschaussures.fr": { j: 5 },
   "kempten.de": { j: 5 },
   "regenwald-schuetzen.org": { j: 5 },
