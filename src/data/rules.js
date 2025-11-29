@@ -20106,6 +20106,9 @@ const rules = {
     s: "#consent-manager-modal{display:none!important} html,body{overflow:auto!important}",
   },
   "afisha.relax.by": { s: ".cookiesNotificationBy{display:none!important;}" },
+  "modivo.club": {
+    s: "#consent-modal, #ccManager { display: none !important; }",
+  },
 
   // end of const rules
 };
