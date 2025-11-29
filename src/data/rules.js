@@ -20035,6 +20035,9 @@ const rules = {
     s: 'div[role="alert"][class*="bottom-4"][class*="-translate-x-1/2"]{display:none!important}html,body{overflow:auto!important}',
   },
   "energy-uk.org.uk": { s: "#tcc-cookies-message{display:none!important}" },
+  "vectorconsulting.in": {
+    s: ".cookies--popup{display:none!important} body:has(.cookies--popup){overflow:auto!important}",
+  },
 
   // end of const rules
 };
