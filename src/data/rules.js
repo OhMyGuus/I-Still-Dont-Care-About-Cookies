@@ -20112,6 +20112,9 @@ const rules = {
   "bialystok.pl": {
     s: ".gdprcookie,#overlay{display:none!important}body{overflow:auto!important}",
   },
+  "fynd.com": {
+    s: "#termly-code-snippet-support { display: none !important; }",
+  },
 
   // end of const rules
 };
