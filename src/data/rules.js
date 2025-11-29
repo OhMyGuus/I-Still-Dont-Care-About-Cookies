@@ -20076,6 +20076,9 @@ const rules = {
   "europ-camera.fr": {
     s: '#pmff-overlay,#pmff-panel,[id^="lgcookieslaw_banner_"]{display:none!important}',
   },
+  "crazyshop.pl": {
+    s: ".small-modal__dialog:has(#small-modal__body-title){display:none!important}",
+  },
 
   // end of const rules
 };
