@@ -10864,7 +10864,9 @@ const rules = {
   "macmagazine.com.br": { s: ".adp-popup{display:none !important}" },
   "stockx.com": { s: '#root > [style*="visible"]{display:none !important}' },
   "studienwahl.de": { j: "5" },
-  "teamtailor.com": { j: "5" },
+  "teamtailor.com": {
+    s: 'dialog:is([data-controller="common--cookies--alert"],[data-controller="common--cookies--preferences"]){display:none!important}body:has(dialog:is([data-controller="common--cookies--alert"],[data-controller="common--cookies--preferences"])){overflow:auto!important}',
+  },
   "youmail.com": { s: ".policy-notification{display:none !important}" },
   "netapp.com": { s: "n-cookie-notification{display:none !important}" },
   "inkoma.com": { s: "#eatcoockies{display:none !important}" },
