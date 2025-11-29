@@ -20095,6 +20095,9 @@ const rules = {
   "store.thegospelcoalition.org": {
     s: ".thoughtco-cookiepanel{display:none!important}",
   },
+  "unchartedterritories.tomaspueyo.com": {
+    s: "[class*=cookieBanner i]{display:none!important}",
+  },
 
   // end of const rules
 };
