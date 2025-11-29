@@ -20102,6 +20102,9 @@ const rules = {
     s: "#cookieModal,#cookieModalBottom{display:none!important}",
   },
   "promotion.koh-i-noor.cz": { s: ".cookies{display:none!important}" },
+  "oresundstag.se": {
+    s: "#consent-manager-modal{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
