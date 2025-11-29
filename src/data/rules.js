@@ -20039,6 +20039,9 @@ const rules = {
     s: ".cookies--popup{display:none!important} body:has(.cookies--popup){overflow:auto!important}",
   },
   "oevplus.ch": { s: "#legal { display: none !important; }" },
+  "schinkel-apotheke.com": {
+    s: "#modal-cb,.modal-backdrop{display:none!important} body.modal-open{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
