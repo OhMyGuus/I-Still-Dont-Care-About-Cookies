@@ -20083,6 +20083,7 @@ const rules = {
   "periodicodeibiza.es": {
     s: "#mrf-popup,#black-overlay{display:none!important}body:has(#mrf-popup){overflow:auto!important}",
   },
+  "shop.tastycoffee.ru": { s: ".tc-cookies{display:none!important}" },
 
   // end of const rules
 };
