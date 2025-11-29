@@ -15627,7 +15627,7 @@ const rules = {
   "mairie-blagnac.fr": { s: "#rgpdOverlay{display:none !important}" },
   "elialocardi.com": { s: ".sm-cookie-consent{display:none !important}" },
   "sergas.gal": {
-    s: "#cookies-notices-container,.cookies-policy{display:none !important}",
+    s: ".cookies-notices-container-zone{display:none!important}",
   },
   "lernenundhelfen.de": { s: "#cookie-layer{display:none !important}" },
   "classicalarchives.com": { s: ".Cdiv{display:none !important}" },
