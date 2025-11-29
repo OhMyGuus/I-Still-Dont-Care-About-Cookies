@@ -20063,6 +20063,9 @@ const rules = {
   "ckvpraha.cz": {
     s: "#snippet-cookiesConfirmation-euCookiesSnp{display:none!important}",
   },
+  "imagitool.com": {
+    s: "[role=dialog][aria-labelledby=cookie-consent-title]{display:none!important}",
+  },
 
   // end of const rules
 };
