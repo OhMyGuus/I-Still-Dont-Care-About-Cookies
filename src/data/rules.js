@@ -20070,6 +20070,9 @@ const rules = {
     s: "body:has(.offcanvas-modal-cookie){overflow:auto!important} .offcanvas-modal-cookie,body:has(.offcanvas-modal-cookie)>.offcanvas-backdrop{display:none!important}",
   },
   "jobscan.co": { s: "#termly-code-snippet-support{display:none!important}" },
+  "todoist.com": {
+    s: ':is(dialog[class^="cookie-banner-dialog_dialog__"],[role="button"][class^="_overlay_"]){display:none!important}',
+  },
 
   // end of const rules
 };
