@@ -20101,6 +20101,7 @@ const rules = {
   "otozegarki.pl": {
     s: "#cookieModal,#cookieModalBottom{display:none!important}",
   },
+  "promotion.koh-i-noor.cz": { s: ".cookies{display:none!important}" },
 
   // end of const rules
 };
