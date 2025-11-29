@@ -20054,6 +20054,9 @@ const rules = {
     s: "#CybotCookiebotDialog,#consent-popup{display:none!important}",
   },
   "technik.bild.de": { s: "#am-cookie-bar{display:none!important}" },
+  "autodoc.co.uk": {
+    s: "body{overflow:auto!important} .overlay,[data-popup-cookies]{display:none!important}",
+  },
 
   // end of const rules
 };
