@@ -20090,6 +20090,9 @@ const rules = {
   "bodensee-airport.eu": {
     s: "#modal-cookie,body:has(#modal-cookie.show)>.modal-backdrop{display:none!important}html.no-scroll{overflow:auto!important}",
   },
+  "store.thegospelcoalition.org": {
+    s: ".thoughtco-cookiepanel{display:none!important}",
+  },
 
   // end of const rules
 };
