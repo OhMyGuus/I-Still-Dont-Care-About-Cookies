@@ -20046,6 +20046,9 @@ const rules = {
   "formacar.com": {
     s: "#modal-cookie{display:none!important}body._lock:has(#modal-cookie){overflow:auto!important}",
   },
+  "eishockey.info": {
+    s: "#CybotCookiebotDialog,#consent-popup{display:none!important}",
+  },
 
   // end of const rules
 };
