@@ -20080,6 +20080,9 @@ const rules = {
   "rumble.com": {
     s: "#js-client-storage-consent__popup{display:none!important}",
   },
+  "periodicodeibiza.es": {
+    s: "#mrf-popup,#black-overlay{display:none!important}body:has(#mrf-popup){overflow:auto!important}",
+  },
 
   // end of const rules
 };
