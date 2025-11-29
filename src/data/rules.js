@@ -20087,6 +20087,9 @@ const rules = {
   "aspejure.com": {
     s: ":is(#modal-cookies,body:has(#modal-cookies.show) .modal-backdrop){display:none!important}body.modal-open:has(#modal-cookies.show){overflow:auto!important;padding-right:0!important}",
   },
+  "bodensee-airport.eu": {
+    s: "#modal-cookie,body:has(#modal-cookie.show)>.modal-backdrop{display:none!important}html.no-scroll{overflow:auto!important}",
+  },
 
   // end of const rules
 };
