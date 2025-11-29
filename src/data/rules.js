@@ -20115,6 +20115,9 @@ const rules = {
   "fynd.com": {
     s: "#termly-code-snippet-support { display: none !important; }",
   },
+  "info-beaune.com": {
+    s: '[id^="tarteaucitron"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
