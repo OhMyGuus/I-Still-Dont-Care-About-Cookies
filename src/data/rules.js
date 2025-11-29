@@ -20043,6 +20043,9 @@ const rules = {
     s: "#modal-cb,.modal-backdrop{display:none!important} body.modal-open{overflow:auto!important;padding-right:0!important}",
   },
   "jenda.mpsv.cz": { s: "[data-nosnippet]{display:none!important}" },
+  "formacar.com": {
+    s: "#modal-cookie{display:none!important}body._lock:has(#modal-cookie){overflow:auto!important}",
+  },
 
   // end of const rules
 };
