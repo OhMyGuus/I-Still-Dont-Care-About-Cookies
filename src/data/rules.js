@@ -20042,6 +20042,7 @@ const rules = {
   "schinkel-apotheke.com": {
     s: "#modal-cb,.modal-backdrop{display:none!important} body.modal-open{overflow:auto!important;padding-right:0!important}",
   },
+  "jenda.mpsv.cz": { s: "[data-nosnippet]{display:none!important}" },
 
   // end of const rules
 };
