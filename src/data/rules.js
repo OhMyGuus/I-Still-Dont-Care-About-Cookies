@@ -20035,6 +20035,9 @@ const rules = {
   "boo.world": {
     s: 'div[role="alert"][class*="bottom-4"][class*="-translate-x-1/2"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "fr.namemc.com": {
+    s: '[id^="sp_message_container"]{display:none!important} body:has([id^="sp_message_container"]){overflow:auto!important}',
+  },
 
   // end of const rules
 };
