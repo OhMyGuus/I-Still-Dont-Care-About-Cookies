@@ -20053,6 +20053,7 @@ const rules = {
   "eishockey.info": {
     s: "#CybotCookiebotDialog,#consent-popup{display:none!important}",
   },
+  "technik.bild.de": { s: "#am-cookie-bar{display:none!important}" },
 
   // end of const rules
 };
