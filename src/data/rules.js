@@ -20069,6 +20069,7 @@ const rules = {
   "werkstatt-produkte.de": {
     s: "body:has(.offcanvas-modal-cookie){overflow:auto!important} .offcanvas-modal-cookie,body:has(.offcanvas-modal-cookie)>.offcanvas-backdrop{display:none!important}",
   },
+  "jobscan.co": { s: "#termly-code-snippet-support{display:none!important}" },
 
   // end of const rules
 };
