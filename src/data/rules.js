@@ -12537,7 +12537,7 @@ const rules = {
   "call-a-pizza.de": { j: "5" },
   "telepizza.de": { j: "5" },
   "hellojoko.com": { j: "5" },
-  "copmadrid.org": { s: "#div_cookies_nueva{display:none !important}" },
+  "copmadrid.org": { s: "#div_cookies_nuevass { display: none !important; }" },
   "packster.de": { s: ".page-overlay{display:none !important}" },
   "hdg.de": { s: "#cookiebg,#hdg-cookie-accept{display:none !important}" },
   "zeitzeugen-portal.de": {
