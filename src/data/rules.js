@@ -20076,6 +20076,7 @@ const rules = {
   "europ-camera.fr": {
     s: '#pmff-overlay,#pmff-panel,[id^="lgcookieslaw_banner_"]{display:none!important}',
   },
+  "sport-style.ru": { s: "#cookies__terms { display: none !important; }" },
 
   // end of const rules
 };
