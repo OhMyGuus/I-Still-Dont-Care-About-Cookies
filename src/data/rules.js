@@ -20073,6 +20073,9 @@ const rules = {
   "todoist.com": {
     s: ':is(dialog[class^="cookie-banner-dialog_dialog__"],[role="button"][class^="_overlay_"]){display:none!important}',
   },
+  "europ-camera.fr": {
+    s: '#pmff-overlay,#pmff-panel,[id^="lgcookieslaw_banner_"]{display:none!important}',
+  },
 
   // end of const rules
 };
