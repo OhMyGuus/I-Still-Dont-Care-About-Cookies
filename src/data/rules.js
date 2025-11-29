@@ -20077,6 +20077,9 @@ const rules = {
     s: '#pmff-overlay,#pmff-panel,[id^="lgcookieslaw_banner_"]{display:none!important}',
   },
   "sport-style.ru": { s: "#cookies__terms { display: none !important; }" },
+  "rumble.com": {
+    s: "#js-client-storage-consent__popup{display:none!important}",
+  },
 
   // end of const rules
 };
