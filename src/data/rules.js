@@ -20109,6 +20109,9 @@ const rules = {
   "modivo.club": {
     s: "#consent-modal, #ccManager { display: none !important; }",
   },
+  "bialystok.pl": {
+    s: ".gdprcookie,#overlay{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
