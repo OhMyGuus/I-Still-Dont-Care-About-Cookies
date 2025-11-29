@@ -3207,7 +3207,6 @@ const rules = {
   "acorianooriental.pt": { s: ".allow-cookies{display:none !important}" },
   "wattsindustries.nl": { s: "#header1_overlay2{display:none !important}" },
   "digi-film.ro": { c: 131 },
-  "namemc.com": { c: 100 },
   "manche.fr": { s: ".cmHeaderTop{display:none !important}" },
   "re.public.polimi.it": { c: 101 },
   "azurewebsites.net": { s: "#legal-info{display:none !important}" },
