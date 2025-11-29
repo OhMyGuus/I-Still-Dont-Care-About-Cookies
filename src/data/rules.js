@@ -20066,6 +20066,9 @@ const rules = {
   "imagitool.com": {
     s: "[role=dialog][aria-labelledby=cookie-consent-title]{display:none!important}",
   },
+  "werkstatt-produkte.de": {
+    s: "body:has(.offcanvas-modal-cookie){overflow:auto!important} .offcanvas-modal-cookie,body:has(.offcanvas-modal-cookie)>.offcanvas-backdrop{display:none!important}",
+  },
 
   // end of const rules
 };
