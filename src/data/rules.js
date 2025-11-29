@@ -14566,7 +14566,9 @@ const rules = {
   "wolters-rundreisen.de": { j: "5" },
   "cloud.im": { j: "5" },
   "balluff.com": { s: 'div[x-data*="ConsentDialog"]{display:none !important}' },
-  "tk.de": { j: "5" },
+  "tk.de": {
+    s: ".consent-manager{display:none!important} body{overflow:auto!important;margin-right:0!important}",
+  },
   "conduktor.io": {
     s: ".cookie-though{display:none !important;left:-99999px}",
   },
