@@ -19529,6 +19529,10 @@ const rules = {
     s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
     c: 85,
   },
+  "autodoc.co.uk": {
+    s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
+    c: 85,
+  },
   "galaxus.fr": { j: 6 },
   "tickets.vws-siegen.de": { j: 5 },
   "marianos.com": {
@@ -20054,9 +20058,6 @@ const rules = {
     s: "#CybotCookiebotDialog,#consent-popup{display:none!important}",
   },
   "technik.bild.de": { s: "#am-cookie-bar{display:none!important}" },
-  "autodoc.co.uk": {
-    s: "body{overflow:auto!important} .overlay,[data-popup-cookies]{display:none!important}",
-  },
 
   // end of const rules
 };
