@@ -20084,6 +20084,9 @@ const rules = {
     s: "#mrf-popup,#black-overlay{display:none!important}body:has(#mrf-popup){overflow:auto!important}",
   },
   "shop.tastycoffee.ru": { s: ".tc-cookies{display:none!important}" },
+  "aspejure.com": {
+    s: ":is(#modal-cookies,body:has(#modal-cookies.show) .modal-backdrop){display:none!important}body.modal-open:has(#modal-cookies.show){overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
