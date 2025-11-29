@@ -18509,7 +18509,7 @@ const rules = {
     s: ".rhc-theme-dark.rhc-banner {display:none !important}",
   },
   "adslzone.net": {
-    s: "#gaz-gdpr-modal__container{display:none !important} body{overflow: unset !important}",
+    s: "#gaz-gdpr-modal{display:none!important}html:has(#gaz-gdpr-modal){overflow:auto!important}",
   },
   "multitronic.fi": { c: 85, s: "#standard_overlay{display: none !important}" },
   "mielectro.es": { s: ".capaCookie{display:none !important}" },
