@@ -20058,6 +20058,7 @@ const rules = {
     s: "#CybotCookiebotDialog,#consent-popup{display:none!important}",
   },
   "technik.bild.de": { s: "#am-cookie-bar{display:none!important}" },
+  "circuitsnips.com": { s: ".bg-card.border-t{display:none!important}" },
 
   // end of const rules
 };
