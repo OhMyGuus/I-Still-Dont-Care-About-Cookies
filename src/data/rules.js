@@ -20118,6 +20118,9 @@ const rules = {
   "info-beaune.com": {
     s: '[id^="tarteaucitron"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "joybuy.fr": {
+    s: '[class^="cookieManageDrawer_"] { display: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
