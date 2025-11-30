@@ -20285,6 +20285,9 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "lordofdoner.com": {
+    s: "#termly-code-snippet-support,.shadow_bkg,.shadow_bkg_show{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
