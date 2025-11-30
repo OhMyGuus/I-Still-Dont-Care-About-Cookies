@@ -20285,6 +20285,9 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "m.kaskus.co.id": {
+    s: ".js-modal{display:none!important}body{overflow:auto!important}html{overflow:visible!important}",
+  },
 
   // end of const rules
 };
