@@ -20130,6 +20130,9 @@ const rules = {
   "shop.asfinag.at": {
     s: 'dialog:is([id$="_cookieModal"],.cookie-modal){display:none!important}',
   },
+  "fastwebshop.it": {
+    s: ":is(#dgt-cookie-container,.background-cookie-header){display: none !important;}",
+  },
 
   // end of const rules
 };
