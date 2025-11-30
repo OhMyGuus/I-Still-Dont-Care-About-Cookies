@@ -8950,7 +8950,7 @@ const rules = {
   "dungeondice.it": { s: "#yn-gdpr{display:none !important}" },
   "eden.de": { s: ".cc-blur,.cc-overlay{display:none !important}" },
   "gardenplaza.de": { s: "#cc_window{display:none !important}" },
-  "larian.com": { c: 0 },
+  "larian.com": { s: ".ciastko{display:none!important}" },
   "theorg.com": { s: "#app > span{display:none !important}" },
   "brujulea.net": { s: "#bckie{display:none !important}" },
   "aramido.de": { s: ".banner{display:none !important}" },
