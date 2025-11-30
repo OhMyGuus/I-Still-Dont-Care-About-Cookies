@@ -20247,6 +20247,9 @@ const rules = {
   "posterxxl.de": {
     s: ".cookie-consent-modal{display:none!important}body.cookie-consent-modal-open{overflow:auto!important}",
   },
+  "mein.fitx.de": {
+    s: 'section[role="dialog"][aria-modal="true"][aria-label="Dialog"]{display:none!important}',
+  },
 
   // end of const rules
 };
