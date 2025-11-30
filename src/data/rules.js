@@ -20196,6 +20196,7 @@ const rules = {
   "omniplexcinemas.co.uk": {
     s: "#cookieConsentBar,#cookieOverlay{display:none!important} body:has(#cookieConsentBar){overflow:auto!important}",
   },
+  "aufzug24.net": { s: ".cons_overlay,.cons_content{display:none!important}" },
 
   // end of const rules
 };
