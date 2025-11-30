@@ -20147,6 +20147,9 @@ const rules = {
   "lazienkiabc.pl": {
     s: "#cookie_modal,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important;position:static!important}",
   },
+  "supertext.com": {
+    s: ".chakra-portal:has(.chakra-modal__overlay,.chakra-slide.chakra-modal__content){display:none!important;}",
+  },
 
   // end of const rules
 };
