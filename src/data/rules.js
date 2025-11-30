@@ -20174,6 +20174,9 @@ const rules = {
   "mediamarkt.com.tr": {
     s: "#mms-consent-portal-container,#mms-notification-modal-portal{display:none!important}",
   },
+  "substack.com": {
+    s: '[class*="cookieBanner"]{display:none!important} html,body{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
