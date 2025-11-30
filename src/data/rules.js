@@ -12874,9 +12874,7 @@ const rules = {
   "1881.no": { s: ".adn-window,#ot-consent{display:none !important}" },
   "123-fluessiggas.de": { j: "5" },
   "portu.cz": { s: "#cookiescontent{display:none !important}" },
-  "figma.com": {
-    s: '[role="alertdialog"][aria-label="Cookie Consent"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } body { overflow: auto !important; }',
-  },
+  "figma.com": { s: '[data-testid="cookie-banner"]{display:none!important}' },
   "favi.cz": { j: "5" },
   "techland.net": { s: "#gdpr-consent-form{display:none !important}" },
   "yum-audio.com": { j: "5" },
