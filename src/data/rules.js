@@ -20293,6 +20293,7 @@ const rules = {
   "naturell.pl": {
     s: '[id^="usp-rodo-gateway"] { display: none !important; } html, body { overflow: auto !important; }',
   },
+  "oneticket.cz": { s: ".cookies{display:none!important}" },
 
   // end of const rules
 };
