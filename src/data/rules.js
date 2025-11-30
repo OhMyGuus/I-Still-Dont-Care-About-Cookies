@@ -20286,6 +20286,9 @@ const rules = {
     s: ".cookie-consent-modal{display:none!important}",
   },
   "wink.ai": { s: ".cookie-consent{display:none!important}" },
+  "accountscenter.facebook.com": {
+    s: '[data-testid="cookie-policy-manage-dialog"]{display:none!important;}',
+  },
 
   // end of const rules
 };
