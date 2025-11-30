@@ -20209,6 +20209,7 @@ const rules = {
     s: "#termly-code-snippet-support{display:none!important;}",
   },
   "motopress.com": { s: "#mp-cookie-consent{display:none!important}" },
+  "lawspot.gr": { s: "#cookie__banner { display: none !important; }" },
 
   // end of const rules
 };
