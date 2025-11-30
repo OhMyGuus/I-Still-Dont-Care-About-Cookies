@@ -20181,6 +20181,9 @@ const rules = {
   "transnews.network": {
     s: '#_rht_toaster,[class*="bg-[#060419]"][class*="!opacity-100"] { display: none !important; }',
   },
+  "openmailbox.com": {
+    s: "#cookies-settings,#error-meassage-wrapper{display:none!important}",
+  },
 
   // end of const rules
 };
