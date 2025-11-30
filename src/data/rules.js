@@ -20177,6 +20177,7 @@ const rules = {
   "substack.com": {
     s: '[class*="cookieBanner"]{display:none!important} html,body{overflow:auto!important;height:auto!important}',
   },
+  "loods5.nl": { s: "#portal-root { display: none !important; }" },
 
   // end of const rules
 };
