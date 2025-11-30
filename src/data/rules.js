@@ -20260,6 +20260,7 @@ const rules = {
     s: "#cookie_modal,.modal-backdrop.fade.show{display:none!important;visibility:hidden!important}body.modal-open{overflow:auto!important}",
   },
   "gamermarkt.com": { s: "#fccm_alert{display:none!important;}" },
+  "yousign.com": { s: "#cookie-consent-app { display: none !important; }" },
 
   // end of const rules
 };
