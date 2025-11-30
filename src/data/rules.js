@@ -20330,6 +20330,9 @@ const rules = {
   "uvashop.es": {
     s: "#consentModal, .modal-backdrop { display: none !important; } html, body, .modal-open { overflow: visible !important; padding-right: 0 !important; }",
   },
+  "poczta.o2.pl": {
+    s: ".cookie-consent-banner{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
