@@ -20141,6 +20141,9 @@ const rules = {
   "mediemyndigheten.se": {
     s: ".CookieConsent{display:none!important}body.overflow-hidden{overflow:auto!important}",
   },
+  "ubaldi.com": {
+    s: ":is(#overlayPopup,#overlayPopupContent,#overlayPopupInsideContent,#cb-frame,#form-save-cookie-configuration,#modals,#ub-modal-root){display:none!important;}html,body{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
