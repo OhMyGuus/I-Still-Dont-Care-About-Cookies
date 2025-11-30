@@ -20012,9 +20012,7 @@ const rules = {
   "greencell.global": {
     s: "#js-modern-cookie-modal,#js-modern-cookie-scrollable,#js-agree-cookies-button{display:none!important}",
   },
-  "forocoches.com": {
-    s: "#sd-cmp{display:none!important}html,body{overflow:auto!important}",
-  },
+  "forocoches.com": { s: ".oax_cookie_consent_modal{display:none!important}" },
   "desenio.com": { s: '[id*="cookie-banner"]{display:none!important}' },
   "aubergeduvieuxport.com": {
     s: "#ff-wp-tracking, .ff-wp-tracking__overlay { display: none !important; }",
