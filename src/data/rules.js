@@ -20158,6 +20158,9 @@ const rules = {
   "adidas.mx": {
     s: "#gl-modal__root{display:none!important}html,body{overflow:auto!important}",
   },
+  "flax.ro": {
+    s: ".cookie-main-section,.custom-cookie-popup{display:none!important}",
+  },
 
   // end of const rules
 };
