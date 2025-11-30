@@ -20234,6 +20234,9 @@ const rules = {
   "ila-web.de": {
     s: ".fixed.inset-0.bg-black.bg-opacity-50{display:none!important}",
   },
+  "horace.com": {
+    s: "#am-cookie-bar { display: none !important; } body.overflow-hidden { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
