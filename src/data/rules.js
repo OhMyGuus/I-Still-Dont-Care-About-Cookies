@@ -20300,6 +20300,9 @@ const rules = {
   "tumw.pl": {
     s: 'div[class*="fixed"][class*="h-screen"][class*="justify-center"]{display:none!important}html,body{height:auto!important;overflow:auto!important}',
   },
+  "airchina.de": {
+    s: ":is(#cookie-notice-popin,#visit-popin,.cnpmodal,.visit-popin){display:none!important}body:has(#cookie-notice-popin,#visit-popin){overflow:auto!important}",
+  },
 
   // end of const rules
 };
