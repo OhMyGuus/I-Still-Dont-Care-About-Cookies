@@ -20168,6 +20168,9 @@ const rules = {
   "boxlapse.info": {
     s: ".MuiSnackbar-anchorOriginBottomLeft{display:none!important}html,body{overflow:auto!important}",
   },
+  "jpc.de": {
+    s: "#cookieconsent-container,.cookieconsent--backdrop{display:none!important}",
+  },
 
   // end of const rules
 };
