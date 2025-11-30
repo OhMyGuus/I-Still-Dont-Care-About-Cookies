@@ -20208,6 +20208,7 @@ const rules = {
   "joanieclothing.com": {
     s: "#termly-code-snippet-support{display:none!important;}",
   },
+  "motopress.com": { s: "#mp-cookie-consent{display:none!important}" },
 
   // end of const rules
 };
