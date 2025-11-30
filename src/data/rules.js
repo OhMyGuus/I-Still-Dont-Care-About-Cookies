@@ -20139,6 +20139,9 @@ const rules = {
     s: '#modal-portal :is([id^="floating-ui-"],.rc-notice), .gdpr-alert { display:none!important; }',
   },
   "all-inkl.com": { s: "#ai-hinweis{display:none!important;}" },
+  "mediemyndigheten.se": {
+    s: ".CookieConsent{display:none!important}body.overflow-hidden{overflow:auto!important}",
+  },
 
   // end of const rules
 };
