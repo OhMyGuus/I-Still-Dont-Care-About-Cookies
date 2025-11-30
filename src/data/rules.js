@@ -20307,6 +20307,9 @@ const rules = {
   "versteigerungspool.de": {
     s: "#cookie-consent,[data-melt-dialog-overlay]{display:none!important}body{overflow:auto!important;padding-right:0!important}",
   },
+  "eita.tr": {
+    s: ':is([class*="fixed"][class*="z-50"][class*="pointer-events-none"],[class*="absolute"][class*="bottom-0"][class*="pointer-events-auto"],.backdrop-blur-2xl){display:none!important}',
+  },
 
   // end of const rules
 };
