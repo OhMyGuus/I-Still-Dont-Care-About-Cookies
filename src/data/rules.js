@@ -20221,6 +20221,9 @@ const rules = {
     s: ".cookie-box{display:none!important}",
   },
   "stockrc.com": { s: "#alcacookiealert { display: none !important; }" },
+  "myheritage.de": {
+    s: "#cookie_preferences_banner_root { display: none !important; }",
+  },
 
   // end of const rules
 };
