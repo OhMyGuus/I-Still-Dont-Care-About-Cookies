@@ -20282,6 +20282,9 @@ const rules = {
   "alsen.pl": {
     s: ":is(#RodoCookiesInfoFirst,#RodoCookiesInfo,.modal-backdrop){display:none!important} body:has(#RodoCookiesInfoFirst,#RodoCookiesInfo){overflow:auto!important}",
   },
+  "gobiernodecanarias.org": {
+    s: ".cookie-consent-modal{display:none!important}",
+  },
 
   // end of const rules
 };
