@@ -9834,7 +9834,9 @@ const rules = {
   "iq.com": { j: "5" },
   "farmina.com": { c: 0 },
   "rum21.no": { s: "#root > div:last-child > span{display:none !important}" },
-  "pracuj.pl": { s: ".cookie-agreements{display:none !important}" },
+  "pracuj.pl": {
+    s: '[data-test="modal-cookie-bottom-bar"]{display:none!important}',
+  },
   "harvard.edu": { s: "#osmyModal{display:none !important}" },
   "lindenberg-bringts.de": { j: "5" },
   "hellospain.de": { c: 41 },
