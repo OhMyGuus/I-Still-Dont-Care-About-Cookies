@@ -20282,6 +20282,9 @@ const rules = {
   "alsen.pl": {
     s: ":is(#RodoCookiesInfoFirst,#RodoCookiesInfo,.modal-backdrop){display:none!important} body:has(#RodoCookiesInfoFirst,#RodoCookiesInfo){overflow:auto!important}",
   },
+  "hiopos.com": {
+    s: 'div[id^="aed4e57b5-"]{display:none!important}html[style*="overflow: hidden"],body[style*="overflow: hidden"]{overflow:auto!important}',
+  },
 
   // end of const rules
 };
