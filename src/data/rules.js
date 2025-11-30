@@ -20193,6 +20193,9 @@ const rules = {
   "beliani.de": {
     s: '.cookie_warning_overlay,#cookie_warning { display: none !important; } html[style*="overflow"] { overflow: auto !important; }',
   },
+  "omniplexcinemas.co.uk": {
+    s: "#cookieConsentBar,#cookieOverlay{display:none!important} body:has(#cookieConsentBar){overflow:auto!important}",
+  },
 
   // end of const rules
 };
