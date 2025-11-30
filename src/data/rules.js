@@ -20285,6 +20285,9 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "gladiator-fight.com": {
+    s: "#shopify-pc__banner { display: none !important; }",
+  },
 
   // end of const rules
 };
