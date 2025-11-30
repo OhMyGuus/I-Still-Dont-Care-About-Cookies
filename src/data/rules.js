@@ -20271,6 +20271,9 @@ const rules = {
   "showmyip.com": {
     s: ":is(#__cmp_overlay,#__cmp_body){display:none!important;}html,body{overflow:visible!important;}",
   },
+  "twinharbour.teamtailor.com": {
+    s: "#dccm-cookie-consent-modal,[class*='Drawer_drawer']{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
