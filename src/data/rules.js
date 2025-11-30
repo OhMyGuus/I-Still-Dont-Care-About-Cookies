@@ -20285,6 +20285,7 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "link.springer.com": { s: "#dip-consent { display: none !important; }" },
 
   // end of const rules
 };
