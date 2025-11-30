@@ -20127,6 +20127,9 @@ const rules = {
   "theroamingrenegades.com": {
     s: "#wpconsent-root { display: none !important; }",
   },
+  "shop.asfinag.at": {
+    s: 'dialog:is([id$="_cookieModal"],.cookie-modal){display:none!important}',
+  },
 
   // end of const rules
 };
