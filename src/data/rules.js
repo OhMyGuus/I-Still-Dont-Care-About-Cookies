@@ -228,7 +228,9 @@ const rules = {
   "duckduckgo.com": {
     s: ".badge-link.ddg-extension-hide{display:none !important}",
   },
-  "msn.com": { j: "5" },
+  "msn.com": {
+    s: "#onetrust-banner-sdk,#onetrust-consent-sdk,#onetrust-pc-sdk{display:none!important;}",
+  },
   "bing.com": {
     s: '#bnp_cookie_banner[aria-modal="false"],#bnp_ttc_div,#thp_notf_div,.b_hide.bnp_ttc,#t_termsInfo{display:none !important}#hp_cellCenter{padding-top:0 !important}',
     j: 5,
