@@ -20124,6 +20124,9 @@ const rules = {
   "thejewelhut.co.uk": {
     s: "aside.modal-popup.cookie-modal._show,.modals-overlay{display:none!important} :is(html,body)._has-modal{overflow:auto!important}",
   },
+  "theroamingrenegades.com": {
+    s: "#wpconsent-root { display: none !important; }",
+  },
 
   // end of const rules
 };
