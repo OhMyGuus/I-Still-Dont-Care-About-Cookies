@@ -20285,6 +20285,9 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "careers.k3capitalgroup.com": {
+    s: ":is(#consentModal,#consentManager,.modal-backdrop){display:none!important} body.modal-open{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
