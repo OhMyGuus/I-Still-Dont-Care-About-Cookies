@@ -20210,6 +20210,7 @@ const rules = {
   },
   "motopress.com": { s: "#mp-cookie-consent{display:none!important}" },
   "lawspot.gr": { s: "#cookie__banner { display: none !important; }" },
+  "wolfberlin.org": { s: "#cookie-modal{display:none!important}" },
 
   // end of const rules
 };
