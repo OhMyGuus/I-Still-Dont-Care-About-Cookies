@@ -17808,7 +17808,7 @@ const rules = {
   },
   "hotel-metropol.at": { s: ".mod-cr{display:none !important}" },
   "pkw.gov.pl": { s: ".rodo_info{display:none !important}" },
-  "zoho.com": { s: ".zbottom-cookie-container{display:none !important}" },
+  "zoho.com": { s: "#bcc-outer{display:none!important}" },
   "kickz.com": { s: "#consent-dialog{display:none !important}" },
   "hh.ru": {
     s: 'div[data-qa*="lux-container"] > div[class*="wrapper_static-mobile"]{display:none !important}',
