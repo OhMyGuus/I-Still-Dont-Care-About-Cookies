@@ -13384,7 +13384,9 @@ const rules = {
   "musti.no": { j: "5" },
   "vetzoo.se": { j: "5" },
   "animail.se": { j: "5" },
-  "arkenzoo.se": { j: "5" },
+  "arkenzoo.se": {
+    s: "#cookie_consent_wrapper,.privacy_headsup_overlay{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
   "mustijamirri.fi": { j: "5" },
   "petenkoiratarvike.com": { j: "5" },
   "echirurgia.pl": { j: "5" },
