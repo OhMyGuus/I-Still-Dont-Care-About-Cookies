@@ -20268,6 +20268,9 @@ const rules = {
   "livreshebdo.fr": {
     s: ".gdpr-cookie-notice{display:none!important}html,body{overflow:auto!important}",
   },
+  "showmyip.com": {
+    s: ":is(#__cmp_overlay,#__cmp_body){display:none!important;}html,body{overflow:visible!important;}",
+  },
 
   // end of const rules
 };
