@@ -20165,6 +20165,9 @@ const rules = {
     s: "section.consent_popup{display:none!important}html,body{overflow:visible!important}",
   },
   "biano.cz": { s: "#js-cb{display:none!important}" },
+  "boxlapse.info": {
+    s: ".MuiSnackbar-anchorOriginBottomLeft{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
