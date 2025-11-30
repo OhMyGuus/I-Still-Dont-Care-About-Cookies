@@ -20303,6 +20303,7 @@ const rules = {
   "airchina.de": {
     s: ":is(#cookie-notice-popin,#visit-popin,.cnpmodal,.visit-popin){display:none!important}body:has(#cookie-notice-popin,#visit-popin){overflow:auto!important}",
   },
+  "forsal.pl": { s: "#cmp{display:none!important}" },
 
   // end of const rules
 };
