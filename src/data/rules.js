@@ -20259,6 +20259,7 @@ const rules = {
   "machsmoeglich.canadalife.de": {
     s: "#cookie_modal,.modal-backdrop.fade.show{display:none!important;visibility:hidden!important}body.modal-open{overflow:auto!important}",
   },
+  "gamermarkt.com": { s: "#fccm_alert{display:none!important;}" },
 
   // end of const rules
 };
