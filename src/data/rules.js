@@ -20241,6 +20241,9 @@ const rules = {
     s: '#overlayCookieAcceptance, ngb-modal-backdrop.modal-backdrop { display: none !important; } html[style*="overflow: hidden"] { overflow: auto !important; }',
   },
   "shop.flymo.co.uk": { s: ".cookie-control-screen{display:none!important;}" },
+  "artsy.net": {
+    s: ".Box-sc-15se88d-0.iPezQL, .Box-sc-15se88d-0.kpAHbg { display: none !important; }",
+  },
 
   // end of const rules
 };
