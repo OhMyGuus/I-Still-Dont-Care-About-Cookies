@@ -20240,6 +20240,7 @@ const rules = {
   "sports.admiral.at": {
     s: '#overlayCookieAcceptance, ngb-modal-backdrop.modal-backdrop { display: none !important; } html[style*="overflow: hidden"] { overflow: auto !important; }',
   },
+  "shop.flymo.co.uk": { s: ".cookie-control-screen{display:none!important;}" },
 
   // end of const rules
 };
