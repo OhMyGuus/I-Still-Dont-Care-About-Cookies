@@ -20187,6 +20187,9 @@ const rules = {
   "loginradius.com": {
     s: ".fixed.bottom-4.left-4.bg-gray-800.z-50{display:none!important}",
   },
+  "houseshop.gr": {
+    s: ".gmt_google_consent_container { display: none !important; }",
+  },
 
   // end of const rules
 };
