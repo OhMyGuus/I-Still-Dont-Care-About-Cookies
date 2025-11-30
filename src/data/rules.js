@@ -20152,6 +20152,9 @@ const rules = {
   },
   "pharma-gdd.com": { s: ".consent-banner-main { display: none !important; }" },
   "peblar.com": { s: "#hs-banner-parent { display: none !important; }" },
+  "bhg.com": {
+    s: "#onetrust-consent-sdk{display:none!important} html,:root{overflow:auto!important} body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
