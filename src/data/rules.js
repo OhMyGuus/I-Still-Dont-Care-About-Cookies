@@ -20144,6 +20144,9 @@ const rules = {
   "ubaldi.com": {
     s: ":is(#overlayPopup,#overlayPopupContent,#overlayPopupInsideContent,#cb-frame,#form-save-cookie-configuration,#modals,#ub-modal-root){display:none!important;}html,body{overflow:auto!important;}",
   },
+  "lazienkiabc.pl": {
+    s: "#cookie_modal,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
