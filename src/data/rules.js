@@ -20285,6 +20285,9 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "hardys-freizeit.de": {
+    s: "#consent-page { display: none !important; } html,body { overflow: auto !important; height: auto !important; touch-action: auto !important; }",
+  },
 
   // end of const rules
 };
