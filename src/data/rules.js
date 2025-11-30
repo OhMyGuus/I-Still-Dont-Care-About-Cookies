@@ -20256,6 +20256,9 @@ const rules = {
   "speedtest.vodafone.de": {
     s: "[data-cy=modal-dialog],[aria-modal=true][role=dialog],div[data-focus-guard]{display:none!important}",
   },
+  "machsmoeglich.canadalife.de": {
+    s: "#cookie_modal,.modal-backdrop.fade.show{display:none!important;visibility:hidden!important}body.modal-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
