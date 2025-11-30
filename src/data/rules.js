@@ -7223,7 +7223,9 @@ const rules = {
   "kronehit.at": { j: "6" },
   "knoema.com": { c: 3 },
   "electrovoice.com": { c: 7 },
-  "frankfurt.de": { j: "6" },
+  "frankfurt.de": {
+    s: ".reveal-overlay:has(#cookieModal),#cookieModalSettings{display:none!important}body.is-reveal-open{overflow:auto!important}",
+  },
   "jostchemical.com": { j: "5" },
   "ffm.to": { j: "5" },
   "tilda.cc": {
