@@ -20294,6 +20294,9 @@ const rules = {
     s: '[id^="usp-rodo-gateway"] { display: none !important; } html, body { overflow: auto !important; }',
   },
   "oneticket.cz": { s: ".cookies{display:none!important}" },
+  "altenberg.de": {
+    s: ".oax_cookie_consent_modal{display:none!important} html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
