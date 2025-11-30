@@ -20327,6 +20327,9 @@ const rules = {
   "france.muji.eu": {
     s: ".cookie_hinweis_mask,#modal_boxcookie_hinweis{display:none!important} html,body,body.didomi-popup-open{overflow:auto!important}",
   },
+  "aids.ch": {
+    s: 'dialog[class*="gdpr_consent"]{display:none!important}dialog[class*="gdpr_consent"]::backdrop{display:none!important}body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
