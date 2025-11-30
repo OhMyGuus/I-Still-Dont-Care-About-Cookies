@@ -20285,6 +20285,9 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "paypal.com": {
+    s: "#fhmm-consent-mode__main-modal{display:none!important;}",
+  },
 
   // end of const rules
 };
