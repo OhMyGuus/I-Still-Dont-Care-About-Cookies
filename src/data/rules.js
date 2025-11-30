@@ -20285,6 +20285,9 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "outspot.be": {
+    s: 'ion-modal[id^="ion-overlay-"]:has(#modal-title),ion-backdrop.sc-ion-loading-ios.backdrop-no-tappable{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
