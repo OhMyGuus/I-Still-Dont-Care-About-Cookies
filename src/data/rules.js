@@ -20265,6 +20265,9 @@ const rules = {
   "yousign.com": { s: "#cookie-consent-app { display: none !important; }" },
   "samorzad.pap.pl": { s: "#cookies { display: none !important; }" },
   "dns-shop.ru": { s: ".header-cookie-notification{display:none!important}" },
+  "livreshebdo.fr": {
+    s: ".gdpr-cookie-notice{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
