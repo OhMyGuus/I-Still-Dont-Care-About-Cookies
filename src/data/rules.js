@@ -20250,6 +20250,9 @@ const rules = {
   "mein.fitx.de": {
     s: 'section[role="dialog"][aria-modal="true"][aria-label="Dialog"]{display:none!important}',
   },
+  "cleverbuy.de": {
+    s: ".offcanvas.is-modal.is-fullwidth.is-open,.offcanvas.is-modal.is-fullwidth.is-open .offcanvas-content-container,.dm-cookie-consent-modal-content,.dm-cookie-consent-modal-body,.dm-cookie-consent-header,.modal-backdrop.modal-backdrop-open{display:none!important}html{overflow:auto!important}",
+  },
 
   // end of const rules
 };
