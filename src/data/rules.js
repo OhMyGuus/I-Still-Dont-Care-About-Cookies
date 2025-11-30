@@ -20150,6 +20150,7 @@ const rules = {
   "supertext.com": {
     s: ".chakra-portal:has(.chakra-modal__overlay,.chakra-slide.chakra-modal__content){display:none!important;}",
   },
+  "pharma-gdd.com": { s: ".consent-banner-main { display: none !important; }" },
 
   // end of const rules
 };
