@@ -20316,6 +20316,9 @@ const rules = {
   "frizodrone.com": {
     s: ".cookies-banner-wrapper { display: none !important; }",
   },
+  "iienstitu.com": {
+    s: ".fixed.inset-x-0.bottom-0:has(p.text-sm){display:none!important}",
+  },
 
   // end of const rules
 };
