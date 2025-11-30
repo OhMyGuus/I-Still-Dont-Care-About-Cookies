@@ -20276,6 +20276,9 @@ const rules = {
   "displate.com": {
     s: "#dccm-cookie-consent-modal{display:none!important}body{overflow:auto!important}",
   },
+  "fuji-store.de": {
+    s: "#modal{display:none!important;}html.noScrolling,body.noScrolling{overflow:auto!important;touch-action:auto!important}body.noScrolling[style]{padding-right:0!important}",
+  },
 
   // end of const rules
 };
