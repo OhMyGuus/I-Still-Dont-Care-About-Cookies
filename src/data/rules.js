@@ -20227,6 +20227,7 @@ const rules = {
   "black.sk": {
     s: "#cookie-notice{display:none!important}.modal-backdrop.show{display:none!important}body{overflow:auto!important}",
   },
+  "flyembraer.com": { s: "div:has(>.CookieConsent){display:none!important}" },
 
   // end of const rules
 };
