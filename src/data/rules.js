@@ -15320,7 +15320,9 @@ const rules = {
   "edziennik.bialystok.uw.gov.pl": {
     s: ".is-show-cookie{display:none !important}",
   },
-  "go-e.com": { j: "5" },
+  "go-e.com": {
+    s: "#dccm-cookie-consent-modal, .Drawer_drawerBackdrop___Grpg { display: none !important; } html, body { overflow: auto !important; }",
+  },
   "monsitemedia.fr": { j: "5" },
   "arlettie.com": {
     s: "#___smooth > div > .sui-grid{display:none !important}",
