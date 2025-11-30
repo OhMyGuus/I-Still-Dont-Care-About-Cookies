@@ -13161,7 +13161,7 @@ const rules = {
   "soliver-online.be": { j: "5" },
   "mnb.hu": { s: ".cb01-cookie-bar{display:none !important}" },
   "canalplus.com": {
-    s: '[id^="didomi"], [id*="didomi"], [class*="didomi"], [class*="didomi-popup"], [class*="didomi-consent-popup__"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } body.didomi-popup-open, body[class*="didomi-popup-open"] { overflow: auto !important; } html, body { overflow: auto !important; }',
+    s: "#didomi-host{display:none!important}body{overflow:auto!important}",
   },
   "final-materials.com": { j: "5" },
   "advancedinstaller.com": { c: 0 },
