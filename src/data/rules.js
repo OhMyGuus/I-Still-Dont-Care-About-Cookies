@@ -20244,6 +20244,9 @@ const rules = {
   "artsy.net": {
     s: ".Box-sc-15se88d-0.iPezQL, .Box-sc-15se88d-0.kpAHbg { display: none !important; }",
   },
+  "posterxxl.de": {
+    s: ".cookie-consent-modal{display:none!important}body.cookie-consent-modal-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
