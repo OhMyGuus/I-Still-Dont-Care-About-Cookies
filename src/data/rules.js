@@ -20211,6 +20211,9 @@ const rules = {
   "motopress.com": { s: "#mp-cookie-consent{display:none!important}" },
   "lawspot.gr": { s: "#cookie__banner { display: none !important; }" },
   "wolfberlin.org": { s: "#cookie-modal{display:none!important}" },
+  "miadigital.it": {
+    s: "#modalBannerPolicy, body:has(#modalBannerPolicy) .modal-backdrop.modal-stack { display: none !important; } body.modal-open { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
