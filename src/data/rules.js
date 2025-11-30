@@ -20319,6 +20319,9 @@ const rules = {
   "iienstitu.com": {
     s: ".fixed.inset-x-0.bottom-0:has(p.text-sm){display:none!important}",
   },
+  "scmp.com": {
+    s: '.fc-consent-root,[data-qa="GDPRBanner-Container"]{display:none!important}body{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
