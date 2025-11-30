@@ -6105,7 +6105,7 @@ const rules = {
     s: 'body > .view > .view > .view > .view[style*="black"]{display:none !important}',
   },
   "lethalpass.com": { s: ".global-notif{display:none !important}" },
-  "delfino.cr": { s: "#__next > #modal ~ div{display:none !important}" },
+  "delfino.cr": { s: ".css-1ow2t6j{display:none!important}" },
   "kitsound.co.uk": { j: "5" },
   "best2serve.com": { s: ".cc_notification{display:none !important}" },
   "apemans.com": { s: ".xpop{display:none !important}" },
