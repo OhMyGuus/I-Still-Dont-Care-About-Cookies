@@ -20310,6 +20310,9 @@ const rules = {
   "eita.tr": {
     s: ':is([class*="fixed"][class*="z-50"][class*="pointer-events-none"],[class*="absolute"][class*="bottom-0"][class*="pointer-events-auto"],.backdrop-blur-2xl){display:none!important}',
   },
+  "rainbowprint.de": {
+    s: "#wsModalConsent,body:has(#wsModalConsent)>.modal-backdrop{display:none!important}body:has(#wsModalConsent){overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
