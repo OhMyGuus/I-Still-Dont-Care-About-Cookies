@@ -20286,6 +20286,9 @@ const rules = {
     s: ".cookie-consent-modal{display:none!important}",
   },
   "wink.ai": { s: ".cookie-consent{display:none!important}" },
+  "ocu.teamtailor.com": {
+    s: 'dialog[data-controller^="common--cookies--"],dialog[data-controller^="common--cookies--"]::backdrop{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
