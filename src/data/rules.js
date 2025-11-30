@@ -20297,6 +20297,9 @@ const rules = {
   "altenberg.de": {
     s: ".oax_cookie_consent_modal{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "tumw.pl": {
+    s: 'div[class*="fixed"][class*="h-screen"][class*="justify-center"]{display:none!important}html,body{height:auto!important;overflow:auto!important}',
+  },
 
   // end of const rules
 };
