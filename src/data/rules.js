@@ -20313,6 +20313,9 @@ const rules = {
   "rainbowprint.de": {
     s: "#wsModalConsent,body:has(#wsModalConsent)>.modal-backdrop{display:none!important}body:has(#wsModalConsent){overflow:auto!important;padding-right:0!important}",
   },
+  "frizodrone.com": {
+    s: ".cookies-banner-wrapper { display: none !important; }",
+  },
 
   // end of const rules
 };
