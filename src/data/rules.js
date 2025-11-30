@@ -20121,6 +20121,9 @@ const rules = {
   "joybuy.fr": {
     s: '[class^="cookieManageDrawer_"] { display: none !important; } html, body { overflow: auto !important; }',
   },
+  "thejewelhut.co.uk": {
+    s: "aside.modal-popup.cookie-modal._show,.modals-overlay{display:none!important} :is(html,body)._has-modal{overflow:auto!important}",
+  },
 
   // end of const rules
 };
