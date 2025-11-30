@@ -20279,6 +20279,9 @@ const rules = {
   "wolvesville.com": {
     s: ".r-1nlw0im, .r-1xfd6ze { display: none !important; }",
   },
+  "alsen.pl": {
+    s: ":is(#RodoCookiesInfoFirst,#RodoCookiesInfo,.modal-backdrop){display:none!important} body:has(#RodoCookiesInfoFirst,#RodoCookiesInfo){overflow:auto!important}",
+  },
 
   // end of const rules
 };
