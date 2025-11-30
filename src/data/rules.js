@@ -20285,6 +20285,9 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "inc-conso.fr": {
+    s: ".os-dialog.show-modal, .os-cookie-banner { display: none !important; } body { overflow: auto !important; margin-right: 0 !important; }",
+  },
 
   // end of const rules
 };
