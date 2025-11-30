@@ -20155,6 +20155,9 @@ const rules = {
   "bhg.com": {
     s: "#onetrust-consent-sdk{display:none!important} html,:root{overflow:auto!important} body{overflow:visible!important}",
   },
+  "adidas.mx": {
+    s: "#gl-modal__root{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
