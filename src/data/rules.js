@@ -20231,6 +20231,9 @@ const rules = {
   "vibrationresearch.com": {
     s: "body:has(.drawer_notice_message){overflow:auto!important}.drawer:has(.drawer_notice_message){display:none!important;}",
   },
+  "ila-web.de": {
+    s: ".fixed.inset-0.bg-black.bg-opacity-50{display:none!important}",
+  },
 
   // end of const rules
 };
