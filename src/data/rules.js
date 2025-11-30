@@ -20322,6 +20322,9 @@ const rules = {
   "scmp.com": {
     s: '.fc-consent-root,[data-qa="GDPRBanner-Container"]{display:none!important}body{overflow:auto!important;height:auto!important}',
   },
+  "france.muji.eu": {
+    s: ".cookie_hinweis_mask,#modal_boxcookie_hinweis{display:none!important} html,body,body.didomi-popup-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
