@@ -20304,6 +20304,9 @@ const rules = {
     s: ":is(#cookie-notice-popin,#visit-popin,.cnpmodal,.visit-popin){display:none!important}body:has(#cookie-notice-popin,#visit-popin){overflow:auto!important}",
   },
   "forsal.pl": { s: "#cmp{display:none!important}" },
+  "versteigerungspool.de": {
+    s: "#cookie-consent,[data-melt-dialog-overlay]{display:none!important}body{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
