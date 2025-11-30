@@ -20164,6 +20164,7 @@ const rules = {
   "europeanproceedings.com": {
     s: "section.consent_popup{display:none!important}html,body{overflow:visible!important}",
   },
+  "biano.cz": { s: "#js-cb{display:none!important}" },
 
   // end of const rules
 };
