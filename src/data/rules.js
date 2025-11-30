@@ -20285,6 +20285,9 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "bip.bialystok.pl": {
+    s: ":is(.modal.fade.show, .modal-backdrop.fade.show) { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
