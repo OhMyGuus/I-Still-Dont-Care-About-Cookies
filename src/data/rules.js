@@ -20184,6 +20184,9 @@ const rules = {
   "openmailbox.com": {
     s: "#cookies-settings,#error-meassage-wrapper{display:none!important}",
   },
+  "loginradius.com": {
+    s: ".fixed.bottom-4.left-4.bg-gray-800.z-50{display:none!important}",
+  },
 
   // end of const rules
 };
