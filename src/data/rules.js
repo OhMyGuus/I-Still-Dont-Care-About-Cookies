@@ -20133,6 +20133,9 @@ const rules = {
   "fastwebshop.it": {
     s: ":is(#dgt-cookie-container,.background-cookie-header){display: none !important;}",
   },
+  "reverb.com": {
+    s: '#modal-portal :is([id^="floating-ui-"],.rc-notice), .gdpr-alert { display:none!important; }',
+  },
 
   // end of const rules
 };
