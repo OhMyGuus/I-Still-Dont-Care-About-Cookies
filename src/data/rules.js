@@ -20203,6 +20203,9 @@ const rules = {
   "stellen.hamburg.de": {
     s: ".mcd-dialog-backdrop{display:none!important}body.start:has(.mcd-dialog-backdrop){overflow-y:auto!important}",
   },
+  "joanieclothing.com": {
+    s: "#termly-code-snippet-support{display:none!important;}",
+  },
 
   // end of const rules
 };
