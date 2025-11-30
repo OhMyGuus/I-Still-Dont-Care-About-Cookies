@@ -20285,6 +20285,9 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "app.salsify.com": {
+    s: "#modal-root{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
