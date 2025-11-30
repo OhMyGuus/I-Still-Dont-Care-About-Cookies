@@ -20217,6 +20217,9 @@ const rules = {
   "clever-fit.com": {
     s: "#BorlabsCookieBox,#BorlabsDialogBackdrop{display:none!important}html,body{overflow:auto!important}",
   },
+  "lescerisesdehiatus.blogspot.com": {
+    s: ".cookie-box{display:none!important}",
+  },
 
   // end of const rules
 };
