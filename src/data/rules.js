@@ -20214,6 +20214,9 @@ const rules = {
   "miadigital.it": {
     s: "#modalBannerPolicy, body:has(#modalBannerPolicy) .modal-backdrop.modal-stack { display: none !important; } body.modal-open { overflow: auto !important; }",
   },
+  "clever-fit.com": {
+    s: "#BorlabsCookieBox,#BorlabsDialogBackdrop{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
