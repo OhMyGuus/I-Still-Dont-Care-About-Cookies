@@ -20276,6 +20276,9 @@ const rules = {
   "displate.com": {
     s: "#dccm-cookie-consent-modal{display:none!important}body{overflow:auto!important}",
   },
+  "wolvesville.com": {
+    s: ".r-1nlw0im, .r-1xfd6ze { display: none !important; }",
+  },
 
   // end of const rules
 };
