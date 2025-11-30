@@ -20178,6 +20178,9 @@ const rules = {
     s: '[class*="cookieBanner"]{display:none!important} html,body{overflow:auto!important;height:auto!important}',
   },
   "loods5.nl": { s: "#portal-root { display: none !important; }" },
+  "transnews.network": {
+    s: '#_rht_toaster,[class*="bg-[#060419]"][class*="!opacity-100"] { display: none !important; }',
+  },
 
   // end of const rules
 };
