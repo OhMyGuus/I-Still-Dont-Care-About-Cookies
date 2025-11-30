@@ -20237,6 +20237,9 @@ const rules = {
   "horace.com": {
     s: "#am-cookie-bar { display: none !important; } body.overflow-hidden { overflow: auto !important; }",
   },
+  "sports.admiral.at": {
+    s: '#overlayCookieAcceptance, ngb-modal-backdrop.modal-backdrop { display: none !important; } html[style*="overflow: hidden"] { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
