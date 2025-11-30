@@ -20327,6 +20327,9 @@ const rules = {
   "france.muji.eu": {
     s: ".cookie_hinweis_mask,#modal_boxcookie_hinweis{display:none!important} html,body,body.didomi-popup-open{overflow:auto!important}",
   },
+  "uvashop.es": {
+    s: "#consentModal, .modal-backdrop { display: none !important; } html, body, .modal-open { overflow: visible !important; padding-right: 0 !important; }",
+  },
 
   // end of const rules
 };
