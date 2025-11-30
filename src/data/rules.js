@@ -649,7 +649,6 @@ const rules = {
   "holding-graz.at": { s: ".blockOverlay{display:none !important}" },
   "efax.fr": { s: ".stickyFooter{display:none !important}" },
   "mountain.es": { s: "#messagebar{display:none !important}" },
-  "dictzone.com": { s: "#qc-cmp2-container { display: none !important; }" },
   "qrzcq.com": { c: 1 },
   "stoeger.net": { c: 43 },
   "gore-ljudje.net": { c: 62 },
