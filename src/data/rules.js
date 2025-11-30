@@ -20161,6 +20161,9 @@ const rules = {
   "flax.ro": {
     s: ".cookie-main-section,.custom-cookie-popup{display:none!important}",
   },
+  "europeanproceedings.com": {
+    s: "section.consent_popup{display:none!important}html,body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
