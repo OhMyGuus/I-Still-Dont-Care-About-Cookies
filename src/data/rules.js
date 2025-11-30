@@ -20285,6 +20285,7 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "wink.ai": { s: ".cookie-consent{display:none!important}" },
 
   // end of const rules
 };
