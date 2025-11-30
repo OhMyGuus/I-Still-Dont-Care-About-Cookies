@@ -20171,6 +20171,9 @@ const rules = {
   "jpc.de": {
     s: "#cookieconsent-container,.cookieconsent--backdrop{display:none!important}",
   },
+  "mediamarkt.com.tr": {
+    s: "#mms-consent-portal-container,#mms-notification-modal-portal{display:none!important}",
+  },
 
   // end of const rules
 };
