@@ -20285,6 +20285,9 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "breitbart.com": {
+    s: '[id^="onetrust"],.onetrust-pc-dark-filter{display:none!important}',
+  },
 
   // end of const rules
 };
