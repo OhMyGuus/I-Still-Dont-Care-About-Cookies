@@ -20224,6 +20224,9 @@ const rules = {
   "myheritage.de": {
     s: "#cookie_preferences_banner_root { display: none !important; }",
   },
+  "black.sk": {
+    s: "#cookie-notice{display:none!important}.modal-backdrop.show{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
