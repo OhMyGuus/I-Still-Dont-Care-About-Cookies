@@ -20293,6 +20293,9 @@ const rules = {
   "naturell.pl": {
     s: '[id^="usp-rodo-gateway"] { display: none !important; } html, body { overflow: auto !important; }',
   },
+  "helloprint.com": {
+    s: "#consent-wrapper{display:none!important} html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
