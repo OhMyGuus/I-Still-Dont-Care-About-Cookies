@@ -20285,6 +20285,9 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "platform.openai.com": {
+    s: ":is(.oax_modal_bg,.oax_cookie_consent_modal,.oax_modal_container,#oax-dialog-main){display:none!important} body:has(.oax_cookie_consent_modal,.oax_modal_bg){overflow:auto!important}",
+  },
 
   // end of const rules
 };
