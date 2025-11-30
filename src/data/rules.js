@@ -20285,6 +20285,7 @@ const rules = {
   "gobiernodecanarias.org": {
     s: ".cookie-consent-modal{display:none!important}",
   },
+  "careers.bydeurope.com": { s: "#dip-consent { display: none !important; }" },
 
   // end of const rules
 };
