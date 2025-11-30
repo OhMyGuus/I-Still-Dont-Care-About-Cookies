@@ -20220,6 +20220,7 @@ const rules = {
   "lescerisesdehiatus.blogspot.com": {
     s: ".cookie-box{display:none!important}",
   },
+  "stockrc.com": { s: "#alcacookiealert { display: none !important; }" },
 
   // end of const rules
 };
