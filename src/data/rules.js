@@ -20264,6 +20264,7 @@ const rules = {
   "gamermarkt.com": { s: "#fccm_alert{display:none!important;}" },
   "yousign.com": { s: "#cookie-consent-app { display: none !important; }" },
   "samorzad.pap.pl": { s: "#cookies { display: none !important; }" },
+  "dns-shop.ru": { s: ".header-cookie-notification{display:none!important}" },
 
   // end of const rules
 };
