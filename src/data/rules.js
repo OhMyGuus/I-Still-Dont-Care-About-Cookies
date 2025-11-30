@@ -20200,6 +20200,9 @@ const rules = {
   "arslanbuuz.cz": {
     s: ".styles_weUseCookiesBlock__CMc_K,[data-element=cookies-banner-modal]{display:none!important}",
   },
+  "stellen.hamburg.de": {
+    s: ".mcd-dialog-backdrop{display:none!important}body.start:has(.mcd-dialog-backdrop){overflow-y:auto!important}",
+  },
 
   // end of const rules
 };
