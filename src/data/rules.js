@@ -4485,7 +4485,9 @@ const rules = {
   "lloyd.com": { s: "#globalerror{display:none !important}" },
   "hario.com": { s: "#sample-dialog.dialog{display:none !important}" },
   "ads.nipr.ac.jp": { s: ".backdrop{display:none !important}" },
-  "urbia.de": { s: ".layer-confirm-bottom{display:none !important}" },
+  "urbia.de": {
+    s: '[id^="sp_message_container_"]{display:none!important}html,body{overflow:auto!important; width:auto!important;}',
+  },
   "lactalisfoodservice.es": { s: ".LSSI{display:none !important}" },
   "hoteldiamant.cz": { s: ".nl_cookies{display:none !important}" },
   "gewinnspiel.toom.de": { c: 9 },
