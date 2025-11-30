@@ -20290,6 +20290,9 @@ const rules = {
     s: ".cookie-consent-modal{display:none!important}",
   },
   "wink.ai": { s: ".cookie-consent{display:none!important}" },
+  "naturell.pl": {
+    s: '[id^="usp-rodo-gateway"] { display: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
