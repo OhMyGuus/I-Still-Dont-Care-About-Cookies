@@ -20197,6 +20197,9 @@ const rules = {
     s: "#cookieConsentBar,#cookieOverlay{display:none!important} body:has(#cookieConsentBar){overflow:auto!important}",
   },
   "aufzug24.net": { s: ".cons_overlay,.cons_content{display:none!important}" },
+  "arslanbuuz.cz": {
+    s: ".styles_weUseCookiesBlock__CMc_K,[data-element=cookies-banner-modal]{display:none!important}",
+  },
 
   // end of const rules
 };
