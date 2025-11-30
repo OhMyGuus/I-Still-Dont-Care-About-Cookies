@@ -10007,7 +10007,9 @@ const rules = {
   "mercateo.sk": { s: "#header-popup-info{display:none !important}" },
   "ihtsdotools.org": { j: "5" },
   "fan.com.pl": { c: 0 },
-  "ubs.com": { s: ".lightbox__container{display:none !important}" },
+  "ubs.com": {
+    s: "dialog.privacysettings__dialog{display:none!important} body.privacysettings--is-scroll-locked,body.privacysettings--is-scroll-locked *{overflow:visible!important} html,body{overflow:auto!important}",
+  },
   "moto-opinie.info": { c: 77 },
   "jobst-mobile.de": { s: "#datenschutzBalgeNew{display:none !important}" },
   "half-the-battle.de": {
