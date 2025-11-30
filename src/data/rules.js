@@ -20190,6 +20190,9 @@ const rules = {
   "houseshop.gr": {
     s: ".gmt_google_consent_container { display: none !important; }",
   },
+  "beliani.de": {
+    s: '.cookie_warning_overlay,#cookie_warning { display: none !important; } html[style*="overflow"] { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
