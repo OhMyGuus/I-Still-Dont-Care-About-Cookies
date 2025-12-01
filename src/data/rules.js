@@ -20362,6 +20362,9 @@ const rules = {
   "byggvesta.se": {
     s: ".wcc-overlay,.wcc-consent-container,.wcc-modal,.wcc-btn-revisit-wrapper{display:none!important}body.wcc-popup-overflow{overflow:auto!important}",
   },
+  "spankbang.com": {
+    s: "div:has(#cookie-consent),#safety-blur{display:none!important}",
+  },
 
   // end of const rules
 };
