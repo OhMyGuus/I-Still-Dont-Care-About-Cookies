@@ -20340,6 +20340,7 @@ const rules = {
   "opentip.kaspersky.com": {
     s: '[class*="_container_10tvz"]{display:none!important}',
   },
+  "antwoordop.nl": { s: "#udtCookiebox,#udtDark{display:none!important}" },
 
   // end of const rules
 };
