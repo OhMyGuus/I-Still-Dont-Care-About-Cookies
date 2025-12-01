@@ -236,12 +236,19 @@ function getItem(hostname) {
           value: 9999999999999,
         },
       ];
-    case "zdf.de":
-      return {
-        strict: false,
-        key: "zdf_cmp_configuration",
-        value: "true",
-      };
+    case "asan.com.pl":
+      return [
+        {
+          strict: false,
+          key: "show_consent_modal",
+          value: "1",
+        },
+        {
+          strict: false,
+          key: "user_consents",
+          value: "[]",
+        },
+      ];
     case "teilauto.net":
       return {
         strict: true,

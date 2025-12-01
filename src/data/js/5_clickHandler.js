@@ -8415,6 +8415,8 @@ function getSelector(host) {
       return "#btn-cookie-accept-essencial";
     case "comdirect.de":
       return shadowQuerySelector("com-button#cmpDenyAll");
+    case "zdf.de":
+      return "button[data-testid='cmp-revoke-all']";
     case "huk-autoservice.de":
       return 'button[data-value="cookie-accept-necessary"]';
     case "720dgree.de":
