@@ -20344,6 +20344,7 @@ const rules = {
     s: '[class*="_container_10tvz"]{display:none!important}',
   },
   "antwoordop.nl": { s: "#udtCookiebox,#udtDark{display:none!important}" },
+  "arenberg.be": { s: "dialog.cookie-consent { display: none !important; }" },
 
   // end of const rules
 };
