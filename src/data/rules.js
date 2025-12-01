@@ -20356,6 +20356,9 @@ const rules = {
     s: '[class*="_container_10tvz"]{display:none!important}',
   },
   "antwoordop.nl": { s: "#udtCookiebox,#udtDark{display:none!important}" },
+  "renault-ehrlich-aschaffenburg.de": {
+    s: ":is(#gdpr-bar,#gdpr-overlay,#gdpr-modal){display:none!important} body.restricted{position:static!important;max-height:none!important;width:auto!important;overflow:visible!important}",
+  },
 
   // end of const rules
 };
