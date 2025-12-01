@@ -20365,6 +20365,7 @@ const rules = {
   "spankbang.com": {
     s: "div:has(#cookie-consent),#safety-blur{display:none!important}",
   },
+  "flysto.net": { s: ".banner.svelte-16j2c7a { display: none !important; }" },
 
   // end of const rules
 };
