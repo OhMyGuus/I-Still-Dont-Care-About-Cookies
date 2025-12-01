@@ -20341,6 +20341,9 @@ const rules = {
     s: '[class*="_container_10tvz"]{display:none!important}',
   },
   "antwoordop.nl": { s: "#udtCookiebox,#udtDark{display:none!important}" },
+  "coolbe.com": {
+    s: "dialog[class*=modalOverlay]{display:none!important}body[data-scroll-locked]{overflow:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
