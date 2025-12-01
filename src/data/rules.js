@@ -20333,6 +20333,7 @@ const rules = {
   "7dni.pila.pl": {
     s: 'div:has([role="dialog"][aria-modal="true"][aria-label="Plansza informacyjna WP"]),[role="dialog"][aria-modal="true"][aria-label="Plansza informacyjna WP"]{display:none!important}html,body{overflow:auto!important}',
   },
+  "pekro.cz": { s: "#c_law { display: none !important; }" },
 
   // end of const rules
 };
