@@ -20359,6 +20359,9 @@ const rules = {
   "renault-ehrlich-aschaffenburg.de": {
     s: ":is(#gdpr-bar,#gdpr-overlay,#gdpr-modal){display:none!important} body.restricted{position:static!important;max-height:none!important;width:auto!important;overflow:visible!important}",
   },
+  "byggvesta.se": {
+    s: ".wcc-overlay,.wcc-consent-container,.wcc-modal,.wcc-btn-revisit-wrapper{display:none!important}body.wcc-popup-overflow{overflow:auto!important}",
+  },
 
   // end of const rules
 };
