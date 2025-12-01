@@ -20334,6 +20334,9 @@ const rules = {
     s: 'div:has([role="dialog"][aria-modal="true"][aria-label="Plansza informacyjna WP"]),[role="dialog"][aria-modal="true"][aria-label="Plansza informacyjna WP"]{display:none!important}html,body{overflow:auto!important}',
   },
   "pekro.cz": { s: "#c_law { display: none !important; }" },
+  "cinestarcinemas.hr": {
+    s: "#gdc-shade,#gdc-container,#gdc-content-extra,#gdc-cookieSettings,#gdc-accept-all,#gdc-accept-selected,#gdc-options{display:none!important} html,body{overflow:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
