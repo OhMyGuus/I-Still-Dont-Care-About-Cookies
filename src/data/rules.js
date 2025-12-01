@@ -11189,7 +11189,7 @@ const rules = {
   "freiewelt.net": { s: "#cmmodal{display:none !important}" },
   "bankmillennium.pl": { s: "wc-cookies-marketing{display:none !important}" },
   "handelsbanken.se": {
-    s: "shb-cookie-consent,.js-shb-inss-login__cookie-consent{display:none !important}",
+    s: ".shb-modal,.shb-modal__background,.shb-modal__container{display:none!important}body{overflow:auto!important}",
   },
   "handelsbanken.nl": { s: "shb-cookie-consent{display:none !important}" },
   "ageofempires.com": { s: ".popup.disable-screen{display:none !important}" },
