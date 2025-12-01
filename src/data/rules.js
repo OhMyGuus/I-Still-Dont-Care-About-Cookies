@@ -20337,6 +20337,9 @@ const rules = {
   "cinestarcinemas.hr": {
     s: "#gdc-shade,#gdc-container,#gdc-content-extra,#gdc-cookieSettings,#gdc-accept-all,#gdc-accept-selected,#gdc-options{display:none!important} html,body{overflow:auto!important;position:static!important}",
   },
+  "opentip.kaspersky.com": {
+    s: '[class*="_container_10tvz"]{display:none!important}',
+  },
 
   // end of const rules
 };
