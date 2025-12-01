@@ -20330,6 +20330,9 @@ const rules = {
   "uvashop.es": {
     s: "#consentModal, .modal-backdrop { display: none !important; } html, body, .modal-open { overflow: visible !important; padding-right: 0 !important; }",
   },
+  "7dni.pila.pl": {
+    s: 'div:has([role="dialog"][aria-modal="true"][aria-label="Plansza informacyjna WP"]),[role="dialog"][aria-modal="true"][aria-label="Plansza informacyjna WP"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
