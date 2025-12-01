@@ -1029,7 +1029,7 @@ function getSelector(host) {
     case "voelkner.de":
     case "digitalo.de":
     case "getgoods.com":
-      return '.reveal__overlay[style*="block"] [data-cookie_consent="0"]';
+      return '.js_cookie_content button[data-cookie_consent="0"]';
 
     case "teb.pl":
     case "technikum.pl":
@@ -6858,8 +6858,6 @@ function getSelector(host) {
       );
     case "blackboard.com":
       return _sl(".CookieConsent #agree_button");
-    case "bytbil.com":
-      return _sl('.uk-modal[style*="block"] #privacyModalAcceptBtn');
     case "pointblankmusicschool.com":
       return _sl(
         '.fancybox-overlay[style*="block"] .accept[onclick*="cookieControl"]'
@@ -8419,6 +8417,10 @@ function getSelector(host) {
       return shadowQuerySelector("com-button#cmpDenyAll");
     case "zdf.de":
       return "button[data-testid='cmp-revoke-all']";
+    case "huk-autoservice.de":
+      return 'button[data-value="cookie-accept-necessary"]';
+    case "720dgree.de":
+      return '.overlay_bc_banner span[data-cookie-save=""]';
   }
 
   if (host.parts.length > 2) {

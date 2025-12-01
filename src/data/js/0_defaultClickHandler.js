@@ -208,6 +208,8 @@
 
   const searchGroups = [
     '.qc-cmp2-summary-buttons button#disagree-btn,\
+		.qc-cmp2-summary-buttons:not(:has(#disagree-btn)) #more-options-btn,\
+		.qc-cmp2-summary-buttons:not(:has(#disagree-btn)):not(:has(#more-options-btn)) button[mode="secondary"],\
 		.qc-cmp2-buttons-desktop > button:first-child,\
 		#didomi-popup .didomi-button-highlight:not([class*="paywall"]):not([class*="disagree"]),\
 		#rgpd_video .rgpd-mask a[data-rgpd-consent],\
@@ -498,7 +500,8 @@
 		#myCookieModal.in .cookie-button,\
 		div[data-cookie-path] a[href*="technologies/cookies"] + div,\
 		.disable--interaction .cm__btn[data-role=necessary],\
-		div[consent-skip-blocker] dialog[open] a[role="button"]:not([id$="-ext-0-255"]):not([class*="ext-1-414"])',
+		div[consent-skip-blocker] dialog[open] a[role="button"]:not([id$="-ext-0-255"]):not([class*="ext-1-414"]),\
+		div.consents .consents__wrapper .consents__modal .consents__buttons .js__accept-necessary',
   ];
 
   // Search loop function
@@ -510,13 +513,13 @@
 
   function searchLoop(counter) {
     setTimeout(function () {
+      timeoutDuration = 50;
       document.querySelectorAll(searchPairsJoinedKeys).forEach(function (box) {
         searchPairsKeys.forEach(function (selector) {
           if (box.matches(selector)) {
             (box.shadowRoot || box)
               .querySelectorAll(searchPairs[selector].join(","))
               .forEach(function (element) {
-                console.log("Default click handler activated on", element);
                 if (element.click && !element.classList.contains("idcac")) {
                   element.classList.add("idcac");
 
@@ -542,10 +545,10 @@
                         }
                         element.click();
                       }
-                    }, 300);
+                    }, 150);
                   }
-
-                  timeoutDuration += 300;
+                  console.log("Timeout for element click:", timeoutDuration);
+                  timeoutDuration += 150;
                 }
               });
           }
@@ -577,7 +580,8 @@
               }
             }, 300);
 
-            timeoutDuration += 300;
+            console.log("Timeout for element click:", timeoutDuration);
+            timeoutDuration += 100;
           }
         });
 
@@ -585,8 +589,6 @@
         searchLoop(counter + 1);
       }
     }, timeoutDuration);
-
-    timeoutDuration += 50;
   }
 
   const start = setInterval(function () {
