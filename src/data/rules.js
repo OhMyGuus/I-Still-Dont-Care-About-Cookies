@@ -20341,6 +20341,9 @@ const rules = {
     s: '[class*="_container_10tvz"]{display:none!important}',
   },
   "antwoordop.nl": { s: "#udtCookiebox,#udtDark{display:none!important}" },
+  "shop.bondix.de": {
+    s: "#shopify-pc__banner,#Compliance-cs-banner{display:none!important}",
+  },
 
   // end of const rules
 };
