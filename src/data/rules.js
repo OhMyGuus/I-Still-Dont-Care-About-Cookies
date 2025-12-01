@@ -13560,9 +13560,7 @@ const rules = {
   "blickpunkt-lateinamerika.de": { j: "5" },
   "bynco.com": { j: "5" },
   "varcevanje-energije.si": { j: "5" },
-  "neonet.pl": {
-    s: '[class*="cookiesBlockScss-root"], [class*="backdropScss-maskTop"] { display: none !important; visibility: hidden !important; pointer-events: none !important; }',
-  },
+  "neonet.pl": { s: "[class*=cookiesBlockScss]{display: none !important;}" },
   "talktalk.co.uk": { j: "5" },
   "deineapotheke.at": { j: "5" },
   "lebar.sncf.com": { j: "5" },
