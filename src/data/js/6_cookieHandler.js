@@ -787,6 +787,8 @@ function getE(hostname) {
       return [
         "hasConsent=value%3Drequired-only%3BcreationDate%3D9762385041866",
       ];
+    case "zdf.de":
+      return ["zdf_cmp_configuration=true"];
   }
 
   const parts = hostname.split(".");
