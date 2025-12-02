@@ -20382,6 +20382,7 @@ const rules = {
   "medifit-lingen.de": {
     s: ":is(.consent-banner-root.banner-consent-all,.module-blocker-root.module-blocker-consent-maps){display:none!important;}",
   },
+  "ricoche-aventure.fr": { s: ".cookie-consent { display: none !important; }" },
 
   // end of const rules
 };
