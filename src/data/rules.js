@@ -20366,6 +20366,9 @@ const rules = {
     s: "div:has(#cookie-consent),#safety-blur{display:none!important}",
   },
   "flysto.net": { s: ".banner.svelte-16j2c7a { display: none !important; }" },
+  "rudiheger.eu": {
+    s: ".acris-cookie-consent,.modal-backdrop.show{display:none!important}body{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
