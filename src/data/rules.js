@@ -8791,7 +8791,9 @@ const rules = {
     s: '.intercom-snippet > [class*="gdpr"]{display:none !important}',
   },
   "xsplit.com": { s: ".Toastify{display:none !important}" },
-  "widiba.it": { s: ".wd-cookies{display:none !important}" },
+  "widiba.it": {
+    s: ".data-consent-ribbon,iframe[id^=iframe_bol]{display:none!important}",
+  },
   "kupredudominulosti.cz": { s: "#ktCookieStatement{display:none !important}" },
   "guesty.com": { s: ".guesty-cookie-notice{display:none !important}" },
   "startdevchange.com": { s: ".cookies-nav{display:none !important}" },
