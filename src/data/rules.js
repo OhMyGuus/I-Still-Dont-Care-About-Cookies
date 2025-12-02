@@ -20377,6 +20377,7 @@ const rules = {
   "rog-forum.asus.com": {
     s: ".cassie-cookie-module{display:none!important}html,body{overflow:auto!important}",
   },
+  "dontenwill.de": { s: ".cc-wrap{display:none!important}" },
 
   // end of const rules
 };
