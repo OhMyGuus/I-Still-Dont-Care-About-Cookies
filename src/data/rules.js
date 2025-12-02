@@ -20377,6 +20377,9 @@ const rules = {
   "rog-forum.asus.com": {
     s: ".cassie-cookie-module{display:none!important}html,body{overflow:auto!important}",
   },
+  "shop-welt-der-kristalle.de": {
+    s: ".lightbox-backdrop.lightbox-backdrop-cc-dialog{display:none!important;}",
+  },
 
   // end of const rules
 };
