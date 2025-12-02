@@ -20377,6 +20377,9 @@ const rules = {
   "rog-forum.asus.com": {
     s: ".cassie-cookie-module{display:none!important}html,body{overflow:auto!important}",
   },
+  "digitalplan.schindler.com": {
+    s: 'div[id^="onetrust"]{display:none!important}html,body{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
