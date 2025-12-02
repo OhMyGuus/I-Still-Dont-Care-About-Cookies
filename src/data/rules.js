@@ -20418,6 +20418,9 @@ const rules = {
   "olg-hamm.nrw.de": {
     s: "#cookieAgree,#cookieRevert{display:none!important}",
   },
+  "technikplanet.de": {
+    s: "#c-pop[aria-modal=true]{display:none!important} body.cookieBar-active{overflow:auto!important}",
+  },
 
   // end of const rules
 };
