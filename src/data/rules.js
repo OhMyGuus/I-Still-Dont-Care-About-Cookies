@@ -20389,6 +20389,7 @@ const rules = {
   "kuebler.eu": {
     s: ".offcanvas.is-fullwidth.show,.offcanvas-backdrop.show{display:none!important}body{overflow:auto!important}",
   },
+  "hubsite365.com": { s: ".jss455{display:none!important}" },
 
   // end of const rules
 };
