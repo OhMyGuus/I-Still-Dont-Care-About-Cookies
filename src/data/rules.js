@@ -20383,6 +20383,9 @@ const rules = {
     s: ":is(.consent-banner-root.banner-consent-all,.module-blocker-root.module-blocker-consent-maps){display:none!important;}",
   },
   "ricoche-aventure.fr": { s: ".cookie-consent { display: none !important; }" },
+  "investopedia.com": {
+    s: "#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-pc-sdk,.onetrust-pc-dark-filter{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
