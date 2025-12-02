@@ -20430,6 +20430,9 @@ const rules = {
     s: '[consent-skip-blocker="1"]{display:none!important}html,body{overflow:auto!important;height:auto!important}',
   },
   "uctoday.com": { s: ".t-consentPrompt{display:none!important}" },
+  "help.autodoc.de": {
+    s: "dialog.cookies { display: none !important; } html,body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
