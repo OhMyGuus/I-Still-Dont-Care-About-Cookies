@@ -20415,6 +20415,9 @@ const rules = {
   "goryla.pl": {
     s: 'div[id^="cookie-popup"],button[id^="config-message-"]{display:none!important}',
   },
+  "olg-hamm.nrw.de": {
+    s: "#cookieAgree,#cookieRevert{display:none!important}",
+  },
 
   // end of const rules
 };
