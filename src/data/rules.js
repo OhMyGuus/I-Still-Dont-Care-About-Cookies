@@ -20392,6 +20392,9 @@ const rules = {
   },
   "hubsite365.com": { s: ".jss455{display:none!important}" },
   "theshortcut.com": { s: '[class*="cookieBanner"]{display:none!important}' },
+  "developer.tuya.com": {
+    s: "#consent_blackbar,#teconsent,#_th-trust{display:none!important}",
+  },
 
   // end of const rules
 };
