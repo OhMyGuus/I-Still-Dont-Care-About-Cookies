@@ -20426,6 +20426,9 @@ const rules = {
   "staatstheater-augsburg.de": {
     s: "aside { display: none !important; } body { overflow: auto !important; }",
   },
+  "thespruce.com": {
+    s: '[consent-skip-blocker="1"]{display:none!important}html,body{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
