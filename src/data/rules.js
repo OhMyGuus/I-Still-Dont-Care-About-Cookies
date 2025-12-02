@@ -20429,6 +20429,7 @@ const rules = {
   "thespruce.com": {
     s: '[consent-skip-blocker="1"]{display:none!important}html,body{overflow:auto!important;height:auto!important}',
   },
+  "uctoday.com": { s: ".t-consentPrompt{display:none!important}" },
 
   // end of const rules
 };
