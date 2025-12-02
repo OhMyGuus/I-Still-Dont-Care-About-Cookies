@@ -20395,6 +20395,7 @@ const rules = {
   "developer.tuya.com": {
     s: "#consent_blackbar,#teconsent,#_th-trust{display:none!important}",
   },
+  "freesvgeditor.com": { s: ".fixed.bottom-0.z-50{display:none!important}" },
 
   // end of const rules
 };
