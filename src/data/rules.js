@@ -20374,6 +20374,9 @@ const rules = {
   "baumbonheur.com": {
     s: "#cookie_style,#background-overlay,#background-overlay2{display:none!important;} html,body{overflow:auto!important;}",
   },
+  "rog-forum.asus.com": {
+    s: ".cassie-cookie-module{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
