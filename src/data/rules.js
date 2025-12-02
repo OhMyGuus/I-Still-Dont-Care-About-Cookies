@@ -20386,6 +20386,9 @@ const rules = {
   "investopedia.com": {
     s: "#onetrust-consent-sdk,#onetrust-banner-sdk,#onetrust-pc-sdk,.onetrust-pc-dark-filter{display:none!important} html,body{overflow:auto!important}",
   },
+  "kuebler.eu": {
+    s: ".offcanvas.is-fullwidth.show,.offcanvas-backdrop.show{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
