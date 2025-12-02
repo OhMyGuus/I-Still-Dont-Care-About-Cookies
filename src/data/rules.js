@@ -20398,6 +20398,9 @@ const rules = {
     s: "#consent_blackbar,#teconsent,#_th-trust{display:none!important}",
   },
   "freesvgeditor.com": { s: ".fixed.bottom-0.z-50{display:none!important}" },
+  "alle-lkw.de": {
+    s: "#d5_gdpr, #d5_customize_gdpr { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
