@@ -20412,6 +20412,9 @@ const rules = {
   "armourdog.com": {
     s: "#shopui-cookie-popup-container,#shopui-cookie-modal-container{display:none!important}html,body{overflow:auto!important}",
   },
+  "goryla.pl": {
+    s: 'div[id^="cookie-popup"],button[id^="config-message-"]{display:none!important}',
+  },
 
   // end of const rules
 };
