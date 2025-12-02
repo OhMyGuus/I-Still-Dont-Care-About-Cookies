@@ -15939,7 +15939,9 @@ const rules = {
     s: ".pointer-events-none{filter:unset !important; pointer-events:unset !important}",
   },
   "kteohellas.gr": { s: "#cookiesettings-dialog{display:none !important}" },
-  "shiftdelete.net": { s: ".banner{display:none !important}" },
+  "shiftdelete.net": {
+    s: ".fc-consent-root,#BildirtModal{display:none!important}html,body{overflow:auto!important}",
+  },
   "afaudio.co.uk": {
     s: "#cookiew{display:none !important}",
     c: 14,
