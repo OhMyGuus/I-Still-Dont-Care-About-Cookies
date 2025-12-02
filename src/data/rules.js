@@ -20377,6 +20377,9 @@ const rules = {
   "rog-forum.asus.com": {
     s: ".cassie-cookie-module{display:none!important}html,body{overflow:auto!important}",
   },
+  "llama.com": {
+    s: 'div:has([aria-label*="Allow the use of cookies"]){display:none!important}',
+  },
 
   // end of const rules
 };
