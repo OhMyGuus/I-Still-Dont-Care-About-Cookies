@@ -18356,7 +18356,9 @@ const rules = {
     s: '[data-js-module*="cookie-banner"]{display:none !important}',
     j: 5,
   },
-  "coopmobile.ch": { j: 5 },
+  "coopmobile.ch": {
+    s: ".bg-black.bg-opacity-30.fixed.z-9999{display:none!important}html,body{overflow:auto!important}",
+  },
   "ledenicheur.fr": { j: 5 },
   "pricespy.co.uk": { j: 5 },
   "hintaopas.fi": { j: 5 },
