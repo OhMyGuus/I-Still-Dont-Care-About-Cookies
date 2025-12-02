@@ -12926,7 +12926,9 @@ const rules = {
   "autohero.com": { j: "5" },
   "banknorwegian.de": { j: "5" },
   "passeidireto.com": { s: "pd-cookie-banner{display:none !important}" },
-  "mp.cz": { j: "5" },
+  "mp.cz": {
+    s: "#CybotCookiebotDialog{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
   "workwise.io": { j: "5" },
   "isc2.org": { s: ".notice--warning{display:none !important}" },
   "ebox-auto.com": { s: ".rgpd{display:none !important}" },
