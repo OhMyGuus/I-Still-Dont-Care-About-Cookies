@@ -20421,6 +20421,9 @@ const rules = {
   "technikplanet.de": {
     s: "#c-pop[aria-modal=true]{display:none!important} body.cookieBar-active{overflow:auto!important}",
   },
+  "staatstheater-augsburg.de": {
+    s: "aside { display: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
