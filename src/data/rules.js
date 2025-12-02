@@ -15084,7 +15084,9 @@ const rules = {
   "vitalsource.com": {
     s: '.dismiss-cookie,div[aria-describedby*="CookieBanner"],.App > footer + div[role="dialog"]{display:none !important}',
   },
-  "abb.com": { s: '.footer ~ div[style*="fixed"]{display:none !important}' },
+  "abb.com": {
+    s: "#cassie-widget{display:none!important}html,body{overflow:auto!important}",
+  },
   "trincheiramilitar.com": { s: ".gdpr-settings{display:none !important}" },
   "winparts.nl": { j: "5" },
   "winparts.be": { j: "5" },
