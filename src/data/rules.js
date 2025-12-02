@@ -20406,6 +20406,9 @@ const rules = {
   "architekturaibiznes.pl": {
     s: "#popupzgody-wrapper-main{display:none!important}body{overflow:auto!important}",
   },
+  "cybershoke.net": {
+    s: ".sc-ERObt,.modal__overlay{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
