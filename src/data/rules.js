@@ -20409,6 +20409,9 @@ const rules = {
   "cybershoke.net": {
     s: ".sc-ERObt,.modal__overlay{display:none!important}html,body{overflow:auto!important}",
   },
+  "armourdog.com": {
+    s: "#shopui-cookie-popup-container,#shopui-cookie-modal-container{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
