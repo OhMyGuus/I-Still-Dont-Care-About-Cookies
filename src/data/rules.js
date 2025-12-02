@@ -17095,7 +17095,7 @@ const rules = {
   },
   "badlion.net": { c: 85 },
   "empik.com": {
-    s: ".CookiesConsentsBannerRodo-module_wrapper__FOXmn, .CookiesConsentsBannerRodo-module_container__FC6VL, .CookiesConsentsBannerRodo-module_containerInfo__gM4Wd, .CookiesConsentsBannerRodo-module_background__ybICk, .InfoPage-module_buttonsDesktop__M6SUt, .InfoPage-module_buttonsMobile__U1TSO { display: none !important; }",
+    s: 'div[class*="CookiesConsentsBannerRodo-module_wrapper"]{display:none!important} :root,html,body{overflow:auto!important;height:auto!important}',
   },
   "play.esea.net": { c: 85 },
   "humanic.net": { c: 85 },
