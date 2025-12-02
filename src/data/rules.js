@@ -20377,6 +20377,9 @@ const rules = {
   "rog-forum.asus.com": {
     s: ".cassie-cookie-module{display:none!important}html,body{overflow:auto!important}",
   },
+  "isinolsun.com": {
+    s: ".fc-consent-root { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
