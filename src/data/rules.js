@@ -7538,7 +7538,9 @@ const rules = {
   "portal.lanis-system.de": { c: 7 },
   "zeit.de": { j: "5" },
   "astro.com": { s: ".botbanner,#priv.dsmessage{display:none !important}" },
-  "magyarorszag.hu": { j: "6" },
+  "magyarorszag.hu": {
+    s: ".os-dialog.show-modal, .os-cookie-banner { display: none !important; } body { overflow: auto !important; }",
+  },
   "zee5.com": { j: "5" },
   "overdrive.com": { j: "5" },
   "thefork.it": { s: "#root > div > p{display:none !important}" },
