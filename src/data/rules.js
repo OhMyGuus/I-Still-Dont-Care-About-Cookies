@@ -20401,6 +20401,9 @@ const rules = {
   "alle-lkw.de": {
     s: "#d5_gdpr, #d5_customize_gdpr { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "architekturaibiznes.pl": {
+    s: "#popupzgody-wrapper-main{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
