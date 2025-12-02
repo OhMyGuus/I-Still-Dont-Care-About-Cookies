@@ -15539,6 +15539,7 @@ const rules = {
   "fakenewsfrance.com": {
     s: "#js-cc-modal{display:none !important} html{overflow-y: unset !important}",
   },
+  "123inkt.be": { s: "[data-action=CookiePopup]{display:none!important}" },
   "123inkt.nl": { s: "[data-action=CookiePopup]{display:none!important}" },
   "123tinta.es": { s: "[data-action=CookiePopup]{display:none!important}" },
   "123drukuj.pl": { s: "[data-action=CookiePopup]{display:none!important}" },
