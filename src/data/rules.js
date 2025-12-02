@@ -20369,6 +20369,9 @@ const rules = {
   "rudiheger.eu": {
     s: ".acris-cookie-consent,.modal-backdrop.show{display:none!important}body{overflow:auto!important;padding-right:0!important}",
   },
+  "baumbonheur.com": {
+    s: "#cookie_style,#background-overlay,#background-overlay2{display:none!important;} html,body{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
