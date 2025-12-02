@@ -17331,7 +17331,9 @@ const rules = {
   "localrent.com": { s: ".privacy_policies{display:none !important}" },
   "epiphone.com": { s: "#cookieModal{display:none !important}" },
   "frenchentree.com": { s: ".dpl-cookie-banner{display:none !important}" },
-  "sonarworks.com": { s: "footer ~ .sticky{display:none !important}" },
+  "sonarworks.com": {
+    s: '#cookiescript_injected_wrapper{display:none!important} :is(html,body)[style*="overflow: hidden"]{overflow:auto!important} :is(html,body).cookiescript_overlay{overflow:auto!important}',
+  },
   "vecer.com": { s: 'div[x-show="show"] > .fixed{display:none !important}' },
   "veho.fi": { s: ".z-cookie-alert{display:none !important}" },
   "bau-tech.shop": { s: "#cookie-consent{display:none !important}" },
