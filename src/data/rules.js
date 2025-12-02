@@ -20391,6 +20391,7 @@ const rules = {
   },
   "hubsite365.com": { s: ".jss455{display:none!important}" },
   "theshortcut.com": { s: '[class*="cookieBanner"]{display:none!important}' },
+  "123inkt.be": { s: ".c-simple-popup{display:none!important;}" },
 
   // end of const rules
 };
