@@ -20445,6 +20445,9 @@ const rules = {
   "touroll.com": {
     s: "#cookies-wrapper, .ot-block-overlay, .react-responsive-modal-overlay { display: none !important; } :is(html,body,html[style],body[style]){ overflow: auto !important; height: auto !important; max-height: none !important; }",
   },
+  "unihosted.com": {
+    s: ".fixed.bottom-4.left-4.z-50.max-w-sm{display:none!important}",
+  },
 
   // end of const rules
 };
