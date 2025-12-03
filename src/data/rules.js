@@ -13089,7 +13089,9 @@ const rules = {
   "edumsko.ru": { j: "5" },
   "armegoszto.hu": { s: ".v-snack--bottom{display:none !important}" },
   "rekonise.com": { s: ".consent-snackbar{display:none !important}" },
-  "romeo.com": { j: "5" },
+  "romeo.com": {
+    s: ":is(div,section,dialog,form):has(#cookie_consent_accept_all_button){display:none!important;}html,body{overflow:auto!important;height:auto!important;}",
+  },
   "myoffice.ru": { c: 0 },
   "opensource.google": { c: 32 },
   "hsfo.dk": { j: "5" },
