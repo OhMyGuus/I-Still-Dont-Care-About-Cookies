@@ -20469,6 +20469,9 @@ const rules = {
   "architektura.um.warszawa.pl": {
     s: "#cc--main{display:none!important}html,body{overflow:auto!important}",
   },
+  "flexispot.de": {
+    s: "#gdprMask,#cmpbox,#cmpboxrecall{display:none!important}html,body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
