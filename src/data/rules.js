@@ -20432,6 +20432,9 @@ const rules = {
     s: '[consent-skip-blocker="1"]{display:none!important}html,body{overflow:auto!important;height:auto!important}',
   },
   "uctoday.com": { s: ".t-consentPrompt{display:none!important}" },
+  "transparency.entsoe.eu": {
+    s: "#uu5-portal-modal,#uu5-portal-alert{display:none!important}",
+  },
 
   // end of const rules
 };
