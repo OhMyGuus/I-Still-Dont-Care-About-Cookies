@@ -20466,6 +20466,9 @@ const rules = {
   "explorer.jito.wtf": {
     s: '#headlessui-portal-root,[id^="headlessui-dialog-"]{display:none!important}html,body{overflow:auto!important;padding-right:0!important}',
   },
+  "architektura.um.warszawa.pl": {
+    s: "#cc--main{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
