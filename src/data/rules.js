@@ -20458,6 +20458,9 @@ const rules = {
   "electricalworld.com": {
     s: "#termly-code-snippet-support{display:none!important;}",
   },
+  "tesco.ie": {
+    s: 'section[aria-label="consent-banner"],#onetrust-banner-sdk{display:none!important}',
+  },
 
   // end of const rules
 };
