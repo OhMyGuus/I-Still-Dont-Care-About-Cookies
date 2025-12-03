@@ -20442,6 +20442,7 @@ const rules = {
   "sprzetowo.pl": {
     s: "consents-modal, .consents-modal, .backdrop { display: none !important; }",
   },
+  "jlcmc.com": { s: ".jlc-wm-cookie-policy { display: none !important; }" },
 
   // end of const rules
 };
