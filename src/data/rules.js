@@ -20458,6 +20458,9 @@ const rules = {
   "electricalworld.com": {
     s: "#termly-code-snippet-support{display:none!important;}",
   },
+  "twinkl.ro": {
+    s: "[class*=cookie-consent-popup],.cookieConsentFooter{display:none!important}",
+  },
 
   // end of const rules
 };
