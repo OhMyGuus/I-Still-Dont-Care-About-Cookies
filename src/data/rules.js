@@ -20472,6 +20472,9 @@ const rules = {
   "flexispot.de": {
     s: "#gdprMask,#cmpbox,#cmpboxrecall{display:none!important}html,body{overflow:visible!important}",
   },
+  "retrosupply.co": {
+    s: '#shopify-pc__banner,[aria-label="Cookie Consent Prompt"]{display:none!important}',
+  },
 
   // end of const rules
 };
