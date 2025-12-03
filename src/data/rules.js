@@ -17655,7 +17655,9 @@ const rules = {
   "postnl.nl": {
     s: "pnl-cookie-wall-widget,#postnl-cookie-widget,.language-chooser__backdrop{display:none!important;visibility:hidden!important;height:0!important;width:0!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
-  "postnl.be": { s: "pnl-cookie-wall-widget{display:none !important}" },
+  "postnl.be": {
+    s: "pnl-cookie-wall-widget,#postnl-cookie-widget,.language-chooser__backdrop{display:none!important;visibility:hidden!important;height:0!important;width:0!important;pointer-events:none!important}html,body{overflow:auto!important}",
+  },
   "vente-unique.com": { s: "#vu_consent{display:none !important}" },
   "vente-unique.be": { s: "#vu_consent{display:none !important}" },
   "vente-unique.it": { s: "#vu_consent{display:none !important}" },
@@ -18829,9 +18831,6 @@ const rules = {
   "rosenheim.de": { j: 6 },
   "fugaziresearch.com": {
     s: 'div[class*="cookieBanner"] { display: none !important; }',
-  },
-  "tracking.postnl.nl": {
-    s: 'pnl-cookie-wall-widget, pnl-cookie-widget-overview, pnl-cookie-widget-settings { display: none !important; } body[style*="position: fixed"][style*="overflow: hidden"] { position: static !important; overflow: auto !important; width: auto !important; height: auto !important; }',
   },
   "webgo.de": {
     j: 5,
