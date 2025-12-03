@@ -20458,6 +20458,7 @@ const rules = {
   "electricalworld.com": {
     s: "#termly-code-snippet-support{display:none!important;}",
   },
+  "voyage.caaquebec.com": { s: "#didomi-notice { display: none !important; }" },
 
   // end of const rules
 };
