@@ -20455,6 +20455,9 @@ const rules = {
   "faphouse.com": {
     s: "#cookie-wall,.manage-cookie-sticky-banner{display:none!important;}",
   },
+  "electricalworld.com": {
+    s: "#termly-code-snippet-support{display:none!important;}",
+  },
 
   // end of const rules
 };
