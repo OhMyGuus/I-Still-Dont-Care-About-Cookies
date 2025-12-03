@@ -20463,6 +20463,9 @@ const rules = {
   "twinkl.ro": {
     s: "[class*=cookie-consent-popup],.cookieConsentFooter{display:none!important}",
   },
+  "explorer.jito.wtf": {
+    s: '#headlessui-portal-root,[id^="headlessui-dialog-"]{display:none!important}html,body{overflow:auto!important;padding-right:0!important}',
+  },
 
   // end of const rules
 };
