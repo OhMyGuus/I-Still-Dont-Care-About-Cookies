@@ -20435,6 +20435,9 @@ const rules = {
   "transparency.entsoe.eu": {
     s: "#uu5-portal-modal,#uu5-portal-alert{display:none!important}",
   },
+  "toredo.de": {
+    s: ".shadow-2xl.bottom-0.z-50.bg-white, #taCloseBtnOverlay { display: none !important; }",
+  },
 
   // end of const rules
 };
