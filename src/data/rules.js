@@ -20448,6 +20448,9 @@ const rules = {
   "unihosted.com": {
     s: ".fixed.bottom-4.left-4.z-50.max-w-sm{display:none!important}",
   },
+  "easypost.com": {
+    s: "#termly-code-snippet-support{display:none!important;}html,body{overflow:auto!important;height:auto!important;}",
+  },
 
   // end of const rules
 };
