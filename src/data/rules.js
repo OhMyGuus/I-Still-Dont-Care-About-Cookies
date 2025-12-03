@@ -20430,6 +20430,9 @@ const rules = {
     s: '[consent-skip-blocker="1"]{display:none!important}html,body{overflow:auto!important;height:auto!important}',
   },
   "uctoday.com": { s: ".t-consentPrompt{display:none!important}" },
+  "galaxus.nl": {
+    s: ":is(dialog.yo7XDsR, .yPA3Cr9, .yPA3Cr91, .yo7XDsR1, #blur_container, .yOaNPEZ, .yZkYbVQ) { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
