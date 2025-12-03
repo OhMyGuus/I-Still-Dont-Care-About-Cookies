@@ -20475,6 +20475,7 @@ const rules = {
   "retrosupply.co": {
     s: '#shopify-pc__banner,[aria-label="Cookie Consent Prompt"]{display:none!important}',
   },
+  "coffeepoint.ro": { s: ".ckPolicyGomag{display:none!important;}" },
 
   // end of const rules
 };
