@@ -20442,6 +20442,9 @@ const rules = {
     s: "consents-modal, .consents-modal, .backdrop { display: none !important; }",
   },
   "jlcmc.com": { s: ".jlc-wm-cookie-policy { display: none !important; }" },
+  "touroll.com": {
+    s: "#cookies-wrapper, .ot-block-overlay, .react-responsive-modal-overlay { display: none !important; } :is(html,body,html[style],body[style]){ overflow: auto !important; height: auto !important; max-height: none !important; }",
+  },
 
   // end of const rules
 };
