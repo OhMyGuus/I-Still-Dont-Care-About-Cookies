@@ -20458,6 +20458,9 @@ const rules = {
   "electricalworld.com": {
     s: "#termly-code-snippet-support{display:none!important;}",
   },
+  "mydesingel.paywashgo.com": {
+    s: ".t-consentPrompt{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
