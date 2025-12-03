@@ -20439,6 +20439,9 @@ const rules = {
     s: ".shadow-2xl.bottom-0.z-50.bg-white, #taCloseBtnOverlay { display: none !important; }",
   },
   "dokify.net": { s: "aside.cookies{display:none!important}" },
+  "jouw.postnl.be": {
+    s: "pnl-cookie-wall-widget { display: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
