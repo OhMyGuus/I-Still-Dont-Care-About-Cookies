@@ -20452,6 +20452,9 @@ const rules = {
     s: "#termly-code-snippet-support{display:none!important;}html,body{overflow:auto!important;height:auto!important;}",
   },
   "vaza.gr": { s: ".consent-container,.site-overlay{display:none!important}" },
+  "faphouse.com": {
+    s: "#cookie-wall,.manage-cookie-sticky-banner{display:none!important;}",
+  },
 
   // end of const rules
 };
