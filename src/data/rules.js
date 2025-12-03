@@ -20476,6 +20476,9 @@ const rules = {
     s: '#shopify-pc__banner,[aria-label="Cookie Consent Prompt"]{display:none!important}',
   },
   "coffeepoint.ro": { s: ".ckPolicyGomag{display:none!important;}" },
+  "ravensburger.us": {
+    s: "#consentModal,#consentManager{display:none!important} :is(html,body):has(.consent.show){overflow:auto!important} body:has(.consent.show) .modal-backdrop{display:none!important}",
+  },
 
   // end of const rules
 };
