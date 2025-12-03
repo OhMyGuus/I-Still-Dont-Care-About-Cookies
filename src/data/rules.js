@@ -10270,7 +10270,9 @@ const rules = {
   "rsj.com": { c: 0 },
   "pazarluk.com": { j: "5" },
   "vorteilshop.com": { j: "5" },
-  "personalshop.com": { j: "5" },
+  "personalshop.com": {
+    s: ":is(#modal-consent,#cookieStart,.modal-backdrop){display:none!important}body.modal-open{overflow:auto!important}",
+  },
   "chromeenterprise.google": {
     s: ".ce-cookie-banner{display:none !important}",
   },
