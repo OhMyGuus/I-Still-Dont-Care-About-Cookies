@@ -20438,6 +20438,7 @@ const rules = {
   "toredo.de": {
     s: ".shadow-2xl.bottom-0.z-50.bg-white, #taCloseBtnOverlay { display: none !important; }",
   },
+  "dokify.net": { s: "aside.cookies{display:none!important}" },
 
   // end of const rules
 };
