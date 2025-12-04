@@ -20485,6 +20485,9 @@ const rules = {
   "drtsoukalas.com": {
     s: ".cookie,.cookie-background{display:none!important}body{overflow:auto!important;margin-right:0!important}",
   },
+  "tech.wp.pl": {
+    s: ".wp-bg-layer-inner,[role=dialog]{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
