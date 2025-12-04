@@ -20482,6 +20482,9 @@ const rules = {
   "futononline.de": {
     s: "#cookie-consent,#cookie-popup--form,.js--overlay.theme--dark{display:none!important}html,body{overflow:auto!important}",
   },
+  "drtsoukalas.com": {
+    s: ".cookie,.cookie-background{display:none!important}body{overflow:auto!important;margin-right:0!important}",
+  },
 
   // end of const rules
 };
