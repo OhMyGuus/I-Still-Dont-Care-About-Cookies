@@ -20507,6 +20507,9 @@ const rules = {
   "foundationccc.one.telushealth.com": {
     s: ':not(html):not(body):has([aria-label*="cookie" i]){display:none!important}html,body{overflow:auto!important}',
   },
+  "wunderlich.de": {
+    s: "#ccm-widget,#ccm-control-panel{display:none!important}",
+  },
 
   // end of const rules
 };
