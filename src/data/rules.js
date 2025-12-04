@@ -20488,6 +20488,7 @@ const rules = {
   "einblasdaemmung.de": {
     s: "#modal_boxcookie_hinweis, .cookie_hinweis_mask { display: none !important; } html,body { overflow: auto !important; }",
   },
+  "tvplus.com.tr": { s: '[class*="consent" i]{display:none!important;}' },
 
   // end of const rules
 };
