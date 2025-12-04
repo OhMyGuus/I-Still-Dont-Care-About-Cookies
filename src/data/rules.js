@@ -20498,6 +20498,9 @@ const rules = {
   "billetterie.legilog.fr": {
     s: "#cookiesModal,#rgpd{display:none!important;}",
   },
+  "hcltransport.org.uk": {
+    s: '#PrivacySettings, .modal-backdrop { display: none !important; } body.modal-open, body[style*="overflow: hidden"] { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
