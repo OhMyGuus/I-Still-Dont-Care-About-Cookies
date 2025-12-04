@@ -20479,6 +20479,9 @@ const rules = {
   "ravensburger.us": {
     s: "#consentModal,#consentManager{display:none!important} :is(html,body):has(.consent.show){overflow:auto!important} body:has(.consent.show) .modal-backdrop{display:none!important}",
   },
+  "futononline.de": {
+    s: "#cookie-consent,#cookie-popup--form,.js--overlay.theme--dark{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
