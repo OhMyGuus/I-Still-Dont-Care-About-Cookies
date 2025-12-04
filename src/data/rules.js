@@ -20485,6 +20485,9 @@ const rules = {
   "drtsoukalas.com": {
     s: ".cookie,.cookie-background{display:none!important}body{overflow:auto!important;margin-right:0!important}",
   },
+  "einblasdaemmung.de": {
+    s: "#modal_boxcookie_hinweis, .cookie_hinweis_mask { display: none !important; } html,body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
