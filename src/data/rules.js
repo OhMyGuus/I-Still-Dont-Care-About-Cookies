@@ -20501,6 +20501,9 @@ const rules = {
   "hcltransport.org.uk": {
     s: '#PrivacySettings, .modal-backdrop { display: none !important; } body.modal-open, body[style*="overflow: hidden"] { overflow: auto !important; }',
   },
+  "british-market-stall.sumupstore.com": {
+    s: "[data-selector=cookie-banner],[role=dialog][data-vaul-drawer-direction=bottom]{display:none!important}",
+  },
 
   // end of const rules
 };
