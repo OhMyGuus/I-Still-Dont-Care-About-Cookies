@@ -20504,6 +20504,9 @@ const rules = {
   "british-market-stall.sumupstore.com": {
     s: "[data-selector=cookie-banner],[role=dialog][data-vaul-drawer-direction=bottom]{display:none!important}",
   },
+  "foundationccc.one.telushealth.com": {
+    s: ':not(html):not(body):has([aria-label*="cookie" i]){display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
