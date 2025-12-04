@@ -20507,6 +20507,9 @@ const rules = {
   "foundationccc.one.telushealth.com": {
     s: ':not(html):not(body):has([aria-label*="cookie" i]){display:none!important}html,body{overflow:auto!important}',
   },
+  "metal.de": {
+    s: "#qc-cmp2-container { display:none!important; } body#home { overflow:auto!important; }",
+  },
 
   // end of const rules
 };
