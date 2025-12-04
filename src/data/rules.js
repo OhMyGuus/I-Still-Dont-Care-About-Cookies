@@ -20479,6 +20479,9 @@ const rules = {
   "ravensburger.us": {
     s: "#consentModal,#consentManager{display:none!important} :is(html,body):has(.consent.show){overflow:auto!important} body:has(.consent.show) .modal-backdrop{display:none!important}",
   },
+  "tatilsepeti.com": {
+    s: ".footer__bottom__downside__cookies { display: none !important; }",
+  },
 
   // end of const rules
 };
