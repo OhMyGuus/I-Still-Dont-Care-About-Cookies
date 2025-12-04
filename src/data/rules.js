@@ -20495,6 +20495,9 @@ const rules = {
   "beds.ie": {
     s: "#termly-code-snippet-support,#cookie-status{display: none !important;}",
   },
+  "billetterie.legilog.fr": {
+    s: "#cookiesModal,#rgpd{display:none!important;}",
+  },
 
   // end of const rules
 };
