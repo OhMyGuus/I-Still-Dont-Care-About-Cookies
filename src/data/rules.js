@@ -20507,6 +20507,9 @@ const rules = {
   "foundationccc.one.telushealth.com": {
     s: ':not(html):not(body):has([aria-label*="cookie" i]){display:none!important}html,body{overflow:auto!important}',
   },
+  "auth.hbomax.com": {
+    s: "#layer-root-modal { display: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
