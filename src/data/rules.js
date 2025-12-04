@@ -20492,6 +20492,9 @@ const rules = {
   "sklepzalkoholami.pl": {
     s: ".jconfirm,#overlay{display:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
+  "beds.ie": {
+    s: "#termly-code-snippet-support,#cookie-status{display: none !important;}",
+  },
 
   // end of const rules
 };
