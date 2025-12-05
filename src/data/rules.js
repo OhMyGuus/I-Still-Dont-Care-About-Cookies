@@ -20523,6 +20523,9 @@ const rules = {
     s: ".consent-banner-root.banner-consent-all{display:none!important}html:has(.consent-banner-root.banner-consent-all),body:has(.consent-banner-root.banner-consent-all){overflow:auto!important}",
   },
   "fullamoda.com": { s: ".cookiePolicy-Modal{display:none!important}" },
+  "portestmartin.com": {
+    s: "#tarteaucitronRoot,#hide-back{display:none!important}html{overflow:auto!important}",
+  },
 
   // end of const rules
 };
