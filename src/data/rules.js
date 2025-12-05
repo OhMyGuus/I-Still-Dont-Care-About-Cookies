@@ -20565,6 +20565,9 @@ const rules = {
   "dwyn.ro": {
     s: "#consent-modal,.modal-backdrop{display:none!important}html,body{overflow:auto!important}",
   },
+  "matprat.no": {
+    s: "#cookies-popup-root{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
