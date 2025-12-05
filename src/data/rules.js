@@ -20526,6 +20526,7 @@ const rules = {
   "portestmartin.com": {
     s: "#tarteaucitronRoot,#hide-back{display:none!important}html{overflow:auto!important}",
   },
+  "futebolpaulista.com.br": { s: "#panelCookies{display:none!important}" },
 
   // end of const rules
 };
