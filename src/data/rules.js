@@ -20553,6 +20553,9 @@ const rules = {
   "typearture.com": {
     s: ".t-consentPrompt,#termly-code-snippet-support{display:none!important}",
   },
+  "roesle.com": {
+    s: "#ccAcivateModal,.modal-backdrop{display:none!important} html,body{overflow:visible!important;padding-right:0!important;min-height:auto!important}",
+  },
 
   // end of const rules
 };
