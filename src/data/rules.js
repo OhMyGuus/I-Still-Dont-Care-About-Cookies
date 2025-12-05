@@ -19562,6 +19562,10 @@ const rules = {
     s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
     c: 85,
   },
+  "autodoc.at": {
+    s: "div[data-terms-cookies-popup-common],.overlay{display:none!important}",
+    c: 85,
+  },
   "galaxus.fr": { j: 6 },
   "tickets.vws-siegen.de": { j: 5 },
   "marianos.com": {
@@ -20506,9 +20510,6 @@ const rules = {
   },
   "foundationccc.one.telushealth.com": {
     s: ':not(html):not(body):has([aria-label*="cookie" i]){display:none!important}html,body{overflow:auto!important}',
-  },
-  "auto-doc.at": {
-    s: "[data-popup-cookies],.overlay{display:none!important;}body.fixed{overflow:auto!important;padding-right:0!important;}",
   },
 
   // end of const rules
