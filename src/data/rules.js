@@ -20538,6 +20538,9 @@ const rules = {
   "unternehmer-werden.at": {
     s: '#myModal,#show_cookie_constent{display:none!important} body[style*="overflow: hidden"],html,body.home{overflow:auto!important}',
   },
+  "kartamiejska.um.gorzow.pl": {
+    s: ".new-cp.js-cp-box { display: none !important; }",
+  },
 
   // end of const rules
 };
