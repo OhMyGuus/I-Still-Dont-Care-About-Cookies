@@ -20556,6 +20556,9 @@ const rules = {
   "roesle.com": {
     s: "#ccAcivateModal,.modal-backdrop{display:none!important} html,body{overflow:visible!important;padding-right:0!important;min-height:auto!important}",
   },
+  "orpha.net": {
+    s: '[id^="tarteaucitron"]{display:none!important;}html,body{overflow:auto!important;height:auto!important;}',
+  },
 
   // end of const rules
 };
