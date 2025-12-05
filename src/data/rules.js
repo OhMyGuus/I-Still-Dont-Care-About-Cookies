@@ -20578,6 +20578,9 @@ const rules = {
   "visto-shop.com": {
     s: '.offcanvas:has(.offcanvas-cookie), .offcanvas-backdrop { display: none !important; } body[style*="overflow: hidden"], body.is-ctl-navigation.is-act-home { overflow: auto !important; padding-right: 0 !important; }',
   },
+  "santandercib.com": {
+    s: "#sliding-popup, .eu-cookie-compliance-banner { display: none !important; } body.eu-cookie-compliance-popup-open { overflow: auto !important; margin-right: 0 !important; }",
+  },
 
   // end of const rules
 };
