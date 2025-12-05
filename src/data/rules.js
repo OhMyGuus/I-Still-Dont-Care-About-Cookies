@@ -20532,6 +20532,9 @@ const rules = {
   "posthog.com": {
     s: "ol.fixed.bottom-4.right-4.z-50 { display: none !important; }",
   },
+  "joycemeyer.org": {
+    s: "#termly-code-snippet-support{display:none!important}",
+  },
 
   // end of const rules
 };
