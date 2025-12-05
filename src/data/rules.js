@@ -14027,7 +14027,9 @@ const rules = {
     s: 'div[class*="cookie__show"]{display:none !important}',
   },
   "groupeonepoint.com": { j: "5" },
-  "dnb.no": { j: "5" },
+  "dnb.no": {
+    s: ".cookie-popup{display:none!important} body,html{overflow:auto!important;height:auto!important}",
+  },
   "wwf.fi": { j: "5" },
   "wwf.ru": { s: ".is-header-message-dock{display:none !important}" },
   "bever.nl": { j: "5" },
