@@ -20559,6 +20559,9 @@ const rules = {
   "orpha.net": {
     s: '[id^="tarteaucitron"]{display:none!important;}html,body{overflow:auto!important;height:auto!important;}',
   },
+  "online-sport.cz": {
+    s: '[id^="lightbox"]{display:none!important} #body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
