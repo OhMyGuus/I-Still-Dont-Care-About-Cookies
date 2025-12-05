@@ -20519,6 +20519,9 @@ const rules = {
   "mojaljekarna.hr": {
     s: '[id^="lgcookieslaw_banner_"],.lgcookieslaw-modal,.lgcookieslaw-overlay,.lgcookieslaw-fixed-button{display:none!important}',
   },
+  "plataformabrihuega.com": {
+    s: ".consent-banner-root.banner-consent-all{display:none!important}html:has(.consent-banner-root.banner-consent-all),body:has(.consent-banner-root.banner-consent-all){overflow:auto!important}",
+  },
 
   // end of const rules
 };
