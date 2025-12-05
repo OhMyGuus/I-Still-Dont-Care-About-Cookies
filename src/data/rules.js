@@ -20575,6 +20575,9 @@ const rules = {
     s: ":is(#cookie-banner,#adopt-controller-button,[data-testid=privacy-warning]){display:none!important;}",
   },
   "brainhub.eu": { s: ".fs-consent_component{display:none!important;}" },
+  "visto-shop.com": {
+    s: '.offcanvas:has(.offcanvas-cookie), .offcanvas-backdrop { display: none !important; } body[style*="overflow: hidden"], body.is-ctl-navigation.is-act-home { overflow: auto !important; padding-right: 0 !important; }',
+  },
 
   // end of const rules
 };
