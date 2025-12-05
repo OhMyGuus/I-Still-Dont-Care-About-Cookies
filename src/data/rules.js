@@ -20510,6 +20510,9 @@ const rules = {
     s: ':not(html):not(body):has([aria-label*="cookie" i]){display:none!important}html,body{overflow:auto!important}',
   },
   "metastock.com": { s: "#cookie { display: none !important; }" },
+  "mojaljekarna.hr": {
+    s: '[id^="lgcookieslaw_banner_"],.lgcookieslaw-modal,.lgcookieslaw-overlay,.lgcookieslaw-fixed-button{display:none!important}',
+  },
 
   // end of const rules
 };
