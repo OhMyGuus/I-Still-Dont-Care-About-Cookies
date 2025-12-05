@@ -10750,7 +10750,9 @@ const rules = {
   "dish.co": { s: ".mod-cookie-consent{display:none !important}", j: "5" },
   "poool.tech": { s: "#app > .fade-in-enter-done{display:none !important}" },
   "poool.fr": { s: "#app > .fade-in-enter-done{display:none !important}" },
-  "tme.eu": { j: "5" },
+  "tme.eu": {
+    s: '[id^="CybotCookiebotDialog"],#react-cookiebot-unresolved{display:none!important} body[style*="overflow: hidden"],body[style*="overflow:hidden"]{overflow:auto!important;height:auto!important}',
+  },
   "tme.com": { j: "5" },
   "txone-networks.com": { s: "#cookies_msak{display:none !important}" },
   "eldirectorio.co": { c: 3 },
