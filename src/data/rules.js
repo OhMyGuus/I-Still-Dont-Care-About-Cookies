@@ -20547,6 +20547,9 @@ const rules = {
   "stockopedia.com": {
     s: '.stk-cookie-preferences[data-id="stk-preferences-container"]{display:none!important} body{overflow:auto!important}',
   },
+  "instytutsprawobywatelskich.pl": {
+    s: "#cookie-consent-modal{display:none!important;}",
+  },
 
   // end of const rules
 };
