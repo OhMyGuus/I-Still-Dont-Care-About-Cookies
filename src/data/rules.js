@@ -20550,6 +20550,9 @@ const rules = {
   "instytutsprawobywatelskich.pl": {
     s: "#cookie-consent-modal{display:none!important;}",
   },
+  "typearture.com": {
+    s: ".t-consentPrompt,#termly-code-snippet-support{display:none!important}",
+  },
 
   // end of const rules
 };
