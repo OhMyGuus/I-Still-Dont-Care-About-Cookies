@@ -8401,7 +8401,7 @@ const rules = {
   "kbs.co.kr": { s: ".chrome_pick{display:none !important}" },
   "amarilisonline.com": { c: 0 },
   "agglo2b.fr": { s: "#tracker-warning{display:none !important}" },
-  "kufar.by": { j: "6" },
+  "kufar.by": { s: ".Modal_styles_overlay__AtdEk{display:none!important}" },
   "gramatica-alemana.es": { j: "5" },
   "bazilik.media": { s: ".bz-cookie{display:none !important}" },
   "luebecker-bucht.guide": {
