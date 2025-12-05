@@ -20522,6 +20522,7 @@ const rules = {
   "plataformabrihuega.com": {
     s: ".consent-banner-root.banner-consent-all{display:none!important}html:has(.consent-banner-root.banner-consent-all),body:has(.consent-banner-root.banner-consent-all){overflow:auto!important}",
   },
+  "fullamoda.com": { s: ".cookiePolicy-Modal{display:none!important}" },
 
   // end of const rules
 };
