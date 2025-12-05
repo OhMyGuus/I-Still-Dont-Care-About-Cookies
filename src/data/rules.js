@@ -20562,6 +20562,9 @@ const rules = {
   "online-sport.cz": {
     s: '[id^="lightbox"]{display:none!important} #body{overflow:auto!important}',
   },
+  "dwyn.ro": {
+    s: "#consent-modal,.modal-backdrop{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
