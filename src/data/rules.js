@@ -20507,6 +20507,9 @@ const rules = {
   "foundationccc.one.telushealth.com": {
     s: ':not(html):not(body):has([aria-label*="cookie" i]){display:none!important}html,body{overflow:auto!important}',
   },
+  "newnoisemagazine.com": {
+    s: '.fc-consent-root{display:none!important} :is(html,body)[style*="overflow: hidden"]{overflow:visible!important}',
+  },
 
   // end of const rules
 };
