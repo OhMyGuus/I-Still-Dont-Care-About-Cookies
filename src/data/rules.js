@@ -20507,6 +20507,7 @@ const rules = {
   "foundationccc.one.telushealth.com": {
     s: ':not(html):not(body):has([aria-label*="cookie" i]){display:none!important}html,body{overflow:auto!important}',
   },
+  "bleepingcomputer.com": { s: ".qc-cmp2-container{display:none!important}" },
 
   // end of const rules
 };
