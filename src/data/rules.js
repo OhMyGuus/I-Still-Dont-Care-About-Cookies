@@ -20571,6 +20571,9 @@ const rules = {
   "kinepolis.fr": {
     s: "#legal-banner,#cmpwrapper,#hover-disable-site,#disable-site{display:none!important}",
   },
+  "app.genialinvestimentos.com.br": {
+    s: ":is(#cookie-banner,#adopt-controller-button,[data-testid=privacy-warning]){display:none!important;}",
+  },
 
   // end of const rules
 };
