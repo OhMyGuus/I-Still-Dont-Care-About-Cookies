@@ -20581,6 +20581,9 @@ const rules = {
   "sinlist.chemsec.org": {
     s: ".overlay-container { display: none !important; }",
   },
+  "goudseschouwburg.nl": {
+    s: "#eagerly-tools-cookie,#eagerly-tools-cookie-overlay,#eagerly-tools-cookie-btn{display:none!important} html.cookie-disable-scrolling,body.cookie-disable-scrolling{overflow:auto!important}",
+  },
 
   // end of const rules
 };
