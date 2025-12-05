@@ -20568,6 +20568,9 @@ const rules = {
   "matprat.no": {
     s: "#cookies-popup-root{display:none!important}html,body{overflow:auto!important}",
   },
+  "kinepolis.fr": {
+    s: "#legal-banner,#cmpwrapper,#hover-disable-site,#disable-site{display:none!important}",
+  },
 
   // end of const rules
 };
