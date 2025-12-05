@@ -20535,6 +20535,9 @@ const rules = {
   "joycemeyer.org": {
     s: "#termly-code-snippet-support{display:none!important}",
   },
+  "unternehmer-werden.at": {
+    s: '#myModal,#show_cookie_constent{display:none!important} body[style*="overflow: hidden"],html,body.home{overflow:auto!important}',
+  },
 
   // end of const rules
 };
