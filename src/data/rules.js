@@ -20507,6 +20507,9 @@ const rules = {
   "foundationccc.one.telushealth.com": {
     s: ':not(html):not(body):has([aria-label*="cookie" i]){display:none!important}html,body{overflow:auto!important}',
   },
+  "horizon.meta.com": {
+    s: '[role="dialog"]:has([aria-label="Allow essential cookies"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
