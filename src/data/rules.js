@@ -20544,6 +20544,9 @@ const rules = {
   "such.chat": {
     s: ".modal-cookie{display:none!important}html,body{overflow:auto!important}",
   },
+  "stockopedia.com": {
+    s: '.stk-cookie-preferences[data-id="stk-preferences-container"]{display:none!important} body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
