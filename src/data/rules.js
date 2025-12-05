@@ -20527,6 +20527,9 @@ const rules = {
     s: "#tarteaucitronRoot,#hide-back{display:none!important}html{overflow:auto!important}",
   },
   "futebolpaulista.com.br": { s: "#panelCookies{display:none!important}" },
+  "posthog.com": {
+    s: "ol.fixed.bottom-4.right-4.z-50 { display: none !important; }",
+  },
 
   // end of const rules
 };
