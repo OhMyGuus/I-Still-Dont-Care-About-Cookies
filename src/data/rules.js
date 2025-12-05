@@ -20556,6 +20556,9 @@ const rules = {
   "roesle.com": {
     s: "#ccAcivateModal,.modal-backdrop{display:none!important} html,body{overflow:visible!important;padding-right:0!important;min-height:auto!important}",
   },
+  "sandos.es": {
+    s: ".tingle-modal.gdpr-cookie-message.gdpr-cookie-default-message{display:none!important}body.tingle-enabled{overflow:auto!important}",
+  },
 
   // end of const rules
 };
