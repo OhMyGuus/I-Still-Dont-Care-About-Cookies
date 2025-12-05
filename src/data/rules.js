@@ -20574,6 +20574,7 @@ const rules = {
   "app.genialinvestimentos.com.br": {
     s: ":is(#cookie-banner,#adopt-controller-button,[data-testid=privacy-warning]){display:none!important;}",
   },
+  "brainhub.eu": { s: ".fs-consent_component{display:none!important;}" },
 
   // end of const rules
 };
