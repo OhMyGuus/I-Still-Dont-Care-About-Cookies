@@ -5748,7 +5748,9 @@ const rules = {
   "voetbalnederland.nl": {
     s: 'body > div[style*="border"]{display:none !important}',
   },
-  "walmart.ca": { j: "5" },
+  "walmart.ca": {
+    s: "section:has(h2.tc.relative){display:none!important}body.overflow-y-hidden{overflow-y:auto!important}",
+  },
   "pearlizumi-eu.com": { s: ".cc_notification{display:none !important}" },
   "byggshop.se": { j: "6" },
   "seaheroquest.gr": { s: ".tab-cookies{display:none !important}" },
