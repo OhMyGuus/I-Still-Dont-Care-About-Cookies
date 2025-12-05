@@ -20507,6 +20507,9 @@ const rules = {
   "foundationccc.one.telushealth.com": {
     s: ':not(html):not(body):has([aria-label*="cookie" i]){display:none!important}html,body{overflow:auto!important}',
   },
+  "residences-immobilier.com": {
+    s: '#modal-cookies,#modal-cookies~.modal-backdrop{display:none!important} body.modal-open,body[style*="overflow:hidden"]{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
