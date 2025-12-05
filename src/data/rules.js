@@ -10619,7 +10619,9 @@ const rules = {
   },
   "easyswimportal.com": { j: "5" },
   "euprava.gov.rs": { s: "#bottom-popup{display:none !important}" },
-  "itv4.de": { s: ".cookieModal{display:none !important}" },
+  "itv4.de": {
+    s: ".a210c { display: none !important; } html, body { overflow: auto !important; position: static !important; height: auto !important; }",
+  },
   "banknorwegian.dk": { j: "5" },
   "gartencenter-seebauer.de": { j: "5" },
   "onlineradiobox.com": { c: 161 },
