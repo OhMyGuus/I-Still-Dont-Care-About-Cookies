@@ -14617,7 +14617,9 @@ const rules = {
   "xp-pen.com": { s: ".cookie_tag{display:none !important}" },
   "xp-pen.de": { s: ".cookie_tag{display:none !important}" },
   "robinhood.com": { j: "5" },
-  "innn.it": { s: "#cookieConsentModal ~ div{display:none !important}" },
+  "innn.it": {
+    s: '[aria-label="Cookie-Banner"] { display: none !important; }',
+  },
   "factoryberlin.com": {
     s: '.flyntComponent[is*="cookie-optin"]{display:none !important}',
   },
