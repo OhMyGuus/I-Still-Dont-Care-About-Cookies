@@ -20541,6 +20541,9 @@ const rules = {
   "kartamiejska.um.gorzow.pl": {
     s: ".new-cp.js-cp-box { display: none !important; }",
   },
+  "such.chat": {
+    s: ".modal-cookie{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
