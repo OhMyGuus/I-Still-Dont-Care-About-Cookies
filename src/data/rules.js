@@ -20577,9 +20577,7 @@ const rules = {
   "thesolutionshop.com": { s: ".cookie{display:none!important}" },
   "bmwsb.bund.de": { j: 6 },
   "autobahn.de": { j: 6 },
-  "fruugoschweiz.com": {
-    s: "#modal-consent,.modal-backdrop{display:none!important}html,body{overflow:auto!important}",
-  },
+  "fruugoschweiz.com": { j: 6 },
 
   // end of const rules
 };
