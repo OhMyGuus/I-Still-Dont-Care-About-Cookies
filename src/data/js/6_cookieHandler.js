@@ -815,6 +815,8 @@ function getE(hostname) {
       return ["cookie_consent=denied"];
     case "caf.fr":
       return ["cookie-agreed-version=1.0.0", "cookie-agreed=1"];
+    case "empik.com":
+      return ["cc=", "cp=", "cva=W5.1", "cvc=T"];
   }
 
   const parts = hostname.split(".");
