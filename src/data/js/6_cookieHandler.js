@@ -823,6 +823,8 @@ function getE(hostname) {
       return ["gsbbanner=closed"];
     case "autobahn.de":
       return ["CookieConsent=mandatory"];
+    case "fruugoschweiz.com":
+      return ["consents=essential"];
   }
 
   const parts = hostname.split(".");
