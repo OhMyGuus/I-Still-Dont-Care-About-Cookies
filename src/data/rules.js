@@ -20582,6 +20582,9 @@ const rules = {
     s: 'div[style*="position: fixed; overflow: visible; top: 0px; left: 0px; transform: translate(0px, 0px);"]:has(a[href*="user-agreement_giseort"]) { display: none !important; }',
   },
   "outspot.be": { j: 5 },
+  "inc-conso.fr": {
+    s: ".os-dialog.show-modal, .os-cookie-banner { display: none !important; } body { overflow: auto !important; margin-right: 0 !important; }",
+  },
 
   // end of const rules
 };
