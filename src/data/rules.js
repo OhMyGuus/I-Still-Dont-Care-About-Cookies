@@ -20581,6 +20581,9 @@ const rules = {
   "ms-edu.tatar.ru": {
     s: 'div[style*="position: fixed; overflow: visible; top: 0px; left: 0px; transform: translate(0px, 0px);"]:has(a[href*="user-agreement_giseort"]) { display: none !important; }',
   },
+  "fenerium.com": {
+    s: ":is(#cookieModal[data-cookie-service],.backdrop[data-class=show],.modal-backdrop.fade.show){display:none!important}body.modal-open{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
