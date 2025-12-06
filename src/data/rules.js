@@ -20597,6 +20597,9 @@ const rules = {
   "leguidedufromage.com": {
     s: "[id^=mycmp-]{display:none!important} :root,body{overflow:auto!important}",
   },
+  "sciencealert.com": {
+    s: '[id^="sp_message_"] { display: none !important; } html,body,html[style],body[style] { overflow: auto !important; height: auto !important; }',
+  },
 
   // end of const rules
 };
