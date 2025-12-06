@@ -817,6 +817,8 @@ function getE(hostname) {
       return ["cookie-agreed-version=1.0.0", "cookie-agreed=1"];
     case "character.ai":
       return ["cookie_consent_v1=reject_all"];
+    case "bmwsb.bund.de":
+      return ["gsbbanner=closed"];
   }
 
   const parts = hostname.split(".");

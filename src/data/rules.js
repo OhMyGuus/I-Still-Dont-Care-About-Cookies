@@ -20598,6 +20598,7 @@ const rules = {
     s: "[id^=mycmp-]{display:none!important} :root,body{overflow:auto!important}",
   },
   "thesolutionshop.com": { s: ".cookie{display:none!important}" },
+  "bmwsb.bund.de": { j: 6 },
 
   // end of const rules
 };
