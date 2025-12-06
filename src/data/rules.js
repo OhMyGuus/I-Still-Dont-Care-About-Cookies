@@ -20597,6 +20597,7 @@ const rules = {
   "leguidedufromage.com": {
     s: "[id^=mycmp-]{display:none!important} :root,body{overflow:auto!important}",
   },
+  "thesolutionshop.com": { s: ".cookie{display:none!important}" },
 
   // end of const rules
 };
