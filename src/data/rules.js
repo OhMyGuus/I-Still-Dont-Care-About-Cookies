@@ -20598,6 +20598,7 @@ const rules = {
   "thesolutionshop.com": { s: ".cookie{display:none!important}" },
   "bmwsb.bund.de": { j: 6 },
   "autobahn.de": { j: 6 },
+  "aponorm.de": { s: ".wcc-consent-container { display: none !important; }" },
 
   // end of const rules
 };
