@@ -20581,6 +20581,9 @@ const rules = {
   "ms-edu.tatar.ru": {
     s: 'div[style*="position: fixed; overflow: visible; top: 0px; left: 0px; transform: translate(0px, 0px);"]:has(a[href*="user-agreement_giseort"]) { display: none !important; }',
   },
+  "outspot.be": {
+    s: 'ion-modal[id^="ion-overlay-"]:has(#modal-title),ion-backdrop.sc-ion-loading-ios.backdrop-no-tappable{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
