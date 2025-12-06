@@ -825,6 +825,10 @@ function getE(hostname) {
       return ["CookieConsent=mandatory"];
     case "fruugoschweiz.com":
       return ["consents=essential"];
+    case "laserdelux.pl":
+      return [
+        "cookie-consent-v2=%7B%22ad_storage%22%3A%22denied%22%2C%22analytics_storage%22%3A%22denied%22%2C%22functionality_storage%22%3A%22denied%22%2C%22personalization_storage%22%3A%22denied%22%2C%22security_storage%22%3A%22granted%22%2C%22ad_user_data%22%3A%22denied%22%2C%22ad_personalization%22%3A%22denied%22%7D",
+      ];
   }
 
   const parts = hostname.split(".");

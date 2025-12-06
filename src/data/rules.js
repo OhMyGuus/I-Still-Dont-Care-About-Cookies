@@ -20578,6 +20578,7 @@ const rules = {
   "bmwsb.bund.de": { j: 6 },
   "autobahn.de": { j: 6 },
   "fruugoschweiz.com": { j: 6 },
+  "laserdelux.pl": { j: 6 },
 
   // end of const rules
 };
