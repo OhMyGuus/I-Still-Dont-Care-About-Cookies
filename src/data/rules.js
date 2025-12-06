@@ -20588,6 +20588,9 @@ const rules = {
   "celebrities-feet.com": {
     s: ':is([x-data*="openCookieLaw"],[x-data*="adBlockDetector"]){display:none!important}',
   },
+  "poczta.o2.pl": {
+    s: ".cookie-consent-banner{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
