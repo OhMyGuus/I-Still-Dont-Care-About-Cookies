@@ -16454,7 +16454,9 @@ const rules = {
   "deskmat.io": { s: 'div[class*="CookieThingy"]{display:none !important}' },
   "cyscale.com": { s: ".banner-enter-done,.overlay{display:none !important}" },
   "sescsp.org.br": { s: ".container-policy,.overlay{display:none !important}" },
-  "timeweb.cloud": { s: ".cc{display:none !important}" },
+  "timeweb.cloud": {
+    s: ".inset-x-0.bottom-0.z-50:has(p){display:none!important;}body{overflow:auto!important;}",
+  },
   "schaffer-polska.pl": { s: "#pnscookie{display:none !important}" },
   "ecclesiae.com.br": { s: ".box-aceite-privacidade{display:none !important}" },
   "designalive.pl": { s: ".advancedCookiesPopup{display:none !important}" },
