@@ -20587,6 +20587,9 @@ const rules = {
   "pota.radioexperiences.net": {
     s: ".p-overlay-mask,.p-dialog.p-component{display:none!important}body{overflow:auto!important}",
   },
+  "celebrities-feet.com": {
+    s: ':is([x-data*="openCookieLaw"],[x-data*="adBlockDetector"]){display:none!important}',
+  },
 
   // end of const rules
 };
