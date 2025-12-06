@@ -20579,7 +20579,7 @@ const rules = {
   "autobahn.de": { j: 6 },
   "fruugoschweiz.com": { j: 6 },
   "ms-edu.tatar.ru": {
-    s: 'div[style*="position: fixed"]:has(a[href*="user-agreement_giseort"]) { display: none !important; }',
+    s: 'div[style*="position: fixed; overflow: visible; top: 0px; left: 0px; transform: translate(0px, 0px);"]:has(a[href*="user-agreement_giseort"]) { display: none !important; }',
   },
 
   // end of const rules
