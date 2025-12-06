@@ -20581,6 +20581,9 @@ const rules = {
   "sinlist.chemsec.org": {
     s: ".overlay-container { display: none !important; }",
   },
+  "finhack.pl": {
+    s: "#fhmm-consent-mode__main-modal,#fhmm-consent-mode__second-modal{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
