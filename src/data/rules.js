@@ -20588,6 +20588,9 @@ const rules = {
   "celebrities-feet.com": {
     s: ':is([x-data*="openCookieLaw"],[x-data*="adBlockDetector"]){display:none!important}',
   },
+  "revanced.app": {
+    s: "dialog[aria-modal=true],.overlay[class*=svelte-]{display:none!important}",
+  },
 
   // end of const rules
 };
