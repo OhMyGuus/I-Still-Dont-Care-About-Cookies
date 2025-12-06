@@ -20584,6 +20584,9 @@ const rules = {
   "finhack.pl": {
     s: "#fhmm-consent-mode__main-modal,#fhmm-consent-mode__second-modal{display:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
+  "pota.radioexperiences.net": {
+    s: ".p-overlay-mask,.p-dialog.p-component{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
