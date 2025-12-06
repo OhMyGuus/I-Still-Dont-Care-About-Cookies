@@ -257,7 +257,7 @@ function getE(hostname) {
     case "dofsimulator.net":
       return ["cookieSettings=cookie"];
     case "magyarorszag.hu":
-      return ["cookies_ok=1"];
+      return ["szuf_consent=min"];
     case "dfds.com":
       return ["GDPR=true"];
     case "tarnkappe.info":
