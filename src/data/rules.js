@@ -18514,9 +18514,7 @@ const rules = {
   "bestdrive.ch": { j: 5 },
   "bestdrive.cz": { j: 5 },
   "bestdrive.sk": { j: 5 },
-  "character.ai": {
-    s: ".bg-surface-elevation-3.fixed.bottom-0{display:none!important}",
-  },
+  "character.ai": { j: 6 },
   "account.yougov.com": { j: 5 },
   "order.fiveguys.nl": { j: 5 },
   "mysanantonio.com": { j: 6 },
