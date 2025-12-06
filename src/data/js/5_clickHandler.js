@@ -8425,7 +8425,9 @@ function getSelector(host) {
     case "720dgree.de":
       return '.overlay_bc_banner span[data-cookie-save=""]';
     case "outspot.be":
-      return shadowQuerySelector(".os-row:has(.os-cookie-banner__settings) ion-button:first-of-type");
+      return shadowQuerySelector(
+        ".os-row:has(.os-cookie-banner__settings) ion-button:first-of-type"
+      );
   }
 
   if (host.parts.length > 2) {
