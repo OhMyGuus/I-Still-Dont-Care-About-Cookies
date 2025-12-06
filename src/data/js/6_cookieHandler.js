@@ -819,6 +819,8 @@ function getE(hostname) {
       return ["cookie_consent_v1=reject_all"];
     case "bmwsb.bund.de":
       return ["gsbbanner=closed"];
+    case "autobahn.de":
+      return ["CookieConsent=mandatory"];
   }
 
   const parts = hostname.split(".");
