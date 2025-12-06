@@ -20600,6 +20600,9 @@ const rules = {
   "thesolutionshop.com": { s: ".cookie{display:none!important}" },
   "bmwsb.bund.de": { j: 6 },
   "autobahn.de": { j: 6 },
+  "pantuniestal.com": {
+    s: '.consents,template#consents-modal,[id^="ccx_tr_"]{display:none!important}',
+  },
 
   // end of const rules
 };
