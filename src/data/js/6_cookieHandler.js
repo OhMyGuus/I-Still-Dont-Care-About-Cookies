@@ -825,6 +825,11 @@ function getE(hostname) {
       return ["CookieConsent=mandatory"];
     case "fruugoschweiz.com":
       return ["consents=essential"];
+    case "inc-conso.fr":
+      return [
+        "inccookiesconsent=false",
+        'inccookiesparams={"all_cookies":false,"cookies_iframes":false,"cookies_matomo":false,"cookies_social_network_facebook":false,"cookies_social_network_linkedin":false,"cookies_social_network_twitter":false}',
+      ];
   }
 
   const parts = hostname.split(".");
