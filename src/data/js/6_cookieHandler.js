@@ -817,6 +817,12 @@ function getE(hostname) {
       return ["cookie-agreed-version=1.0.0", "cookie-agreed=1"];
     case "empik.com":
       return ["cc=", "cp=", "cva=W5.1", "cvc=T"];
+    case "character.ai":
+      return ["cookie_consent_v1=reject_all"];
+    case "bmwsb.bund.de":
+      return ["gsbbanner=closed"];
+    case "autobahn.de":
+      return ["CookieConsent=mandatory"];
   }
 
   const parts = hostname.split(".");
