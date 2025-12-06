@@ -20581,6 +20581,9 @@ const rules = {
   "ms-edu.tatar.ru": {
     s: 'div[style*="position: fixed; overflow: visible; top: 0px; left: 0px; transform: translate(0px, 0px);"]:has(a[href*="user-agreement_giseort"]) { display: none !important; }',
   },
+  "app.houseofcb.com": {
+    s: '.fixed[class*="z-[10000]"][class*="translate-x-1/2"]{display:none!important}',
+  },
 
   // end of const rules
 };
