@@ -20578,6 +20578,9 @@ const rules = {
   "bmwsb.bund.de": { j: 6 },
   "autobahn.de": { j: 6 },
   "fruugoschweiz.com": { j: 6 },
+  "laserdelux.pl": {
+    s: "#cookie-popup-initial,#cookie-banner,#cookie-gear{display:none!important;}",
+  },
 
   // end of const rules
 };
