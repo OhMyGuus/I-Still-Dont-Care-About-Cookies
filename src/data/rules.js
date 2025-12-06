@@ -19482,9 +19482,6 @@ const rules = {
   "rns.id": {
     s: '[class*="AgreeCookiePolicy"],[class*="modal-mask"]{display:none!important}html,body,#__next{overflow:auto!important}',
   },
-  "lgbtqnation.com": {
-    s: ".wcc-overlay,.wcc-consent-container,.wcc-consent-bar,.wcc-notice,.wcc-notice-group,.wcc-notice-des,.wcc-notice-btn-wrapper,.blackgum-campaign,.Campaign__canvas,[id^=om-]{display:none!important}html,body{overflow:auto!important;height:auto!important}",
-  },
   "lagofast.com": {
     s: 'div[class*="fixed"]:is([class*="w-[420px]"],[class*="bg-[#393939]"]){display:none!important}',
   },
@@ -19909,9 +19906,6 @@ const rules = {
   "deutsches-museum.de": {
     s: ".cookiebanner--minimal { display: none !important; }",
   },
-  "eitca.org": {
-    s: ".wcc-consent-container,.wcc-overlay{display:none!important}body.wcc-popup-overflow{overflow:auto!important}",
-  },
   "goodbarber.oeldetogo.de": {
     s: "#cdk-overlay-gb-app0,.cdk-overlay-backdrop{display:none!important}body{overflow:auto!important}",
   },
@@ -19921,12 +19915,6 @@ const rules = {
   "koledam.com": { s: "#wmkcprivacy{display:none!important}" },
   "openfinancebrasil.org.br": {
     s: ".modal-privacidade { display: none !important; } .modal-backdrop { display: none !important; } body { overflow: auto !important; }",
-  },
-  "lammintupa.fi": {
-    s: ".wcc-consent-container { display: none !important; }",
-  },
-  "rukasafaris.fi": {
-    s: ".wcc-consent-container, .wcc-overlay, .wcc-modal, .wcc-preference-center, .wcc-btn-revisit-wrapper { display: none!important; }",
   },
   "kion.ru": { s: "ui-web-alert { display: none !important; }" },
   "trampolino.gr": { s: "#toast-cookie,#showCookies{display:none!important}" },
@@ -19979,9 +19967,6 @@ const rules = {
     s: "#cookieNotice,#cookieManagementeModal,#PleaseWait,.modal-backdrop,#overlay.ui-widget-overlay{display:none!important}html,body{overflow:auto!important}",
   },
   "720dgree.de": { j: 5 },
-  "vitaminbolt.hu": {
-    s: ".wcc-modal,.wcc-overlay,.wcc-consent-container.wcc-popup-center{display:none!important;visibility:hidden!important;pointer-events:none!important}body.wcc-popup-overflow{overflow:auto!important}",
-  },
   "shc-care.de": {
     s: ".simple-bs-dialog,#cookie-form,.modal-backdrop,.modal.show{display:none!important;visibility:hidden!important;pointer-events:none!important}body.modal-open{overflow:auto!important;padding-right:0!important;position:static!important}",
   },
@@ -20039,9 +20024,6 @@ const rules = {
   "france.scc.com": { s: ".bi-cookies-modale { display: none !important; }" },
   "verbatim-europe.com": {
     s: "body { overflow: auto !important; } #consentModal, .modal-backdrop { display: none !important; }",
-  },
-  "rukaadventures.fi": {
-    s: ".wcc-consent-container,.wcc-modal,.wcc-btn-revisit-wrapper{display:none!important}",
   },
   "fazua.com": {
     s: "#cookieConsent,.cookie-consent.show,.modal-backdrop.fade.show{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}",
@@ -20379,9 +20361,6 @@ const rules = {
   "renault-ehrlich-aschaffenburg.de": {
     s: ":is(#gdpr-bar,#gdpr-overlay,#gdpr-modal){display:none!important} body.restricted{position:static!important;max-height:none!important;width:auto!important;overflow:visible!important}",
   },
-  "byggvesta.se": {
-    s: ".wcc-overlay,.wcc-consent-container,.wcc-modal,.wcc-btn-revisit-wrapper{display:none!important}body.wcc-popup-overflow{overflow:auto!important}",
-  },
   "spankbang.com": {
     s: "div:has(#cookie-consent),#safety-blur{display:none!important}",
   },
@@ -20598,7 +20577,6 @@ const rules = {
   "thesolutionshop.com": { s: ".cookie{display:none!important}" },
   "bmwsb.bund.de": { j: 6 },
   "autobahn.de": { j: 6 },
-  "aponorm.de": { s: ".wcc-consent-container { display: none !important; }" },
 
   // end of const rules
 };
@@ -20707,6 +20685,7 @@ const blockUrls = {
       { r: "cookiewarning4.js" },
       { r: "catalogocoop.it/cookie.js" },
       { r: "/wp-content/mu-plugins/cookie_notifier" },
+      { r: "/wp-content/plugins/webtoffee-cookie-consent" },
       { r: "freegamehosting.eu/js/cookies.js" },
       { r: "jp2w.pl/a/cookie.js" },
       {
