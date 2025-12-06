@@ -8379,7 +8379,10 @@ function getSelector(host) {
     case "vms.de":
       return "._brlbs-refuse-btn > a";
     case "ryobitools.eu":
-      return ".save-preference-btn-handler";
+      return _chain(
+        ".cookie-onetrust-show-info",
+        ".save-preference-btn-handler"
+      );
     case "play.geforcenow.com":
       return "#agreeAndContinueButton";
     case "online-mahnantrag.de":
