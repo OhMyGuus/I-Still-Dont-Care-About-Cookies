@@ -20578,6 +20578,9 @@ const rules = {
   "bmwsb.bund.de": { j: 6 },
   "autobahn.de": { j: 6 },
   "fruugoschweiz.com": { j: 6 },
+  "ms-edu.tatar.ru": {
+    s: 'div[style*="position: fixed"]:has(a[href*="user-agreement_giseort"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
