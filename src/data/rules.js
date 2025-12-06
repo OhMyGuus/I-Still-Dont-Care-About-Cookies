@@ -17559,9 +17559,7 @@ const rules = {
   "evercast.us": {
     s: ".ck-cookie-w,.cookie-preference-button{display:none !important}",
   },
-  "learngerman.dw.com": {
-    s: ".content-container > footer ~ div{display:none !important}",
-  },
+  "learngerman.dw.com": { s: "#cmpwrapper { display: none !important; }" },
   "surfshark.com": {
     s: '#__next > footer ~ div[class*="animationEnterDone"]{display:none !important}',
   },
