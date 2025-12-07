@@ -1,7 +1,7 @@
 {
   "name": "isdcac",
   "type": "module",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Get rid of cookie warnings from almost all websites!",
   "main": "index.js",
   "scripts": {
