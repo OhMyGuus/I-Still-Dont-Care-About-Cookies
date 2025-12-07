@@ -20583,6 +20583,7 @@ const rules = {
   },
   "outspot.be": { j: 5 },
   "inc-conso.fr": { j: 6 },
+  "test-domain.com": { s: ".test { display: none !important; }" },
 
   // end of const rules
 };
