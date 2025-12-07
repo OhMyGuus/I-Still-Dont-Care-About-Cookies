@@ -20583,6 +20583,9 @@ const rules = {
   },
   "outspot.be": { j: 5 },
   "inc-conso.fr": { j: 6 },
+  "isinolsun.com": {
+    s: ".fc-consent-root { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
