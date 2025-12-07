@@ -13556,7 +13556,7 @@ const rules = {
   "punpro.com": { s: 'div[class*="CookieSession"]{display:none !important}' },
   "siamsport.co.th": { s: "#popup-ss{display:none !important}" },
   "reddit.com": {
-    s: "#data-protection-consent-wrapper, rpl-dialog-sheet#data-protection-consent-sheet, #data-protection-consent-dialog { display: none !important; }",
+    s: '[class^="overlay_overlay__"]{display:none!important}body{overflow:auto!important}',
   },
   "reddit.watch": {
     s: ".v-content__wrap > .container > .align-end{display:none !important}",
