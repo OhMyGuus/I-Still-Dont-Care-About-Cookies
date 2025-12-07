@@ -20374,6 +20374,7 @@ const rules = {
   "rog-forum.asus.com": {
     s: ".cassie-cookie-module{display:none!important}html,body{overflow:auto!important}",
   },
+  "shop-welt-der-kristalle.de": { j: 6 },
   "medifit-lingen.de": {
     s: ":is(.consent-banner-root.banner-consent-all,.module-blocker-root.module-blocker-consent-maps){display:none!important;}",
   },
