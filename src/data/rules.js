@@ -13556,7 +13556,7 @@ const rules = {
   "punpro.com": { s: 'div[class*="CookieSession"]{display:none !important}' },
   "siamsport.co.th": { s: "#popup-ss{display:none !important}" },
   "reddit.com": {
-    s: '[class^="overlay_overlay__"]{display:none!important}body{overflow:auto!important}',
+    s: "#data-protection-consent-wrapper, rpl-dialog-sheet#data-protection-consent-sheet, #data-protection-consent-dialog{display:none!important}.rpl-scroll-lock{overflow: auto !important;}",
   },
   "reddit.watch": {
     s: ".v-content__wrap > .container > .align-end{display:none !important}",
@@ -18564,9 +18564,6 @@ const rules = {
   },
   "de.industryarena.com": {
     s: "#consent-cookie-back, #consent-cookie, #consent-cookie-container, #consent-cookie-text { display: none !important; visibility: hidden !important; pointer-events: none !important; }",
-  },
-  "www.reddit.com": {
-    s: "#data-protection-consent-wrapper, #data-protection-consent-sheet, #data-protection-consent-dialog, .rpl-dialog, .rpl-dialog-sheet, rpl-dialog-sheet#data-protection-consent-sheet { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
   },
   "creator.kodular.io": {
     s: "#termly-code-snippet-support, .t-consentPrompt { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }",
