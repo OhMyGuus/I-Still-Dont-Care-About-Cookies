@@ -257,7 +257,7 @@ function getE(hostname) {
     case "dofsimulator.net":
       return ["cookieSettings=cookie"];
     case "magyarorszag.hu":
-      return ["cookies_ok=1"];
+      return ["szuf_consent=min"];
     case "dfds.com":
       return ["GDPR=true"];
     case "tarnkappe.info":
@@ -817,6 +817,21 @@ function getE(hostname) {
       return ["cookie-agreed-version=1.0.0", "cookie-agreed=1"];
     case "shop-welt-der-kristalle.de":
       return ["epCookieConsent=0"];
+    case "empik.com":
+      return ["cc=", "cp=", "cva=W5.1", "cvc=T"];
+    case "character.ai":
+      return ["cookie_consent_v1=reject_all"];
+    case "bmwsb.bund.de":
+      return ["gsbbanner=closed"];
+    case "autobahn.de":
+      return ["CookieConsent=mandatory"];
+    case "fruugoschweiz.com":
+      return ["consents=essential"];
+    case "inc-conso.fr":
+      return [
+        "inccookiesconsent=false",
+        'inccookiesparams={"all_cookies":false,"cookies_iframes":false,"cookies_matomo":false,"cookies_social_network_facebook":false,"cookies_social_network_linkedin":false,"cookies_social_network_twitter":false}',
+      ];
   }
 
   const parts = hostname.split(".");

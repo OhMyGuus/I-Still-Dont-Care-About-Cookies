@@ -306,6 +306,12 @@ function getItem(hostname) {
         value:
           "Thu Nov 06 2077 00:00:00 GMT+0100 (Central European Standard Time)",
       };
+    case "timeweb.cloud":
+      return {
+        strict: false,
+        key: "cookieConfirm",
+        value: "false",
+      };
   }
 
   const parts = hostname.split(".");

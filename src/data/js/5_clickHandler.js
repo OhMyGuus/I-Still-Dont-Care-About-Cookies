@@ -8379,7 +8379,10 @@ function getSelector(host) {
     case "vms.de":
       return "._brlbs-refuse-btn > a";
     case "ryobitools.eu":
-      return ".save-preference-btn-handler";
+      return _chain(
+        ".cookie-onetrust-show-info",
+        ".save-preference-btn-handler"
+      );
     case "play.geforcenow.com":
       return "#agreeAndContinueButton";
     case "online-mahnantrag.de":
@@ -8421,6 +8424,10 @@ function getSelector(host) {
       return 'button[data-value="cookie-accept-necessary"]';
     case "720dgree.de":
       return '.overlay_bc_banner span[data-cookie-save=""]';
+    case "outspot.be":
+      return shadowQuerySelector(
+        ".os-row:has(.os-cookie-banner__settings) ion-button:first-of-type"
+      );
   }
 
   if (host.parts.length > 2) {
