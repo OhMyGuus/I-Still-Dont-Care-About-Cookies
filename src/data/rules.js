@@ -20583,6 +20583,9 @@ const rules = {
   },
   "outspot.be": { j: 5 },
   "inc-conso.fr": { j: 6 },
+  "tatilsepeti.com": {
+    s: "efilli-layout-dynamic{display:none!important;}",
+  },
 
   // end of const rules
 };
