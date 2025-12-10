@@ -20567,7 +20567,7 @@ const rules = {
     s: "dialog[aria-modal=true],.overlay[class*=svelte-]{display:none!important}",
   },
   "foodandwine.com": {
-    s: "#onetrust-consent-sdk{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+    s: "#onetrust-consent-sdk{display:none!important} html:has(#onetrust-consent-sdk){overflow:auto!important}",
   },
   "leguidedufromage.com": {
     s: "[id^=mycmp-]{display:none!important} :root,body{overflow:auto!important}",
