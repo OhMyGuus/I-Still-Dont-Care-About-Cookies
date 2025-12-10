@@ -17109,7 +17109,9 @@ const rules = {
     c: 85,
   },
   "badlion.net": { c: 85 },
-  "empik.com": { j: 6 },
+  "empik.com": {
+    s: "[class*=CookiesConsentsBannerRodo-module]{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
   "play.esea.net": { c: 85 },
   "humanic.net": { c: 85 },
   "make-it-in-germany.com": { c: 85 },
