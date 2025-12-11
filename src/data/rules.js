@@ -13499,7 +13499,9 @@ const rules = {
   "impress.co.jp": { s: "#ipc_cookie_confirmation{display:none !important}" },
   "elkjop.no": { j: "5" },
   "mironet.cz": { j: "5" },
-  "nike.com": { j: "5" },
+  "nike.com": {
+    s: ".hpd0nmb{display:none!important}body{overflow:auto!important}",
+  },
   "deichmann.com": { j: "5" },
   "studio.benq.com": { j: "5" },
   "chase.co.uk": { j: "5" },
