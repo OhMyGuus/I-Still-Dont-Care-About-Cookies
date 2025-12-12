@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "gorzdrav.org": {
+    s: '.cookie-modal.cookie-modal--theme--gz,[id^="popmechanic-"],[class*="popmechanic"]:not(html):not(body){display:none!important} html,body,#__nuxt,html.popmechanic-desktop,html.popmechanic-disable-scroll,body.popmechanic-desktop,body.popmechanic-disable-scroll{display:block!important;visibility:visible!important;pointer-events:auto!important;overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
