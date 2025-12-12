@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "mail.vodafone.de": {
+    s: '[id^="sp_message_"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
