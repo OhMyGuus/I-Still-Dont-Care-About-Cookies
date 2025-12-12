@@ -9603,8 +9603,7 @@ const rules = {
   "consolewars.de": { s: ".cookies_dim{display:none !important}" },
   "brightstar.com": { j: "5" },
   "fitnessraum.de": {
-    s: ".cc-gdpr-modal{display:none !important}",
-    c: 14,
+    s: ".cc-gdpr-modal,body:has(.cc-gdpr-modal) .modal-backdrop{display:none!important}body.modal-open{overflow:auto!important;padding-right:0!important}",
   },
   "elkem.com": { j: "6" },
   "poessl4you.de": { c: 0 },
