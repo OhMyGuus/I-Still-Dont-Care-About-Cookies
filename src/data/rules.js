@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "muusikoiden.net": {
+    s: "#termly-code-snippet-support { display: none !important; }",
+  },
 
   // end of const rules
 };
