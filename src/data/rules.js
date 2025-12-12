@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "budgetair.fr": {
+    s: 'dialog[aria-label*="BudgetAir utilise"],dialog[aria-label*="BudgetAir utilise"]::backdrop{display:none!important} body[style*="position: fixed"]{position:static!important;overflow:auto!important;top:auto!important;left:auto!important}',
+  },
 
   // end of const rules
 };
