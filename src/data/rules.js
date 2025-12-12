@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "pvpbank.com": { s: ".site_cookies_setting { display: none !important; }" },
 
   // end of const rules
 };
