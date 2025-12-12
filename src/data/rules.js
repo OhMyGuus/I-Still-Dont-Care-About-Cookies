@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "careers.shine.co": { s: ".z-cookie-alert { display: none !important; }" },
 
   // end of const rules
 };
