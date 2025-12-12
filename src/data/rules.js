@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "moex.com": { s: '[class*="usagePolicy"]{display:none!important}' },
 
   // end of const rules
 };
