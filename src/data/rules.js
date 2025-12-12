@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "ocasion.mercedes-benz.es": {
+    s: "#cmp,body:has(#cmp) .modal-backdrop.show{display:none!important}body:has(#cmp){overflow:auto!important}",
+  },
 
   // end of const rules
 };
