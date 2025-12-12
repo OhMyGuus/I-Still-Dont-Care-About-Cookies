@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "wko.at": { s: ".cookie-no-sm { display: none !important; }" },
 
   // end of const rules
 };
