@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "rep.jurahilfe.de": {
+    s: ".fixed.inset-x-0.bottom-0.z-30{display:none!important}",
+  },
 
   // end of const rules
 };
