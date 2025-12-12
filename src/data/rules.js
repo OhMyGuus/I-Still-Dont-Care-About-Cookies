@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "eventbrite.de": {
+    s: "#transcend-consent-manager { display: none !important; }",
+  },
 
   // end of const rules
 };
