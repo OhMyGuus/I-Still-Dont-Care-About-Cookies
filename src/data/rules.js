@@ -18043,7 +18043,7 @@ const rules = {
   "kodinerds.net": { j: 5 },
   "covomo.de": { j: 5 },
   "movistar.es": {
-    s: ".oneTrustCookie,[id*='cookies-bar-component']{display:none!important}",
+    s: "#cookies-bar-component, .ot-container { display: none !important; }",
   },
   "21vek.by": { j: 5 },
   "toonpool.com": { j: 5 },
