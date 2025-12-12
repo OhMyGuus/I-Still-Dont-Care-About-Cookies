@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "planable.com": {
+    s: "[class*=fixed][class*=bottom-0]:has(h3.font-semibold){display:none!important}",
+  },
 
   // end of const rules
 };
