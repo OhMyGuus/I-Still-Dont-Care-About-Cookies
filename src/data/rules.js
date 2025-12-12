@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "tabletop-dragon.de": {
+    s: ".ammodals-overlay,.amgdprcookie-modal-container{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
