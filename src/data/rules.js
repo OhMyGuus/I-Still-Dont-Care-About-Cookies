@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "platform.openai.com": {
+    s: "[data-testid=cookie-consent-banner]{display:none!important;}",
+  },
 
   // end of const rules
 };
