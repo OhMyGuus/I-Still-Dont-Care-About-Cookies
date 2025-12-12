@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "apotheke-leun.de": {
+    s: "#modal-cb,.modal-backdrop{display:none!important} body{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
