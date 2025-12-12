@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "realtor.ca": {
+    s: ".fc-consent-root,#TOUMsgCon,#TOUMessageCtrl{display:none!important}html,body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
