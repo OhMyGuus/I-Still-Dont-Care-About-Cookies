@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "hypeauditor.com": {
+    s: '[class*="_cookie-popup"] { display: none !important; }',
+  },
 
   // end of const rules
 };
