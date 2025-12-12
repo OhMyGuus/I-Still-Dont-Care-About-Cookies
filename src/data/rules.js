@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "testdomain345.com": {
+    s: '#headlessui-portal-root, [id^="headlessui-dialog-"], [id^="headlessui-dialog-panel-"], #cookies, #modalNode { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body, :root { overflow: auto !important; height: auto !important; }',
+  },
 
   // end of const rules
 };
