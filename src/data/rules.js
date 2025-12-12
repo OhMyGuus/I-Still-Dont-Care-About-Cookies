@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "r6fix.ubi.com": {
+    s: '.c-portal:has(.c-dialog[data-testid="Welcome to R6Fix"]) { display: none !important; } body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
