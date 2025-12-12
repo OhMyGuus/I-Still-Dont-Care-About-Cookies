@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "miles-and-more.com": {
+    s: ".cookieconsent__base, .plugindialog__surface.cookieconsent__dialogSurface { display: none !important; } :is(html,body):has(.cookieconsent__base) { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
