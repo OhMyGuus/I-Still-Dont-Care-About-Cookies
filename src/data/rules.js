@@ -20564,7 +20564,7 @@ const rules = {
     s: ':is([x-data*="openCookieLaw"],[x-data*="adBlockDetector"]){display:none!important}',
   },
   "revanced.app": {
-    s: "dialog[aria-modal=true],.overlay[class*=svelte-]{display:none!important}",
+    s: ".overlay.svelte-10doixg, dialog.svelte-10doixg { display: none !important; } html,body { overflow: auto !important; }",
   },
   "foodandwine.com": {
     s: "#onetrust-consent-sdk{display:none!important}html,body{overflow:auto!important;height:auto!important}",
