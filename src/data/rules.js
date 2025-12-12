@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "checkout.stripe.com": {
+    s: "[data-js-controller=NotificationCenter]{display:none!important;}",
+  },
 
   // end of const rules
 };
