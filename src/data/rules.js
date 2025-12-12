@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "portal.csav.fr": {
+    s: ".lbp-ui-comp-banner, .primary-color-paper-01 { display: none !important; }",
+  },
 
   // end of const rules
 };
