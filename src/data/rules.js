@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "careers.iagcargo.com": {
+    s: 'dialog[data-controller^="common--cookies"],.block-cover-overlay{display:none!important}',
+  },
 
   // end of const rules
 };
