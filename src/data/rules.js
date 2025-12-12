@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "service.wirtschaft.nrw": {
+    s: '[data-cy="cookieBanner"]{display:none!important;}',
+  },
 
   // end of const rules
 };
