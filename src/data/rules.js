@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "youporn.com": {
+    s: ":is(#cookie_consent_min_wrapper,#cookie_consent_wrapper,#cookie_banner_overlay,#ageDisclaimerMainBG,#ageDisclaimerWrapper){display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
