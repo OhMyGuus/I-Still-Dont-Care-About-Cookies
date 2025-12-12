@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "meteo.imgw.pl": {
+    s: ".imgw-pop-window:has(#imgw-pop-box-cookie){display:none!important}",
+  },
 
   // end of const rules
 };
