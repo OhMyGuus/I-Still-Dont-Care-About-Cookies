@@ -14381,7 +14381,9 @@ const rules = {
   "sf.gr": { s: "#cookiesManagement{display:none !important}" },
   "cardinal.gr": { s: "#cookiesManagement{display:none !important}" },
   "pokemondb.net": { s: "#gdpr-confirm{display:none !important}" },
-  "schroders.com": { j: "5" },
+  "schroders.com": {
+    s: '[class*="ModalBGMask"]{display:none!important}body{overflow:auto!important}',
+  },
   "techgig.com": { s: ".gdpr-info{display:none !important}" },
   "rocket.chat": { j: "5" },
   "hardforce.com": { s: "#rgpd-cookies{display:none !important}" },
