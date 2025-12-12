@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "ew.com": {
+    s: "#onetrust-consent-sdk { display: none !important; } html { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
