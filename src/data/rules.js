@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "kosik.cz": {
+    s: "[data-non-ds-modal]{display:none!important} html.is-scroll-hidden,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
