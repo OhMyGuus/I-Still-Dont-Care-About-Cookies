@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "40.doramalive.pub": {
+    s: ".mcookie { display: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
