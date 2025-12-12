@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "my.roatel.de": { s: ".roatel-modal,.fixed.z-30{display:none!important}" },
 
   // end of const rules
 };
