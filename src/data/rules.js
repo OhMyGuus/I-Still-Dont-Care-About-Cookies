@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "metadefender.com": {
+    s: "[data-testid=banner]{display:none!important}html,body{overflow:auto!important;padding-bottom:0!important}",
+  },
 
   // end of const rules
 };
