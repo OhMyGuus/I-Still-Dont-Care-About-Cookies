@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "campbellsci.de": {
+    s: "#cookie-consent-modal, .modal-backdrop.fade.in { display: none !important; } body.modal-open { overflow: auto !important; position: static !important; padding-right: 0 !important; }",
+  },
 
   // end of const rules
 };
