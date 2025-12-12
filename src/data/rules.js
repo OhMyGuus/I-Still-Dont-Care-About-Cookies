@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "yourvoicemarkham.ca": {
+    s: '.cookie-consent,.chakra-modal__overlay{display:none!important}html,body,body[style*="overflow:hidden"],body[style*="overflow: hidden"]{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
