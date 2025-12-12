@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "critica.cz": {
+    s: 'div[id^="a0dfe0ab0"],.tw-mdl-overlay-close{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
