@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "sklep.elewant.pl": {
+    s: ":is(consents-modal, .modal-wrapper.consents-modal, .backdrop){display:none!important;}",
+  },
 
   // end of const rules
 };
