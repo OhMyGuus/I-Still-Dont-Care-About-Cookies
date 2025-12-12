@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "colibricinema.ru": {
+    s: ".notification-container.bottom.opened, .BackDrop_backdrop__n0qGl { display: none !important; }",
+  },
 
   // end of const rules
 };
