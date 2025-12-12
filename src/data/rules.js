@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "ucl.ac.uk": {
+    s: "#ucl-privacy-banner,#ucl-privacy-modal{display:none!important}html[style*='overflow: hidden']{overflow:auto!important}",
+  },
 
   // end of const rules
 };
