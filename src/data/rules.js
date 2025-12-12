@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "kvelektro.cz": {
+    s: '.css-2x6icn.e17vk8fl0,iframe[src*="yottlyscript.com"],.samba-popup-iframe.samba-popup-animation{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
