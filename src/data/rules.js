@@ -19450,7 +19450,7 @@ const rules = {
     s: "#ensNotifyBanner,#ensPrivacyBlock,#ensModalWrapper{display:none!important} html,body{overflow:auto!important}",
   },
   "tescobank.com": {
-    s: "#ensPrivacyBlock,#ensNotifyBanner,#ensModalWrapper{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
+    s: "#ensNotifyBanner,#ensModalWrapper{display:none!important}html,body{overflow:auto!important}",
   },
   "lambimaailm.ee": {
     s: "#fancybox-1,.fancybox__backdrop,#cookieSetting,.cookie-setting,.fancybox__container.is-ready{display:none!important}html.with-fancybox,body{overflow:auto!important}",
