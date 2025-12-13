@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "reifenleader.de": {
+    s: ".content-bottom-fullwidth { display: none !important; }",
+  },
 
   // end of const rules
 };
