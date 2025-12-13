@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "convex.dev": {
+    s: '.fixed.bottom-4[class*="bg-seashell"]{display:none!important}',
+  },
 
   // end of const rules
 };
