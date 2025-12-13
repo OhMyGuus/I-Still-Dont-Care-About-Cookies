@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "energomag.pl": {
+    s: "#cookies_message_modal,#ajax-cookie-modal,.modal-backdrop{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
