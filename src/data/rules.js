@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "mirror.co.uk": {
+    s: "#qc-cmp2-container{display:none!important} :is(html,body):has(#qc-cmp2-container){overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
