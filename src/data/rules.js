@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "zepbound.lilly.com": { s: '[id^="cassie"]{display:none!important}' },
 
   // end of const rules
 };
