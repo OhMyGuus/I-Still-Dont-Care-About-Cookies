@@ -14956,7 +14956,9 @@ const rules = {
   "sfc.com": { j: "5" },
   "dirtsheets.net": { j: "5" },
   "intur.com": { c: 0 },
-  "interhyp.de": { j: "5" },
+  "interhyp.de": {
+    s: "#modal-content-id,[class^=Backdrop_]{display:none!important}",
+  },
   "reviewsolicitors.co.uk": { c: 0 },
   "zockn.com": { s: "#pandectes-banner{display:none !important}" },
   "guard.io": {
