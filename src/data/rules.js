@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "binar.bg": {
+    s: ".fixed.bottom-5:has(.text-lg.font-serif-bold){display:none!important;}",
+  },
 
   // end of const rules
 };
