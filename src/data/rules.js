@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "herschel.com": {
+    s: "#regioncheck,#all-region-modal,.cookie-bar,.modal-overlay,.modal-overlay-policy{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
