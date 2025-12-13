@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "newsletter.mapasmilhaud.com": {
+    s: "[class*=cookieBanner],.overlay-zrMCxn{display:none!important}",
+  },
 
   // end of const rules
 };
