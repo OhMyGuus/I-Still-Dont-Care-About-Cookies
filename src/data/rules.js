@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "fruugo.fi": {
+    s: 'dialog[data-modal-type="cookie-consent"] { display: none !important; }',
+  },
 
   // end of const rules
 };
