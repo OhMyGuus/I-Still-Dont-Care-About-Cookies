@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "myheritage.com": {
+    s: "#cookie_preferences_banner_root { display: none !important; }",
+  },
 
   // end of const rules
 };
