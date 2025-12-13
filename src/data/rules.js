@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "603805900.pl": {
+    s: ".modal-wrapper.consents-modal,.backdrop{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
