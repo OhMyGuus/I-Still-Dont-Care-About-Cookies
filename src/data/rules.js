@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "data.nordpoolgroup.com": {
+    s: "#mat-mdc-dialog-0,.cdk-overlay-backdrop{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
