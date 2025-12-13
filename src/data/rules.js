@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "particuliers.sg.fr": {
+    s: "#tc-privacy-wrapper,#privacy-overlay{display:none!important}",
+  },
 
   // end of const rules
 };
