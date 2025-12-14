@@ -875,7 +875,9 @@ const rules = {
   "expozdrowie.pl": { s: "#alert_popup{display:none !important}" },
   "eteacher.pl": { s: "#info_container{display:none !important}" },
   "kielce.eu": { s: "#belka_dolna{display:none !important}" },
-  "aftermarket.pl": { s: "#part-cookies{display:none !important}" },
+  "aftermarket.pl": {
+    s: '#mjp_cookie{display:none!important;}html[style*="overflow"],body[style*="overflow"]{overflow:auto!important;}',
+  },
   "getem.pl": { c: 91 },
   "archiwumalle.pl": { c: 91 },
   "anonse.com": { c: 91 },
