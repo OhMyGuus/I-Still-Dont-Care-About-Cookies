@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "mail.google.com": {
+    s: ".glue-cookie-notification-bar { display: none !important; }",
+  },
 
   // end of const rules
 };
