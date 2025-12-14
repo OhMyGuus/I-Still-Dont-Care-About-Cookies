@@ -5756,7 +5756,7 @@ const rules = {
   "seaheroquest.gr": { s: ".tab-cookies{display:none !important}" },
   "awwapp.com": { s: "#bottom-notification{display:none !important}" },
   "911tabs.com": { c: 1 },
-  "dieharke.de": { s: "#cookieblack{display:none !important}" },
+  "dieharke.de": { s: '[id^="sp_message_container_"]{display:none!important}' },
   "audiondemand.com": {
     s: ".axs-md-cookie,aod-cookie-consent{display:none !important}",
   },
