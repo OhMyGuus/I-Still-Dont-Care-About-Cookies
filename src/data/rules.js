@@ -8550,7 +8550,9 @@ const rules = {
     s: '.notification-bar,#banner-region,.disclaimer.wrapper,#app header ~ section[data-t],[class*="CookiesAccept_container"]{display:none !important}',
   },
   "niedziela.pl": { c: 0 },
-  "waven-game.com": { s: ".privacy-notification{display:none !important}" },
+  "waven-game.com": {
+    s: '#privacy-settings-modal,.modal-backdrop.show{display:none!important} body[style*="overflow: hidden"]{overflow:auto!important}',
+  },
   "hetwkz.nl": { j: "5" },
   "dplay.es": {
     s: '#app dialog[class*="notification"]{display:none !important}',
