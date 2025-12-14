@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "airpress.de": { s: "#yireo-cookie-consent-banner{display:none!important}" },
 
   // end of const rules
 };
