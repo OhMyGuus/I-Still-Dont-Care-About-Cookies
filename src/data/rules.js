@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "openrouter.ai": {
+    s: '[class*="fixed"][class*="z-50"][class*="animate-in"] { display: none !important; }',
+  },
 
   // end of const rules
 };
