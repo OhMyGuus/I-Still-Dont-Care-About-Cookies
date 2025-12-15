@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "naturador.com": {
+    s: '#BorlabsDialogBackdrop,[id^="BorlabsCookie"],.brlbs-fixed.brlbs-w-screen.brlbs-h-screen{display:none!important;} body{overflow:auto!important;margin-right:0!important;}',
+  },
 
   // end of const rules
 };
