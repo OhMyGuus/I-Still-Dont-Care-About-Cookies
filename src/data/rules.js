@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "gazetakrakowska.pl": {
+    s: "#didomi-host{display:none!important;}html,body,html.didomi-popup-open,body.didomi-popup-open{overflow:visible!important;height:auto!important}",
+  },
 
   // end of const rules
 };
