@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "vanityfair.com": {
+    s: "#fides-overlay{display:none!important}body.fides-overlay-modal-link-shown{overflow:auto!important}",
+  },
 
   // end of const rules
 };
