@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "biobaer.at": {
+    s: ':is(#cookie-jar,[style*="opacity: 0.05"]) { display: none !important; } html,body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
