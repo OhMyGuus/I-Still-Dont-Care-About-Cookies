@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "proforientator.ru": { s: ".cms-cookieAccept{display:none!important}" },
 
   // end of const rules
 };
