@@ -13179,8 +13179,7 @@ const rules = {
   "vsgamers.es": { s: "#vs-cookies-policy{display:none !important}" },
   "postovnezdarma.cz": { j: "5" },
   "lequipe.fr": {
-    j: "5",
-    s: ".Alerts__item--nonBlockingAlert{display:none !important}",
+    s: '[id^="didomi"],.CmpContainer{display:none!important} html[style*="overflow: hidden"],body[style*="overflow: hidden"],html.no-scroll,body.no-scroll{overflow:auto!important;height:auto!important;position:static!important}',
   },
   "creality3dofficial.com": { s: ".pub-tip{display:none !important}" },
   "creality3dofficial.eu": { s: ".pub-tip{display:none !important}" },
