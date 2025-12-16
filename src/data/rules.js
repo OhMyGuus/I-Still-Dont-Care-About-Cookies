@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "jouroff.com": { s: "#privacyPanel{display:none!important}" },
 
   // end of const rules
 };
