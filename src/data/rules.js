@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "la-mara.de": {
+    s: "#eightworks-cookie-consent-plus,.eightworks-cookie-consent-plus-toggler,.navigation-offcanvas-overlay-content{display:none!important;} :is(html,body){overflow:auto!important;height:auto!important;}",
+  },
 
   // end of const rules
 };
