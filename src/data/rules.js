@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "boka.norrtag.se": {
+    s: ".tora-dialog.fullscreen,.q-dialog__backdrop.fixed-full{display:none!important}",
+  },
 
   // end of const rules
 };
