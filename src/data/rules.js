@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "zimaspace.com": {
+    s: ".backdrop-blur-2xl.bottom-0 { display: none !important; }",
+  },
 
   // end of const rules
 };
