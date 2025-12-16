@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "bip.bialystok.wsa.gov.pl": {
+    s: "body:has(#bipCookieModal){overflow:auto!important}#bipCookieModal{display:none!important}",
+  },
 
   // end of const rules
 };
