@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "maxgaming.gg": {
+    s: '[id^="cookie_consent"]{display:none!important}body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
