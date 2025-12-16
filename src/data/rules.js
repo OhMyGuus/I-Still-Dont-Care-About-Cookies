@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "akqa.com": {
+    s: ".cookie-banner,.cookie-banner-backdrop{display:none!important}",
+  },
 
   // end of const rules
 };
