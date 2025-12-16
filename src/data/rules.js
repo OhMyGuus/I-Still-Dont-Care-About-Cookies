@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "unherd.com": {
+    s: '[id^="sp_message_container_"]{display:none!important} html,body{overflow:auto!important;max-height:none!important}',
+  },
 
   // end of const rules
 };
