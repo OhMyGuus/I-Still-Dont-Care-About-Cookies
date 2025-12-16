@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "lidentitenumerique.laposte.fr": {
+    s: "#tc-privacy-wrapper,#privacy-overlay { display: none !important; } html,body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
