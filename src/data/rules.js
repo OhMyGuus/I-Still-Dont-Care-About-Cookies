@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "frankenmuth.org": { s: ".msg-popover-holder{display:none!important}" },
 
   // end of const rules
 };
