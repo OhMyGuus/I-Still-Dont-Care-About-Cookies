@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "gotronik.pl": {
+    s: ":is([id^=InfoCookie],[id^=CookieOkno]){display:none!important;}",
+  },
 
   // end of const rules
 };
