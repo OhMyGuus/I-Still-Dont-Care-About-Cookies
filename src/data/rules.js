@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "mychampions100.de": {
+    s: ".in2-modal,.in2-modal__blackbox{display:none!important}html{overflow:visible!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
