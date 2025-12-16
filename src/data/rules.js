@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "donatter.ru": {
+    s: '[class^="modal-cookie-policy_wrapper"]{display:none!important} body:has([class^="modal-cookie-policy"]){overflow:auto!important}',
+  },
 
   // end of const rules
 };
