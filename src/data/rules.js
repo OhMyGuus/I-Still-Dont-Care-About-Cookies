@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "weedseedshop.com": {
+    s: "#eu-cookie-bar-notification{display:none!important} html,body{overflow:auto!important;position:static!important;height:auto!important}",
+  },
 
   // end of const rules
 };
