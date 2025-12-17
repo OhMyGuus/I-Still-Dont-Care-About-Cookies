@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "parkhoteladler.de": {
+    s: ".ccm-root{display:none!important} html.ccm-blocked,body.ccm-blocked{overflow:visible!important;height:auto!important}",
+  },
 
   // end of const rules
 };
