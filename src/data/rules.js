@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "kuendigung.org": {
+    s: "#cookie-notice-full-consent { display: none !important; }",
+  },
 
   // end of const rules
 };
