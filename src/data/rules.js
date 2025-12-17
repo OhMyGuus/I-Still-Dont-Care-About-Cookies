@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "phygitalinternational.com": {
+    s: ".settings-cookies { display: none !important; }",
+  },
 
   // end of const rules
 };
