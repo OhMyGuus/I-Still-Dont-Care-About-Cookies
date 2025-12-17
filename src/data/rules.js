@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "lemmon.es": {
+    s: "#popup-cookies,#cookies,#shadow-cookies { display: none !important; }",
+  },
 
   // end of const rules
 };
