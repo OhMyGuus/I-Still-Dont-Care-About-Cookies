@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "johnkrausphotos.com": {
+    s: "reach-portal:has([data-testid=cookiebanner_panel]),[data-testid=cookiebanner_panel]{display:none!important}",
+  },
 
   // end of const rules
 };
