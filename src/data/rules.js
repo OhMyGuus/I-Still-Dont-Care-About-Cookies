@@ -9503,9 +9503,7 @@ const rules = {
   "farmer.pl": { j: "5" },
   "laboutiqueharibo.fr": { s: ".js-HarCookie{display:none !important}" },
   "peoplesenergy.co.uk": { s: "#prefs{display:none !important}" },
-  "flowkey.com": {
-    s: '#gatsby-focus-wrapper > [role="alert"]{display:none !important}',
-  },
+  "flowkey.com": { s: ".css-1g1rvlj { display: none !important; }" },
   "cassart.co.uk": { s: ".global-promotion{display:none !important}" },
   "model-bazar.cz": { c: 0 },
   "germany.travel": { j: "5" },
