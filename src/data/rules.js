@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "ingamejob.com": {
+    s: ':is(#termly-code-snippet-support,.t-consentPrompt,.termly-display-preferences,[data-testid="cookie-policy-link"],[data-testid="preferences-link"],.t-preference-button,.t-declineButton,.t-acceptAllButton){display:none!important;}',
+  },
 
   // end of const rules
 };
