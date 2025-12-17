@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "jumia.com.gh": {
+    s: ".banner-pop._pp{display:none!important} body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
