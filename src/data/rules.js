@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "deepinfra.com": { s: ".mui-style-6ftedq{display:none!important}" },
 
   // end of const rules
 };
