@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "umicore.de": {
+    s: "#cookieconsent-overlay,#cookieconsent-banner{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
