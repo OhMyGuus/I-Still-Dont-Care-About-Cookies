@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "thermewienmed.at": { s: "#cookies-hint { display: none !important; }" },
 
   // end of const rules
 };
