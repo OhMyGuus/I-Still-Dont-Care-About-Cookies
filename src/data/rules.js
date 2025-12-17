@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "ecologie.gouv.fr": {
+    s: ".orejime-banner-portal.is-open{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
