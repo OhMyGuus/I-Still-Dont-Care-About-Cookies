@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "plantagen.se": {
+    s: 'div:is([id^="radix-"][class*="fixed"][class*="z-50"],[class*="inset-0"][class*="z-50"][class*="bg-black/80"]) { display: none !important; } html,body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
