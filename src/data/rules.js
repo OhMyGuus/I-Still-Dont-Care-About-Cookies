@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "triumfomania.pl": {
+    s: "#RodoCookiesInfo,.modal-backdrop{display:none!important} body.modal-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
