@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "panneau-de-signalisation.com": {
+    s: ".coc-banner-overlay { display: none !important; }",
+  },
 
   // end of const rules
 };
