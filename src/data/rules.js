@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "kk.dk": {
+    s: "#sliding-popup,#kk-eu-cookie-withdrawal-link{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
