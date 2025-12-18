@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "ce-knowledge-hub.iasme.co.uk": {
+    s: ".p-dialog-mask:has(.cookie_dialog){display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
