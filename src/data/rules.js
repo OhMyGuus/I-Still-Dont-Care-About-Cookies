@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "my.cdek.ru": {
+    s: 'div[class*="fixed"]:is([class*="right-4"][class*="bottom-"],[class*="bg-black-20"][class*="w-full"][class*="h-full"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
