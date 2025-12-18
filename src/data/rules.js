@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "strategiclocalplan.govocal.com": {
+    s: "#modal-portal{display:none!important}html,body{position:static!important;overflow:auto!important;height:auto!important}body[data-scroll-locked]{overflow:auto!important;position:static!important;margin-right:0!important}",
+  },
 
   // end of const rules
 };
