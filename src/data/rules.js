@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "rozrywka.o2.pl": {
+    s: ".lf2mvm4,.absolute.inset-0{display:none!important}html,body{height:auto!important;overflow:auto!important}",
+  },
 
   // end of const rules
 };
