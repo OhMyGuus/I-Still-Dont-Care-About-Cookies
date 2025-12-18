@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "playox.de": {
+    s: ".cookie-modal{display:none!important} body:has(.cookie-modal){overflow:auto!important}",
+  },
 
   // end of const rules
 };
