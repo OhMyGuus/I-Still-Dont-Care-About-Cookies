@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "kryminalne.o2.pl": {
+    s: ".wcpg639 { display: none !important; } html,html.lwgrzbj,body,body.hs7fl9q { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
