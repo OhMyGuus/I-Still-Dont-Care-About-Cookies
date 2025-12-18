@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "albionfreemarket.com": {
+    s: ".cdk-overlay-pane.mat-mdc-dialog-panel,.cdk-overlay-backdrop.cdk-overlay-dark-backdrop{display:none!important}",
+  },
 
   // end of const rules
 };
