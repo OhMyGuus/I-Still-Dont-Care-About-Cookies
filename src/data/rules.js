@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "climbingguidebg.com": {
+    s: ".notification-wrapper.notification-wrapper-bottom{display:none!important}",
+  },
 
   // end of const rules
 };
