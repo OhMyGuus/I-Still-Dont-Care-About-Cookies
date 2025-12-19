@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "netio-products.com": { s: "#warning-modal{display:none!important}" },
 
   // end of const rules
 };
