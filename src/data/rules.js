@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "thomann.de": {
+    s: ':is(.spicy-consent-wrapper,.cookie-consent-spicy-popup,[id^="cookie-consent-bar"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
