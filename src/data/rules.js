@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "app.joko.com": { s: '[aria-modal="true"]{display:none!important}' },
 
   // end of const rules
 };
