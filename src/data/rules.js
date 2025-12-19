@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "printables.com": {
+    s: ".cky-overlay,.cky-consent-container{display:none!important}",
+  },
 
   // end of const rules
 };
