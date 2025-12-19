@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "energeticon.de": { s: "dialog#portuna_info { display: none !important; }" },
 
   // end of const rules
 };
