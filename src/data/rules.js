@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "linkgo.dev": { s: ".fixed.bottom-4.left-4.z-50{display:none!important;}" },
 
   // end of const rules
 };
