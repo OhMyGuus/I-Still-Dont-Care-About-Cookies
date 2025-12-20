@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "nuties.sk": {
+    s: "#gdpr-cookie-cnt{display:none!important;}html,body{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
