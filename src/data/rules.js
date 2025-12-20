@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "tergan.com.tr": { s: "#ccp---nb{display:none!important}" },
 
   // end of const rules
 };
