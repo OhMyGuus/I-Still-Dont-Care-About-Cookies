@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "insmind.com": {
+    s: "web-widget[name=VAgreeCookies]{display:none!important}",
+  },
 
   // end of const rules
 };
