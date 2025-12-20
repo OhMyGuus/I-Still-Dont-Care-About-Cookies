@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "biante.cz": {
+    s: ":is(#cookiesDialog,.modal-backdrop.fade.show){display:none!important;} body{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
