@@ -410,7 +410,7 @@ const rules = {
   },
   "siemens.pl": { s: ".alert.block.show,.PopupDiv{display:none !important}" },
   "open.fm": {
-    s: '[role="dialog"][aria-modal="true"][aria-label="Plansza informacyjna WP"], [aria-label="Plansza informacyjna WP"], div[class*="ketbsiz"], div[class^="ket"] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; } html, body { overflow: auto !important; height: auto !important; }',
+    s: ".itojjn2{display:none!important}html,body{overflow:auto!important}",
   },
   "laznianowa.pl": { c: 1 },
   "swiatnauki.pl": { s: "#menu{display:none !important}" },
