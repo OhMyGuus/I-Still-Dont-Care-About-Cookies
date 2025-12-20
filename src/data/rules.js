@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "hinterseer.com": {
+    s: "#eightworks-cookie-consent-plus,.eightworks-cookie-consent-plus-toggler{display:none!important} html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
