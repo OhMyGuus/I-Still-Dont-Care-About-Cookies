@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "wellness-sportclub.fr": {
+    s: "#cc-modal-container{display:none!important;}body:has(#cc-modal-container){overflow:auto!important;}",
+  },
 
   // end of const rules
 };
