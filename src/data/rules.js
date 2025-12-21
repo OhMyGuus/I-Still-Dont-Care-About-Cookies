@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "ticketbande.de": {
+    s: "#ecb-cookie-box{display:none!important}body.ecb-position-fix{position:static!important}",
+  },
 
   // end of const rules
 };
