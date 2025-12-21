@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "lechpol.pl": {
+    s: ".ins-v-agreement-modals,.modal-backdrop{display:none!important}html.modal-open,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
