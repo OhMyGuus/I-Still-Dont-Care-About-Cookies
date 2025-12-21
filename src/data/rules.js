@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "nindl-ski.com": {
+    s: "#cookieConsentMINDSTREAM, #dsgvoContainer { display: none !important; } body { overflow-y: auto !important; }",
+  },
 
   // end of const rules
 };
