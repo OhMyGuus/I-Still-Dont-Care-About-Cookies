@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "my.xmcnsite.site": {
+    s: "ion-modal.cookie-modal{display:none!important} html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
