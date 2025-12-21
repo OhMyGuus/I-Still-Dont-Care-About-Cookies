@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "hemfrid.se": { s: ".apKx0iF { display: none !important; }" },
 
   // end of const rules
 };
