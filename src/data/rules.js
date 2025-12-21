@@ -12573,7 +12573,7 @@ const rules = {
   "crfashionbook.com": { j: "5" },
   "rockpapershotgun.com": { j: "5" },
   "mensjournal.com": { j: "5" },
-  "assetstore.unity.com": { j: "5" },
+  "assetstore.unity.com": { s: "[id^=onetrust-]{display:none!important;}" },
   "popsugar.co.uk": { j: "5" },
   "rte.ie": { j: "5" },
   "sika.com": { j: "5" },
