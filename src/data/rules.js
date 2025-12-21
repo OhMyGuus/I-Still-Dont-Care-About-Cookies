@@ -10622,7 +10622,9 @@ const rules = {
   "itv4.de": { s: ".cookieModal{display:none !important}" },
   "banknorwegian.dk": { j: "5" },
   "gartencenter-seebauer.de": { j: "5" },
-  "onlineradiobox.com": { c: 161 },
+  "onlineradiobox.com": {
+    s: "#qc-cmp2-container,#alert_cookies{display:none!important}",
+  },
   "jesse.trade": {
     s: "#app > section > div > .fixed,#app > section > .fixed{display:none !important}",
   },
