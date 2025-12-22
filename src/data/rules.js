@@ -4590,7 +4590,9 @@ const rules = {
   "canadacomputers.com": { s: ".privacy-modal{display:none !important}" },
   "alivecolors.com": { c: 10 },
   "goodvibes.com": { s: "#bottomAlert{display:none !important}" },
-  "asnbank.nl": { j: "5" },
+  "asnbank.nl": {
+    s: "#cookieconsent{display:none!important}html,body{overflow:auto!important}",
+  },
   "red-carparts.de": { c: 8 },
   "carlovalentini.it": { s: "#footer-widget-area{display:none !important}" },
   "streamcraft.com": { s: ".privacy-wraper{display:none !important}" },
