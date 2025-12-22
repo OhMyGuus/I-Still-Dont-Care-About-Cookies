@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "zive.cz": {
+    s: ":is(#didomi-host,#cpexSubs_modalWrapper,#cpexSubs_veil){display:none!important}html,body{overflow:visible!important;height:auto!important}",
+  },
 
   // end of const rules
 };
