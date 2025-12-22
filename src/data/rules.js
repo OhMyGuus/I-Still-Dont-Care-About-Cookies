@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "antratek.nl": {
+    s: '.fixed.inset-0[class*="bg-black/50"][class*="z-[100]"]{display:none!important} body:is(.overflow-y-hidden,.overflow-hidden){overflow:visible!important}',
+  },
 
   // end of const rules
 };
