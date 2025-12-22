@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "raahenseutu.fi": { s: "#cmp-modal { display: none !important; }" },
 
   // end of const rules
 };
