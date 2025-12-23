@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "wpdesk.pl": {
+    s: "#flexiblecookies_container,#flexiblecookies_settings_container,#flexiblecookies_settings_background{display:none!important;}html,body{overflow:auto!important;height:auto!important;}",
+  },
 
   // end of const rules
 };
