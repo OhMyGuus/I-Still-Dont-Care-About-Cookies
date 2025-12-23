@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "indexventures.com": {
+    s: ".wtm_cookie_bar_wrapper { display: none !important; }",
+  },
 
   // end of const rules
 };
