@@ -20584,6 +20584,9 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "mfg.de": {
+    s: "#mfg-cookie-container{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
