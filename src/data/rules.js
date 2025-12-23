@@ -20584,6 +20584,7 @@ const rules = {
   "tatilsepeti.com": {
     s: "efilli-layout-dynamic{display:none!important;}",
   },
+  "medborgarskolan.se": { s: "#cookie-popup{display:none!important}" },
 
   // end of const rules
 };
