@@ -194,7 +194,9 @@ const commons = {
 };
 
 const rules = {
-  "google.com": { j: "8" },
+  "google.com": {
+    s: "#xe7COe{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
   "youtube.com": {
     j: "5",
     s: "ytd-consent-bump-v2-lightbox,tp-yt-iron-overlay-backdrop,.consent-bump-lightbox{display:none !important}",
