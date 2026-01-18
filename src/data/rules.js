@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "hallerts-kuenstlicher-weihnachtsbaum.de": {
+    s: ".modals-overlay, .pr-cookie-modal, .pr-cookie-details-modal { display: none !important; } body._has-modal, body[style*='overflow: hidden'] { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
