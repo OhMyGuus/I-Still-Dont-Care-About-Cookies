@@ -14264,7 +14264,7 @@ const rules = {
   "flightradar24.com": { j: "5" },
   "amf-semfyc.com": { j: "5" },
   "hutchinson.com": { j: "5" },
-  "whitebit.com": { s: "main ~ div.ui-kit{display:none !important}" },
+  "whitebit.com": { s: ".cm--box{display:none!important;}" },
   "ibispaint.com": { s: "#agreementPane{display:none !important}" },
   "mdcc.de": { j: "5" },
   "temple.edu": { s: "#tu-cookies-eu-compliance{display:none !important}" },
