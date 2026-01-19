@@ -15350,7 +15350,9 @@ const rules = {
     s: "#___smooth > div > .sui-grid{display:none !important}",
   },
   "fandor.com": { c: 100 },
-  "poco.de": { c: 28 },
+  "poco.de": {
+    s: "#cookieBar,#modal{display:none!important;}body{overflow:auto!important;}",
+  },
   "waidhofen.at": { j: "5" },
   "mein-lehrbetrieb.at": { j: "5" },
   "infranken.de": { j: "5" },
