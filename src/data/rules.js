@@ -19722,7 +19722,9 @@ const rules = {
     s: ".focus.focus-cookiebara.active,#cookieBara,.cookiebara-wrapper,.cookiebar-simple{display:none!important}body{overflow:visible!important}",
   },
   "mjob.si": { j: 6 },
-  "err.ee": { j: 6 },
+  "err.ee": {
+    s: ".cookieOverlay{display:none!important}body:has(.modal:has(.cookieOverlay)) .modal-backdrop{display:none!important}body{overflow:auto!important}",
+  },
   "wetransfer.com": {
     s: ".cb-gdpr{display:none!important}",
   },
