@@ -15353,7 +15353,9 @@ const rules = {
   "poco.de": { c: 28 },
   "waidhofen.at": { j: "5" },
   "mein-lehrbetrieb.at": { j: "5" },
-  "infranken.de": { j: "5" },
+  "infranken.de": {
+    s: "#cmpwrapper{display:none!important}html,body{overflow:auto!important}",
+  },
   "partenamut.be": { j: "5" },
   "moreysa.com": { s: "#sdgdpr_modal_wrapper{display:none !important}" },
   "youngcourtesans.com": { s: ".cookie-request{display:none !important}" },
