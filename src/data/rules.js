@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "oklo.com": {
+    s: "#cm_disclaimer-focus,#cm_sidebar-focus,.cm_overlay{display:none!important}body{overflow:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
