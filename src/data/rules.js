@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "kafkamuseum.cz": {
+    s: "dialog.x-cookieconsent-dialog { display: none !important; } html,body { overflow: visible !important; }",
+  },
 
   // end of const rules
 };
