@@ -15095,9 +15095,7 @@ const rules = {
   "kodiko.gr": { j: "5" },
   "only.com": { s: ".overlay-backdrop{display:none !important}" },
   "sj.se": { j: 6 },
-  "vitalsource.com": {
-    s: '.dismiss-cookie,div[aria-describedby*="CookieBanner"],.App > footer + div[role="dialog"]{display:none !important}',
-  },
+  "vitalsource.com": { s: "#cookiecat-host{display:none!important}" },
   "abb.com": {
     s: "#cassie-widget{display:none!important}html,body{overflow:auto!important}",
   },
