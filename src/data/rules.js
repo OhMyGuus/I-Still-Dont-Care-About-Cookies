@@ -7085,7 +7085,9 @@ const rules = {
   "smile.io": {
     s: ".smile-cookie-notification-container{display:none !important}",
   },
-  "wuestenrot.at": { j: "5" },
+  "wuestenrot.at": {
+    s: ".cookies{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
   "bonuszbrigad.hu": { s: "#newASZFLayer{display:none !important}" },
   "voli-diretti.it": { j: "5" },
   "caser.es": { s: "#gdpr-modal > div{display:none !important}" },
