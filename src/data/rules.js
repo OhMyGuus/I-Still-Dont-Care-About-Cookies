@@ -20587,6 +20587,7 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "ubiebox.com": { s: ".cookie-though.visible { display: none !important; }" },
 
   // end of const rules
 };
