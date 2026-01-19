@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "walesarchery.com": {
+    s: "#Compliance-cs-banner{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
