@@ -17839,9 +17839,7 @@ const rules = {
     s: 'div[data-qa*="lux-container"] > div[class*="wrapper_static-mobile"]{display:none !important}',
   },
   "funmail2u.de": { s: "td > #message{display:none !important}" },
-  "perplexity.ai": {
-    s: ".fixed.bottom-sm.left-sm.bg-background{display:none !important}",
-  },
+  "perplexity.ai": { s: "#cookie-consent { display: none !important; }" },
   "pkgs.org": {
     s: "#consent-notice{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
