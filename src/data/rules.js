@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "visittallinn.ee": {
+    s: "#cookieAcceptModal___BV_modal_outer_ { display: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
