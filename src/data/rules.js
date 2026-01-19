@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "de.tommy.com": {
+    s: ".ReactModal__Overlay[class*=CookieNotice]{display:none!important} body.ReactModal__Body--open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
