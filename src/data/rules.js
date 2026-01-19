@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "de.tommy.com": {
+    s: '[class*="CookieNotice_CookieNoticeOverlay"]{display:none!important} :is(body.ReactModal__Body--open,body.CookieNotice_CookieNoticeOpen--body__Lxs42){overflow:auto!important;max-height:none!important}',
+  },
 
   // end of const rules
 };
