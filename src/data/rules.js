@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "wiemann-lehrmittel.de": {
+    s: ".acris-cookie-consent,#darkenBackground,.modal-backdrop.show{display:none!important}body.modal-open{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
