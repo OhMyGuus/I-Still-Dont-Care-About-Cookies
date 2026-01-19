@@ -15562,7 +15562,9 @@ const rules = {
     s: "#cookieModal{display:none !important}",
     c: 14,
   },
-  "scaleway.com": { j: "6" },
+  "scaleway.com": {
+    s: ':is([class*="PanelConsent"],[class*="Dialog_"]){display:none!important;}html,body,#__next{overflow:auto!important;height:auto!important;}body[style*="overflow"]{overflow:auto!important;}',
+  },
   "fresh-pool.de": { c: 14 },
   "vakin.se": {
     s: 'div[data-testid="modal-backdrop"],.sv-cookie-consent-modal{display:none !important} body{overflow: unset !important; position: unset !important}',
