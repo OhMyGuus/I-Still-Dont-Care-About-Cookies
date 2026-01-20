@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "klipy.com": {
+    s: "div.fixed.z-\\[60\\].justify-center{display:none!important}",
+  },
 
   // end of const rules
 };
