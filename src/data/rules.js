@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "jobs.amazon.ie": {
+    s: ".hvh-careers-emotion-plch5b, [data-test-component=StencilModalBackdrop] { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
