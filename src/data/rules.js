@@ -13853,7 +13853,7 @@ const rules = {
   "ticketswap.it": { c: 51 },
   "ticketswap.se": { c: 51 },
   "ticketswap.com.br": { c: 51 },
-  "tf1.fr": { j: "5" },
+  "tf1.fr": { s: '[id^="didomi"]{display:none!important;}' },
   "tf1info.fr": { j: "5" },
   "flyr.com": { j: "5" },
   "rewardlink.io": { c: 69 },
