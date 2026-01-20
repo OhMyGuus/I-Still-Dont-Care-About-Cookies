@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "aqua-store.fr": {
+    s: ".popup_cookies_tracking { display: none !important; }",
+  },
 
   // end of const rules
 };
