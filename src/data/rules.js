@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "learner.mycreds.ca": {
+    s: '[class*="MuiDialog-root"][class*="MuiModal-root"]{display:none!important}body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
