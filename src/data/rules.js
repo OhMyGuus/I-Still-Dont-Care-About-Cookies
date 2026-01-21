@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "auth.opera.com": {
+    s: '[data-tid="modal-overlay"],div[style*="z-index: 2000000000"]{display:none!important;}html,body{overflow:auto!important;position:static!important;}',
+  },
 
   // end of const rules
 };
