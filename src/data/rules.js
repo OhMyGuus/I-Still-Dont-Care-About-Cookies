@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "wienxtra.at": {
+    s: '#supi{display:none!important}body[class*="tx-supi"]{overflow:auto!important}',
+  },
 
   // end of const rules
 };
