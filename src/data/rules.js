@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "learn.ligonier.org": {
+    s: ".fixed:is(.inset-0.z-40,.bottom-0.left-0.right-0.z-50){display:none!important;}",
+  },
 
   // end of const rules
 };
