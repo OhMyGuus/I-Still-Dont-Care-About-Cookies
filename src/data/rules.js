@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "mein-now.de": {
+    s: 'body[style*="overflow: hidden"]{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
