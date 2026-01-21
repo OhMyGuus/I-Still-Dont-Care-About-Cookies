@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "bap.navigator.gmx.net": {
+    s: ":is([data-layer],[data-burger-layer],[data-layer-content-wrapper]){display:none!important;}",
+  },
 
   // end of const rules
 };
