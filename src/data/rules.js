@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "penguin.de": {
+    s: ":is(#ccm-widget,#ccm-control-panel,#ccm-focus-helper--top,#ccm-focus-helper--bottom){display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
