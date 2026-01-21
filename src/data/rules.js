@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "jobb.procruitment.se": {
+    s: "dialog.z-cookie-alert{display:none!important;}",
+  },
 
   // end of const rules
 };
