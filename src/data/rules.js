@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "hspv.nrw.de": {
+    s: "#cookiep, body:has(#cookiep) .modal-backdrop { display:none!important; } body:has(#cookiep) { overflow:auto!important; }",
+  },
 
   // end of const rules
 };
