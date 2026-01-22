@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "startupbw.de": {
+    s: "#bb-cm-blocker-notice { display: none !important; } body.bb-cm-open { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
