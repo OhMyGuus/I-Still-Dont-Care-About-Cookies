@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "beliani.hu": {
+    s: ".cookies_popup.no-outline,#cookie_warning{display:none!important}html{overflow:auto!important}",
+  },
 
   // end of const rules
 };
