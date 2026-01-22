@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "korayspor.com": {
+    s: '#ccp---nb,[id^="wrap-close-button-"]{display:none!important;}',
+  },
 
   // end of const rules
 };
