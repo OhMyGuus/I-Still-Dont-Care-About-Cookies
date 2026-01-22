@@ -16045,7 +16045,9 @@ const rules = {
   },
   "castorama.pl": { s: ".background-overlay{display:none !important}" },
   "wijnbeurs.nl": { s: "._has-modal{overflow: unset !important}" },
-  "nordnet.se": { c: 6 },
+  "nordnet.se": {
+    s: '[id^="radix-"]:has(#cookie-accept-all-secondary){display:none!important;}html,body{overflow:auto!important;}',
+  },
   "playstartrekonline.com": { s: "#gdpr-wall{display:none !important}" },
   "gerep.fr": { c: 24 },
   "lokalninja.de": {
