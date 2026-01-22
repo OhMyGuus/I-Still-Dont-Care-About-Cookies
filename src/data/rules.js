@@ -20587,6 +20587,7 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "govx.com": { s: ".jss3 { display: none !important; }" },
 
   // end of const rules
 };
