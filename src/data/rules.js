@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "olx.kz": {
+    s: "[data-testid=cookies-overlay__container]{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
