@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "fh-dresden.eu": {
+    s: "#privacywire-wrapper,#privacywire-ask-consent-blueprint{display:none!important}",
+  },
 
   // end of const rules
 };
