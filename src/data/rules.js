@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "year-in-review.nintendo.com": {
+    s: ":is(#onetrust-consent-sdk,[class*=sc-qt7d2l],[class*=sc-4u2l6u]){display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
