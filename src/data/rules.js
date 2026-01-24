@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "support.silicon-power.com": {
+    s: ".privacyArea.show,.moduleMask,#moduleCookie,#modulePrivacy{display:none!important}",
+  },
 
   // end of const rules
 };
