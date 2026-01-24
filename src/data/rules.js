@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "albertinum.skd.museum": {
+    s: "#biscuitHint{display:none!important} html,body,body.no-scroll{overflow:auto!important}",
+  },
 
   // end of const rules
 };
