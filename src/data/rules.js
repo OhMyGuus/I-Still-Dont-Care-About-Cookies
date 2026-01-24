@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "foliosociety.com": {
+    s: "#cdk-overlay-1, .cdk-overlay-container:has(#cdk-overlay-1) .cdk-overlay-backdrop.cdk-overlay-dark-backdrop.cdk-overlay-backdrop-showing { display: none !important; }",
+  },
 
   // end of const rules
 };
