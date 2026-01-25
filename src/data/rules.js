@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "hostzealot.com.ua": {
+    s: '[class*="bottom-2"][class*="left-1/2"][class*="z-50"]{display:none!important}',
+  },
 
   // end of const rules
 };
