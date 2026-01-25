@@ -16043,7 +16043,7 @@ const rules = {
     s: "#ccModal{display:none !important}",
     c: 14,
   },
-  "castorama.pl": { s: ".background-overlay{display:none !important}" },
+  "castorama.pl": { s: '[id*="consent" i]{display:none!important;}' },
   "wijnbeurs.nl": { s: "._has-modal{overflow: unset !important}" },
   "nordnet.se": { c: 6 },
   "playstartrekonline.com": { s: "#gdpr-wall{display:none !important}" },
