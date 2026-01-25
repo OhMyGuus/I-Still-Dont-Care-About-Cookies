@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "bureau-vallee.fr": {
+    s: ":is(.amgdprcookie-modal-container,#amgdpr-privacy-popup,.ammodals-overlay,#amgdprcookie-form){display: none !important;}",
+  },
 
   // end of const rules
 };
