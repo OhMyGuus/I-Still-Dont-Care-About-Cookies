@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "castrickclues.com": {
+    s: "section.fixed.bottom-0.w-full.bg-white{display:none!important}",
+  },
 
   // end of const rules
 };
