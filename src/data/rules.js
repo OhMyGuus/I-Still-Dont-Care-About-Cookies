@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "radiofg.com": {
+    s: "#tc-privacy-wrapper,#privacy-overlay{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
