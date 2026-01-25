@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "asiatic-archery.com": {
+    s: ':is([class*="border-asiaticArchery_default"][class*="z-50"],[class*="bg-gray-900/50"][class*="z-40"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
