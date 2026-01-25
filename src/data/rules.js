@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "automaticall.io": {
+    s: ".fixed.bottom-0.inset-x-0.bg-white.border-t{display:none!important;}",
+  },
 
   // end of const rules
 };
