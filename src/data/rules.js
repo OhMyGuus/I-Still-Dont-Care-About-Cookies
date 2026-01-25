@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "blog.ongoro.top": {
+    s: "[class*=inset-0][class*=bg-black][class*=z-50],[data-ezoic-role=privacy-policy]{display:none!important}html,body{overflow:auto!important;pointer-events:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
