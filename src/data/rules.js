@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "careers.n-ix.com": {
+    s: "#cookie-law-info-bar,#cliSettingsPopup,.cli-modal-backdrop{display:none!important} html,body{overflow:visible!important;height:auto!important}",
+  },
 
   // end of const rules
 };
