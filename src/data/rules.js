@@ -20587,6 +20587,7 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "5sim.net": { s: ".mui-style-1rqmbb5 { display: none !important; }" },
 
   // end of const rules
 };
