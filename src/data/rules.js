@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "strelaonline.by": {
+    s: ".bottom-popup,.b24-widget-button-shadow{display: none !important;}",
+  },
 
   // end of const rules
 };
