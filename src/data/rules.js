@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "siko.cz": {
+    s: ".cx-dialog-popover-center-backdrop,.cookie-duck-body{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
