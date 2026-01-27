@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "volksbank-pur.de": {
+    s: ':is([class*=cookie],[id^="cdk-overlay-"],#mat-mdc-dialog-0){display:none!important}html,body{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
