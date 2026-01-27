@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "glantier.com": {
+    s: "#cookiesplus-overlay,#cookiesplus-modal-container{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
