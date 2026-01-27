@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "nicematin.com": {
+    s: ":is(#nm-cookies-wall,#didomi-host){display:none!important} body:has(#nm-cookies-wall){overflow:auto!important} html,body{overflow-x:visible!important}",
+  },
 
   // end of const rules
 };
