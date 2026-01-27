@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "viajerospiratas.es": {
+    s: '[class*="hp__sc-s043ov-0"],[class*="hp__sc-j5gtx"]{display:none!important}html,body{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
