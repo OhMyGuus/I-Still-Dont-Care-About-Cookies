@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "soldoutprod.com": {
+    s: "#rgpd-ask-popin{display:none!important}body.rgpd-ask-popin--active,html.rgpd-ask-popin--active{overflow:visible!important}",
+  },
 
   // end of const rules
 };
