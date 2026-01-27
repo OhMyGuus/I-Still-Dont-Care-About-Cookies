@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "thenextweb.com": {
+    s: ':is(#cookie-consent-banner,[id^="sp_message_container_"]) { display:none!important; } html,body { overflow:auto!important; }',
+  },
 
   // end of const rules
 };
