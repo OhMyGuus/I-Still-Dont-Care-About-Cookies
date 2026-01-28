@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "inoki-piercing.fr": {
+    s: '.cookieFrame,#ccbut{display:none!important} html[style*="overflow: hidden"],body#hdp{overflow:auto!important;margin-right:0!important}',
+  },
 
   // end of const rules
 };
