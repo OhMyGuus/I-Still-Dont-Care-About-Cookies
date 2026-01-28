@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "studentapan.se": {
+    s: '[id^="radix-_r_"][class*="Modal_content"], .Modal_overlay__nbJY5 { display: none !important; } html, body { overflow: auto !important; margin-right: 0 !important; height: auto !important; max-height: none !important; }',
+  },
 
   // end of const rules
 };
