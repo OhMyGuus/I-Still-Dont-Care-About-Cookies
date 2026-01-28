@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "buyandship.com.tw": {
+    s: ".bs-cookie-consent { display: none !important; }",
+  },
 
   // end of const rules
 };
