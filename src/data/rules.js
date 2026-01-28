@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "bahianoticias.com.br": {
+    s: ".sc-a5a284ef-0.hrwwcj { display: none !important; }",
+  },
 
   // end of const rules
 };
