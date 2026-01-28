@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "falabella.com.co": {
+    s: "section[class*=footer-bottom]{display:none!important}",
+  },
 
   // end of const rules
 };
