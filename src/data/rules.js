@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "nakup.itesco.cz": {
+    s: ".ddsweb-consent-banner__container,#onetrust-consent-sdk{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
