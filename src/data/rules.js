@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "sportowefakty.wp.pl": {
+    s: '.cookie-consent-banner,[role="dialog"][aria-modal="true"]{display:none!important;}html,body{overflow:auto!important;height:auto!important;}',
+  },
 
   // end of const rules
 };
