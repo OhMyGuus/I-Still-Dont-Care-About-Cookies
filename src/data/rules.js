@@ -14615,7 +14615,9 @@ const rules = {
   "diehl.com": { s: ".notice-overlay{display:none !important}" },
   "vamox.io": { j: "5" },
   "superpantofi.ro": { s: "#app > .fixed-top{display:none !important}" },
-  "premierinn.com": { j: "5" },
+  "premierinn.com": {
+    s: "#manageCookieModal, .pi-cookie-policy-modal { display: none !important; } html, body { overflow: auto !important; }",
+  },
   "brewersfayre.co.uk": { j: "5" },
   "lolja.com.br": { s: "#lgpd-popup{display:none !important}" },
   "xp-pen.com": { s: ".cookie_tag{display:none !important}" },
