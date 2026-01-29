@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "grandpatassos.com": {
+    s: ".fixed.bottom-0.z-50 { display: none !important; }",
+  },
 
   // end of const rules
 };
