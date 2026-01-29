@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "app.cherry-pick.io": {
+    s: "ngb-modal-window[aria-modal=true]{display:none!important} body.modal-open{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
