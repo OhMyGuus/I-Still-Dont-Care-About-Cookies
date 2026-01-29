@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "internetwache.polizei.nrw": {
+    s: ":is(#sliding-popup,.mdmn-cookie-compliance__overlay){display:none!important}",
+  },
 
   // end of const rules
 };
