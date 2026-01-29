@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "ankersrbija.rs": {
+    s: '.fixed:is(.bottom-0.right-0.bg-white,[class*="left-0"][class*="top-0"][class*="bg-black/50"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
