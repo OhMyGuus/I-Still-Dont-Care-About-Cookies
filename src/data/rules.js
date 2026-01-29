@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "farmaciasdesimilares.com": {
+    s: ".farmaciassimilaresmx-app-store-components-1-x-cookiesModal{display:none!important;}",
+  },
 
   // end of const rules
 };
