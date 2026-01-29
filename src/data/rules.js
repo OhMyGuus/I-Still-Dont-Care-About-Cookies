@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "sport.sky.de": {
+    s: '[id^="sp_message_container_"]{display:none!important}',
+  },
 
   // end of const rules
 };
