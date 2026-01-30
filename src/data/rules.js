@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "escalier-colimacon.com": {
+    s: ".wz-rgpd { display: none !important; } body { overflow: auto !important; margin-right: 0 !important; padding-right: 0 !important; }",
+  },
 
   // end of const rules
 };
