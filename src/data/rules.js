@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "latimes.com": {
+    s: 'modality-custom-element[id^="modality-"],div[data-element="action-bar-overlay"]{display:none!important} body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
