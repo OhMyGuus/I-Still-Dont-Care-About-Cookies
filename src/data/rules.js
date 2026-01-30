@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "janisroze.lv": {
+    s: ".amgdprcookie-modal-container,#cookie-policy-popup,.gdpr-cookie-settings,.amgdprcookie-main-wrapper,#amgdpr-privacy-popup{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
