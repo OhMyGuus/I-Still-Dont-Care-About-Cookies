@@ -20587,6 +20587,7 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "bamper.by": { s: "#shadow-cookie,#modal-cookie{display:none!important}" },
 
   // end of const rules
 };
