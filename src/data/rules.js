@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "laventure-association.com": {
+    s: "[id^=tarteaucitron]{display:none!important}html,body{overflow:auto!important;height:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
