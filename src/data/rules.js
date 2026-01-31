@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "aeza.ru": {
+    s: 'div:is([class*="sc-b3dcb586-0"],[class*="sc-5d2d0986-3"]){display:none!important}',
+  },
 
   // end of const rules
 };
