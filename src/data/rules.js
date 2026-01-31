@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "moravarosi.hu": {
+    s: ".chakra-modal__overlay,[id^=chakra-modal-]{display:none!important} body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
