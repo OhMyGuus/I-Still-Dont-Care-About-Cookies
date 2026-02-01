@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "douze-cycles.com": {
+    s: "div.tw-fixed.tw-bottom-0.tw-z-50{display:none!important} html,body,#__nuxt{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
