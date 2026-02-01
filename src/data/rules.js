@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "traxes.io": {
+    s: '.disabled-main-foreground,[class*="fixed"][class*="bottom-5"]{display:none!important}',
+  },
 
   // end of const rules
 };
