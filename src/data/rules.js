@@ -15556,7 +15556,7 @@ const rules = {
   "123inkt.be": { s: "[data-action=CookiePopup]{display:none!important}" },
   "123inkt.nl": { s: "[data-action=CookiePopup]{display:none!important}" },
   "123tinta.es": { s: "[data-action=CookiePopup]{display:none!important}" },
-  "123drukuj.pl": { s: "[data-action=CookiePopup]{display:none!important}" },
+  "123drukuj.pl": { s: ".bottom-notice { display: none !important; }" },
   "beruby.com": { s: "#box-shadow{display:none !important}" },
   "arche.net": {
     s: "#cookieModal{display:none !important}",
