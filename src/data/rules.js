@@ -11753,7 +11753,7 @@ const rules = {
     s: '#root [aria-label="cookie consent banner"]{display:none !important}',
   },
   "bibliotheques-specialisees.paris.fr": {
-    s: 'div[role="alertdialog"]{display:none !important}',
+    s: "body{overflow:auto!important}#cookie-modal{display:none!important}",
   },
   "paris.fr": { j: "5", s: ".paris-cookies-banner{display:none !important}" },
   "janto.es": {
