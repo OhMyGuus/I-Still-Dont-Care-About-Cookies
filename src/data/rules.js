@@ -10821,7 +10821,7 @@ const rules = {
   "fnatic.com": { j: "5" },
   "msa.fr": { s: "#consent-cookies{display:none !important}" },
   "expert.de": {
-    s: "[id^=CybotCookiebotDialog]{display:none!important}body.isChrome{overflow:auto!important}",
+    s: "#CybotCookiebotDialog, #CybotCookiebotDialogBodyUnderlay { display: none !important; }",
   },
   "lufthansagroup.careers": { j: "5" },
   "z-immobilien.at": { j: "5" },
