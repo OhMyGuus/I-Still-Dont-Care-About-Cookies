@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "cre.fr": {
+    s: "#orejime{display:none!important} html.orejimeHtml-WithModalOpen,body.orejimeBody-WithModalOpen{overflow:auto!important;position:static!important;height:auto!important}",
+  },
 
   // end of const rules
 };
