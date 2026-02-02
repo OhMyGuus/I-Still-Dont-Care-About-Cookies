@@ -20587,6 +20587,7 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "f2f.com": { s: ".ADZVSG_wrapper{display:none!important}" },
 
   // end of const rules
 };
