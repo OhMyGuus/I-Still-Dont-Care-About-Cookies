@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "global-ecosystems.org": {
+    s: ".StyledLayer-sc-rmtehz-0:has(.StyledBox-sc-13pk1d4-0.gXchPz){display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
