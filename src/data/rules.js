@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "siko.sk": {
+    s: "siko-b2c-consent-modal .modal-container { display: none !important; }",
+  },
 
   // end of const rules
 };
