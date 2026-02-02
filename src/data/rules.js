@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "groupe-uneo.fr": {
+    s: ".un-modal-cookies{display:none!important}#tq-uneo{overflow:auto!important}",
+  },
 
   // end of const rules
 };
