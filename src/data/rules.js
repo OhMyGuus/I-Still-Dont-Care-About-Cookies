@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "steuerberatung-oberkassel.de": {
+    s: ".fixed.inset-0.overflow-auto,.fixed.top-0.left-0.bg-opacity,button.fixed.bottom-0.left-4{display:none!important}",
+  },
 
   // end of const rules
 };
