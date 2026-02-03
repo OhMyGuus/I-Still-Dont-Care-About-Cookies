@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "langerthuisinhuis.nl": {
+    s: ":is(.rockberg-popup,.rockberg-popup-overlay,.tw-fixed.tw-z-20.tw-bottom-5.tw-right-5){display:none!important}",
+  },
 
   // end of const rules
 };
