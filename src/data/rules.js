@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "suppi.pl": {
+    s: ".modal.show:has(.statute-header), .modal-backdrop.show { display:none!important } body { overflow:auto!important }",
+  },
 
   // end of const rules
 };
