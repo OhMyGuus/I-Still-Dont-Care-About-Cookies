@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "partsinmotion.co.uk": {
+    s: "#fancybox-overlay,#fancybox-wrap,#cookie-managment-window{display:none!important;}html,body{overflow:auto!important;height:auto!important;}",
+  },
 
   // end of const rules
 };
