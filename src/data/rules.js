@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "blindtyping.com": {
+    s: ":is(.Dialog-module-scss-module__AcijGa__overlay,.Dialog-module-scss-module__AcijGa__content){display:none!important} body:has(.Dialog-module-scss-module__AcijGa__content){overflow:auto!important}",
+  },
 
   // end of const rules
 };
