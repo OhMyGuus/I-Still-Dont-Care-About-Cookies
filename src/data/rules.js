@@ -3968,7 +3968,9 @@ const rules = {
   "annualreviews.org": { s: ".ar-news-footer{display:none !important}" },
   "isidewith.com": { s: ".overlayBG,.overlayContent{display:none !important}" },
   "csu.de": { s: ".mod-layer{display:none !important}" },
-  "voria.gr": { s: "#cookies_area{display:none !important}" },
+  "voria.gr": {
+    s: "#qc-cmp2-container{display:none!important}html,body{overflow:auto!important}",
+  },
   "praktiker.ro": { s: ".cookie-form{display:none !important}" },
   "vova.com": { s: ".activity-cookie{display:none !important}" },
   "rebirth-hannover.de": { s: ".c-callout{display:none !important}" },
