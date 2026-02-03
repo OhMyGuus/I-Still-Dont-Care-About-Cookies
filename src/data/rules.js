@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "armee-de-terre.career-inspiration.com": {
+    s: '[id^="radix-"][role="dialog"]{display:none!important;}body{overflow:auto!important;height:auto!important;}body[style*="pointer-events:none"]{pointer-events:auto!important;}',
+  },
 
   // end of const rules
 };
