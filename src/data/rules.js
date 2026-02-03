@@ -20587,6 +20587,9 @@ const rules = {
   "app.standards.site": {
     s: ".VPuPn{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
+  "nloto.ru": {
+    s: "#__next>div:has(p[class*=sc-9a8fa3e3]){display:none!important}",
+  },
 
   // end of const rules
 };
