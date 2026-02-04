@@ -11193,7 +11193,9 @@ const rules = {
   "flyrotax.com": { s: "#CookieSettingsContainer{display:none !important}" },
   "amorespossiveis.com.br": { s: "#idLGPD{display:none !important}" },
   "freiewelt.net": { s: "#cmmodal{display:none !important}" },
-  "bankmillennium.pl": { s: "wc-cookies-marketing{display:none !important}" },
+  "bankmillennium.pl": {
+    s: "#cookie_modal_placeholder { display: none !important; } html,body { overflow: auto !important; height: auto !important; }",
+  },
   "handelsbanken.se": {
     s: ".shb-modal,.shb-modal__background,.shb-modal__container{display:none!important}body{overflow:auto!important}",
   },
