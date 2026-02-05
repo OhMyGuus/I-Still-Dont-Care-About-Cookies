@@ -18651,7 +18651,7 @@ const rules = {
     s: ".tm-cookies, a.cookies-toggler#cookies-toggle, a#cookies-necessary, a#cookies-accept { display: none !important; }",
   },
   "chat.mistral.ai": {
-    s: '[role="dialog"][data-state="open"], .bg-overlay[data-state="open"], .backdrop-blur-xs[data-state="open"], [id^="radix-_R_"][data-state="open"] { display: none !important; } body { pointer-events: auto !important; }',
+    s: '[role="dialog"][id^="radix-"][data-state="open"]{display:none!important}body{overflow:auto!important}',
   },
   "careers.teenage.engineering": {
     s: 'dialog[class*="z-cookie-alert"], [class*="z-cookie-alert"], [class*="backdrop:bg-"], [class*="cookie-consent"], [id*="cookie"] { display: none !important; } html, body { overflow: auto !important; }',
