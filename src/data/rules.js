@@ -11177,7 +11177,7 @@ const rules = {
   "centrumtenisa.pl": { j: "5" },
   "jetbluevacations.com": { j: "5" },
   "impericon.com": { j: "5" },
-  "otelo.de": { j: "5" },
+  "otelo.de": { s: ".GlobalDialogs{display:none!important}" },
   "live.com": { j: "5" },
   "ikbenfrits.nl": { j: "5" },
   "diefabrik-sundern.de": { j: "5" },
