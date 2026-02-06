@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "chery.co.za": { s: ".cookie_cookie-fixed__bPspo{display:none!important}" },
 
   // end of const rules
 };
