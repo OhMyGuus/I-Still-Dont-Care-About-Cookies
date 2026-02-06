@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "groupama.hu": {
+    s: "grma-cookie-policy-root { display: none !important; } body.grma-cookie-modal-opened { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
