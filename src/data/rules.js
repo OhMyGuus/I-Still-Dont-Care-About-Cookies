@@ -15625,7 +15625,7 @@ const rules = {
   "smart.com": { j: "6" },
   "mesdroitssociaux.gouv.fr": { c: 49 },
   "remarkable.com": {
-    s: "dialog.ark-dialog[open],dialog.ark-dialog[open] .ark-modal{display:none!important} dialog.ark-dialog::backdrop{background:transparent!important} html,body{overflow:auto!important;position:static!important;touch-action:auto!important}",
+    s: "dialog:has(.ark-modal.bg-paper-1){display:none!important} html,body{overflow:auto!important}",
   },
   "accu-components.com": {
     s: 'div[x-data="cookies"]{display:none !important}',
