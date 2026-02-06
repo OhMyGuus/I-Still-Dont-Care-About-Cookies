@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "solutudo.com.br": {
+    s: ".floating-consent,body:has(.floating-consent)>.modal-backdrop.show{display:none!important}body.modal-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
