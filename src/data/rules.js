@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "en.macromicro.me": {
+    s: "#header-gdpr{display:none!important} :is(body,html):has(#header-gdpr){overflow:auto!important}",
+  },
 
   // end of const rules
 };
