@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "de.growatt.com": {
+    s: ".cookie{display:none!important}html,body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
