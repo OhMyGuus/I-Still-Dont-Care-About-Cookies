@@ -12947,7 +12947,9 @@ const rules = {
   "elopage.com": { j: "6", s: ".Toastify ~ .elo-btn{display:none !important}" },
   "gartenbaumschule-becker.de": { j: "5" },
   "deutsche-bank.es": { c: 59 },
-  "dbschenker.com": { j: "5" },
+  "dbschenker.com": {
+    s: "#dialog-id-privacyBanner{display:none!important}body:has(#dialog-id-privacyBanner){overflow:auto!important}",
+  },
   "northernpowergrid.com": {
     j: "5",
     s: "header > .ch2-icon{display:none !important}",
