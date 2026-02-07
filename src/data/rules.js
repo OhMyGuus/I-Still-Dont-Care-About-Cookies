@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "spusu.it": {
+    s: 'dialog.modal-overlay[id^="dialog-id-"]{display:none!important} html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
