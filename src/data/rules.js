@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "prologpublishing.com": {
+    s: "body:has(#cookies_message_modal){overflow:auto!important} #cookies_message_modal,.modal-backdrop{display:none!important}",
+  },
 
   // end of const rules
 };
