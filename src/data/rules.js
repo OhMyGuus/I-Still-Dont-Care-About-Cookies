@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bundespreis-ecodesign.de": {
+    s: "#ascm_bg,#ascm_ct{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
