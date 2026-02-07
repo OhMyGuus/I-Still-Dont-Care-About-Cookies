@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "mgz-muenchen.de": {
+    s: ":is(#wd-consent-tool,#geofilter){display:none!important;} body.body-lock{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
