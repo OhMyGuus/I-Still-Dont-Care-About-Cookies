@@ -8784,7 +8784,9 @@ const rules = {
   "tripadvisor.be": { c: 18 },
   "tripadvisor.co.za": { c: 18 },
   "dzbank-derivate.de": { s: "#screen-overlay{display:none !important}" },
-  "secondsol.com": { j: "5" },
+  "secondsol.com": {
+    s: "#gridSystemModal,.gdpr-modal,.modal-backdrop{display:none!important}body{overflow:auto!important}",
+  },
   "zkteco.com": { s: "#cmsg{display:none !important}" },
   "thegapdecaders.com": { c: 5 },
   "matratzen-concord.de": { c: 2 },
