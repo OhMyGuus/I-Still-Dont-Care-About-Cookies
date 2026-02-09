@@ -2627,7 +2627,9 @@ const rules = {
   "coherent.com": { c: 1 },
   "survio.com": { c: 0 },
   "m.omroepwest.nl": { s: ".c-cbp-container{display:none !important}" },
-  "aktionspreis.de": { s: ".leiste_vollstaendig{display:none !important}" },
+  "aktionspreis.de": {
+    s: "#cookiescript_injected_wrapper,#csconsentlink{display:none!important}html,body{overflow:auto!important}",
+  },
   "moment-liege.be": { c: 134 },
   "mega-mania.com.pt": { s: ".pl-cookies{display:none !important}" },
   "go4pro.lt": { s: ".wu_holder-wrapper{display:none !important}" },
