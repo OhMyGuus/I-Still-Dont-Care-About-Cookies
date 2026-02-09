@@ -11254,7 +11254,9 @@ const rules = {
   "elavon.pl": { j: "5" },
   "zeg-holz.de": { s: "#ucShadowRoot{display:none !important}" },
   "xeev.net": { j: "5" },
-  "claras-apotheke.de": { j: "5" },
+  "claras-apotheke.de": {
+    s: ".wacg-modal__container.flex{display:none!important}html,body{overflow:auto!important}",
+  },
   "mimibabytielt.be": { j: "5" },
   "stepstone.se": { j: "5" },
   "plushbezlimitu.pl": { s: ".modal-overlay{display:none !important}" },
