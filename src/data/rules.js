@@ -5448,7 +5448,9 @@ const rules = {
   "boilerguide.co.uk": { s: ".consent-bar{display:none !important}" },
   "atro-provita.de": { j: "6" },
   "cm-fima.com": { c: 0 },
-  "polskieradio24.pl": { s: ".rodo-modal{display:none !important}" },
+  "polskieradio24.pl": {
+    s: "#qc-cmp2-container,.qc-cmp-cleanslate{display:none!important}",
+  },
   "fretlink.com": { c: 0 },
   "kuehlschrank.com": { s: ".legalAdvice{display:none !important}" },
   "wisemushroom.org": { s: "#site_notice{display:none !important}" },
