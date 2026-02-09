@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "edu.ismart.org": {
+    s: ":is(.ismart-iixdn1-Flexbox-container, .ismart-1xhu2gm-Block-container):has(.ismart-i2e41m-Text-container){display:none!important}",
+  },
 
   // end of const rules
 };
