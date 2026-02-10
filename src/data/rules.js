@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "driffle.com": {
+    s: "#termly-code-snippet-support,.termly-display-preferences{display:none!important}",
+  },
 
   // end of const rules
 };
