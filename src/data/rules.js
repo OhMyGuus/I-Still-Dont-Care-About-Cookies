@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "clear-ratings.de": {
+    s: ".backdrop-blur.bottom-0 { display: none !important; }",
+  },
 
   // end of const rules
 };
