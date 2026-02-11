@@ -10737,7 +10737,9 @@ const rules = {
   "ecwid.com": { s: ".gdpr-window,.ec-notices{display:none !important}" },
   "easyparkitalia.it": { s: ".rah-static{display:none !important}" },
   "pegasproductions.com": { c: 0 },
-  "arena.pl": { c: 159 },
+  "arena.pl": {
+    s: 'div[role="dialog"][aria-describedby="aria-cookie-consent-text"], .MuiBackdrop-root.MuiModal-backdrop { display: none !important; }',
+  },
   "beesafe.pl": {
     s: "#root > div > div > div > .MuiGrid-root{display:none !important}",
   },
