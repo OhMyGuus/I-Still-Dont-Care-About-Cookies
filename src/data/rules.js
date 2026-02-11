@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "brightdata.com": {
+    s: ".cookies_popup_overlay{display:none!important} :is(html,body)[style*='overflow:hidden'],:is(html,body)[style*='overflow: hidden']{overflow:auto!important}",
+  },
 
   // end of const rules
 };
