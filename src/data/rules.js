@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "nordangliaeducation.com": {
+    s: ".cookies-banner, .full-width-mask.shadow-mask, .preview-video-shadow { display: none !important; } html, body { overflow: auto !important; width: auto !important; height: auto !important; }",
+  },
 
   // end of const rules
 };
