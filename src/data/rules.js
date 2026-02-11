@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sensetsante.fr": {
+    s: ".gdpr-glm-standard{display:none!important} :is(html,body).popin-gdpr-no-scroll{overflow:auto!important;height:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
