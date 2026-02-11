@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "reccloud.com": {
+    s: ".cookies-tip-v1-consent-container { display:none!important; } html:has(.cookies-tip-v1-consent-container,.cookies-tip-v1-preference-wrapper) { overflow:auto!important; }",
+  },
 
   // end of const rules
 };
