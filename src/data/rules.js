@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "support.hostpoint.ch": {
+    s: ".hp-overlay.-cookies{display:none!important} body{overflow:visible auto!important}",
+  },
 
   // end of const rules
 };
