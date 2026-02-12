@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "hsozkult.de": {
+    s: "#matomoConsentModal, .modal-backdrop.in { display: none !important; } body.modal-open { overflow: auto !important; padding-right: 0 !important; }",
+  },
 
   // end of const rules
 };
