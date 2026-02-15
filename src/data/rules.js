@@ -8836,7 +8836,9 @@ const rules = {
   "qz.com": { s: "#main ~ div{display:none !important}" },
   "getraenke089.de": { s: ".DS_banner_wrapper{display:none !important}" },
   "mantel.com": { j: "5" },
-  "magdalena24.pl": { c: 0 },
+  "magdalena24.pl": {
+    s: ".consents-modal,.backdrop{display:none!important} html,body{overflow:auto!important}",
+  },
   "volleybal.nl": { j: "5" },
   "solaranlagen-portal.com": { c: 110 },
   "outdooractive.com": { j: "5" },
