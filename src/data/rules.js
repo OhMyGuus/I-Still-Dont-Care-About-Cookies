@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "rankmath.com": {
+    s: ".t-consentPrompt,#termly-code-snippet-support{display:none!important}",
+  },
 
   // end of const rules
 };
