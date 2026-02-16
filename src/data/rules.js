@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "opel.haas-automobile.de": {
+    s: ":is(#ccm-widget,#ccm-control-panel){display:none!important} :is(html,body).ccm-blocked{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
