@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "quintessence-yourtes.fr": {
+    s: '#pbModal,[class*="consent-banner"],[class*="module-blocker"]{display:none!important}',
+  },
 
   // end of const rules
 };
