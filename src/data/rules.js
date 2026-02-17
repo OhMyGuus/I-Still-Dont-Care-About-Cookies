@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "petri.com": {
+    s: '[id^="enlivy-kit-cookie-policy"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
