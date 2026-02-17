@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "westmusic.com": {
+    s: "#termly-code-snippet-support { display: none !important; }",
+  },
 
   // end of const rules
 };
