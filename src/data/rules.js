@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "dagbladet.no": {
+    s: "html,body{overflow:auto!important} #adinfo-dialog,[id^=sp_message_container_],#sourcepoint_link{display:none!important}",
+  },
 
   // end of const rules
 };
