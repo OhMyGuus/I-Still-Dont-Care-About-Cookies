@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "caissedepargnerhonealpes.fr": {
+    s: "#tarteaucitron,#tarteaucitronAlertBig,#tarteaucitronBack,#tarteaucitronPercentage{display:none!important}html.tarteaucitron-modal-open-noscroll,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
