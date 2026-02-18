@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ura.mediconsult.fi": {
+    s: 'dialog[data-controller^="common--cookies"],dialog[data-controller^="common--cookies"]::backdrop{display:none!important} html,body{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
