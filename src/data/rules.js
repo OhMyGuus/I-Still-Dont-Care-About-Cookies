@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "heilikirjastot.fi": {
+    s: "#cc--main, #cm-ov { display: none !important; } html,body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
