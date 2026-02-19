@@ -5712,9 +5712,7 @@ const rules = {
   "trendsales.dk": {
     s: "#main > .inner ~ div[class]{display:none !important}",
   },
-  "speedof.me": {
-    s: ".cc-dialog-pane,.cc-window-banner{display:none !important}.body-margin-top{margin-top:0 !important}",
-  },
+  "speedof.me": { s: ".cc-consent-toast { display: none !important; }" },
   "thule.com": { j: "5" },
   "olymp.com": { s: ".legal-banner{display:none !important}" },
   "bergstraesserwinzer.de": { s: ".cp-dialog{display:none !important}" },
