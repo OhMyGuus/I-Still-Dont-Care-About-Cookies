@@ -10560,7 +10560,7 @@ const rules = {
   },
   "nonstop2k.com": { s: "#consentFooter{display:none !important}" },
   "sh-mueller.de": { s: "#notify{display:none !important}" },
-  "cameranu.nl": { s: ".stick-to-bottom{display:none !important}" },
+  "cameranu.nl": { s: ".cookies-popup-v3{display:none!important;}" },
   "barclays.net": { s: "#modal-pecr{display:none !important}" },
   "simsdom.com": { s: "#policies{display:none !important}" },
   "baukobox.de": { j: "6" },
