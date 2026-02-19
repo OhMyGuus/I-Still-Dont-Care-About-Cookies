@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tut-exhibit.com": {
+    s: "#cookie-banner__overlay { display: none !important; }",
+  },
 
   // end of const rules
 };
