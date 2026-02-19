@@ -12016,7 +12016,7 @@ const rules = {
   "cinemaxx.de": { j: "5" },
   "bipandgo.com": { s: ".ucm_wrapper{display:none !important}" },
   "uktv.co.uk": { j: "5" },
-  "benq.eu": { j: "5", s: "#cookie-fullscreen{display:none !important}" },
+  "benq.eu": { s: "#cookie-bar { display: none !important; }" },
   "plusmobile.fr": { c: 3 },
   "weddyplace.com": { j: "5" },
   "caimmo.com": { j: "5" },
