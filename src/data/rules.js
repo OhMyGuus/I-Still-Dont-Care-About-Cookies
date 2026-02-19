@@ -12538,7 +12538,7 @@ const rules = {
   "min.io": {
     s: ".fs-consent_component, [fs-consent-element='internal-component'], [fs-consent-element$='preferences'] { display: none !important; }",
   },
-  "rundfunkbeitrag.de": { s: "#optInId{display:none !important}" },
+  "rundfunkbeitrag.de": { s: ".consentDialog { display: none !important; }" },
   "pizzafan.gr": { j: "5" },
   "mathaus.ro": { s: "#cookieOptionsFooter{display:none !important}" },
   "lagerbox.com": { s: ".modal-outer,.cookie-modal{display:none !important}" },
