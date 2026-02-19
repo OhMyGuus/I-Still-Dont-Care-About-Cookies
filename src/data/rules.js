@@ -9048,7 +9048,9 @@ const rules = {
   "stoffen-hemmers.nl": { c: 2 },
   "riteintherain.com": { s: "#screen-overlay-white{display:none !important}" },
   "fantasy.motogp.com": { s: "#root > div{display:none !important}" },
-  "info-retraite.fr": { c: 0 },
+  "info-retraite.fr": {
+    s: "#tarteaucitronRoot{display:none!important} :is(html,body):has(#tarteaucitronRoot){overflow:auto!important;height:auto!important}",
+  },
   "was-reimt-sich-auf.de": {
     s: "#cookies-modal,#cookies-backdrop{display:none !important}",
   },
