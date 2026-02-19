@@ -5530,7 +5530,9 @@ const rules = {
   "ockovacicentrum.cz": { s: "#notificationBox{display:none !important}" },
   "market24hclock.com": { s: "#cookiespp{display:none !important}" },
   "ediclube.com": { c: 0 },
-  "vietnamairlines.com": { j: "5" },
+  "vietnamairlines.com": {
+    s: ".cmp-cookie-consent-backdrop.show{display:none!important}html,body{overflow:auto!important}",
+  },
   "amnesty.nl": { c: 93 },
   "globelink.co.uk": { s: ".gl_cookies{display:none !important}" },
   "gebag.de": { c: 0 },
