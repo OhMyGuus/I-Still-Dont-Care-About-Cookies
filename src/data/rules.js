@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "chip.de": {
+    s: ':is([id^="sp_message_container_"],.Modal__Container){display:none!important;}html,body{overflow:auto!important;}',
+  },
 
   // end of const rules
 };
