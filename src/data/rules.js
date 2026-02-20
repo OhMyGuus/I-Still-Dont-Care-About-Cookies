@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tendem.ai": {
+    s: "[data-cookiebanner=true]{display:none!important;}body{overflow:visible!important;}",
+  },
 
   // end of const rules
 };
