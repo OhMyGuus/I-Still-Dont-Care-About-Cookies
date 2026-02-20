@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "21run.com": {
+    s: ".bg-opacity-40.inset-0, #notice-cookie-block { display:none!important }",
+  },
 
   // end of const rules
 };
