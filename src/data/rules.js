@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "wallarm.com": {
+    s: "#gdpr_banner_container,#cookieBanner-3989912{display:none!important;}html,body{overflow:visible!important;}",
+  },
 
   // end of const rules
 };
