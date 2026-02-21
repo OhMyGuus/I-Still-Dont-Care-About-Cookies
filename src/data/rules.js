@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "saniweb.de": {
+    s: '[class*="bg-black"][class*="bg-opacity-50"][class*="fixed"],[class*="fixed"][class*="justify-center"][class*="items-center"]{display:none!important}body{overflow:auto!important;max-height:none!important}',
+  },
 
   // end of const rules
 };
