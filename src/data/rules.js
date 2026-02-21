@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "kunstschule-villa-wieser.de": {
+    s: ".cookie-consent-dialogue{display:none!important}",
+  },
 
   // end of const rules
 };
