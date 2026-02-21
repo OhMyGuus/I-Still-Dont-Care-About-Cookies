@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ansafood.fr": {
+    s: '[id*="cookie-consent-manager"],.cookie-consent-manager-backdrop{display: none !important;}html,body{overflow: auto !important;position: static !important;}',
+  },
 
   // end of const rules
 };
