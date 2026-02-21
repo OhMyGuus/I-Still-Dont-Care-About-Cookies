@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "disc-golf-valley.xsolla.site": {
+    s: "#gdpr-consent-form { display: none !important; }",
+  },
 
   // end of const rules
 };
