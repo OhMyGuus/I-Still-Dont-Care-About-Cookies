@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "drogeriedepot.at": {
+    s: ".offcanvas-modal-cookie,.offcanvas-backdrop.fade.show,.cookie-permission-container{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
