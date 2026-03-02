@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "fts-hennig.de": {
+    s: ".acris-cookie-consent,.modal-backdrop{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
