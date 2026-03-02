@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bimlib.pro": {
+    s: ':is(.cookie-consent,.cookie-banner,.cookie-consent-modal,#cookie-consent,#cookie-consent-banner,.cc-window,.cc-banner,.cookie-popup,.cookie-modal,.consent-banner,[data-testid*="cookie"],[style*="rgba(255,255,255,0.75)"][style*="position: fixed"],[style*="position: fixed"][style*="top: 0"][style*="left: 0"][style*="right: 0"][style*="bottom: 0"]) { display:none!important } html,body { overflow:auto!important }',
+  },
 
   // end of const rules
 };
