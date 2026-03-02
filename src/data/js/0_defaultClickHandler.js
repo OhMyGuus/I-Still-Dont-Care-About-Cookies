@@ -204,6 +204,9 @@
       "#bccs-buttonDoNotAgree",
       "#bccs-buttonAgreeRequired:first-child",
     ],
+
+    // Phenom People career platform GDPR dialog (used by 700+ employers)
+    '[key-role="gdpr-regionRole"]': ["button.primary-button"],
   };
 
   const searchGroups = [
