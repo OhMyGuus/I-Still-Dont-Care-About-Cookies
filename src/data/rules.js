@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bb-escort.de": {
+    s: ".fixed.bottom-0.pointer-events-auto{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
