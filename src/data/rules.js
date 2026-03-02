@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bauportal24h.de": {
+    s: ":is(.acris-cookie-consent.is--modal,.modal-backdrop,#tcinn-a11y-overlay){display:none!important}:is(html,body,#page-top){overflow:auto!important}",
+  },
 
   // end of const rules
 };
