@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "mgs-autozentrum.de": {
+    s: "#cookie-consent-modal,#overlay{display:none!important} body.modal-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
