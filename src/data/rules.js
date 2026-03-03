@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "royalqueenseeds.de": {
+    s: ".ftup-wrapper,#hs-interactives-modal-overlay,.cookie-popup__btn{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
