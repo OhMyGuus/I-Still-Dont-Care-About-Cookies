@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "boutiquebebe.gr": {
+    s: ".gmt_google_consent_container,.gmtgc_consent_popup.gmtgc_middle{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
