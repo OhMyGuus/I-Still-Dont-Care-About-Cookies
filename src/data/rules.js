@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "mujkaktus.cz": {
+    s: "iframe.cocos-gdpr-dialog { display: none !important; }",
+  },
 
   // end of const rules
 };
