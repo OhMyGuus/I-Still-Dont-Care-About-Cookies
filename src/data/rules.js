@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "mybox.eco": {
+    s: '.fixed[class*="bottom-4"][class*="sm:max-w-sm"]{display:none!important;}',
+  },
 
   // end of const rules
 };
