@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sklep.portalgames.pl": {
+    s: ".consents{display:none!important} body:has(.consents){overflow:auto!important}",
+  },
 
   // end of const rules
 };
