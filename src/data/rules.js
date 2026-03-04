@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "apply.workable.com": {
+    s: "[data-ui=cookie-consent],[data-ui=backdrop]{display:none!important}",
+  },
 
   // end of const rules
 };
