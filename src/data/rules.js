@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "juniper.bot": {
+    s: ".v-overlay:has(.text-subtitle-1.text-white){display:none!important}",
+  },
 
   // end of const rules
 };
