@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "allmylinks.co.uk": {
+    s: "#cookies-toast-container { display: none !important; }",
+  },
 
   // end of const rules
 };
