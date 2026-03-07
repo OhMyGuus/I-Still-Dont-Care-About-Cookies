@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bodemerauto.com": {
+    s: "#tarteaucitronRoot{display:none!important}html{overflow:auto!important}body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
