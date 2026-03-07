@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "whatculture.com": {
+    s: '[id^="sp_message_container_"],#customize-page-wrap{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
