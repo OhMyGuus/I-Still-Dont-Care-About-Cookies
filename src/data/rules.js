@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "nhm.ac.uk": {
+    s: "[data-show-cookie-banner-overlay=true],[data-show-cookie-banner=true]{display:none!important;}",
+  },
 
   // end of const rules
 };
