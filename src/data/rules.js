@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "b2bconnect.mercedes-benz.com": {
+    s: '.user-centrics-banner,.modal__curtain,iframe[id^="uc-cross-domain"]{display:none!important;}html,body{overflow:auto!important;height:auto!important;}',
+  },
 
   // end of const rules
 };
