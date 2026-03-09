@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sachsens-museen-entdecken.de": {
+    s: '[data-module="cookie__dialog"]{display:none!important;}body.theme-matterhorn.no-scroll,body.no-scroll{overflow:auto!important;height:auto!important;}',
+  },
 
   // end of const rules
 };
