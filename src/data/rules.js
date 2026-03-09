@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "autonews.fr": {
+    s: "#didomi-host, swg-popup-background, iframe.swg-dialog { display: none !important; } body { overflow: auto !important; margin-right: 0 !important; height: auto !important; }",
+  },
 
   // end of const rules
 };
