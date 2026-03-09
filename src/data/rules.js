@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "cheqmark.io": {
+    s: "#cmw-app-widget-settings-component,#cmw-app-widget-settings-component-overlay,#cmw-app-cookies-bridge{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
