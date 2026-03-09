@@ -12552,7 +12552,9 @@ const rules = {
   "hellojoko.com": { j: "5" },
   "copmadrid.org": { s: "#div_cookies_nuevass { display: none !important; }" },
   "packster.de": { s: ".page-overlay{display:none !important}" },
-  "hdg.de": { s: "#cookiebg,#hdg-cookie-accept{display:none !important}" },
+  "hdg.de": {
+    s: ":is(#cookieman-modal,#cookiebg,.modal-backdrop){display:none!important} body{overflow:auto!important;position:static!important}",
+  },
   "zeitzeugen-portal.de": {
     s: "#cookiebg,#hdg-cookie-accept{display:none !important}",
   },
