@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "gerhard-richter-archiv.skd.museum": {
+    s: "#biscuitHint{display:none!important} html.no-scroll,body.no-scroll,.no-scroll{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
