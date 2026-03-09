@@ -12741,7 +12741,9 @@ const rules = {
   "engie.be": { s: ".modal.cookie-consent{display:none !important}" },
   "engie.com": { s: ".nj__cookies-politic{display:none !important}" },
   "tomtom.com": { j: "5" },
-  "pathe-thuis.nl": { j: "5" },
+  "pathe-thuis.nl": {
+    s: ".modal.cookie-modal, dialog.modal__dialog { display: none !important; } html, body { overflow: auto !important; height: auto !important; }",
+  },
   "zentica-global.com": { s: ".gdpr-settings{display:none !important}" },
   "clevertronic.de": { s: "#js-popup-cookie-block{display:none !important}" },
   "iqair.com": { j: "5" },
