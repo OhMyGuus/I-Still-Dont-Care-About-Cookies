@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "elbierzonoticias.com": {
+    s: '#didomi-host,iframe[src*="cp.elbierzonoticias.com"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
