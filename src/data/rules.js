@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "partners.fresha.com": {
+    s: "[data-qa=cookie-banner]{display:none!important}",
+  },
 
   // end of const rules
 };
