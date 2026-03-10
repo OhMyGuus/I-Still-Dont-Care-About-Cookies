@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sicherheitstraining24.de": {
+    s: "up-modal { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
