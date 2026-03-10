@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "login.plurall.net": {
+    s: 'div[style*="position: fixed"][style*="bottom: 0"]{display:none!important;}',
+  },
 
   // end of const rules
 };
