@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "fanzo.com": {
+    s: ".ReactModal__Overlay{display:none!important} body.ReactModal__Body--open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
