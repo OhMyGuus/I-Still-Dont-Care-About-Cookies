@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "freya-afrodita-hous.de": {
+    s: "body.global-frontpage-open,body.global-cookienotice-open{overflow:auto!important} :is(.global-frontpage,.global-cookienotice){display:none!important}",
+  },
 
   // end of const rules
 };
