@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "limonati.borjomi.com": {
+    s: '#__next div:is([class*="top-75-percent"][class*="z-11"],[class*="top-0"][class*="h-full"][class*="w-full"][class*="z-11"]) { display: none !important; } html { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
