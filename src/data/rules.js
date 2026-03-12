@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "altholzladen.de": {
+    s: "#bbAlertmeldungHintergrundGross { display: none !important; } html, body { overflow: visible !important; height: auto !important; }",
+  },
 
   // end of const rules
 };
