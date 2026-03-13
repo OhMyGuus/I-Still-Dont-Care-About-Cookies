@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "shop.auroragg.tr": {
+    s: '[class*="cookie_container"]{display:none!important;}',
+  },
 
   // end of const rules
 };
