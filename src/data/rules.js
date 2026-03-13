@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "mindset.africa": {
+    s: '#termly-code-snippet-support,[class*="termly-styles-"]{display:none!important;}',
+  },
 
   // end of const rules
 };
