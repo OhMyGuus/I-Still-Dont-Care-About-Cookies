@@ -4558,7 +4558,9 @@ const rules = {
   "mafiadoc.com": { s: "#MAFIADOCCOM_cookie_box{display:none !important}" },
   "aamuset.fi": { c: 1 },
   "kult-portal.com": { c: 136 },
-  "wallpapershome.com": { s: ".cc-dialog{display:none !important}" },
+  "wallpapershome.com": {
+    s: "#termly-code-snippet-support { display: none !important; }",
+  },
   "fotocommunity.de": { c: 10 },
   "urraeroi.it": { c: 0 },
   "wurth.es": { j: "5" },
