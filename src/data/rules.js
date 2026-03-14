@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tactical-adventures.com": {
+    s: "[id^=tarteaucitron],[class*=tarteaucitron]{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
