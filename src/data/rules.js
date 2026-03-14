@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "vacances-lagrange.com": {
+    s: "#tarteaucitronRoot{display:none!important}html.tarteaucitron-modal-open-noscroll{overflow:visible!important}",
+  },
 
   // end of const rules
 };
