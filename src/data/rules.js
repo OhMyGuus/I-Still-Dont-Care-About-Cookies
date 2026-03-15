@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "interwetten.de": {
+    s: "#truendo_container{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
