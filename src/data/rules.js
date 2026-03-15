@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ahoi-schiff.de": {
+    s: "#consent-modal,#app-cookie-modal,#app-modal-bg{display:none!important;}html,body{overflow:auto!important;height:auto!important;}",
+  },
 
   // end of const rules
 };
