@@ -20161,7 +20161,7 @@ const rules = {
     s: ":is(#dgt-cookie-container,.background-cookie-header){display: none !important;}",
   },
   "reverb.com": {
-    s: '#modal-portal :is([id^="floating-ui-"],.rc-notice), .gdpr-alert { display:none!important; }',
+    s: '.gdpr-alert,[id^="floating-ui-"],.modal-outlet{display:none!important}',
   },
   "all-inkl.com": { s: "#ai-hinweis{display:none!important;}" },
   "mediemyndigheten.se": {
