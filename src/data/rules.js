@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "gewandhausorchester.de": {
+    s: '[data-cs-modal="cscb-cookie-banner"]{display: none !important;}body:has([data-cs-modal="cscb-cookie-banner"].is-active){overflow: auto !important;}',
+  },
 
   // end of const rules
 };
