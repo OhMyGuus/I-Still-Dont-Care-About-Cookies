@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ruggable.de": {
+    s: '.h-min.bottom-0, .fixed.inset-0.bg-black[class*="bg-opacity"] { display: none !important; } html, body { overflow: auto !important; height: auto !important; }',
+  },
 
   // end of const rules
 };
