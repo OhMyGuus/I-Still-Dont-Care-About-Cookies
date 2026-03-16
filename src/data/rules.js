@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "eindollarbrille.de": {
+    s: ".mantine-ltr-Modal-root { display: none !important; } :root, html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
