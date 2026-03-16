@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "my.xm.com": {
+    s: "ion-modal.cookie-modal,#sec-overlay{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
