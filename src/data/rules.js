@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "empower.gov.gr": {
+    s: "header.empower-govgr-header { display: none !important; }",
+  },
 
   // end of const rules
 };
