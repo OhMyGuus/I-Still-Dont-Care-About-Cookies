@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "protecao.com.br": {
+    s: ".tdm-popup-modal-over-screen,.onesignal-slidedown-container,.onesignal-bell-container{display:none!important}",
+  },
 
   // end of const rules
 };
