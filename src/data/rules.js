@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "particulier.malakoffhumanis.com": {
+    s: "#tc-privacy-wrapper,#privacy-overlay{display:none!important} html,body,#wrapper{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
