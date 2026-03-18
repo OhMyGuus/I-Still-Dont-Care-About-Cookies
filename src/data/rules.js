@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tivoly.com": {
+    s: '[role="dialog"][aria-labelledby="cookie-consent-title"]{display:none!important;}',
+  },
 
   // end of const rules
 };
