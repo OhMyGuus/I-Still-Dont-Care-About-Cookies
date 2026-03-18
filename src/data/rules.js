@@ -17546,7 +17546,9 @@ const rules = {
   "arsys.fr": { s: '.drop[name="cookies"]{display:none !important}' },
   "arsys.pt": { s: '.drop[name="cookies"]{display:none !important}' },
   "arsys.net": { s: '.drop[name="cookies"]{display:none !important}' },
-  "canyon.eu": { s: ".fixed.bottom-0{display:none !important}" },
+  "canyon.eu": {
+    s: ".countrySplash{display:none!important}html,body{overflow:auto!important}",
+  },
   "helthjem.no": { s: ".schibsted-bar{display:none !important}" },
   "sunglasses-shop.bg": { s: ".notification-wrapper{display:none !important}" },
   "lazoptics.gr": { s: ".new-cookie-supercontainer{display:none !important}" },
