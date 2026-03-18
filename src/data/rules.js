@@ -8858,7 +8858,9 @@ const rules = {
   "retrosix.co.uk": { c: 60 },
   "visionexpress.pl": { s: "#bpr_cookie-alert{display:none !important}" },
   "vibez.pl": { j: "5" },
-  "drogeriedepot.de": { s: "#light-box-bg{display:none !important}" },
+  "drogeriedepot.de": {
+    s: ".offcanvas-modal-cookie,.offcanvas-backdrop.show{display:none!important}html,body{overflow:auto!important;padding-right:0!important}",
+  },
   "cleanmymac.com": { s: ".bottom-banner{display:none !important}" },
   "fastforwardscience.de": { j: "5" },
   "adventurespiele.net": { j: "5" },
