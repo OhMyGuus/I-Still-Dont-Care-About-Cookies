@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "missingepisodes.proboards.com": {
+    s: ":is(#qc-cmp2-container,a.qc-ccpa-persistent-link,a.qc-cmp-persistent-link){display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
