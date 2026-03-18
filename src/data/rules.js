@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tasks.hotosm.org": {
+    s: "#optout-form,#archival-notification-form{display:none!important}",
+  },
 
   // end of const rules
 };
