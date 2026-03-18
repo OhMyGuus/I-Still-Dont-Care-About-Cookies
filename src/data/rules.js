@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "versicherungsmakler-josef-becker.de": {
+    s: "#cookie_opt_in_box_wrapper{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
