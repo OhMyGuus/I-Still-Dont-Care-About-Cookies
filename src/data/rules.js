@@ -11202,7 +11202,9 @@ const rules = {
   "ultimatecourses.com": { s: ".uc-cookies{display:none !important}" },
   "royalmail.com": { j: "5" },
   "mauk-gartenwelt.de": { j: "5" },
-  "streamelements.com": { j: "3" },
+  "streamelements.com": {
+    s: 'div[class*="bottom-"][class*="z-("]{display:none!important}',
+  },
   "3gimmobilier.com": { j: "5" },
   "ihk-akademie.de": { s: "#privacy-statement{display:none !important}" },
   "ontariocolleges.ca": { s: "#privacy-statement{display:none !important}" },
