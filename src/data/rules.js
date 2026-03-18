@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sloveniatimes.com": {
+    s: "body:has(.ckpanel){overflow:auto!important}.ckpanel{display:none!important}",
+  },
 
   // end of const rules
 };
