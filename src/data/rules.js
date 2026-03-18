@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "marker.sk": {
+    s: '.inset-0[class*=\\"z-6\\"],.bottom-0.left-0.w-full.rounded-t-3xl { display: none !important; }',
+  },
 
   // end of const rules
 };
