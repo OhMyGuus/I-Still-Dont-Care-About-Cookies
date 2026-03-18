@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sport-studieren.de": {
+    s: ".sc-51cf656f-0 { display: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
