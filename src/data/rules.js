@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "evides.nl": {
+    s: ".fixed.inset-0.z-40.overflow-y-auto[role=dialog][aria-modal=true] { display: none !important; }",
+  },
 
   // end of const rules
 };
