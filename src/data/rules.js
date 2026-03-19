@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "akbw.de": {
+    s: "#fc_underlay,#fc_dialog{display:none!important}body.overflow-hidden{overflow:auto!important}",
+  },
 
   // end of const rules
 };
