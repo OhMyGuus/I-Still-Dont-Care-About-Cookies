@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sartor-stoffe.de": {
+    s: ".focus-cookiebara{display:none!important}body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
