@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "zshift.io": {
+    s: ".fixed:is(.inset-0.bg-slate-700.bg-opacity-70,.bottom-0.left-0.right-0){display:none!important}",
+  },
 
   // end of const rules
 };
