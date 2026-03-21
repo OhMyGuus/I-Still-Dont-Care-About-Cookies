@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "calculator888.ru": { s: "#okno_cook_blok { display: none !important; }" },
 
   // end of const rules
 };
