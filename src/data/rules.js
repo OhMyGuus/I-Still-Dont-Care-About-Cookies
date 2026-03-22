@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "kociolkowo.pl": {
+    s: ".mess-bg,.cookie-message-popup-lq{display:none!important} body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
