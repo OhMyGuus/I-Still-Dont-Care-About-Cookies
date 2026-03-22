@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "inui.com": {
+    s: '.fixed.h-screen[class*="bg-black"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
