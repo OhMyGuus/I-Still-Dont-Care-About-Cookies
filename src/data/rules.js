@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "parkenflughafen.de": {
+    s: '[data-sentry-element="DialogOverlay"],[class*="bg-black/40"][class*="inset-0"],[role="dialog"][aria-labelledby]{display:none!important} html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
