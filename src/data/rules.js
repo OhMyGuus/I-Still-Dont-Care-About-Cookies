@@ -12704,7 +12704,7 @@ const rules = {
   "getgoods.com": { j: "5" },
   "acquire.io": { s: ".home-announcement{display:none !important}" },
   "joom.com": {
-    s: '#content > div[class*="container"]{display:none !important}',
+    s: 'dialog[class*="modalOverlay"]{display:none!important}html,body{overflow:auto!important}',
   },
   "warszawa.pl": { j: "5" },
   "vod.warszawa.pl": { s: "#footer ~ div{display:none !important}" },
