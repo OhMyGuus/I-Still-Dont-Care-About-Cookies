@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "e-magazyny.pl": {
+    s: '#wpmagus-consent-manager-dialog-wrapper,div[id^="pum-"]{display:none!important;}html,body{overflow:auto!important;height:auto!important;}',
+  },
 
   // end of const rules
 };
