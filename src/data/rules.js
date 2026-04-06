@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "owobot.com": { s: ".v-snack--has-background{display:none!important}" },
 
   // end of const rules
 };
