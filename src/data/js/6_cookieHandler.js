@@ -832,6 +832,8 @@ function getE(hostname) {
         "inccookiesconsent=false",
         'inccookiesparams={"all_cookies":false,"cookies_iframes":false,"cookies_matomo":false,"cookies_social_network_facebook":false,"cookies_social_network_linkedin":false,"cookies_social_network_twitter":false}',
       ];
+    case "ugyfelszolgalat.szegedivizmu.hu":
+      return ["cookieConsentAccepted=functional,necessary"];
   }
 
   const parts = hostname.split(".");
