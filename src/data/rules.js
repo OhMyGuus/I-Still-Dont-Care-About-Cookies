@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bazaarofmagic.eu": {
+    s: "#offCanvasCookie, .off-canvas.position-bottom.is-open ~ .js-off-canvas-overlay.is-visible { display: none !important; }",
+  },
 
   // end of const rules
 };
