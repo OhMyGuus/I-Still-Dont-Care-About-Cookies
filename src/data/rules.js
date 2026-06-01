@@ -6025,7 +6025,9 @@ const rules = {
   "boligsiden.dk": { j: "5" },
   "cfos.de": { j: "5" },
   "newstral.com": { c: 6 },
-  "bookchoice.com": { j: "6" },
+  "bookchoice.com": {
+    s: "#cookieBar,.modal-backdrop.show{display:none!important;}body:has(#cookieBar,.modal-backdrop.show){overflow:auto!important;}",
+  },
   "labor28.de": { c: 6 },
   "gev-online.com": { s: "#cookies-convention{display:none !important}" },
   "beamerleinwande.de": {
