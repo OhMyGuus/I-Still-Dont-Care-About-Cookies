@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "pipingrock.com": {
+    s: '#shopify-section-custom-cookie-consent{display:none!important}:is(html,body)[style*="overflow: hidden"]{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
