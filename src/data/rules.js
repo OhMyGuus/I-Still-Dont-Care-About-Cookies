@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "zimmermann-vital.de": {
+    s: ".modal.show,.modal-backdrop,[class*=barrigo-overlay],a.cookie-settings{display:none!important}body,body.modal-open{overflow:auto!important;position:static!important;touch-action:auto!important}",
+  },
 
   // end of const rules
 };
