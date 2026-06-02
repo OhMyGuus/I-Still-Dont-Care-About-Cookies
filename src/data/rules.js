@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "moderne-hausfrau.de": {
+    s: "dialog:has(#c1-accept-all){display:none!important} body.overflow-hidden{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
