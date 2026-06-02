@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "deutscheoperberlin.de": {
+    s: ":is(#consent-manager,#consent-manager-bg,#cookie-layer,#cookie-bg-cover){display:none!important}",
+  },
 
   // end of const rules
 };
