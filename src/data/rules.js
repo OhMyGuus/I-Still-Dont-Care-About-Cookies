@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "g2-energy-systems.de": {
+    s: ":is(#modal_cookie,.modal-backdrop,#taCloseBtnOverlay,.widget_container_overlay_mobile){display:none!important}body:has(#modal_cookie.modal.show){overflow:auto!important}",
+  },
 
   // end of const rules
 };
