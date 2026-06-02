@@ -17699,7 +17699,7 @@ const rules = {
   "megfoglak.hu": { s: ".modal.consent{display:none !important}" },
   "cmo.de": { c: 33 },
   "eurosender.com": {
-    s: '#__next > div[class*="container"]{display:none !important}',
+    s: '[class~="z-[100000001]"]:has(>p.text-gray-dark-8){display:none!important;}',
   },
   "suncalc.org": { s: "#cc--main{display:none !important}" },
   "brico-travo.com": {
