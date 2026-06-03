@@ -8197,7 +8197,9 @@ const rules = {
   "mecindo.se": { s: "#c-bar{display:none !important}" },
   "comtradeshop.com": { c: 1 },
   "yoyogames.com": { j: "5" },
-  "interamt.de": { s: ".ia-m-cookie-flyout{display:none !important}" },
+  "interamt.de": {
+    s: "#ia-m-cookie-modal{display:none!important}body{overflow:visible!important}",
+  },
   "hitachiaircon.ru": { c: 39 },
   "euroclear.com": { j: "6" },
   "myvalue.com": { s: ".chivato.uso_cookies{display:none !important}" },
