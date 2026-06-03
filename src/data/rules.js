@@ -18062,7 +18062,7 @@ const rules = {
   "telekom.net": { j: 5 },
   "smartrezo.com": { j: 5 },
   "toit.io": { j: 5 },
-  "wolt.com": { j: 5 },
+  "wolt.com": { s: ".ConsentsBannerOverlay { display: none !important; }" },
   "airfrance.com": { j: 5 },
   "leetchi.com": { j: 5 },
   "velo-traumreise.de": { j: 5 },
