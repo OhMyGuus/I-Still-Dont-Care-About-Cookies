@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "8billionideas.notion.site": {
+    s: ":is(.notion-overlay-container,.notion-default-overlay-container):has(a[href*=cookie]){display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
