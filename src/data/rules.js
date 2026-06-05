@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sportsdirect.ee": {
+    s: ":is([id^=onetrust-],[id^=CountryRedirectPopup],.modal-backdrop:has(+ [id^=onetrust-], + [id^=CountryRedirectPopup])){display:none!important}body.modal-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
