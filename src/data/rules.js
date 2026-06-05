@@ -13585,7 +13585,7 @@ const rules = {
   "pmdp.cz": { j: "5" },
   "sogeti.de": { j: "5" },
   "inyova.de": { j: "5" },
-  "gamemaker.io": { s: "#yoyoCookie{display:none !important}" },
+  "gamemaker.io": { s: ".fixed.left-0.top-0:has(h1){display:none!important}" },
   "well.co.uk": { j: "5" },
   "taxfix.it": { j: "5" },
   "taxfix.de": { j: "5" },
