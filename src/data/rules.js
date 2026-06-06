@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "einfachganzleben.de": {
+    s: ".uc-embedding-container,#usercentrics-root{display:none!important}html,body{overflow:visible!important;height:auto!important}",
+  },
 
   // end of const rules
 };
