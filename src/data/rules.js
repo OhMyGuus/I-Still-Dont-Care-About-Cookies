@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "naturwerk-shop.de": {
+    s: ".offcanvas.offcanvas-modal.is-fullwidth.show,.modal.dvsn-context-prompt-modal.show,:is(.offcanvas-backdrop,.modal-backdrop).fade.show{display:none!important}body.modal-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
