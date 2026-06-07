@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "meine.aok.de": {
+    s: "aok-cx2-consent{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
