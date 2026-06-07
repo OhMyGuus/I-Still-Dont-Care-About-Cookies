@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "hotellycium.com": {
+    s: ".topinfobox, .topinfoboxoszt { display: none !important; }",
+  },
 
   // end of const rules
 };
