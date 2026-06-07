@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "filmstarts.de": {
+    s: "#didomi-host{display:none!important} :is(html,body).didomi-popup-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
