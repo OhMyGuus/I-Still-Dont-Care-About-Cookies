@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ru.tradingview.com": {
+    s: '#overlap-manager-root :is([class*="toast"],[class*="list-"],[class*="contentContainer-"]) { display: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
