@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "maintainlife.com": {
+    s: "ngb-modal-window{display:none!important;}body.modal-open{overflow:visible!important;padding-right:0!important;}",
+  },
 
   // end of const rules
 };
