@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "beliani.se": {
+    s: ':is(#cookie_warning,.cookie_warning_overlay,#front_overlay_subscription,#front_overlay_general,.overlay-redirect[id*="overlay"]){display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
