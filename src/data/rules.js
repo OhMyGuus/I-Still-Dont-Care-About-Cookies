@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sarahrenson.be": {
+    s: "#website_cookies_bar, .o_cookies_classic { display: none !important; } body { overflow: auto !important; height: auto !important; }",
+  },
 
   // end of const rules
 };
