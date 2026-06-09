@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "nordisches-handwerk.de": {
+    s: '#ccAcivateModal{display:none!important} body:has([data-modal="cookieOpenModal"][style*="display: block"]){overflow:auto!important} body:has([data-modal="cookieOpenModal"][style*="display: block"]) .modal-backdrop{display:none!important}',
+  },
 
   // end of const rules
 };
