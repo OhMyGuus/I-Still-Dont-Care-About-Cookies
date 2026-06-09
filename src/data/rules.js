@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "baggr.fr": {
+    s: "[role=dialog][aria-label*=cookies]{display:none!important}",
+  },
 
   // end of const rules
 };
