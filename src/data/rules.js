@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "wattmoves.de": {
+    s: 'iframe[src*="cp.wattmoves.de"],.ccm-modal{display:none!important}html{overflow:visible!important}body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
