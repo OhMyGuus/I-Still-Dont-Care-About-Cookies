@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ville-champssurmarne.fr": {
+    s: ".hob-rgpd-banner,#hob-rgpd-popup{display:none!important}",
+  },
 
   // end of const rules
 };
