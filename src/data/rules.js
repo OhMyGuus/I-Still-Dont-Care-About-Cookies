@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "gundamplacestore.com": {
+    s: "[data-consent-banner=true]{display:none!important;}html,body,.klaviyo-prevent-body-scrolling{overflow:auto!important;height:auto!important;}",
+  },
 
   // end of const rules
 };
