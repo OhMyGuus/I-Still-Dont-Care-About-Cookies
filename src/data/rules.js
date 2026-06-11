@@ -13005,7 +13005,9 @@ const rules = {
   "befunky.com": { s: ".toast--bottom-left{display:none !important}" },
   "nabytek-aldo.cz": { c: 166 },
   "kox-direct.de": { s: "#wsModalAgreementPrivacy{display:none !important}" },
-  "box.gr": { s: "box-cookies{display:none !important}" },
+  "box.gr": {
+    s: "#cdk-overlay-0, .cdk-overlay-backdrop-showing { display: none !important; } html, body, html.cdk-global-scrollblock, body.cdk-global-scrollblock { overflow: auto !important; height: auto !important; }",
+  },
   "flickr.com": { s: ".cookie-banner-reg{display:none !important}" },
   "wnp.pl": { j: "5" },
   "weingut-meintzinger.de": { s: "#agever{display:none !important}" },
