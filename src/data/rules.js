@@ -14484,7 +14484,9 @@ const rules = {
   "crazyslip.com": { s: "#ccon{display:none !important}" },
   "tvtv.us": { c: 24 },
   "nejlevnejsinabytek.cz": { j: "5" },
-  "motointegrator.de": { j: "5" },
+  "motointegrator.de": {
+    s: "#fancybox-overlay,#fancybox-wrap{display:none!important;}html,body{overflow:auto!important;}",
+  },
   "motointegrator.fr": { j: "5" },
   "notebooksbilliger.de": { j: "5" },
   "peerberry.com": {
