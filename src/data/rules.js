@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "diariodesevilla.es": {
+    s: "#mrf-popup { display: none !important; } html, body { overflow: auto !important; height: auto !important; }",
+  },
 
   // end of const rules
 };
