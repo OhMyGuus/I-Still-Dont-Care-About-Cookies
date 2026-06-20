@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "fuw.ch": {
+    s: "#onetrust-consent-sdk{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
