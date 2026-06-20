@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "getmozabrick.com": {
+    s: "#silktide-wrapper { display: none !important; } html,body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
