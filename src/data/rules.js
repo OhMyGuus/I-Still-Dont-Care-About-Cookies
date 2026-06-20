@@ -6501,8 +6501,7 @@ const rules = {
   "manporn.xxx": { s: ".copyrights ~ .black-bg{display:none !important}" },
   "bito.com": { c: 2 },
   "smartclinic.hu": {
-    s: "#gdprModal{display:none !important}",
-    c: 14,
+    s: ":is(#cookie-consent-banner,#cookie-consent-banner-wrapper){display:none!important;}",
   },
   "akvis.com": { s: ".awarning{display:none !important}" },
   "linkmenuezerai.lt": { s: ".cookies-hold{display:none !important}" },
