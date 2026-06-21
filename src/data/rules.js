@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "brickstickershop.com": {
+    s: ".cookie_popup_dialog, .CookiePopupDialog-overlay { display: none !important; } :root, html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
