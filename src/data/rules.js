@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "consultadanfe.com": {
+    s: '[aria-labelledby="cookie-banner-title"][aria-describedby="cookie-banner-desc"] { display: none !important; }',
+  },
 
   // end of const rules
 };
