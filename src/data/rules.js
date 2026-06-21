@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "pinku.ai": {
+    s: ".fixed:has(h2.text-lg.font-medium){display:none!important}",
+  },
 
   // end of const rules
 };
