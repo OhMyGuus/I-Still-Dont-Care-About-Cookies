@@ -214,7 +214,7 @@ const rules = {
   "messenger.com": { j: "5" },
   "instagram.com": { j: "5" },
   "linkedin.com": {
-    s: '#js-notification-wrapper[role="alert"],.global-alert.global-alert--yield,#global-alert-queue,#artdeco-global-alert-container,.alert,#alert{display:none !important}',
+    s: '[data-testid="global-alerts-title"]:has(a[href*="/legal/cookie-policy/"],a[href*="/settings/member-cookies/"]) { display: none !important; }',
   },
   "twitter.com": {
     j: "5",
