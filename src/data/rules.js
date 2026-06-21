@@ -4698,7 +4698,7 @@ const rules = {
   "bustle.com": {
     s: 'body > div > header ~ div[class*=" "]{display:none !important}',
   },
-  "antenna.gr": { c: 4 },
+  "antenna.gr": { s: "#qc-cmp2-container { display: none !important; }" },
   "rwjf.org": { s: ".masthead__message{display:none !important}" },
   "staatsschauspiel-dresden.de": {
     s: ".dataprotection{display:none !important}",
