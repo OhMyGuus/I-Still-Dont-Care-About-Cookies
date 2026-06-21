@@ -13294,7 +13294,9 @@ const rules = {
   "elcorreo.com": { j: "5" },
   "surinenglish.com": { j: "5" },
   "eldiariomontanes.es": { j: "5" },
-  "canarias7.es": { j: "5" },
+  "canarias7.es": {
+    s: 'iframe[src*="cp.canarias7.es/first-layer"],#didomi-host{display:none!important}body{overflow:auto!important}',
+  },
   "elcomercio.es": { j: "5" },
   "getaround.com": { j: "5" },
   "wp.pl": { j: "5" },
