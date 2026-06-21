@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "radiologicum1140.wien": {
+    s: "#dsgvCookie{display:none!important;} body[style*='overflow:hidden'],body.showDsgvCookie{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
