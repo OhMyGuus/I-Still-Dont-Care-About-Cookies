@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "windless.krafton.com": {
+    s: ".cookie-modal{display:none!important}body:has(.cookie-modal){overflow:auto!important}",
+  },
 
   // end of const rules
 };
