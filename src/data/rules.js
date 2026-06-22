@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "123zimmerpflanzen.de": {
+    s: "#cc-consent-banner { display: none !important; }",
+  },
 
   // end of const rules
 };
