@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "savoy.premiumkino.de": {
+    s: ".cdk-overlay-backdrop.cdk-overlay-dark-backdrop,.cdk-overlay-pane.mat-mdc-dialog-panel{display:none!important}",
+  },
 
   // end of const rules
 };
