@@ -19036,11 +19036,7 @@ const rules = {
     s: "#shopui-cookie-popup-container, #shopui-cookie-modal-container { display: none !important; }",
   },
   "chatgpt.com": {
-    s:
-      "#thread-bottom-container aside.flex.w-full.items-start.gap-4.rounded-3xl.border.py-4.ps-5.pe-3.text-sm.shadow-xxs.border-token-border-default.bg-token-main-surface-primary.text-token-text-primary.dark\\:bg-token-main-surface-secondary" +
-      ':has(a[href*="openai.com/terms"]):has(a[href*="openai.com/privacy"]):has(button[data-testid="close-button"]),' +
-      "div.z-10.w-\\[100vw\\].max-w-\\[100vw\\].overflow-hidden:has(a[href='https://openai.com/policies/cookie-policy/'])," +
-      "[data-testid='modal-cookie-consent-banner-mobile']{display:none!important}",
+    s: "[role=dialog][class*=bg-token-bg-tertiary]{display:none!important}",
   },
   "inclusiscore.org": { s: "#rgpd{display:none!important}" },
   "hypebeast.com": {
