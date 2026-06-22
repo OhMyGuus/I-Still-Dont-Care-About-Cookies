@@ -9704,7 +9704,9 @@ const rules = {
   "checkmyfile.com": { s: "#messageBanner{display:none !important}" },
   "matspar.se": { j: "5" },
   "shpr.fr": { s: "#script_analytics{display:none !important}" },
-  "drewag.de": { s: ".mcfCookieAcceptanceContainer{display:none !important}" },
+  "drewag.de": {
+    s: "evd-cookie-info[auto-show=true]{display:none!important}html.evd-modal-show,html.evd-modal-show body{overflow:auto!important}",
+  },
   "zekur.nl": { j: "5" },
   "mitgas.de": { j: "5" },
   "norddeutsch-gesund.de": { j: "5" },
