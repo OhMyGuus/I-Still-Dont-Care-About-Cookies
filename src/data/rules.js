@@ -14527,7 +14527,9 @@ const rules = {
   "cotswoldoutdoor.com": { j: "5" },
   "cotswoldoutdoor.ie": { j: "5" },
   "asadventure.com": { j: "5" },
-  "asadventure.fr": { j: "5" },
+  "asadventure.fr": {
+    s: '[data-testid="cookie-message-modal"]{display:none!important} body{overflow:auto!important;width:auto!important;height:auto!important}',
+  },
   "asadventure.nl": { j: "5" },
   "asadventure.lu": { j: "5" },
   "sorare.com": {
