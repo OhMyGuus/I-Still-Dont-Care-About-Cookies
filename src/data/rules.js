@@ -12844,7 +12844,7 @@ const rules = {
   },
   "zu-zweit.de": { c: 39 },
   "label2020.eu": { c: 14 },
-  "songsterr.com": { j: "5" },
+  "songsterr.com": { s: ".Bba2ka{display:none!important}" },
   "pentaxforum.nl": { j: "5" },
   "kibercar.com": { s: ".kbc_cookie{display:none !important}" },
   "sportfondsen.nl": { j: "5" },
