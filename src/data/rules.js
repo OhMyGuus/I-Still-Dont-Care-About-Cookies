@@ -12644,7 +12644,9 @@ const rules = {
   "verisart.com": { s: ".marketing nav ~ div{display:none !important}" },
   "carbonify.eu": { j: "5" },
   "fairtrade-deutschland.de": { c: 30 },
-  "autodesk.com": { j: "5" },
+  "autodesk.com": {
+    s: 'div:has(a[href*="cookie-statement"]) { display: none !important; }',
+  },
   "orientalmart.co.uk": { c: 0 },
   "cian.ru": {
     s: 'div[data-name="CookiesNotification"]{display:none !important}',
