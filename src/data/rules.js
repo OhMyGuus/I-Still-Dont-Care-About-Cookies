@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "teedata.net": {
+    s: "div.fc-consent-root { display: none !important; } body { overflow: auto !important; margin-right: 0 !important; }",
+  },
 
   // end of const rules
 };
