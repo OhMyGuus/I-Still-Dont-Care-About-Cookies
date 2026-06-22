@@ -19465,7 +19465,7 @@ const rules = {
     s: ".wpcb-container,.wpcb-message{display:none!important}",
   },
   "xplay.gg": {
-    s: "div[class^=sc-8e67d2a3-]{display:none!important}body{overflow:auto!important}",
+    s: ".sc-be57b98c-1.dmdtWd{display:none!important}html,body{overflow:auto!important}",
   },
   "vosmms.com": {
     s: "#CkC{display:none!important}html,body{overflow:auto!important}",
