@@ -3203,10 +3203,7 @@ function getSelector(host) {
     case "revolut.com":
       return 'div[class*="CookieConsentModal"] button + button';
     case "scaleway.com":
-      return _if(
-        '#modal a[href*="cookie-policy"]',
-        "#modal button + div button:first-child"
-      );
+      return '#portal [class*="cookieConsentDialog"] button:first-child';
     case "ubiwayretail.be":
       return ".modal.is-open .mod-cookiewarning:first-child";
     case "ammerlaender-versicherung.de":
