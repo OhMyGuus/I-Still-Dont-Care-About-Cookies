@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "imazing.com": {
+    s: "#cookie-consent-modal{display:none!important;}body:has(#cookie-consent-modal){overflow:auto!important;touch-action:auto!important;}",
+  },
 
   // end of const rules
 };
