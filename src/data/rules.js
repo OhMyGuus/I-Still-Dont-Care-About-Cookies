@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "uci-kinowelt.de": {
+    s: "#onetrust-consent-sdk { display: none !important; }",
+  },
 
   // end of const rules
 };
