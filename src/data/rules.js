@@ -1603,7 +1603,7 @@ const rules = {
   "did.ie": { c: 86 },
   "peugeot-scooters.nl": { c: 63 },
   "tuv.com": {
-    s: "#simplemodal-container,#simplemodal-overlay{display:none !important}",
+    s: '#CybotCookiebotDialog,#CybotCookiebotDialogBodyUnderlay{display:none!important;}body[style*="overflow"],html[style*="overflow"]{overflow:auto!important;}',
   },
   "printerman.pt": { c: 1 },
   "neti.ee": { s: ".neti_reminder{display:none !important}" },
