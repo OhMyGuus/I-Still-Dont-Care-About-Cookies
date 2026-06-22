@@ -14258,7 +14258,9 @@ const rules = {
   "hek.de": { j: "5" },
   "peakd.com": { s: "#app > .navbar-fixed-bottom{display:none !important}" },
   "crossingeurope.at": { j: "5" },
-  "austrocontrol.at": { j: "5" },
+  "austrocontrol.at": {
+    s: "#j-cookie { display: none !important; } html, body { overflow: auto !important; }",
+  },
   "daneurope.org": { j: "5" },
   "nuri.com": { j: "5" },
   "flightradar24.com": { j: "5" },
