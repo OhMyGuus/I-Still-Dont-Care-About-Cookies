@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "dit-frankengarage.de": {
+    s: "#ccm-widget,#ccm-control-panel{display:none!important;}html.ccm-blocked,body.ccm-blocked{overflow:auto!important;position:static!important;height:auto!important;}",
+  },
 
   // end of const rules
 };
