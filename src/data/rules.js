@@ -8134,7 +8134,7 @@ const rules = {
   "ekocell.pl": { s: "#darkBg,#noticeLayer{display:none !important}" },
   "przp.pl": { s: ".module-abovebox{display:none !important}" },
   "beautyart.pl": { s: "#header-bar{display:none !important}" },
-  "noiz.gr": { s: ".bottom_notice{display:none !important}" },
+  "noiz.gr": { s: ".cookies-policy{display:none!important}" },
   "legend.rs": { c: 2 },
   "malcoded.com": { j: "5" },
   "diablotools.com": { s: ".x-consent{display:none !important}" },
