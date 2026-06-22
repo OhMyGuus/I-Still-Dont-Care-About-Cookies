@@ -15253,7 +15253,9 @@ const rules = {
   "xxxlutz.ch": { j: "5" },
   "xxxlutz.hu": { j: "5" },
   "xxxlutz.cz": { j: "5" },
-  "moemax.at": { j: "5" },
+  "moemax.at": {
+    s: "#modal{display:none!important;}html,body{overflow:auto!important;}",
+  },
   "moemax.hu": { j: "5" },
   "moemax.de": { j: "5" },
   "moemax.ch": { j: "5" },
