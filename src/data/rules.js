@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bureau-vallee.fr": {
+    s: "aside[data-role=gdpr-cookie-container],.ammodals-overlay,#amgdpr-privacy-popup{display:none!important;}",
+  },
 
   // end of const rules
 };
