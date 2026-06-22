@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bestellen.sushivandaagbocholtz.nl": {
+    s: "#gdpr-cookie-dialog,#ihavecookiesBtn_wrapper{display:none!important} html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
