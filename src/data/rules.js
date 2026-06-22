@@ -14524,7 +14524,9 @@ const rules = {
   "pebmed.com.br": { c: 59 },
   "adler-farbenmeister.com": { j: "5" },
   "lexibo.com": { j: "5" },
-  "cotswoldoutdoor.com": { j: "5" },
+  "cotswoldoutdoor.com": {
+    s: "[data-testid=cookie-message-modal]{display:none!important;}html,body{overflow:auto!important;}",
+  },
   "cotswoldoutdoor.ie": { j: "5" },
   "asadventure.com": { j: "5" },
   "asadventure.fr": { j: "5" },
