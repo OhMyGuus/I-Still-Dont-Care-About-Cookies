@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "help4pet.cz": { s: "#prohlcookies{display:none!important}" },
 
   // end of const rules
 };
