@@ -11828,7 +11828,9 @@ const rules = {
     s: '#wsMsgWnd[msgid*="cookie-info"]{display:none !important}',
   },
   "foursquare.com": { j: "5" },
-  "skd.museum": { j: "5" },
+  "skd.museum": {
+    s: "#biscuitHint{display:none!important;} body.no-scroll{overflow:auto!important;touch-action:auto!important;}",
+  },
   "fortisclothing.co.uk": { c: 5 },
   "inwork.cz": { s: ".fixed-cookie{display:none !important}" },
   "aukey.com": { s: ".fixed-cookie{display:none !important}" },
