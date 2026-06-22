@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bodalgo.com": {
+    s: "#bodalgoCookies,.modal-backdrop{display:none!important}body.modal-open{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
