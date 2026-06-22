@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "chase.de": {
+    s: ".tw-fixed.tw-inset-0[class*=tw-bg-]{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
