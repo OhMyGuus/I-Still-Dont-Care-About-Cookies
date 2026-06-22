@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "enjoei.com.br": {
+    s: ":is(.c-cookies-banner,.c-modal__overlay,.c-modal__content){display:none!important}body,html{overflow:auto!important}",
+  },
 
   // end of const rules
 };
