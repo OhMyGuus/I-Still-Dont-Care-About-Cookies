@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "astroarena.krafton.com": {
+    s: ".cookie-modal { display: none !important; } body:has(.cookie-modal) { position: static !important; overflow: auto !important; width: auto !important; top: auto !important; }",
+  },
 
   // end of const rules
 };
