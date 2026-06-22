@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "pharmavie.fr": {
+    s: '[id^="fancybox-container"]{display:none!important}body.fancybox-active{overflow:auto!important}body.compensate-for-scrollbar{padding-right:0!important}',
+  },
 
   // end of const rules
 };
