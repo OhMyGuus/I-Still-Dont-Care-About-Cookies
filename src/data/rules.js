@@ -10319,7 +10319,9 @@ const rules = {
   "geenstijl.nl": { j: "5" },
   "futurezone.at": { j: "5" },
   "profil.at": { j: "5" },
-  "kurier.at": { j: "5" },
+  "kurier.at": {
+    s: "#didomi-host { display: none !important; } body { overflow: auto !important; }",
+  },
   "omroepbrabant.nl": {
     s: "[class*=consent-manager_page-filler],[class*=consent-manager_consent-manager],[class*=consent-manager_container]{display:none!important}",
   },
