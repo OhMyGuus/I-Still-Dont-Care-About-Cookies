@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "pop-music.ru": {
+    s: "#bquadro_cookie_panel{display:none!important;}html:has(#bquadro_cookie_panel,#bottom_cookies_panel){overflow:auto!important;}",
+  },
 
   // end of const rules
 };
