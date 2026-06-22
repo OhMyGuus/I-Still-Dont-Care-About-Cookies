@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "blagoveshchensk.xn--80aaahpr6aegphgefgd9d.xn--p1ai": {
+    s: ".cookie_notice { display: none !important; }",
+  },
 
   // end of const rules
 };
