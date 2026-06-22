@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "openrouter.ai": { s: ".z-50:has(h3.text-lg){display:none!important;}" },
 
   // end of const rules
 };
