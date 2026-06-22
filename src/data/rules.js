@@ -11724,7 +11724,9 @@ const rules = {
   "sslplus.de": { s: "#ccmRoot{display:none !important}" },
   "wu.ac.at": { j: "5" },
   "canto.com": { j: "5" },
-  "prisma.de": { j: "5" },
+  "prisma.de": {
+    s: '[id^="onetrust-"]{display:none!important}html,body{overflow:auto!important}',
+  },
   "sportshop.com": { s: "#solar-app ~ div{display:none !important}" },
   "stoertebeker.com": { c: 17 },
   "cv.fr": { c: 83 },
