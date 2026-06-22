@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "officinanotarile.it": {
+    s: "#cboss_banner_container{display:none!important}button.cboss_buttonshowbanner{display:none!important}html,body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
