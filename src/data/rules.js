@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "app.defisaver.com": {
+    s: ".analytics-wrapper { display: none !important; }",
+  },
 
   // end of const rules
 };
