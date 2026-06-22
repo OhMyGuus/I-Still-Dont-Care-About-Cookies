@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "online.swedbank.se": {
+    s: "#cc-dialog,.cdk-overlay-popover>.cdk-overlay-backdrop{display:none!important}",
+  },
 
   // end of const rules
 };
