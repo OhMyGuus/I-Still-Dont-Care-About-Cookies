@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "app.climatepolicyradar.org": {
+    s: ".fixed.z-1000.inset-0 { display: none !important; }",
+  },
 
   // end of const rules
 };
