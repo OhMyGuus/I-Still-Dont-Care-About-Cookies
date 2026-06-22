@@ -639,7 +639,7 @@ const rules = {
   "laga.se": { s: ".site-info-message{display:none !important}" },
   "elektrozysk.pl": { c: 1 },
   "krakow.pl": {
-    s: 'body > #ci[style*="fixed"],body > #kuki,body > #mainCookie{display:none !important}',
+    s: ":is(#cookies,#showCookiesPopup,.swal2-container.swal2-backdrop-show,.swal2-popup.swal2-modal.swal2-show){display:none!important;} html,body,body.swal2-shown{height:auto!important;overflow:auto!important;}",
   },
   "bywajtu.pl": { s: "#co15ie87a{display:none !important}" },
   "tecnun.es": { s: "#alertbar{display:none !important}" },
