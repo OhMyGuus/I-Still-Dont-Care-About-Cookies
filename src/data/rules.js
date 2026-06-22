@@ -14444,10 +14444,7 @@ const rules = {
   "vsninfo.de": { j: "5" },
   "stadtwerke-weilburg.de": { j: "5" },
   "freilandmuseum-fladungen.de": { j: "5" },
-  "tweakers.net": {
-    j: "5",
-    s: "#koekieBar:not(.tall){display:none !important}",
-  },
+  "tweakers.net": { s: "#udtCookiebox,#udtDark{display:none!important}" },
   "quantifycrypto.com": { j: "5" },
   "mirells.se": { j: "5" },
   "pelckmans.net": { j: "5" },
