@@ -15635,7 +15635,7 @@ const rules = {
   },
   "lufthansa.com": { s: "#__tealiumGDPRcpPrefs{display:none !important}" },
   "eneba.com": {
-    s: "#app > footer ~ div, main > div + div + div:last-child{display:none !important}",
+    s: ".rWKsnW{display:none!important}body{overflow:auto!important}",
   },
   "kampanje.com": { s: ".adn-window{display:none !important}" },
   "wassererleben.ch": { s: ".static{overflow-y: unset !important}" },
