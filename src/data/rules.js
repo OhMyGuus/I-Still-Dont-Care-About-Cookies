@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "service.bielefeld.de": {
+    s: "#dsgvo-dialog-overlay { display: none !important; }",
+  },
 
   // end of const rules
 };
