@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "goodkarmacoffee.de": {
+    s: ".lightbox-backdrop.lightbox-backdrop-cc-dialog:has(#cookieconsent\\:desc){display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
