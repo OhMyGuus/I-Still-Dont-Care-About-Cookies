@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "musicmap.info": {
+    s: "#fullscreen-overlay,#privacy-policy-banner{display:none!important}",
+  },
 
   // end of const rules
 };
