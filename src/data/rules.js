@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "arte-international.com": {
+    s: ".fixed.inset-0.z-40.h-full, .bg-secondary, .bg-black.text-xs { display: none !important; } html { overflow: visible !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
