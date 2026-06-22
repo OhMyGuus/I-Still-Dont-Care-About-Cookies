@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "shoppingspout.fr": {
+    s: "#fr_consent_box, #consent_form_btn, #privacy_btn { display: none !important; }",
+  },
 
   // end of const rules
 };
