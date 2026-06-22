@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "usedcars.toyota.sk": {
+    s: "#ccs-modal,.page-overlay-bg{display:none!important}",
+  },
 
   // end of const rules
 };
