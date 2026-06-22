@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "mujerhoy.com": {
+    s: '#didomi-host,iframe[title*="First Layer"],[id^="modal-widget-prospect"]{display: none !important;}html,body{overflow: auto !important;height: auto !important;}',
+  },
 
   // end of const rules
 };
