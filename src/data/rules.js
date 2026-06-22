@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "vivaolinux.com.br": {
+    s: ".vol-cookie-consent { display: none !important; }",
+  },
 
   // end of const rules
 };
