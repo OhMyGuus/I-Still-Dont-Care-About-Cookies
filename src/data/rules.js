@@ -14457,7 +14457,9 @@ const rules = {
   "foncia.com": { s: "app-foncia-cookie-banner{display:none !important}" },
   "webfleet.com": { j: "5" },
   "nordnet.no": { c: 6 },
-  "nordnet.fi": { c: 6 },
+  "nordnet.fi": {
+    s: '.bg-neutral-background-overlay,[role="dialog"][id^="radix-"]{display:none!important}html,body{overflow:auto!important;pointer-events:auto!important}',
+  },
   "nordnet.dk": { c: 6 },
   "truphone.com": { j: "5" },
   "forestgum.de": { c: 0 },
