@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "minecraft-serverlist.com": {
+    s: "div.cookies[role='dialog']{display:none !important;}",
+  },
 
   // end of const rules
 };
