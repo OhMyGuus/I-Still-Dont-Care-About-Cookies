@@ -3407,7 +3407,9 @@ const rules = {
     s: "#ctl00_Content_EmptyPage_CoockieInformation_CookieContainer{display:none !important}",
   },
   "jobbird.com": { j: "5" },
-  "openweathermap.org": { s: "#stick-footer-panel{display:none !important}" },
+  "openweathermap.org": {
+    s: ".bg-black.fixed.bottom-0.left-0.w-full{display:none!important} html,body{overflow:auto!important}",
+  },
   "starressa.com": { s: "#modal-home{display:none !important}" },
   "rapidssl.com": { c: 139 },
   "perforce.com": { s: ".EUc{display:none !important}" },
