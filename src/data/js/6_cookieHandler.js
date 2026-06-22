@@ -832,6 +832,10 @@ function getE(hostname) {
         "inccookiesconsent=false",
         'inccookiesparams={"all_cookies":false,"cookies_iframes":false,"cookies_matomo":false,"cookies_social_network_facebook":false,"cookies_social_network_linkedin":false,"cookies_social_network_twitter":false}',
       ];
+    case "playin.gg":
+      return [
+        "cookie_consent={%22necessary%22:true%2C%22functional%22:false%2C%22analytics%22:false%2C%22marketing%22:false}",
+      ];
   }
 
   const parts = hostname.split(".");
