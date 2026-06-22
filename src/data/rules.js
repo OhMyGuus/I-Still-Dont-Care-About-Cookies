@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "travelandleisure.com": {
+    s: "#onetrust-consent-sdk{display:none!important;} :is(html,body):has(#onetrust-banner-sdk,#onetrust-consent-sdk){overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
