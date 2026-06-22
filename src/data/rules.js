@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "toyota.com.au": {
+    s: 'div[role="dialog"][class*="Flyout_flyoutBottomContainer__"] { display: none !important; }',
+  },
 
   // end of const rules
 };
