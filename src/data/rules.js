@@ -14315,7 +14315,7 @@ const rules = {
   "ironhack.com": { j: "5" },
   "wows-gamer-blog.com": { s: "#supermag-cookie-ify{display:none !important}" },
   "vloot.io": { s: '#app > .fixed[class*="rounded"]{display:none !important}' },
-  "myanimelist.net": { s: ".modal-content-overlay{display:none !important}" },
+  "myanimelist.net": { s: "[id^=qc-cmp]{display:none!important;}" },
   "myanimelist.vip": { c: 8 },
   "kulturhusetstadsteatern.se": {
     s: "#block-cookieapproval{display:none !important}",
