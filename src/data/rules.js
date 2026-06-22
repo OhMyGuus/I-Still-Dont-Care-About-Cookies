@@ -11242,7 +11242,7 @@ const rules = {
   "paravol.org": { j: "5" },
   "verfassungsblog.de": { s: ".tve-leads-ribbon{display:none !important}" },
   "cbtnuggets.com": {
-    s: '#__next [class*="BannerContainer"]{display:none !important}',
+    s: '[aria-describedby="cookie-banner-description"]{display:none!important}',
   },
   "ersatzteilshop.de": { j: "6" },
   "picnic.app": { s: ".cookies,#modal{display:none !important}" },
