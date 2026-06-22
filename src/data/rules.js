@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "arena.ai": {
+    s: 'div:is([id^="radix-"][id*="_r_6_"],[class*="bg-black/80"]) { display: none !important; } html,body { overflow: auto !important; pointer-events: auto !important; }',
+  },
 
   // end of const rules
 };
