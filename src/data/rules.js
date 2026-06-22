@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "jeans-fritz.de": {
+    s: '#am-cookie-bar,#amgdpr-privacy-popup{display:none!important} html[class*="overflow-hidden"],body[class*="overflow-hidden"]{overflow:auto!important}',
+  },
 
   // end of const rules
 };
