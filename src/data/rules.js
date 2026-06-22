@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bgs-shop.de": {
+    s: ".js-cookie-consent-container,.cookie-consent,.js-cookie-consent-form-container{display:none!important}html,body{overflow:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
