@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "distriauto.be": {
+    s: ".content-bottom-fullwidth,#modal-zendesk-consent{display:none!important} body.page-home{padding-bottom:0!important}",
+  },
 
   // end of const rules
 };
