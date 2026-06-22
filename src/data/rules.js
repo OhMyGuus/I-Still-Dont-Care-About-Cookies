@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tartybikes.co.uk": {
+    s: ".screen--modal,.message--popup{display:none!important}",
+  },
 
   // end of const rules
 };
