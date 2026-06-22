@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "charme.de": {
+    s: ".fixed.inset-x-0.bottom-0:has(h3){display:none!important;}",
+  },
 
   // end of const rules
 };
