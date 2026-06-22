@@ -18309,7 +18309,7 @@ const rules = {
   "kuestenpatent.info": { j: 5 },
   "der-hollaender.de": { j: 5 },
   "latka.cz": { j: 5 },
-  "threads.com": { j: 5 },
+  "threads.com": { s: '[role="dialog"]{display:none!important;}' },
   "rtvdrenthe.nl": { j: 5 },
   "rtvoost.nl": { j: 5 },
   "omroepzeeland.nl": { j: 5 },
