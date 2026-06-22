@@ -5589,7 +5589,9 @@ const rules = {
     s: '#app > div > div[class*="ModalContainer"]{display:none !important}',
   },
   "gewusst-wo.de": { s: "#permission_request_box{display:none !important}" },
-  "calciomercato.com": { s: "#gdpr-law{display:none !important}" },
+  "calciomercato.com": {
+    s: '[id^="sp_message_container_"]{display:none!important}html,body{overflow:auto!important;height:auto!important;max-height:none!important}',
+  },
   "globe.com.ph": { c: 47 },
   "refinitiv.com": { s: ".dismissible-banner{display:none !important}" },
   "gazeo.pl": { s: "#rodo_accept,#cookies_all{display:none !important}" },
