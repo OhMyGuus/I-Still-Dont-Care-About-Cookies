@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "serrakumas.com": {
+    s: ".cookie-agreement-module { display: none !important; }",
+  },
 
   // end of const rules
 };
