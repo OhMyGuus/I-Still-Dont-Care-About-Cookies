@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "kfv-deg.feuerwehren.bayern": {
+    s: "#gdpr-cookie-message-container,#cookieConsent{display:none!important}",
+  },
 
   // end of const rules
 };
