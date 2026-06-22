@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "monmoreconfectionery.co.uk": {
+    s: ":is(#cookieAcceptBarV2,#cookies_v2_backdrop,#cookies_v2_modal){display:none!important}",
+  },
 
   // end of const rules
 };
