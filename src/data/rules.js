@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "pulumi.com": {
+    s: "#hs-eu-cookie-confirmation,#segment-consent-manager{display:none!important}",
+  },
 
   // end of const rules
 };
