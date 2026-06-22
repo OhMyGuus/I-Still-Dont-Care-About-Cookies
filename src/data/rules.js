@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sovendus-network.com": {
+    s: '.--framer-cookie-banner-container,button[aria-label="Cookie Trigger"]{display:none!important}',
+  },
 
   // end of const rules
 };
