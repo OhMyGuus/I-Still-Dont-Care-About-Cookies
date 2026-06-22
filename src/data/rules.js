@@ -4013,7 +4013,9 @@ const rules = {
   "digminecraft.com": { c: 4 },
   "unifilm.de": { s: ".form-dsgvo{display:none !important}" },
   "thelanguagehouse.net": { s: ".site-cookie{display:none !important}" },
-  "rabobank.com": { j: "5" },
+  "rabobank.com": {
+    s: "feature-ssr-modular-cookiebanner{display:none!important}",
+  },
   "cifempleo.com": { c: 0 },
   "edingershops.de": { s: ".bggrey,.alertbox{display:none !important}" },
   "gnhm.gr": { c: 3 },
