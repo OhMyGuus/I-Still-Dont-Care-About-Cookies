@@ -14440,7 +14440,9 @@ const rules = {
   },
   "fz-juelich.de": { j: "5" },
   "thepensionsregulator.gov.uk": { j: "5" },
-  "kaggle.com": { j: "5" },
+  "kaggle.com": {
+    s: ".sc-emMPjM.dFQanz{display:none!important;}html,body{overflow:auto!important;}",
+  },
   "vsninfo.de": { j: "5" },
   "stadtwerke-weilburg.de": { j: "5" },
   "freilandmuseum-fladungen.de": { j: "5" },
