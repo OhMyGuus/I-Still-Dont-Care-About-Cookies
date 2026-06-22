@@ -14526,7 +14526,9 @@ const rules = {
   "lexibo.com": { j: "5" },
   "cotswoldoutdoor.com": { j: "5" },
   "cotswoldoutdoor.ie": { j: "5" },
-  "asadventure.com": { j: "5" },
+  "asadventure.com": {
+    s: 'dialog[data-testid="cookie-message-modal"],dialog[data-testid="cookie-message-modal"]::backdrop{display:none!important}body{overflow:auto!important}',
+  },
   "asadventure.fr": { j: "5" },
   "asadventure.nl": { j: "5" },
   "asadventure.lu": { j: "5" },
