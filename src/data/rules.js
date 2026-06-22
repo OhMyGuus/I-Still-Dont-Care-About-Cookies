@@ -5339,7 +5339,9 @@ const rules = {
   "sqlgate.com": { s: ".popup.download-page{display:none !important}" },
   "zwickautourist.de": { s: "#bauch-binder{display:none !important}" },
   "archimag.com": { j: "5" },
-  "insideevs.com": { c: 102 },
+  "insideevs.com": {
+    s: "#cmplz-cookiebanner-container { display: none !important; } html, body { overflow: auto !important; height: auto !important; }",
+  },
   "foramax.hu": { s: "body > .ct,body > .cc{display:none !important}" },
   "coin360.com": { s: ".Popup{display:none !important}" },
   "greentechmedia.com": {
