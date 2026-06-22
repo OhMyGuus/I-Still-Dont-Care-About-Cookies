@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "clickdoc.at": {
+    s: 'cd-modal-dialog{display:none!important}body[style*="position: fixed"]{position:static!important;width:auto!important;padding-right:0!important;top:auto!important;overflow:auto!important}',
+  },
 
   // end of const rules
 };
