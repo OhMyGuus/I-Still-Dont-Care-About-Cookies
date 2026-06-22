@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "kameraliike.fi": {
+    s: ".fixed.inset-0.overflow-y-auto{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
