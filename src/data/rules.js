@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "airchina.us": {
+    s: "#cookie-notice-popin,.cav2-notification_cookie{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
