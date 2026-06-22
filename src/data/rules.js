@@ -14725,7 +14725,9 @@ const rules = {
   },
   "turismo.gal": { s: ".bandaAceptacion{display:none !important}" },
   "xunta.gal": { s: ".bandaAceptacion{display:none !important}" },
-  "aok.de": { j: "5" },
+  "aok.de": {
+    s: "dialog.csm{display:none!important}:is(body,html).-csm-open{overflow:auto!important}",
+  },
   "online-trainer-lizenz.de": { j: "5" },
   "hsbc.com": { j: "5" },
   "hsbc.co.uk": { j: "5" },
