@@ -11659,7 +11659,7 @@ const rules = {
     s: ".App > [data-nosnippet],#___gatsby > [data-nosnippet]{display:none !important}",
   },
   "stec.es": { j: "5" },
-  "cnnbrasil.com.br": { s: "#pop__gdpr{display:none !important}" },
+  "cnnbrasil.com.br": { s: "#gdpr-banner { display: none !important; }" },
   "tp-link.com": { s: "#tp-cookie{display:none !important}" },
   "musik-produktiv.de": { j: "5" },
   "musik-produktiv.at": { j: "5" },
