@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "247nutrition.com": {
+    s: "pandectes-cmp { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
