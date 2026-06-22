@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "lacittadelnordmilano.it": {
+    s: ".modal-cacsp-position{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
