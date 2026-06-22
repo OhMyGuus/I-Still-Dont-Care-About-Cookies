@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "pstroj.cz": {
+    s: ".fworks_ajax_footer_hook{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
