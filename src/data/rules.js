@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "exclusivasex.com.br": {
+    s: ".fixed.left-0.right-0.bottom-0:has(h3.text-foreground.font-semibold){display: none !important;}",
+  },
 
   // end of const rules
 };
