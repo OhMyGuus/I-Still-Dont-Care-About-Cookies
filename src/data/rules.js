@@ -15246,7 +15246,9 @@ const rules = {
   "fizyka.org": { s: "#pp{display:none !important}" },
   "tusclasesparticulares.com": { s: "#pp{display:none !important}" },
   "edywerder.ch": { s: ".kadence-conversion-banner{display:none !important}" },
-  "xxxlutz.at": { j: "5" },
+  "xxxlutz.at": {
+    s: "#modal,#cookieBar{display:none!important} html,body{overflow:auto!important}",
+  },
   "xxxlutz.de": {
     s: '#modal, #cookieBar, div[class*="_lvf4q3MglO91DLJ1"] { display: none !important; visibility: hidden !important; pointer-events: none !important; } html, body { overflow: auto !important; }',
   },
