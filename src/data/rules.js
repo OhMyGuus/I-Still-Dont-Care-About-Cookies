@@ -14458,7 +14458,9 @@ const rules = {
   "webfleet.com": { j: "5" },
   "nordnet.no": { c: 6 },
   "nordnet.fi": { c: 6 },
-  "nordnet.dk": { c: 6 },
+  "nordnet.dk": {
+    s: "[data-slot=dialog-overlay],[data-slot=dialog-content]{ display: none !important; } html,body{ overflow: visible !important; }",
+  },
   "truphone.com": { j: "5" },
   "forestgum.de": { c: 0 },
   "yosoylebara.es": { j: "5" },
