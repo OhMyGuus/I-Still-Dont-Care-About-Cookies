@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "cryptorank.io": {
+    s: '[class*="sc-38278769"]:has(.styles_accept_button__nJ3bS){display:none!important} body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
