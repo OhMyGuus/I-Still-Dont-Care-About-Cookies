@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "zdmk.krakow.pl": {
+    s: ".cookiemate-widget,.cookiemate-blur{display:none!important} html,body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
