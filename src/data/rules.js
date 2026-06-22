@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "save-europe-act.com": {
+    s: "#cookie-banner { display: none !important; } body:has(#cookie-banner) { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
