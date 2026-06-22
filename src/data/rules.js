@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "omnil.fr": {
+    s: '[id$="___BV_modal__"],.cookies{display:none!important} html,body{overflow:auto!important;height:auto!important;padding-right:0!important}',
+  },
 
   // end of const rules
 };
