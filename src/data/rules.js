@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "remotesolar.de": {
+    s: 'div:is([class*="fixed"][class*="bg-card"][class*="border-t"],[class*="inset-0"][class*="bg-dark-bg/60"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
