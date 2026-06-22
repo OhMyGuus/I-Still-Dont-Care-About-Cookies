@@ -12290,7 +12290,9 @@ const rules = {
   "schlauerlernen.de": { s: "#cookiereminder{display:none !important}" },
   "mcc.live": { c: 0 },
   "videogameschronicle.com": { j: "5" },
-  "aktin.cz": { j: "5" },
+  "aktin.cz": {
+    s: '[id^="snippet-modalStack-cookie"] { display: none !important; }',
+  },
   "supermiro.lu": { s: "#lightbox-gdpr{display:none !important}" },
   "supermiro.com": { s: "#lightbox-gdpr{display:none !important}" },
   "nsinternational.com": { j: "5" },
