@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "accurx.nhs.uk": {
+    s: "#__next>div:has(>h2.sc-bRKDuR.bNiDbx){display:none!important}",
+  },
 
   // end of const rules
 };
