@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "igmetall.de": {
+    s: "#cookie-bar { display: none !important; } body.cookie-overlay, body.cookie-overlay::before, body.cookie-overlay::after { background: transparent !important; opacity: 1 !important; pointer-events: auto !important; }",
+  },
 
   // end of const rules
 };
