@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "rattlestork.org": {
+    s: "#cdk-overlay-0{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
