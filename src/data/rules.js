@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "dilato.app": {
+    s: "#headlessui-portal-root{display:none!important} html,body,#__next{overflow:auto!important}",
+  },
 
   // end of const rules
 };
