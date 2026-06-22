@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tgcom24.mediaset.it": { s: "#iubenda-cs-banner{display:none!important;}" },
 
   // end of const rules
 };
