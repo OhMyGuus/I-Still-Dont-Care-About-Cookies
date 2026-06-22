@@ -653,7 +653,9 @@ const rules = {
   "stoeger.net": { c: 43 },
   "gore-ljudje.net": { c: 62 },
   "winsornewton.com": { s: "#PECR{display:none !important}" },
-  "flugladen.de": { s: ".notificationContainer{display:none !important}" },
+  "flugladen.de": {
+    s: 'dialog[aria-label*="cookie"i]{display:none!important}',
+  },
   "serwiskarcher.pl": { s: ".config-messages{margin-top:-35px}" },
   "lca.pl": { s: "#popupDiv{display:none !important}" },
   "baulinks.de": { c: 1 },
