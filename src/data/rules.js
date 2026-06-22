@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "v3.animelib.org": {
+    s: ".er_es{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
