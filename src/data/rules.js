@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "mack-heidelberg.de": {
+    s: ".consent-modal,.modal-backdrop{display:none!important} body.modal-open{overflow:auto!important;position:static!important;height:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
