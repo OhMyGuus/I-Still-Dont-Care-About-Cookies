@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tuya.com": {
+    s: "#consent_blackbar,#teconsent,#_th-trust{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
