@@ -12936,7 +12936,9 @@ const rules = {
   "workwise.io": { j: "5" },
   "isc2.org": { s: ".notice--warning{display:none !important}" },
   "ebox-auto.com": { s: ".rgpd{display:none !important}" },
-  "tylko.com": { s: ".ty-settings{display:none !important}" },
+  "tylko.com": {
+    s: '[class*="bg-[rgba(72,68,68,0.4)]"],[data-testid="cookiebar"]{display:none!important;}',
+  },
   "ma-calculatrice.fr": {
     s: "#manger-des-minis-gateaux{display:none !important}",
   },
