@@ -787,7 +787,9 @@ const rules = {
   "bancomparador.com": { s: "#cuki{display:none !important}" },
   "amaterky.sk": { c: 1 },
   "previ-direct.com": { c: 10 },
-  "o2.pl": { j: "5" },
+  "o2.pl": {
+    s: '.up1y1da:has([role=dialog][aria-modal="true"][aria-label*="Plansza informacyjna"]) { display:none!important; } html,body { overflow: auto !important; height: auto !important; }',
+  },
   "kodilive.eu": { s: "#claw{display:none !important}" },
   "areatour.pl": { c: 90 },
   "userbenchmark.com": { s: "#notForm{display:none !important}" },
