@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "dajar.fr": {
+    s: ".css-jjd2se { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
