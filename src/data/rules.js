@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "pc.rs.gov.br": {
+    s: "#matriz2-cookie-confirmation { display: none !important; }",
+  },
 
   // end of const rules
 };
