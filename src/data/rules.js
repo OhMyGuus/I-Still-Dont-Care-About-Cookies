@@ -8970,7 +8970,9 @@ const rules = {
   "nextmarkets.com": { s: "nm-cookie-dialog{display:none !important}" },
   "findino.ch": { s: ".CookieView{display:none !important}" },
   "thairath.co.th": { s: "main > div > footer ~ div{display:none !important}" },
-  "insighttimer.com": { s: "#footer ~ .rounded{display:none !important}" },
+  "insighttimer.com": {
+    s: "#silktide-wrapper { display: none !important; } html:has(#silktide-wrapper) { overflow: auto !important; }",
+  },
   "piranha.de": { j: "5" },
   "risekombucha.com": { s: "body > .widget{display:none !important}" },
   "rechtslupe.de": { s: "#dsChoice{display:none !important}" },
