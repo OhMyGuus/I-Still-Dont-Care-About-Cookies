@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "vilvoorde.bibliotheek.be": {
+    s: "#sliding-popup { display: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
