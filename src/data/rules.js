@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "shop.tkd-kabel.de": {
+    s: ".acris-cookie-consent.is--modal,#ccAcivateModal,.modal-backdrop.fade.show{display:none!important} body:has(#ccAcivateModal,.acris-cookie-consent.is--modal){overflow:auto!important}",
+  },
 
   // end of const rules
 };
