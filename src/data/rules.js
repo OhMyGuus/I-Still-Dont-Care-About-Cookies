@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "motorinc.com": {
+    s: ".fixed.z-50.max-w-lg{display:none!important}body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
