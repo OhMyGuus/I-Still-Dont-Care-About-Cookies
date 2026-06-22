@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ets-didactic.de": {
+    s: '[id^=dsV3]{display:none!important;}body[style*="overflow: hidden"]{overflow:auto!important;}',
+  },
 
   // end of const rules
 };
