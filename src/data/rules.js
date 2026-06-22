@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "klinik-fraenkische-schweiz.de": {
+    s: ":is(.cookieManagerQ-sm,.cookieManagerQ-sm-overlay,.fancybox-overlay){display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
