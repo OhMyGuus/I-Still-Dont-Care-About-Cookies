@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "mister-pizza.com": {
+    s: ":is(.position-fixed.bottom-0.w-100.bg-white,.position-fixed.top-0.start-0.end-0.bg-black,.modal-backdrop,#modal-popup){display:none!important} body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
