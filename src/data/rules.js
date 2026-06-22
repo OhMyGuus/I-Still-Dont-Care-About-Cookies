@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "astra-k-forum.de": {
+    s: '.dialogOverlay,[id^="sp_message_container_"]{display:none!important;}',
+  },
 
   // end of const rules
 };
