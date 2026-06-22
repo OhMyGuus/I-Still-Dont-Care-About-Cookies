@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "balleydier4x4.com": {
+    s: ".lgcookieslaw-banner-bottom,#lgcookieslaw_modal,#lgcookieslaw_fixed_button{display:none!important;}html,body{overflow:visible!important;}",
+  },
 
   // end of const rules
 };
