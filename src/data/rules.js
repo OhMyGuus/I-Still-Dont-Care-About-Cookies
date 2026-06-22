@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "warszawa-plac-zamkowy.webcamera.pl": {
+    s: '#body-overlay,[class^="app_gdpr"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
