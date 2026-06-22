@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "de.excaliburshop.com": {
+    s: "#excalibur-modal,#lightboxOverlay,#lightbox,#cookie_show{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
