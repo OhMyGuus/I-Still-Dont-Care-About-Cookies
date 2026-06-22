@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "homerent.agency": {
+    s: "#ajax-cookiesBar,#ajax-cookiesManage{display:none!important;}",
+  },
 
   // end of const rules
 };
