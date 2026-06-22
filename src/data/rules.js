@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "museumsshop.cedon.de": {
+    s: ".offcanvas-modal-cookie,.offcanvas-modal-cookie~.offcanvas-backdrop,.cookie-permission-container.has-accept-all{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
