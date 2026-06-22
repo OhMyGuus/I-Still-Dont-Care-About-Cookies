@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "daskochrezept.de": {
+    s: ':is([class*="cleverpush-"],[id^="sp_message_container_"],iframe[id^="sp_message_iframe_"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
