@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "swiatkart.pl": {
+    s: ".consents-modal, h-backdrop.backdrop-opacity-transition-end { display: none !important; }",
+  },
 
   // end of const rules
 };
