@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "groq.com": { s: ".dg-consent-banner { display: none !important; }" },
 
   // end of const rules
 };
