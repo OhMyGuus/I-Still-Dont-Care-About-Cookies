@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "liederhalle.de": {
+    s: "#bb-cm-blocker-notice{display:none!important}body.bb-cm-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
