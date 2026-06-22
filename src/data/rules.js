@@ -20395,7 +20395,7 @@ const rules = {
     s: "#popupzgody-wrapper-main{display:none!important}body{overflow:auto!important}",
   },
   "cybershoke.net": {
-    s: ".sc-ERObt,.modal__overlay{display:none!important}html,body{overflow:auto!important}",
+    s: ".modal__overlay,.sc-hTUWRQ.gNguWz.modal-enter-done { display: none !important; }",
   },
   "armourdog.com": {
     s: "#shopui-cookie-popup-container,#shopui-cookie-modal-container{display:none!important}html,body{overflow:auto!important}",
