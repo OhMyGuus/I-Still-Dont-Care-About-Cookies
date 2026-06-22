@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ehealthontario.on.ca": {
+    s: "#cookieConsentForm,#consent-message{display:none!important}",
+  },
 
   // end of const rules
 };
