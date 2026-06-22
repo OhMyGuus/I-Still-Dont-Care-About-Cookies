@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "login.paradoxinteractive.com": {
+    s: '[class*="cookieWrapper"]{display:none!important;}',
+  },
 
   // end of const rules
 };
