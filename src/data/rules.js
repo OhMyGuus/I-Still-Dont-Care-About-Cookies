@@ -11319,7 +11319,7 @@ const rules = {
   "pdfcoffee.com": { s: "#PDFCOFFEECOM_cookie_box{display:none !important}" },
   "extradom.pl": { j: "5" },
   "aldeparty.eu": { c: 8 },
-  "remove.bg": { s: ".banner.fixed-bottom{display:none !important}" },
+  "remove.bg": { s: "#consentModal,#wrapper{display:none!important;}" },
   "terveyskirjasto.fi": { j: "5" },
   "dagenssamhalle.se": {
     s: "#__next > div:last-child{display:none !important}",
