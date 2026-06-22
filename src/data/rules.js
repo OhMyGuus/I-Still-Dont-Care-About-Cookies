@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ambition.pl": { s: ".bg-gray-100.py-4 { display: none !important; }" },
 
   // end of const rules
 };
