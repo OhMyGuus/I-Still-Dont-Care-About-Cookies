@@ -5089,7 +5089,7 @@ const rules = {
   "quirion.de": { c: 10 },
   "tierisch-wohnen.de": { s: ".m-cc{display:none !important}" },
   "idopontfoglalo.kh.gov.hu": { c: 0 },
-  "finect.com": { s: 'div[class*="CookiesPartials"]{display:none !important}' },
+  "finect.com": { s: '[id^="sp_message_container_"]{display:none!important;}' },
   "datasystem.ru": { s: ".specialAlert{display:none !important}" },
   "cmore.se": { j: "6" },
   "iceland.co.uk": { s: ".policy-dialog{display:none !important}" },
