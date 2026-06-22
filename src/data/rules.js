@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "gamedev.net": {
+    s: ':is(.fc-consent-root,div[aria-label="Cookie consent"]){display:none!important;}html,body{overflow:auto!important;}',
+  },
 
   // end of const rules
 };
