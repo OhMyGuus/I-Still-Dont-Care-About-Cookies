@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "goldapple.ru": {
+    s: "[class*=_ga-panel_]:has(h3[class*=_ga-panel__title]) { display: none !important; }",
+  },
 
   // end of const rules
 };
