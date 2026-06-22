@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "distrimed.com": { s: ".ck_prompt,.ck_overlay{display:none!important}" },
 
   // end of const rules
 };
