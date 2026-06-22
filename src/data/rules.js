@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "aygas.at": {
+    s: "#cookie-consent,#mapConsent,.banner-overlay{display:none!important}html,body{height:auto!important;overflow:auto!important}",
+  },
 
   // end of const rules
 };
