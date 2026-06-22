@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "akamigas.ac.id": {
+    s: "#mfn-consent-mode,#body_overlay,#cvpboxOverlay{display:none!important;}body{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
