@@ -6847,7 +6847,7 @@ const rules = {
     s: ".nsg--notification.nsg--cookies{display:none !important}",
   },
   "bancobpm.it": { s: "#footer ~ div{display:none !important}" },
-  "outbyte.com": { c: 34 },
+  "outbyte.com": { s: "#simplecmp { display: none !important; }" },
   "taleo.net": {
     s: "#taleo-cookie-law,#modal_cookie-law{display:none !important}",
   },
