@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "autohaus-haertel.de": {
+    s: "#cookie-consent-modal,#overlay,#page_overlay,.modal-backdrop{display:none!important} body.modal-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
