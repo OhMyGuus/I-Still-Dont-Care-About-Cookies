@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "jovemnerd.com.br": {
+    s: "div:has(#rcc-confirm-button,#rcc-decline-button){display:none!important;}",
+  },
 
   // end of const rules
 };
