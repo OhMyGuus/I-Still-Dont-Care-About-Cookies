@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "app.hameaux-legers.org": {
+    s: '.bubble-element.floating-group[style*="bottom: 0px"]:has(.bubble-element.Text){display:none!important}',
+  },
 
   // end of const rules
 };
