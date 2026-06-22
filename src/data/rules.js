@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "pourquituvotes.fr": {
+    s: ".consent-banner-overlay,.js-open-consent{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
