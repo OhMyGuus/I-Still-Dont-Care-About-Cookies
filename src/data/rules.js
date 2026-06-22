@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tedaria.fr": {
+    s: "#gdpr-modal, body:has(#gdpr-modal) .modal-backdrop { display: none !important; } body.modal-open { overflow: auto !important; position: static !important; padding-right: 0 !important; }",
+  },
 
   // end of const rules
 };
