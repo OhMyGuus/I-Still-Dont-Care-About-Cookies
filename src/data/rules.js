@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "gov.pl": { s: "[id^='cb2'],#manage-consent{display:none!important}" },
 
   // end of const rules
 };
