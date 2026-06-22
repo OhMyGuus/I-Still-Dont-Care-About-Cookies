@@ -4969,7 +4969,9 @@ const rules = {
   "miliboo.ch": { s: ".m-milibooCookie{display:none !important}" },
   "westjet.com": { s: ".wj-header-usercookies{display:none !important}" },
   "projects.newforma.com": { c: 21 },
-  "winstar.com.tw": { s: ".cookie-sec{display:none !important}" },
+  "winstar.com.tw": {
+    s: ".cmp-wrap,a.cmp-toggle-button{display:none!important}",
+  },
   "homebrewing.pl": { s: ".rodo-popupbox{display:none !important}" },
   "pilz.com": { c: 0 },
   "patchstorage.com": { c: 143 },
