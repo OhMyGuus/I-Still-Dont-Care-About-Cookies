@@ -5967,7 +5967,9 @@ const rules = {
   "ukpressonline.co.uk": { c: 7 },
   "pianetadragonball.altervista.org": { c: 7 },
   "m-a.org.uk": { c: 7 },
-  "futbolenlatv.es": { c: 7 },
+  "futbolenlatv.es": {
+    s: "#qc-cmp2-container { display: none !important; } html, body { overflow: auto !important; }",
+  },
   "fgh-info.de": { c: 7 },
   "efinancialcareers.com": { c: 7 },
   "askdifference.com": { c: 7 },
