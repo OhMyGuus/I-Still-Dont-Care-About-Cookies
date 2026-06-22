@@ -2124,7 +2124,9 @@ const rules = {
   "wanttoknow.nl": { c: 77 },
   "donnons.org": { s: ".head-line{display:none !important}" },
   "tastedive.com": { s: ".tk-Footer-cc{display:none !important}" },
-  "polygon.com": { c: 56 },
+  "polygon.com": {
+    s: '[id^="sp_message_container_"]{display:none!important;}html,body{overflow:auto!important;}',
+  },
   "toffeeweb.com": { s: "#fixedFooter{display:none !important}" },
   "bgfermer.bg": { c: 130 },
   "watchfinder.co.uk": { s: "#cookie_{display:none !important}" },
