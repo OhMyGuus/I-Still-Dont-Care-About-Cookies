@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "fido-buerosysteme.de": {
+    s: ":is(#ccAcivateModal,#prems-service-overlay.enabled,#ccActivateModalLink){display:none!important} body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
