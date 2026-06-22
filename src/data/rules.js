@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "whoisfreaks.com": {
+    s: ':is([id^="cc-"],[class*="backdrop-blur"][class*="bottom-0"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
