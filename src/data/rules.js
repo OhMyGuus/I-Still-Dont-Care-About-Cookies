@@ -18388,7 +18388,9 @@ const rules = {
   "calvendo.com": { j: 5 },
   "calvendo.fr": { j: 5 },
   "calvendo.de": { j: 5 },
-  "clickdoc.de": { j: 5 },
+  "clickdoc.de": {
+    s: ".cd-dialog-mask.cd-dialog-overlay{display:none!important}html,body{overflow:auto!important}",
+  },
   "clickdoc.fr": { j: 5 },
   "aida64.it": { j: 5 },
   "aida64.de": { j: 5 },
