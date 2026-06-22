@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "plexusrecords.com": {
+    s: ":is(#cookieDisclaimerPopup,#overlay-cookie,.jq_div_aff_cookies_disclaimer,.reveal-overlay:has(#cookieDisclaimerPopup)){display:none!important} :is(html,body){overflow:auto!important}",
+  },
 
   // end of const rules
 };
