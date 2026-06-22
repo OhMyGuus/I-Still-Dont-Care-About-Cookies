@@ -7882,7 +7882,9 @@ const rules = {
   },
   "abc.com": { c: 143 },
   "tw-calc.net": { c: 2 },
-  "solutions-numeriques.com": { c: 0 },
+  "solutions-numeriques.com": {
+    s: "#cookie_popup,.cookie_wall{display:none!important} html,body{overflow:auto!important;height:auto!important}",
+  },
   "xn--strungsauskunft-9sb.de": { s: "#welcome{display:none !important}" },
   "alcatelmobile.com": {
     s: '.elementor-location-footer ~ div[class*="astra"],.acepta-cookies{display:none !important}',
