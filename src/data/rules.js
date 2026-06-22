@@ -6454,7 +6454,7 @@ const rules = {
   "roseburnbar.co.uk": { s: "#POPUP_ROOT{display:none !important}" },
   "milkywire.com": { j: "6" },
   "join-the-crew.com": {
-    s: 'footer ~ div > div[role="alertdialog"]{display:none !important}',
+    s: ".jtc-component-jtc-cookie-management,.jtc-component-jtc-cookie-management-backdrop.show { display: none !important; }",
   },
   "soundtoys.com": {
     s: '.content-info ~ section[style*="background"]{display:none !important}',
