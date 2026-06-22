@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "mfc-19.ru": { s: "#js-alert-cookie-window{display:none!important}" },
 
   // end of const rules
 };
