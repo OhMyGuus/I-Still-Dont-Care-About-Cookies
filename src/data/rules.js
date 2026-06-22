@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "czechchillout.cz": {
+    s: "#cookie_law,#cookie_law_overlay{display:none!important}",
+  },
 
   // end of const rules
 };
