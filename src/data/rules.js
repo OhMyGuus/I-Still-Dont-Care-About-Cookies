@@ -13896,7 +13896,9 @@ const rules = {
   "wimhofmethod.com": {
     s: "#appHeader > div:first-child:not(:only-child){display:none !important}",
   },
-  "groupama.fr": { j: "5" },
+  "groupama.fr": {
+    s: "#perfModal,#onetrust-consent-sdk{display:none!important}html,body{overflow:auto!important}",
+  },
   "interion.cz": { s: ".mcc-modal{display:none !important}" },
   "svtplay.se": { j: "5" },
   "mietausfall.immobilienscout24.de": { j: "5" },
