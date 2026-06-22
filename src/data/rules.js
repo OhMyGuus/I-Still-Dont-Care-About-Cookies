@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ls2helmets.com": { s: "#ls2c-banner,#ls2c-panel{display:none!important}" },
 
   // end of const rules
 };
