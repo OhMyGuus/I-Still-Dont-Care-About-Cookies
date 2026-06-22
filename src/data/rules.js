@@ -10796,9 +10796,7 @@ const rules = {
     s: ".application--wrap > .blue--text{display:none !important}",
   },
   "poolebaypharmacy.co.uk": { j: "5" },
-  "gira.de": {
-    s: "#consent-dialog-wrapper,#cms-element-ac,#ac_frame{display:none !important}",
-  },
+  "gira.de": { s: "[id^=giracst] { display: none !important; }" },
   "gira.com": {
     s: "#consent-dialog-wrapper,#cms-element-ac{display:none !important}",
   },
