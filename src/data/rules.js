@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "kunstgewerbemuseum.skd.museum": {
+    s: "#biscuitHint{display:none!important} :is(html,body):has(#biscuitHint){overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
