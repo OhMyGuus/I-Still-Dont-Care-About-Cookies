@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "auto1-group.com": {
+    s: "section.cookie-overlay, body:has(section.cookie-overlay) .modal-backdrop.show { display: none !important; } body.modal-open { overflow: auto !important; position: static !important; padding-right: 0 !important; }",
+  },
 
   // end of const rules
 };
