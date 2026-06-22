@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "master-frage.de": {
+    s: 'div[style*="z-index: 999999"]{display:none!important}body[style*="overflow: hidden"]{overflow:auto!important}',
+  },
 
   // end of const rules
 };
