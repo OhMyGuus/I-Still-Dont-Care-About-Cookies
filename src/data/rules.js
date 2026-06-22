@@ -10027,7 +10027,9 @@ const rules = {
   "dewalt.global": { s: "#block-privacypopup{display:none !important}" },
   "maereservation.sport2000.fr": { j: "5" },
   "strasbourg-europe.eu": { c: 5 },
-  "technomarket.bg": { j: "5" },
+  "technomarket.bg": {
+    s: ":is(.cdk-global-overlay-wrapper,#cdk-overlay-0):has(tm-terms-consent){display:none!important} html,body{overflow:visible!important}",
+  },
   "asociacion-domitila.es": { j: "5" },
   "ntg24.de": { s: ".consent-wrapper{display:none !important}" },
   "diamantschleifer.net": { s: ".avia-popup{display:none !important}" },
