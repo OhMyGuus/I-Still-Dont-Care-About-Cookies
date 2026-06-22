@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "puratos.com": {
+    s: "#cookieBannerModal, body:has(#cookieBannerModal) .modal-backdrop { display: none !important; } body:has(#cookieBannerModal) { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
