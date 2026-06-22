@@ -14450,7 +14450,9 @@ const rules = {
   },
   "quantifycrypto.com": { j: "5" },
   "mirells.se": { j: "5" },
-  "pelckmans.net": { j: "5" },
+  "pelckmans.net": {
+    s: "#cookie-consent,#popup-cookie-settings,.modal-backdrop.in{display:none!important} html,body,.modal-open{overflow:auto!important} body{padding-right:0!important}",
+  },
   "reimsuche.de": { j: "5" },
   "smashurandompicker.web.app": { j: "5" },
   "buildup.group": { j: "5" },
