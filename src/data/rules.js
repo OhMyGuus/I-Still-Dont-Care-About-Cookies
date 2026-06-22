@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "leuchtturm1917.com": {
+    s: "#ccg-cookie-consent-banner,#fullPageBackDrop,#naviBackDrop{display:none!important} body.modal-open,body[style*='overflow']{overflow:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
