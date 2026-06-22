@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "produktundmarkt.de": {
+    s: ".indice_cookiepopup{display: none !important;}html,body{overflow: auto !important;}",
+  },
 
   // end of const rules
 };
