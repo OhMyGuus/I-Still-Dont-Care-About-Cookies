@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bambooairways.com": {
+    s: "[id^='p_p_id_com_bav_popupcookie'] { display: none !important; }",
+  },
 
   // end of const rules
 };
