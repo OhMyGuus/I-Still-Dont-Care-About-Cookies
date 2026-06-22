@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "remanga.org": {
+    s: 'section[aria-label="Notifications alt+T"] li:has(a[href^="/entry/49"],a[href^="/entry/28"],a[href^="/entry/98"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
