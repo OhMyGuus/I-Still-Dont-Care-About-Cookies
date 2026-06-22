@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "forena.se": {
+    s: "#cookie-info,.offcanvas-backdrop.show,.overlay{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
