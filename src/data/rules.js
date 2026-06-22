@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "simyo.es": {
+    s: ".simyo-cookies.m-cookies-notice,.simyo-cookies-disabled.m-cookies-disabled-notice,#popupConfiguracionCookies{display:none!important}html,body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
