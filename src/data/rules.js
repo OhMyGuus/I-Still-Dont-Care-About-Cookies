@@ -13382,7 +13382,9 @@ const rules = {
     s: '#root > div > div[style*="fixed"],#cookie-law{display:none !important}',
   },
   "toppy.nl": { j: "5" },
-  "armedangels.com": { j: "5" },
+  "armedangels.com": {
+    s: "#shopify-pc__banner { display: none !important; } body { overflow: auto !important; }",
+  },
   "finom.co": { j: "5" },
   "allegro.pl": {
     s: "#opbox-gdpr-consents-modal, #dialog-content, .allegro-gdpr-consents-plugin__actions-container { display: none !important; }",
