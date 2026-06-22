@@ -14945,7 +14945,7 @@ const rules = {
   "n8n.io": { s: ".consent_modal{display:none !important}" },
   "plos.org": { c: 6 },
   "vodafone.de": {
-    s: "#dip-consent,#dip-consent-container,#dip-consent-summary,.dip-consent,.dip-consent-container,.dip-consent-content{display:none!important} html,body{overflow:auto!important}",
+    s: ":is(#dip-consent,.open-dialog-my-vf__bg){display:none!important}body{overflow:auto!important}",
   },
   "vodafone.es": { j: "5" },
   "skyperfectjsat.space": { s: ".m-box-policy{display:none !important}" },
