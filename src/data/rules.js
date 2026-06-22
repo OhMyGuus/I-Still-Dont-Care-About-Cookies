@@ -9055,7 +9055,7 @@ const rules = {
   "okpedia.it": { c: 16 },
   "uswitch.com": { s: "#us-cookies{display:none !important}" },
   "surveymonkey.com": {
-    s: ".mds-gdpr-cookie-banner,.wds-overlay{display:none !important}",
+    s: "#fides-overlay { display: none !important; } body { overflow: auto !important; }",
   },
   "think-cell.com": { s: "body{margin-top:0 !important}" },
   "frameworktraining.co.uk": { s: ".fwt_cookie{display:none !important}" },
