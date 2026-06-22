@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "irc4fun.net": {
+    s: '[id^="cookie-"]{display:none!important;}html,body{overflow:auto!important;}',
+  },
 
   // end of const rules
 };
