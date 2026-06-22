@@ -18503,7 +18503,7 @@ const rules = {
   "banknorwegian.se": { j: 5 },
   "banknorwegian.fi": { j: 5 },
   "banknorwegian.no": {
-    s: 'div[class*="cookieConsentDialog"],.MuiBackdrop-root.MuiModal-backdrop,.MuiDialog-paper{display:none!important}html,body{overflow:auto!important}',
+    s: "[role=dialog]:has(#approveAllCookies),.MuiModal-backdrop,.mega-menu-visibility.backdrop{display:none!important}body{overflow:auto!important;position:static!important}",
   },
   "submodica.xyz": { j: 5 },
   "submodica.com": { j: 5 },
