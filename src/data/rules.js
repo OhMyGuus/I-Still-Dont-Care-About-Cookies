@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "forendors.cz": { s: "._wrapper_1winx_1{display:none!important}" },
 
   // end of const rules
 };
