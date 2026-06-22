@@ -15255,7 +15255,9 @@ const rules = {
   "xxxlutz.cz": { j: "5" },
   "moemax.at": { j: "5" },
   "moemax.hu": { j: "5" },
-  "moemax.de": { j: "5" },
+  "moemax.de": {
+    s: "#modal,#cookieBar{display:none!important}body{overflow:auto!important;padding-right:0!important}",
+  },
   "moemax.ch": { j: "5" },
   "moebelix.at": { j: "5" },
   "moebelix.cz": { j: "5" },
