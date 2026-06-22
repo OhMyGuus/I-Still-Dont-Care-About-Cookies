@@ -3235,7 +3235,9 @@ const rules = {
   "whoismocca.com": { s: "#main-bottom-bar{display:none !important}" },
   "ashtangayogaantibes.com": { s: "#stickyHeader{display:none !important}" },
   "my.moneypolo.com": { j: "5" },
-  "armorgames.com": { s: "#cc-alert{display:none !important}" },
+  "armorgames.com": {
+    s: ".qc-cmp2-container,.qc-cmp2-overlay{display:none!important}",
+  },
   "edx.org": { s: ".edx-cookie-banner-wrapper{display:none !important}" },
   "johnlewisbroadband.com": { s: ".cf__main-block{display:none !important}" },
   "1000dokumente.de": { s: "#bscookie{display:none !important}" },
