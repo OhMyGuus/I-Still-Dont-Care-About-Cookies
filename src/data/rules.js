@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "dunken.de": {
+    s: "#modal_cookie,.modal-backdrop{display:none!important;}body:has(#modal_cookie){overflow:auto!important;}",
+  },
 
   // end of const rules
 };
