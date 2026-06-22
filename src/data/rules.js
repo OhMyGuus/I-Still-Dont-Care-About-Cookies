@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "urbanfitclub.ru": {
+    s: 'div[class*="inset-x-5.5"][class*="bottom-4.5"][class*="z-30"]:has(p.whitespace-pre-line){display:none!important;}',
+  },
 
   // end of const rules
 };
