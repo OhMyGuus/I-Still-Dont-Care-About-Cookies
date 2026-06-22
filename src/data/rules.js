@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "laced.com": {
+    s: '[data-testid="dialog-alignment"]{display:none!important}body{overflow:auto!important;margin-right:0!important}',
+  },
 
   // end of const rules
 };
