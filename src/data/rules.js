@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "allbuyone.com": {
+    s: ".fixed.inset-0:is(.bg-black.opacity-50,.z-30:has(.bg-primary-500.text-white)){display:none!important}",
+  },
 
   // end of const rules
 };
