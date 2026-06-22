@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "dewaterwyck.nl": { s: ".fixed.z-100:has(h5){display:none!important}" },
 
   // end of const rules
 };
