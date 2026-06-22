@@ -19656,7 +19656,7 @@ const rules = {
     s: "html,body{overflow:auto!important}#ccg-cookie-consent-banner,#fullPageBackDrop.open{display:none!important;visibility:hidden!important;pointer-events:none!important}",
   },
   "speechify.com": {
-    s: 'div[class*="fixed"][class*="inset-0"][class*="bg-black"][class*="bg-opacity-70"],div[class*="bg-glass-800"]{display:none!important}body{overflow:auto!important}',
+    s: 'div:has(> [role="dialog"][aria-label="Consent banner"]) { display: none !important; } :is(html,body):has([role="dialog"][aria-label="Consent banner"]) { overflow: visible !important; }',
   },
   "myheritage.dk": {
     s: "#cookie_preferences_banner_root,#cookie_preferences_banner_root .cookie_preferences_banner,#cookie_preferences_banner_root .cookie_banner_overlay{display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important}",
