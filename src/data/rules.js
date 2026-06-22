@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "consilium.europa.eu": {
+    s: "section.gsc-cookie-section.visible{display:none!important} body:has(section.gsc-cookie-section.visible){overflow:auto!important}",
+  },
 
   // end of const rules
 };
