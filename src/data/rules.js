@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "loco-info.com": {
+    s: '.fc-consent-root, .ui-dialog[aria-describedby="dialogCookies"], .ui-widget-overlay.ui-front { display: none !important; }',
+  },
 
   // end of const rules
 };
