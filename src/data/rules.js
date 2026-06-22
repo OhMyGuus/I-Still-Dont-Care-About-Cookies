@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bcferriesprojects.ca": {
+    s: ".chakra-modal__content-container:has(.cookie-consent), .chakra-modal__overlay { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
