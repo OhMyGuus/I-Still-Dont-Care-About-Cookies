@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "diag.pl": {
+    s: '[role=dialog]:has(h1[id^=":"]),.MuiBackdrop-root.MuiModal-backdrop{display:none!important} body:has(h1[id^=":"]){overflow:auto!important}',
+  },
 
   // end of const rules
 };
