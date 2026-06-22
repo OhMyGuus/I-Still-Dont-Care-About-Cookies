@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "quimo-gmbh.de": {
+    s: ".consent-banner-root.banner-consent-all{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
