@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "schule.zdf.de": { s: "#zdf-cmp-consent-sdk { display: none !important; }" },
 
   // end of const rules
 };
