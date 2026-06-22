@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "obchod.ronnie.cz": {
+    s: ".cookie-lista,.rychle-okno{display:none!important}",
+  },
 
   // end of const rules
 };
