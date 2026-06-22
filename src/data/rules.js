@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "fondationtaraocean.org": {
+    s: "#tc-privacy-wrapper, #privacy-overlay { display: none !important; } html, body { overflow: auto !important; height: auto !important; }",
+  },
 
   // end of const rules
 };
