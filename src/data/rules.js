@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "donorportaal.rodekruis.be": {
+    s: "#cookieconsent-banner,#cookieconsent-overlay{display:none!important;}",
+  },
 
   // end of const rules
 };
