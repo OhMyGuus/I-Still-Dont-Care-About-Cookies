@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "classicjoy.games": {
+    s: ".fixed.bottom-0.z-50.border-t-4{display:none!important}",
+  },
 
   // end of const rules
 };
