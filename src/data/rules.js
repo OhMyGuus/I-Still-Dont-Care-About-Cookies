@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "remodi.pl": {
+    s: "#cookieModal,#cookieModalBottom{display:none !important}",
+  },
 
   // end of const rules
 };
