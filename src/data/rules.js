@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "lotto.web.de": {
+    s: ":is(notification-feature#cookieDetection,.popup-background,.frame:has(.consent-actions)){display:none!important;}html,body{overflow:auto!important;height:auto!important;}",
+  },
 
   // end of const rules
 };
