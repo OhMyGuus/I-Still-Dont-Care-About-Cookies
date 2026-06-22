@@ -344,7 +344,9 @@ const rules = {
     s: "#st_popup,#st_overlay,#ewcm_container{display:none !important}",
   },
   "thejournal.ie": { c: 86 },
-  "dba.dk": { c: 1 },
+  "dba.dk": {
+    s: "[id^=sp_message_container_]{display:none!important} html,body{overflow:auto!important}",
+  },
   "dev.to": { s: ".popover-billboard{display:none !important;}" },
   "gosc.pl": { c: 12 },
   "bilbasen.dk": { c: 1 },
