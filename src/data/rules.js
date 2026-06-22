@@ -18262,7 +18262,7 @@ const rules = {
   "ilsole24ore.com": { s: "body{overflow:visible !important}", j: 5 },
   "voici.fr": { j: 5 },
   "gala.fr": { j: 5 },
-  "telex.hu": { j: 5 },
+  "telex.hu": { s: "#qc-cmp2-container { display: none !important; }" },
   "gentside.com": { j: 5 },
   "telepolis.de": { j: 5 },
   "thestreet.com": { j: 5 },
