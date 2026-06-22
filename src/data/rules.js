@@ -6825,7 +6825,9 @@ const rules = {
   "2020.anderzorg.nl": { s: "#ckb-container{display:none !important}" },
   "tenniswarehouse-europe.com": { c: 104 },
   "heineken.hr": { j: "6" },
-  "doctolib.de": { s: ".dl-drawer-bottom{display:none !important}" },
+  "doctolib.de": {
+    s: "#didomi-host{display:none!important}html,body{overflow:auto!important}",
+  },
   "searchpeoplefree.com": { s: ".cookie-terms{display:none !important}" },
   "stoffenshop.eu": { j: "5" },
   "ethereumprice.org": { s: ".zxc-msg{display:none !important}" },
