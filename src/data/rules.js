@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "streetshoesaddict.com": {
+    s: 'div[id^="lgcookieslaw_banner_"],#lgcookieslaw_modal,.lgcookieslaw-overlay,#lgcookieslaw_fixed_button{display:none!important}',
+  },
 
   // end of const rules
 };
