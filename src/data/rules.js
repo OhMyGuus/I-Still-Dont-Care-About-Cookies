@@ -2577,9 +2577,7 @@ const rules = {
   },
   "oysteryachts.com": { c: 121 },
   "vrin.fr": { s: "#Disclaimer{display:none !important}" },
-  "locservice.fr": {
-    s: "#CookiesInfos,#CookiesInfosPrefix{display:none !important}",
-  },
+  "locservice.fr": { s: "#sd-cmp,#__abconsent-cmp{display:none!important;}" },
   "mymagazine.co.uk": { s: 'span[id$="cookiePanel"]{display:none !important}' },
   "konsbud-hifi.com.pl": { c: 76 },
   "halens.ee": { s: "#site-message-container{display:none !important}" },
