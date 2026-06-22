@@ -12676,7 +12676,9 @@ const rules = {
   "muenchen.de": { c: 2, j: "5" },
   "zusammen.de": { j: "5" },
   "energieatlas.eon.de": { j: "5" },
-  "yle.fi": { j: "5" },
+  "yle.fi": {
+    s: "body{overflow:auto!important}#yle-consent-sdk-container{display:none!important}",
+  },
   "webscale.fi": { j: "5" },
   "nseguros.pt": { j: "5" },
   "cuevana3.io": { s: "#mdl-ads{display:none !important}" },
