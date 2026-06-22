@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "thishappyhome.co.uk": {
+    s: "#shopui-cookie-popup-container,#shopui-cookie-modal-container,.shopui-cookie-modal__overlay{display:none!important}",
+  },
 
   // end of const rules
 };
