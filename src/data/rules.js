@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "axiomedia.it": {
+    s: ".gdpr_consent.gdpr_module_17 { display: none !important; }",
+  },
 
   // end of const rules
 };
