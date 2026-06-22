@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bueromoebel-profi.de": {
+    s: ".acris-cookie-consent{display:none!important} body:has(.acris-cookie-consent) .modal-backdrop.fade.show{display:none!important} html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
