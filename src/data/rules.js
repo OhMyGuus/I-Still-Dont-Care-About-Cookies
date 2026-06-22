@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "vetrnik.cz": {
+    s: "#cookies-basic,#cookies-personalization,#cboxOverlay,#cboxWrapper{display:none!important;}",
+  },
 
   // end of const rules
 };
