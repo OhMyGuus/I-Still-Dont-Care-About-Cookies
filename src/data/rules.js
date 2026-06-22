@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "topgear.es": {
+    s: "#didomi-host,#didomi-css,#mrf-popup{display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
