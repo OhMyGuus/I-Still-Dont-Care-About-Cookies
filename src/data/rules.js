@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "liftshare.com": {
+    s: "#cc--main,a#cookie-information{display:none!important} html,body,:root{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
