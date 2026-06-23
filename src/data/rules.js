@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "futurevisionxprize.com": {
+    s: '[data-framer-name="Cookie Consent"] { display: none !important; }',
+  },
 
   // end of const rules
 };
