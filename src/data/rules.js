@@ -11979,7 +11979,9 @@ const rules = {
     s: "#mountNode > .fixed-bottom{display:none !important}",
   },
   "artigercek.com": { s: ".user-consent{display:none !important}" },
-  "get-in-engineering.de": { j: "5" },
+  "get-in-engineering.de": {
+    s: ':is([class*="CookieConsentWidget_cookieModal"],[class*="CookieConsentWidget_overlay"]) { display: none !important; } [class*="CookieConsentWidget_disableScroll"] { overflow: auto !important; }',
+  },
   "theathletic.co.uk": {
     s: 'div[class*="StickyBottomBanner"]{display:none !important}',
   },
