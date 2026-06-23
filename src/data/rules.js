@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "euronews.com": {
+    s: "#didomi-host{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
