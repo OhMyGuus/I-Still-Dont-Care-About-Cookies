@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "cypressgrovecheese.com": {
+    s: ".js-o-page__gdpr-overlay{display:none!important}body.h-layout--prevent-scrolling,body.state-h-overlay-gdpr--open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
