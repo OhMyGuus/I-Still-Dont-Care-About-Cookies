@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "truyen-hentai.co.uk": {
+    s: "#eighteenplus{display:none!important} body.overlayed{overflow:auto!important}",
+  },
 
   // end of const rules
 };
