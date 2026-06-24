@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "mymarket.ge": {
+    s: 'dialog:has(iframe[srcdoc*="services.tnet.ge"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
