@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "datacentersupport.lenovo.com": {
+    s: "#_evidon-barrier-wrapper{display:none!important} html,body{overflow:auto!important;height:auto!important;margin:0!important}",
+  },
 
   // end of const rules
 };
