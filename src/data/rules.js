@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "arendal.kommune.no": {
+    s: '[aria-modal="true"],#opacity-layer{display:none!important}body,html{overflow:auto!important}',
+  },
 
   // end of const rules
 };
