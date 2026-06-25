@@ -14114,7 +14114,7 @@ const rules = {
   "one2car.com": { s: "#cookies-content{display:none !important}" },
   "knowunity.de": { s: ".Toastify ~ div{display:none !important}" },
   "runcloud.io": { s: ".rc-cookie-banner{display:none !important}" },
-  "mcreator.net": { j: "5" },
+  "mcreator.net": { s: "#qc-cmp2-container{display:none!important}" },
   "trustpid.com": { j: "5", s: "footer > button{display:none !important}" },
   "forskning.no": { s: ".adn-window,.adn-editButton{display:none !important}" },
   "opintopolku.fi": { j: "5" },
