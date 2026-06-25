@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "elastikaleader.gr": {
+    s: '.content-bottom-fullwidth{display:none!important}body[style*="padding-bottom"]{padding-bottom:0!important}',
+  },
 
   // end of const rules
 };
