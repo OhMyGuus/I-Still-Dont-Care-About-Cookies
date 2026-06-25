@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "discoverwildlife.com": {
+    s: "#sp_message_container_1276446{display:none!important;}html,body{height:auto!important;overflow:auto!important;}",
+  },
 
   // end of const rules
 };
