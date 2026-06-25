@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "kantan.news": {
+    s: 'div[role="dialog"][aria-label="Çerezler ve Gizlilik"]{display:none!important}',
+  },
 
   // end of const rules
 };
