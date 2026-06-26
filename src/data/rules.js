@@ -15125,7 +15125,7 @@ const rules = {
   "hosteurope.de": { j: "5" },
   "sehkraft.de": { j: "5" },
   "lenovo.com": {
-    s: ".banner_alert,.cookies,.cookie-remind-warpper{display:none !important}",
+    s: "#_evidon-barrier-wrapper{display:none!important} html,body{overflow:auto!important;height:auto!important}",
   },
   "solarlux.com": { j: "5" },
   "jsps.go.jp": { s: ".notepanel{display:none !important}" },
