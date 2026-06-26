@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "airbrush.com": {
+    s: 'div[style*="position: fixed"][style*="bottom: 24px"][style*="right: 24px"]{display:none!important}',
+  },
 
   // end of const rules
 };
