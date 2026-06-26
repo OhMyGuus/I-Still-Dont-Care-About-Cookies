@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "careers.kaspersky.ru": {
+    s: ".bg-opacity-50.fixed.bottom-0{display:none!important}",
+  },
 
   // end of const rules
 };
