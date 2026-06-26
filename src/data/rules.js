@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "thesprucecrafts.com": {
+    s: "#onetrust-banner-sdk,#onetrust-consent-sdk,.onetrust-pc-dark-filter{display:none!important}",
+  },
 
   // end of const rules
 };
