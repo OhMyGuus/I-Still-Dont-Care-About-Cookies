@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "exceldisc.com": {
+    s: '.fixed.z-50.max-w-xl,[style*="z-index: 9999"][style*="pointer-events: none"]{display:none!important;}',
+  },
 
   // end of const rules
 };
