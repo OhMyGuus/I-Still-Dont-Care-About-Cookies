@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bauprojekte.deutschebahn.com": {
+    s: "[data-v-5c459b80]:is([aria-hidden=true],.v-overlay.v-overlay--active.v-dialog){display:none!important} html,body,#app{overflow:auto!important}",
+  },
 
   // end of const rules
 };
