@@ -18266,7 +18266,7 @@ const rules = {
   "gentside.com": { j: 5 },
   "telepolis.de": { j: 5 },
   "thestreet.com": { j: 5 },
-  "rnd.de": { j: 5 },
+  "rnd.de": { s: '[id^="sp_message_container_"]{display:none!important;}' },
   "stuttgarter-nachrichten.de": { j: 5 },
   "is.fi": { j: 5 },
   "hs.fi": { j: 5 },
