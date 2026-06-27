@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "flysas.com": {
+    s: 'dialog:has(button[id*="radix-"][id*="consent"]) { display:none!important; } #survicate-box.survicate-box-WidgetSurvey { display:none!important; } html,body { overflow:auto!important; height:auto!important; }',
+  },
 
   // end of const rules
 };
