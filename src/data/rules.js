@@ -15147,7 +15147,9 @@ const rules = {
   },
   "kungahuset.se": { j: "5" },
   "id.nl": { j: "5" },
-  "lcsc.com": { s: ".v-footer.privacy{display:none !important}" },
+  "lcsc.com": {
+    s: "footer.privacyFooterWrap.v-footer--fixed{display:none!important}html,body,#app{overflow:auto!important}",
+  },
   "historyofdatascience.com": { s: ".cookies-holder{display:none !important}" },
   "nio.com": {
     s: 'div[class*="GDPRConsent"],div[class*="GDPRPopup"]{display:none !important}',
