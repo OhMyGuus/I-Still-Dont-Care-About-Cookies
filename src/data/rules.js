@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "chorducate.com": {
+    s: ".fixed:has(.rounded-xl.border.border-border.bg-background.p-4.shadow-lg),.fixed.inset-0.animate-gradient{display:none!important}html{overflow:auto!important}",
+  },
 
   // end of const rules
 };
