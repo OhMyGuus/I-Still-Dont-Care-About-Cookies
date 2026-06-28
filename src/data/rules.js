@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "darksouls.fandom.com": {
+    s: "#onetrust-consent-sdk{display:none!important} html:has(#onetrust-consent-sdk,#onetrust-banner-sdk){overflow:auto!important}",
+  },
 
   // end of const rules
 };
