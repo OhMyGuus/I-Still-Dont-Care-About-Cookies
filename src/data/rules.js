@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "playfront.de": {
+    s: ".a__sc-np32r2-0.cAsOKp{display:none!important} html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
