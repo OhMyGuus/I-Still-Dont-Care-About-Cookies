@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "player.stv.tv": {
+    s: "#onetrust-consent-sdk{display:none!important} :is(html,body,html.stv-onetrust-scroll-locked,body.stv-onetrust-scroll-locked){overflow:auto!important;touch-action:auto!important}",
+  },
 
   // end of const rules
 };
