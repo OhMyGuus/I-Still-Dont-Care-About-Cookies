@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "epi2me.nanoporetech.com": {
+    s: '.CookieConsent,div[style*="rgba(0, 0, 0, 0.3)"]{display:none!important}',
+  },
 
   // end of const rules
 };
