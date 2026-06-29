@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "kunstloft.at": {
+    s: ":is(#mnd-cookie-bar,#kunstloft-cookie-overlay,#kunstloft-custom-dark-overlay,.js--overlay.theme--dark.is--open,.kunstloft-cookie-modal){display:none!important;} html,body{overflow:auto!important;position:static!important;height:auto!important;}",
+  },
 
   // end of const rules
 };
