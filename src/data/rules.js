@@ -11673,7 +11673,9 @@ const rules = {
   "order.fiveguys.es": { j: "5" },
   "order.fiveguys.fr": { j: "5" },
   "order.fiveguys.co.uk": { j: "5" },
-  "asfinag.at": { j: "5" },
+  "asfinag.at": {
+    s: "#cookieOverlayModal{display:none!important}html,body{overflow:auto!important}",
+  },
   "afar.com": {
     s: '.preloaded_lightbox[style*="overflow"]{display:none !important}',
   },
