@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "jagdhaus-eiden.de": {
+    s: "#condeon-consentmanager,#condeon-consentmanager-codes{display:none!important;}html,body{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
