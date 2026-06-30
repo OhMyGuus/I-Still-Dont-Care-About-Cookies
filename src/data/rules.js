@@ -14609,7 +14609,7 @@ const rules = {
   "replika.ai": { s: 'div[class*="GdprPopup"]{display:none !important}' },
   "otherbundesliga.com": { j: "5" },
   "torg-pc.ru": { s: ".marketing-popup{display:none !important}" },
-  "jlcpcb.com": { s: ".jlc-wm-cookie-policy{display:none !important}" },
+  "jlcpcb.com": { s: ".consent-container{display:none!important;}" },
   "smd-led.pl": { s: "#__pb-cookie{display:none !important}" },
   "dext.com": { j: "5" },
   "diehl.com": { s: ".notice-overlay{display:none !important}" },
