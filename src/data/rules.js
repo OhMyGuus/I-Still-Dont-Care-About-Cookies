@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "campingaz-shop.fr": {
+    s: "#overlay-cookie,#cookieDisclaimerPopup:has(#wookiesDisclaimer){display:none!important}html.is-reveal-open,html.is-reveal-open body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
