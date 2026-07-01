@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ads.atmosphere.copernicus.eu": {
+    s: "[role=dialog]:has(.cokMRQ),.hmcSCA{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
