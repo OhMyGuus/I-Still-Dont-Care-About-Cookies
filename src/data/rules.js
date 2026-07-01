@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "meine.onleihe.de": {
+    s: 'div[aria-modal="true"]:has(h2.css-146c3p1){display:none!important;}html,body{overflow:auto!important;height:auto!important;}',
+  },
 
   // end of const rules
 };
