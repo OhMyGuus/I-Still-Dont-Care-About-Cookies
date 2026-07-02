@@ -12024,7 +12024,7 @@ const rules = {
   "aftenposten.no": { s: "#data-controller-sticky{display:none !important}" },
   "bt.no": { s: "#data-controller-sticky{display:none !important}" },
   "volkswagen-newsroom.com": {
-    s: 'body[style*="hidden"]{overflow:visible !important}',
+    s: "up-modal.cookie-dialog{display:none!important}html,body{overflow:auto!important}",
   },
   "inwx.com": { j: "5" },
   "inwx.de": { j: "5" },
