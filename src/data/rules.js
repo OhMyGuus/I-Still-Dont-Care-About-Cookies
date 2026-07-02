@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "maxpedition.com": {
+    s: 'pandectes-cmp[aria-label="Cookie consent"],pandectes-a11y,.page__overlay { display: none !important; }',
+  },
 
   // end of const rules
 };
