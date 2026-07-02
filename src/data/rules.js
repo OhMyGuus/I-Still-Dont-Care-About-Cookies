@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "itsco.de": {
+    s: ":is(#privacy-category-modal,.privacy-category-alert,.modal-backdrop.fade.show){display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
