@@ -7015,7 +7015,7 @@ const rules = {
   "achat-or-et-argent.fr": { c: 0 },
   "lescommis.com": { j: "5" },
   "bewustnieuwbouw.nl": { s: "#c-bar{display:none !important}" },
-  "crtm.es": { j: "6" },
+  "crtm.es": { s: "#overlay,#cookie-banner{display:none!important}" },
   "cookieservice.aginsurance.be": { j: "5" },
   "arzttermine.de": { s: ".cc_dialog_box{display:none !important}" },
   "sanego.de": { s: ".cc_dialog_box{display:none !important}" },
