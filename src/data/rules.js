@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "a4medier.dk": {
+    s: '[class*="cookieconsent-module-scss-module__wo25kG__overlay"],[class*="cookieconsent-module-scss-module__wo25kG__kort"]{display:none!important;}html,body{overflow:auto!important;}',
+  },
 
   // end of const rules
 };
