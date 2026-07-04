@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "edition-hagia-sophia.de": {
+    s: ".lightbox-backdrop-cc-dialog { display: none !important; }",
+  },
 
   // end of const rules
 };
