@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "oneworld.nl": {
+    s: ".wcc-consent-container.wcc-banner-bottom,.wcc-overlay{display:none!important}",
+  },
 
   // end of const rules
 };
