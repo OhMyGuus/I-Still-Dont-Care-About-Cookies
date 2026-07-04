@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "krug-braeu.de": {
+    s: ':is(#cmplz-cookiebanner-container,#elementor-popup-modal-3554){display:none!important}body:is([style*="overflow:hidden"],.elementor-popup-modal-open){overflow:auto!important}',
+  },
 
   // end of const rules
 };
