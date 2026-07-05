@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "uaudio.com": {
+    s: ".dg-consent-banner, a[data-consent-banner] { display: none !important; }",
+  },
 
   // end of const rules
 };
