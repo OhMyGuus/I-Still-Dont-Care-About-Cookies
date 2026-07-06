@@ -20539,7 +20539,7 @@ const rules = {
     s: "#consent-modal,.modal-backdrop{display:none!important}html,body{overflow:auto!important}",
   },
   "matprat.no": {
-    s: "#cookies-popup-root{display:none!important}html,body{overflow:auto!important}",
+    s: "section[class*=CookiesSelectModal_modal]{display:none!important}",
   },
   "kinepolis.fr": {
     s: "#legal-banner,#cmpwrapper,#hover-disable-site,#disable-site{display:none!important}",
