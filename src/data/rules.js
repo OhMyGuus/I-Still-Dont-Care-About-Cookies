@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "haus-der-boerse.de": {
+    s: "div[data-in2-modal-root-node]{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
