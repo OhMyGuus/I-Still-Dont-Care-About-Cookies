@@ -14645,7 +14645,7 @@ const rules = {
   "muziker.nu": { j: "5" },
   "muziker.ee": { j: "5" },
   "muziker.fi": { j: "5" },
-  "muziker.fr": { j: "5" },
+  "muziker.fr": { s: "#consent-modal{display:none!important;}" },
   "muziker.de": { j: "5" },
   "muziker.gr": { j: "5" },
   "muziker.hu": { j: "5" },
