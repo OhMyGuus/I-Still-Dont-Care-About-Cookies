@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "12volt-shop.com": {
+    s: "#cookie-preferences-modal, .cookie-consent-root { display: none !important; } .cookie-disable-interaction body::before { display: none !important; } .cookie-disable-interaction body, html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
