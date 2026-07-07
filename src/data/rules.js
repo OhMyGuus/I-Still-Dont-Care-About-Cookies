@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sputnik24.tv": {
+    s: ".cookie-warning_warningWrap__uX5bj { display: none !important; }",
+  },
 
   // end of const rules
 };
