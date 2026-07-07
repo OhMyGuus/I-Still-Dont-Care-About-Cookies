@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "pflege-betreuer.de": {
+    s: "#viucom-cookie-popup,#viucom-cookie-modal,#viucom-cookie-badge,.modal-backdrop,button.cookie-btn,#cookie-bar-accept,#cookie-bar-decline,#cookie-bar-information{display:none!important} :is(body,html):has(#viucom-cookie-popup.show){overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
