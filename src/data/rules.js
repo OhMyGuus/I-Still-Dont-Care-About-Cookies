@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "planetfootball.com": {
+    s: "#uniccmp,#unis-root,#unis-other-root{display:none!important}",
+  },
 
   // end of const rules
 };
