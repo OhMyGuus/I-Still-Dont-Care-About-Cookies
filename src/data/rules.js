@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "shop-mooserliesl.de": {
+    s: ':is(.lightbox-backdrop-cc-dialog,[id^="cookieconsent"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
