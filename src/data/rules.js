@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "techadvisor.com": {
+    s: '[id^="sp_message_container_"],#site-overlay,#gpp-consent-ui,#eea-consent-ui{display:none!important} html,body{overflow:auto!important;height:auto!important} html.sp-message-open body{overflow:auto!important;height:auto!important}',
+  },
 
   // end of const rules
 };
