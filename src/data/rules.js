@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "6b6t.org": { s: ".fixed.bottom-0.animate-in{display:none!important}" },
 
   // end of const rules
 };
