@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "korridorsanierung-nrw.deutschebahn.com": {
+    s: 'consent-overlay, db-custom-service[service-name="maptiler"], #usercentrics-cmp-ui { display: none !important; } html, body { overflow: auto !important; position: static !important; height: auto !important; width: auto !important; } body { top: auto !important; left: auto !important; right: auto !important; }',
+  },
 
   // end of const rules
 };
