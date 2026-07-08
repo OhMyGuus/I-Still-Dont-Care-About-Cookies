@@ -19208,7 +19208,7 @@ const rules = {
     s: "#coheroModal,.modal-backdrop.show{display:none!important;visibility:hidden!important;pointer-events:none!important}body{overflow:auto!important}",
   },
   "ranobelib.me": { j: 3 },
-  "nature.com": { j: 5 },
+  "nature.com": { s: ".cc-banner{display:none!important;}" },
   "divlove.com": { s: ".emgcookie{display:none !important}" },
   "northwesttradecentre.co.uk": {
     s: "#global-consent-banner,#wz-overlay{display:none!important}",
