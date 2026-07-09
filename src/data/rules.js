@@ -1057,7 +1057,9 @@ const rules = {
   "draagle.com": { s: "#nonsense_root{display:none !important}" },
   "notariado.org": { c: 25 },
   "senarrubia.it": { c: 1 },
-  "relpol.pl": { s: "#powiadomiony{display:none !important}" },
+  "relpol.pl": {
+    s: "#CybotCookiebotDialog{display:none!important} body{overflow:auto!important}",
+  },
   "el-klinikken.dk": { c: 1 },
   "forbot.pl": { s: "#ForbotCookies{display:none !important}" },
   "swm.de": { s: ".mod-029{display:none !important}" },
