@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "kontostand.at": {
+    s: "#cookie-banner-blocking-div{display:none!important}body.cb-body-no-scroll,body[style*='overflow:hidden']{overflow:auto!important}",
+  },
 
   // end of const rules
 };
