@@ -12518,7 +12518,9 @@ const rules = {
   },
   "trasferirsiallecanarie.info": { j: "5" },
   "meinbildkalender.de": { j: "5" },
-  "essent.nl": { j: "5" },
+  "essent.nl": {
+    s: ".modal.d-block.show, .modal-backdrop.show { display: none !important; } html, body { overflow: auto !important; height: auto !important; }",
+  },
   "energiewonen.nl": { j: "5" },
   "verpackungsregister.org": { j: "5" },
   "leoprinting.fr": { j: "5" },
