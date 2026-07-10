@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "4fund.com": {
+    s: ":is(.modal.show, .modal-backdrop.show, #pushpushgo-form-container){display:none!important;}body.modal-open{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
