@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "golfrange.de": {
+    s: "dialog#cookie-consent,dialog#cookie-consent::backdrop{display:none!important;}html,body{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
