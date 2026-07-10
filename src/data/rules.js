@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "woutick.com": {
+    s: '[aria-describedby="consent-banner-body"] { display: none !important; }',
+  },
 
   // end of const rules
 };
