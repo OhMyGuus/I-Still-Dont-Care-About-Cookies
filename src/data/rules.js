@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "dndcauldron.com": {
+    s: '[aria-label="Close cookie consent banner"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
