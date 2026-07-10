@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "wochenblatt-owv.de": {
+    s: "ngb-modal-window.cookie-consent, ngb-modal-backdrop.modal-backdrop { display: none !important; } body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
