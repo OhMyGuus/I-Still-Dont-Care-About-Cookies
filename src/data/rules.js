@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "hohner-cshop.de": {
+    s: ".ccm--is-blocking{display:none!important}html,body{height:auto!important;overflow:auto!important}",
+  },
 
   // end of const rules
 };
