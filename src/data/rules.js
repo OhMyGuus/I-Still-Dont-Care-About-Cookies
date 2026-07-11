@@ -19954,7 +19954,7 @@ const rules = {
   },
   "myplantin.com": { s: '[class*="cookies_"]{display:none!important}' },
   "optimatours.de": {
-    s: "#btn-cookie-confirm,.cookies-confirm-bg{display:none!important}",
+    s: ".cookies-confirm-bg,.cookies-confirm-bg-backdrop{display:none!important}html,body{overflow:visible!important}",
   },
   "caf.fr": { j: 6 },
   "kaup24.ee": {
