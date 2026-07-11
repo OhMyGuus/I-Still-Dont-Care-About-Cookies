@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "app.idagio.com": {
+    s: ".ReactModal__Overlay:has(.consent-manager-ConsentManager__container--1ERkP){display:none!important}",
+  },
 
   // end of const rules
 };
