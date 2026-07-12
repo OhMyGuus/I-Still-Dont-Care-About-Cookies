@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "hrad-landstejn.cz": {
+    s: "#ccnst__main{display:none!important}body{overflow:auto!important;margin-right:0!important}",
+  },
 
   // end of const rules
 };
