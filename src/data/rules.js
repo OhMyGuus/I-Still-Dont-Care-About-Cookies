@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "medas-instruments.com": {
+    s: '[id^="lgcookieslaw_"],[class*="lgcookieslaw"]{display:none!important} html,:root{overflow:auto!important} body{overflow:visible!important}',
+  },
 
   // end of const rules
 };
