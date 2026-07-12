@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tickets.paysera.com": {
+    s: ".MuiBox-root.css-1xol03a{display:none!important}",
+  },
 
   // end of const rules
 };
