@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bresser.com": {
+    s: "#ccAcivateModal,.modal-backdrop.fade.show{display:none!important}body{overflow:auto!important;padding-right:0!important}",
+  },
 
   // end of const rules
 };
