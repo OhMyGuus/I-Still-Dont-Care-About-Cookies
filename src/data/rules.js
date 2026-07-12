@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "loverfans.com": {
+    s: ".mui-1y74xa:has(a[href='/site/legal/cookies']){display:none!important}",
+  },
 
   // end of const rules
 };
