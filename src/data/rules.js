@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "penshop.bg": {
+    s: '#gdpr_popup,.modal-backdrop.in{display:none!important} body.modal-open{overflow:auto!important} body[style*="overflow: hidden"]{overflow:auto!important}',
+  },
 
   // end of const rules
 };
