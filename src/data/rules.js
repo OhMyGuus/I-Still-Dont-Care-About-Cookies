@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "kilo.ai": {
+    s: '.fixed.backdrop-blur-sm[class*="bg-card"] { display: none !important; }',
+  },
 
   // end of const rules
 };
