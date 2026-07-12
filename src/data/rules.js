@@ -4211,7 +4211,9 @@ const rules = {
   "medicshop.de": { s: "#cookiemedic{display:none !important}" },
   "hpinfomedia.de": { s: "#dataPrivacy{display:none !important}" },
   "gpgroot.nl": { s: "#ckc_hdr{display:none !important}" },
-  "tvasta.pl": { j: "5" },
+  "tvasta.pl": {
+    s: ".sg-cks-info,.sg-cks-backdrop,.sg-cks-settings,.body-shadow{display:none!important}body:has(.sg-cks-info,.jsCksInfo){overflow:auto!important}",
+  },
   "powiatslubicki.pl": { j: "5" },
   "techonthenet.com": { c: 4 },
   "gea.com": { s: ".language-detection__cookie{display:none !important}" },
