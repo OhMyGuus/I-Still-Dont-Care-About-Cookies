@@ -18000,7 +18000,9 @@ const rules = {
   "ncoi.nl": { j: 5 },
   "parken-in-mainz.de": { j: 5 },
   "fit-plus.info": { j: 5 },
-  "bitfocus.io": { j: 5 },
+  "bitfocus.io": {
+    s: "#cc-main{display:none!important}html,body{overflow:auto!important}",
+  },
   "lebonlogiciel.com": { j: 5 },
   "cgi.com": { j: 5 },
   "100partnerprogramme.de": { j: 5 },
