@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "vdw-mobil.de": {
+    s: "#cookieman-modal, .modal-backdrop { display: none !important; } body.modal-open { overflow: auto !important; position: static !important; padding-right: 0 !important; }",
+  },
 
   // end of const rules
 };
