@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "app.privacy.com": { s: ".banner[data-v-65494091]{display:none!important}" },
 
   // end of const rules
 };
