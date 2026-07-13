@@ -5988,7 +5988,9 @@ const rules = {
   "chess24.com": { j: "5" },
   "weinfeste-in-deutschland.de": { c: 81 },
   "veka.es": { s: "#darkener_cookie{display:none !important}" },
-  "weerplaza.nl": { c: 6 },
+  "weerplaza.nl": {
+    s: "#didomi-host { display: none !important; } html,body { overflow: auto !important; }",
+  },
   "corbby.com.pl": { j: "5" },
   "e-plytki.eu": { c: 0 },
   "copperconcept.org": { s: ".coco-cookiebar{display:none !important}" },
