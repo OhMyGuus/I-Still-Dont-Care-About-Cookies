@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "cartoonsaloon.ie": {
+    s: ":is(#moove_gdpr_cookie_info_bar,#moove_gdpr_cookie_modal,.moove-gdpr-cookie-notice){display:none!important;}",
+  },
 
   // end of const rules
 };
