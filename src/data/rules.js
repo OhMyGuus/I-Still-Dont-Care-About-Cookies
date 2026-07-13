@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "landema.de": {
+    s: "#cookieBara,#sk.focus-cookiebara{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
