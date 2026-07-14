@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "account.scaleway.com": {
+    s: ".uv_lrojhc7{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
