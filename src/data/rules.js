@@ -10868,7 +10868,9 @@ const rules = {
   "moviestillsdb.com": {
     s: '#app > [style*="fixed"]{display:none !important}',
   },
-  "gasteig.de": { s: "#gasConsent{display:none !important}" },
+  "gasteig.de": {
+    s: "[data-fragment=cookieBanner],[data-fragment=overlay][data-type=viewport]{display:none!important}html,body{overflow:auto!important}",
+  },
   "helloasso.com": { s: ".BannerTrackers{display:none !important}" },
   "peticie.com": { j: "6" },
   "pro-housing.nl": { s: ".accept-alert{display:none !important}" },
