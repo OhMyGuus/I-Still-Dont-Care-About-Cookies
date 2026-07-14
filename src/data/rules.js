@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "la-peignerie-courthezon.fr": {
+    s: ".ReactModal__Overlay,.CookieContainerOverlay,.Footer--cookie-button{display:none!important}",
+  },
 
   // end of const rules
 };
