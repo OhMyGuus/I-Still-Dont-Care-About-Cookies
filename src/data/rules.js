@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tabelaofert.pl": {
+    s: "#cookies-baner-open, .t_tJR5tH.t_y-wOdq { display: none !important; } html, body { overflow: auto !important; height: auto !important; }",
+  },
 
   // end of const rules
 };
