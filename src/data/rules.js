@@ -13150,8 +13150,7 @@ const rules = {
     s: "#modalBackground,#modalCookieAcceptance{display:none !important}",
   },
   "bbc.com": {
-    j: "5",
-    s: '#main-wrapper > header[role="banner"] > div:first-child{display:none !important}',
+    s: '#ngasCookiePrompt,[data-testid="backdrop"],[id^="sp_message_container_"]{display:none!important;}',
   },
   "bbcrussian.com": {
     s: '#main-wrapper > header[role="banner"] > div:first-child{display:none !important}',
