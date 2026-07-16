@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "coop.co.uk": {
+    s: '[id^="onetrust"], .onetrust-banner-sdk { display: none !important; } html, body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
