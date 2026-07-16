@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "brasil-latino.de": {
+    s: "#eightworks-cookie-consent-plus{display:none!important} body:has(#eightworks-cookie-consent-plus){overflow:auto!important}",
+  },
 
   // end of const rules
 };
