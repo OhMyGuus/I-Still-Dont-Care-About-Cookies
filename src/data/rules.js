@@ -18149,8 +18149,7 @@ const rules = {
   "depo.ee": { s: ".depo-cookies{display:none !important}", j: 5 },
   "tesco.hu": { j: 5 },
   "octopusenergy.es": {
-    s: 'div[data-testid="iconCookies"]{display:none !important}',
-    j: 5,
+    s: ".gpHZqY.dygHVk.hdAwi.qbeer.kiKDyH.qWUaz.hYZFkb.hYZFjI { display: none !important; }",
   },
   "primor.eu": {
     s: "#am-cookie-bar{display:none!important} #html-body{overflow:auto!important}",
