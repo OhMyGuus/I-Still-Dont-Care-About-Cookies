@@ -7467,7 +7467,7 @@ const rules = {
     c: 14,
   },
   "scrum.org": { s: ".privacy-toast{display:none !important}" },
-  "fanatical.com": { s: ".cookie-collapsible{display:none !important}" },
+  "fanatical.com": { s: ".CookieConsent{display:none!important}" },
   "metallumnovum.lt": { s: "#parent-container-idgy{display:none !important}" },
   "dplay.nl": { s: "#header-wrapper ~ dialog{display:none !important}" },
   "umcutrecht.nl": { j: "5" },
