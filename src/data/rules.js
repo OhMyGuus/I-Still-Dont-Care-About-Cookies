@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "feuerwehr-peutenhausen.de": {
+    s: "#gdpr-cookie-message-container,#cookieConsent{display:none!important} :is(html,body):has(#gdpr-cookie-message-container){overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
