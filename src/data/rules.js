@@ -11984,7 +11984,7 @@ const rules = {
     s: 'div[class*="StickyBottomBanner"]{display:none !important}',
   },
   "primevideo.com": {
-    s: '.DVWebNode[class*="wrapper"][class*="cookie"]{display:none !important}',
+    s: ".DVWebNode-conditional-site-wide-wrapper.DVWebNode{display:none!important}",
   },
   "otcmarkets.com": { s: "#userAgreementBanner{display:none !important}" },
   "zutobi.com": { s: 'div[class*="ModalCookies"]{display:none !important}' },
