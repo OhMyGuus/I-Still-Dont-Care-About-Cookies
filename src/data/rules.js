@@ -12055,7 +12055,9 @@ const rules = {
     s: '.w-full[data-test="consent-banner"]{display:none !important}',
   },
   "galaxus.de": { j: 5 },
-  "galaxus.at": { j: 5 },
+  "galaxus.at": {
+    s: 'dialog:has(#cookieBannerTitle),[class*="yPA3Cr9"]{display:none!important}body{overflow:auto!important}',
+  },
   "brewdog.com": { s: "#segment-consent-banner{display:none !important}" },
   "fupro.de": { c: 14 },
   "host-unlimited.de": { j: "5" },
