@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "hdp24.pl": {
+    s: ".cookie-panel,#cookie-policy,#cookie-settings-modal,.fullpage-mask{display:none!important}",
+  },
 
   // end of const rules
 };
