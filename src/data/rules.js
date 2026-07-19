@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "promptquorum.com": {
+    s: '[role="dialog"][aria-label="Cookie consent"]{display:none!important}',
+  },
 
   // end of const rules
 };
