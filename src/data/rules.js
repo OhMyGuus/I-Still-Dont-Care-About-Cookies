@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "my-garage.at": {
+    s: "#dsgvo-widget__popup,#dsgvo-widget__popup-bg{display:none!important}body,html{overflow:auto!important}",
+  },
 
   // end of const rules
 };
