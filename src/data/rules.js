@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ole.pl": {
+    s: "#cookies_message_modal,.modal-backdrop{display:none!important} html,body,body.modal-open{overflow:auto!important}",
+  },
 
   // end of const rules
 };
