@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "base64encode.org": {
+    s: '[id^="qc-cmp2"], .footer_cookie { display: none !important; }',
+  },
 
   // end of const rules
 };
