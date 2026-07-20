@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "unioncement.com.ph": {
+    s: '[id^="elementor-popup-modal-"]{display:none!important} html,body{overflow:auto!important;position:static!important}',
+  },
 
   // end of const rules
 };
