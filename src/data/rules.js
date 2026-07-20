@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sparkfun.com": {
+    s: "aside.amgdprjs-bar-template, .modal-popup.amgdprcookie-groups-modal { display: none !important; }",
+  },
 
   // end of const rules
 };
