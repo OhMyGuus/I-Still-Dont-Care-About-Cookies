@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ssb-ag.de": {
+    s: ':is(#ccm-widget,#ccm-control-panel){display:none!important;}html.ccm-blocked,body.ccm-blocked,html[style*="--ccm--"],body[style*="--ccm--"]{overflow:auto!important;height:auto!important;}',
+  },
 
   // end of const rules
 };
