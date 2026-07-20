@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "clearsky.app": {
+    s: '[class*="termly-styles-"], .termly-display-preferences { display: none !important; } html,body,:root { overflow: auto !important; height: auto !important; }',
+  },
 
   // end of const rules
 };
