@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "tvradiotips.com": {
+    s: '[id^="cookieadmin"],[class*="cookieadmin_"] { display: none !important; }',
+  },
 
   // end of const rules
 };
