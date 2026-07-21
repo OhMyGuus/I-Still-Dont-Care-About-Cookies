@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "reise.ruter.no": {
+    s: ".fixed.z-50[class*='bottom-0'][class*='rounded-2xl'],dialog[class*='backdrop:bg-other-overlay']{display:none!important}",
+  },
 
   // end of const rules
 };
