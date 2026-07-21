@@ -14843,6 +14843,7 @@ const rules = {
   "tavex.no": { j: "5" },
   "zsroznavska.cz": { s: ".uu5-bricks-cookie-bar{display:none !important}" },
   "filman.cc": { c: 0 },
+  "filmweb.pl": { s: "body.preventScroll{overflow:auto !important; position:static !important}" },
   "naf.no": { c: 6 },
   "bnb.bg": { s: ".dvCookies{display:none !important}" },
   "bnb.by": {
