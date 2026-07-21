@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "thesunglassfix.com": {
+    s: ".gmt_google_consent_container{display:none!important}",
+  },
 
   // end of const rules
 };
