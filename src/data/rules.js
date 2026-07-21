@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "iducan.hr": {
+    s: ".gdpr-container-wrapper{display:none!important;}html,body{overflow:visible!important;}",
+  },
 
   // end of const rules
 };
