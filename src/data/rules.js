@@ -1497,7 +1497,9 @@ const rules = {
   "visahq.co.uk": { s: "#main_visa_warning{display:none !important}" },
   "dopdf.com": { s: "#dopdf_accept_cookies{display:none !important}" },
   "beardsmen.co.uk": { c: 1 },
-  "sanef.com": { s: ".bandeaux{display:none !important}" },
+  "sanef.com": {
+    s: "#tarteaucitronRoot{display:none!important}html{overflow:auto!important}body{overflow:visible!important}",
+  },
   "ah-finmekanik.dk": { c: 1 },
   "uitdatabank.be": { c: 25 },
   "azimutyachts.cz": { c: 125 },
