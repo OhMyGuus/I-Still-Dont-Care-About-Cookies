@@ -12832,7 +12832,9 @@ const rules = {
   "formula1.com": { j: "5" },
   "techstores.gr": { s: "#cookie-consent-content{display:none !important}" },
   "sass-projects.info": { j: "5" },
-  "transferxl.com": { j: "5" },
+  "transferxl.com": {
+    s: ".sc-4f1590d9-0.hgjHmx{display:none!important} html,body,#app-root{overflow:auto!important;height:auto!important}",
+  },
   "lvsas.sk": { c: 0 },
   "tally-weijl.com": { s: ".cookie,.overlay{display:none !important}" },
   "jak.se": { s: ".consent-backdrop{display:none !important}" },
