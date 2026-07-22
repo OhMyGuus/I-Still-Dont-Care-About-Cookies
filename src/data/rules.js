@@ -17660,7 +17660,7 @@ const rules = {
     s: "pnl-cookie-wall-widget,#postnl-cookie-widget,.language-chooser__backdrop{display:none!important;visibility:hidden!important;height:0!important;width:0!important;pointer-events:none!important}html,body{overflow:auto!important}",
   },
   "postnl.be": {
-    s: "pnl-cookie-wall-widget,#postnl-cookie-widget,.language-chooser__backdrop{display:none!important;visibility:hidden!important;height:0!important;width:0!important;pointer-events:none!important}html,body{overflow:auto!important}",
+    s: "pnl-cookie-wall-widget,#postnl-cookie-widget{display:none!important}html,body{overflow:auto!important}",
   },
   "vente-unique.com": { s: "#vu_consent{display:none !important}" },
   "vente-unique.be": { s: "#vu_consent{display:none !important}" },
