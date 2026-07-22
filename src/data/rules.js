@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "santander.co.uk": {
+    s: "#onetrust-consent-sdk{display:none!important}body,html{overflow:auto!important}",
+  },
 
   // end of const rules
 };
