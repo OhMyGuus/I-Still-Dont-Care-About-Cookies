@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "hatchet.run": {
+    s: ". _banner_stezv_1{display:none!important;}html,body{overflow:auto!important;}",
+  },
 
   // end of const rules
 };
