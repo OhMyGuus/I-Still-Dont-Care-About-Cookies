@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "granitbank.hu": {
+    s: ".chat-window-small { display: none !important; } html { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
