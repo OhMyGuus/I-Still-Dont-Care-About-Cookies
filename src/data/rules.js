@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "muensterschezeitung.de": {
+    s: "#onetrust-consent-sdk{display:none!important}html,body{overflow:auto!important;height:auto!important;padding-bottom:0!important}",
+  },
 
   // end of const rules
 };
