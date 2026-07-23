@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "beautinda.de": {
+    s: "[data-portal=true] :is(.mantine-Modal-root,.mantine-Overlay-root){display:none!important} body[data-scroll-locked]{overflow:auto!important;position:static!important}",
+  },
 
   // end of const rules
 };
