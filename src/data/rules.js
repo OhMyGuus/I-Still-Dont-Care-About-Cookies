@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "fundinganthropalypse.com": {
+    s: ".cookieBanner-fZ6hup{display:none!important} html,body{overflow:auto!important;height:auto!important;touch-action:auto!important}",
+  },
 
   // end of const rules
 };
