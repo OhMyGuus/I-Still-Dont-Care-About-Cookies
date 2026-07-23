@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "informazionefiscale.it": {
+    s: '[id^="qc-cmp2"]{display:none!important}html,body{overflow:visible!important}',
+  },
 
   // end of const rules
 };
