@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "rheda-wiedenbrueck.de": {
+    s: ".cookie-consent-dialogue { display: none !important; } html, body { overflow: auto !important; position: static !important; }",
+  },
 
   // end of const rules
 };
