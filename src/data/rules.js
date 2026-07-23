@@ -12828,7 +12828,9 @@ const rules = {
   "readspeaker.com": { j: "5" },
   "proximus.be": { j: "5" },
   "concursolutions.com": { j: "5" },
-  "tripit.com": { j: "5" },
+  "tripit.com": {
+    s: '#consent_blackbar,[id^="pop-div"]:is(.truste_overlay,.truste_box_overlay){display:none!important;}',
+  },
   "formula1.com": { j: "5" },
   "techstores.gr": { s: "#cookie-consent-content{display:none !important}" },
   "sass-projects.info": { j: "5" },
