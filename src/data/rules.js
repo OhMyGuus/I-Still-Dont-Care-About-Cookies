@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "mes-allocs.fr": {
+    s: '.cookie-modal-overlay { display: none !important; } html:has([class*="cookie"]), body:has([class*="cookie"]) { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
