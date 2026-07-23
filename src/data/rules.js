@@ -9720,7 +9720,7 @@ const rules = {
   "checkmate.gr": { c: 40 },
   "helium.com": { s: "article > footer ~ div{display:none !important}" },
   "invk.nl": { j: "5" },
-  "it-shop24.pl": { c: 0 },
+  "it-shop24.pl": { s: ".backdrop,.consents-modal{display:none!important}" },
   "degum.de": { s: "#cookiemanager{display:none !important}" },
   "nespresso.com": { s: "#nes_cookie_banner_wrapper{display:none !important}" },
   "regione.lombardia.it": { j: "5" },
