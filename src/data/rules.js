@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "hpi.de": {
+    s: '.cscb-edit-box[role="dialog"],.cscb-info-box.cscb-info-box--center{display:none!important} html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
