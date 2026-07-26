@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "riga-airport.com": {
+    s: "#sliding-popup,#popup-blackout{display:none!important}html,body{overflow:visible!important}",
+  },
 
   // end of const rules
 };
