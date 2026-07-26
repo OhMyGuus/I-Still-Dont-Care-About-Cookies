@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "schwaebischhall.de": {
+    s: "#hw_datenschutz_banner__small,#hw_datenschutz_banner__full { display: none !important; }",
+  },
 
   // end of const rules
 };
