@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "kastulus-und-ulrich-apotheken.de": {
+    s: ".gdpr-cookie-notice.gdpr-cookie-notice-center{display:none!important}",
+  },
 
   // end of const rules
 };
