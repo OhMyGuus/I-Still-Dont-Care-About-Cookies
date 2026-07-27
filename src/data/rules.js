@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "emser.com": { s: ".Scrim-sc-aen3kn.dZoJmH{display:none!important}" },
 
   // end of const rules
 };
