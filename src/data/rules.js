@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "feenstra.com": {
+    s: "#CookieInfoDialog{display:none!important}html:has(#CookieInfoDialog){overflow:visible!important}",
+  },
 
   // end of const rules
 };
