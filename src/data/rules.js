@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "gsasindia.com": {
+    s: "div.fixed.bottom-0.animate-slide-up { display: none !important; }",
+  },
 
   // end of const rules
 };
