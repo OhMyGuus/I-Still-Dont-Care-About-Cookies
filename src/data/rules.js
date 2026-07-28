@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bonprix.de": {
+    s: '[id^="JOISH987"],[class*="JOISH987"]{display:none!important}html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
