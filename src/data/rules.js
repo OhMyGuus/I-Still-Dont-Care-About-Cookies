@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "servicesartisans.fr": {
+    s: ".fixed.pointer-events-none.bottom-20 { display: none !important; }",
+  },
 
   // end of const rules
 };
