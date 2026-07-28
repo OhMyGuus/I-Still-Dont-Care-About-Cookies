@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "hotelhabitare.com.br": {
+    s: '[style*="position: fixed"][style*="bottom: 60px"][style*="z-index: 99999"] { display: none !important; }',
+  },
 
   // end of const rules
 };
