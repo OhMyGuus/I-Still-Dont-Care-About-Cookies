@@ -13426,7 +13426,9 @@ const rules = {
   },
   "begadi.com": { s: ".cookie-footer{display:none !important}" },
   "dosenbach.ch": { j: "5" },
-  "thomas-krenn.com": { j: "5" },
+  "thomas-krenn.com": {
+    s: '#xtxNavigationOffCookiePolicy,.xtxNavigationOffCanvasOverlay[data-toggle="xtxNavigationOffCookiePolicy"]{display:none!important}html,body,#tk_sitex_page_body{overflow:auto!important}',
+  },
   "bookmygarage.com": { j: "5" },
   "fedex.com": {
     s: "fedex-cookie-consent,fdx-caas-cookie-consent,.fxg-alert__fdx_cookie_notice{display:none !important}",
