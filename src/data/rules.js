@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "menuiserierichard-79.com": {
+    s: "[data-include=cookie]{display:none!important} body#index{overflow:auto!important}",
+  },
 
   // end of const rules
 };
