@@ -131,16 +131,14 @@ async function toggleWhitelist(tab) {
   }
 
   if (tabList[tab.id].whitelisted) {
-    // const hostname = getWhitelistedDomain(tabList[tab.id]);
-    delete settings.whitelistedDomains[tabList[tab.id].hostname];
+    const hostname = getWhitelistedDomain(tabList[tab.id]);
+    delete settings.whitelistedDomains[hostname];
   } else {
     settings.whitelistedDomains[tabList[tab.id].hostname] = true;
   }
   chrome.storage.local.set({ settings }, function () {
     for (const i in tabList) {
-      if (tabList[i].hostname == tabList[tab.id].hostname) {
-        tabList[i].whitelisted = !tabList[tab.id].whitelisted;
-      }
+      tabList[i].whitelisted = isWhitelisted(tabList[i]);
     }
   });
   if (isManifestV3) {
