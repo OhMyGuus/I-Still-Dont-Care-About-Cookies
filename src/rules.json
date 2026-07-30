@@ -19897,5 +19897,77 @@
       "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
       "initiatorDomains": ["saechsische.de"]
     }
+  },
+  {
+    "id": 1735,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "thirstylettuce.com",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["thewindowsclub.com"]
+    }
+  },
+  {
+    "id": 1736,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "spellsalsa.com",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["interestingengineering.com"]
+    }
+  },
+  {
+    "id": 1737,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "cmp.",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["svd.se"]
+    }
+  },
+  {
+    "id": 1738,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "cmp.",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["e24.no"]
+    }
+  },
+  {
+    "id": 1739,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/c22cs.js",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["cd.cz"]
+    }
+  },
+  {
+    "id": 1740,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "cmp.",
+      "resourceTypes": ["script", "stylesheet", "xmlhttprequest", "image"],
+      "initiatorDomains": ["vg.no"]
+    }
   }
 ]

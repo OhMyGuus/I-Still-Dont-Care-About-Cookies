@@ -3,7 +3,7 @@
 import { program } from "commander";
 import * as fs from "fs";
 import * as path from "path";
-import { fileURLToPath } from "url";
+import { fileURLToPath, pathToFileURL } from "url";
 import { formatFile } from "./prettier.js";
 import * as acorn from "acorn";
 
@@ -47,7 +47,7 @@ function findPropertyByKey(objectExpression, domain) {
   return null;
 }
 
-function buildRuleEntry(
+export function buildRuleEntry(
   domain,
   css,
   common,
@@ -56,8 +56,8 @@ function buildRuleEntry(
   indent = "  "
 ) {
   const props = {
-    ...(handler && { j: handler }),
-    ...(common && { c: common }),
+    ...(handler !== undefined && { j: handler }),
+    ...(common !== undefined && { c: common }),
     ...(css && { s: JSON.stringify(css) }),
   };
 
@@ -212,4 +212,9 @@ program
     );
   });
 
-program.parse();
+if (
+  process.argv[1] &&
+  import.meta.url === pathToFileURL(process.argv[1]).href
+) {
+  program.parse();
+}
