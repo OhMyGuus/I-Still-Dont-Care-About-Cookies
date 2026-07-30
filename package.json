@@ -5,6 +5,7 @@
   "description": "Get rid of cookie warnings from almost all websites!",
   "main": "index.js",
   "scripts": {
+    "test": "node --test",
     "lint": "eslint src .",
     "lintfix": "eslint src --fix",
     "prettier": "prettier --write .",
