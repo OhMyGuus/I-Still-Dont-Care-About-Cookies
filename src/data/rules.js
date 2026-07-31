@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "gaertner-harry-poetschke.de": {
+    s: ".offcanvas.offcanvas-modal.show, .offcanvas-backdrop.fade.show { display: none !important; } html, body { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
