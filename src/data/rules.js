@@ -6879,7 +6879,9 @@ const rules = {
   "gzcss.co.uk": { s: ".cookie-flash{display:none !important}" },
   "lebens.guru": { j: "6" },
   "live.globalplayer.com": { j: "5" },
-  "globalplayer.com": { j: "6" },
+  "globalplayer.com": {
+    s: '[id^="sp_message_container_"]{display:none!important}body:has([id^="sp_message_container_"]){overflow:auto!important;height:auto!important}',
+  },
   "win2day.at": { j: "5" },
   "gruntwork.io": { s: "#gruntyCookie{display:none !important}" },
   "diwaro.de": {
