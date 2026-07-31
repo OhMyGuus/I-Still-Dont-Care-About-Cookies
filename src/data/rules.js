@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "quadrat.bottrop.de": {
+    s: ".SP-ConsentBanner__spacer { display: none !important; }",
+  },
 
   // end of const rules
 };
