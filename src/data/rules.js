@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "1fodiscount.com": {
+    s: ".UI-footer-cookie,.UI-footer-cookie-open{display:none!important}",
+  },
 
   // end of const rules
 };
