@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "lotto.gmx.de": {
+    s: '[data-element-id^="overlay"], .popup-background { display: none !important; } body[style*="overflow: hidden"], body { overflow: auto !important; }',
+  },
 
   // end of const rules
 };
