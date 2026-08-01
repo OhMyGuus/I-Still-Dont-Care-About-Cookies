@@ -13105,7 +13105,9 @@ const rules = {
     s: 'div[class*="footerNotificationWrapper"]{display:none !important}',
   },
   "alexia.fr": { s: "#_cc_a,._cc_op::before{display:none !important}" },
-  "kingscross.co.uk": { s: ".argent_cookies{display:none !important}" },
+  "kingscross.co.uk": {
+    s: ".argent_consent,.reveal-overlay{display: none !important;}",
+  },
   "omaolo.fi": { j: "5" },
   "careconord-pieces-occasion.fr": {
     s: "#choc-banner-dialog{display:none !important}",
