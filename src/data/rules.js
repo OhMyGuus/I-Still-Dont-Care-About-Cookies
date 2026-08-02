@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "fraenky-getraenke.de": {
+    s: 'body>div[class*="bg-opacity-50"]{display:none!important}',
+  },
 
   // end of const rules
 };
