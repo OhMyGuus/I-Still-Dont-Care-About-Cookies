@@ -17608,7 +17608,9 @@ const rules = {
     s: 'div[data-cvent-id*="cookie-banner"]{display:none !important}',
   },
   "nchsoftware.com": { s: "#ckndiv{display:none !important}" },
-  "bulgarianproperties.com": { s: "#cookie_bar_new{display:none !important}" },
+  "bulgarianproperties.com": {
+    s: "#dark_layer,#accept_biscuits_bar{display:none!important} html,body{overflow:auto!important;height:auto!important}",
+  },
   "bulgarianproperties.bg": { s: "#cookie_bar_new{display:none !important}" },
   "landtag.de": { s: "#matomo-cookie-consent{display:none !important}" },
   "uferstudios.com": { s: "hylo-cookie-banner{display:none !important}" },
