@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "bijouterie-mulhouse.com": {
+    s: ":is(.popin.rgpd,#popin-consent-cookies){display:none!important} :is(html,body):has(.popin.rgpd){overflow:visible!important}",
+  },
 
   // end of const rules
 };
