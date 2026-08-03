@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "pronutrition.ro": {
+    s: '[class*="pr-cookie"],[id*="pr-cookie"]{display:none!important} body[class*="_has-modal"],body[style*="overflow: hidden"]{overflow:auto!important}',
+  },
 
   // end of const rules
 };
