@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ditur.fr": {
+    s: '#cookie-popup, .fixed.inset-0.z-10:has(#cookie-popup), .fixed.inset-0[class*="bg-gray-500"] { display: none !important; } :is(html,body,#html-body) { overflow: auto !important; position: static !important; }',
+  },
 
   // end of const rules
 };
