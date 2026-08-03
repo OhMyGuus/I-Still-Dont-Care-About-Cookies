@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "brightvpn.com": {
+    s: ".cookies_popup_overlay{display:none!important}html{overflow:auto!important}",
+  },
 
   // end of const rules
 };
