@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "ondernemersplein.overheid.nl": {
+    s: 'div:has(button[data-ui-test="uiCookieAlertAcceptButton"]) { display: none !important; }',
+  },
 
   // end of const rules
 };
