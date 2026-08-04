@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "groningenlife.nl": {
+    s: ".b2c-reset.b2c-popup,.b2c-reset.b2c-settings{display:none!important}",
+  },
 
   // end of const rules
 };
