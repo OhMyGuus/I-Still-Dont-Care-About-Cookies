@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "nele.ai": {
+    s: ".ccm-root{display:none!important;}html.ccm-blocked,body.ccm-blocked{overflow:visible!important;position:static!important;touch-action:auto!important}",
+  },
 
   // end of const rules
 };
