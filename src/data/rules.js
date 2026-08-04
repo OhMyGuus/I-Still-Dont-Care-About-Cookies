@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "particuliers.sg.fr": {
+    s: "#privacy-overlay,#tc-privacy-wrapper{display:none!important;}",
+  },
 
   // end of const rules
 };
