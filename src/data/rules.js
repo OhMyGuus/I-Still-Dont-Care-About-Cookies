@@ -20590,6 +20590,7 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "b2b.agfoods.cz": { s: ".bb-cookies-dialog-wrapper{display:none!important}" },
 
   // end of const rules
 };
