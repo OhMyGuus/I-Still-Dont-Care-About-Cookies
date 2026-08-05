@@ -2721,7 +2721,9 @@ const rules = {
   "mashable.com": {
     s: "#peek > div:not([id]):not([class]){display:none !important}",
   },
-  "ovhcloud.com": { s: "#block-ovhcookieconsent{display:none !important}" },
+  "ovhcloud.com": {
+    s: ".cmp-consent-modal,.cmp-overlay{display:none!important}",
+  },
   "lemoiszerozero.fr": { s: "#root > div:not([id]){display:none !important}" },
   "sita.aero": {
     s: "#privacyPopupOverlay,.privacyPopup{display:none !important}",
