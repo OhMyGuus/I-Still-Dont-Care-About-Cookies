@@ -16718,7 +16718,9 @@ const rules = {
   "centreforaviation.com": {
     s: 'div[class^="cookieConsent_consent"]{display:none !important}',
   },
-  "afilio.de": { s: ".component-c-overlay{display:none !imp ortant}" },
+  "afilio.de": {
+    s: ".a-color-background-overlay.component-c-overlay { display: none !important; }",
+  },
   "turkishairlines.com": {
     s: ":is([id^=sec-],#allowCookiesButton,#notAllowCookiesButton,#changeCookiesSettingsButton,[class*=cookie-warning],[class*=overlay]){display:none!important;visibility:hidden!important;pointer-events:none!important}html,body{overflow:auto!important;height:auto!important}",
   },
