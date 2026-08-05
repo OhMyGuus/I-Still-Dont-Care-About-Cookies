@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "dinmedia.de": {
+    s: ".bwr-cookie,.bwr-cookie-height{display:none!important}.bwr-page.bwr-cookie-page-locked{position:static!important;overflow:visible!important}",
+  },
 
   // end of const rules
 };
