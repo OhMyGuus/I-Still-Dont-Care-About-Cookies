@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "app.petdesk.com": {
+    s: 'div[data-qa="cookie-consent"]{display:none!important} html,body{overflow:auto!important}',
+  },
 
   // end of const rules
 };
