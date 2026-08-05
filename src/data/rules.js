@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "certilia.com": {
+    s: "div.fixed:is(.inset-0.bg-slate-700.bg-opacity-70,.bottom-0.left-0.right-0.bg-gray-100){display:none!important;}",
+  },
 
   // end of const rules
 };
