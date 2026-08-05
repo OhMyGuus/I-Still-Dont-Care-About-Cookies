@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "photovoltaikforum.com": {
+    s: '.dialogOverlay,[id^="sp_message_container_"]{display:none!important}html.sp-message-open,.sp-message-open body{overflow:auto!important;position:static!important;top:auto!important;left:auto!important;right:auto!important;margin-top:0!important}',
+  },
 
   // end of const rules
 };
