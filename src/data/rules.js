@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "sleep-point.de": {
+    s: ":is(#sp-cookie-backdrop,#sp-cookie-banner,.sp-consent-notice){display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
