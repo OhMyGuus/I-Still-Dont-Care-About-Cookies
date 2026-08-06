@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "digitalisierung.bayern.de": {
+    s: "#Cookie-Banner, .modal-backdrop.fade.show { display: none !important; } body.modal-open { overflow: auto !important; }",
+  },
 
   // end of const rules
 };
