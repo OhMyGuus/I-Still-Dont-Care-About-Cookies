@@ -12356,7 +12356,9 @@ const rules = {
   "sl.se": {
     s: 'body > div[class*="header"] > div > div:first-child:not([class]){display:none !important}',
   },
-  "airfleets.net": { s: "#blur{display:none !important}" },
+  "airfleets.net": {
+    s: '[id^="qc-cmp2"]{display:none!important}html,body{overflow:auto!important}',
+  },
   "redis.com": { c: 3 },
   "bdz.bg": { j: "5" },
   "earlybird.delivery": { s: ".policy-notice{display:none !important}" },
