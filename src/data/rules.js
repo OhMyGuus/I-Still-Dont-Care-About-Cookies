@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "rootedconnections.org.uk": {
+    s: '[data-loc="client/src/components/CookieConsent.tsx:99"]{display:none!important}',
+  },
 
   // end of const rules
 };
