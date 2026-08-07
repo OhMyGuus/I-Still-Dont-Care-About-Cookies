@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "distrowatch.com": {
+    s: ".cc_banner-wrapper,.fc-consent-root{display:none!important}",
+  },
 
   // end of const rules
 };
