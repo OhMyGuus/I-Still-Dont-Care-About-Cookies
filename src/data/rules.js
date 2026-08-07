@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "elektroquatsch.de": {
+    s: ".animate-slide-up.bottom-0 { display: none !important; }",
+  },
 
   // end of const rules
 };
