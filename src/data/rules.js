@@ -16947,7 +16947,9 @@ const rules = {
   "temu.com": { j: 6 },
   "all3dp.com": { j: 5 },
   "komoot.de": { j: 5 },
-  "komoot.com": { j: 3 },
+  "komoot.com": {
+    s: "#gdpr_banner_portal, dialog:has(.css-1h94oht) { display: none !important; }",
+  },
   "amiunique.org": { s: ".v-snack{display:none !important}" },
   "kbs-frb.be": { s: ".block-extendedcookiebanner{display:none !important}" },
   "tickets.ua": { s: ".app-cookies{display:none !important}" },
