@@ -8807,7 +8807,7 @@ const rules = {
   "tieranwalt.at": { j: "5" },
   "voltadol.at": { j: "5" },
   "trustmate.io": {
-    s: 'div[class*="CookiesWrapper"]{display:none !important}',
+    s: '[class*="Cookies_"]{display:none!important}html,body{overflow:auto!important}',
   },
   "k15t.com": { j: "5" },
   "birminghammidshires.co.uk": { c: 0 },
