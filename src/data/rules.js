@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "minelist.io": {
+    s: "#cookie-consent,#cookie-consent-backdrop{display:none!important}",
+  },
 
   // end of const rules
 };
