@@ -96,7 +96,7 @@
     "description": "Notes for the report"
   },
   "reportNotesPlaceholder": {
-    "message": "Napríklad:\nPrehrávanie videa nefunguje\nRozbitý posuvník\nSivý prekryv",
+    "message": "Things like:\nVideoplayback not working\nBroken scrollbar\ngray overlay",
     "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
   },
   "reportAnonSend": {
@@ -124,23 +124,23 @@
     "description": "Loading messsage"
   },
   "generalIssueOption": {
-    "message": "Všeobecný problém (vyžaduje poznámky)",
+    "message": "General issue (requires notes)",
     "description": "The option text for a general issue"
   },
   "scrollbarIssueOption": {
-    "message": "Súvisiace s posuvníkom",
+    "message": "Scrollbar related",
     "description": "The option text for a scrollbar issue"
   },
   "modalIssueOption": {
-    "message": "Súvisiace s modálnym oknom",
+    "message": "Modal related",
     "description": "The option text for a modal issue"
   },
   "scrollbarIssueDescription": {
-    "message": "Vyberte túto možnosť, ak chcete označiť problém na tejto stránke súvisiaci s posúvaním - napríklad „stránka nezobrazuje posuvník“.",
+    "message": "Select this option to signify an issue on this page related to scrolling - like 'the site is not showing a scrollbar'.",
     "description": "Explanation of what a scrollbar issue is"
   },
   "modalIssueDescription": {
-    "message": "Vyberte túto možnosť, ak chcete označiť problém na tejto stránke súvisiaci s modálnym oknom - napríklad „vyskakovacie okno blokuje interakciu“.",
+    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
     "description": "Explanation of what a modal issue is"
   }
 }
