@@ -15235,7 +15235,7 @@ const rules = {
   "innerengineering.com": {
     s: ".MuiSnackbar-anchorOriginBottomCenter{display:none !important}",
   },
-  "animeschedule.net": { s: ".custom-consent-popup{display:none !important}" },
+  "animeschedule.net": { s: "#as-notice-layer{display:none!important}" },
   "hayloft.co.uk": { s: ".cookieControl{display:none !important}" },
   "goetel.de": { s: ".cookieControl{display:none !important}" },
   "sbt.siemens.com": { s: "#CookieDiscl{display:none !important}" },
