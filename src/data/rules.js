@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "mexle.pl": {
+    s: ".consents-modal,h-backdrop,.wce-app-popup-close-overlay{display:none!important}body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
