@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "prevcat.com": {
+    s: ":is(.fixed.bottom-0.left-0.right-0.border-t[data-aria-hidden],.fixed.inset-0.z-50[data-state=open],[role=dialog][id^=radix-][data-state=open]){display:none!important}html,body{overflow:auto!important;height:auto!important}",
+  },
 
   // end of const rules
 };
