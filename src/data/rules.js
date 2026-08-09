@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "us-east-1.signin.aws": {
+    s: "#awsccc-sb-ux-c { display: none !important; }",
+  },
 
   // end of const rules
 };
