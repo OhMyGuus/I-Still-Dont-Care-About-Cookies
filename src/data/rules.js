@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "parking.cornwallairportnewquay.com": {
+    s: ".cookie-panel-wrapper,.cookie-settings-float{display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
