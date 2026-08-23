@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "healthypets.com": {
+    s: "#hp-consent-banner,#consent-manager{display:none!important;}",
+  },
 
   // end of const rules
 };
