@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "leftlane-shop.de": {
+    s: 'pandectes-cmp:is([role="region"],.needsclick){display:none!important;}',
+  },
 
   // end of const rules
 };
