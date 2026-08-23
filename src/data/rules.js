@@ -12992,7 +12992,9 @@ const rules = {
   "beinsports.com.tr": {
     s: '#__next > [class*="cookie"]{display:none !important}',
   },
-  "aquacard.co.uk": { j: "5" },
+  "aquacard.co.uk": {
+    s: ".chakra-modal__overlay,.chakra-modal__content-container{display:none!important}",
+  },
   "briloner.com": { j: "5" },
   "petsathome.com": { s: ".onetrust{display:none !important}" },
   "e-podroznik.pl": { s: ".ep-cookies-info-wrapper{display:none !important}" },
