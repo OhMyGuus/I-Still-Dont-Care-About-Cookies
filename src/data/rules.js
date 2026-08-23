@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "vilaboral.es": {
+    s: '[id^="lgcookieslaw"]:is(div,a,button,span,input){display:none!important}',
+  },
 
   // end of const rules
 };
