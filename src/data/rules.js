@@ -20590,6 +20590,9 @@ const rules = {
   "smartial.net": {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
+  "kletterwald-taunus.de": {
+    s: ":is(#cmplz-cookiebanner-container,#cmplz-manage-consent,.elementor-popup-modal,.htmega-modal-area.htb-modal){display:none!important}html,body{overflow:auto!important}",
+  },
 
   // end of const rules
 };
