@@ -132,7 +132,7 @@
     "description": "The option text for a scrollbar issue"
   },
   "modalIssueOption": {
-    "message": "Modal related",
+    "message": "Modus gerelateerd",
     "description": "The option text for a modal issue"
   },
   "scrollbarIssueDescription": {
@@ -140,7 +140,7 @@
     "description": "Explanation of what a scrollbar issue is"
   },
   "modalIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "message": "Selecteer deze optie om een probleem op deze pagina te vermelden met betrekking tot een modus, zoals 'er een pop-up-box blokkeerinteractie'.",
     "description": "Explanation of what a modal issue is"
   }
 }

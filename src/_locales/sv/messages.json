@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "I still don't care about cookies",
+    "message": "Jag bryr mig fortfarande inte om cookies",
     "description": "Name of the extension."
   },
   "extensionDescription": {
@@ -72,7 +72,7 @@
     "description": "Options text for whitelist box."
   },
   "optionStatusIndicators": {
-    "message": "status indicators",
+    "message": "statusindikatorer",
     "description": "Option text for enabling the status indicator"
   },
   "optionsButton": {
@@ -80,19 +80,19 @@
     "description": "Options text for SAVE button."
   },
   "reportGithub": {
-    "message": "Report using Github",
+    "message": "Rapportera med Github",
     "description": "Menu item to report using Github"
   },
   "reportAnon": {
-    "message": "Report anonymously",
+    "message": "Rapportera anonymt",
     "description": "Menu item to report anonymously"
   },
   "reportAnonTitle": {
-    "message": "Report",
+    "message": "Rapport",
     "description": "Translation of 'report' it will be shown like 'Report example.com'"
   },
   "reportAnonNotes": {
-    "message": "Notes: ",
+    "message": "Anteckningar: ",
     "description": "Notes for the report"
   },
   "reportNotesPlaceholder": {
@@ -100,27 +100,27 @@
     "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
   },
   "reportAnonSend": {
-    "message": "Send report",
+    "message": "Skicka rapport",
     "description": "Button to send the report"
   },
   "reportAnonCancel": {
-    "message": "Cancel",
+    "message": "Avbryt",
     "description": "Button to cCancel the report"
   },
   "genericErrorTitle": {
-    "message": "Something went wrong",
+    "message": "Något gick fel",
     "description": "Genereric error title"
   },
   "genericErrorTryAgain": {
-    "message": "Try again later..",
+    "message": "Försök igen senare..",
     "description": "Try again later message"
   },
   "genericErrorBack": {
-    "message": "Back",
+    "message": "Tillbaka",
     "description": "Back button after error"
   },
   "menuLoadingText": {
-    "message": "Loading...",
+    "message": "Laddar...",
     "description": "Loading messsage"
   },
   "generalIssueOption": {
