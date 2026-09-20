@@ -20592,8 +20592,8 @@ const rules = {
   },
   "itcodik.com": { s: "div[class*=z-[9999]] { display: none !important; }" },
 
-  // end of const rules
-};
+    "www.grip500.de": { s: '[data-controller="rgpd toggle"] { display: none !important; }'},
+};// end of const rules
 
 const blockUrls = {
   common: [
