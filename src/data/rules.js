@@ -20591,6 +20591,9 @@ const rules = {
     s: ".pcb { display: none !important; } html, body { overflow: auto !important; }",
   },
   "itcodik.com": { s: "div[class*=z-[9999]] { display: none !important; }" },
+  "www.koncar.hr": {
+    s: ".cookie-bar-outside-wrapper { display: none !important; }",
+  },
 
   // end of const rules
 };
