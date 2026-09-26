@@ -136,11 +136,11 @@
     "description": "The option text for a modal issue"
   },
   "scrollbarIssueDescription": {
-    "message": "Wybierz tę opcję, aby zasygnalizować problem na tej stronie związany z przewijaniem, na przykład \"na tej stronie, nie jest wyświetlany pasek przewijania\".",
+    "message": "Wybierz tę opcję, aby zgłosić problem na tej stronie związany z przewijaniem – np. „na tej stronie nie wyświetla się pasek przewijania”.",
     "description": "Explanation of what a scrollbar issue is"
   },
   "modalIssueDescription": {
-    "message": "Wybierz tę opcję, aby zasygnalizować problem na tej stronie związany z oknem modalnym - na przykład \"wyskakujące okienko blokuje interakcję\".",
+    "message": "Wybierz tę opcję, aby zgłosić problem na tej stronie związany z oknem modalnym – np. „wyskakujące okienko blokuje interakcję”.",
     "description": "Explanation of what a modal issue is"
   }
 }

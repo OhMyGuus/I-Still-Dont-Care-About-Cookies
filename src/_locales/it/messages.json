@@ -22,7 +22,7 @@
     "description": "Tells the user it cannot report a whitelisted domain."
   },
   "reportConfirm": {
-    "message": "Vuoi segnalare i cookies di $HOSTNAME$?",
+    "message": "Desideri segnalare un avviso sui cookie su $HOSTNAME$?",
     "description": "Ask for confirmation before reporting a website. Don't use quotes here.",
     "placeholders": {
       "hostname": {
@@ -76,7 +76,7 @@
     "description": "Option text for enabling the status indicator"
   },
   "optionsButton": {
-    "message": "Salva",
+    "message": "Salva le impostazioni",
     "description": "Options text for SAVE button."
   },
   "reportGithub": {
@@ -96,11 +96,11 @@
     "description": "Notes for the report"
   },
   "reportNotesPlaceholder": {
-    "message": "Cose come:\nriproduzione video non funzionante\nscrollbar rotta\noverlay grigio",
+    "message": "",
     "description": "Placeholder for the notes (\n) is a new line & keep it 4 lines"
   },
   "reportAnonSend": {
-    "message": "Invia report",
+    "message": "Invia una segnalazione",
     "description": "Button to send the report"
   },
   "reportAnonCancel": {
@@ -124,15 +124,15 @@
     "description": "Loading messsage"
   },
   "generalIssueOption": {
-    "message": "General issue (requires notes)",
+    "message": "Problema generico (richiede note)",
     "description": "The option text for a general issue"
   },
   "scrollbarIssueOption": {
-    "message": "Scrollbar related",
+    "message": "Relativo alla barra di scorrimento",
     "description": "The option text for a scrollbar issue"
   },
   "modalIssueOption": {
-    "message": "Modal related",
+    "message": "Relativo alla modalità",
     "description": "The option text for a modal issue"
   },
   "scrollbarIssueDescription": {
@@ -140,7 +140,7 @@
     "description": "Explanation of what a scrollbar issue is"
   },
   "modalIssueDescription": {
-    "message": "Select this option to signify an issue on this page related to a modal - like 'there is a pop-up box blocking interaction'.",
+    "message": "Seleziona questa opzione per segnalare un problema in questa pagina correlato a una finestra, ad esempio \"c'è una finestra pop-up che blocca l'interazione\".",
     "description": "Explanation of what a modal issue is"
   }
 }
