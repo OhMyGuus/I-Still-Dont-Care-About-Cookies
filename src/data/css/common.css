@@ -14343,3 +14343,6 @@ moonback-cookie-banner {
 #tarteaucitronAlertBig {
     display: none !important;
 }
+#onetrust-consent-sdk {
+    display: none !important;
+}
