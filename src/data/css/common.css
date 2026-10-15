@@ -14346,3 +14346,7 @@ moonback-cookie-banner {
 #onetrust-consent-sdk {
     display: none !important;
 }
+#popmechanic-snippet,
+[class*="popmechanic-"] {
+    display: none !important;
+}
