@@ -14339,3 +14339,7 @@ moonback-cookie-banner {
   width: 0 !important;
   overflow: hidden !important;
 }
+#tarteaucitronRoot,
+#tarteaucitronAlertBig {
+    display: none !important;
+}
