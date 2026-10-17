@@ -6132,6 +6132,7 @@ const rules = {
   "abczdrowie.pl": { j: "5" },
   "disneyplus.com": { s: "#webAppFooter ~ div{display:none !important}" },
   "paradoxplaza.com": { j: "5" },
+  "paradoxinteractive.com": { j: "5" },
   "verkeerplaza.nl": { c: 6 },
   "lovense.com": { s: ".u-cookie{display:none !important}" },
   "stellarium-web.org": { s: ".v-snack{display:none !important}" },

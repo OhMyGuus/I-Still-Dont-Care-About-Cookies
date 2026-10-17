@@ -6712,6 +6712,7 @@ function getSelector(host) {
     case "skip-me.top":
       return _sl('.sweet-alert[style*="block"] .got-cookie');
     case "paradoxplaza.com":
+    case "paradoxinteractive.com":
       return _sl(
         "#cookies-info:not(.cookie-info-disabled) .accept-cookie-policy"
       );
