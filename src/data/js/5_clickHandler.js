@@ -3523,6 +3523,8 @@ function getSelector(host) {
       );
     case "leboncoin.info":
       return ".modal.active .cookie-consent .negative";
+    case "leboncoin.fr":
+      return '[role="dialog"] button[data-qa-id="didomi_cta_continue_without_consent"]';
     case "etsy.com":
       return _chain(
         "#gdpr-single-choice-overlay.wt-overlay--will-animate button[data-gdpr-open-full-settings]",
